@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Genmab's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Genmab's 2020 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Genmab's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_SR.pdf | Page 9
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2016 9
+
+Evidence 2
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_AR.pdf | Page 45
+
+Text:
+Read more CSR reports: http://ir.genmab.com/csr.cfm#tab3 Gender policy: http://ir.genmab.com/csr.cfm#tab2 Target figure for women in the Board of Directors: www.genmab.com/about-us/board-of-directors/target-figure Genmab’s commitment to CSR is anchored in our company’s core purpose and our vision, which inspires and motivates us to find new ways to improve healthcare and quality of life for patients and their families. We are committed to creating differentiated antibody products that have the potential to provide new treatment options to patients with life threatening and debilitating diseases. We believe we have a responsibility to ensure our actions not only benefit our main
+
+Evidence 3
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_AR.pdf | Page 106
+
+Text:
+Share-Based Compensation Incentivize members of the Board of Directors over the longer term aligned to strategy and creation of shareholder value Linked to Genmab’s financial and strategic priorities as an incentive to increase the future value of the company but also in recognition of past contributions and accomplishments
+
+Evidence 4
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_SR.pdf | Page 14
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2019 14
+
+Evidence 5
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_AR.pdf | Page 127
+
+Text:
+Please refer to note 4.6 for additional information regarding change of control clauses related to share-based instruments granted to the Executive Management and employees. Accounting Policies Contingent Assets And Liabilities Contingent assets and liabilities are assets and liabilities that arose from past events but whose existence will only be confirmed by the occurrence or non-occurrence of future events that are beyond Genmab’s control.
+
+Evidence 6
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_SR.pdf | Page 12
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2018 12
+
+Evidence 7
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_AR.pdf | Page 81
+
+Text:
+Genmab reclassifies debt investments when and only when its business model for managing those assets changes. IFRS 15 will not have an impact on revenue recognition for sales-based royalties and commercial sales-based milestone payments and they will continue to be recognized in the period to which the sales relate based on estimates provided by collaboration partners.
+
+Evidence 8
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_AR.pdf | Page 36
+
+Text:
+July Genmab entered into a research collaboration and exclusive license agreement with Immatics Biotechnologies GmbH (Immatics) to discover and develop next-generation bispecific immunotherapies to target multiple cancer indications. Genmab received an exclusive license to three proprietary targets from Immatics, with an option to license up to two additional targets at predetermined economics. The companies will conduct joint research, funded by Genmab, on multiple antibody and/or T-cell receptor-based bispecific therapeutic product concepts. Genmab may elect to progress any result-
+
+Evidence 9
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_AR.pdf | Page 58
+
+Text:
+Genmab publishes its statutory report on CSR for the financial year 2019 cf. Section 99 a of the Danish Financial Statements Act on the company’s website, including additional information about policies, progress made during 2019 and expected activities for 2020. Genmab has adopted a target figure for women in the Board of Directors and a policy regarding the proportion of gender in other management levels of the Genmab group. Both of these goals have been met with equitable gender representation in the Board of Directors and with women holding 52% of all director level and above positions. In accordance with section 99 b of the Danish Financial Statements Act, Genmab discloses the target figure, the policy and current performance in its statutory report on CSR for the financial year 2019. The statutory report on CSR can be found at https://ir.genmab.com/corporate-social-responsibility.
+
+Evidence 10
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_AR.pdf | Page 113
+
+Text:
+For assets measured at fair value, gains and losses will either be recorded in profit or loss or other comprehensive income. Genmab reclassifies debt investments when and only when its business model for managing those assets changes. Fair Value Measurement Marketable Securities All fair market values are determined by reference to external sources using unadjusted quoted prices in established markets for our marketable securities (Level 1).
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2019, page 7, table. Table row: Company = Genmab K.K.; unnamed_column_3 = -; unnamed_column_6 = 0.0%; unnamed_column_9 = 1.0; unnamed_column_12 = 0.0%. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2019, page 7, table. Table row: Company = Genmab B.V.; unnamed_column_3 = 171.4; unnamed_column_6 = 3.2%; unnamed_column_9 = 236.7; unnamed_column_12 = 3.9%. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_AR.pdf | Page 18
+
+Text:
+Company: Genmab. Source: annual report 2016, page 18, table. Table row: unnamed_column_0 = Announced. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_AR.pdf | Page 18
+
+Text:
+Company: Genmab. Source: annual report 2016, page 18, table. Table row: unnamed_column_0 = Announced. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_1 = Genmab A/S; 2018 = 96.3; unnamed_column_7 = 1.7%; 2019 = 136.1; unnamed_column_13 = 1.2%. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_1 = Genmab Group; 2018 = 312.5; unnamed_column_7 = 2.6%; 2019 = 471.4; unnamed_column_13 = 2.5%. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_1 = Genmab U.S., Inc.; 2018 = 44.8; unnamed_column_7 = 2.2%; 2019 = 97.6; unnamed_column_13 = 0.7%. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2017_AR.pdf | Page 11
+
+Text:
+Company: Genmab. Source: annual report 2017, page 11, table. Table row: unnamed_column_6 = 102. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_AR.pdf | Page 10
+
+Text:
+Company: Genmab. Source: annual report 2016, page 10, table. Table row: unnamed_column_0 = 89%; unnamed_column_2 = 89%. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_AR.pdf | Page 14
+
+Text:
+Company: Genmab. Source: annual report 2019, page 14, table. Table row: 214 = 1,43.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Genmab. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2018-01-01.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Genmab. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 82211.43354107399 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Net revenue at material transition risk. Value: 784972192.62 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Genmab. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Net revenue other than used to calculate GHG intensity. Value: 1545315605.101 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Genmab. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Net revenue at material transition risk. Value: 479162.37765 USD.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2019-01-01.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Genmab. Reporting year: 2016. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2016-07-03.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Genmab. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Assets. Value: 3231392329.0130005 USD.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Genmab. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Net revenue used to calculate GHG intensity. Value: 1545315605.101 USD.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Genmab. Reporting year: 2017. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2018-01-01.

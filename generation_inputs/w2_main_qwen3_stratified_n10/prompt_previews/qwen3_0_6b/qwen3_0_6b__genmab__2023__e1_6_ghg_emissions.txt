@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Genmab's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Genmab's 2023 reporting year, addressing E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Genmab's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 75
+
+Text:
+Genmab reports on Scope 1 and 2 GHG emissions in line with the GHG Protocol. Metrics and Targets Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process.
+
+Evidence 2
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2022_AR.pdf | Page 48
+
+Text:
+Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process. Genmab reports on Scope 1 and 2 GHG emissions in line with the GHG Protocol. Metrics and Targets
+
+Evidence 3
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2019_SR.pdf | Page 14
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2019 14
+
+Evidence 4
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2022_AR.pdf | Page 48
+
+Text:
+In connection with our intent to commit to and set a climate target, Genmab started the process of measuring our Scope 3 emissions by estimating emissions from selected material Scope 3 categories. This estimation will be foundational in establishing the baseline for our climate ambitions, targets and emissions reductions.
+
+Evidence 5
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2022_AR.pdf | Page 48
+
+Text:
+Genmab will develop metrics related to business continuity and natural disaster recovery. These may include, for instance, suppliers assessed/engaged on climate and climate risk topics, etc. Disclose Scope 1, Scope 2 and, if appropriate, Scope 3 GHG emissions and the related risks. Genmab’s Scope 1 and 2 emissions totaled 393.8 tonnes CO2e in 2022. Emissions reductions will contribute to the mitigation of the transition risk of carbon taxes, pricing and tariffs.
+
+Evidence 6
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 122
+
+Text:
+Number of Number of Number of Number of Weighted average remaining contractual Weighted average remaining contractual Exercise price DKK Grant Date warrants outstanding life (in years) warrants exercisable Exercise price DKK Grant Date warrants outstanding life (in years) warrants exercisable
+
+Evidence 7
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 75
+
+Text:
+Genmab will develop metrics related to business continuity and natural disaster recovery. These may include, for instance, suppliers assessed/engaged on climate and climate risk topics, etc. Disclose Scope 1, Scope 2 and, if appropriate, Scope 3 GHG emissions and the related risks.
+
+Evidence 8
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 75
+
+Text:
+Total Scope 1 emissions (tCO2e) 341.2 Total Scope 2 emissions (tCO2e) 297.5 Total Scope 1 & 2 emissions (tCO2e) 638.7 Electricity Consumption and Renewables 2021 We calculated our Scope 1 and 2 emissions in accordance with the global standard for carbon accounting, the GHG Protocol. This calculation will serve as Genmab’s starting point in establishing the baseline upon which to determine climate ambitions, targets, and emissions reductions. While our Scope 1 and 2 emissions are limited, we also made a first assessment of certain aspects of our Scope 3 emissions. In 2022, we aim to further formalize the total greenhouse gas emissions mapping.
+
+Evidence 9
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 152
+
+Text:
+As part of our audit of the Financial Statements we performed procedures to express an opinion on whether the annual report of Genmab A/S for the financial year January 1 to December 31, 2021 with the file name 529900MTJPDPE4MHJ122-2021-12-31-en.zip is prepared, in all material respects, in compliance with the Commission Delegated Regulation (EU) 2019/815 on the European Single Electronic Format (ESEF Regulation) which includes require ments related to the preparation of the annual report in XHTML format and iXBRL tagging of the Consolidated Financial Statements.
+
+Evidence 10
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2022_AR.pdf | Page 135
+
+Text:
+As part of our audit of the Financial Statements we performed procedures to express an opinion on whether the annual report of Genmab A/S for the financial year January 1 to December 31, 2022 with the file name 529900MTJPDPE4MHJ122-2022-12-31-en. zip is prepared, in all material respects, in compliance with the Commission Delegated Regulation (EU) 2019/815 on the European Single Electronic Format (ESEF Regulation) which includes requirements related to the preparation of the annual report in XHTML format and iXBRL tagging of the Consolidated Financial Statements including notes.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_0 = 193. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_4 = 39. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_3 = 220. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_1 = 337. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 40
+
+Text:
+Company: Genmab. Source: annual report 2021, page 40, table. Table row: unnamed_column_2 = Table of Contents. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 12
+
+Text:
+Company: Genmab. Source: annual report 2021, page 12, table. Table row: unnamed_column_2 = Table of Contents. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 14
+
+Text:
+Company: Genmab. Source: annual report 2021, page 14, table. Table row: unnamed_column_2 = Table of Contents. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 49
+
+Text:
+Company: Genmab. Source: annual report 2021, page 49, table. Table row: unnamed_column_1 = Table of Contents. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 17
+
+Text:
+Company: Genmab. Source: annual report 2021, page 17, table. Table row: unnamed_column_0 = 874. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 28
+
+Text:
+Company: Genmab. Source: annual report 2021, page 28, table. Table row: unnamed_column_1 = Table of Contents. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 147327.0 tCO2e.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 238.0 tCO2e.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions. Value: 147327.0 tCO2e.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Own operations. Value: 147327.0 tCO2e.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 1 greenhouse gas emissions Consolidated accounting group (financial control). Value: 317.0 tCO2e.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross market-based Scope 2 greenhouse gas emissions. Value: 238.0 tCO2e.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Upstream value chain. Value: 147327.0 tCO2e.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 1 greenhouse gas emissions Other investees excluded from consolidated accounting group / including contractual arrangements (operational control). Value: 317.0 tCO2e.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross location-based Scope 2 greenhouse gas emissions. Value: 238.0 tCO2e.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Genmab. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Downstream value chain. Value: 147327.0 tCO2e.

@@ -1,0 +1,231 @@
+Instruction
+
+You are writing as part of Mercedes-Benz Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Mercedes-Benz Group's 2019 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Mercedes-Benz Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2017_SR.pdf | Page 13
+
+Text:
+Governance: The organization’s governance systems for climate-related risks and opportunities Strategy: The actual and potential impacts of climate-related risks and opportunities on the organization’s businesses, strategy, and ﬁnancial planning Risk Management: The processes used by the organization to identify, assess, and manage climate-related risks
+
+Evidence 2
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2018_SR.pdf | Page 2
+
+Text:
+2018 has shown us that sustainability has many facets: The UN Declaration of Human Rights had its 70th anniversary. At the end of the year, the EU agreed to ban single-use plastic products in order to reduce the large quantities of plastic waste. And at the Katowice Climate Conference, a set of rules was adopted to achieve the international climate targets. We, as the Daimler Group, also stand by our social and environmental responsibilities. We are convinced that this is the only way to achieve long-term business success. That’s why sustainability is an integral part of our corporate strategy and therefore an important aspect of our responsible corporate actions.
+
+Evidence 3
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2018_AR.pdf | Page 211
+
+Text:
+Target The Paris accord on climate protection aims to limit global warming to significantly less than two degrees Celsius compared with the preindustrial level. It requires a significant intensifi cation of measures, in particular more stringent CO2 targets for all countries and sectors. We are in the process of deriving specific targets for all of our business divisions regarding the reduction of our products’ CO2 emissions. These targets refer to the period until 2030 and will be binding on the Daimler Group worldwide.
+
+Evidence 4
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_AR.pdf | Page 119
+
+Text:
+Value upon allocation: Determined annually by the Supervisory Board; for 2015, approximately 1.3 to 1.5 times the base salary. Bandwidth of possible target achievement: 0% to 200%, that is, the plan has an upper limit. It may also be zero.
+
+Evidence 5
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2016_AR.pdf | Page 153
+
+Text:
+Value upon allocation: Determined annually by the Supervisory Board; for 2016, approximately 1.3 to 1.5 times the base salary. Range of possible target achievement: 0 to 200%, that is, the plan has an upper limit. It may also be zero.
+
+Evidence 6
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 106
+
+Text:
+Reduction of absolute CO2 emissions by 13 percent compared to 1990 (time frame of EU climate targets) and an increase by 6 percent compared to 2014. Continued implementation of measures for reducing absolute CO2 emissions in production. *Time frame of EU climate targets
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 7
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 2.1; unnamed_column_2 = 3.0. Table extraction requires manual review.
+
+Evidence 8
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 13.0; unnamed_column_2 = 19.9. Table extraction requires manual review.
+
+Evidence 9
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2018_SR.pdf | Page 54
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2018, page 54, table. Table row: unnamed_column_1 = d figures (as of Janu; unnamed_column_2 = ary 2019). Table extraction requires manual review.
+
+Evidence 10
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 14.0. Table extraction requires manual review.
+
+Evidence 11
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 17.7; unnamed_column_2 = 16.7. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 25.5; unnamed_column_2 = 39.8. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 8.3; unnamed_column_2 = 7.8. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_2 = 38.0. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2016_SR.pdf | Page 5
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2016, page 5, table. Table row: 9 = 9; 0 (85) = 0 (86); 98 (98 = 94 (92; ) = ). Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 6
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 6, table. Table row: 9 = 9; 3 (90) = 0 (86); 92 (92 = 92 (92; ) = ). Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 17
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2021-01-01.
+
+Evidence 18
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 15671599999.999998 USD.
+
+Evidence 19
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2016-01-01.
+
+Evidence 20
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 3117976000.0 USD.
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2019. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2020-01-01.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 3106880000.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 477203200.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 171616000.0 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1.GOV-3. Indicator: Percentage of remuneration recognised in current period that is linked to climate related considerations ESRS E1 Climate change. Value: 0.0 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2019. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.GOV. Indicator: Percentage of variable remuneration dependent on sustainability-related targets and (or) impacts ESRS E1 Climate change. Value: 40.0 percent.

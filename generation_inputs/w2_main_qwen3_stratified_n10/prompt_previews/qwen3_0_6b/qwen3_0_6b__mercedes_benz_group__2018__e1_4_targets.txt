@@ -1,0 +1,199 @@
+Instruction
+
+You are writing as part of Mercedes-Benz Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Mercedes-Benz Group's 2018 reporting year, addressing E1-4 Climate-related targets, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Mercedes-Benz Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-4 Climate-related targets.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 103
+
+Text:
+Product responsibility Environmentally responsible product development Date Measures Status Page 100% 31 Setting holistic environmental targets for all Mercedes-Benz car development projects Annually until 2020 Assessment and reduction of the environmental effects of the Mercedes-Benz car models over their entire life cycles
+
+Evidence 2
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2017_AR.pdf | Page 143
+
+Text:
+target bonus target achievement EBIT = 100% of +/- target achievement for the base salary Board of Management as a whole 2017 (derived from individual targets) +/- target achievement for the Board of Management as a whole: non-financial targets - non-achievement of individual compliance targets
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 3
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 8.3; unnamed_column_2 = 7.8. Table extraction requires manual review.
+
+Evidence 4
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 2.1; unnamed_column_2 = 3.0. Table extraction requires manual review.
+
+Evidence 5
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_2 = 38.0. Table extraction requires manual review.
+
+Evidence 6
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 13.0; unnamed_column_2 = 19.9. Table extraction requires manual review.
+
+Evidence 7
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 14.0. Table extraction requires manual review.
+
+Evidence 8
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2014_SR.pdf | Page 50
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2014, page 50, table. Table row: unnamed_column_2 = 9.5. Table extraction requires manual review.
+
+Evidence 9
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2014_SR.pdf | Page 50
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2014, page 50, table. Table row: unnamed_column_6 = 8.5; unnamed_column_8 = 8.4; unnamed_column_9 = 8.3. Table extraction requires manual review.
+
+Evidence 10
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2014_SR.pdf | Page 82
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2014, page 82, table. Table row: unnamed_column_1 = in years. Table extraction requires manual review.
+
+Evidence 11
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2014_SR.pdf | Page 50
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2014, page 50, table. Table row: unnamed_column_3 = 9.1; unnamed_column_5 = 9.2. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2015_SR.pdf | Page 30
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2015, page 30, table. Table row: unnamed_column_0 = 17.7; unnamed_column_2 = 16.7. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 13
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions. Value: 50.0 percent.
+
+Evidence 14
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of market-based Scope 2 Greenhouse gas emissions reduction. Value: 56000.0 tCO2e.
+
+Evidence 15
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 100.0 percent.
+
+Evidence 16
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 75.0 percent.
+
+Evidence 17
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 1 Greenhouse gas emissions reduction (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 18
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of market-based Scope 2 Greenhouse gas emissions reduction (as of emissions of base year). Value: 6.0 percent.
+
+Evidence 19
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of location-based Scope 2 Greenhouse gas emissions reduction. Value: 2241.0 tCO2e.
+
+Evidence 20
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of location-based Scope 2 Greenhouse gas emissions reduction. Value: 0.0 tCO2e.
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 25.0 percent.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions. Value: 50.0 percent.

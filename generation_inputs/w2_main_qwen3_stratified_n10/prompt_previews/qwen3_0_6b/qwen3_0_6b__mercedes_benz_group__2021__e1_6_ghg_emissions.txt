@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Mercedes-Benz Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Mercedes-Benz Group's 2021 reporting year, addressing E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Mercedes-Benz Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Pages 38-39
+
+Text:
+Group Research, Sustainability & RD Functions Group Strategy, Communication, External Affairs, Human Resources, Investor Relations, Accounting & Financial Reporting Corporate Responsibility & Integrity Management Feedback and orientation Report on progress coordinates Business units and functions REPORTING | SUSTAINABLE CORPORATE GOVERNANCE 39 DAIMLER SUSTAINABILITY REPORT 2020
+
+Evidence 2
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2018_AR.pdf | Page 127
+
+Text:
+target bonus target achievement EBIT = 100% of +/- target achievement for the base salary Board of Management as a whole 2018 (derived from individual targets) +/- target achievement for the Board of Management as a whole: non-financial targets - non-achievement of individual compliance targets
+
+Evidence 3
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2017_AR.pdf | Page 143
+
+Text:
+target bonus target achievement EBIT = 100% of +/- target achievement for the base salary Board of Management as a whole 2017 (derived from individual targets) +/- target achievement for the Board of Management as a whole: non-financial targets - non-achievement of individual compliance targets
+
+Evidence 4
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_AR.pdf | Page 135
+
+Text:
+B | COMBINED MANAGEMENT REPORT WITH NON-FINANCIAL DECLARATION | Outlook 135
+
+Evidence 5
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_AR.pdf | Page 114
+
+Text:
+target bonus target achievement EBIT = 100% of +/- target achievement for the base salary non-financial targets 2019 +/- target achievement for the transformation targets overall target achievement Primary reference parameter: – comparison of actual EBIT in 2019 with EBIT targeted for 2019. time of payment of annual bonus 2019
+
+Evidence 6
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2017_SR.pdf | Page 3
+
+Text:
+Report proﬁle 97 Reference to online information Mobility Services How we calculate and document our 100 CO2 emissions Mobility concepts and services 44 101 Independent Assurance Report 103 UN Global Compact Reference to a page within this report or to a page of the Daimler Annual Report. The pages of the online Annual Report are linked in so that you can be taken directly to the respective page.
+
+Evidence 7
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Pages 87-88
+
+Text:
+Group Research, Sustainability & RD Functions Group Strategy, Communication, External Affairs, Human Resources, Investor Relations, Accounting & Financial Reporting Integrity Management Feedback and orientation Report on progress coordinates Business units and functions REPORTING | SUSTAINABLE CORPORATE GOVERNANCE 88 DAIMLER SUSTAINABILITY REPORT 2019 How we are managing the Group sustainably
+
+Evidence 8
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2017_SR.pdf | Page 97
+
+Text:
+103 UN Global Compact 105 Imprint and contact GRI Content Index (PDF) In this Sustainability Report we assess the main eﬀects of our business operations in 2017 and present our current Target Program. We make this comprehensive report available as a navigable PDF ﬁle in order to ensure that the information it contains is easy to ﬁnd and use. As a result, topics and information can be directly called up in the same way as they are on a website.
+
+Evidence 9
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Page 195
+
+Text:
+We have performed an independent limited assurance engagement on the indicators energy consumption, CO₂ emissions, water consumption and waste as well as the information on corporate citizenship published in the Sustainability Report (further “Report“) of Daimler AG, Stuttgart (further “Daimler”) for the year from January 1 to December 31, 2019.
+
+Evidence 10
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_AR.pdf | Page 85
+
+Text:
+In order to ensure an independent external assessment of our tCMS, KPMG AG Wirtschaftsprüfungsgesellschaft audited the tCMS with focus on emissions in accordance with the 980 standard of the Institute of Public Auditors in Germany. This audit with focus on emissions was based on the principles of appropriateness, implementation and effectiveness, and was successfully completed at the end of 2020.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 76
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 76, table. Table row: unnamed_column_7 = 2,501. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2018_SR.pdf | Page 54
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2018, page 54, table. Table row: unnamed_column_1 = d figures (as of Janu; unnamed_column_2 = ary 2019). Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 76
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 76, table. Table row: unnamed_column_1 = 1,360 971; unnamed_column_3 = 1,511 644; unnamed_column_5 = 1,533 645; unnamed_column_9 = 1,474 656; unnamed_column_13 = 1,475 694. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 76
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 76, table. Table row: unnamed_column_1 = 8,101 1,360 2,325 971; unnamed_column_3 = 8,441 2,402 1,511 644; unnamed_column_5 = 8,951; unnamed_column_9 = 9,157 2,448 1,474 656. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 104
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 104, table. Table row: unnamed_column_0 = Data responsibility. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Page 118
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2019, page 118, table. Table row: unnamed_column_1 = 1,207 778; unnamed_column_3 = 1,360 971; unnamed_column_5 = 1,912 783; unnamed_column_7 = 2,000 789; unnamed_column_9 = 1,918 809. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Page 164
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2019, page 164, table. Table row: 4.6 = 3.5.
+
+Evidence 18
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Page 155
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2019, page 155, table. Table row: 208 = 42; 5,382 = 1,804.
+
+Evidence 19
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Page 124
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2019, page 124, table. Table row: 28 = 303.
+
+Evidence 20
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_AR.pdf | Page 97
+
+Text:
+Company: Mercedes-Benz Group. Source: annual report 2020, page 97, table. Table row: unnamed_column_2 = 00%. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross market-based Scope 2 greenhouse gas emissions. Value: 447000.0 tCO2e.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Downstream value chain. Value: 1032000.0 tCO2e.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 281002.0 tCO2e.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions. Value: 103200000.0 tCO2e.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 1123000.0 tCO2e.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions Category 6 Business travel. Value: 0.012 tCO2e.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Own operations. Value: 1123000.0 tCO2e.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Own operations. Value: 655000.0 tCO2e.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross location-based Scope 2 greenhouse gas emissions. Value: 1123000.0 tCO2e.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross market-based Scope 2 greenhouse gas emissions CapEx shadow price / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 466000.0 tCO2e.

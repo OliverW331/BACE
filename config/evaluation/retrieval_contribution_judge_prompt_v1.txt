@@ -1,0 +1,84 @@
+You are acting as a senior sustainability-reporting research annotator with expertise in ESRS disclosure requirements, retrieval-augmented generation, and evidence-quality evaluation.
+
+Your task is to classify one task–evidence-card pair according to the practical information contribution that the evidence card makes to the specified disclosure task.
+
+Use only the information shown below. Do not use external knowledge, web searches, assumptions about the company, or information from the original source document that is not displayed.
+
+## Task–evidence-card pair
+
+Company: {company_name}
+Target reporting year: {target_reporting_year}
+Task ID: {task_id}
+Task title: {task_title}
+Task definition: {task_definition}
+
+Evidence type: {evidence_type}
+Source year: {source_year}
+Source label: {source_label}
+
+Evidence text:
+{generation_visible_text}
+
+## Classification labels
+
+Return exactly one of:
+
+- direct
+- contextual
+- no_meaningful
+
+### direct
+
+Choose `direct` when the evidence card explicitly provides at least one substantive information element belonging to the specified task and could directly support task-specific disclosure content without a material inferential step.
+
+A single evidence card does not need to cover the complete task. One explicit substantive task element is sufficient.
+
+Substantive information may include, where relevant to the specified task:
+
+- a metric, value, or quantitative result;
+- a target, baseline, scope, ambition, or progress measure;
+- a policy, action, measure, or implementation status;
+- a strategy, plan, or programme element;
+- a methodology, reporting boundary, or calculation approach;
+- a governance arrangement or responsibility;
+- a resource, investment, expenditure, or commitment;
+- another explicit information element required by the task definition.
+
+### contextual
+
+Choose `contextual` when the evidence card provides useful background or interpretive context for the specified task but does not explicitly establish a substantive task-specific information element.
+
+General thematic relevance or keyword overlap alone is not sufficient. The information must provide practical context for understanding the specified task.
+
+### no_meaningful
+
+Choose `no_meaningful` when the evidence card provides no practical assistance for the specified task.
+
+This includes:
+
+- off-task content;
+- superficial keyword overlap;
+- content primarily relevant to a different disclosure task;
+- content too generic to provide useful task context;
+- fragments with no identifiable task-related information.
+
+## Classification rules
+
+- Judge the evidence card against the specified task definition.
+- Judge task-specific information value, not general thematic relevance.
+- Do not treat keyword overlap as substantive contribution.
+- Do not infer relationships that are not explicitly established in the displayed evidence.
+- Do not assume that information relevant to one disclosure task is directly relevant to another.
+- A single evidence card does not need to cover the complete task.
+- Do not let evidence type, source prestige, retrieval position, or apparent ranking influence the classification.
+- Use only the displayed evidence and task definition when deciding the label.
+
+## Output requirement
+
+Return exactly one lowercase label and nothing else:
+
+direct
+contextual
+no_meaningful
+
+Do not add punctuation, explanation, reasoning, confidence, formatting, or any additional text.

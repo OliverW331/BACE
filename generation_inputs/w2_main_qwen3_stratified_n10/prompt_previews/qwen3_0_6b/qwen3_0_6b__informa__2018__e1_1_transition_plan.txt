@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Informa's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Informa's 2018 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Informa's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2016_AR.pdf | Pages 12-13
+
+Text:
+INFORMA PLC ANNUAL REPORT 2016 www.informa.com THE 2014-2017 GROWTH ACCELERATION PLAN Strategy: to progressively return every part of Informa to growth, and simultaneously build the capabilities and platforms needed for future scale and consistent performance Delivery & implementation: the 2014-2017 Growth Acceleration Plan is a four-year roadmap for delivering this strategy, covering six disciplines
+
+Evidence 2
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2016_AR.pdf | Page 34
+
+Text:
+The priority since has been to analyse where sustainability can better align to the Company’s strategy under the Growth Acceleration Plan, and add value to the business’s roadmap rather than divert resources, as well as considering whether we can create more competitive advantage from our investment in sustainability.
+
+Evidence 3
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2016_AR.pdf | Page 75
+
+Text:
+To this end, the Directors collectively set the strategy for the Group, currently reflected in the 2014–2017 Growth Acceleration Plan, monitor its effectiveness and implementation, ensure the Group has the resources to deliver on this strategy and encourage, support and challenge Informa’s executive
+
+Evidence 4
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_AR.pdf | Page 21
+
+Text:
+Progressively return every part of Informa to growth, and simultaneously build the capabilities and platforms needed for future scale and consistent performance. DELIVERY AND IMPLEMENTATION Data and intelligence products and services • Digital subscriptions and unit sales, consultancy and advertising Informa’s 2014–2017 Growth Acceleration Plan is the roadmap for delivering this strategy and is structured by six key disciplines. 2015 marked its second year, during which time significant progress was made in further implementing the Plan.
+
+Evidence 5
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2017_SR.pdf | Page 9
+
+Text:
+In March 2017, the 80,000-person Natural Products Expo West held its first ever Climate Day – a much-needed platform for participants to discuss how to become more active in the fight against climate change. We’d learned the previous year that the leaders of top natural products companies, and their consumers, were concerned about climate change but didn’t know what to do about it. We could see the industry needed a roadmap that pointed people towards concrete actions that would make a difference. There was a strong desire for more concerted action – the natural products industry had decided it was time to act. So New Hope Network hosted this day alongside the brand-new Climate Collaborative – a joint project between a community of natural products CEOs and business leaders (OSC2) and the Sustainable Food Trade Association.
+
+Evidence 6
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2014_AR.pdf | Page 20
+
+Text:
+OUR 2015 ROADMAP I hope to have demonstrated that Informa has emerged from the 2014 transition year with purpose, with performance and with a clear plan for growth. We have made a detailed assessment of our strengths and weaknesses; and we examined the global markets in which we operate to better understand our customers and the opportunities for expansion. This led to our plan for accelerated growth. It is a plan to ensure Informa achieves its full potential and improves returns for shareholders.
+
+Evidence 7
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2017_AR.pdf | Page 14
+
+Text:
+Informa’s management team and Directors use a range of financial and non-financial measures to track the performance of the Group. Other metrics, specific to each business, are used to assess performance at a product and Divisional level. As part of Informa’s recommended offer for UBM, we provided an update on current trading including a target for Group underlying revenue growth of more than 3.5% for 2018. Other 2018 targets will be updated based on the enlarged Group should this offer complete.
+
+Evidence 8
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2017_SR.pdf | Page 9
+
+Text:
+It was heartening to see that, in just six months, the Climate Collaborative had smashed its first-year target of 100 members. So far, companies in the group have made almost 600 commitments to actions like switching to renewable power, reducing climate impacts of packaging, and removing deforestation from supply chains. We’ve committed to making Climate Day a firm feature in every Natural Products Expo West and are pleased to see more and more industry players doing just what the Climate Collaborative urges them to do: Commit. Act. Impact.
+
+Evidence 9
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2014_AR.pdf | Page 162
+
+Text:
+Informa Investment Solutions Inc. US Financial information 100% Informa Business Information Inc. US Intelligence information gathering service 100% Citeline, Inc. US Intelligence information gathering service 100% BTS Informa Feiras, Eventos e Editora Ltda Brazil Events organisation 100% Informa Canada Inc. Canada Events and conference organisation 100%
+
+Evidence 10
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_AR.pdf | Page 167
+
+Text:
+AMIS Global Limited UK Publishing 100% Apps World Events Limited UK Events 100% Informa Finance UK Limited UK Financial management 100% Cityscape Exhibitions Limited UK Events 100% Informa Finance USA Limited UK Financial management 100% STRATEGIC REPORT GOVERNANCE FINANCIAL STATEMENTS
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: TARGETS = Use our insights and editorial reach to advance sustainable development; 2015 = New target for 2016; unnamed_column_4 = Map content against the UN’s Sustainable Development Goals to identify where we progress debate and where there are gaps. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2017_SR.pdf | Page 35
+
+Text:
+Company: Informa. Source: sustainability report 2017, page 35, table. Table row: unnamed_column_0 = Environment; Issue = Our contribution to climate change; Goal = By 2020, we’ll have cut our carbon footprint by another 10% per head and at least five of our top 10 offices will have invested in energy efficiency measures. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: TARGETS = Run increasingly sustainable exhibitions; 2015 = New for 2016; unnamed_column_3 = Developed the Informa Sustainable Exhibitions Ladder; unnamed_column_4 = Roll out the Sustainable Exhibitions Ladder. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: TARGETS = Grow the value of our in- kind community investment through innovative partnerships making good use of our resources; 2015 = New Target for 2016; unnamed_column_4 = Grow the value of our in-kind community investment by 20%. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: TARGETS = Be recognised as a leader in independence of content; 2015 = New target for 2016; unnamed_column_4 = Score 100% in the DJSI for assuring Independence of Content. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2014_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2014, page 8, table. Table row: ACHIEVED = IN PROGRESS.
+
+Evidence 17
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: OUR OBJECTIVES = Reduce our environmental impacts and create innovative ways to manage our key impacts; TARGETS = Understand and manage our digital environmental impacts; 2015 = Join Media CSR Forum working group looking at industry digital impacts; unnamed_column_3 = Completed; unnamed_column_4 = Engage with key suppliers in our digital value chain to understand our wider GHG impacts. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: TARGETS = Maximise the socioeconomic footprint of our major events; 2015 = Develop a guidance template for our events business on how to maximise positive community impacts; unnamed_column_3 = Completed as part of the Sustainable Exhibitions Ladder. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: TARGETS = Increase the number of articles published under Open Access schemes; 2015 = 100% increase; unnamed_column_3 = Increased by 106%; unnamed_column_4 = Increase by a further 50%. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2016_SR.pdf | Page 16
+
+Text:
+Company: Informa. Source: sustainability report 2016, page 16, table. Table row: OPEN ACCESS = ACCESS FOR DEVELOPING WORLD RESEARCHERS; unnamed_column_1 = REACH. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Informa. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 79376220.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Informa. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2015-01-01.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Informa. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 115388000.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Informa. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 137556000.0 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Informa. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2017-01-01.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Informa. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 101830999.99999999 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Informa. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 67775000.0 USD.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Informa. Reporting year: 2018. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2018-01-01.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Informa. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Adjusting items to net revenue at material transition risk, in reconciliation with financial statement. Value: 492961070.0 USD.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Informa. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Revenue from business activities at material transition risk. Value: 292916960.0 USD.

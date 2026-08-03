@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Caches and generated experiment artifacts
+.cache/
+_archive/
+data/
+evidence_pilot/
+generation_outputs/
+logs/
+
+# OS and editor files
+.DS_Store
+.vscode/

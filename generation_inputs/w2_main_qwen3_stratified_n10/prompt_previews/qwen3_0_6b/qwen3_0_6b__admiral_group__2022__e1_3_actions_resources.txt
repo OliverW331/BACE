@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Admiral Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Admiral Group's 2022 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Admiral Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_SR.pdf | Page 39
+
+Text:
+Policies Designed to Incentivise Responsible Behaviour FN-IN-410b.1 We do not disclose a separate identification of premiums related to energy efficiency and low carbon technology. Net premiums written related to energy efficiency and low carbon technology Discussion of products and/or product features that incentivise health, safety, and/or environmentally responsible actions and/or behaviours
+
+Evidence 2
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 206
+
+Text:
+Greenhouse gas emissions, energy consumption and energy efficiency action The Directors have proposed a final dividend of £347 million (118.0 pence per share). Subject to shareholders’ approval at the 2022 Annual General Meeting (AGM), the final dividend will be paid on 6 June 2022 to shareholders on the register at the close of business on 6 May 2022.
+
+Evidence 3
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_SR.pdf | Page 41
+
+Text:
+y Requested our external asset managers to favour green bonds when they offer a similar financial profile to other options Quick Fact y Carbon Emissions Intensity (aggregate emissions financed for every million dollars invested in the companies) below predetermined benchmark
+
+Evidence 4
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 117
+
+Text:
+2040 Net Zero • Science based target verified by the Science Based Target initiative. • Move to fully renewable resources/green energy to our global businesses.* * Note: all electricity purchased in the UK originates from 100% green sources. • Science Based Target 30% Reduction. • Commitment to 50% reduction on validated 2019 data.
+
+Evidence 5
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 117
+
+Text:
+Our Scope 3 emission account for business travel, waste and water. We quantify and report our organisational GHG emissions in alignment with the World Resources The GHG sources that constituted our operational boundary for the year are: Scope 1: Scope 2:
+
+Evidence 6
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Pages 159-160
+
+Text:
+Board composition and succession planning Board diversity Balance of skills knowledge and experience Board composition and succession planning Non-Executive tenure & independence Annual Board evaluation & individual Director appraisals Time commitment and external appointments 158 Admiral Group plc Annual Report and Accounts 2021
+
+Evidence 7
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 151
+
+Text:
+Category What was considered Weighting 25% Conduct Risk Management Information (CRMI) metrics 11 different metrics covering claim settlement times, complaint volumes, complaint handling times, and % of fair customer outcomes identified through monitoring in respect of the UK Insurance business. Customer feedback Admiral business benchmarking survey outcome in respect of the UK Insurance business. 25%
+
+Evidence 8
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 177
+
+Text:
+• Received regular updates on climate change-related initiatives, including enhancements to governance structures and risk frameworks, and challenged recommendations for Group net zero greenhouse gas emission targets. • Received regular risk monitoring reports on performance of Key Risk Indicators within the overall risk management framework.
+
+Evidence 9
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 116
+
+Text:
+• Complete energy data for the whole group so that verified data isn’t based on assumptions: • 2022–23 Continue to engage with Carbon Trust in verifying the data and expand into Scope 3. • New emissions reporting – tracking progress towards target. • Identify carbon heavy and/or identifying assets and their life cycle for replacement.
+
+Evidence 10
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 99
+
+Text:
+In 2019 the Group set up a Climate Change-Related Risks Project (discussed elsewhere in the Annual Report) in order to: (1) understand current and potential future risks and opportunities arising from climate-related change; (2) understand disclosure and reporting requirements; and (3) determine how to incorporate climate-related risks into BAU risk management. Climate change-related risks can broadly be categorised as physical risks, such as increasingly severe weather events which arise from changes in the climate, and transition risks which will arise from any move towards a low carbon economy. Admiral is following Task Force on Climate-related Financial Disclosures (TCFD) recommendations in identifying, managing, reporting and disclosing climate change-related risks.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 51
+
+Text:
+Company: Admiral Group. Source: annual report 2021, page 51, table. Table row: unnamed_column_2 = c Executive; Impact of operatio on climate change = hange. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_SR.pdf | Page 31
+
+Text:
+Company: Admiral Group. Source: sustainability report 2021, page 31, table. Table row: FY2021 = 0.4; unnamed_column_1 = 0.4; unnamed_column_2 = 0.4. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 146
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 146, table. Table row: unnamed_column_0 = 68%. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_SR.pdf | Page 31
+
+Text:
+Company: Admiral Group. Source: sustainability report 2021, page 31, table. Table row: FY2021 = 25; unnamed_column_1 = 1,332; unnamed_column_2 = 1,357. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_SR.pdf | Page 31
+
+Text:
+Company: Admiral Group. Source: sustainability report 2021, page 31, table. Table row: FY2021 = UK; unnamed_column_1 = Rest of world; unnamed_column_2 = Total. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_SR.pdf | Page 31
+
+Text:
+Company: Admiral Group. Source: sustainability report 2021, page 31, table. Table row: FY2021 = UK; unnamed_column_1 = Rest of world; unnamed_column_2 = Total. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_SR.pdf | Page 31
+
+Text:
+Company: Admiral Group. Source: sustainability report 2021, page 31, table. Table row: FY2021 = 8,325; unnamed_column_1 = 4,606; unnamed_column_2 = 12,931. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 51
+
+Text:
+Company: Admiral Group. Source: annual report 2021, page 51, table. Table row: unnamed_column_0 = and housin; unnamed_column_1 = g F i; unnamed_column_2 = External e inancial to fight cl nclusion; Impact of operatio on climate change = in fforts imate; ns = clusion* S a m; Fair affordab = mart, green nd safe obility; and le price = Eco-friendly products. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 146
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 146, table. Table row: unnamed_column_7 = 76%. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 190
+
+Text:
+Company: Admiral Group. Source: annual report 2021, page 190, table. Table row: unnamed_column_7 = 66%. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions Category 3 Fuel and energy-related activities. Value: 990.0 tCO2e.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 50.0 percent.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions. Value: 63.0 percent.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 63.0 percent.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 50.0 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 3 Greenhouse gas emissions reduction in total Greenhouse gas emissions reduction. Value: 6.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 50.0 percent.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 3 Greenhouse gas emissions reduction. Value: 894.0 tCO2e.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 41.0 percent.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 50.0 percent.

@@ -1,0 +1,255 @@
+Instruction
+
+You are writing as part of Admiral Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Admiral Group's 2020 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Admiral Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 99
+
+Text:
+In 2019 the Group set up a Climate Change-Related Risks Project (discussed elsewhere in the Annual Report) in order to: (1) understand current and potential future risks and opportunities arising from climate-related change; (2) understand disclosure and reporting requirements; and (3) determine how to incorporate climate-related risks into BAU risk management. Climate change-related risks can broadly be categorised as physical risks, such as increasingly severe weather events which arise from changes in the climate, and transition risks which will arise from any move towards a low carbon economy. Admiral is following Task Force on Climate-related Financial Disclosures (TCFD) recommendations in identifying, managing, reporting and disclosing climate change-related risks.
+
+Evidence 2
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_SR.pdf | Page 29
+
+Text:
+yy Complying with the requirement to report annual levels of greenhouse gas (GHG) emissions in line with guidance provided by the Department for Environment, Food and Rural Affairs (DEFRA) in partnership with the Department for Energy and Climate Change (DECC);
+
+Evidence 3
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 38
+
+Text:
+In 2019, a Climate Change-Related Risks Project was initiated by the Board, to understand current and potential future risks arising from climate-related change, to understand disclosure and reporting requirements (as compared to current practices), and to ensure that there is appropriate governance around managing climate-related risks.
+
+Evidence 4
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 19
+
+Text:
+Operational scopes – calculation approach, conversion tools and emission factors The carbon emissions linked to the activities listed above have been determined on the basis of measured or estimated energy and fuel use, multiplied by relevant carbon conversion factors. The large majority of our fuel and energy consumption is based on actual mileage data, purchase invoices and information supplied by the managing agents of our leased buildings. However it has been necessary to make estimations in some circumstances, where this form of evidence has not been available. In particular we have made estimations when monthly invoices have not been available for the full reporting period. Where this was the case, an average of available invoices was applied to the months for which invoices were unavailable. This process of estimation represents less than 10% of data.
+
+Evidence 5
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2017_SR.pdf | Page 21
+
+Text:
+Operational scopes – calculation approach, conversion tools and emission factors The carbon emissions linked to the activities listed above have been determined on the basis of measured or estimated energy and fuel use, multiplied by relevant carbon conversion factors. The large majority of our fuel and energy consumption is based on actual mileage data, purchase invoices and information supplied by the managing agents of our leased buildings. However it has been necessary to make estimations in some circumstances, where this form of evidence has not been available. In particular, we have made estimations when monthly invoices have not been available for the full reporting period. Where this was the case, an average of available invoices was applied to the months for which invoices were unavailable. This process of estimation represents less than 10% of data.
+
+Evidence 6
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_AR.pdf | Page 43
+
+Text:
+USA In 2018 Elephant shifted our book towards higher tiered customers, delivering stronger growth, persistency, and operational efficiency. essential tasks online, including making payments, changing coverage, and reporting a claim. The better digital journey has increased our operational efficiency, as fewer customers are forced to call in for sales, service or claims help. It has also improved customer satisfaction levels as policyholders can more quickly and effortlessly access information and make changes to their policy.
+
+Evidence 7
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 19
+
+Text:
+Operational scopes All Scope 1 (direct GHG emissions), Scope 2 (indirect GHG emissions) and significant Scope 3 emissions have been reported for operations within the organisational boundary, with the exception of exclusions listed below. Where appropriate, emissions from multi-occupancy offices are determined on the basis of the recharge statement provided to the Group by the relevant managing agents.
+
+Evidence 8
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_AR.pdf | Pages 61-62
+
+Text:
+of funding matched in 2018 59 Admiral Group plc · Annual Report and Accounts 2018 Strategic Report Commitments, Achievements, Targets 2018/19 Greenhouse gas emissions, waste creation, and energy consumption all go hand in hand. As individuals and organisations, we must aim to reverse our negative effects on the planet, the land, the sea, the air. Overall, we aim to play a responsible role as a business and encourage all our staff to do the same. More specifically we approach each area in the following ways:
+
+Evidence 9
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 128
+
+Text:
+Contractual arrangements Detailed information on the Group’s environmental performance and the methodology for the measurement of greenhouse gas emissions is available on the corporate website, www.admiralgroup. co.uk. At 31 January 2020, the Company had received notifications in accordance with the FCA’s DTRs of the following notifiable interests in the voting rights in the Company’s issued share capital:
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 10
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 156
+
+Text:
+Company: Admiral Group. Source: annual report 2019, page 156, table. Table row: unnamed_column_5 = (94.2). Table extraction requires manual review.
+
+Evidence 11
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 156
+
+Text:
+Company: Admiral Group. Source: annual report 2019, page 156, table. Table row: unnamed_column_5 = (11.4). Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 156
+
+Text:
+Company: Admiral Group. Source: annual report 2019, page 156, table. Table row: unnamed_column_5 = (76.6). Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_AR.pdf | Page 135
+
+Text:
+Company: Admiral Group. Source: annual report 2018, page 135, table. Table row: unnamed_column_5 = (11.3). Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2016, page 17, table. Table row: unnamed_column_0 = Significant Scope 3. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2017_SR.pdf | Page 18
+
+Text:
+Company: Admiral Group. Source: sustainability report 2017, page 18, table. Table row: unnamed_column_0 = Significant Scope 3. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2016, page 17, table. Table row: unnamed_column_0 = Scope 2. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2016, page 17, table. Table row: unnamed_column_0 = Scope 1. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_AR.pdf | Page 135
+
+Text:
+Company: Admiral Group. Source: annual report 2018, page 135, table. Table row: unnamed_column_5 = (64.2). Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 156
+
+Text:
+Company: Admiral Group. Source: annual report 2019, page 156, table. Table row: unnamed_column_5 = 6.2. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 20
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 3 Greenhouse gas emissions reduction. Value: 1385.0 tCO2e.
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 3 Greenhouse gas emissions reduction (as of emissions of base year). Value: 72.0 percent.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-5. Indicator: Revenue from activities other than in high climate impact sectors. Value: 563449680.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 3 Greenhouse gas emissions reduction in total Greenhouse gas emissions reduction. Value: 77.2 percent.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 45.5 percent.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 1 Greenhouse gas emissions reduction in total Greenhouse gas emissions reduction. Value: 3.9 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 530.0 tCO2e.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-5. Indicator: Percentage of renewable sources in total energy consumption. Value: 100.0 percent.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2020-01-01.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Admiral Group. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions. Value: 530.0 tCO2e.

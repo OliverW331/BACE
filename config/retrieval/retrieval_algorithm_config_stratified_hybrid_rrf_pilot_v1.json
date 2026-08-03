@@ -1,0 +1,96 @@
+{
+  "schema_version": "retrieval_algorithm_config_v2",
+  "config_version": "retrieval_algorithm_config_stratified_hybrid_rrf_pilot_v1",
+  "status": "candidate_for_retrieval_sanity_check",
+  "freeze_date": "2026-06-30",
+  "retrieval_algorithm_key": "evidence_type_stratified_hybrid_rrf",
+  "candidate_pool_source": "package_manifest",
+  "hard_filters": {
+    "company_id": "required_before_ranking",
+    "source_year_window": "from_package_manifest_required_before_ranking",
+    "eligible_evidence_types": "required_before_ranking"
+  },
+  "eligible_evidence_types": [
+    "csv_metric",
+    "pdf_table_row",
+    "narrative"
+  ],
+  "bm25": {
+    "enabled": true,
+    "tokenization": "lowercase_word_tokenization_v1",
+    "top_n_per_subquery": 50,
+    "score_logging": true
+  },
+  "dense": {
+    "enabled": true,
+    "embedding_model_key": "qwen3-0.6b",
+    "model_name_or_path": "Qwen/Qwen3-Embedding-0.6B",
+    "query_prefix": "",
+    "document_prefix": "",
+    "top_n_per_subquery": 50,
+    "similarity": "cosine",
+    "normalize_query_embedding": true,
+    "normalize_corpus_embeddings": true,
+    "embedding_matrix_path": "",
+    "id_mapping_path": "",
+    "score_logging": true
+  },
+  "fusion": {
+    "method": "reciprocal_rank_fusion",
+    "rrf_k": 60,
+    "subquery_fusion": "rrf",
+    "channel_fusion": "rrf",
+    "tie_breaking_order": [
+      "rrf_score_desc",
+      "best_individual_rank_asc",
+      "source_year_desc",
+      "evidence_id_asc"
+    ]
+  },
+  "stratified": {
+    "enabled": true,
+    "reason": "CSV metric, PDF table-row, and PDF narrative cards differ in structure, length, and metadata density, so a single global top-k ranking can systematically favor template-rich structured cards.",
+    "evidence_block_order": [
+      "narrative",
+      "pdf_table_row",
+      "csv_metric"
+    ],
+    "per_evidence_type_top_n_values_for_sanity_check": [
+      5,
+      10,
+      15
+    ],
+    "main_generation_per_evidence_type_top_n": 10,
+    "max_main_generation_cards": 30,
+    "prompt_label_format": "Evidence {number}",
+    "label_role": "prompt-local display label only; not an ESRS reference, not evidence_id, not an annotation label, and not a required output citation",
+    "citation_required": false,
+    "deficit_redistribution": false,
+    "task_specific_quota_used": false
+  },
+  "diagnostic_conditions": [
+    "hybrid_rrf",
+    "evidence_type_stratified_hybrid_rrf"
+  ],
+  "final": {
+    "sanity_check_setting_name": "per_evidence_type_top_n",
+    "per_evidence_type_top_n_values_for_sanity_check": [
+      5,
+      10,
+      15
+    ],
+    "main_generation_per_evidence_type_top_n": 10,
+    "main_generation_max_cards": 30,
+    "top_n_freeze_rule": "Use per_evidence_type_top_n=10 for pilot generation input construction if sanity checks confirm evidence coverage and review-table quality. Record sensitivity at 5 and 15."
+  },
+  "reranker": {
+    "enabled": false,
+    "reranker_key": null,
+    "role": "excluded_from_main_pilot; may be evaluated later only as optional robustness condition"
+  },
+  "evidence_type_coverage": {
+    "log_coverage": true,
+    "fallback_enabled": false,
+    "fallback_policy": "Do not manually replace missing evidence-type results. Log missing or low-count strata as retrieval diagnostic metadata."
+  }
+}

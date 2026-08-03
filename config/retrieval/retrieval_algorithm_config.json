@@ -1,0 +1,42 @@
+{
+  "schema_version": "retrieval_algorithm_config_v1",
+  "retrieval_algorithm_key": "hybrid_rrf",
+  "candidate_pool_source": "package_manifest",
+  "eligible_evidence_types": ["csv_metric", "pdf_table_row", "narrative"],
+  "bm25": {
+    "enabled": true,
+    "tokenization": "lowercase_word_tokenization_v1",
+    "top_n_per_subquery": 50
+  },
+  "dense": {
+    "enabled": true,
+    "embedding_model_key": "qwen3_embedding_0_6b",
+    "model_name_or_path": "Qwen/Qwen3-Embedding-0.6B",
+    "query_prefix": "",
+    "top_n_per_subquery": 50,
+    "similarity": "cosine",
+    "normalize_query_embedding": true,
+    "normalize_corpus_embeddings": false,
+    "embedding_matrix_path": "",
+    "id_mapping_path": ""
+  },
+  "fusion": {
+    "method": "reciprocal_rank_fusion",
+    "rrf_k": 60,
+    "subquery_fusion": "rrf",
+    "channel_fusion": "rrf"
+  },
+  "diagnostic_conditions": ["bm25_only", "dense_only", "hybrid_rrf"],
+  "final": {
+    "top_k_values_for_sanity_check": [5, 10, 15],
+    "default_top_k_candidate": 10
+  },
+  "reranker": {
+    "enabled": false,
+    "reranker_key": null
+  },
+  "evidence_type_coverage": {
+    "log_coverage": true,
+    "fallback_enabled": false
+  }
+}

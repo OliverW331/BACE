@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Evonik Industries's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Evonik Industries's 2020 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Evonik Industries's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_SR.pdf | Page 66
+
+Text:
+New environmental targets Evonik’s present environmental targets are for the period until 2020 and the target reduction in specific greenhouse gases will be achieved before then. Therefore, we defined new environmental targets in the reporting period. We are aiming for an absolute reduction in scope 1 and 2 emissions of 50 percent by 2025, compared with the level in 2008 (status of implementation in 2018: 30 percent). This affirms Evonik’s commitment to the Paris Agreement on Climate Change. The relatively short period up to 2025 reflects our view that it is not currently possible to predict technological and regulatory developments beyond this date with sufficient certainty. We are continuing to pursue our goal of a group-wide reduction in specific water intake, but we are replacing the central indicator by introducing a global water management system and driving forward the related site-specific action plans.
+
+Evidence 2
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_AR.pdf | Page 48
+
+Text:
+Evonik’s present environmental targets end in 2020. We therefore defined new environmental targets in the reporting period. We are aiming for a 50 percent reduction in absolute scope 1 and 2 emissions by 2025, compared with the level in 2008 (status of implementation in 2018: 30 percent). That affirms our commitment to the Paris Agreement on Climate Change. The relatively short target period up to 2025 reflects our view that it is not currently possible to predict technological and regulatory developments beyond this period with sufficient certainty. We are continuing to pursue our goal of a group-wide reduction in specific water intake, but we are replacing the central indicator by introducing a global water management system and driving forward the related site-specific action plans.
+
+Evidence 3
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 51
+
+Text:
+New environmental targets for climate protection Since we achieved our target for the reduction in specific greenhouse gas emissions ahead of schedule, the executive board adopted new environmental targets in February 2019. Our target of a 50 percent reduction in absolute scope 1 and 2 emissions 3 by 2025 compared with the level in 2008—the first full year after the establishment of Evonik—affirms our commitment to the Paris Agreement on Climate Change. At present, we assume an average reduction in climate-relevant emissions of 3 percent a year. The relatively short period up to 2025 reflects our view that it is not currently possible to predict technological and regulatory developments beyond this date with sufficient certainty. In addition to this, we intend to improve upstream scope 3 emissions by 3 percent a year.
+
+Evidence 4
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 182
+
+Text:
+Strategy p. 15 f., chapter 5.3 The environment p. 48 ff. Sustainability report, chapter The environment p. 49 2019 CDP Climate Change response: chapter Targets and performance Evonik and its predecessor companies have defined ambitious environmental targets since 2004. As part of their continuous development, the executive board adopted new environmental targets in February 2019. Our target of a 50 percent reduction in absolute scope 1 and 2 emissions by 2025, compared with the level in 2008—the first full year after the establishment of Evonik— affirms our commitment to the Paris Agreement on Climate Change. In addition to this, we intend to improve our scope 3 emissions in the upstream value chain by 3 percent a year. Out of the various categories of scope 3 emissions, the most relevant for Evonik is category 1 (purchase of chemical raw materials, packaging materials, and indirect goods) as it accounts for over 40 percent of our scope 3 emissions.
+
+Evidence 5
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 182
+
+Text:
+Metrics and targets Management report, chapter 1.2 Principles and objectives Management report, chapter 5.3 The environment p. 48 ff. Sustainability report, chapter Strategy and growth p. 10 2019 CDP Climate Change response: chapter Governance http://evonik.com/ CDP-ClimateChange_2019 Climate change is a matter of the utmost importance for the entire executive board. Responsibility for our group-wide sustainability and climate strategy, monitoring, and reporting is assigned to the member of the executive board responsible for human resources, sustainability, and ESHQ (environment, safety, health, and quality). The head of Corporate ESHQ reports regularly to the executive board on climate-related issues. These include environmental indicators, including climate-related performance indicators, as well as targets and target attainment. In addition, the responsible member of the executive board and the heads of Corporate ESHQ and Corporate Sustainability are members of the human resources executive committee, which defines the strategic approach on climate-related issues. The other members of this committee are representatives of the segments, corporate functions, and regions, and technical experts. The executive board discusses relevant issues relating to sustainability, the environment, safety, health, and quality, and the status and progress of the various programs with the heads of the segments and corporate functions on a quarterly basis. The new Climate Strategy 2020+ was presented to the supervisory board in 2019.
+
+Evidence 6
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_SR.pdf | Page 85
+
+Text:
+Metrics and targets Management report, chapter 1.2 Principles and objectives Management report, chapter 5.3 The environment p. 48 ff. Sustainability report, chapter Strategy and growth p. 10 2019 CDP Climate Change response: chapter Governance http://evonik.com/ CDP-ClimateChange_2019 Climate change is a matter of the utmost importance for the entire executive board. Responsibility for our group-wide sustainability and climate strategy, monitoring, and reporting is assigned to the member of the executive board responsible for human resources, sustainability, and ESHQ (environment, safety, health, and quality). The head of Corporate ESHQ reports regularly to the executive board on climate-related issues. These include environmental indicators, including climate-related performance indicators, as well as targets and target attainment. In addition, the responsible member of the executive board and the heads of Corporate ESHQ and Corporate Sustainability are members of the human resources executive committee, which defines the strategic approach on climate-related issues. The other members of this committee are representatives of the segments, corporate functions, and regions, and technical experts. The executive board discusses relevant issues relating to sustainability, the environment, safety, health, and quality, and the status and progress of the various programs with the heads of the segments and corporate functions on a quarterly basis. The new Climate Strategy 2020+ was presented to the supervisory board in 2019.
+
+Evidence 7
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_SR.pdf | Page 51
+
+Text:
+New environmental targets for the period to 2025 Since we achieved our target for the reduction in specific greenhouse gas emissions ahead of schedule, the executive board introduced new environmental targets in February 2019. Our target now is a 50 percent reduction in absolute scope 1 and 2 emissions by 2025, compared with the level in 2008—the first full year after the establishment of Evonik. This affirms our commitment to the Paris Agreement on Climate Change. At present, we assume an average reduction in climate-relevant emissions of 3 percent a year. The relatively short period up to 2025 reflects our view that it is not currently possible to predict technological and regulatory developments beyond this date with sufficient certainty. In addition to this, by 2025 we intend to reduce the scope 3 emissions related to our raw material “backpack” by 15 percent (reference base: 2020).
+
+Evidence 8
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Pages 17-18
+
+Text:
+1 See section 4. Research and development p. 39 ff. FINANCIAL REPORT 2019 EVONIK 16 Combined management report Main table of contents Basic information on the Evonik Group Business management systems As a responsible specialty chemicals company, we are also continuing to pursue our ambitious non-financial targets 1. Since we achieved our target for the reduction in specific greenhouse gas emissions 2 ahead of schedule, we have adopted a new environmental target. Our target is a 50 percent reduction in absolute scope 1 and 2 3 emissions by 2025 compared with the level in 2008—the first full year after the establishment of Evonik. This affirms our commitment to the Paris Agreement on Climate Change.
+
+Evidence 9
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 3
+
+Text:
+Status of our sustainability targets for 2017 T01 This is an overview of the targets we set for 2017. Except where otherwise stated, the data refer to 2017. You can find more detailed information on target attainment in the relevant chapters of this report.
+
+Evidence 10
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_SR.pdf | Page 22
+
+Text:
+Below is an overview of the targets set for our strategy and growth area of action. The targets defined for 2020 and beyond have been sharpened and streamlined to enhance their strategic relevance. Target attainment in 2019 Target for 2020 and beyond
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_SR.pdf | Page 99
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2019, page 99, table. Table row: unnamed_column_0 = 146. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 182
+
+Text:
+Company: Evonik Industries. Source: annual report 2019, page 182, table. Table row: Governance = Climate change is a matter of the utmost importance for the entire executive board. Responsibility for our group-wide sustainability and climate strategy, monitoring, and reporting is assigned to the member of the executive board responsible for human resources, sustainability, and ESHQ (environment, safety, health, and quality). The head of Corporate ESHQ reports regularly to the ex- ecutive board on climate-related issues. These include environmental indicators, including climate-related performance indicators, as well as targets and target attainment. In addition, the responsible member of the executive board and the heads of Corporate ESHQ and Corporate Sustainability are members of the human resources executive committee, which defines the strategic approach on climate-related issues. The other members of this committee are representatives of the segments, corporate functions, and regions, and technical experts. The executive board discusses relevant issues relating to sustainability, the environ- ment, safety, health, and quality, and the status and progress of the various programs with the heads of the segments and corporate functions on a quar- terly basis. The new Climate Strategy 2020+ was presented to the supervisory board in 2019..
+
+Evidence 13
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_SR.pdf | Page 85
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2019, page 85, table. Table row: Governance = Climate change is a matter of the utmost importance for the entire executive board. Responsibility for our group-wide sustainability and climate strategy, monitoring, and reporting is assigned to the member of the executive board responsible for human resources, sustainability, and ESHQ (environment, safety, health, and quality). The head of Corporate ESHQ reports regularly to the ex- ecutive board on climate-related issues. These include environmental indicators, including climate-related performance indicators, as well as targets and target attainment. In addition, the responsible member of the executive board and the heads of Corporate ESHQ and Corporate Sustainability are members of the human resources executive committee, which defines the strategic approach on climate-related issues. The other members of this committee are representatives of the segments, corporate functions, and regions, and technical experts. The executive board discusses relevant issues relating to sustainability, the environ- ment, safety, health, and quality, and the status and progress of the various programs with the heads of the segments and corporate functions on a quar- terly basis. The new Climate Strategy 2020+ was presented to the supervisory board in 2019..
+
+Evidence 14
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 98
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 98, table. Table row: unnamed_column_0 = 415; unnamed_column_1 = 423; unnamed_column_2 = 429. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 94. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_SR.pdf | Page 99
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2019, page 99, table. Table row: unnamed_column_0 = 21. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 6.1. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 9.0. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 182
+
+Text:
+Company: Evonik Industries. Source: annual report 2019, page 182, table. Table row: Governance = Climate change involves perceptible opportunities and risks for Evonik. Therefore, all material elements along the value chain are considered in the development of our strategy. The most important upstream factor is the raw material “backpack” of the starting products we source; in the operation of our production facilities, it is scope 1 and 2 emissions. Downstream, our products improve our customers’ CO2 performance. Examples can be found in the Evonik Carbon Footprint brochure, which is revised every year. We want to increase this proportion by developing further innovative products. In view of the increasing climate awareness, we expect a further rise in demand, with a correspondingly positive impact on our business. We have also identified short-, mid- and long-term transition risks and physical risks. You can find an extensive description of the individual risks in the 2019 CDP Climate Change questionnaire. The short- and mid-term opportunities and risks are taken into account in our financial planning. To reduce our climate-driven risks, our strategy defines ambitious targets..
+
+Evidence 20
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_SR.pdf | Page 99
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2019, page 99, table. Table row: unnamed_column_0 = 718. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Evonik Industries. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2017-01-01.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Evonik Industries. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 40966400.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Evonik Industries. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 350331000.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Evonik Industries. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change mitigation actions. Value: 17115000.0 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 50813100.0 USD.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Evonik Industries. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 323302400.0 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Evonik Industries. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 350331000.0 USD.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 365145300.0 USD.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Evonik Industries. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for coal-related economic activities ESRS E1 Climate change. Value: 47464200.0 USD.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Evonik Industries. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for gas-related economic activities ESRS E1 Climate change. Value: 47464200.0 USD.

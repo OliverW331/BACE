@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Admiral Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Admiral Group's 2018 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Admiral Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2015_AR.pdf | Page 3
+
+Text:
+Price Comparison review continued Other Group items STRATEGIC REPORT STRATEGIC REPORT STRATEGIC REPORT STRATEGIC REPORT CORPORATE GOVERNANCE CORPORATE GOVERNANCE CORPORATE GOVERNANCE CORPORATE GOVERNANCE FINANCIAL STATEMENTS FINANCIAL STATEMENTS FINANCIAL STATEMENTS FINANCIAL STATEMENTS OTHER INFORMATION OTHER INFORMATION OTHER INFORMATION OTHER INFORMATION Market discipline
+
+Evidence 2
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 23
+
+Text:
+Operational scopes – calculation approach, conversion tools and emission factors The carbon emissions linked to the activities listed above have been determined on the basis of measured or estimated energy and fuel use, multiplied by relevant carbon conversion factors. 19 Our Environment
+
+Evidence 3
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 19
+
+Text:
+Operational scopes – calculation approach, conversion tools and emission factors The carbon emissions linked to the activities listed above have been determined on the basis of measured or estimated energy and fuel use, multiplied by relevant carbon conversion factors. The large majority of our fuel and energy consumption is based on actual mileage data, purchase invoices and information supplied by the managing agents of our leased buildings. However it has been necessary to make estimations in some circumstances, where this form of evidence has not been available. In particular we have made estimations when monthly invoices have not been available for the full reporting period. Where this was the case, an average of available invoices was applied to the months for which invoices were unavailable. This process of estimation represents less than 10% of data.
+
+Evidence 4
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2017_SR.pdf | Page 21
+
+Text:
+Operational scopes – calculation approach, conversion tools and emission factors The carbon emissions linked to the activities listed above have been determined on the basis of measured or estimated energy and fuel use, multiplied by relevant carbon conversion factors. The large majority of our fuel and energy consumption is based on actual mileage data, purchase invoices and information supplied by the managing agents of our leased buildings. However it has been necessary to make estimations in some circumstances, where this form of evidence has not been available. In particular, we have made estimations when monthly invoices have not been available for the full reporting period. Where this was the case, an average of available invoices was applied to the months for which invoices were unavailable. This process of estimation represents less than 10% of data.
+
+Evidence 5
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2015_SR.pdf | Page 26
+
+Text:
+Excluded from our Scope 1 emissions are air conditioning emissions produced by all of our operations. We are continuing to work with the managing agents to obtain this data. Operational scopes – calculation approach, conversion tools and emission factors The carbon emissions linked to the activities listed above have been determined on the basis of measured or estimated energy and fuel use, multiplied by relevant carbon conversion factors.
+
+Evidence 6
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2015_SR.pdf | Page 30
+
+Text:
+• Complete outstanding ESOS action points to hopefully ensure the full 2,176,246kWh saving will be realised. • Re-commission our smart metering system and have monthly energy assessments completed by our external partner, Enica. This will highlight further energy savings as well as monitor each site’s efficiency.
+
+Evidence 7
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 19
+
+Text:
+Operational scopes All Scope 1 (direct GHG emissions), Scope 2 (indirect GHG emissions) and significant Scope 3 emissions have been reported for operations within the organisational boundary, with the exception of exclusions listed below. Where appropriate, emissions from multi-occupancy offices are determined on the basis of the recharge statement provided to the Group by the relevant managing agents.
+
+Evidence 8
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 20
+
+Text:
+• Complying with the requirement to report annual levels of greenhouse gas emissions in line with guidance provided by the Department for Environment, Food and Rural Affairs (DEFRA) in partnership with the Department for Energy and Climate Change (DECC). We have never been subject to prosecution or fines as a result of non-compliance with environmental reporting regulations.
+
+Evidence 9
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2016_SR.pdf | Page 16
+
+Text:
+We are committed to:  Raising and maintaining employee awareness of, and ensuring that all of our people are actively engaged in, activities to reduce our environmental impact;  Measuring and monitoring key aspects of our environmental performance and regularly reviewing progress to reduce the amount of resources consumed per employee; and  Complying with the requirement to report annual levels of greenhouse gas (GHG) emissions in line with guidance provided by the Department for Environment, Food and Rural Affairs (DEFRA) in partnership with the Department for Energy and Climate Change (DECC).
+
+Evidence 10
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2017_SR.pdf | Page 17
+
+Text:
+We are committed to:  Raising and maintaining employee awareness of, and ensuring that all of our people are actively engaged in, activities to reduce our environmental impact;  Measuring and monitoring key aspects of our environmental performance and regularly reviewing progress to reduce the amount of resources consumed per employee; and  Complying with the requirement to report annual levels of greenhouse gas (GHG) emissions in line with guidance provided by the Department for Environment, Food and Rural Affairs (DEFRA) in partnership with the Department for Energy and Climate Change (DECC).
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2014, page 17, table. Table row: unnamed_column_0 = 2006; unnamed_column_1 = 20th; unnamed_column_2 = 8th. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2014, page 17, table. Table row: unnamed_column_0 = 2013; unnamed_column_1 = 11th; unnamed_column_2 = 2nd; unnamed_column_3 = 2nd. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2015_SR.pdf | Page 19
+
+Text:
+Company: Admiral Group. Source: sustainability report 2015, page 19, table. Table row: unnamed_column_0 = 2014; unnamed_column_1 = 2nd; unnamed_column_2 = 3rd; unnamed_column_3 = 3rd. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2014, page 17, table. Table row: unnamed_column_0 = 2010; unnamed_column_1 = 16th; unnamed_column_2 = 10th; unnamed_column_3 = 26th. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2014, page 17, table. Table row: unnamed_column_0 = 2012; unnamed_column_1 = 6th; unnamed_column_2 = 1st; unnamed_column_3 = 4th. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2015_SR.pdf | Page 19
+
+Text:
+Company: Admiral Group. Source: sustainability report 2015, page 19, table. Table row: unnamed_column_0 = 2006; unnamed_column_1 = 20th; unnamed_column_2 = 8th. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2014, page 17, table. Table row: unnamed_column_0 = 2005; unnamed_column_1 = 20th; unnamed_column_2 = 17th. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2015_SR.pdf | Page 19
+
+Text:
+Company: Admiral Group. Source: sustainability report 2015, page 19, table. Table row: unnamed_column_0 = 2013; unnamed_column_1 = 11th; unnamed_column_2 = 2nd; unnamed_column_3 = 2nd. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2014, page 17, table. Table row: unnamed_column_0 = 2001; unnamed_column_1 = 32nd; unnamed_column_2 = 32nd. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2014_SR.pdf | Page 17
+
+Text:
+Company: Admiral Group. Source: sustainability report 2014, page 17, table. Table row: unnamed_column_0 = 2011; unnamed_column_1 = 9th; unnamed_column_2 = 9th; unnamed_column_3 = 21st. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Admiral Group. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change adaptation actions. Value: 229260.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Admiral Group. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change mitigation actions. Value: 229260.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Admiral Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 3 Greenhouse gas emissions reduction. Value: 591.6 tCO2e.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Admiral Group. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions Category 3 Fuel and energy-related activities. Value: 522.0 tCO2e.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Admiral Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions. Value: 1706.2 tCO2e.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Admiral Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-5. Indicator: Percentage of renewable sources in total energy consumption. Value: 100.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Admiral Group. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions Category 3 Fuel and energy-related activities. Value: 0.0 tCO2e.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Admiral Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 1706.2 tCO2e.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Admiral Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Own operations. Value: 1706.2 tCO2e.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Admiral Group. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions Category 5 Waste generated in operations. Value: 1706.2 tCO2e.

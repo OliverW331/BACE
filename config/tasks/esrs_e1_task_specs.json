@@ -1,0 +1,283 @@
+{
+  "schema_version": "esrs_e1_task_specs_v1",
+  "config_version": "esrs_e1_task_specs_sanity_check_v1",
+  "status": "frozen_for_retrieval_sanity_check",
+  "task_family": "ESRS E1 Climate Change",
+  "project_context": "Transparent evidence-card RAG for AI-assisted CSRD / ESRS-style disclosure generation",
+  "target_reporting_years": [2018, 2019, 2020, 2021, 2022, 2023],
+  "design_notes": {
+    "purpose": "Define controlled ESRS E1 task information needs for retrieval sanity checks and later W1/W2 generation input construction.",
+    "not_runtime_generated": true,
+    "llm_used_to_create_runtime_values": false,
+    "freeze_scope": [
+      "task selection",
+      "task scope",
+      "official requirement basis",
+      "expected evidence types",
+      "expected evidence content",
+      "query facets",
+      "claim type coverage",
+      "claim risk notes"
+    ],
+    "not_frozen_here": [
+      "exact retrieval query wording",
+      "exact generation prompt wording",
+      "final top_k",
+      "final retrieval ranking parameters",
+      "claim annotation guideline"
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "E1-1_transition_plan",
+      "esrs_reference": "E1-1",
+      "task_name": "Transition plan for climate change mitigation",
+      "task_scope": "Retrieve evidence about the existence, content, implementation status, targets, actions, investments, and alignment claims of the company's climate transition plan.",
+      "task_selection_rationale": "E1-1 is included because it tests strategic narrative grounding and high-risk overclaiming around transition-plan existence, implementation status, decarbonisation levers, investment support, and 1.5C or Paris-alignment claims.",
+      "official_requirement_basis": "ESRS E1-1 concerns the undertaking's transition plan for climate change mitigation, including compatibility with the transition to a sustainable economy and limiting global warming to 1.5C where applicable.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through PDF narrative cards describing climate strategy, transition plans, decarbonisation roadmaps, actions, targets, governance, and investments. PDF table-row evidence may support action or investment details when available.",
+      "retrieval_intent": "Find company-specific evidence about climate transition plans, decarbonisation strategy, transition roadmap, climate targets, actions, governance, investments, resources, and implementation status.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about the company's transition plan using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": ["narrative", "pdf_table_row"],
+      "expected_evidence_content": [
+        "transition plan",
+        "climate transition strategy",
+        "decarbonisation roadmap",
+        "decarbonisation levers",
+        "climate targets linked to the transition plan",
+        "actions supporting the transition plan",
+        "resources, investments, CapEx, or OpEx linked to transition actions",
+        "implementation status",
+        "1.5C, Paris-alignment, or science-based alignment claims only when explicitly evidenced"
+      ],
+      "query_facets": [
+        "transition plan",
+        "climate transition",
+        "decarbonisation",
+        "decarbonization",
+        "roadmap",
+        "1.5C",
+        "1.5°C",
+        "Paris alignment",
+        "net zero",
+        "climate strategy",
+        "investment",
+        "CapEx",
+        "OpEx",
+        "governance",
+        "implementation"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": ["narrative"],
+        "preferred_but_not_required": ["pdf_table_row"],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "temporal",
+        "target",
+        "commitment",
+        "normative_or_evaluative"
+      ],
+      "claim_risk_notes": [
+        "over-claiming that a transition plan exists",
+        "unsupported 1.5C or Paris-alignment claim",
+        "planned versus implemented confusion",
+        "unsupported investment or resource claim",
+        "overly positive framing of transition-plan credibility"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "E1-3_actions_resources",
+      "esrs_reference": "E1-3",
+      "task_name": "Actions and resources in relation to climate policies",
+      "task_scope": "Retrieve evidence about climate actions, mitigation or adaptation measures, resources, investments, implementation status, and achieved or expected outcomes.",
+      "task_selection_rationale": "E1-3 is included because it tests whether action-oriented disclosures are grounded in evidence about actual or planned measures, resources, implementation status, and claimed outcomes.",
+      "official_requirement_basis": "ESRS E1-3 concerns actions and resources in relation to climate change policies, including key actions taken or planned and resources allocated to their implementation.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through PDF narrative cards describing climate actions, energy-efficiency measures, renewable-energy procurement, operational changes, resource allocation, and action outcomes. PDF table-row cards may support action, investment, CapEx, OpEx, or performance tables when available.",
+      "retrieval_intent": "Find company-specific evidence about climate actions, mitigation measures, adaptation actions, resources, CapEx, OpEx, investments, implementation status, achieved outcomes, and expected or achieved emission reductions.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about climate actions and resources using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": ["narrative", "pdf_table_row"],
+      "expected_evidence_content": [
+        "climate actions",
+        "mitigation measures",
+        "adaptation actions",
+        "energy efficiency initiatives",
+        "renewable energy procurement",
+        "resources allocated to climate actions",
+        "CapEx or OpEx",
+        "investments",
+        "implementation status",
+        "achieved or expected greenhouse gas emission reductions"
+      ],
+      "query_facets": [
+        "climate action",
+        "mitigation",
+        "adaptation",
+        "energy efficiency",
+        "renewable energy",
+        "resources",
+        "CapEx",
+        "OpEx",
+        "investment",
+        "implementation",
+        "emission reduction",
+        "GHG reduction"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": ["narrative"],
+        "preferred_but_not_required": ["pdf_table_row"],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "causal",
+        "temporal",
+        "numeric",
+        "commitment"
+      ],
+      "claim_risk_notes": [
+        "unsupported causal claims about actions causing emission reductions",
+        "planned versus completed action confusion",
+        "exaggerated scale of action",
+        "unsupported achieved or expected reduction claim",
+        "unsupported resource or investment claim"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "E1-4_targets",
+      "esrs_reference": "E1-4",
+      "task_name": "Climate-related targets",
+      "task_scope": "Retrieve evidence about climate targets, baseline year, target year, covered scopes, reduction type, target boundary, progress, and validation claims.",
+      "task_selection_rationale": "E1-4 is included because it tests target-specific grounding, including baseline years, target years, covered scopes, target type, progress claims, and unsupported validation or science-based target claims.",
+      "official_requirement_basis": "ESRS E1-4 concerns targets related to climate change mitigation and adaptation, including target characteristics, baseline values, target periods, scope coverage, and progress where disclosed.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through PDF narrative cards, PDF table-row cards, and CSV metric cards containing target descriptions, baseline values, emissions metrics, progress indicators, and related climate performance information.",
+      "retrieval_intent": "Find company-specific evidence about climate targets, greenhouse gas reduction targets, baseline years, target years, covered scopes, target type, target progress, and external validation if explicitly evidenced.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about climate-related targets using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": ["narrative", "pdf_table_row", "csv_metric"],
+      "expected_evidence_content": [
+        "climate targets",
+        "greenhouse gas reduction targets",
+        "baseline year",
+        "target year",
+        "covered scopes",
+        "absolute reduction target",
+        "intensity reduction target",
+        "target boundary",
+        "target progress",
+        "SBTi or external validation only when explicitly evidenced"
+      ],
+      "query_facets": [
+        "target",
+        "climate target",
+        "GHG reduction target",
+        "greenhouse gas reduction target",
+        "baseline year",
+        "target year",
+        "Scope 1",
+        "Scope 2",
+        "Scope 3",
+        "absolute reduction",
+        "intensity reduction",
+        "progress",
+        "SBTi",
+        "validated target",
+        "science-based target"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": ["narrative"],
+        "preferred_but_not_required": ["pdf_table_row", "csv_metric"],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "target",
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "normative_or_evaluative"
+      ],
+      "claim_risk_notes": [
+        "target year and reporting year confusion",
+        "missing or incorrect baseline year",
+        "unsupported target progress claim",
+        "unsupported SBTi, science-based, or external validation claim",
+        "unclear scope or boundary coverage"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "E1-6_ghg_emissions",
+      "esrs_reference": "E1-6",
+      "task_name": "Gross Scope 1, Scope 2, Scope 3 and total GHG emissions",
+      "task_scope": "Retrieve evidence about Scope 1, Scope 2, Scope 3, total GHG emissions, units, reporting year, methodology, and reporting boundary.",
+      "task_selection_rationale": "E1-6 is included because it tests numeric, temporal, unit, and scope-boundary grounding across structured CSV metric evidence, PDF table-row evidence, and narrative methodology evidence.",
+      "official_requirement_basis": "ESRS E1-6 concerns gross Scope 1, Scope 2, Scope 3 and total greenhouse gas emissions.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through CSV metric cards containing structured emissions indicators, PDF table-row cards containing emissions tables, and PDF narrative cards describing methodology, boundary, and Scope 2 calculation approaches.",
+      "retrieval_intent": "Find company-specific numeric and methodological evidence for gross Scope 1, Scope 2, Scope 3 and total GHG emissions, including units, reporting boundary, and Scope 2 method where available.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about GHG emissions using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": ["csv_metric", "pdf_table_row", "narrative"],
+      "expected_evidence_content": [
+        "Scope 1 greenhouse gas emissions",
+        "Scope 2 greenhouse gas emissions",
+        "Scope 3 greenhouse gas emissions",
+        "total GHG emissions",
+        "tCO2e or CO2e unit",
+        "reporting year",
+        "market-based or location-based Scope 2 method",
+        "organizational boundary",
+        "operational boundary",
+        "GHG methodology"
+      ],
+      "query_facets": [
+        "Scope 1",
+        "Scope 2",
+        "Scope 3",
+        "total GHG emissions",
+        "greenhouse gas emissions",
+        "GHG",
+        "CO2e",
+        "tCO2e",
+        "market-based",
+        "location-based",
+        "methodology",
+        "boundary",
+        "CSV metric",
+        "PDF table"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": ["csv_metric"],
+        "preferred_but_not_required": ["pdf_table_row", "narrative"],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "descriptive"
+      ],
+      "claim_risk_notes": [
+        "numeric error",
+        "unit error",
+        "wrong reporting year",
+        "Scope 2 market-based versus location-based confusion",
+        "incomplete total emissions",
+        "boundary confusion"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    }
+  ]
+}

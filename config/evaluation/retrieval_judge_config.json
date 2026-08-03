@@ -1,0 +1,93 @@
+{
+  "schema_version": "retrieval_judge_config_v2",
+  "status": "gpt_5_6_sol_primary_pilot_ready",
+  "model_agnostic_pipeline": true,
+  "current_primary_judge": "azure_gpt_5_6_sol",
+  "models": {
+    "gpt_oss_20b_groq": {
+      "model_id": "openai/gpt-oss-20b",
+      "provider": "groq",
+      "access_mode": "managed_api",
+      "api_style": "chat_completions",
+      "auth_type": "bearer_api_key",
+      "base_url": "https://api.groq.com/openai/v1",
+      "api_key_env": "GROQ_API_KEY",
+      "role": "alternative_future_judge",
+      "request_parameters": {
+        "max_completion_tokens": 128
+      }
+    },
+    "qwen3_5_9b_managed": {
+      "model_id": "Qwen/Qwen3.5-9B",
+      "provider": null,
+      "access_mode": "managed_api",
+      "api_style": "chat_completions",
+      "auth_type": "bearer_api_key",
+      "base_url": null,
+      "base_url_env": null,
+      "api_key_env": null,
+      "role": "alternative_future_judge",
+      "request_parameters": {
+        "max_completion_tokens": 128
+      },
+      "configuration_status": "placeholder_requires_provider_configuration"
+    },
+    "azure_gpt_5_6_sol": {
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-retrieval-judge",
+      "deployment_name_env": "AZURE_OPENAI_DEPLOYMENT",
+      "provider": "azure_openai",
+      "access_mode": "managed_api",
+      "api_style": "responses",
+      "auth_type": "api_key",
+      "endpoint_env": "AZURE_OPENAI_ENDPOINT",
+      "api_key_env": "AZURE_OPENAI_API_KEY",
+      "role": "current_primary_judge",
+      "request_parameters": {
+        "max_output_tokens": 256,
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    }
+  },
+  "prompts": {
+    "contribution": {
+      "file": "retrieval_contribution_judge_prompt_v1.txt",
+      "version": "retrieval_contribution_judge_prompt_v1",
+      "sha256": "81cff6f257414c897726323b1ee19573f25f39e8930819cafe730ac8d191740e"
+    },
+    "usability": {
+      "file": "retrieval_usability_judge_prompt_v1.txt",
+      "version": "retrieval_usability_judge_prompt_v1",
+      "sha256": "9de7a8c71592774e86f0d5f8783a082bb1895f5a293ae4890c01b682536d1e20"
+    }
+  },
+  "allowed_outputs": {
+    "contribution": [
+      "direct",
+      "contextual",
+      "no_meaningful"
+    ],
+    "usability": [
+      "usable",
+      "unusable"
+    ]
+  },
+  "output_validation": {
+    "method": "strip_outer_whitespace_then_exact_match",
+    "case_sensitive": true,
+    "automatic_lowercasing": false,
+    "automatic_synonym_mapping": false,
+    "automatic_punctuation_removal": false,
+    "invalid_output_retry": false
+  },
+  "execution_rules": {
+    "one_model_provider_configuration_per_primary_run": true,
+    "alternative_model_requires_separate_run_id": true,
+    "network_retry_allowed": true,
+    "classification_repair_not_allowed": true
+  }
+}

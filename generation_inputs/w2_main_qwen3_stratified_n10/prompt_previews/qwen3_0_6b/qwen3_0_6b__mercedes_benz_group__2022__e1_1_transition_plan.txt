@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Mercedes-Benz Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Mercedes-Benz Group's 2022 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Mercedes-Benz Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_AR.pdf | Pages 91-92
+
+Text:
+91 Annual Report 2021 · Mercedes-Benz Group Combined Management Report with Non-Financial Declaration screening criteria have already been made available via delegated acts. Climate mitigation in particular is to be regarded as the relevant environmental objective for the Mercedes-Benz Group. From 2022, taxonomy alignment will have to be assessed alongside taxonomy eligibility.
+
+Evidence 2
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_AR.pdf | Page 204
+
+Text:
+Within the framework of our sustainable business strategy, our company has expressed its firm commitment to the Paris accord on climate protection. Mercedes-Benz AG has had its climate protection measures scientifically confirmed by the Science Based Targets Initiative (SBTI). By means of these targets, the company wants to contribute to environmental protection in the sense of the Paris Agreement.
+
+Evidence 3
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Pages 34-35
+
+Text:
+34 Nachhaltigkeitsbericht 2021 . Mercedes-Benz Group Magazine . Our strategy is set in place Responsibility for the trans formation of drive systems CHRISTOPHER GERDES: There’s no alternative to climate neutrality. Consequently, all of us are determined to travel the challenging route of the transformation. If society, government and companies all pull together in this respect, we can achieve a great deal.
+
+Evidence 4
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Pages 57-58
+
+Text:
+57 Nachhaltigkeitsbericht 2021 . Mercedes-Benz Group Magazine . We learn from our stakeholders In November, Mercedes-Benz, together with 33 countries, 40 regions, cities and regional governments as well as 38 companies from around the globe signed the COP26 “declaration on accelerating the transition to 100% zero emission cars and vans”.
+
+Evidence 5
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Page 203
+
+Text:
+Science Based Targets Initiative The Science Based Targets Initiative (SBTI) is a joint initiative of the CDP, the UN Global Compact, the World Resources Institute, and the World Wildlife Fund (WWF). It aims to encourage companies to set targets for reducing greenhouse gas emissions in line with the level of decarbonization that scientists are calling for in order to limit global warming to less than 1.5° C/2° C compared to preindustrial temperatures.
+
+Evidence 6
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 287
+
+Text:
+Tier 1 Tier 1 refers to the first upstream stage of the value chain, i.e. the direct suppliers. The other stages of the value chain (all the sub-suppliers) are referred to as tier 2 to tier n suppliers. Science Based Targets initiative The Science Based Targets initiative (SBTi) is a joint initiative of the CDP, the UN Global Compact, the World Resources Institute and the World Wildlife Fund (WWF). It aims to encourage companies to set targets for reducing greenhouse gas emissions in line with the level of decarbonisation that scientists are calling for in order to limit global warming to less than 1.5 °C/2 °C compared to preindustrial temperatures.
+
+Evidence 7
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 191
+
+Text:
+Science Based Targets Initiative The Science Based Targets Initiative (SBTI) is a joint initiative of the CDP, the UN Global Compact, the World Resources Institute, and the World Wildlife Fund (WWF). It aims to encourage companies to set targets for reducing greenhouse gas emissions in line with the level of decarbonization that scientists are calling for in order to limit global warming to less than 1.5° C/2° C compared to preindustrial temperatures.
+
+Evidence 8
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_AR.pdf | Page 104
+
+Text:
+A comprehensive approach to environmental protection The transition to CO2-neutral mobility is vital if the impact of climate change is to be limited. We at Daimler are working hard to make this vision reality. Mercedes-Benz AG has had its climate protection measures scientifically confirmed by the Science Based Targets Initiative (SBTI). By means of these targets, the company would like to make a contribution to environmental protection in line with the Paris agreement on global climate change.
+
+Evidence 9
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Page 9
+
+Text:
+What makes Daimler’s sustainable business strategy stand out  Climate protection 26 years In order to reach the 2°C target of the Paris Agreement, the global economy must be operating CO2-neutrally within the next 26 years at the latest.9 In its latest report, the Intergovernmental Panel on Climate Change calls on the global community to limit global warming to a maximum of 1.5°C.7 Climate change is leading to increasingly frequent extreme weather events such as torrential rains, droughts, and hurricanes — not only in the southern hemisphere but also in the midst of Europe.8
+
+Evidence 10
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 148
+
+Text:
+Implementation of the Paris Agreement — CO2 neutral production from 2022 In its sustainable business strategy the Mercedes-Benz Group has set itself the holistic goal of making the mobility of the future more sustainable. One important target is the reduction of greenhouse gas emissions. This applies not only to our mobility solutions but also to our own production plants. By pursuing our goal of making our production processes CO2 neutral we are fulfilling our voluntary commitment to the Paris Agreement and complying with other national and international climate-protection guidelines.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 180
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 180, table. Table row: unnamed_column_15 = 6.65. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 180
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 180, table. Table row: unnamed_column_7 = 13.70. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 76
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 76, table. Table row: unnamed_column_7 = 2,501. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 179
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 179, table. Table row: 1.62 = 2.47.
+
+Evidence 15
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 140
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 140, table. Table row: 2020 2021 = Total 49.7 103.2 49.1 99.2.
+
+Evidence 16
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 76
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 76, table. Table row: unnamed_column_1 = 1,360 971; unnamed_column_3 = 1,511 644; unnamed_column_5 = 1,533 645; unnamed_column_9 = 1,474 656; unnamed_column_13 = 1,475 694. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 138
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 138, table. Table row: 117,189 = 22,989.
+
+Evidence 18
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 140
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 140, table. Table row: 2020 2021 = Manufacture 0.8 0.94 0.7 0.74.
+
+Evidence 19
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 154
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 154, table. Table row: -** = -**.
+
+Evidence 20
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 32
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 32, table. Table row: unnamed_column_1 = Climate protection Climate& pariro qtueacltitiyon &. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 10765748000.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Revenue from business activities at material transition risk. Value: 138872882200.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 33060118000.000004 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 7779408000.0 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 15671599999.999998 USD.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for coal-related economic activities ESRS E1 Climate change. Value: 0.0 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for gas-related economic activities ESRS E1 Climate change. Value: 0.0 USD.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change mitigation actions. Value: 236600000.0 USD.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Adjusting items to liabilities at material transition risk, in reconciliation with financial statement. Value: -482457199.99999994 USD.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1.GOV-3. Indicator: Percentage of remuneration recognised in current period that is linked to climate related considerations ESRS E1 Climate change. Value: 0.0 percent.

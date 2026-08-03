@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Mercedes-Benz Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Mercedes-Benz Group's 2023 reporting year, addressing E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Mercedes-Benz Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 112
+
+Text:
+The Mercedes Benz Group Data Vision and Guiding Principles Business Opportunity Transparency Data Quality We live sustainable data-driven business by predicting our customer's needs and treating data with responsibility Data Ethics Security Customer Benefit Choice prepare these local contacts for their tasks and support them with training courses and consultation.
+
+Evidence 2
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Pages 23-24
+
+Text:
+Customer awareness of sustainability Transparent labelling of products and services Sustainable customer value proposition Sustainability of sales network Sustainable investment Mercedes-Benz as a sustainable opportunity for investment Mercedes-Benz as a sustainable investor 23 Sustainability Report 2022 . Mercedes-Benz Group Governance . Sustainable corporate governance
+
+Evidence 3
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 277
+
+Text:
+Conclusions Stuttgart, March 21, 2022 KPMG AG Wirtschaftsprüfungsgesellschaft [Original German version signed by:] Engelmann Herold Wirtschaftsprüfer [German Public Auditor] Based on the procedures performed and the evidence obtained for the limited assurance, nothing has come to our attention that causes us to believe that the selected qualitative and quantitative sustainability disclosures CO2 emissions (scope 1, scope 2 and selected scope 3), energy consumption, waste, water withdrawal as well as the qualitative disclosures in the appendix “Calculation and documentation of CO2 emissions” (further “sustainability disclosures”) of the Mercedes-Benz Group for the business year from January 1 to December 31, 2021, published in the Report, were not prepared, in all material respects, in accordance with the Reporting Criteria.
+
+Evidence 4
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 36
+
+Text:
+Social compliance Occupational Health and safety The Compliance Management System Combating corruption Promoting fair competition Tax obligation Revenue Revenue1 Substantial contribution criteria Climate change mitigation Climate change adaptation DNSH-criteria (“Does Not Significantly Harm”) Minimum safeguards Taxonomy aligned proportion of Revenue 20221
+
+Evidence 5
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 243
+
+Text:
+Greenhouse Gas Protocol Initiative according to the categories Scope 1 to Scope 3. Scope 1 and Scope 2 emissions are reported in accordance with the control approach of the GHG Protocol. The Mercedes-Benz Group continues to account for its production-related targets (energy, CO2) excluding fuels, as fuel consumption is primarily caused by activities outside production (including company vehicles, test benches). For this reason, the specific energy consumption and CO2 emissions (per vehicle produced) that constitute the basis for its production-related targets are published without fuel consumption.
+
+Evidence 6
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 239
+
+Text:
+– Information on CO2 emissions (Scope 1, Scope 2 and selected Scope 3) in the following tables and graphs: In accordance with Sections 315b and 315c of the German Commercial Code (HGB), the Mercedes-Benz Group reports on non-financial matters in its combined management report, which was audited with reasonable assurance by KPMG AG Wirtschaftsprüfungsgesellschaft as part of the audit of the company’s financial statements. Exceptions are the data on EU taxonomy, accident indicators and the “ambition letter” as well as the key figures for CO2 emissions in production (Scope 1 and 2), which were audited in order to obtain limited assurance as part of a separate assurance engagement of the sustainability report.
+
+Evidence 7
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 247
+
+Text:
+Stuttgart, March 13, 2023 KPMG AG Wirtschaftsprüfungsgesellschaft [Original German version signed by:] Engelmann Herold Wirtschaftsprüfer – “CO2 emissions from energy consumption” – “Scope 1, 2 and selected Scope 3 CO2 emissions in tons per vehicle, Mercedes-Benz Cars 2022” – “Scope 1, 2 and selected Scope 3 CO2 emissions in tons per vehicle, Mercedes-Benz Vans 2022” – “Scope 1, 2 and 3 emissions, Mercedes-Benz Cars worldwide” – “Scope 1, 2 and 3 emissions, Mercedes-Benz Vans worldwide”, – Disclosures on energy consumption in the table “Energy consumption”, – Disclosures on water withdrawal in the table “Water withdrawal”, – Disclosures on waste in the table “Waste by category”, – Disclosures in the appendix “Calculation and documentation of CO2 emissions”, – Disclosures on the share of suppliers who have signed the “Ambition Letter” in the chapter “Climate protection in the supply chain > Effectiveness and results”, – Disclosure on accident frequency at production sites in the table “Accident frequency” as well as – Disclosures regarding the EU taxonomy in the tables of the chapter “EU taxonomy”
+
+Evidence 8
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Pages 38-39
+
+Text:
+Group Research, Sustainability & RD Functions Group Strategy, Communication, External Affairs, Human Resources, Investor Relations, Accounting & Financial Reporting Corporate Responsibility & Integrity Management Feedback and orientation Report on progress coordinates Business units and functions REPORTING | SUSTAINABLE CORPORATE GOVERNANCE 39 DAIMLER SUSTAINABILITY REPORT 2020
+
+Evidence 9
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 95
+
+Text:
+Life cycle assessment of the EQE 350+ Scope 1, 2 and 3 emissions worldwide Mercedes-Benz Cars Measures The Mercedes-Benz Group collates and publishes the key figures for the CO2 emissions on corporate level based on the Greenhouse Gas (GHG) Protocol framework.
+
+Evidence 10
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_AR.pdf | Page 135
+
+Text:
+B | COMBINED MANAGEMENT REPORT WITH NON-FINANCIAL DECLARATION | Outlook 135
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_0 = .65. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 180
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 180, table. Table row: unnamed_column_15 = 6.65. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 180
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 180, table. Table row: unnamed_column_7 = 13.70. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 104
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 104, table. Table row: unnamed_column_5 = 123 11115511,, 22 11115533 104. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_11 = 6.65; unnamed_column_15 = 66..0011. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 172
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 172, table. Table row: in t 25 23.1 23.7 = 0; unnamed_column_4 = 2.1; unnamed_column_8 = 2.2; unnamed_column_12 = 2.2. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 172
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 172, table. Table row: in t 25 23.1 23.7 = 10. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_1 = 22..0066. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 172
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 172, table. Table row: in t 25 23.1 23.7 = 5; unnamed_column_2 = 6.1; unnamed_column_6 = 5.6; unnamed_column_10 = 4.9. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_1 = 11..3311. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 447793.0 tCO2e.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Own operations. Value: 1471.0 tCO2e.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 933000.0 tCO2e.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross location-based Scope 2 greenhouse gas emissions Internal carbon fee or fund / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 1471000.0 tCO2e.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 62700000.0 tCO2e.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross location-based Scope 2 greenhouse gas emissions CapEx shadow price / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 1.69 tCO2e.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Upstream value chain. Value: 8500000.0 tCO2e.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross location-based Scope 2 greenhouse gas emissions. Value: 933000.0 tCO2e.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross location-based Scope 2 greenhouse gas emissions Carbon prices for impairment testing / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 933000.0 tCO2e.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Own operations. Value: 83000.0 tCO2e.

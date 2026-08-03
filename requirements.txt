@@ -1,0 +1,23 @@
+pandas
+PyMuPDF
+pdfplumber
+
+# RAG evidence-card retrieval embedding
+numpy>=1.26,<3
+torch>=2.3
+sentence-transformers>=4.1
+transformers>=4.51
+huggingface-hub>=0.30
+faiss-cpu>=1.8,<2
+einops>=0.8
+safetensors>=0.4
+
+# Closed API embedding baseline
+openai>=1.0,<3
+
+# Retrieval sanity analysis notebook
+numpy
+matplotlib
+seaborn
+jupyter
+ipykernel

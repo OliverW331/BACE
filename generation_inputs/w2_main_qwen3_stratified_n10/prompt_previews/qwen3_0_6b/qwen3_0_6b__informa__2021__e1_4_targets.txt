@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Informa's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Informa's 2021 reporting year, addressing E1-4 Climate-related targets, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Informa's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-4 Climate-related targets.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 49
+
+Text:
+Governance Financial Statements Strategic Report This data feeds a suite of three Citeline tools. The first is Pharmaprojects, which helps biopharma companies monitor the competition and find new acquisition and partnering targets. It gives sharp visibility of the drugs pipeline: who is developing what new medicine; for which diseases; who is moving into the clinical phase, with which trials, and where.
+
+Evidence 2
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 9
+
+Text:
+S T R A T E G I C R E P O R T Physical events disruption Informa Markets, Informa Connect and Informa Tech generate a majority of revenues from activities linked to events that match sellers with buyers in specialist markets, enable businesses to showcase and source products, deliver high quality content and training or facilitate networking and learning.
+
+Evidence 3
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 30
+
+Text:
+Informa Intelligence Specialist data and intelligence vehicles and other infrastructure assets. Through brands such as EquipmentWatch, PriceDigests and FleetSeek we serve construction businesses, government and state departments and those who sell, lease, finance and insure equipment, helping them make high value decisions in investment projects.
+
+Evidence 4
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_SR.pdf | Page 21
+
+Text:
+Scope 3 Understanding our impact on climate change As a responsible business that values the rigour of Science Based Targets making, we have, along with 500 other leading businesses, committed to targets within the Science Based Target Initiative (SBTi), a partnership between the UN, WWF, World Resources Institute and the Carbon Disclosure Project (CDP). The commitments include calculating what we need to do by 2030 to keep the global temperature rise below 1.5°C.
+
+Evidence 5
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 91
+
+Text:
+£m £m Total2 £m Publishing book lists and journal titles £m Intangible software assets £m Database and intellectual property, brand and customer relationships £m Exhibitions and conferences, brand and customer relationships £m Sub-total2 Cost Key assumptions and headroom 2020 £m 2020 2019 2020 2019
+
+Evidence 6
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_AR.pdf | Page 95
+
+Text:
+Capabilities, people, products, platforms Multi-year Group strategy plan Multi-year divisional strategic plans created Three-year financial plan From which three-year financial plans are formed by Divisions Tested against economic instability Tested against market risk Tested against inadequate response to major incidents Plan tested against the three principal risks where, in a severe but plausible scenario, impact of risk valued at over 5% of EBITDA
+
+Evidence 7
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_SR.pdf | Page 21
+
+Text:
+We have calculated our Science Based Targets based on our 2017 baseline for the whole of the Informa business (including UBM) and our targets are being verified by the SBTi. We will announce them in 2019. Whilst they are ambitious, we believe they are achievable and allow cost savings to be reinvested to reduce emissions further and continue our transition to green energy.
+
+Evidence 8
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 60
+
+Text:
+Our colleagues We became part of the global Science Based Targets Initiative in 2018, and in 2019 will be setting Company-specific targets around reducing our emissions to help keep global temperature rises below 1.5C. 58 INFORMA PLC ANNUAL REPORT 2018
+
+Evidence 9
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_AR.pdf | Page 51
+
+Text:
+This builds on the commitments made in 2019 when Informa was certified by the Science Based Targets Initiative: a body that focuses on meeting the goals of the 2015 Paris Agreement to limit global warming. In events this may be through programming, educational sessions, themed networking or wellbeing events. In our research and data businesses, this may be through creating dedicated products and content.
+
+Evidence 10
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_SR.pdf | Page 20
+
+Text:
+Our Environment In 2018, we were among the first companies to use the Science Based Target Initiative (“SBTi”), a methodology to calculate how much we need to reduce our carbon emissions by in order to do our part in keeping temperature rises below 1.5ºC, the level of global temperature rise that the UN believes helps society prevent the more significant risks posed from climate change. We’re also identifying and making investments in our properties to support this.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 4
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 4, table. Table row: unnamed_column_11 = of the goals”; unnamed_column_18 = 52%. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 6
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 6, table. Table row: unnamed_column_0 = 692. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 2
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 2, table. Table row: unnamed_column_0 = DISCLOSURE INSIGHT ACTION. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 11
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 11, table. Table row: 19 = C SUSTAINABI. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 12
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 12, table. Table row: 21 = C SUSTAINABI.
+
+Evidence 16
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 24
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 24, table. Table row: unnamed_column_0 = 217 tonne. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 12
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 12, table. Table row: 21 = BILITY.
+
+Evidence 18
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 4
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 4, table. Table row: unnamed_column_18 = content for free (p17). Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 7
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_2 = SU Em eve cus dev Info kno the con To h acc the em con Wh res our con sus spe; unnamed_column_3 = ST bed ry o tom elo rma wle wor nec elp eler spe bed tent ethe earc cus nec tain ciali; unnamed_column_4 = A ding ne ers pme exi dge ld is tion our ate t ciali ding insi r it’ h or tom tion able st m; unnamed_column_5 = IN su of o acc nt i sts t and thr s we cus he s st m rele de e s thr trai ers s th fut ark; unnamed_column_6 = AB stai ur b eler n th o co our oug del tom ust ark van ach oug nin wit at c ure ets.; unnamed_column_7 = IL nab ran ate eir nne gre h th iver ers aina ets t su of h e g, w h th an d for t; unnamed_column_8 = IT ility ds t sus spe ct p ates e co for go f ble we s stai our vent e’ll p e co rive heir; unnamed_column_9 = Y ins o he tain ciali eop t im nten our aste pro erv nab bran s, in rov nte a m; unnamed_column_10 = IN ide lp o abl st m le w pac t an cust r, a gres e, w ility ds. telli ide nt a ore; unnamed_column_11 = SID ur e ark ith t in d ome nd t s of e are gen nd; unnamed_column_12 = E ets rs. o ce,. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 4
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 4, table. Table row: unnamed_column_18 = chapters on our new SDG Online. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 20.0 percent.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 3 Greenhouse gas emissions reduction in total Greenhouse gas emissions reduction. Value: 64.0 percent.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions. Value: 55.0 percent.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 3 Greenhouse gas emissions reduction (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 55.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 2 location-based Greenhouse gas emissions reduction in total Greenhouse gas emissions reduction. Value: 36.0 percent.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2020
+
+Text:
+Company: Informa. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.

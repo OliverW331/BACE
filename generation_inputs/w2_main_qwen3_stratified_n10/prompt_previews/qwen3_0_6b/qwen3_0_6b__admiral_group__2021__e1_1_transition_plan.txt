@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Admiral Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Admiral Group's 2021 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Admiral Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_SR.pdf | Page 41
+
+Text:
+7.1 Responsible Investments In 2019, Admiral fully integrated a Responsible Investment Policy which is applicable to all investments. Progress in 2020 formally adopt targets for reducing carbon intensity and alignment to the Paris Agreement 2021 Priorities y Setting carbon intensity reduction targets for the investment portfolio
+
+Evidence 2
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_SR.pdf | Page 31
+
+Text:
+In 2019, Admiral Group implemented a Responsible Investment policy to improve the means by which we can leverage our position as a large institutional investor towards supporting a transition to a low carbon economy. In 2020 we became a member of the Institutional Investors Group on Climate Change (IIGCC) as we look to adopt formal carbon intensity reduction targets and align ourselves to the goals of the 2015 Paris Agreement. A full summary of our 2020 progress and 2021 Responsible Investment ambitions is available in section 7.1 of this report.
+
+Evidence 3
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 38
+
+Text:
+Admiral has been challenging and engaging with asset managers to define methodology which will assess our portfolios against the Paris Accord. Admiral has recently become a member of the Institutional Investors Group for Climate Change as a strategy is developed that is consistent with achieving net zero emissions by 2050. In 2021 Admiral will develop short and long term targets to achieve this.
+
+Evidence 4
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 99
+
+Text:
+Physical risks will impact many lines of business, including motor, household and travel. Transition risks, however, may have the bigger impact in the short-tomedium term due to potential changes in government policy and consumer behaviour, especially in scenarios limiting post industrial temperature rises to 1.5 or 2 degrees (i.e. aligned with the 2016 Paris Agreement). Some climate change-related transition risks were holistically captured in Admiral’s Group Strategy Review exercise, completed in 2019, and follow-on projects are ongoing to ensure that climate change is considered in setting the strategic direction of the Group.
+
+Evidence 5
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 95
+
+Text:
+• Developing targets for a subset of metrics, including for investment portfolio carbon intensity reduction and Paris Agreement alignment; and The Group considers the relative climate change merits of the companies it works with. In particular, reinsurers are perhaps subject to an even greater level of Climate Change Risks than Admiral. Admiral works to ensure that the appropriate level of reinsurance is bought given the underlying risk, from a range of strong reinsurers.
+
+Evidence 6
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_SR.pdf | Page 27
+
+Text:
+however, may have the bigger impact in the short-to medium term, especially in a 1.5c or 2c scenario. Some climate changerelated physical risks were modelled as part of the 2019 General Insurance Stress Tests, using both internal modelling as well as expertise provided by CAT model providers. Some transition risks were highlighted in Admiral’s Group Strategy Review, completed in 2019, and follow-on projects are ongoing to ensure that climate change is factored into decision making processes.
+
+Evidence 7
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 93
+
+Text:
+91 Company Overview Strategic Report Corporate Governance Financial Statements Additional Information Climate-related financial disclosures (TCFD) Task force on Climate Change Risk In 2019, Admiral began to report in line with the Task Force on Climate-related Financial Disclosures (TCFD), in order to provide better transparency around the ways in which climate change will impact the Group now and in the future. During 2020 the Group has increased its disclosure to further align reporting with the TCFD’s published recommendations concerning governance, risk management, strategy, metrics and targets. Alongside the increased reporting, Admiral Group has completed the full Carbon Disclosure Project (CDP) disclosure, has signed up to the Institutional Investors Group on Climate Change (IIGCC), and has taken part in industry-wide initiatives related to climate change risk reporting.
+
+Evidence 8
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 105
+
+Text:
+• Average ESG rating of ‘A’ (MSCI Rating). • Minimum average ESG rating requirements in our portfolios (either using MSCI or internal asset manager ratings). During 2020, we have continued to ensure all our asset managers are signatories of the UN Principles for Responsible Investment (PRI) and thoroughly review their ESG processes, with all Admiral’s asset managers scoring an A or A+ in relevant responsible investment categories. We engaged with asset managers to define methodology which will assess our portfolios against the 2015 Paris Agreement, and we became a member of the Institutional Investors Group for Climate Change (IIGCC), as we look to formally adopt targets for reducing carbon intensity and alignment to the Paris Agreement.
+
+Evidence 9
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 79
+
+Text:
+• In 2020, we became a member of the Institutional Investors Group for Climate Change (IIGCC), working to align our investment practices with targets set out in the 2015 Paris Agreement. • Admiral Group’s Carbon Emissions data was validated by an external third-party for the first time, increasing transparency around our carbon emissions reporting and Admiral purchased carbon credits to offset these carbon emissions.
+
+Evidence 10
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 105
+
+Text:
+• Requested our external asset managers to favour green bonds when they offer a similar financial profile to other issues. For 2021, our investment priorities include setting carbon intensity reduction targets for our investment portfolio, exclusions for climate change laggards, and minimum allocations to securities with clear positive impacts (for example, providing climate solutions or progress towards the UN Sustainable Development Goals).
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_SR.pdf | Page 34
+
+Text:
+Company: Admiral Group. Source: sustainability report 2020, page 34, table. Table row: unnamed_column_0 = US14; Geographical breakdown - CO2e (Ton) = -; unnamed_column_2 = 146. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 146
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 146, table. Table row: unnamed_column_0 = 68%. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 146
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 146, table. Table row: unnamed_column_5 = 68%. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 146
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 146, table. Table row: unnamed_column_7 = 76%. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 189
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 189, table. Table row: unnamed_column_6 = (11.7); unnamed_column_7 = (11.7). Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 189
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 189, table. Table row: unnamed_column_6 = 4.9; unnamed_column_7 = 4.9. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 21
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 21, table. Table row: unnamed_column_0 = R e. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 28
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 28, table. Table row: unnamed_column_1 = ll. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 146
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 146, table. Table row: unnamed_column_11 = 68%. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 146
+
+Text:
+Company: Admiral Group. Source: annual report 2020, page 146, table. Table row: unnamed_column_3 = 30%. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Admiral Group. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2018-01-01.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Admiral Group. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2020-12-31.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 50.0 percent.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 50.0 percent.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions. Value: 3.0 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 64.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 50.0 percent.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 50.0 percent.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Percentage of market-based Scope 2 GHG emissions linked to purchased electricity bundled with instruments. Value: 64.0 percent.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 1 Greenhouse gas emissions reduction. Value: 144.0 tCO2e.

@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Informa's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Informa's 2019 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Informa's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_AR.pdf | Page 167
+
+Text:
+AMIS Global Limited UK Publishing 100% Apps World Events Limited UK Events 100% Informa Finance UK Limited UK Financial management 100% Cityscape Exhibitions Limited UK Events 100% Informa Finance USA Limited UK Financial management 100% STRATEGIC REPORT GOVERNANCE FINANCIAL STATEMENTS
+
+Evidence 2
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 49
+
+Text:
+Governance Financial Statements Strategic Report This data feeds a suite of three Citeline tools. The first is Pharmaprojects, which helps biopharma companies monitor the competition and find new acquisition and partnering targets. It gives sharp visibility of the drugs pipeline: who is developing what new medicine; for which diseases; who is moving into the clinical phase, with which trials, and where.
+
+Evidence 3
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2016_AR.pdf | Page 22
+
+Text:
+For 2016, we have introduced one longstanding non-financial indicator from our Sustainability Report, and added a new measure of colleague engagement, reflecting data that became available consistently across the Group for the first time in 2016. Target: Understand and over time control greenhouse gas emissions from Informa’s office estate, focusing on our 22 largest offices
+
+Evidence 4
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 62
+
+Text:
+Scope 1 (Vehicle and generator fuels) 1,414 1,672 62 62 About: Greenhouse gas emission levels are one of several commonly accepted measures of a business’s carbon footprint and the extent to which it relies on natural resources, and we recognise the importance of understanding and controlling our contribution to climate change. Our calculations follow GHG Protocol standards and Defra guidelines.
+
+Evidence 5
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 62
+
+Text:
+Scope 2 (Electricity and steam) 8,689 7,181 6,268 7,373 Total Scope 1 and 2 12,522 10,798 7,986 9,256 Target: By 2020, we aim to cut our carbon footprint by 10% per colleague against our 2017 baseline by identifying new energy efficiency and renewable opportunities, and for at least five top 10 offices to have invested in energy efficiency.
+
+Evidence 6
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_AR.pdf | Page 31
+
+Text:
+REDUCING INFORMA’S OPERATIONAL IMPACTS Informa seeks to mitigate the physical and environmental impacts of Exhibitions and conferences run by the Global Exhibitions and Knowledge & Networking Divisions. At a Company level, Informa’s most significant environmental impact is the greenhouse gas (“GHG”) emissions arising from its office estate. The Company aims to reduce emissions from its larger offices where it controls the energy bill for the building, setting a target to decrease GHG emissions from its 10 largest offices by 10% compared with 2013. This target was not met, with a reduction of 8.2% achieved between 2013 and 2015. Informa’s total GHG emissions decreased by 8.4%. The Sustainability Team runs an annual programme of events each September that educates employees on environmentally friendly work practices and lifestyles.
+
+Evidence 7
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2016_AR.pdf | Page 102
+
+Text:
+Threshold organic revenue growth Target organic revenue growth Maximum organic revenue growth Achieved organic revenue growth 1.0% 2.0% 3.0% 1.6% Performance-related bonus Amount payable in cash Amount payable in deferred shares Stephen A. Carter £49,026 £49,026 £0 Gareth Wright £27,954 £27,954 £0
+
+Evidence 8
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_AR.pdf | Page 165
+
+Text:
+Informa Middle East Limited Bermuda Events 100% The Superyacht Cup Limited Bermuda Dormant 100% Informa Bermuda Limited Bermuda Dormant 100% IIR Informa Seminarios Ltda Brazil Events 100% Informa Economics FNP Consultoria Ltda Brazil Business information 100% Instituto FNP Brazil Business information 100%
+
+Evidence 9
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+OUR COMMUNITY Maximise the socioeconomic footprint of our major events Completed as part of the Sustainable Exhibitions Ladder Develop a guidance template for our events business on how to maximise positive community impacts ACHIEVED IN PROGRESS MISSED 8 INFORMA PLC SUSTAINABILITY REPORT 2015 www.informa.com
+
+Evidence 10
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2017_SR.pdf | Page 10
+
+Text:
+//I think these events are very important and helpful because not only do you meet like-minded people who have the same goal... greener maritime transport in the future... but also they’re willing to share ideas and knowhow// Valentina Keys CMS Cameron McKenna LLP
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2015_SR.pdf | Page 8
+
+Text:
+Company: Informa. Source: sustainability report 2015, page 8, table. Table row: 2015 = KPI; unnamed_column_3 = PERFORMANCE. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2016_SR.pdf | Page 16
+
+Text:
+Company: Informa. Source: sustainability report 2016, page 16, table. Table row: OPEN ACCESS = ACCESS FOR DEVELOPING WORLD RESEARCHERS; unnamed_column_1 = REACH. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 210
+
+Text:
+Company: Informa. Source: annual report 2018, page 210, table. Table row: unnamed_column_0 = (33.0). Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 151
+
+Text:
+Company: Informa. Source: annual report 2018, page 151, table. Table row: unnamed_column_0 = (33.9). Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2017_SR.pdf | Page 35
+
+Text:
+Company: Informa. Source: sustainability report 2017, page 35, table. Table row: unnamed_column_0 = Environment; Issue = Our contribution to climate change; Goal = By 2020, we’ll have cut our carbon footprint by another 10% per head and at least five of our top 10 offices will have invested in energy efficiency measures. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 152
+
+Text:
+Company: Informa. Source: annual report 2018, page 152, table. Table row: unnamed_column_0 = (5.3). Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 152
+
+Text:
+Company: Informa. Source: annual report 2018, page 152, table. Table row: unnamed_column_0 = (59.0). Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 152
+
+Text:
+Company: Informa. Source: annual report 2018, page 152, table. Table row: unnamed_column_0 = (21.0). Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 210
+
+Text:
+Company: Informa. Source: annual report 2018, page 210, table. Table row: unnamed_column_0 = (2.5). Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 151
+
+Text:
+Company: Informa. Source: annual report 2018, page 151, table. Table row: unnamed_column_0 = 6.3. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Informa. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 137556000.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Informa. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 101830999.99999999 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Informa. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 79376220.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Informa. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 67775000.0 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 3 Greenhouse gas emissions reduction (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 50.0 percent.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-5. Indicator: Energy consumption from renewable sources. Value: 15498.0 MWh.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions. Value: 50.0 percent.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 95.0 percent.

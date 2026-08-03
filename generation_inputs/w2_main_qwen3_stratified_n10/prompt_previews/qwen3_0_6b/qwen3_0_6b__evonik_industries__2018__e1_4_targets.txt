@@ -1,0 +1,247 @@
+Instruction
+
+You are writing as part of Evonik Industries's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Evonik Industries's 2018 reporting year, addressing E1-4 Climate-related targets, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Evonik Industries's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-4 Climate-related targets.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2016_SR.pdf | Pages 91-92
+
+Text:
+EcoVadis Gold Standard Oekom Research Prime Standard B – Sustainalytics Top 5 in the chemical industry a Selected ratings and rankings. 88 SUSTAINABILITY REPORT 2016 EVONIK INDUSTRIES G4 content index of the Global Reporting Initiative (GRI) including the ten principles of the UN Global Compact (UNGC)
+
+Evidence 2
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_AR.pdf | Page 103
+
+Text:
+1 Continuing and discontinued operations. 2 Direct CO2 emissions (Scope 1 emissions under the Greenhouse Gas Protocol) come from energy generation and production. Indirect CO2 emissions come from purchased energy (Scope 2 emissions). 3 Further information on specific greenhouse gas emissions, specific water consumption and progress towards the targets for these indicators
+
+Evidence 3
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_SR.pdf | Page 68
+
+Text:
+64 64 sustainability Report 2014 Evonik Industries
+
+Evidence 4
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_AR.pdf | Page 52
+
+Text:
+62 Annual Report 2014 Evonik Industries Management report Alongside financial and safety targets, we set ambitious environmental targets. The aim is to make a contribution to climate protection, minimize our ecological footprint, and steadily improve our environmental protection performance. We defined demanding environmental targets for the period 2004 – 2014. Thanks to our joint efforts, these were achieved in 2012, two years earlier than planned. In 2014, we set new targets for the period 2013 to 2020, taking 2012 as the reference base: • Reduce specific greenhouse gas emissions 1 by 12 percent • Reduce specific water consumption by 10 percent
+
+Evidence 5
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2015_AR.pdf | Page 78
+
+Text:
+74 Annual Report 2015 Evonik Industries We also set ourselves ambitious environmental targets. The aim is to make a contribution to climate protection, minimize our ecological footprint, and steadily improve our environmental protection performance. In 2014, we set new targets for the period 2013 to 2020 (reference base: 2012): • Reduce specific greenhouse gas emissions 1 by 12 percent • Reduce specific water intake by 10 percent.
+
+Evidence 6
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2015_SR.pdf | Page 67
+
+Text:
+Environmental targets Evonik’s strategic development focuses on a sustained increase in the company’s value. To achieve that, we set ambitious targets for finance, safety and the environment. Our environmental targets are valuable guidance for a continuous improvement in our performance in protecting the climate and the environment. We aim to achieve our targets by 2020. They apply for the period 2013 to 2020. Any deviations from these targets are specifically indicated. • Reduce specific greenhouse gas emissions 1 by 12 percent • Reduce specific water intake by 10 percent.
+
+Evidence 7
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_SR.pdf | Pages 81-82
+
+Text:
+1 All data presented in this section refer to both continuing and discontinued operations. 78 78 sustainability Report 2014 Evonik Industries Environmental targets Evonik’s strategic development focuses on a sustained increase in the company’s value. To achieve that, we set ambitious targets for finance, safety and the environment. Our environmental targets are valuable guidance for a continuous improvement in our performance in protecting the climate and our environment. We aim to achieve our targets by 2020. They apply for the period 2013 to 2020. Any deviations from the goals are specifically indicated. • Reduce specific greenhouse gas emissions 1 by 12 percent • Reduce specific water intake by 10 percent
+
+Evidence 8
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_AR.pdf | Page 96
+
+Text:
+Ambitious environmental targets Evonik achieved the ambitious targets set for its specialty chemicals business for the period 2004 – 2014 in the areas of greenhouse gases, water consumption and production waste two years earlier than expected. In March 2014, we therefore adopted new targets for the Group for the period from 2013 to 2020.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 9
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 3.8. Table extraction requires manual review.
+
+Evidence 10
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_SR.pdf | Page 73
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2014, page 73, table. Table row: unnamed_column_0 = 682; unnamed_column_1 = 3.8. Table extraction requires manual review.
+
+Evidence 11
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 98
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 98, table. Table row: unnamed_column_0 = 789; unnamed_column_1 = 830; unnamed_column_2 = 845. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 98
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 98, table. Table row: unnamed_column_0 = 353; unnamed_column_1 = 418; unnamed_column_2 = 373. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 98
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 98, table. Table row: unnamed_column_0 = 415; unnamed_column_1 = 423; unnamed_column_2 = 429. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 5.8. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 93
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 93, table. Table row: GRI 305-1 = GRI 305-4; Direct (Scope 1) GHG emissions = GHG emissions intensity; Greenhouse gas emissions T21 = Greenhouse gas emissions T21; 55 = 55.
+
+Evidence 16
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 9.0. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 6.1. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 2.0. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 19
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of market-based Scope 2 Greenhouse gas emissions reduction. Value: 50000.0 tCO2e.
+
+Evidence 20
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions. Value: 30.0 percent.
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 17.0 percent.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 2 market-based Greenhouse gas emissions reduction in total Greenhouse gas emissions reduction. Value: 5.0 percent.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Evonik Industries. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 1 Greenhouse gas emissions reduction. Value: 352.7 tCO2e.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Evonik Industries. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 1 Greenhouse gas emissions reduction. Value: 200000.0 tCO2e.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Evonik Industries. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 1 Greenhouse gas emissions reduction. Value: 355.0 tCO2e.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 5.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Evonik Industries. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 1 Greenhouse gas emissions reduction. Value: 300000.0 tCO2e.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of total Greenhouse gas emissions reduction. Value: 101800000.0 tCO2e.

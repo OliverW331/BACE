@@ -1,0 +1,247 @@
+Instruction
+
+You are writing as part of Evonik Industries's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Evonik Industries's 2018 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Evonik Industries's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2016_SR.pdf | Pages 2-3
+
+Text:
+▯ Target achieved ▯ Target partially achieved or target horizon extends beyond 2016 ▯ Target not achieved You can find a table containing an overview of our targets for 2017 and beyond on page 83. T02 Sustainability indicators for the Evonik Group The following overview contains the main indicators for our six sustainability areas of action. You can find more detailed information in the relevant chapters.
+
+Evidence 2
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2016_SR.pdf | Pages 91-92
+
+Text:
+EcoVadis Gold Standard Oekom Research Prime Standard B – Sustainalytics Top 5 in the chemical industry a Selected ratings and rankings. 88 SUSTAINABILITY REPORT 2016 EVONIK INDUSTRIES G4 content index of the Global Reporting Initiative (GRI) including the ten principles of the UN Global Compact (UNGC)
+
+Evidence 3
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Pages 54-55
+
+Text:
+Target achieved Target partially achieved or target horizon extends beyond 2017 Target not achieved 1 This target was previously listed under “Strategy and growth.” ANNEX 51 SUSTAINABILITY IN 2017 The environment THE ENVIRONMENT “In my view, the increase in energy and resource efficiency should be combined with putting a price on CO2. Pricing CO2 would channel investment and energy efficiency in the right direction.”
+
+Evidence 4
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 67
+
+Text:
+TARGET ATTAINMENT IN 2017 TARGETS FOR 2018 AND BEYOND o Reduce specific greenhouse gas emissions by 12 percent by 2020 (reference base: 2012). Reduce specific greenhouse gas emissions by 12 percent by 2020 (reference base: 2012): Status in 2017: reduced by 17 percent.
+
+Evidence 5
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_SR.pdf | Page 20
+
+Text:
+EVONIK has participated in the voluntary Carbon Disclosure Project (CDP) since 2012. On behalf of investors, the CDP annually compiles companies’ operating data and information about their climate-relevant emissions, reduction targets, and strategies. Evonik has signiﬁ cantly improved its CDP assessment since 2012 through measures such as energy eﬃ ciency-boosting programs and the implementation of climate responsibility at the Executive Board level.
+
+Evidence 6
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 13
+
+Text:
+The Executive Board bears overall responsibility for sustainability at Evonik, and direct responsibility is assigned to the Chief Human Resources Officer, who is also responsible for all climate-related aspects. The Corporate Responsibility (CR) Division bundles the strategic framework, in close collaboration with other central functions and the operational segments, and coordinates the Group-wide implementation of sustainability activities.
+
+Evidence 7
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_SR.pdf | Page 84
+
+Text:
+Energy inputs We regard responsible use of energy as equally important on ecological and economic grounds. Therefore we strive for a steady improvement in the provision and use of energy. The main drivers here are production and our integrated energy and energy management systems. Here too, output is an important indicator of our efficiency. We use a broad spectrum of technical and organizational measures to raise energy efficiency, including co-generation plants and expansion of integrated structures linking chemical production and energy generation. Third-party production facilities are included in these measures. We also consider using renewable energies. Important criteria for assessing whether we can include them in our energy mix are reliability of supply, so as not to jeopardize sensitive production processes, and cost-efficiency. Many of our energy management systems are based on the high standards of ISO 50001. Thanks to our long-standing endeavors we have already achieved a high level of efficiency, but we are still striving for an ongoing improvement. We therefore involve our employees in the improvement process through our company suggestion plan and special task forces. In addition, specialist departments such as Operational Excellence (OPEX) support our operating units in the search for further potential to raise productivity and energy efficiency. In our reporting, we distinguish between primary energy inputs, normally fossil fuels used to generate electricity and steam, and secondary inputs, i.e. purchased electricity and steam and the use of heat from production processes.
+
+Evidence 8
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2015_SR.pdf | Pages 93-94
+
+Text:
+Supplier management New target Continue follow-up of audits performed in 2015 2016 90 sustainability Report 2015 Evonik Industries Section Target for 2015 Status/target attainment Dec. 31, 2015 Targets 2016 ff. Planned deadline 2016 (annual) Initial or renewed training of around 79 percent of process-related procurement staff
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 9
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 3.8. Table extraction requires manual review.
+
+Evidence 10
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 5.8. Table extraction requires manual review.
+
+Evidence 11
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2014_SR.pdf | Page 73
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2014, page 73, table. Table row: unnamed_column_0 = 682; unnamed_column_1 = 3.8. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 98
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 98, table. Table row: unnamed_column_0 = 353; unnamed_column_1 = 418; unnamed_column_2 = 373. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 98
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 98, table. Table row: unnamed_column_0 = 789; unnamed_column_1 = 830; unnamed_column_2 = 845. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 6.1. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 534. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2015_SR.pdf | Page 59
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2015, page 59, table. Table row: unnamed_column_0 = 841; unnamed_column_1 = 4.9. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 98
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 98, table. Table row: unnamed_column_0 = 415; unnamed_column_1 = 423; unnamed_column_2 = 429. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2015_SR.pdf | Page 100
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2015, page 100, table. Table row: unnamed_column_0 = 281; unnamed_column_1 = 205; unnamed_column_2 = 188. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 19
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 365145300.0 USD.
+
+Evidence 20
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 50813100.0 USD.
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Evonik Industries. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 142277900.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Evonik Industries. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 323302400.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change mitigation actions. Value: 236340000.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Evonik Industries. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 350331000.0 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Evonik Industries. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 350331000.0 USD.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2014
+
+Text:
+Company: Evonik Industries. Reporting year: 2014. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 142277900.0 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Evonik Industries. Reporting year: 2015. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 267413599.99999997 USD.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Evonik Industries. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 40966400.0 USD.

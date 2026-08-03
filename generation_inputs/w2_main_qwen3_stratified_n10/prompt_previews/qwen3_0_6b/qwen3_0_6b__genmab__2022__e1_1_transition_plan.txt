@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Genmab's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Genmab's 2022 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Genmab's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 75
+
+Text:
+Genmab intends to commit to and set a Science Based Target to reduce our emissions in line with the Paris Agreement goals. Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets. Carbon Emission 2021
+
+Evidence 2
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 74
+
+Text:
+Describe the impact of climate-related risks and opportunities on the organization’s businesses, strategy and financial planning. Climate-related risks and opportunities identified will be considered and integrated as part of Genmab’s ERM, financial planning and strategy. To play our part in mitigating the physical impacts of climate change and curbing warming, Genmab will commit to a Science Based Target, to reduce our greenhouse gas (GHG) emissions in line with the Paris Agreement.
+
+Evidence 3
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 73
+
+Text:
+Climate-related financial risks and relevant prevention and mitigation measures will be reviewed and endorsed by the Global Compliance and Risk Committee. Strategy Describe the climate-related risks and opportunities the organization has identified over the short, medium and long term. Genmab has conducted scenario analysis on the potential transition and physical risks and opportunities related to climate change, at 1.5–2°C and 4°C of warming, across our value chain, in the short term (2030), and medium/long term (2040/2050). Below is a brief summary of the key potential risks identified:
+
+Evidence 4
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 58
+
+Text:
+Climate Genmab’s inability to manage the carbon footprint from our busi ness operations; climate-related events may impact our business operations or that of our third-party partners or suppliers. In 2021, we committed to an assessment of our carbon footprint and have implemented the TCFD recommendations. We calculated our Scope 1 and 2 emissions in accordance with the global standard for carbon accounting, the Greenhouse Gas Protocol. This calculation will serve as Genmab’s starting point in establishing the baseline upon which to determine climate ambitions, targets and emissions reductions. Genmab’s Scope 3 emissions will be formalized in 2022 to determine the total greenhouse gas emissions footprint. Genmab also conducted a scenario analysis to evaluate our risks and opportunities due to the rapid pace of world climate change. Genmab’s climate strategy, progress toward carbon reduction targets, climate-related financial risk, relevant prevention and mitigation measures will be presented to the Board of Directors biannually.
+
+Evidence 5
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 29
+
+Text:
+Strive to have a minimum carbon footprint in areas of our business where possible; Commit to a Science-Based Target initiative for CO2 emissions to align our business with a future where warming is kept below 1.5-degrees. 2021 Targets • Establish Genmab’s first carbon footprint and develop climate ambitions and targets.
+
+Evidence 6
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 38
+
+Text:
+Carbon Footprint and Climate-Related Risks Genmab’s inability to manage the carbon footprint from our business operations; climate-related events may impact our business operations or that of our third-party partners or suppliers. In 2021, we committed to an assessment of our carbon footprint and have implemented the Task Force on Climate-related Financial Disclosures (TCFD) recommendations. (Accessible as part of our 2021 Annual Report). We calculated our Scope 1 and 2 emissions in accordance with the global standard for carbon accounting, the Greenhouse Gas Protocol. This calculation will serve as Genmab’s starting point in establishing the baseline upon which to determine climate ambitions, targets and emissions reductions. Genmab’s Scope 3 emissions will be formalized in 2022 to determine the total greenhouse gas emissions footprint. Genmab also conducted a scenario analysis to evaluate our risks and opportunities due to the rapid pace of world climate change. Genmab’s climate strategy, progress toward carbon reduction targets, climate-related financial risk, relevant prevention and mitigation measures will be presented to the Board of Directors biannually by Genmab’s CSR Committee. The integration of climate-related financial risks into Genmab’s ERM program will be reviewed and endorsed by Genmab’s Global Compliance and Risk Committee in 2022.
+
+Evidence 7
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 3
+
+Text:
+Our Strategy Commitment to Building a Sustainable and Socially Responsible Biotech A message from the CEO As the world turned its attention to the urgency of climate change, Genmab was concluding an internal assessment for our climate ambition and target-setting, and eventual carbon reduction strategy in line with the Task Force on Climate-related Financial Disclosures (TCFD). The work focused on assessing Genmab’s carbon footprint, covering ‘direct’ Scope 1 and 2 emissions, in accordance with the Greenhouse Gas Protocol.
+
+Evidence 8
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 74
+
+Text:
+Describe the resilience of the organization’s strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario. Genmab has conducted qualitative climate-related scenario analysis. Four scenarios spanning 1.5–2°C and 4°C of warming were developed based on Intergovernmental Panel on Climate Change, International Energy Agency and other sources, and Genmab’s risks and opportunities across the value chain in the short, medium/long term were assessed.
+
+Evidence 9
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 73
+
+Text:
+Description of potential risks identified 1.5–2°C, short term: ― Transition risk resulting from emerging certification, regulation and carbon taxation, pricing and tariffs, and related costs Describe the impact of climate-related risks and opportunities on the organization’s businesses, strategy and financial planning.
+
+Evidence 10
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 75
+
+Text:
+Genmab’s Scope 1 and 2 emissions total 638.7 tonnes CO2e in 2021. Emissions reductions will contribute to the mitigation of the transition risk of carbon taxes, pricing and tariffs. In connection with our intent to commit to and set a Science Based Target, Genmab will begin to inventory our Scope 3 GHG emissions.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_3 = 220. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_4 = 39. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_0 = 193. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_SR.pdf | Page 20
+
+Text:
+Company: Genmab. Source: sustainability report 2021, page 20, table. Table row: unnamed_column_1 = 337. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 17
+
+Text:
+Company: Genmab. Source: annual report 2021, page 17, table. Table row: unnamed_column_0 = 874. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 40
+
+Text:
+Company: Genmab. Source: annual report 2021, page 40, table. Table row: unnamed_column_2 = Table of Contents. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 12
+
+Text:
+Company: Genmab. Source: annual report 2021, page 12, table. Table row: unnamed_column_2 = Table of Contents. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 14
+
+Text:
+Company: Genmab. Source: annual report 2021, page 14, table. Table row: unnamed_column_2 = Table of Contents. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 17
+
+Text:
+Company: Genmab. Source: annual report 2021, page 17, table. Table row: unnamed_column_2 = 1,431. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2021_AR.pdf | Page 17
+
+Text:
+Company: Genmab. Source: annual report 2021, page 17, table. Table row: unnamed_column_4 = 661. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 0.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for gas-related economic activities ESRS E1 Climate change. Value: 0.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Genmab. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 82211.43354107399 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2022-01-01.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of Scope 1 Greenhouse gas emissions reduction (as of emissions of base year). Value: 16.9 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for oil-related economic activities ESRS E1 Climate change. Value: 44782866.741 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Net revenue at material transition risk. Value: 784972192.62 USD.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Market-based greenhouse gas emissions. Value: 393.8 tCO2e.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of Scope 1 Greenhouse gas emissions reduction. Value: 58.1 tCO2e.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Genmab. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Absolute value of total Greenhouse gas emissions reduction. Value: 244.9 tCO2e.

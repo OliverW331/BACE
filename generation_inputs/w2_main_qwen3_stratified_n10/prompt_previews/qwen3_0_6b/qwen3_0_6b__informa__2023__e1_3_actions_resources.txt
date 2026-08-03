@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Informa's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Informa's 2023 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Informa's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2022_AR.pdf | Page 116
+
+Text:
+External audit External audit update External audit plan for full year and half year Audit and non-audit fees Independence Effectiveness Management letter External audit tender and transition planning Key Full review Update INFORMA PLC ANNUAL REPORT AND ACCOUNTS 2022 114
+
+Evidence 2
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 9
+
+Text:
+S T R A T E G I C R E P O R T Physical events disruption Informa Markets, Informa Connect and Informa Tech generate a majority of revenues from activities linked to events that match sellers with buyers in specialist markets, enable businesses to showcase and source products, deliver high quality content and training or facilitate networking and learning.
+
+Evidence 3
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2022_AR.pdf | Pages 127-128
+
+Text:
+Digital Growth and Transformation aggregate outcome 20.9 Strategic Report Governance Report Financial Statements Company Information 125 INFORMA PLC ANNUAL REPORT AND ACCOUNTS 2022 Directors’ Remuneration Report continued 2022 Short-Term Performance Tracker (continued) STIP measure Targets Outcomes Score (out of 5)
+
+Evidence 4
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 91
+
+Text:
+£m £m Total2 £m Publishing book lists and journal titles £m Intangible software assets £m Database and intellectual property, brand and customer relationships £m Exhibitions and conferences, brand and customer relationships £m Sub-total2 Cost Key assumptions and headroom 2020 £m 2020 2019 2020 2019
+
+Evidence 5
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 30
+
+Text:
+Informa Intelligence Specialist data and intelligence vehicles and other infrastructure assets. Through brands such as EquipmentWatch, PriceDigests and FleetSeek we serve construction businesses, government and state departments and those who sell, lease, finance and insure equipment, helping them make high value decisions in investment projects.
+
+Evidence 6
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_AR.pdf | Pages 82-83
+
+Text:
+1. www.informa.com/climateimpacts/ 2. www.informa.com/sustainability/sustainability-reports/ 3. As the 11 climate risks identified are viewed as immaterial, metrics are not tracked at a Group level INFORMA PLC ANNUAL REPORT AND ACCOUNTS 2021 81 Strategy We believe there are ongoing opportunities from supporting customers to understand and manage the impact of climate change in their businesses and markets.
+
+Evidence 7
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_AR.pdf | Page 95
+
+Text:
+Capabilities, people, products, platforms Multi-year Group strategy plan Multi-year divisional strategic plans created Three-year financial plan From which three-year financial plans are formed by Divisions Tested against economic instability Tested against market risk Tested against inadequate response to major incidents Plan tested against the three principal risks where, in a severe but plausible scenario, impact of risk valued at over 5% of EBITDA
+
+Evidence 8
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2022_AR.pdf | Page 116
+
+Text:
+Compliance Fraud review Anti-Bribery and Corruption Policy review Whistleblowing (Speak Up) reviews – Board also has update at each meeting Tax review Pensions review Treasury Policy and compliance Terms of reference review Internal Audit Internal Audit report Internal audit plan Effectiveness
+
+Evidence 9
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_AR.pdf | Page 31
+
+Text:
+DISCLOSURE INSIGHT ACTION A- 2020 rating In the run up to the COP26 UN Climate Change Conference, the Sustainability team ran a Company-wide video campaign to explain key climate-related terminology and published infographic summaries on Informa’s FasterForward progress so far, to help everyone feel confident talking about sustainability to their customers and within their networks.
+
+Evidence 10
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 25
+
+Text:
+We believe the actions we are taking are helping us manage and control these impacts in a suitable manner and will be publishing more information in future reports. For more, see informa.com/eventcarbonfootprint WWW.INFORMA.COM/SUSTAINABILITY 46 INFORMA PLC SUSTAINABILITY REPORT 2019 44
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 2
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 2, table. Table row: unnamed_column_0 = DISCLOSURE INSIGHT ACTION. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 6
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 6, table. Table row: unnamed_column_0 = 692. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 63%. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 86%. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 66%. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 82%. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 11
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 11, table. Table row: 19 = BILITY. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 7
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_2 = SU Em eve cus dev Info kno the con To h acc the em con Wh res our con sus spe; unnamed_column_3 = ST bed ry o tom elo rma wle wor nec elp eler spe bed tent ethe earc cus nec tain ciali; unnamed_column_4 = A ding ne ers pme exi dge ld is tion our ate t ciali ding insi r it’ h or tom tion able st m; unnamed_column_5 = IN su of o acc nt i sts t and thr s we cus he s st m rele de e s thr trai ers s th fut ark; unnamed_column_6 = AB stai ur b eler n th o co our oug del tom ust ark van ach oug nin wit at c ure ets.; unnamed_column_7 = IL nab ran ate eir nne gre h th iver ers aina ets t su of h e g, w h th an d for t; unnamed_column_8 = IT ility ds t sus spe ct p ates e co for go f ble we s stai our vent e’ll p e co rive heir; unnamed_column_9 = Y ins o he tain ciali eop t im nten our aste pro erv nab bran s, in rov nte a m; unnamed_column_10 = IN ide lp o abl st m le w pac t an cust r, a gres e, w ility ds. telli ide nt a ore; unnamed_column_11 = SID ur e ark ith t in d ome nd t s of e are gen nd; unnamed_column_12 = E ets rs. o ce,. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 95%. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 25
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 25, table. Table row: unnamed_column_0 = toactrrsoEe toactrrsoEe Tsialechas Tsialechas nn ee 33; U a a U a a aa uuMM vvoo nnee uu ccEErr gg ii rr ll kk rr AA yyii ll n n n n nn ee ii nnII II EE ggnn nnRR nn gg nn ff ff ff yy ttoo oo rr aa oo vv oo rr rr nn dd mm mmmm ii ee ,, rr xx SS dd aa aa oo ee aa cc uu GGeedd nn ss ff eeiiee rr tt vv mm oodd aa ww vv ii ee uu ss aa ii ee nn iidd pp ee ooxx aa oo ,, nnpp nn bbLL zz ee ii rr oo rree cc tt ee ll cc ii uu nn nntt tt cc nn yy ddaa aa oo ss ss ttooMM tt tt ii nn ee nn nn tt oo aa eevvnn tt nn nnee tt ss ii ii aa ddnn nn gg eett tt uu nn ee ss aa ee rr ssoo ee ,, fftt dd ’’ oovv ss nn aahh gg rruuyynn iinnddgg ii dd rr eessdd oo ii mm zzssee ooss ii ,,ff nn nn pp gg aa cc tt EA••• EA••• mmnnUVFUVFooeebbssee rrnneeii tt rr uuaaLLii lleeooggEEll ssnnDDee yy ll sshhssee aa cc uuffvvoottrreerrss ii cceeaaee iittllnnllyy eelloo iittrrggoogg ffhh yybb tt vviimmeenn eeggffaarrnn nn ooaamm uu gg eerr ee mmeenneeeennwwtt aappbbllaalleenn ssssoouurrcceess WWEELLCCOOMMEE AA GGRREEAATT EELLVVEEVVEEEENNLLTT 11 AEAEVV GGEE SS RR TA••E••• TA••E••• NNEE TT xx ii mm AA zz eeIS WTS IS WTS s sscE s sscE TT aa nn ee aa e hw e hw h e h ehhxx bb mm aacc ee rr ee pp oo vv ii eeii oo iirrff bb ’’tt kk ee rr tt oo ww mm ttee ppcc ff HHoo ee ii rr hh aatttt oo llss iiEEaa nn eeoo ee oo mm ii ss ,,ee nn aall nn aa ss ee ssddee hh mmoo ssss ss pp ll uudd mmtt hhtt ooffff tt aa hh oo cc oo iioo ooaa uu ssss cc hihi rr ssnnII ww cceerrtt ee nnaa tt ss uuaa tt dd uu ss ee ggii (( ss mmssssoo ee %%,, ss rrWW uu ss ll nn mm ss ee eePPooii ss uu oo ssee ddhh CC aa tt rr ooii cc nn aass ssiieeaabb oo ff eehh ss tt nn ii ss rryy nn ,,nnss nn ssii mm oo aa ww cc uu uuaa dd tt tt 99 nn aassss rr bb ss ss aaii 00 oo tt rr ss tt tt LL pp ll EE%% hh bb aa ttaeae ll ee uu ff aa ii 11 ii oo rr rr oonn aa nnmm ccrrbb oo ))nn aa oouu tt kkaa aa yy mm hh 33 oo pp SS bbrr bb oo PA•E•• PA•E•• EE vv ttee dd eell ll xx ii hh ffffaauu mm ee eeflfl rr zz aa ee EOP EOPssesse ee 33 aa kk oo ss rrss ee ii uhuh ss nn EE vvhh hh hhgg bb iioo uumm eehh pp tt ll nn eesoso xx ss ee aa hhoo oo oo oo pp ii tt rr oo tt gg nn pp %% uutt ww ee rr ll pp ff tt tttt aa ff ee tt PP ww ii mm ee ss tt ee oo rr pp hh ooll tt tt ssii ,, ii rr aaeeeenn hh ll llrr mmpp ,, rr ee nn hh ss tt aaaapp aa ttoo ssaa GGeeee rr aa ii ff aahh pp ss rr cc pp nn ee iibb vv aa ll rr nn oo ttvv rr ii aa llrr ss ii aa ttee ll ss rrmm oo ddee ttyy ee pp cc pp aa cc ee && ii rr ss yy ee kk aa nn rr oo iiaa cc nn tt ss cceenn ii rr mm gg eeTT ll nn EE rr bb BBuuss (( aarr.. II tt %% rriiuu tt ee nnbb tt mm rr uu tt aa rrii tt aa rr ..aa nn iiffyy rrttii nn fifi nn oo oo oo ll bb hh CC aa dd gg dd 11 dd eepp dd rree vvee yy oo cc mm44 uu dd aa ee ee rr iiss nn rr %% sshh ,, nn ll oo PPaa rr .. tt ee rr dd mm eerr ooee uu bb ss aa oo ddccll yynn ee iiee ll rr uuyycc dd 11 nn ssccyycc ee ))ww ll tt eeUUeeaaiiss 11 rr ddiiddssBBtt ee cc kk tt aall MMpphh yysshh %% aa ii nn eessFF nnaapp hhSS ggrrcc dd ee CCooeeaa rrtt ww-- rr oocc rr aa nn bb HH oo ee ssnnrroo cc mm ee OO ee ttddnn yyoo cc TT ww pp cc aayy ii EE ssll mmllccll ee iieemm LL aall ssdd eeppeenn oo pp dd kkaa pp ttss ..cc aaaa pptttt pp aa aa pp oo ee ppllffll rr ee ee iittrr rr ss.. ss SS PA•E•• PA•E•• xx ii mm zz rrFOM FOMrr aa eeee iioobbnnuummoouu oo iiddrrrrss mmttpp eeff eeSS iiaa ooll ii ll 33 eess mm eeoo nnssoo hhss 22 eerr ooss ppoo pp ttll rr uu aawwee ii ++tt cc oo ccss ii yy oo tt,,EE nn ccss nnaa (( 44 %%lluuttii aa nn ff 55 ccssoo gghhCC hh llrr .. oo ooaa llaaaaww nnss nn nn tt IIrr yyppFFoo aadd SSiill ll rrooEE dd 11CCtt llss )) ee,, aa dd 00 tt aa hhnn rrbbaa eeaa .. yytt ccmm 33 ccaa oo rrbbll ee ll rr eeoo %% aadd ccoott tt ee ii ss llnn ssaa ggnnzz eeyyllaaaarroo nnrrdd yy ww aass..aa rrdd sstt ss ee ff oo SS rr SA•E•• SA•E•• xx ii mmii zz F MO F MO a rauh a rauh aa gg ee ee oon r n rsasa bb uu mmaaeeuu ee rrd r d r nn oo ii rrnn mm ss tt pp nn aa ooff tt eeBByy iiaa lloo oo oo ll ffffii ll ll eess mmuu ttaa tt nnggss PPhh bbsshh llcc ii dd ss VVpp gg ee ee ee oo mmkkaaCC nn ii aa wwrr rr HHtt aa aa cc ee ee uu ff ssss ttaarr gg tt cc dd,,ii eeee ggtt eeyy ss (( ss rr ee%% aann cc EEuu ii ttee aa ll nnssuu oo bb eecc ll dd dd CC..rrhh IA•E•• IA•E•• dd aaff bb oo rr nn xx nn oo mm ttooaa ee aa F UI F UI z rds z rds pphh aa nn nn bb nn ee ss ee mm tt oo ff ff ii ee bb BB mm aa mm aass tt ee tt gg rr oorr LL MM ee yy rr tt pp ii MM tt oo rrhh ii tt yy aa aa oo iisspp rr aa ssbb oooo rr aaAA ii ee ss dd tt ll ww ,, lloo ll uu II rr ii ss nn ll rr ss ee mm GGaa nn 11 ee rr aa VVaa nn nn aa ss aapp ss eerr ss aa )) IInn ee eettbb ss ff EE ss aa CC dd ii ll ff tt ffrr 11 dd tt ggoo ss aa llMM rr oo oo oo uu ee ee oo aaoo aa tt ii nnrr nn mm ss cc EE yynn ss rr %% ff rr iibb mm gg ss ee AAee,, nn oo dd ee tt ee mmss ss aa gg ff gghh oouu hh WW uu hh ee rr ii aatt aa ssccll aa oo nn ss oo hh tt bb ttkk ssoo aa ii ss tt uu tt rrww ee pp yy aa ttrr aa ll ii rr ww rr uu oo ll tt ll ss ii ss ee ee tt ddii nn ee rraa nn ii hh oo nn hh CC oo ee rr mm aa rr lloogg oo rr llss aa ll nnee bb ee ii kk iieeff ss ww nnuuaa vvuu ll ee vv bb CC ee gg ee rrnn wwss dd ii bbbb ii uu oo tt ee ccnn mm tt pphh oo yy uu ii nn ee ww hh ss gg ll uu .. uuiidd aa ii .. cc cc ee ll ii oo rr tt tt tt rr ss tt hh ii hh cc hh nn ee ee .. bbll nn hh ee ss rr tt ddyy GG tt ee ii aaoo yyhh aa ,, ssEE II ll ll ii nn vv ss ee ss SSee tt ff dd oo ddtt oo rr ww rr tt mm hhccaarr aa eetteeee oo tt iiaarrss oo ttssrree ee gg uu ll nn ee fifiee nn llee lloo ww ee ff = h h h h eeuu o o o o uu uu tt nn n n n n n n v v v v hh rr uu uu aa ccaa pp aa oogg nn e e e e r n r n s s s s vv d d d d d d ii rr nn ll dd kkss rrtt aauu oot t t t uu n n n n ii ss dd pp ii ee rr ee a a a a ii t s e t s e nn mmnn ii yy rr ss dd t t t tnn oo hh ssrr ss ii pp hh ii iixx s s s s tt ee aaii ll n n n n ii ee gg tt pp nn ssee ll aaoo nnee oo pp aa nn ss aa ee m p m p aa aa dd ee mm oo aa rr ccggll hh ee rr rr ee rr nn dd b b b b oo dd ss rr ee ,, ii nn pp ee ss oo rr aa nn ee tt ssss ee pp ii ll ss ee ww iioo ss dd pp ll ll ee rr tt rr .. oo vv ee ss nn ss ii yy llrr ii hhpp ee ee ff tt aa ii ee rr nnTT ii ii nn ff ss (( tt nn ee rr yy bb oo aa aa ddoo ss cc ii ’’ hh ss cc CC oo vv nn –– gg xx tt ii ll nn oocc tt aa nn tt uu nn ee ii ee hh ee 44 nn oo ii ll ff tt ee rr ss ww cc nn cc ss yy ss oo ii .. 88 ee oo 00 mm nn tt aatt nnhh ss ii ff mm tt OO rr ii uuhh hh bb 00ll ssee ee mm tt aatt cc ww aa wwmm ee tt ee ss ssee aa hh %%ll rr ff aa ee tt ii rr oo ee nnoo nn aa aa nn ee ii tt gg kk aa mm nn cc pp ee oo tt gg yy rrtt aa ooww nn tt rr cc oo ee ee hh .. uu nn nn aall ,,cc mm uu ss ee oo bb oo ff cc ddss .. uu ee aa tt vv ll oo CC ..,, nn eerr ll mm oo oo WW ss ,, rr yy oo uu ii ee ii OO mm oo ee cc aa ss rr mm nn ss uu pp ..uu uu rr ss ll ee oo ee iimm .. tt ee uuii ii LL tt mm rr aa ee rr// mm nn oo pp ssss BB nn hh oo ,, ss rr aa kk rr aa mm ee gg oo ii aa uu ii mm uu ii aa nn ff tt ss nn nn aagg oo tt nn uu vv rr cc .. ii nn ss tt tt ee uu tt tt cc oo oo tt oo ee ff tt ee dd tt hh ee tt ee aa uu yy tt aa nn aa ww nn mm hh 55 oo nn aa ii oo hh ee rr eeee kk ll ii ccll gg tt 00 ii ee ff tt aa ee tt ff ee aa nn ee nnff hh ss iimm aa rr ii oo ll 00 ttrr ss ss rr oo ee rr pp ss ee aa cc aa hh ll cc ll cc oo tt uu ’’ yy ss oo uu tt tt ee bb aa ii ss oo iinn tt aa ee mm nn oo ffmm rr rr ssii rr ss tt llaa mm ii rr gg nn ss aamm ee gg nn ll ee tt oo hh pp nn ee ee uu aa pp ww dd aa bb bb xx ss ee oo ee mm vv aa tt oo ,, dd rr ss aa ee ttaa uu pp hh ii ee gg vv ee tt ffvv tt s s tt cc nn tt nn oo tthh ss aa aa ss eeee ee ee nn ee oo oo ii tt mm hh aa tt tt hh tt oo ee nn ii nn nn ss tt uu ii oo nn BB aa tt aa ee dd oo ee ss oo tt rr dd dd oo dd tt ii rrff ii aa 22 oo ss oo ss vv nn nn ww mm ee ee rr eeii ss bb ee BB )) ss nn ee ee mm .. vv aa dd ee tt oo ss vv aa ii aa nn ee hhbb ll ss oo uuee ii cc rr aa ss aa tt nn tt pp iill ff kk rr nn uu nn rr ss kk ee nn yy ttaa oo ccee ss ee tt rr gg ss dd tt ii cc ss kk ss tt vv oo nn ss tt ee ,, ss ii ee hh ll gg ,, bb ll yy ss ee eess ii rr SS E••• E••• xx iizz M1O M1O lr(2 lr(2 aaii 11ee ee gg44 uu mm yy// AAnn hh 33ooeerrEEGGeettpp aaff uuii YYoowwIInn ll rr CC ii rrPPff ee mmss ggaaoo IIII ss ,, ss bb nn ppww bb ppaa hhllffeeeeoonnaa ii oo oottaa aaddcc hh rr wweennmmtt tt nnpp LL ss aass (( eeaa EE ll%% hhhhnn aarr’’ DD ssoooo nnggdd ss CC wwyywwtt oo MM oo..tt oo ssss nn hh tt GG nnaahhaa rr aalltt MMoonnaa rr ff uu 33oo vvddoo ii ee55 gg ll ss nn cc %% hh 11ssrr vvooii)) oo ee ee ll uu rrdd 44 uuss ffee nnuu tt uu tt dd ttee eecc MMii 44 uu ddnnlleesscc ggaa dd)) tt tt nnoo iibb %% ccttoo ggdduuhhyynn eeaa rreenn ttrrll bbii aahheerreeyy yy eennaaff uu rr 22rrttBB llllee00 ttyyyy aaoo ll 22 yy cc11 uu11 ..rrhh00ss ee .. oo%%aa ppoogg ll oo aasseeeecc vv ee ee rr SS CA•E• CA•E• xx ii mm zz S A S As fmR s fmR aa aaoo ee iioo eett bbnnmm tt iioott uu mmccoo eeggii dd ee rr ttrrppllnn ffoo ii oo ee cc oo llaa rr dd ii ee bb -- dd ee mm tt nnuuee ii rrss ee cc ee nn ssss eeeepp aaee ffvvsswwaaaa ttgg ee eepptt cceessnnee rr hh ll rrtt aa ooii ttll yy nn iillss (( ss oo %% ..uu ggrr tt tt nnooBB ii ss gg ccll oo rr CCss ssttpp oo aa hh cc hheeoo aaaa aaooeett nn nn cc ll ddyywwuu ll tt kkyy bb rr ii ppww aa ooii ss aa aa nn ggaaooll nn nnee ii ccnn 11 nn nndd dd rr)) dd ttgg ee tt WW ss 33 hh aahh uu sseeee bb oo ss eeaa rr tt %% ssdd yy llll aa ttddhh ii hhii nn oottFF II iiss aa eewwoo nn bb rr mmrr ,,flfl ll uu ff yy lleeoooo oo mm ,, aa oocc ww tt rr aarrii-- ii nn llff mmtt aallrr hh vvyynneeii oo ttsseedd aa ee uu oo ooddoo tt uu pp uurraattccrr ii eellooooddnncc ssaa..ll SS CA•E•••• CA•E•••• xx ii mm zz F FSIA F FSIA cc s h cc s h aa aa nn ee aaaa ee i r i rooooll bbnnmm mm rr ee rlrl eemDmDmm ll oo iiddpp eeee pp kk tt pp oouu ff mm ee ee iidd ss ee aa oo ll ssbb ee ii tt ss ee mm tt tt UU SSaa nnss aa.. oo aa ss tt aa EEnn uu BBii ss pp ss ,,ll BB rr ,, s s MM ll aa cc uu ee pp tt ooII ooaa aaGG cc uu aa nn uu ssrr ssii tt ss rr nn pp eehh rr tt ee ee (( aa eeoo %% oo oo EE cc bb tt dd ww uu ff ff aa ll ii CC ee rr oo ss aa ssrr oo 00 pp bb nn uu oo rrhh ss pp eeee 77 rr oo nn aa ii yy ee tt nn cc ll tt llvv uu aa aaoo rr uu dd ee oo rr ttII nnvvpp uu ii gg nn ll ttee oo ss rr cc ee 11 ttrr nn ii tt aa ooss ff aeae )) rr rr tt yy oott lldd 55 11 pp ll oo-- ccee 00 ww eeaa rr oodd dd ttnn nn ii %% tt mm iidd iicc iidd ss ttmm ss aa ee rr pp uu aarr rr aa ee oocc pp ee cc ssss ooss tt cc eeee.. aa oo ll yy ttdd llbbaa --rr cc ffss bbll lliirr ee eenn ee oo ii dd nn ee eess rr aaxx cc aa ttaahh hh hhtt ff ii ii ttoo eess iioo ee bb ll oo nn ee rr UU iitt ll ss eess ii SS oo .. vv ,, oo nn eerr nn ttss.. SS OA•E• OA•E• xx ii mm zz I W I W ao fs ao fsaa rrnn rreehh nnffbb eemmcc ee gg ii ddll ooiipp iirroo gg tt ww eeaa pp ffpp rrccii hh aaoo llee ooaa iiii nn eettnnmm ssddnn llrrssaa ee ggkkssuu iiss pptt ,, uu ssoo cc ww aaccoo ppeeuuee oocc iiuu SS pptt rroo nntt hhtt rr ll ii uuuuii gg zz (( oo ee %% cc ss ee rr ee ll ff rr 22 oo ee oo ss ssaa tt oo nn 77 ttCC oo mmoo ii gg ff ttoowwoo ff rr ii oo nnaa ii mm nn ss nn uu ss cc uu ttaa tt pp nn rrww ttss nnoo oo aa ttttii aarrdd aa ll cc oo cc ssrr 11 ii eepp nn tt ff ss ww )) hhoo aatt (( 11 %% rr hhoo bb ll aa lloouuuu ll nnee CC tt 00 ssss ss iiee tt oo oo ee pprr ssnnee nn aaoo %% ..kk.. tt nnrr TT rr ttss tt oo hh oo pptt ll ii hh ss oo 11 cc rr rr rroo )) oott eenn 33 uumm ddss gg uuoo hhee %% ccll tt iiee tthh dd hh ss oo aa ee tt dd ee uuss ssee 88 IINNFFOORRMMAA PPLLCC TTHHEE RROOLLEE WWEE PPLLAAYY 22001188 NNTfiWsTw TfiWsTw ttoo tt h h h h ee aa iiee rre e e e ss '' kk oo vv aa aaii ee n g n gee mm rr tt rrhh uu tt ee yy ssaa pp oo mm pp hh ee pp uuoo ll ii oo ddhh bb ss ccrr ss ww iiee aatt ii ee nn cc aa rr llrr nn gg ss nnss aa ee tt tt bb ttuu vvoo hh hh ee oo tt nn nn ee eeoonn vvdd mm tt ee tt oo rr ee hh ee bb vv rr ss ii ttcc ss ss ee aa hh oooo tt rr sspp ooaa aa gggg ee ww aa nn ll nnuu dd ll gg dd ss iiii ii eessdd oo mmiitt ee tt ee nn hh ss pp hhtt ss eeoo aahh aapp oo uu rr cc ees l s l ww eeii rr tt rraa tt .. ll ee dd mm aa ee bb eett iiss yy sspp iicc tt v v cc iill iiaa ee mmee ss oo ii ll nniioo ooaaaa mmnn tt ffttrr rr eegg pp mm oo mm ssee aall oo ,, oo ccaavv rr aatt ff kkaaee nnooiirrtt nn hh dd ttii ff aahh gg ee oo tt tt aa iiaa oouu ccoonn nn aa rrtt nn dd 55rr hhee bbbb00 eevvtt oo yy ooee ee rr nn nn ii eevv hh gg tt eevvff ee hhss ooeenn ll..tt oo ppnntt sstt ttpp ..bbrruuiinntt tt C C C C C C o o o o o o n n n n n n t t t t t t r r r r r r o o o o o o l l l l l l 1 2 3 1 2 3 AAtttteennddeeee ttrraavveell 6600%%; unnamed_column_2 = 1144 SS EA•E•• •• EA•E•• •• xx ii mmxx zz W CC FT W CC FT e rsbrbap(“ e rsbrbap(“ aa GGBB e e e e ee tt uuhh nn xx oyr oyr PoPo bbhh mmaa oo g s g s eeaall hh rree ddtt hhss oooo ii 55 nnuu uu rr nn ss hh cc ttii mm ss ii pp II bb kk ff 00 bb dd tt cctt ll ii ll ii ee bb tt aaWW oo ttii ll rr aa hh%% ii ii oo PPcc ii eett uu tt mm eessnn tt nn aall oo eeee ii ii pp rr ii ssoo ,, tt rr dd oo gg oo AAll tt aa wwss aa rr ee pp ll aarrrr tt uu nn uunn sscc pp oo oo hh ll ii hh ss aa aa dd nnCC cc sstt ccss ee ff ss rree rr ccii eeww oo WW rr tt hh ccoo ttdd rraaAApp ll uu tt dd aa cceepp ..ii ss eeuu nn ss nn ssrriirr ii(( nn ss dd ee ll aa ee gg tt %% eeii ’’ aall pp aaee dd hh dd ee ttii vv hh ss aa nn ddrr ii ss ss ee hh ee.. oo aa ee ii ss UU CC tt tt ss ii ii nn SS nn nn ww ii ii hh rr vv gg mmmm BB oo ss uu ttlldd ee eehh mm hheeii ffnn MMss nn nn oo aaaa pp iill aaii AA rr tt ii tt cc aagg kktt tt ggrr rr dd aa PP gg hh ee ii ss oo xx oo iihh nn ttii iitt nnuurr LLdd nn ii nn hhll hh tt aagg mm oo ss ggFF ss ss aa gg 22ee ee rr rr uu tt ttaa bb uu ee LL )) eess aaaa hh tt EEpp uu ttee ll dd rr mm 99 nnii bbeeoo ee aa vv nn ssiiaauu ww aa ddee nn uu ee aa uu EE tt ll sscc ll nnii hhdd rrss 99 bbrr xx ee nn ss tto t o t ttee eeaa ii mm ll ee hh tt ff oobb ee ttww oo II nnrr iinnhh dd nn ss uu %% oo bb aa dd ss && aa ii ddee ii ii ffii ii tt nn tt ss iill nn rr tt nnddaa hh uu dd ii ppMM dd tt aa UU nnnn ss rr ee ss ccii oo ssss ss FF oo gg aa tt nn a d a d ii ttff ssgg pp rrIIbb ”” ddttaaaa uu ’’yy aa ss hhee aa oodd ee aa uu ssnn ss )) bbrr ww tt ss ttss ww eecc dd 22 iill ee ssaa tt ttaaeeee aa 00aa oorr oobb wwll rr,,ss 11rr ff ll dd 33 dd aa ss ee 88 hh ww ssaammss .. aa .. ttff aa eeee,,vv ss ee rr tt ee SS EA•E• • EA•E• • xx ii mmxx zz ElcWwsrBtc ElcWwsrBtc aaoo rree ee o o o o hh nn yy bb uu hh hhmmgg eedd m n m n ii cc oo pp ii cc ee ii ii uu oosst n t ngg ee ii pp kkff rrpp ppiitt cc bb ee uu tt nnee ss oo llii ii ii aa rrii eecc ss nn mm,, rr c c nn nn oo ii nn pp ssaa tt ss VV oogggg tt iidd ss pp ii oo gg ooii oo uuee ttaauu oo ll ee ss aann pp aaoo ssrrnnccss cc aa ff tt rree nn tt iiii aa ddoo ii gg nnbb tt ooxxoo gg nn oo ee ggll (( llhh pp nn ee dd%% ii hhdd oo mmii rree aa,, bb aa aa ss oo tt xxmm gg pp hh ii uu nn CC ttvvEE tt hh ii rroo eellii dd mmaa ii uuoo ii dd oobbss ssrr kk rrnnrr ee wwvv ee ss hhiiii ooee tt tt tt nn ee ii oo mm tt oo rrssppsspp ii gg oo oouull rreerr ee cc ppoo aa kk ll ssii ffiffi ll uu ttiitttt ss tt gg33 nn ii tt ww ee ss ee nnbbrr cc )) oogg ee rree i a i a ii ggoo 99 tt ..ii ee uu aaaass tthh oo nn SS aa hh AA•E• • AA•E• • iiss ttll eekkss ll cc ii oo xx ee ii ee %% mm yyrr // zz iirr H G W H G W c hsssfic c hsssfic yy tt uu nn aa ee ss ee pp h h h h uehueh mm rr nn tt ee bb rr eett oorr mm ggqqhh ee ee oo ss oo o o o o soso eell dd ll oo ii ff ee oo pp uu kk dd ss oo pp tt ss tt ll i i i iww ee aa pp cc aa ll ff c c c c ssee ii ss ii ww yyuu ii ww uu oonn nn pp tt rr oo oo lle e e e oo hh ’’ii ttyy ii ss sshh ee cc eenn tt mm nnaa BB nnmm s s s s nnuu tt iiss ii cc ee dd ee ss llpp aa‘‘ oo yy ee ssuu ss wwgg oouu rr oo ssw t w t dd pp mm ee bb ss pp mmoo nn oorr ii ggss ff ee nn oo aa ll nn aa hh eeiioo ii ll ..ll dd oo tt ii ll nn ii tt tt oo rroo ss tt iiii cc aa ee ee dd ee rr ff tt rr ff dtdtkk ggtt ccoo aa uu ee ii yynn tt aall nn aa ii tt nn iihh oo ee aa cc uu nn rr .. nn rr hh cc (( tt hh aa nn ii cc ll ll ss ss %% ee TT tt dd gggg dd ee ee ee aa aa bb oo ee tt hh hh ii gg vv eeoo tt ii ll ww tt ll hh ll rr ff tt ll ee CC ee ee aa ee ll ss ee yy yyss eeiioo tt ii yy gg cc nn cc ss ,, tt oo aa nn aa ss tt yyhhhh ee tt bb nn ll mmii dd ttrr ’’ llnn tt eeaa tt oo ll iiee hihi oo nn gg rr aa nn aaccuueeoo ooff ss kk gg kkss tt ttssrrtt ll ii eehh hh tt tt .. eett tt tt mm 33 ss ee eehh hh hhll iiaa )) ss nnii rrii ee ee aa rr hh..ss 33 ee ffyy yy ii oo OO aa oommnn ccuu ssrr cc ccoo ss ffffpp mm hh 11 oo aa cc tt mmss oo ooss nnwwcc ee eett mmmm tt ii %% dd ttiittiieess mmttyytt mm hhll ee uuii ss .. nncc ppnn ss uu ee oo ggoott rrdd ss dd aa dd oo nn ii tt eessuu ii aaaa vv ssnn dd ccee uu ttii ppaa nn ii aahh oo llaabb tt tt aa ttoohh nn aarrii ll bb oottee tt nn ee ll eenn oo ee ii tthh rrll ss ff ss oo tttt tt tthhoo oo eeee ll 44%% 33%% AAtttteennddeeee hhootteell ssttaayyss 3311%% EExxhhiibbiittoorr llooggiissttiiccss 99%% 9933%%. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Informa. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 13.0 percent.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change adaptation actions. Value: 106671000.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Informa. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 20.0 percent.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Informa. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 83.0 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Informa. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions. Value: 83.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Informa. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions. Value: 0.0 percent.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Informa. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 55.0 percent.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.

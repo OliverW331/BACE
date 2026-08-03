@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Mercedes-Benz Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Mercedes-Benz Group's 2023 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Mercedes-Benz Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Pages 23-24
+
+Text:
+Customer awareness of sustainability Transparent labelling of products and services Sustainable customer value proposition Sustainability of sales network Sustainable investment Mercedes-Benz as a sustainable opportunity for investment Mercedes-Benz as a sustainable investor 23 Sustainability Report 2022 . Mercedes-Benz Group Governance . Sustainable corporate governance
+
+Evidence 2
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 22
+
+Text:
+Climate protection in the supply chain Green charging of e-vehicles Climate adaptation of Mercedes-Benz sites and operations Low-pollutant vehicles Low-pollutant production Emission reduction Noise control Energy efficiency and renewable energies Sustainable use of water Prevention of pollution from waste Nature conservation and biodiversity
+
+Evidence 3
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 151
+
+Text:
+GRI 103-3 The Mercedes-Benz Group uses internal and external tools to determine how much progress its plants are making in achieving the climate-protection targets. The Mercedes-Benz Group has defined the parameters for in-house reviews, and it regularly monitors these parameters. An external auditing firm annually evaluates a selected number of our corporate goals and their implementation. We use the results of these evaluations to adapt and improve our climate-protection measures.
+
+Evidence 4
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 112
+
+Text:
+The Mercedes Benz Group Data Vision and Guiding Principles Business Opportunity Transparency Data Quality We live sustainable data-driven business by predicting our customer's needs and treating data with responsibility Data Ethics Security Customer Benefit Choice prepare these local contacts for their tasks and support them with training courses and consultation.
+
+Evidence 5
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 36
+
+Text:
+Social compliance Occupational Health and safety The Compliance Management System Combating corruption Promoting fair competition Tax obligation Revenue Revenue1 Substantial contribution criteria Climate change mitigation Climate change adaptation DNSH-criteria (“Does Not Significantly Harm”) Minimum safeguards Taxonomy aligned proportion of Revenue 20221
+
+Evidence 6
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Pages 38-39
+
+Text:
+Group Research, Sustainability & RD Functions Group Strategy, Communication, External Affairs, Human Resources, Investor Relations, Accounting & Financial Reporting Corporate Responsibility & Integrity Management Feedback and orientation Report on progress coordinates Business units and functions REPORTING | SUSTAINABLE CORPORATE GOVERNANCE 39 DAIMLER SUSTAINABILITY REPORT 2020
+
+Evidence 7
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2019_SR.pdf | Pages 109-110
+
+Text:
+With these and further energy efficiency projects we were able to save approximately 180 GWh/a in electricity, heat/cold, fuels and other energy carriers in 2019. These energy efficiency projects and the energy and CO2 reductions achieved are REPORTING | CLIMATE PROTECTION & AIR QUALITY 110 DAIMLER SUSTAINABILITY REPORT 2019
+
+Evidence 8
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 277
+
+Text:
+Conclusions Stuttgart, March 21, 2022 KPMG AG Wirtschaftsprüfungsgesellschaft [Original German version signed by:] Engelmann Herold Wirtschaftsprüfer [German Public Auditor] Based on the procedures performed and the evidence obtained for the limited assurance, nothing has come to our attention that causes us to believe that the selected qualitative and quantitative sustainability disclosures CO2 emissions (scope 1, scope 2 and selected scope 3), energy consumption, waste, water withdrawal as well as the qualitative disclosures in the appendix “Calculation and documentation of CO2 emissions” (further “sustainability disclosures”) of the Mercedes-Benz Group for the business year from January 1 to December 31, 2021, published in the Report, were not prepared, in all material respects, in accordance with the Reporting Criteria.
+
+Evidence 9
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Pages 37-38
+
+Text:
+37 Sustainability Report 2022 . Mercedes-Benz Group Governance . Sustainable corporate governance Capital Expenditure Capital Expenditure1 Substantial contribution criteria Climate change mitigation Climate change adaptation DNSH-criteria (“Does Not Significantly Harm”) Minimum safeguards Taxonomy aligned proportion of CapEx 20221 Category: Enabling activity (E)/ Transitional activity (T)
+
+Evidence 10
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 237
+
+Text:
+GRI 2-2/-3 In this Sustainability Report, the Mercedes-Benz Group takes stock of the significant effects of its corporate activities in 2022 and presents its current target programme. This report is available online and as a PDF document. Special features of the online report include: a search function, a detailed GRI index, linked to the relevant places in the report, SASB and TCFD reports for download, a glossary of technical terms and a key indicator tool. With this key indicator tool, readers can compile tables according to their respective information needs. In both the online and PDF versions, a wide range of content is directly linked to the Annual Report 2022.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_0 = .65. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 180
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 180, table. Table row: unnamed_column_7 = 13.70. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2021_SR.pdf | Page 180
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2021, page 180, table. Table row: unnamed_column_15 = 6.65. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 104
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 104, table. Table row: unnamed_column_5 = 123 11115511,, 22 11115533 104. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_1 = 11..3311. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 38
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 38, table. Table row: Capital Expenditure1 = Substantial contribution criteria DNSH-criteria Climate Climate (“Does Not Minimum Absolut Proportion change change Significantly safe- Economic activities CapEx1 of CapEx1 mitigation adaptation Harm”) guards; unnamed_column_7 = Taxonomy aligned proportion of CapEx 20221; unnamed_column_8 = Category: Enabling activity (E)/ Transitional activity (T). Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_11 = 6.65; unnamed_column_15 = 66..0011. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_1 = 22..0066. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2020_SR.pdf | Page 76
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2020, page 76, table. Table row: unnamed_column_7 = 2,501. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+03c716df-c496-489f-8d20-b27e270e90fe_2022_SR.pdf | Page 142
+
+Text:
+Company: Mercedes-Benz Group. Source: sustainability report 2022, page 142, table. Table row: unnamed_column_3 = 13.70; unnamed_column_7 = 10.83. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 1514380000.0000002 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 267179900.00000003 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 7779408000.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 15671599999.999998 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 10765748000.0 USD.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 33060118000.000004 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for gas-related economic activities ESRS E1 Climate change. Value: 0.0 USD.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change mitigation actions. Value: 236600000.0 USD.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross Scope 1 greenhouse gas emissions CapEx shadow price / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 626.0 tCO2e.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2023
+
+Text:
+Company: Mercedes-Benz Group. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 50.0 percent.

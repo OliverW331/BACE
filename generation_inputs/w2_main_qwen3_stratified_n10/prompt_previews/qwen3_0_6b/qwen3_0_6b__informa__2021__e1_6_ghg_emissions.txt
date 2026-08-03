@@ -1,0 +1,239 @@
+Instruction
+
+You are writing as part of Informa's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Informa's 2021 reporting year, addressing E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Informa's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 91
+
+Text:
+£m £m Total2 £m Publishing book lists and journal titles £m Intangible software assets £m Database and intellectual property, brand and customer relationships £m Exhibitions and conferences, brand and customer relationships £m Sub-total2 Cost Key assumptions and headroom 2020 £m 2020 2019 2020 2019
+
+Evidence 2
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 30
+
+Text:
+Informa Intelligence Specialist data and intelligence vehicles and other infrastructure assets. Through brands such as EquipmentWatch, PriceDigests and FleetSeek we serve construction businesses, government and state departments and those who sell, lease, finance and insure equipment, helping them make high value decisions in investment projects.
+
+Evidence 3
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 9
+
+Text:
+S T R A T E G I C R E P O R T Physical events disruption Informa Markets, Informa Connect and Informa Tech generate a majority of revenues from activities linked to events that match sellers with buyers in specialist markets, enable businesses to showcase and source products, deliver high quality content and training or facilitate networking and learning.
+
+Evidence 4
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 49
+
+Text:
+Governance Financial Statements Strategic Report This data feeds a suite of three Citeline tools. The first is Pharmaprojects, which helps biopharma companies monitor the competition and find new acquisition and partnering targets. It gives sharp visibility of the drugs pipeline: who is developing what new medicine; for which diseases; who is moving into the clinical phase, with which trials, and where.
+
+Evidence 5
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 29
+
+Text:
+Emissions from company vehicles & generator fuel tonnes CO2e 1,083 1,429 1,441 1,463 Scope 2 emissions (location-based) tonnes CO2e 6,697 (*) 7,010 6,477 7,164 Total scope 1 & 2 location-based emissions tonnes CO2e 10,687 11,786 9,682 10,162 Intensity ratio total location-based scope 1&2 emissions tonnes CO2e/Colleague 0.96 (*) 1.18 1.29 1.59
+
+Evidence 6
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 34
+
+Text:
+Scope 1 emissions (tCO2e) 669 2,153 811 3,324 2020 2019 2018 2020 2019 2018 2020 2019 2018 Scope 2 location-based emissions (tCO2e) 574 4,731 1,052 5,974 Scope 2 market-based emissions (tCO2e) 0 233 0 397 Total Scope 1 & 2 location-based emissions (tCO2e) 1,243 6,884 1,863 9,298
+
+Evidence 7
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_AR.pdf | Page 34
+
+Text:
+Business sustainability: Dow Jones Sustainability Index (DJSI) 99th/74 2020 percentile/absolute score Definition: Levels of carbon dioxide (CO2) or GHG emissions measure our use of natural resources, part of our business model, and impact on the environment. Calculations are based on GHG Protocol and Defra guidelines. Scope 1 emissions arise from natural gas heating, refrigerant gases and vehicle and generator fuel use. Scope 2 emissions are from electricity consumption. Location-based emissions are calculated as the average emissions intensity of electricity grids where we have offices, and market-based emissions take into account renewable energy purchasing. We compensate for unavoidable emissions by purchasing certified carbon offsets.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 8
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 6
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 6, table. Table row: unnamed_column_0 = 692. Table extraction requires manual review.
+
+Evidence 9
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 29
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 29, table. Table row: Energy & greenhouse gas emissions = Total Scope 1 & 2 market-based emissions; unnamed_column_1 = tonnes COe 2; unnamed_column_2 = 4,388; unnamed_column_3 = 11,161; unnamed_column_4 = 9,682; unnamed_column_5 = 10,162. Table extraction requires manual review.
+
+Evidence 10
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 7
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_2 = SU Em eve cus dev Info kno the con To h acc the em con Wh res our con sus spe; unnamed_column_3 = ST bed ry o tom elo rma wle wor nec elp eler spe bed tent ethe earc cus nec tain ciali; unnamed_column_4 = A ding ne ers pme exi dge ld is tion our ate t ciali ding insi r it’ h or tom tion able st m; unnamed_column_5 = IN su of o acc nt i sts t and thr s we cus he s st m rele de e s thr trai ers s th fut ark; unnamed_column_6 = AB stai ur b eler n th o co our oug del tom ust ark van ach oug nin wit at c ure ets.; unnamed_column_7 = IL nab ran ate eir nne gre h th iver ers aina ets t su of h e g, w h th an d for t; unnamed_column_8 = IT ility ds t sus spe ct p ates e co for go f ble we s stai our vent e’ll p e co rive heir; unnamed_column_9 = Y ins o he tain ciali eop t im nten our aste pro erv nab bran s, in rov nte a m; unnamed_column_10 = IN ide lp o abl st m le w pac t an cust r, a gres e, w ility ds. telli ide nt a ore; unnamed_column_11 = SID ur e ark ith t in d ome nd t s of e are gen nd; unnamed_column_12 = E ets rs. o ce,. Table extraction requires manual review.
+
+Evidence 11
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 29
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 29, table. Table row: Energy & greenhouse gas emissions = Scope 2 emissions (market-based); unnamed_column_1 = tonnes COe 2; unnamed_column_2 = 397 (*); unnamed_column_3 = 6,385; unnamed_column_4 = 6,477; unnamed_column_5 = 7,164. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 29
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 29, table. Table row: Energy & greenhouse gas emissions = Total scope 1 & 2 location-based emissions; unnamed_column_1 = tonnes COe 2; unnamed_column_2 = 10,687; unnamed_column_3 = 11,786; unnamed_column_4 = 9,682; unnamed_column_5 = 10,162. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 29
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 29, table. Table row: Energy & greenhouse gas emissions = Resource use. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 4
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 4, table. Table row: unnamed_column_18 = content for free (p17). Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 7
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_1 = oi; unnamed_column_2 = n; unnamed_column_3 = g F; unnamed_column_4 = a; unnamed_column_5 = st; unnamed_column_6 = er; unnamed_column_7 = Fo; unnamed_column_8 = r; unnamed_column_9 = wa; unnamed_column_10 = r. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 7
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_0 = F Mo wa To of fas foo a z bu Wh hel wid; unnamed_column_1 = AS vin ste help a ch ter t tpri ero sine ere p ou er; unnamed_column_2 = TE g fa and me angi o re nt w was ss b ver r p mar; unnamed_column_3 = R ster ne et t ng duc ith te a y 20 we c artn kets; unnamed_column_4 = TO to t ze he u worl e o the nd n 30. an, ers, to a; unnamed_column_5 = Z bec ro c rge d, w ur c aim et z we cus chi; unnamed_column_6 = ER om arb nt c e a arbo of ero will tom eve; unnamed_column_7 = O e a on hall re m n a beco car also ers the; unnamed_column_8 = zero busi eng ovi nd min bon act and sam; unnamed_column_9 = nes es ng wast g ivel e.; unnamed_column_10 = s e y. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 7
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 7, table. Table row: unnamed_column_0 = O; unnamed_column_1 = ur 6. 7. 8. 9.; unnamed_column_2 = co Ena peo kno Con for Con of p gro Sav we; unnamed_column_3 = mm ble ple wle trib our trib rofi ups e cu emit; unnamed_column_4 = itm one to a dge ute hos ute t be by sto by; unnamed_column_5 = en mil cce by $5b t cit valu fore 2025 mer 202; unnamed_column_6 = ts lion ss n 202 n p ies b e o tax s m 5; unnamed_column_7 = disc etw 5 er ye y 2 f at l to ore; unnamed_column_8 = onn orks ar i 025 eas com carb; unnamed_column_9 = ect and n va t 1% mun on t; unnamed_column_10 = ed lue ity han. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 18
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 1118.0 tCO2e.
+
+Evidence 19
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Own operations. Value: 231.0 tCO2e.
+
+Evidence 20
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 231.0 tCO2e.
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 506.0 tCO2e.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Own operations. Value: 506.0 tCO2e.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Transport. Value: 3805.0 tCO2e.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Informa. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 240000.0 tCO2e.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Informa. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 30000.0 tCO2e.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Informa. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 171000.0 tCO2e.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 1 greenhouse gas emissions Consolidated accounting group (financial control). Value: 5305.0 tCO2e.

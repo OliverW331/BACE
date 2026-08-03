@@ -1,0 +1,207 @@
+Instruction
+
+You are writing as part of Evonik Industries's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Evonik Industries's 2019 reporting year, addressing E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Evonik Industries's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2016_SR.pdf | Pages 91-92
+
+Text:
+EcoVadis Gold Standard Oekom Research Prime Standard B – Sustainalytics Top 5 in the chemical industry a Selected ratings and rankings. 88 SUSTAINABILITY REPORT 2016 EVONIK INDUSTRIES G4 content index of the Global Reporting Initiative (GRI) including the ten principles of the UN Global Compact (UNGC)
+
+Evidence 2
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_SR.pdf | Page 5
+
+Text:
+Employees Analyze the results of the global employee survey 2019 Ongoing development of the global development strategy 2019 Discuss and implement Evonik’s new corporate values worldwide 2019 Further support for diversity at Evonik 2020 Occupational Health Performance Index ≥5.0 2019 ff.
+
+Evidence 3
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2015_SR.pdf | Page 70
+
+Text:
+Specific greenhouse gas emissions, gross (market-based) in metric tons CO2 equivalents per metric ton output n. a. 1.05 0.98 0.96 0.95 Total Scope 2 c CO2 net (location-based) 907 973 859 966 1058 CO2 net (market-based) n. a. 1,025 882 909 1,011
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 4
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 9.0. Table extraction requires manual review.
+
+Evidence 5
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_SR.pdf | Page 46
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2018, page 46, table. Table row: unnamed_column_0 = 5.9. Table extraction requires manual review.
+
+Evidence 6
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 3.8. Table extraction requires manual review.
+
+Evidence 7
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_SR.pdf | Page 46
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2018, page 46, table. Table row: unnamed_column_0 = 6.3. Table extraction requires manual review.
+
+Evidence 8
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_SR.pdf | Page 46
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2018, page 46, table. Table row: unnamed_column_0 = 2.3. Table extraction requires manual review.
+
+Evidence 9
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 5.6. Table extraction requires manual review.
+
+Evidence 10
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 5.8. Table extraction requires manual review.
+
+Evidence 11
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 6.1. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2017_SR.pdf | Page 41
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2017, page 41, table. Table row: unnamed_column_0 = 2.0. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_SR.pdf | Page 46
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2018, page 46, table. Table row: unnamed_column_0 = 6.2. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 14
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Own operations. Value: 600000.0 tCO2e.
+
+Evidence 15
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 21000000.0 tCO2e.
+
+Evidence 16
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Own operations. Value: 600000.0 tCO2e.
+
+Evidence 17
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross location-based Scope 2 greenhouse gas emissions Internal carbon fee or fund / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 2855000.0 tCO2e.
+
+Evidence 18
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 600000.0 tCO2e.
+
+Evidence 19
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross market-based Scope 2 greenhouse gas emissions Carbon prices for impairment testing / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 2855.0 tCO2e.
+
+Evidence 20
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross location-based Scope 2 greenhouse gas emissions. Value: 2261.0 tCO2e.
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 3491000.0 tCO2e.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross market-based Scope 2 greenhouse gas emissions. Value: 2855.0 tCO2e.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Evonik Industries. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Own operations. Value: 21000000.0 tCO2e.

@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Genmab's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Genmab's 2019 reporting year, addressing E1-3 Actions and resources in relation to climate policies, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Genmab's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-3 Actions and resources in relation to climate policies.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_SR.pdf | Page 9
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2016 9
+
+Evidence 2
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_SR.pdf | Page 12
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2018 12
+
+Evidence 3
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 8
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2015 8/8
+
+Evidence 4
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_SR.pdf | Page 8
+
+Text:
+Genmab aims to save energy by using environmentally friendly climate control systems and equipping all locations with energy saving LCD screens. We select office and laboratory equipment that require low energy usage when possible. Genmab monitors the use of environmentally friendly power sources employed by local power supply companies. Green energy is used when the pro-green arguments can be balanced with the costs involved. Since 2012, Genmab A/S has purchased solely green energy for the Copenhagen site. At our European locations, we encourage employees to use public transportation to commute to work by partially reimbursing commuting expenses. Our global travel policy provides guidelines for limiting unnecessary
+
+Evidence 5
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_SR.pdf | Pages 4-5
+
+Text:
+Genmab Statutory Corporate Social Responsibility Report 2018 4 2018 ACTIONS AND RESULTS FUTURE EXPECTATIONS AND ACTIVITIES Employee Well-being • The Security Awareness Program will continue to provide training to employees and the remediation plan will be completed during 2019. • Mandatory workplace assessments are conducted every third year in The Netherlands and Denmark, in compliance with local regulations. The next workplace assessment will take place in 2019, related to the new R&D facilities in Utrecht. • Health & Safety Prevention Workers will continue to monitor and improve safety and workforce health at the Utrecht site. A safety app is in development with expected launch during 2019.
+
+Evidence 6
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_SR.pdf | Page 8
+
+Text:
+Genmab aims to save energy by using environmentally friendly climate control systems and equipping all locations with energy saving LCD screens. We select office and laboratory equipment that require low energy usage when possible. Genmab monitors the use of environmentally friendly power sources employed by local power supply companies. Green energy is used when the pro-green arguments can be balanced with the costs involved. Since 2012, Genmab A/S has purchased solely green energy for the Copenhagen site. At our European locations, we encourage employees to use public transportation to commute to work by partially reimbursing commuting expenses. Our global travel
+
+Evidence 7
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2017_SR.pdf | Page 8
+
+Text:
+Genmab aims to save energy by using environmentally friendly climate control systems and equipping all locations with energy saving LCD screens. We select office and laboratory equipment that require low energy usage when possible. Genmab monitors the use of environmentally friendly power sources employed by local power supply companies. Green energy is used when the pro-green arguments can be balanced with the costs involved. Since 2012, Genmab A/S has purchased solely green energy for the Copenhagen site. At our European locations, we encourage employees to use public transportation to commute to work by partially reimbursing commuting expenses. Our global travel policy
+
+Evidence 8
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_AR.pdf | Page 49
+
+Text:
+Business Ethics and transparency Ethics in relation to pre-clinical and clinical studies Genmab publishes its statutory report on CSR for the financial year 2018 cf. Section 99 a of the Danish Financial Statements Act on the company’s website, including additional information about policies, progress made during 2018 and expected activities for 2019. Genmab has adopted a target figure for women in the Board of Directors and a policy regarding the proportion of gender in other management levels of the Genmab group. In accordance with section 99 b of the Danish Financial Statements Act, Genmab discloses the target figure, the policy and current performance in its statutory report on CSR for the financial year 2018. The statutory report on CSR can be found at http://ir.genmab.com/csr.cfm.
+
+Evidence 9
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2018_AR.pdf | Page 36
+
+Text:
+December A pre-clinical milestone was reached in the DuoBody collaboration wih Novo Nordisk, triggering a milestone payment to Genmab. • Multiple new INDs expected to be submitted over the coming years Updates from First Quarter to Third Quarter June Genmab achieved milestones and license fees from Janssen related to the option of an additional DuoBody target pair under our DuoBody license agreement.
+
+Evidence 10
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2016_AR.pdf | Page 45
+
+Text:
+Read more CSR reports: http://ir.genmab.com/csr.cfm#tab3 Gender policy: http://ir.genmab.com/csr.cfm#tab2 Target figure for women in the Board of Directors: www.genmab.com/about-us/board-of-directors/target-figure Genmab’s commitment to CSR is anchored in our company’s core purpose and our vision, which inspires and motivates us to find new ways to improve healthcare and quality of life for patients and their families. We are committed to creating differentiated antibody products that have the potential to provide new treatment options to patients with life threatening and debilitating diseases. We believe we have a responsibility to ensure our actions not only benefit our main
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 5
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 5, table. Table row: unnamed_column_1 = engagement survey. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 7, table. Table row: unnamed_column_1 = ENVIRONMENT. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 5
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 5, table. Table row: unnamed_column_1 = 2015 ACTIONS AND RESULTS. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 8
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 8, table. Table row: unnamed_column_3 = trading as new legislation coming into effect in. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 7, table. Table row: 2015 ACTIONS AND RESULTS = ENVIRONMENT. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2017_AR.pdf | Page 11
+
+Text:
+Company: Genmab. Source: annual report 2017, page 11, table. Table row: unnamed_column_6 = 102. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 4
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 4, table. Table row: 2015 ACTIONS AND RESULTS = ENGAGEMENT AND DEVELOPMENT. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 7
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 7, table. Table row: unnamed_column_0 = VENDOR SELECTION. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 4
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 4, table. Table row: unnamed_column_1 =  A global employee survey was conducted; unnamed_column_4 =  An action plan will be developed to address. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+04b00c87-7d27-4a7f-a503-88f54d86d830_2015_SR.pdf | Page 6
+
+Text:
+Company: Genmab. Source: sustainability report 2015, page 6, table. Table row: unnamed_column_1 = (Ph.D., Doctoral or Master). Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Genmab. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 82211.43354107399 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Net revenue other than used to calculate GHG intensity. Value: 804461570.97 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2019-01-01.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Assets. Value: 2270362659.48 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Net revenue used to calculate GHG intensity. Value: 804461.57097 USD.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Liabilities. Value: 164310451.32000002 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2017
+
+Text:
+Company: Genmab. Reporting year: 2017. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2018-01-01.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2019
+
+Text:
+Company: Genmab. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Net revenue at material transition risk. Value: 784972192.62 USD.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2015
+
+Text:
+Company: Genmab. Reporting year: 2015. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2015-01-01.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2016
+
+Text:
+Company: Genmab. Reporting year: 2016. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2016-07-03.

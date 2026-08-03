@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Evonik Industries's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Evonik Industries's 2022 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Evonik Industries's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2018_SR.pdf | Page 66
+
+Text:
+New environmental targets Evonik’s present environmental targets are for the period until 2020 and the target reduction in specific greenhouse gases will be achieved before then. Therefore, we defined new environmental targets in the reporting period. We are aiming for an absolute reduction in scope 1 and 2 emissions of 50 percent by 2025, compared with the level in 2008 (status of implementation in 2018: 30 percent). This affirms Evonik’s commitment to the Paris Agreement on Climate Change. The relatively short period up to 2025 reflects our view that it is not currently possible to predict technological and regulatory developments beyond this date with sufficient certainty. We are continuing to pursue our goal of a group-wide reduction in specific water intake, but we are replacing the central indicator by introducing a global water management system and driving forward the related site-specific action plans.
+
+Evidence 2
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 17
+
+Text:
+SUSTAINABILITY REPORT 2021 EVONIK 17 Strategy and growth Our sustainability strategy please refer to the financial report 2021, section 5.5.2 “Informa tion on the EU taxonomy” p. 58. For fiscal 2022, Evonik will be reporting for the first time on its taxonomy alignment 1 for the climate change mitigation and climate change adaptation objectives. We anticipate that only a very small proportion of the relevant activities will be taxonomyaligned.
+
+Evidence 3
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 16
+
+Text:
+SUSTAINABILITY REPORT 2021 EVONIK 16 Strategy and growth Our sustainability strategy six environmental objectives: climate change mitigation, climate change adaptation, sustainable use and protection of water and marine resources, transition to a circular economy, pollution prevention and control, and protection and restoration of bio diversity and ecosystems.
+
+Evidence 4
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 76
+
+Text:
+in € million 2019 2020 2021 Operating costs for environmental protection 289 294 295 Investment in environmental protection 36 73a 74 Environmental targets Our goal is a 50 percent reduction in absolute scope 1 and 2 emissions by 2025, compared with the level in 2008—the first full year after the establishment of Evonik. This affirms our com mitment to the Paris Agreement on Climate Change. We assume an average reduction in climate-relevant emissions of 3 percent a year (status 2021: -43 percent). In the reporting period, we worked intensively on extending our climate and sustainability strategy beyond 2025. In this way, we make sure that timely consideration is given to technological and regulatory changes.
+
+Evidence 5
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2020_SR.pdf | Page 100
+
+Text:
+Status of our sustainability targets for 2020 Status of our sustainability targets for 2020 102-14, 102-15  T30 Target attainment in 2020 This table shows the targets we set for the reporting period. Except where otherwise indicated, they refer to 2020. The traffic lights show progress towards achieving the targets. You can find details of the exact status in the relevant chapters and the table “Sustainability indicators for the Evonik Group” p.99.
+
+Evidence 6
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 51
+
+Text:
+New environmental targets for climate protection Since we achieved our target for the reduction in specific greenhouse gas emissions ahead of schedule, the executive board adopted new environmental targets in February 2019. Our target of a 50 percent reduction in absolute scope 1 and 2 emissions 3 by 2025 compared with the level in 2008—the first full year after the establishment of Evonik—affirms our commitment to the Paris Agreement on Climate Change. At present, we assume an average reduction in climate-relevant emissions of 3 percent a year. The relatively short period up to 2025 reflects our view that it is not currently possible to predict technological and regulatory developments beyond this date with sufficient certainty. In addition to this, we intend to improve upstream scope 3 emissions by 3 percent a year.
+
+Evidence 7
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 115
+
+Text:
+SUSTAINABILITY REPORT 2021 EVONIK 115 Basis of reporting Status of our sustainability targets for 2021 Status of our sustainability targets for 2021 102-14, 102-15  T29 Target attainment in 2021 This table shows the targets we set for the reporting period. Except where otherwise indicated, they refer to 2021. The traffic lights show progress towards achieving the targets. You can find details of the exact status in the relevant chapters and the table “Sustainability indicators for the Evonik Group” p.114.
+
+Evidence 8
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_AR.pdf | Page 60
+
+Text:
+Determination of the key performance indicators For 2021, the EU taxonomy only requires disclosure of the share of turnover, CapEx, and OpEx attributable to taxonomy-eligible activities. The shares attributable to taxonomy-aligned activities of relevance for the first two environmental objectives have to be disclosed from the 2022 reporting period. The main prerequisites for taxonomy alignment are that the taxonomy-eligible activities meet demanding technical screening criteria and minimum social safeguards as well as the requirement that they do no significant harm to the other environmental objectives.
+
+Evidence 9
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 182
+
+Text:
+Strategy p. 15 f., chapter 5.3 The environment p. 48 ff. Sustainability report, chapter The environment p. 49 2019 CDP Climate Change response: chapter Targets and performance Evonik and its predecessor companies have defined ambitious environmental targets since 2004. As part of their continuous development, the executive board adopted new environmental targets in February 2019. Our target of a 50 percent reduction in absolute scope 1 and 2 emissions by 2025, compared with the level in 2008—the first full year after the establishment of Evonik— affirms our commitment to the Paris Agreement on Climate Change. In addition to this, we intend to improve our scope 3 emissions in the upstream value chain by 3 percent a year. Out of the various categories of scope 3 emissions, the most relevant for Evonik is category 1 (purchase of chemical raw materials, packaging materials, and indirect goods) as it accounts for over 40 percent of our scope 3 emissions.
+
+Evidence 10
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2019_AR.pdf | Page 182
+
+Text:
+Metrics and targets Management report, chapter 1.2 Principles and objectives Management report, chapter 5.3 The environment p. 48 ff. Sustainability report, chapter Strategy and growth p. 10 2019 CDP Climate Change response: chapter Governance http://evonik.com/ CDP-ClimateChange_2019 Climate change is a matter of the utmost importance for the entire executive board. Responsibility for our group-wide sustainability and climate strategy, monitoring, and reporting is assigned to the member of the executive board responsible for human resources, sustainability, and ESHQ (environment, safety, health, and quality). The head of Corporate ESHQ reports regularly to the executive board on climate-related issues. These include environmental indicators, including climate-related performance indicators, as well as targets and target attainment. In addition, the responsible member of the executive board and the heads of Corporate ESHQ and Corporate Sustainability are members of the human resources executive committee, which defines the strategic approach on climate-related issues. The other members of this committee are representatives of the segments, corporate functions, and regions, and technical experts. The executive board discusses relevant issues relating to sustainability, the environment, safety, health, and quality, and the status and progress of the various programs with the heads of the segments and corporate functions on a quarterly basis. The new Climate Strategy 2020+ was presented to the supervisory board in 2019.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 138
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2021, page 138, table. Table row: unnamed_column_0 = 116. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 80
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2021, page 80, table. Table row: unnamed_column_0 = 715. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 138
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2021, page 138, table. Table row: unnamed_column_0 = 229. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 80
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2021, page 80, table. Table row: unnamed_column_0 = 11. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2020_SR.pdf | Page 124
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2020, page 124, table. Table row: unnamed_column_0 = 215. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2021_SR.pdf | Page 80
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2021, page 80, table. Table row: unnamed_column_0 = 895. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2020_SR.pdf | Page 124
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2020, page 124, table. Table row: unnamed_column_0 = 219. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2020_SR.pdf | Page 124
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2020, page 124, table. Table row: unnamed_column_0 = 221. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2020_SR.pdf | Page 124
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2020, page 124, table. Table row: unnamed_column_0 = 524. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+060107a1-5462-4b5b-adf7-ca200f3bb587_2020_SR.pdf | Page 124
+
+Text:
+Company: Evonik Industries. Source: sustainability report 2020, page 124, table. Table row: unnamed_column_0 = 414. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Evonik Industries. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 3339278.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Evonik Industries. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 888016200.0 USD.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 365145300.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Evonik Industries. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 936936000.0 USD.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Evonik Industries. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 50813100.0 USD.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Evonik Industries. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for coal-related economic activities ESRS E1 Climate change. Value: 0.0 USD.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Evonik Industries. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change mitigation actions. Value: 17745000.0 USD.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Evonik Industries. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for gas-related economic activities ESRS E1 Climate change. Value: 0.0 USD.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Evonik Industries. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Significant CapEx for oil-related economic activities ESRS E1 Climate change. Value: 145369200.0 USD.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Evonik Industries. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1.GOV-3. Indicator: Percentage of remuneration recognised in current period that is linked to climate related considerations ESRS E1 Climate change. Value: 0.0 percent.

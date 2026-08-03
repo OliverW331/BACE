@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Admiral Group's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Admiral Group's 2022 reporting year, addressing E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Admiral Group's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_SR.pdf | Page 41
+
+Text:
+y Requested our external asset managers to favour green bonds when they offer a similar financial profile to other options Quick Fact y Carbon Emissions Intensity (aggregate emissions financed for every million dollars invested in the companies) below predetermined benchmark
+
+Evidence 2
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 81
+
+Text:
+Geographical breakdown Operational scopes – calculation approach, conversion tools and emission factors CO2e (Ton) 2020 2019 UK 728 2,433 Spain 184 281 US –*1 146 India 606 374 We follow UK government guidance on how to measure and report greenhouse gas emissions. In particular, the data has been prepared with reference to the WRI/WBCSD Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (Revised Edition) and in accordance with the guidance for corporate reporting issued by DEFRA. Admiral’s three largest UK offices meet the GHG Protocol Corporate Standard and, therefore, Admiral is exempt from reporting greenhouse gas emissions from electricity supply, which is in accordance with GHG Protocol Scope 2 guidance released 20th Jan 2015.
+
+Evidence 3
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_SR.pdf | Page 31
+
+Text:
+In 2022 Admiral aims to complete verification of its scope 3 emissions, and then begin working to set Science-Based Targets, which will complement the Group’s overall net zero ambitions. For further detail on the ways climate change will impact the Group now and in the future, please refer to Admiral’s 2021 TCFD report.
+
+Evidence 4
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_AR.pdf | Page 151
+
+Text:
+Category What was considered Weighting 25% Conduct Risk Management Information (CRMI) metrics 11 different metrics covering claim settlement times, complaint volumes, complaint handling times, and % of fair customer outcomes identified through monitoring in respect of the UK Insurance business. Customer feedback Admiral business benchmarking survey outcome in respect of the UK Insurance business. 25%
+
+Evidence 5
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_SR.pdf | Page 41
+
+Text:
+y Average ESG rating of ‘A’ (MSCI Rating) y Minimum average ESG rating requirements in our portfolios (either using MSCI or internal asset manager ratings) y Minimum allocations to securities with clear positive impacts (e.g. providing climate solutions or progress towards the UN Sustainable Development Goals)
+
+Evidence 6
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 165
+
+Text:
+Board Evaluation 2021 2019 2020 External Board Evaluation Internal Board Evaluation Internal Board Evaluation Progress with 2020 Board Evaluation recommendations Agreed areas of focus for 2021 Progress update Environmental, social and governance (ESG) risks and opportunities from emerging technology and ensuring that the right information is available to monitor ESG performance
+
+Evidence 7
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Page 49
+
+Text:
+Download the PDF of the Sustainability Report at admiralgroup.co.uk Customer G re at c us Provide great customer experiences. to m er e xp Excess fees waived for key workers UK Motor customers likely to renew after a claim1 er
+
+Evidence 8
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_AR.pdf | Page 120
+
+Text:
+Performance range Performance measure Weighting Vesting Threshold Maximum 10% for achieving threshold with straight line relationship to 100% for maximum performance EPS growth vs. LIBOR 26.67% Growth in line with LIBOR Growth of 36 points (equivalent to 10% p.a.) in excess of LIBOR
+
+Evidence 9
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_AR.pdf | Page 130
+
+Text:
+Measurement Category Financial Assets Government gilts Available for sale (FVOCI) 173.8 FVOCI 173.8 Debt securities Available for sale (FVOCI) 1,319.7 FVOCI 1,319.7 Deposits with credit institutions Loans and receivables (Amortised cost) 130.0 Amortised cost 130.0 Money-market funds FVTPL 1,069.3 FVTPL (mandatory) 1,069.3
+
+Evidence 10
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2021_AR.pdf | Pages 116-117
+
+Text:
+• Continuous and transparent emissions reporting tracking progress towards the targets. Action areas 2019 Energy Travel 115 Company overview Strategic report Corporate governance Financial statements Additional information which is achieved via the BMS systems has resulted in a marginal increase in utility consumption.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2019, page 30, table. Table row: Type of Emissi = Scope 2. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2019, page 30, table. Table row: Type of Emissi = Scope 1. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2018, page 30, table. Table row: Geographical breakdown - CO e (Ton) 2 = Scope 1; unnamed_column_2 = Scope 2; unnamed_column_3 = Scope 3; unnamed_column_4 = Total. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2018, page 30, table. Table row: Type of Emission = Scope 2. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2019, page 30, table. Table row: Type of Emissi = Significant Scop; on = e 3. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2020_SR.pdf | Page 34
+
+Text:
+Company: Admiral Group. Source: sustainability report 2020, page 34, table. Table row: Group carbon emissions = Total Scope 2 – location based; Total CO2e (ton) = -; unnamed_column_2 = -; Movement Total = -. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2019, page 30, table. Table row: Type of Emissi = International rai; on = l; Total CO₂e (tonne) = -; unnamed_column_3 = -; Movement Total = -. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2018, page 30, table. Table row: Type of Emission = Scope 1. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2019_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2019, page 30, table. Table row: Type of Emissi = London Undergr; on = ound; Total CO₂e (tonne) = -; unnamed_column_3 = -; Movement Total = -. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+0175e243-c24c-42ce-acc6-b5b40bb43080_2018_SR.pdf | Page 30
+
+Text:
+Company: Admiral Group. Source: sustainability report 2018, page 30, table. Table row: Type of Emission = Significant Scope 3. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 990.0 tCO2e.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 2803.0 tCO2e.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross Scope 3 greenhouse gas emissions Category 3 Fuel and energy-related activities. Value: 990.0 tCO2e.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Admiral Group. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 952.0 tCO2e.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 1361.0 tCO2e.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross location-based Scope 2 greenhouse gas emissions. Value: 2803.0 tCO2e.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Own operations. Value: 2803.0 tCO2e.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Own operations. Value: 1986.0 tCO2e.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross market-based Scope 2 greenhouse gas emissions. Value: 1986.0 tCO2e.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Admiral Group. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Own operations. Value: 990.0 tCO2e.

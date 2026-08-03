@@ -1,0 +1,78 @@
+You are acting as a senior sustainability-reporting research annotator with expertise in ESRS disclosure requirements, retrieval-augmented generation, and evidence-quality evaluation.
+
+Your task is to classify one task–evidence-card pair according to whether the evidence card can be reliably understood and used in the exact form shown.
+
+Use only the information shown below. Do not use external knowledge, web searches, assumptions about the company, or information from the original source document that is not displayed.
+
+## Task–evidence-card pair
+
+Company: {company_name}
+Target reporting year: {target_reporting_year}
+Task ID: {task_id}
+Task title: {task_title}
+Task definition: {task_definition}
+
+Evidence type: {evidence_type}
+Source year: {source_year}
+Source label: {source_label}
+
+Evidence text:
+{generation_visible_text}
+
+## Classification labels
+
+Return exactly one of:
+
+- usable
+- unusable
+
+### usable
+
+Choose `usable` when the evidence card can be reliably understood and used in the form presented without guessing essential information.
+
+The displayed evidence should make its meaning and important relationships sufficiently clear, including where necessary:
+
+- the subject or entity;
+- the metric, policy, target, action, or other information element;
+- how values relate to labels, headers, categories, or time references;
+- the relevant unit or measurement basis;
+- the relationship between statements, values, actions, targets, resources, or outcomes.
+
+A card may be short and still be usable when its meaning is clear.
+
+A card may be usable even when its content does not address the specified task.
+
+### unusable
+
+Choose `unusable` when the evidence card cannot be reliably understood or used without reconstructing or guessing essential information.
+
+This includes cases in which it is necessary to:
+
+- guess the subject or information element;
+- guess how values correspond to labels, headers, categories, or time references;
+- guess a necessary unit or measurement basis;
+- reconstruct missing sentence or table context;
+- infer relationships that are not visible;
+- consult the original PDF, table, or another unavailable source.
+
+## Classification rules
+
+- Judge only the evidence text and source information displayed above.
+- Judge whether the presented representation can be interpreted reliably.
+- Do not classify clear content as unusable merely because it is unrelated to the specified task.
+- Do not classify content as unusable merely because it discusses another topic.
+- Do not classify a card as unusable solely because it is short, tabular, or contains a processing warning.
+- Do not classify a card as usable merely because it contains terminology related to the specified task.
+- Missing nonessential detail does not automatically make a card unusable.
+- Missing essential context, relationships, labels, time references, or units makes a card unusable when reliable interpretation requires guessing.
+- Do not let evidence type, source prestige, retrieval position, or apparent ranking influence the classification.
+- Use only the displayed evidence when deciding the label.
+
+## Output requirement
+
+Return exactly one lowercase label and nothing else:
+
+usable
+unusable
+
+Do not add punctuation, explanation, reasoning, confidence, formatting, or any additional text.

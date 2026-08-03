@@ -1,0 +1,263 @@
+Instruction
+
+You are writing as part of Informa's sustainability reporting team.
+
+Write a 300–500 word ESRS-style sustainability-report disclosure section for Informa's 2022 reporting year, addressing E1-1 Transition plan for climate change mitigation, using only the information in the evidence provided.
+
+Write in a professional corporate reporting style, as if the text were to appear directly in Informa's sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
+
+Prioritise information that is directly relevant to E1-1 Transition plan for climate change mitigation.
+
+Evidence
+
+PDF Narrative Evidence
+
+Evidence 1
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_SR.pdf | Page 21
+
+Text:
+Scope 3 Understanding our impact on climate change As a responsible business that values the rigour of Science Based Targets making, we have, along with 500 other leading businesses, committed to targets within the Science Based Target Initiative (SBTi), a partnership between the UN, WWF, World Resources Institute and the Carbon Disclosure Project (CDP). The commitments include calculating what we need to do by 2030 to keep the global temperature rise below 1.5°C.
+
+Evidence 2
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_AR.pdf | Page 82
+
+Text:
+Metrics and targets: Metrics used to assess climate-related strategy, risks and opportunities3 Pages 17 and 18, CI Report1 Transition Impacts: • Evolving customer markets • Potential change to business travel patterns • Potential changes to carbon costs in the value chain • Potential changes to carbon costs in direct operations • Attracting talent • Market association • Climate-related legislation • Investor focus on climate change • Other stakeholder expectations
+
+Evidence 3
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 5
+
+Text:
+Rated most improved FTSE 100 company in sustainability reporting by EcoAct I Commitments: 1 Become carbon neutral as a business and across our products by 2025 3 Become net zero carbon by 2030 or earlier In addition to our FasterForward commitments, we have a target to reduce our scope 1 and 2 emissions by 55% and our scope 3 emissions by 20% by 2030 from a 2017 baseline. This has been approved by the Science Based Targets Initiative as in line with what the latest climate science deems necessary to limit global warming to below 1.5°C.
+
+Evidence 4
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 8
+
+Text:
+LINKED TO SDG: As part of our commitment to become a sustainable, positive impact business, and as part of our planning process, we’ve aligned our climate change governance, strategy and reporting with the recommendations of the Taskforce on Climate-related Financial Disclosures (TCFD).
+
+Evidence 5
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 10
+
+Text:
+As well as our FasterForward commitments, we aim to reduce our scope 1 and 2 emissions by 55% and our scope 3 emissions by 20% by 2030 from a 2017 baseline. This is approved by the Science Based Targets Initiative as in line with latest climate science findings to limit global warming to below 1.5°C.
+
+Evidence 6
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_AR.pdf | Page 80
+
+Text:
+Page 235: Glossary of alternative performance measures Page 8: Group strategy Page 20: How Informa operates Target: In 2019 we were certified by the Science Based Targets Initiative for targets to keep global temperature rises below 2°C. These include reducing absolute Scope 1 and 2 emissions by at least 50% compared with 2017. Our FasterForward programme includes a commitment to becoming carbon neutral by 2025 and net zero carbon by 2030. See pages 48 to 51 for more details.
+
+Evidence 7
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_AR.pdf | Page 31
+
+Text:
+STRATEGIC REPORT GOVERNANCE REPORT FINANCIAL STATEMENTS COMPANY INFORMATION Informa published sustainability information aligned to the Global Reporting Initiative (GRI) and the Sustainability Accounting Standards Board (SASB) standards for the first time in 2021. We have set Science Based Targets that align with keeping global temperature rises to no more than 1.5°C.
+
+Evidence 8
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_AR.pdf | Page 60
+
+Text:
+Our colleagues We became part of the global Science Based Targets Initiative in 2018, and in 2019 will be setting Company-specific targets around reducing our emissions to help keep global temperature rises below 1.5C. 58 INFORMA PLC ANNUAL REPORT 2018
+
+Evidence 9
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Pages 7-8
+
+Text:
+INFORMA PLC SUSTAINABILIT Y REPORT 2021 06 1 COMMITMENTS: Become carbon neutral as a business and across our products by 2025 Colleagues from across the business have worked together to identify climate change impacts for Informa. In partnership with Risilience and its academic partner, the Centre for Risk Studies at the University of Cambridge Judge Business School, we’ve quantified 11 potential impacts and identified mitigating activities.
+
+Evidence 10
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_SR.pdf | Page 20
+
+Text:
+Our Environment In 2018, we were among the first companies to use the Science Based Target Initiative (“SBTi”), a methodology to calculate how much we need to reduce our carbon emissions by in order to do our part in keeping temperature rises below 1.5ºC, the level of global temperature rise that the UN believes helps society prevent the more significant risks posed from climate change. We’re also identifying and making investments in our properties to support this.
+
+
+--------------------------------------------------
+
+PDF Table Row Evidence
+
+Evidence 11
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 5
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 5, table. Table row: Certified CarbonNeutral® company = In addition to our FasterForward commitments, we have a target to reduce our scope 1 and 2 emissions by 55% and our scope 3 emissions by 20% by 2030 from a 2017 baseline. This has been approved by the Science Based Targets Initiative as in line with what the latest climate science deems necessary to limit global warming to below 1.5°C. Table extraction requires manual review.
+
+Evidence 12
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 2
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 2, table. Table row: unnamed_column_0 = DISCLOSURE INSIGHT ACTION. Table extraction requires manual review.
+
+Evidence 13
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2018_SR.pdf | Page 21
+
+Text:
+Company: Informa. Source: sustainability report 2018, page 21, table. Table row: Our Environment continued Our 2017 SBT baseline is made up of the following sources (t CO e)* 2 Scope 1 Scope 2 Managing our impacts We know that any increase in extreme weather related to climate change is likely to raise the chances of events or offices Heating fuels – 1,616 Electricity use – 9,227 being disrupted. As a global business, the overall risk to the Group from single incidents is minimal. However, we are continuing to assess how we can reduce our exposure by on climate change looking at the location and timing of events, as well as Refrigerants – 930 providing additional training for our events and office teams. Company vehicles – 853 Committing to science-based action Generator fuels – 923 As a responsible business that values the rigour of Science We at Informa need to make sure that we do our part in slowing and stopping Based Targets making, we have, along with 500 other leading climate change. Not only because it’s the right thing to do and it can save costs, businesses, committed to targets within the Science Based Target Initiative (SBTi), a partnership between the UN, WWF, World but because climate change could put a large part of our business at risk. Resources Institute and the Carbon Disclosure Project (CDP). Scope 3 The commitments include calculating what we need to do by Understanding our impact on climate change 2030 to keep the global temperature rise below 1.5°C. Running exhibitions – 171,000 During 2018, I led a project to measure Informa’s overall impact on climate change. Our direct carbon footprint (things like heating We have calculated our Science Based Targets based on our 2017 and lighting our offices, fuelling vehicles, etc.) is important and we baseline for the whole of the Informa business (including UBM) can control it ourselves. But we have a much larger indirect impact and our targets are being verified by the SBTi. We will announce through the carbon footprint of our supply chain, from attendance them in 2019. Whilst they are ambitious, we believe they are Understanding and measuring at our events and the use of our services. And it’s essential that we achievable and allow cost savings to be reinvested to reduce understand our wider impacts so we can manage them too. emissions further and continue our transition to green energy. our carbon footprint We have therefore conducted an inventory across the Group, Our carbon footprint over time3 Therese Franzen, SDG and Impact Specialist, Procured goods – 153,000 which has helped us locate the carbon hotspots. We will now Informa Group, Stockholm 1,333 1,630 focus on reducing our emissions, based on their size and our 1,136 At Informa we are committed to addressing the global challenge of 612 789 ability to influence them. 520 climate change by minimising our direct and indirect emissions. 2016 62 2017 2018 We do it because it’s the right and responsible thing to do. We also 7,982 10,789 1,672 12,522 1,414 Managing emerging risks from climate change tonnes of CO2e tonnes of CO2e tonnes of CO2e2 do it because it’s good for our business: it can save costs today, as A major incident causing disruption to one of our events or offices, well as mitigating future risks related to climate change. Of course, whatever the cause, is one of Informa’s principal risks. In 2018 6,268 we also want to contribute to the wider debate on climate change 7,181 8,689 through our other sustainability pillars such as our Content. there were several offices and events that had to monitor and, 1.25 1.43 1.281 in some cases, respond to extreme weather events. This ranged Scope 1 and 2 Scope 1 and 2 Scope 1 and 2 intensity intensity intensity from wildfires in California and drought in South Africa to storms in Asia and North America. Our teams on the ground managed Scope 1: Gas and heating fuels Scope 1: Refrigerants these in line with the specialist advice from regional authorities Scope 1: Vehicles and generator fuels Business travel – 39,000 Scope 2: Electricity and our Health, Safety and Security team to ensure that all our colleagues, attendees and business partners were safe. 1 D ata for intensity for 2018 is based on carbon emissions for the full year, for both businesses, divided by the average headcount. This provides comparability in intensity 2 C arbon emissions for 2018 show UBM data from date of acquisition with the exception of the intensity metric Printing and shipping of books – 17,000 3 A ligned to Informa’s financial results under the Mandatory Carbon Reporting rules. Our direct fuel and electricity – 14,000 Others – 13,000 Employee commuting – 11,000 Online products’ energy usage – 11,000 * D ue to the merger with UBM and specific calculation approaches required for the SBT, these numbers differ slightly from those reported in 2017. 36 37 WWW.INFORMA.COM/SUSTAINABILITY = 36. Table extraction requires manual review.
+
+Evidence 14
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2019_SR.pdf | Page 4
+
+Text:
+Company: Informa. Source: sustainability report 2019, page 4, table. Table row: unnamed_column_11 = of the goals”; unnamed_column_18 = 52%. Table extraction requires manual review.
+
+Evidence 15
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2020_SR.pdf | Page 6
+
+Text:
+Company: Informa. Source: sustainability report 2020, page 6, table. Table row: unnamed_column_0 = 692. Table extraction requires manual review.
+
+Evidence 16
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 86%. Table extraction requires manual review.
+
+Evidence 17
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 63%. Table extraction requires manual review.
+
+Evidence 18
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 82%. Table extraction requires manual review.
+
+Evidence 19
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 66%. Table extraction requires manual review.
+
+Evidence 20
+
+Source:
+034847ad-4df8-4fde-a032-a1ae9d231942_2021_SR.pdf | Page 41
+
+Text:
+Company: Informa. Source: sustainability report 2021, page 41, table. Table row: unnamed_column_1 = 95%. Table extraction requires manual review.
+
+
+--------------------------------------------------
+
+CSV Metric Evidence
+
+Evidence 21
+
+Source:
+Corporate Sustainability Tracker | Source year 2018
+
+Text:
+Company: Informa. Reporting year: 2018. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 79376220.0 USD.
+
+Evidence 22
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS E1 Climate change. Value: 2018-01-01.
+
+Evidence 23
+
+Source:
+Corporate Sustainability Tracker | Source year 2021
+
+Text:
+Company: Informa. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Expected cost savings from climate change adaptation actions. Value: 106671000.0 USD.
+
+Evidence 24
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 73.0 percent.
+
+Evidence 25
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 73.0 percent.
+
+Evidence 26
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 73.0 percent.
+
+Evidence 27
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 20.0 percent.
+
+Evidence 28
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 55.0 percent.
+
+Evidence 29
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Percentage of market-based Scope 2 GHG emissions linked to purchased electricity bundled with instruments. Value: 0.0 percent.
+
+Evidence 30
+
+Source:
+Corporate Sustainability Tracker | Source year 2022
+
+Text:
+Company: Informa. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.
