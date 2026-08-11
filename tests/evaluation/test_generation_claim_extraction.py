@@ -1,0 +1,523 @@
+from __future__ import annotations
+
+import sys
+import tempfile
+import unittest
+from unittest.mock import patch
+from pathlib import Path
+
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+EVALUATION_SCRIPT_DIR = REPO_ROOT / "script" / "evaluation"
+sys.path.insert(0, str(EVALUATION_SCRIPT_DIR))
+
+from generation_claims import (  # noqa: E402
+    InputValidationError,
+    OutputValidationError,
+    build_dc_jobs,
+    build_ec_jobs,
+    make_dc_occurrences,
+    make_ec_occurrences,
+    normalize_azure_base_url,
+    select_cases,
+    sha256_text,
+    validate_extraction_response,
+)
+from run_generation_claim_extraction import (  # noqa: E402
+    execute_job,
+    format_duration,
+    load_latest_call_records,
+    output_paths,
+    prepare_output_directory,
+    resolve_model,
+)
+
+
+def make_card(*, evidence_id: str = "evidence-1", text: str | None = None) -> dict:
+    text = text or "The Group cut emissions by 10% in 2023."
+    return {
+        "prompt_label": "Evidence 1",
+        "evidence_id": evidence_id,
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2023,
+        "source_label": "report.pdf | Page 1",
+        "source_file": "report.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 1,
+        "page_end": 1,
+        "metric": None,
+        "value_text": None,
+        "unit": None,
+        "prompt_rank_from_retrieval": 1,
+        "retrieval_text": text,
+        "retrieval_text_hash": sha256_text(text),
+        "shown_in_prompt": True,
+    }
+
+
+def make_case(
+    generation_case_id: str = "generation-case-1",
+    *,
+    case_id: str = "case-1",
+    company_id: str = "company-1",
+    company_name: str = "Acme plc",
+    card: dict | None = None,
+) -> dict:
+    return {
+        "schema_version": "w2_generation_cases_v1",
+        "generation_case_id": generation_case_id,
+        "case_id": case_id,
+        "company_id": company_id,
+        "company_name": company_name,
+        "target_reporting_year": 2023,
+        "task_id": "E1-1_transition_plan",
+        "prompt_evidence": [card or make_card()],
+        "prompt_metadata": {"evidence_count": 1},
+    }
+
+
+def make_disclosure(
+    generation_case_id: str = "generation-case-1",
+    *,
+    output_id: str = "output-1",
+    text: str = "Acme plc cut emissions by 10% in 2023.",
+) -> dict:
+    return {
+        "schema_version": "generated_disclosure_v1",
+        "generation_case_id": generation_case_id,
+        "generation_output_id": output_id,
+        "generation_status": "success",
+        "generated_text": text,
+        "generated_text_hash": sha256_text(text),
+    }
+
+
+class ResponseValidationTests(unittest.TestCase):
+    def test_valid_response_builds_exact_half_open_offsets(self) -> None:
+        source = "The Group cut emissions by 10% in 2023."
+        quote = "The Group cut emissions by 10% in 2023"
+        payload = {
+            "claims": [
+                {
+                    "claim_text": "Acme plc cut emissions by 10% in 2023.",
+                    "source_quotes": [quote],
+                    "context_resolutions": [
+                        {
+                            "surface_form": "The Group",
+                            "resolved_value": "Acme plc",
+                            "metadata_field": "company_name",
+                        }
+                    ],
+                }
+            ],
+            "no_claim_reason": None,
+        }
+        validated = validate_extraction_response(
+            payload,
+            source_text=source,
+            context_metadata={"company_name": "Acme plc", "source_year": "2023"},
+            require_unique_quotes=True,
+        )
+        span = validated["claims"][0]["source_spans"][0]
+        self.assertEqual(span["start"], 0)
+        self.assertEqual(span["end"], len(quote))
+        self.assertEqual(source[span["start"] : span["end"]], quote)
+
+    def test_empty_claims_require_permitted_reason(self) -> None:
+        validated = validate_extraction_response(
+            {
+                "claims": [],
+                "no_claim_reason": "insufficient_context_or_extraction_noise",
+            },
+            source_text="@@ 12 13 @@",
+            context_metadata={"company_name": "Acme plc"},
+            require_unique_quotes=True,
+        )
+        self.assertEqual(validated["claims"], [])
+
+        with self.assertRaises(OutputValidationError):
+            validate_extraction_response(
+                {"claims": [], "no_claim_reason": None},
+                source_text="@@ 12 13 @@",
+                context_metadata={"company_name": "Acme plc"},
+                require_unique_quotes=True,
+            )
+
+    def test_non_exact_or_non_unique_quotes_are_rejected(self) -> None:
+        base_claim = {
+            "claim_text": "A target was stated.",
+            "context_resolutions": [],
+        }
+        with self.assertRaises(OutputValidationError):
+            validate_extraction_response(
+                {
+                    "claims": [{**base_claim, "source_quotes": ["Target"]}],
+                    "no_claim_reason": None,
+                },
+                source_text="target",
+                context_metadata={},
+                require_unique_quotes=True,
+            )
+
+        with self.assertRaises(OutputValidationError):
+            validate_extraction_response(
+                {
+                    "claims": [{**base_claim, "source_quotes": ["target"]}],
+                    "no_claim_reason": None,
+                },
+                source_text="target and target",
+                context_metadata={},
+                require_unique_quotes=True,
+            )
+
+    def test_metadata_resolution_must_match_supplied_value(self) -> None:
+        with self.assertRaises(OutputValidationError):
+            validate_extraction_response(
+                {
+                    "claims": [
+                        {
+                            "claim_text": "Another company set a target.",
+                            "source_quotes": ["The Group set a target"],
+                            "context_resolutions": [
+                                {
+                                    "surface_form": "The Group",
+                                    "resolved_value": "Another company",
+                                    "metadata_field": "company_name",
+                                }
+                            ],
+                        }
+                    ],
+                    "no_claim_reason": None,
+                },
+                source_text="The Group set a target.",
+                context_metadata={"company_name": "Acme plc"},
+                require_unique_quotes=True,
+            )
+
+    def test_duplicate_claim_occurrence_is_rejected(self) -> None:
+        claim = {
+            "claim_text": "Acme plc set a target.",
+            "source_quotes": ["Acme plc set a target"],
+            "context_resolutions": [],
+        }
+        with self.assertRaises(OutputValidationError):
+            validate_extraction_response(
+                {"claims": [claim, dict(claim)], "no_claim_reason": None},
+                source_text="Acme plc set a target.",
+                context_metadata={"company_name": "Acme plc"},
+                require_unique_quotes=True,
+            )
+
+
+class JobConstructionTests(unittest.TestCase):
+    def test_ec_jobs_cache_one_card_across_cases_and_keep_memberships(self) -> None:
+        shared_card = make_card()
+        cases = [
+            make_case("generation-case-1", case_id="case-1", card=dict(shared_card)),
+            make_case("generation-case-2", case_id="case-2", card=dict(shared_card)),
+        ]
+        jobs = build_ec_jobs(cases)
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(len(jobs[0]["memberships"]), 2)
+        self.assertNotIn("task_id", jobs[0]["dynamic_input"])
+        self.assertNotIn("target_reporting_year", jobs[0]["context_metadata"])
+
+    def test_ec_job_rejects_same_evidence_id_with_different_payload(self) -> None:
+        cases = [
+            make_case("generation-case-1", card=make_card(text="The Group set a target.")),
+            make_case(
+                "generation-case-2",
+                case_id="case-2",
+                card=make_card(text="The Group did not set a target."),
+            ),
+        ]
+        with self.assertRaises(InputValidationError):
+            build_ec_jobs(cases)
+
+    def test_distinct_evidence_ids_remain_distinct_when_text_matches(self) -> None:
+        cases = [
+            make_case("generation-case-1", card=make_card(evidence_id="evidence-1")),
+            make_case(
+                "generation-case-2",
+                case_id="case-2",
+                card=make_card(evidence_id="evidence-2"),
+            ),
+        ]
+        jobs = build_ec_jobs(cases)
+        self.assertEqual(len(jobs), 2)
+        self.assertEqual({job["evidence_id"] for job in jobs}, {"evidence-1", "evidence-2"})
+        self.assertEqual(len({job["job_input_hash"] for job in jobs}), 2)
+
+    def test_dc_job_uses_one_complete_disclosure(self) -> None:
+        case = make_case()
+        disclosure = make_disclosure()
+        jobs = build_dc_jobs([case], {case["generation_case_id"]: disclosure})
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0]["dynamic_input"]["disclosure_text"], disclosure["generated_text"])
+        self.assertNotIn("prompt_evidence", jobs[0]["dynamic_input"])
+
+    def test_selection_keeps_only_cases_with_successful_disclosures(self) -> None:
+        cases = [
+            make_case("generation-case-1", case_id="case-1"),
+            make_case("generation-case-2", case_id="case-2"),
+        ]
+        selected, disclosure_map, counts = select_cases(
+            cases,
+            [make_disclosure("generation-case-1")],
+        )
+        self.assertEqual([row["generation_case_id"] for row in selected], ["generation-case-1"])
+        self.assertEqual(list(disclosure_map), ["generation-case-1"])
+        self.assertEqual(counts["matching_cases_without_successful_disclosure"], 1)
+
+
+class OccurrenceConstructionTests(unittest.TestCase):
+    def test_occurrence_ids_and_provenance_are_deterministic(self) -> None:
+        ec_job = build_ec_jobs([make_case()])[0]
+        ec_job["call_id"] = "ecx-test"
+        ec_call = {
+            "validated_output": {
+                "claims": [
+                    {
+                        "claim_text": "Acme plc cut emissions by 10% in 2023.",
+                        "source_quotes": ["The Group cut emissions by 10% in 2023"],
+                        "source_spans": [
+                            {
+                                "quote_index": 0,
+                                "quote": "The Group cut emissions by 10% in 2023",
+                                "start": 0,
+                                "end": 42,
+                            }
+                        ],
+                        "context_resolutions": [],
+                    }
+                ],
+                "no_claim_reason": None,
+            }
+        }
+        first = make_ec_occurrences([ec_job], {"ecx-test": ec_call})
+        second = make_ec_occurrences([ec_job], {"ecx-test": ec_call})
+        self.assertEqual(first, second)
+        self.assertEqual(first[0]["evidence_id"], "evidence-1")
+        self.assertEqual(first[0]["prompt_label"], "Evidence 1")
+
+        case = make_case()
+        dc_job = build_dc_jobs(
+            [case], {case["generation_case_id"]: make_disclosure()}
+        )[0]
+        dc_job["call_id"] = "dcx-test"
+        dc_call = {
+            "validated_output": {
+                "claims": [
+                    {
+                        "claim_text": "Acme plc cut emissions by 10% in 2023.",
+                        "source_quotes": ["Acme plc cut emissions by 10% in 2023"],
+                        "source_spans": [
+                            {
+                                "quote_index": 0,
+                                "quote": "Acme plc cut emissions by 10% in 2023",
+                                "start": 0,
+                                "end": 42,
+                            }
+                        ],
+                        "context_resolutions": [],
+                    }
+                ],
+                "no_claim_reason": None,
+            }
+        }
+        dc_rows = make_dc_occurrences([dc_job], {"dcx-test": dc_call})
+        self.assertEqual(dc_rows[0]["generation_output_id"], "output-1")
+        self.assertTrue(dc_rows[0]["dc_occurrence_id"].startswith("dco_"))
+
+
+class AzureEndpointTests(unittest.TestCase):
+    def test_azure_endpoint_normalization(self) -> None:
+        self.assertEqual(
+            normalize_azure_base_url("https://example.cognitiveservices.azure.com/"),
+            "https://example.cognitiveservices.azure.com/openai/v1/",
+        )
+        self.assertEqual(
+            normalize_azure_base_url(
+                "https://example.openai.azure.com/openai/responses?api-version=preview"
+            ),
+            "https://example.openai.azure.com/openai/v1/",
+        )
+
+    def test_claim_model_and_deployment_can_be_selected_by_environment(self) -> None:
+        config = {
+            "current_primary_model": "fallback",
+            "current_primary_model_env": "CLAIM_EXTRACTION_MODEL_KEY",
+            "models": {
+                "azure_gpt_5_6_sol": {
+                    "provider": "azure_openai",
+                    "api_style": "responses",
+                    "deployment_name": None,
+                    "deployment_name_env": "CLAIM_EXTRACTION_AZURE_OPENAI_DEPLOYMENT",
+                    "endpoint_env": "CLAIM_EXTRACTION_AZURE_OPENAI_ENDPOINT",
+                    "api_key_env": "CLAIM_EXTRACTION_AZURE_OPENAI_API_KEY",
+                }
+            },
+        }
+        environment = {
+            "CLAIM_EXTRACTION_MODEL_KEY": "azure_gpt_5_6_sol",
+            "CLAIM_EXTRACTION_AZURE_OPENAI_DEPLOYMENT": "claim-deployment",
+        }
+        with patch.dict("os.environ", environment, clear=False):
+            model_key, _model, deployment, _base_url, _endpoint_env = resolve_model(
+                config,
+                model_key_override=None,
+                dry_run=True,
+            )
+        self.assertEqual(model_key, "azure_gpt_5_6_sol")
+        self.assertEqual(deployment, "claim-deployment")
+
+
+class FakeResponse:
+    def __init__(self, output: dict) -> None:
+        import json
+
+        self.output_text = json.dumps(output)
+
+    def model_dump(self) -> dict:
+        return {
+            "usage": {
+                "input_tokens": 100,
+                "output_tokens": 50,
+                "total_tokens": 150,
+            }
+        }
+
+
+class FakeResponses:
+    def __init__(self, response: FakeResponse) -> None:
+        self.response = response
+        self.calls: list[dict] = []
+
+    def create(self, **kwargs: object) -> FakeResponse:
+        self.calls.append(dict(kwargs))
+        return self.response
+
+
+class FakeClient:
+    def __init__(self, response: FakeResponse) -> None:
+        self.responses = FakeResponses(response)
+
+
+class ModelCallContractTests(unittest.TestCase):
+    def test_execute_job_uses_strict_schema_and_validates_output(self) -> None:
+        output = {
+            "claims": [
+                {
+                    "claim_text": "Acme plc set a target.",
+                    "source_quotes": ["Acme plc set a target"],
+                    "context_resolutions": [],
+                }
+            ],
+            "no_claim_reason": None,
+        }
+        client = FakeClient(FakeResponse(output))
+        job = {
+            "task": "ec",
+            "call_id": "ecx-test",
+            "call_identity": {"test": True},
+            "dynamic_input": {
+                "evidence_type": "narrative",
+                "context_metadata": {"company_name": "Acme plc"},
+                "evidence_text": "Acme plc set a target.",
+            },
+            "source_text": "Acme plc set a target.",
+            "context_metadata": {"company_name": "Acme plc"},
+            "evidence_id": "evidence-1",
+            "retrieval_text_hash": sha256_text("Acme plc set a target."),
+            "memberships": [{"generation_case_id": "generation-case-1"}],
+        }
+        schema = {
+            "type": "object",
+            "additionalProperties": False,
+            "properties": {
+                "claims": {"type": "array"},
+                "no_claim_reason": {"type": ["string", "null"]},
+            },
+            "required": ["claims", "no_claim_reason"],
+        }
+        config = {
+            "runtime": {"max_network_retries": 0},
+            "output_validation": {"require_unique_source_quotes": True},
+        }
+        model = {
+            "model_id": "gpt-5.6-sol",
+            "model_version": "test",
+            "request_parameters": {"store": False},
+            "task_request_parameters": {"ec": {"max_output_tokens": 4096}},
+        }
+        record = execute_job(
+            job=job,
+            client=client,
+            deployment="test-deployment",
+            prompt_text="Extract claims.",
+            schema=schema,
+            schema_spec={
+                "structured_output_name": "claim_response",
+                "strict": True,
+            },
+            model_key="azure_test",
+            model=model,
+            config=config,
+        )
+        self.assertEqual(record["call_status"], "success")
+        self.assertEqual(record["usage"]["total_tokens"], 150)
+        request = client.responses.calls[0]
+        self.assertEqual(request["model"], "test-deployment")
+        self.assertTrue(request["text"]["format"]["strict"])
+        self.assertEqual(request["max_output_tokens"], 4096)
+        self.assertFalse(request["store"])
+
+
+class ResumeTests(unittest.TestCase):
+    def test_resume_requires_manifest_and_latest_call_record_wins(self) -> None:
+        import json
+
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            output_dir = Path(temporary_directory)
+            paths = output_paths(output_dir)
+            with self.assertRaises(InputValidationError):
+                prepare_output_directory(
+                    output_dir=output_dir,
+                    paths=paths,
+                    resume=True,
+                )
+
+            paths["manifest"].write_text(
+                json.dumps({"run_fingerprint": "fingerprint"}) + "\n",
+                encoding="utf-8",
+            )
+            previous = prepare_output_directory(
+                output_dir=output_dir,
+                paths=paths,
+                resume=True,
+            )
+            self.assertEqual(previous["run_fingerprint"], "fingerprint")
+
+            records = [
+                {"call_id": "ecx-1", "call_status": "api_error"},
+                {"call_id": "ecx-1", "call_status": "success"},
+            ]
+            paths["ec_calls"].write_text(
+                "".join(json.dumps(record) + "\n" for record in records),
+                encoding="utf-8",
+            )
+            latest, all_records = load_latest_call_records(paths)
+            self.assertEqual(latest["ecx-1"]["call_status"], "success")
+            self.assertEqual(len(all_records), 2)
+
+
+class ProgressFormattingTests(unittest.TestCase):
+    def test_duration_formatting(self) -> None:
+        self.assertEqual(format_duration(9.6), "10s")
+        self.assertEqual(format_duration(65), "1m 05s")
+        self.assertEqual(format_duration(3661), "1h 01m 01s")
+
+
+if __name__ == "__main__":
+    unittest.main()

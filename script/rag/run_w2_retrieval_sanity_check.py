@@ -40,6 +40,7 @@ import csv
 import hashlib
 import json
 import math
+import os
 import re
 import sys
 from collections import Counter, defaultdict
@@ -47,14 +48,38 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Mapping, Sequence
+from urllib.parse import urlsplit, urlunsplit
 
 import numpy as np
+from dotenv import load_dotenv
+
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(REPO_ROOT / ".env", override=False)
 
 SCRIPT_VERSION = "run_w2_retrieval_sanity_check_v2.0"
 DEFAULT_ALLOWED_MANIFEST_KEYS = ["csv_metric", "pdf_narrative", "pdf_table_row"]
 DEFAULT_ALLOWED_EVIDENCE_TYPES = {"csv_metric", "pdf_table_row", "narrative"}
 DEFAULT_RRF_K = 60
 DEFAULT_TOP_N_PER_CHANNEL = 50
+
+
+def normalize_azure_base_url(endpoint: str) -> str:
+    parts = urlsplit(endpoint.strip())
+    if parts.scheme != "https" or not parts.netloc:
+        fail("Azure OpenAI embedding endpoint must be a full HTTPS URL")
+    path = parts.path.rstrip("/")
+    for suffix in ("/openai/v1/embeddings", "/openai/embeddings"):
+        if path.endswith(suffix):
+            path = path[: -len(suffix)]
+            break
+    if path.endswith("/openai/v1"):
+        normalized_path = path + "/"
+    elif path.endswith("/openai"):
+        normalized_path = path + "/v1/"
+    else:
+        normalized_path = path + "/openai/v1/"
+    return urlunsplit((parts.scheme, parts.netloc, normalized_path, "", ""))
 
 ACCEPTANCE_CRITERIA: dict[str, list[str]] = {
     "phase_1_input_validation": [
@@ -152,11 +177,24 @@ BUILTIN_DENSE_MODEL_REGISTRY: dict[str, dict[str, Any]] = {
         "trust_remote_code": False,
     },
     "text-embedding-3-small": {
-        "provider": "openai",
+        "provider": "azure_openai",
         "model_name_or_path": "text-embedding-3-small",
+        "deployment_name_env": "TEXT_EMBEDDING_3_SMALL_AZURE_OPENAI_DEPLOYMENT",
+        "endpoint_env": "TEXT_EMBEDDING_3_SMALL_AZURE_OPENAI_ENDPOINT",
+        "api_key_env": "TEXT_EMBEDDING_3_SMALL_AZURE_OPENAI_API_KEY",
         "access_type": "closed_api",
         "query_prefix": "",
         "embedding_dimension": 1536,
+    },
+    "text-embedding-3-large": {
+        "provider": "azure_openai",
+        "model_name_or_path": "text-embedding-3-large",
+        "deployment_name_env": "TEXT_EMBEDDING_3_LARGE_AZURE_OPENAI_DEPLOYMENT",
+        "endpoint_env": "TEXT_EMBEDDING_3_LARGE_AZURE_OPENAI_ENDPOINT",
+        "api_key_env": "TEXT_EMBEDDING_3_LARGE_AZURE_OPENAI_API_KEY",
+        "access_type": "closed_api",
+        "query_prefix": "",
+        "embedding_dimension": 3072,
     },
     # Backward-compatible aliases from earlier retrieval-script drafts.
     "qwen3_embedding_0_6b": {
@@ -296,7 +334,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--evidence-root", type=Path, default=Path("evidence_pilot"))
     parser.add_argument("--package-build-name", required=True)
     parser.add_argument("--embedding-build-name", required=True)
-    parser.add_argument("--embedding-model-key", required=True)
+    embedding_model_default = os.environ.get("RETRIEVAL_EMBEDDING_MODEL_KEY")
+    parser.add_argument(
+        "--embedding-model-key",
+        required=not bool(embedding_model_default),
+        default=embedding_model_default,
+        help="Defaults to RETRIEVAL_EMBEDDING_MODEL_KEY from .env when set.",
+    )
     parser.add_argument("--task-spec", type=Path, required=True)
     parser.add_argument("--query-bundle-template", type=Path, required=True)
     parser.add_argument("--retrieval-config", type=Path, required=True)
@@ -320,7 +364,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--include-table-markdown", action="store_true")
     parser.add_argument("--print-acceptance-criteria", action="store_true")
     parser.add_argument("--dry-run", action="store_true", help="Validate inputs/build cases but do not run retrieval.")
-    parser.add_argument("--openai-api-key-env", default="OPENAI_API_KEY")
+    parser.add_argument("--openai-api-key-env", default=None)
     parser.add_argument("--openai-base-url", default=None)
     parser.add_argument("--openai-dimensions", type=int, default=None)
     parser.add_argument("--openai-max-retries", type=int, default=3)
@@ -1065,6 +1109,8 @@ def resolve_dense_model_config(embedding_model_key: str, retrieval_config: dict[
         ("access_type", "access_type"),
         ("trust_remote_code", "trust_remote_code"),
         ("embedding_dimension", "embedding_dimension"),
+        ("api_model_name", "api_model_name"),
+        ("openai_api_key_env", "openai_api_key_env"),
     ]:
         value = manifest.get(src_key)
         if isinstance(value, bool) or clean_text(value):
@@ -1093,8 +1139,18 @@ def resolve_dense_model_config(embedding_model_key: str, retrieval_config: dict[
     # Corpus embeddings were already normalized during embedding build; keep this false unless explicitly requested.
     resolved["normalize_corpus_embeddings"] = bool(dense_config.get("normalize_corpus_embeddings", False))
     resolved["similarity"] = clean_text(dense_config.get("similarity")) or "cosine"
-    resolved["openai_api_key_env"] = clean_text(dense_config.get("openai_api_key_env")) or "OPENAI_API_KEY"
-    resolved["openai_base_url"] = dense_config.get("openai_base_url")
+    if resolved.get("provider") == "azure_openai":
+        endpoint_env = clean_text(resolved.get("endpoint_env"))
+        endpoint = os.environ.get(endpoint_env, "")
+        resolved["openai_api_key_env"] = clean_text(resolved.get("api_key_env"))
+        resolved["openai_base_url"] = normalize_azure_base_url(endpoint) if endpoint else None
+        if not clean_text(resolved.get("api_model_name")):
+            deployment_env = clean_text(resolved.get("deployment_name_env"))
+            deployment = os.environ.get(deployment_env, "") if deployment_env else ""
+            resolved["api_model_name"] = deployment or None
+    else:
+        resolved["openai_api_key_env"] = clean_text(dense_config.get("openai_api_key_env")) or None
+        resolved["openai_base_url"] = dense_config.get("openai_base_url")
     resolved["openai_dimensions"] = dense_config.get("openai_dimensions")
     resolved["openai_max_retries"] = int(dense_config.get("openai_max_retries", 3))
     resolved["openai_request_timeout"] = float(dense_config.get("openai_request_timeout", 60.0))
@@ -1107,7 +1163,7 @@ def embed_query(query_text: str, model_config: dict[str, Any]) -> np.ndarray:
     provider = clean_text(model_config.get("provider")) or "huggingface"
     query_prefix = model_config.get("query_prefix", "") or ""
     query_for_embedding = f"{query_prefix}{query_text}"
-    if provider == "openai":
+    if provider in {"openai", "azure_openai"}:
         return embed_query_openai(query_for_embedding, model_config)
     if provider == "huggingface":
         return embed_query_huggingface(query_for_embedding, model_config)
@@ -1142,13 +1198,23 @@ def embed_query_openai(query_for_embedding: str, model_config: dict[str, Any]) -
         from openai import OpenAI  # type: ignore
     except ImportError:
         fail("OpenAI query embedding requires the openai package. Install with: pip install openai")
-    import os
-
-    api_key_env = clean_text(model_config.get("openai_api_key_env")) or "OPENAI_API_KEY"
+    api_key_env = clean_text(model_config.get("openai_api_key_env"))
+    if not api_key_env:
+        fail("OpenAI query embedding requested without an explicit API-key environment variable.")
     api_key = os.environ.get(api_key_env)
     if not api_key:
         fail(f"OpenAI query embedding requested, but environment variable {api_key_env} is not set.")
     base_url = model_config.get("openai_base_url")
+    if model_config.get("provider") == "azure_openai":
+        if not base_url:
+            fail(
+                "Missing Azure embedding endpoint environment variable for the "
+                "selected embedding model"
+            )
+        if not model_config.get("api_model_name"):
+            fail(
+                "Missing Azure embedding deployment for the selected embedding model"
+            )
     client_key = f"openai::{base_url or 'default'}::{api_key_env}"
     if client_key not in _QUERY_ENCODER_CACHE:
         kwargs: dict[str, Any] = {
@@ -1161,7 +1227,7 @@ def embed_query_openai(query_for_embedding: str, model_config: dict[str, Any]) -
         _QUERY_ENCODER_CACHE[client_key] = OpenAI(**kwargs)
     client = _QUERY_ENCODER_CACHE[client_key]
     create_kwargs: dict[str, Any] = {
-        "model": model_config["model_name_or_path"],
+        "model": model_config.get("api_model_name") or model_config["model_name_or_path"],
         "input": [query_for_embedding],
     }
     dimensions = model_config.get("openai_dimensions")

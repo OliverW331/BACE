@@ -45,6 +45,13 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple
+from urllib.parse import urlsplit, urlunsplit
+
+from dotenv import load_dotenv
+
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(REPO_ROOT / ".env", override=False)
 
 
 SCRIPT_VERSION = "run_w2_generation_v1.1"
@@ -401,9 +408,29 @@ def extract_response_text(response: Any) -> str:
     raise ValueError("Could not extract non-empty generated text from provider response")
 
 
+def normalize_azure_base_url(endpoint: str) -> str:
+    parts = urlsplit(endpoint.strip())
+    if parts.scheme != "https" or not parts.netloc:
+        raise ValueError("Azure OpenAI generation endpoint must be a full HTTPS URL")
+    path = parts.path.rstrip("/")
+    for suffix in ("/openai/v1/responses", "/openai/responses"):
+        if path.endswith(suffix):
+            path = path[: -len(suffix)]
+            break
+    if path.endswith("/openai/v1"):
+        normalized_path = path + "/"
+    elif path.endswith("/openai"):
+        normalized_path = path + "/v1/"
+    else:
+        normalized_path = path + "/openai/v1/"
+    return urlunsplit((parts.scheme, parts.netloc, normalized_path, "", ""))
+
+
 def generate_disclosure_openai_responses(
     prompt: str,
+    provider: str,
     model: str,
+    azure_deployment: Optional[str],
     temperature: Optional[float],
     max_output_tokens: Optional[int],
     omit_temperature: bool,
@@ -421,12 +448,34 @@ def generate_disclosure_openai_responses(
         ) from exc
 
     client_kwargs: Dict[str, Any] = {"max_retries": openai_max_retries}
+    api_model = model
+    if provider == "azure_openai":
+        api_key = os.environ.get("GENERATION_AZURE_OPENAI_API_KEY")
+        endpoint = os.environ.get("GENERATION_AZURE_OPENAI_ENDPOINT")
+        if not api_key:
+            raise RuntimeError(
+                "Missing Azure API key environment variable: "
+                "GENERATION_AZURE_OPENAI_API_KEY"
+            )
+        if not endpoint:
+            raise RuntimeError(
+                "Missing Azure endpoint environment variable: "
+                "GENERATION_AZURE_OPENAI_ENDPOINT"
+            )
+        if not azure_deployment:
+            raise RuntimeError(
+                "Missing Azure generation deployment environment variable: "
+                "GENERATION_AZURE_OPENAI_DEPLOYMENT"
+            )
+        client_kwargs["api_key"] = api_key
+        client_kwargs["base_url"] = normalize_azure_base_url(endpoint)
+        api_model = azure_deployment
     if request_timeout is not None:
         client_kwargs["timeout"] = request_timeout
     client = OpenAI(**client_kwargs)
 
     kwargs: Dict[str, Any] = {
-        "model": model,
+        "model": api_model,
         "input": prompt,
     }
     if max_output_tokens is not None:
@@ -453,6 +502,7 @@ def generate_disclosure(
     provider: str,
     prompt: str,
     model: str,
+    azure_deployment: Optional[str],
     temperature: Optional[float],
     max_output_tokens: Optional[int],
     omit_temperature: bool,
@@ -461,11 +511,15 @@ def generate_disclosure(
     request_timeout: Optional[float],
     openai_max_retries: int,
 ) -> Dict[str, Any]:
-    if provider != "openai":
-        raise ValueError(f"Unsupported provider: {provider}. Currently supported: openai")
+    if provider not in {"openai", "azure_openai"}:
+        raise ValueError(
+            f"Unsupported provider: {provider}. Currently supported: openai, azure_openai"
+        )
     return generate_disclosure_openai_responses(
         prompt=prompt,
+        provider=provider,
         model=model,
+        azure_deployment=azure_deployment,
         temperature=temperature,
         max_output_tokens=max_output_tokens,
         omit_temperature=omit_temperature,
@@ -541,6 +595,7 @@ def make_success_record(
         "generation_model": {
             "provider": args.provider,
             "model": args.model,
+            "deployment_name": args.azure_deployment if args.provider == "azure_openai" else None,
             "temperature": None if args.omit_temperature else args.temperature,
             "max_output_tokens": args.max_output_tokens,
             "reasoning_effort": args.reasoning_effort,
@@ -589,6 +644,7 @@ def make_failure_record(
         "generation_model": {
             "provider": args.provider,
             "model": args.model,
+            "deployment_name": args.azure_deployment if args.provider == "azure_openai" else None,
             "temperature": None if args.omit_temperature else args.temperature,
             "max_output_tokens": args.max_output_tokens,
             "reasoning_effort": args.reasoning_effort,
@@ -750,6 +806,7 @@ def build_run_manifest(
         "generation_model": {
             "provider": args.provider,
             "model": args.model,
+            "deployment_name": args.azure_deployment if args.provider == "azure_openai" else None,
             "temperature": None if args.omit_temperature else args.temperature,
             "max_output_tokens": args.max_output_tokens,
             "reasoning_effort": args.reasoning_effort,
@@ -803,8 +860,16 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser.add_argument("--generation-cases", required=True, type=Path)
     parser.add_argument("--generation-input-manifest", required=True, type=Path)
     parser.add_argument("--output-dir", required=True, type=Path)
-    parser.add_argument("--provider", default="openai", choices=["openai"])
-    parser.add_argument("--model", required=True)
+    parser.add_argument(
+        "--provider",
+        default=os.environ.get("GENERATION_PROVIDER", "azure_openai"),
+        choices=["openai", "azure_openai"],
+    )
+    parser.add_argument("--model", default=os.environ.get("GENERATION_MODEL_ID"))
+    parser.add_argument(
+        "--azure-deployment",
+        default=os.environ.get("GENERATION_AZURE_OPENAI_DEPLOYMENT"),
+    )
     parser.add_argument("--temperature", type=float, default=0.0)
     parser.add_argument(
         "--omit-temperature",
@@ -855,6 +920,8 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
 
 
 def validate_args(args: argparse.Namespace) -> None:
+    if not args.model:
+        raise ValueError("--model or GENERATION_MODEL_ID is required")
     if args.overwrite and args.resume:
         raise ValueError("--overwrite and --resume are mutually exclusive")
     if args.max_cases is not None and args.max_cases <= 0:
@@ -983,6 +1050,7 @@ def run_generation(args: argparse.Namespace) -> int:
                     provider=args.provider,
                     prompt=row["generation_prompt"],
                     model=args.model,
+                    azure_deployment=args.azure_deployment,
                     temperature=args.temperature,
                     max_output_tokens=args.max_output_tokens,
                     omit_temperature=args.omit_temperature,

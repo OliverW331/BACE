@@ -1,0 +1,57 @@
+{
+  "schema_version": "generation_claim_extraction_config_v1",
+  "status": "implementation_ready_azure_credentials_required_for_live_calls",
+  "current_primary_model": "azure_gpt_5_6_sol",
+  "current_primary_model_env": "CLAIM_EXTRACTION_MODEL_KEY",
+  "models": {
+    "azure_gpt_5_6_sol": {
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": null,
+      "deployment_name_env": "CLAIM_EXTRACTION_AZURE_OPENAI_DEPLOYMENT",
+      "provider": "azure_openai",
+      "api_style": "responses",
+      "auth_type": "api_key",
+      "endpoint_env": "CLAIM_EXTRACTION_AZURE_OPENAI_ENDPOINT",
+      "api_key_env": "CLAIM_EXTRACTION_AZURE_OPENAI_API_KEY",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    }
+  },
+  "prompts": {
+    "ec": {
+      "file": "generation_ec_claim_extraction_prompt_v1.txt",
+      "version": "generation_ec_claim_extraction_prompt_v1",
+      "sha256": "963a4c453012fa425c58097c55db92aa6f609dfa5072d616c8c4161dce096ee8"
+    },
+    "dc": {
+      "file": "generation_dc_claim_extraction_prompt_v1.txt",
+      "version": "generation_dc_claim_extraction_prompt_v1",
+      "sha256": "a17eb4642d0fcec79be3bbaa44fb2f25cf47f93002529f1c4571110c24d0a749"
+    }
+  },
+  "response_schema": {
+    "file": "generation_claim_extraction_response_schema_v1.json",
+    "version": "generation_claim_extraction_response_v1",
+    "sha256": "ee9e12c67b90ed083042879dad94532602647ad19da135e5a3bf00eae71ee0d3",
+    "structured_output_name": "generation_claim_extraction_response_v1",
+    "strict": true
+  },
+  "runtime": {
+    "request_timeout_seconds": 180,
+    "max_network_retries": 4,
+    "retry_initial_seconds": 2,
+    "retry_max_seconds": 60
+  },
+  "output_validation": {
+    "require_exact_source_quotes": true,
+    "require_unique_source_quotes": true,
+    "allow_fuzzy_quote_matching": false,
+    "allow_semantic_repair": false,
+    "offset_convention": "zero_based_half_open"
+  }
+}

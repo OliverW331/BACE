@@ -1,48 +1,21 @@
 {
   "schema_version": "retrieval_judge_config_v2",
-  "status": "gpt_5_6_sol_primary_pilot_ready",
+  "status": "azure_gpt_5_6_sol_primary_pilot_ready",
   "model_agnostic_pipeline": true,
   "current_primary_judge": "azure_gpt_5_6_sol",
+  "current_primary_judge_env": "RETRIEVAL_JUDGE_MODEL_KEY",
   "models": {
-    "gpt_oss_20b_groq": {
-      "model_id": "openai/gpt-oss-20b",
-      "provider": "groq",
-      "access_mode": "managed_api",
-      "api_style": "chat_completions",
-      "auth_type": "bearer_api_key",
-      "base_url": "https://api.groq.com/openai/v1",
-      "api_key_env": "GROQ_API_KEY",
-      "role": "alternative_future_judge",
-      "request_parameters": {
-        "max_completion_tokens": 128
-      }
-    },
-    "qwen3_5_9b_managed": {
-      "model_id": "Qwen/Qwen3.5-9B",
-      "provider": null,
-      "access_mode": "managed_api",
-      "api_style": "chat_completions",
-      "auth_type": "bearer_api_key",
-      "base_url": null,
-      "base_url_env": null,
-      "api_key_env": null,
-      "role": "alternative_future_judge",
-      "request_parameters": {
-        "max_completion_tokens": 128
-      },
-      "configuration_status": "placeholder_requires_provider_configuration"
-    },
     "azure_gpt_5_6_sol": {
       "model_id": "gpt-5.6-sol",
       "model_version": "2026-07-09",
-      "deployment_name": "gpt-5.6-sol-retrieval-judge",
-      "deployment_name_env": "AZURE_OPENAI_DEPLOYMENT",
+      "deployment_name": null,
+      "deployment_name_env": "RETRIEVAL_JUDGE_AZURE_OPENAI_DEPLOYMENT",
       "provider": "azure_openai",
       "access_mode": "managed_api",
       "api_style": "responses",
       "auth_type": "api_key",
-      "endpoint_env": "AZURE_OPENAI_ENDPOINT",
-      "api_key_env": "AZURE_OPENAI_API_KEY",
+      "endpoint_env": "RETRIEVAL_JUDGE_AZURE_OPENAI_ENDPOINT",
+      "api_key_env": "RETRIEVAL_JUDGE_AZURE_OPENAI_API_KEY",
       "role": "current_primary_judge",
       "request_parameters": {
         "max_output_tokens": 256,

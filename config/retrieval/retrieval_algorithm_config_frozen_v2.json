@@ -34,8 +34,6 @@
     "embedding_matrix_path": "",
     "id_mapping_path": "",
     "score_logging": true,
-    "openai_api_key_env": "OPENAI_API_KEY",
-    "openai_base_url": null,
     "openai_dimensions": null,
     "openai_max_retries": 3,
     "openai_request_timeout": 60.0

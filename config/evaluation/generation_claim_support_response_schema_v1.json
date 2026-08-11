@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_claim_support_response_v1",
+  "title": "Generation claim support assessment response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "dc_claim_id": {
+      "type": "string"
+    },
+    "support_sets": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "dc_claim_id",
+    "support_sets"
+  ]
+}

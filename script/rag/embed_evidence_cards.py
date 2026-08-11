@@ -41,8 +41,8 @@ Example smoke test:
       --index-type faiss_flat_ip \
       --overwrite
 
-Example OpenAI baseline smoke test:
-    export OPENAI_API_KEY="..."
+Example Azure OpenAI embedding smoke test (credentials and deployment are read
+from the project-root .env file):
     python script/rag/embed_evidence_cards.py \
       --evidence-root pilot_evidence \
       --embedding-build-name smoke_openai_embedding_v1 \
@@ -70,8 +70,14 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Literal
+from urllib.parse import urlsplit, urlunsplit
 
 import numpy as np
+from dotenv import load_dotenv
+
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(REPO_ROOT / ".env", override=False)
 
 
 SCRIPT_VERSION = "embed_evidence_cards_v2.0"
@@ -153,8 +159,11 @@ MODEL_REGISTRY: dict[str, dict[str, Any]] = {
         "trust_remote_code": False,
     },
     "text-embedding-3-small": {
-        "provider": "openai",
+        "provider": "azure_openai",
         "model_name_or_path": "text-embedding-3-small",
+        "deployment_name_env": "TEXT_EMBEDDING_3_SMALL_AZURE_OPENAI_DEPLOYMENT",
+        "endpoint_env": "TEXT_EMBEDDING_3_SMALL_AZURE_OPENAI_ENDPOINT",
+        "api_key_env": "TEXT_EMBEDDING_3_SMALL_AZURE_OPENAI_API_KEY",
         "access_type": "closed_api",
         "status": "current",
         "role": "proprietary_api_retrieval_baseline",
@@ -163,7 +172,7 @@ MODEL_REGISTRY: dict[str, dict[str, Any]] = {
         "embedding_dimension": 1536,
         "trust_remote_code": None,
     },
-    # Deferred placeholders. They are intentionally blocked unless
+    # Deferred local-model placeholders. They are intentionally blocked unless
     # --include-deferred is explicitly supplied.
     "qwen3-4b": {
         "provider": "huggingface",
@@ -188,11 +197,14 @@ MODEL_REGISTRY: dict[str, dict[str, Any]] = {
         "trust_remote_code": True,
     },
     "text-embedding-3-large": {
-        "provider": "openai",
+        "provider": "azure_openai",
         "model_name_or_path": "text-embedding-3-large",
+        "deployment_name_env": "TEXT_EMBEDDING_3_LARGE_AZURE_OPENAI_DEPLOYMENT",
+        "endpoint_env": "TEXT_EMBEDDING_3_LARGE_AZURE_OPENAI_ENDPOINT",
+        "api_key_env": "TEXT_EMBEDDING_3_LARGE_AZURE_OPENAI_API_KEY",
         "access_type": "closed_api",
-        "status": "deferred",
-        "role": "deferred_larger_openai_api_baseline",
+        "status": "current",
+        "role": "larger_proprietary_api_retrieval_candidate",
         "document_prefix": "",
         "query_prefix": "",
         "embedding_dimension": 3072,
@@ -227,7 +239,7 @@ ACCEPTANCE_CRITERIA: dict[str, list[str]] = {
         "Canonical evidence card files are never modified.",
     ],
     "phase_3_model_registry_and_prefix_policy": [
-        "Six current model keys are supported: five Hugging Face open/open-weight models plus OpenAI text-embedding-3-small.",
+        "Seven current model keys are supported: five Hugging Face models plus Azure OpenAI text-embedding-3-small and text-embedding-3-large.",
         "Each model specification records provider, model_name_or_path, access_type, status, role, document_prefix, query_prefix, embedding_dimension, and trust_remote_code where applicable.",
         "role is methodology metadata only and is not embedded.",
         "document_prefix is applied to evidence-card text in this script.",
@@ -337,12 +349,17 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--evidence-root", type=Path, default=Path("pilot_evidence"))
     parser.add_argument("--embedding-build-name", type=str, required=True)
+    embedding_model_default = os.environ.get("RETRIEVAL_EMBEDDING_MODEL_KEY")
     parser.add_argument(
         "--models",
         nargs="+",
         choices=sorted(MODEL_REGISTRY.keys()),
-        required=True,
-        help="One or more model registry keys to run sequentially.",
+        required=not bool(embedding_model_default),
+        default=[embedding_model_default] if embedding_model_default else None,
+        help=(
+            "One or more model registry keys to run sequentially. Defaults to "
+            "RETRIEVAL_EMBEDDING_MODEL_KEY from .env when set."
+        ),
     )
     parser.add_argument(
         "--include-types",
@@ -379,12 +396,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--include-deferred",
         action="store_true",
-        help="Allow explicitly selected deferred registry entries such as qwen3-4b, qwen3-8b, or text-embedding-3-large.",
+        help="Allow explicitly selected deferred registry entries such as qwen3-4b or qwen3-8b.",
     )
     parser.add_argument(
         "--openai-api-key-env",
         type=str,
-        default="OPENAI_API_KEY",
+        default=None,
         help="Environment variable containing the OpenAI API key for OpenAI embedding models.",
     )
     parser.add_argument(
@@ -427,6 +444,24 @@ def parse_args() -> argparse.Namespace:
 
 def now_utc_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+
+def normalize_azure_base_url(endpoint: str) -> str:
+    parts = urlsplit(endpoint.strip())
+    if parts.scheme != "https" or not parts.netloc:
+        fail("Azure OpenAI embedding endpoint must be a full HTTPS URL")
+    path = parts.path.rstrip("/")
+    for suffix in ("/openai/v1/embeddings", "/openai/embeddings"):
+        if path.endswith(suffix):
+            path = path[: -len(suffix)]
+            break
+    if path.endswith("/openai/v1"):
+        normalized_path = path + "/"
+    elif path.endswith("/openai"):
+        normalized_path = path + "/v1/"
+    else:
+        normalized_path = path + "/openai/v1/"
+    return urlunsplit((parts.scheme, parts.netloc, normalized_path, "", ""))
 
 
 def pass_check(name: str, detail: str = "") -> None:
@@ -1024,6 +1059,9 @@ def run_one_model(
 
     provider = model_provider(model_spec)
     name_or_path = model_name_or_path(model_spec)
+    api_model_name = name_or_path
+    api_key_env = args.openai_api_key_env
+    api_base_url = args.openai_base_url
     if not name_or_path:
         fail(f"Model registry entry {model_key} is missing model_name_or_path")
     pass_check(
@@ -1045,16 +1083,27 @@ def run_one_model(
             batch_size=args.batch_size,
             normalize=bool(args.normalize),
         )
-    elif provider == "openai":
+    elif provider in {"openai", "azure_openai"}:
         if args.hf_revision is not None:
             warn_check("hf_revision_ignored_for_openai", f"{model_key}: --hf-revision applies only to Hugging Face models")
+        if provider == "azure_openai":
+            deployment_env = str(model_spec.get("deployment_name_env") or "")
+            api_model_name = os.environ.get(deployment_env, "")
+            if not api_model_name:
+                fail(f"Missing Azure embedding deployment environment variable: {deployment_env}")
+            api_key_env = str(model_spec.get("api_key_env") or "")
+            endpoint_env = str(model_spec.get("endpoint_env") or "")
+            endpoint = os.environ.get(endpoint_env, "")
+            if not endpoint:
+                fail(f"Missing Azure embedding endpoint environment variable: {endpoint_env}")
+            api_base_url = normalize_azure_base_url(endpoint)
         embeddings = encode_texts_openai(
-            model_name=name_or_path,
+            model_name=api_model_name,
             texts=model_input_texts,
             batch_size=args.batch_size,
             normalize=bool(args.normalize),
-            api_key_env=args.openai_api_key_env,
-            base_url=args.openai_base_url,
+            api_key_env=api_key_env,
+            base_url=api_base_url,
             dimensions=args.openai_dimensions,
             max_retries=args.openai_max_retries,
             request_timeout=args.openai_request_timeout,
@@ -1088,7 +1137,7 @@ def run_one_model(
         "access_type": model_spec.get("access_type"),
         "status": model_spec.get("status"),
         "role": model_spec["role"],
-        "closed_api_baseline": provider == "openai" and model_spec.get("access_type") == "closed_api",
+        "closed_api_baseline": provider in {"openai", "azure_openai"} and model_spec.get("access_type") == "closed_api",
         "card_count": int(embeddings.shape[0]),
         "metadata_count": metadata_count,
         "faiss_index_ntotal": index_ntotal,
@@ -1114,19 +1163,20 @@ def run_one_model(
         "model_key": model_key,
         "provider": provider,
         "model_name_or_path": name_or_path,
+        "api_model_name": api_model_name if provider in {"openai", "azure_openai"} else None,
         "access_type": model_spec.get("access_type"),
         "status": model_spec.get("status"),
         "role": model_spec["role"],
-        "closed_api_baseline": provider == "openai" and model_spec.get("access_type") == "closed_api",
+        "closed_api_baseline": provider in {"openai", "azure_openai"} and model_spec.get("access_type") == "closed_api",
         "hf_revision_requested": args.hf_revision if provider == "huggingface" else None,
         "hf_revision_resolved": hf_revision_resolved,
         "hf_revision_warning": hf_revision_warning,
         "trust_remote_code": bool(model_spec.get("trust_remote_code", False)) if provider == "huggingface" else None,
-        "openai_api_key_env": args.openai_api_key_env if provider == "openai" else None,
-        "openai_base_url_configured": bool(args.openai_base_url) if provider == "openai" else None,
-        "openai_dimensions_requested": args.openai_dimensions if provider == "openai" else None,
-        "openai_max_retries": args.openai_max_retries if provider == "openai" else None,
-        "openai_request_timeout": args.openai_request_timeout if provider == "openai" else None,
+        "openai_api_key_env": api_key_env if provider in {"openai", "azure_openai"} else None,
+        "openai_base_url_configured": bool(api_base_url) if provider in {"openai", "azure_openai"} else None,
+        "openai_dimensions_requested": args.openai_dimensions if provider in {"openai", "azure_openai"} else None,
+        "openai_max_retries": args.openai_max_retries if provider in {"openai", "azure_openai"} else None,
+        "openai_request_timeout": args.openai_request_timeout if provider in {"openai", "azure_openai"} else None,
         "prefix_policy": args.prefix_policy,
         "document_prefix": document_prefix,
         "query_prefix": query_prefix,

@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Run the retrieval-judge pilot with a configurable managed LLM.
-
-Supported API styles:
-- Azure OpenAI / Microsoft Foundry Responses API
-- OpenAI-compatible Chat Completions APIs, such as Groq
+"""Run the retrieval-judge pilot with a configurable Azure OpenAI model.
 
 The frozen prompts, allowed labels, sample, and parser remain model-independent.
 API keys are read only from environment variables and are never written to output.
@@ -20,6 +16,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit, urlunsplit
+
+from dotenv import load_dotenv
+
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(REPO_ROOT / ".env", override=False)
 
 
 def parse_args() -> argparse.Namespace:
@@ -86,12 +88,12 @@ def normalize_azure_base_url(endpoint: str) -> str:
     """Convert an Azure resource endpoint or portal target URI to the v1 base URL."""
     endpoint = endpoint.strip()
     if not endpoint:
-        raise RuntimeError("AZURE_OPENAI_ENDPOINT is empty.")
+        raise RuntimeError("Azure OpenAI retrieval-judge endpoint is empty.")
 
     parts = urlsplit(endpoint)
     if parts.scheme != "https" or not parts.netloc:
         raise RuntimeError(
-            "AZURE_OPENAI_ENDPOINT must be a full HTTPS URL, for example "
+            "Azure OpenAI retrieval-judge endpoint must be a full HTTPS URL, for example "
             "https://RESOURCE.cognitiveservices.azure.com/"
         )
 
@@ -220,7 +222,12 @@ def main() -> None:
     require_file(args.sample, "pilot sample")
 
     config = json.loads(args.config.read_text(encoding="utf-8"))
-    model_key = args.judge_model_key or config["current_primary_judge"]
+    model_key_env = config.get("current_primary_judge_env")
+    model_key = (
+        args.judge_model_key
+        or os.environ.get(str(model_key_env or ""))
+        or config["current_primary_judge"]
+    )
 
     if model_key not in config["models"]:
         raise RuntimeError(f"Unknown judge model key: {model_key}")
