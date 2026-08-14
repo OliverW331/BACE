@@ -76,7 +76,7 @@ def parse_args() -> argparse.Namespace:
         "--config",
         type=Path,
         default=Path(
-            "config/evaluation/generation_claim_candidate_selection_config.json"
+            "config/evaluation/configs/generation_claim_candidate_selection_config.json"
         ),
     )
     parser.add_argument("--output-dir", type=Path, required=True)

@@ -234,6 +234,8 @@ The scripts derive downstream labels deterministically:
 
 Support assessment does not diagnose unsupported claims. A later diagnostic stage receives the unsupported DC and its candidate EC texts. This preserves partial, boundary-mismatched, or contradictory evidence that would be lost if only an empty support set were retained.
 
+The diagnostic stage assigns exactly one mutually exclusive failure label and one concise rationale, as defined in [Unsupported Disclosure Claim Diagnosis](generation_claim_unsupported_diagnosis.md).
+
 ## 10. Responsibility boundary
 
 | Component | Responsibility |

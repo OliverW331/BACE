@@ -27,7 +27,11 @@ load_dotenv(REPO_ROOT / ".env", override=False)
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--sample", type=Path, default=Path("retrieval_judge_pilot_sample.csv"))
-    parser.add_argument("--config", type=Path, default=Path("retrieval_judge_config.json"))
+    parser.add_argument(
+        "--config",
+        type=Path,
+        default=Path("config/evaluation/configs/retrieval_judge_config.json"),
+    )
     parser.add_argument("--judge-model-key", default=None)
     parser.add_argument("--output-dir", type=Path, default=Path("pilot_results"))
     parser.add_argument("--max-rows", type=int, default=None)

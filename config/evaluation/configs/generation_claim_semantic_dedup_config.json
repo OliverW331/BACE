@@ -23,12 +23,12 @@
     }
   },
   "prompt": {
-    "file": "generation_claim_semantic_dedup_prompt_v1.txt",
+    "file": "../prompts/generation_claim_semantic_dedup_prompt_v1.txt",
     "version": "generation_claim_semantic_dedup_prompt_v1",
     "sha256": "b8cf89420645eebbd2b33da73af33b5f736f71ad46e212a520d67eafcf7c886e"
   },
   "response_schema": {
-    "file": "generation_claim_semantic_dedup_response_schema_v1.json",
+    "file": "../schemas/generation_claim_semantic_dedup_response_schema_v1.json",
     "version": "generation_claim_semantic_dedup_response_v1",
     "sha256": "d88d88577996dde1aeabc2da5e83a816c381085b6cb9c21d9c1ea0f557686201",
     "structured_output_name": "generation_claim_semantic_dedup_response_v1",

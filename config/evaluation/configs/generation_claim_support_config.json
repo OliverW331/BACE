@@ -23,12 +23,12 @@
     }
   },
   "prompt": {
-    "file": "generation_claim_support_prompt_v1.txt",
+    "file": "../prompts/generation_claim_support_prompt_v1.txt",
     "version": "generation_claim_support_prompt_v1",
     "sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543"
   },
   "response_schema": {
-    "file": "generation_claim_support_response_schema_v1.json",
+    "file": "../schemas/generation_claim_support_response_schema_v1.json",
     "version": "generation_claim_support_response_v1",
     "sha256": "a3b455f8d7bbd9fba4231b04d8494038a3dfb582dbe9ac76dd135e54a0ecb930",
     "structured_output_name": "generation_claim_support_response_v1",

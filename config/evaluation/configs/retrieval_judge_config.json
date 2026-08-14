@@ -28,12 +28,12 @@
   },
   "prompts": {
     "contribution": {
-      "file": "retrieval_contribution_judge_prompt_v1.txt",
+      "file": "../prompts/retrieval_contribution_judge_prompt_v1.txt",
       "version": "retrieval_contribution_judge_prompt_v1",
       "sha256": "81cff6f257414c897726323b1ee19573f25f39e8930819cafe730ac8d191740e"
     },
     "usability": {
-      "file": "retrieval_usability_judge_prompt_v1.txt",
+      "file": "../prompts/retrieval_usability_judge_prompt_v1.txt",
       "version": "retrieval_usability_judge_prompt_v1",
       "sha256": "9de7a8c71592774e86f0d5f8783a082bb1895f5a293ae4890c01b682536d1e20"
     }

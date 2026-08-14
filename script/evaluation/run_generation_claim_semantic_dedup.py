@@ -63,7 +63,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--config",
         type=Path,
-        default=Path("config/evaluation/generation_claim_semantic_dedup_config.json"),
+        default=Path(
+            "config/evaluation/configs/generation_claim_semantic_dedup_config.json"
+        ),
     )
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--run-id", default="claim_semantic_dedup_run")

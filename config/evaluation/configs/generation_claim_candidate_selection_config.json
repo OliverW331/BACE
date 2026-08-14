@@ -23,12 +23,12 @@
     }
   },
   "prompt": {
-    "file": "generation_claim_candidate_selection_prompt_v1.txt",
+    "file": "../prompts/generation_claim_candidate_selection_prompt_v1.txt",
     "version": "generation_claim_candidate_selection_prompt_v1",
     "sha256": "82ac020bf83280a66716eec93b7cd61b6e9b39fff2d37e9ad654e807dab63e08"
   },
   "response_schema": {
-    "file": "generation_claim_candidate_selection_response_schema_v1.json",
+    "file": "../schemas/generation_claim_candidate_selection_response_schema_v1.json",
     "version": "generation_claim_candidate_selection_response_v1",
     "sha256": "6439ba6f454cf2d33f66ce2e505448b53b8dee4bfcb13f33976c0072b6ba2aa5",
     "structured_output_name": "generation_claim_candidate_selection_response_v1",

@@ -1,0 +1,48 @@
+{
+  "schema_version": "generation_claim_unsupported_diagnosis_config_v1",
+  "status": "pilot_ready",
+  "current_primary_model": "azure_gpt_5_6_sol",
+  "current_primary_model_env": "CLAIM_DIAGNOSIS_MODEL_KEY",
+  "models": {
+    "azure_gpt_5_6_sol": {
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": null,
+      "deployment_name_env": "CLAIM_DIAGNOSIS_AZURE_OPENAI_DEPLOYMENT",
+      "provider": "azure_openai",
+      "api_style": "responses",
+      "auth_type": "api_key",
+      "endpoint_env": "CLAIM_DIAGNOSIS_AZURE_OPENAI_ENDPOINT",
+      "api_key_env": "CLAIM_DIAGNOSIS_AZURE_OPENAI_API_KEY",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    }
+  },
+  "prompt": {
+    "file": "../prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt",
+    "version": "generation_claim_unsupported_diagnosis_prompt_v1",
+    "sha256": "9a284a3c9f479b420106f1fea796c0b4dcd3ced6f75fcaa00509e6ae8dbd8d7a"
+  },
+  "response_schema": {
+    "file": "../schemas/generation_claim_unsupported_diagnosis_response_schema_v1.json",
+    "version": "generation_claim_unsupported_diagnosis_response_v1",
+    "sha256": "43fd862500fe5dee79f4d786a3d3551c589b538b4d6be4e5a8b2c8b91a151c76",
+    "structured_output_name": "generation_claim_unsupported_diagnosis_response_v1",
+    "strict": true
+  },
+  "diagnosis": {
+    "temporary_id_min_width": 3,
+    "max_candidate_claims_per_dc": 500
+  },
+  "runtime": {
+    "request_timeout_seconds": 600,
+    "max_network_retries": 4,
+    "max_invalid_output_retries": 2,
+    "retry_initial_seconds": 2,
+    "retry_max_seconds": 60
+  }
+}

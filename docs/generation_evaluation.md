@@ -173,7 +173,7 @@ A DC is `supported_direct` when at least one returned minimal sufficient set is 
 
 ### Step 5: Diagnose unsupported claims
 
-If and only if the primary verdict is `unsupported`, one or more unsupported failure tags are assigned. These tags explain the mechanism of failure and are not mutually exclusive.
+If and only if the primary verdict is `unsupported`, exactly one unsupported failure label is assigned through the exclusive diagnostic decision sequence. The label identifies the primary mechanism that explains the support failure.
 
 ## 6. Primary support verdicts
 
@@ -211,66 +211,41 @@ A claim remains unsupported even if:
 - the claim may be true outside the supplied evidence;
 - semantically similar evidence exists but does not establish the claim.
 
-## 7. Unsupported failure diagnostics
+## 7. Unsupported failure diagnosis
 
-Unsupported diagnostics are multi-label. A single unsupported DC may receive more than one tag when several mechanisms jointly explain the failure.
+Unsupported diagnosis uses five mutually exclusive labels. Apply the checks in order and assign the first applicable label.
 
-### 7.1 Unsupported novelty
+### 7.1 Contradiction
 
-The DC introduces factual content for which no supporting information exists in the supplied evidence and which cannot be reasonably derived from it.
+Use `contradiction` when evidence affirmatively establishes a proposition incompatible with the DC at the same entity, time, scope, and metric boundaries. Different boundaries are classified as factual boundary distortion rather than contradiction.
 
-This is the clearest form of extrinsic unsupported content. It normally occurs with no meaningful anchor, although a claim may combine an anchored component with additional unsupported novelty.
+### 7.2 Evidence conflation
 
-### 7.2 Inferential inflation
-
-Relevant EC anchors exist, but the DC draws a conclusion stronger, broader, more certain, more complete, or more consequential than the evidence permits.
-
-Typical forms include:
-
-- turning an intention into an established plan;
-- turning a pilot activity into organization-wide implementation;
-- turning an association into causation;
-- turning partial progress into target achievement;
-- turning tentative language into certainty;
-- claiming effectiveness when evidence shows only activity or expenditure.
-
-Inferential inflation differs from valid inferred support because the inference is not fully authorized by the evidence.
+Use `evidence_conflation` when the DC constructs an unsupported relationship, attribution, entity, event, or conclusion from elements supplied by two or more ECs. The elements may each be evidenced; their combination is not.
 
 ### 7.3 Factual boundary distortion
 
-The DC is based on recognizable evidence content but changes one or more boundaries that determine where, when, or to what the fact applies.
+Use `factual_boundary_distortion` when the DC preserves an anchored core fact but transfers it to a different entity, organizational level, period, geography, population, activity scope, metric definition, unit, or measurement boundary.
 
-Relevant boundaries include:
+### 7.4 Inferential inflation
 
-- legal entity or organizational level;
-- reporting year, baseline year, or target year;
-- geography, facility, or business unit;
-- operational or emissions scope;
-- population or product coverage;
-- metric definition, unit, or measurement boundary;
-- status, completion level, or implementation stage;
-- certainty or commitment boundary.
+Use `inferential_inflation` when the DC and evidence anchor have materially matching boundaries, but the DC derives a stronger semantic conclusion, characterization, relationship, status, certainty, causality, or effectiveness than the evidence entails. If the conclusion is specifically constructed from multiple ECs, classify it as evidence conflation instead.
 
-The problem is not necessarily that the underlying fact was invented, but that it was transferred beyond its evidenced boundary.
+### 7.5 Unsupported novelty
 
-### 7.4 Contradiction
+Use `unsupported_novelty` when no candidate EC provides a recognizable evidential anchor for the core factual proposition of the DC.
 
-The supplied evidence supports a proposition that is incompatible with the DC. Contradiction is stronger than absence of support: the evidence provides affirmative grounds against the generated claim.
+### 7.6 Exclusive decision rule
 
-Contradiction remains distinct from boundary distortion because it captures direct semantic opposition, including reversed trends, incorrect comparisons, incompatible values, and negated or opposite statuses.
+The fixed precedence is:
 
-### 7.5 Evidence conflation
+1. `contradiction`;
+2. `evidence_conflation`;
+3. `factual_boundary_distortion`;
+4. `inferential_inflation`;
+5. `unsupported_novelty`.
 
-The DC combines individually valid elements from different ECs into a relationship, attribution, entity, event, or conclusion that the evidence does not establish.
-
-Typical forms include:
-
-- assigning one business unit's policy to the whole group;
-- attaching one year’s target to another year’s performance;
-- combining an action and a later outcome into an unsupported causal claim;
-- merging facts about different scopes, facilities, metrics, or initiatives.
-
-Evidence conflation often co-occurs with inferential inflation or factual boundary distortion. It describes how evidence elements were incorrectly combined rather than serving as an exclusive truth-status category.
+Atomic claim construction should make one primary mechanism sufficient. A claim requiring two independent failure labels should be reviewed for insufficient atomic decomposition.
 
 ## 8. Core metrics
 
@@ -379,17 +354,17 @@ For each unsupported failure type $f$, report its disclosure-claim prevalence:
 
 $$
 FailureRate_{f,d} =
-\frac{|\{DC_j \in D_d : f \in Tags(DC_j)\}|}{|D_d|}
+\frac{|\{DC_j \in D_d : Label(DC_j)=f\}|}{|D_d|}
 $$
 
 It may also be useful to report composition among unsupported DCs:
 
 $$
 UnsupportedComposition_{f,d} =
-\frac{|\{DC_j : f \in Tags(DC_j)\}|}{N_{unsupported,d}}
+\frac{|\{DC_j : Label(DC_j)=f\}|}{N_{unsupported,d}}
 $$
 
-Because tags are multi-label, unsupported composition values do not need to sum to one.
+Because every unsupported DC receives exactly one label, unsupported composition values sum to one across the five categories.
 
 The primary quality result remains the support verdict. Failure rates are diagnostic explanations of unsupported generation, not competing top-level evaluation systems.
 
@@ -413,7 +388,7 @@ At minimum, every DC record should contain:
 | `supporting_ec_ids` | Union of ECs appearing in at least one support set |
 | `support_structure` | Cardinality of each support set (`single_ec` or `multiple_ecs`), or no sufficient set |
 | `support_verdict` | Derived as `supported_direct`, `supported_inferred`, or `unsupported` |
-| `unsupported_tags` | Zero or more unsupported diagnostic labels |
+| `unsupported_label` | Exactly one diagnostic label when `support_verdict` is `unsupported`; otherwise null |
 | `rationale` | Concise justification referencing factual boundaries and support gaps |
 
 Every EC record should contain:
@@ -470,9 +445,9 @@ Human validation should independently assess a sample of:
 - selected support sets;
 - direct versus inferred support;
 - full-claim support verdicts;
-- unsupported diagnostic tags.
+- unsupported diagnostic labels.
 
-Agreement should be reported separately for the primary support verdict and the multi-label unsupported diagnostics. Disagreements in anchor selection should also be examined, because a correct-looking verdict can still be based on an incorrect support path.
+Agreement should be reported separately for the primary support verdict and the mutually exclusive unsupported labels. Disagreements in anchor selection should also be examined, because a correct-looking verdict can still be based on an incorrect support path.
 
 Validation must also confirm input isolation: the support judge should receive only the EC and DC texts plus company and target reporting year as shared interpretive context. It must not receive task definitions, provenance, evidence-card metadata, or other context that could fill evidentiary gaps, and the permitted context must not independently establish a factual proposition.
 
@@ -488,7 +463,7 @@ The framework supports the following interpretations:
 - **ECCR** evaluates utilization of the complete supplied Evidence Claim Set from the evidence side.
 - **Inference Rate** distinguishes synthesis from direct restatement among supported claims.
 - **Reuse and concentration** describe the structure of evidence use.
-- **Unsupported tags** identify mechanisms that produced unsupported claims.
+- **Unsupported labels** identify the primary mechanism that produced each unsupported claim.
 
 The framework does not by itself evaluate:
 
@@ -513,7 +488,7 @@ Its methodological contribution is the joint treatment of:
 2. evidence-side utilization of the complete supplied Evidence Claim Set;
 3. direct versus valid inferred support, independently of support-set cardinality;
 4. evidence reuse and concentration structure;
-5. multi-label diagnosis of unsupported synthesis;
+5. mutually exclusive diagnosis of unsupported synthesis;
 6. evaluation without a reference disclosure.
 
 The framework should therefore be described as an extension and integration of established claim-level evaluation principles, not as the first use of atomic claims, entailment judgments, evidence utilization, or multi-source support.
@@ -529,7 +504,7 @@ For each generated disclosure:
 5. For every DC, select materially relevant candidate ECs from the complete case EC set using only EC and DC semantics.
 6. Identify every minimal sufficient support set from the candidates, using company and reporting year only as shared interpretive context.
 7. Record support-set cardinality separately from whether each set provides direct or inferred semantic support, then derive the DC-level verdict.
-8. Apply one or more failure diagnostics to unsupported DCs.
+8. Apply exactly one failure label to each unsupported DC through the exclusive decision sequence.
 9. Construct the EC–DC support graph while keeping claim-source provenance separate from support edges.
 10. Calculate disclosure support, full-set evidence claim coverage, inference, reuse, concentration, and unsupported diagnostic rates.
 11. Use prompt-visible metadata only within its stated extraction and interpretation boundaries; use all other task and case metadata only for case identification, deterministic provenance restoration, aggregation, stratification, interpretation, and audit.
@@ -537,4 +512,4 @@ For each generated disclosure:
 
 The framework's organizing principle is:
 
-> Generation evaluation is a two-sided reconstruction of how supplied evidence claims support generated disclosure claims. Support and coverage are the primary outcomes; inference and evidence-use structure explain how generation occurred; unsupported failure tags explain why it failed.
+> Generation evaluation is a two-sided reconstruction of how supplied evidence claims support generated disclosure claims. Support and coverage are the primary outcomes; inference and evidence-use structure explain how generation occurred; unsupported failure labels explain why it failed.
