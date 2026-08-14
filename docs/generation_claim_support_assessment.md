@@ -15,17 +15,19 @@ Candidate selection is not a support verdict. Candidate ECs are retained even wh
 
 ## 2. Evidence boundary
 
-Both stages operate only on self-contained deduplicated claim texts. No LLM request contains:
+Candidate selection operates only on deduplicated claim texts. Support assessment receives those claim texts together with `company_name` and `target_reporting_year`, matching the shared prompt-visible case context. This context may help interpret an explicit claim, but it does not independently support a factual proposition.
+
+Neither LLM request contains:
 
 - provenance;
 - evidence-card identifiers;
 - source spans;
 - retrieval scores;
 - task definitions;
-- company, reporting-year, or other case metadata;
+- hidden case metadata;
 - thesis-specific information.
 
-The supplied claim texts are the complete factual boundary for each model call. External facts and unstated assumptions are prohibited.
+The supplied claim texts remain the factual boundary for each model call. External facts and unstated assumptions are not support.
 
 ## 3. End-to-end procedure
 
@@ -42,7 +44,7 @@ Candidate LLM: one DC + complete case EC set
 Candidate EC IDs
         |
         v
-Support LLM: one DC + its candidate EC set
+Support LLM: company/year context + one DC + its candidate EC set
         |
         v
 Minimal sufficient support sets
@@ -129,6 +131,10 @@ The support LLM receives an independent, general support prompt and one dynamic 
 
 ```json
 {
+  "context_metadata": {
+    "company_name": "Example Company",
+    "target_reporting_year": 2024
+  },
   "ec_claims": [
     {
       "ec_claim_id": "ec_021",
@@ -152,21 +158,29 @@ The support prompt does not refer to candidate selection or any other pipeline s
 
 Each returned set must independently entail the complete DC:
 
-- a singleton represents direct support;
-- a multi-EC set represents joint or inferred support;
 - every set must be minimal, so removing any member makes it insufficient;
+- `direct` applies when the set explicitly entails the complete DC without a substantive reasoning step;
+- `inferred` applies when complete support requires a necessary reasoning step that adds no substantive fact;
+- support-set cardinality does not determine support type;
+- support must preserve quantification and semantic scope;
 - partial relevance, compatibility, plausibility, or absence of contradiction is not support.
 
 ### 6.3 LLM and canonical outputs
 
-The LLM returns temporary IDs only:
+The LLM returns temporary claim IDs and a semantic support type for each set:
 
 ```json
 {
   "dc_claim_id": "dc_001",
   "support_sets": [
-    ["ec_021"],
-    ["ec_049", "ec_084"]
+    {
+      "ec_claim_ids": ["ec_021"],
+      "support_type": "direct"
+    },
+    {
+      "ec_claim_ids": ["ec_049", "ec_084"],
+      "support_type": "inferred"
+    }
   ]
 }
 ```
@@ -196,6 +210,8 @@ Support-assessment validation requires that:
 - the candidate input contains exactly one valid record for each selected DC;
 - every candidate EC belongs to the same generation case as its DC;
 - the response contains exactly `dc_claim_id` and `support_sets`;
+- every support set contains exactly `ec_claim_ids` and `support_type`;
+- every `support_type` is `direct` or `inferred`;
 - every support-set member belongs to that DC's candidate set;
 - no member, support set, or obvious strict superset is duplicated.
 
@@ -207,8 +223,10 @@ The scripts derive downstream labels deterministically:
 
 - non-empty `support_sets`: `supported`;
 - empty `support_sets`: `not_supported`;
-- one-member support set: direct support;
-- multi-member support set: joint or inferred support;
+- any direct support set: `supported_direct` at the DC level;
+- support sets exist and all are inferred: `supported_inferred` at the DC level;
+- one-member support set: `single_ec` structure;
+- multi-member support set: `multiple_ecs` structure;
 - an EC in any support set: supporting EC;
 - a candidate EC outside every support set: relevant to assessment but not part of a sufficient support set.
 
