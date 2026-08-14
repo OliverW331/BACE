@@ -186,7 +186,9 @@ def validate_generation_case(row: dict[str, Any], row_number: int) -> None:
             "company_name",
             "target_reporting_year",
             "task_id",
+            "task_title",
             "prompt_evidence",
+            "generation_prompt",
             "prompt_metadata",
         ],
         label,
@@ -197,6 +199,12 @@ def validate_generation_case(row: dict[str, Any], row_number: int) -> None:
         )
     if not isinstance(row["prompt_evidence"], list):
         raise InputValidationError(f"{label}.prompt_evidence must be an array")
+    if not isinstance(row["generation_prompt"], str) or not row["generation_prompt"]:
+        raise InputValidationError(f"{label}.generation_prompt must be non-empty")
+
+    expected_prompt_hash = row["prompt_metadata"].get("prompt_hash")
+    if expected_prompt_hash and sha256_text(row["generation_prompt"]) != expected_prompt_hash:
+        raise InputValidationError(f"{label} generation_prompt hash mismatch")
 
     shown = [card for card in row["prompt_evidence"] if card.get("shown_in_prompt") is True]
     expected_count = row["prompt_metadata"].get("evidence_count")
@@ -214,6 +222,7 @@ def validate_generation_case(row: dict[str, Any], row_number: int) -> None:
                 "evidence_id",
                 "prompt_label",
                 "evidence_type",
+                "source_label",
                 "retrieval_text",
                 "retrieval_text_hash",
             ],
@@ -227,6 +236,67 @@ def validate_generation_case(row: dict[str, Any], row_number: int) -> None:
                 f"{card_label} retrieval_text hash mismatch: expected "
                 f"{card['retrieval_text_hash']}, got {actual_hash}"
             )
+
+    extract_prompt_evidence_section(row, label=label)
+
+
+def extract_prompt_evidence_section(
+    case: dict[str, Any], *, label: str | None = None
+) -> str:
+    """Return the exact Evidence section shown to the generation model.
+
+    The section is copied from ``generation_prompt`` rather than reconstructed
+    from hidden evidence-card metadata. Deterministic checks ensure that every
+    shown card's label, source label, and retrieval text occur in the recorded
+    prompt in the same order.
+    """
+    case_label = label or f"generation case {case.get('generation_case_id')!r}"
+    prompt = case.get("generation_prompt")
+    if not isinstance(prompt, str) or not prompt:
+        raise InputValidationError(f"{case_label}.generation_prompt must be non-empty")
+
+    delimiter = "\n\nEvidence\n\n"
+    if delimiter not in prompt:
+        raise InputValidationError(
+            f"{case_label}.generation_prompt does not contain the expected Evidence section"
+        )
+    _instruction, evidence_body = prompt.split(delimiter, 1)
+    evidence_section = "Evidence\n\n" + evidence_body
+
+    shown = [card for card in case["prompt_evidence"] if card.get("shown_in_prompt") is True]
+    labels: set[str] = set()
+    evidence_ids: set[str] = set()
+    search_offset = 0
+    for card_number, card in enumerate(shown, start=1):
+        prompt_label = card["prompt_label"]
+        evidence_id = card["evidence_id"]
+        if prompt_label in labels:
+            raise InputValidationError(
+                f"{case_label} contains duplicate prompt label {prompt_label!r}"
+            )
+        if evidence_id in evidence_ids:
+            raise InputValidationError(
+                f"{case_label} contains duplicate evidence ID {evidence_id!r}"
+            )
+        labels.add(prompt_label)
+        evidence_ids.add(evidence_id)
+
+        rendered_record = "\n\n".join(
+            [
+                prompt_label,
+                f"Source:\n{card['source_label']}",
+                f"Text:\n{card['retrieval_text']}",
+            ]
+        )
+        record_offset = evidence_section.find(rendered_record, search_offset)
+        if record_offset < 0:
+            raise InputValidationError(
+                f"{case_label} evidence card {card_number} does not match the label, "
+                "source, text, or order recorded in generation_prompt"
+            )
+        search_offset = record_offset + len(rendered_record)
+
+    return evidence_section
 
 
 def validate_generated_disclosure(row: dict[str, Any], row_number: int) -> None:
@@ -356,70 +426,62 @@ def _evidence_provenance(card: dict[str, Any]) -> dict[str, Any]:
 
 
 def build_ec_jobs(cases: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    jobs_by_evidence: dict[str, dict[str, Any]] = {}
-    evidence_payload_hashes: dict[str, str] = {}
-    membership_keys: set[tuple[str, str]] = set()
+    """Build one EC extraction job per generation case.
 
+    The LLM receives only prompt-visible context metadata and the exact
+    prompt-visible Evidence section. Hidden evidence IDs and provenance remain
+    outside the dynamic input and are restored only after output validation.
+    """
+    jobs: list[dict[str, Any]] = []
     for case in cases:
-        for card in case["prompt_evidence"]:
-            if card.get("shown_in_prompt") is not True:
-                continue
-            context_metadata = {
-                "company_name": str(case["company_name"]),
-            }
-            if card.get("source_year") is not None:
-                context_metadata["source_year"] = str(card["source_year"])
-            dynamic_input = {
-                "evidence_type": card["evidence_type"],
-                "context_metadata": context_metadata,
-                "evidence_text": card["retrieval_text"],
-            }
-            payload_hash = sha256_json(dynamic_input)
-            evidence_id = card["evidence_id"]
-            previous_hash = evidence_payload_hashes.get(evidence_id)
-            if previous_hash is not None and previous_hash != payload_hash:
-                raise InputValidationError(
-                    f"Evidence ID {evidence_id} maps to multiple extraction payloads"
-                )
-            evidence_payload_hashes[evidence_id] = payload_hash
-
-            membership_key = (case["generation_case_id"], evidence_id)
-            if membership_key in membership_keys:
-                raise InputValidationError(
-                    f"Evidence {evidence_id} occurs more than once in generation case "
-                    f"{case['generation_case_id']}"
-                )
-            membership_keys.add(membership_key)
-
-            membership = {
+        evidence_section = extract_prompt_evidence_section(case)
+        dynamic_input = {
+            "context_metadata": {
+                "company_name": case["company_name"],
+                "target_reporting_year": case["target_reporting_year"],
+                "task_title": case["task_title"],
+            },
+            "evidence_section": evidence_section,
+        }
+        evidence_records = []
+        for position, card in enumerate(
+            (
+                card
+                for card in case["prompt_evidence"]
+                if card.get("shown_in_prompt") is True
+            ),
+            start=1,
+        ):
+            evidence_records.append(
+                {
+                    "prompt_position": position,
+                    "prompt_label": card["prompt_label"],
+                    "evidence_id": card["evidence_id"],
+                    "retrieval_text": card["retrieval_text"],
+                    "retrieval_text_hash": card["retrieval_text_hash"],
+                    "evidence_provenance": _evidence_provenance(card),
+                }
+            )
+        jobs.append(
+            {
+                "task": "ec",
+                "job_input_hash": sha256_json(
+                    {
+                        "generation_case_id": case["generation_case_id"],
+                        "dynamic_input": dynamic_input,
+                    }
+                ),
+                "dynamic_input": dynamic_input,
+                "evidence_section_sha256": sha256_text(evidence_section),
+                "evidence_records": evidence_records,
                 "generation_case_id": case["generation_case_id"],
                 "case_id": case["case_id"],
                 "company_id": case["company_id"],
                 "task_id": case["task_id"],
                 "target_reporting_year": case["target_reporting_year"],
-                "evidence_provenance": _evidence_provenance(card),
             }
-            if evidence_id not in jobs_by_evidence:
-                jobs_by_evidence[evidence_id] = {
-                    "task": "ec",
-                    "job_input_hash": sha256_json(
-                        {"evidence_id": evidence_id, "dynamic_input": dynamic_input}
-                    ),
-                    "dynamic_input": dynamic_input,
-                    "source_text": card["retrieval_text"],
-                    "context_metadata": context_metadata,
-                    "evidence_id": evidence_id,
-                    "retrieval_text_hash": card["retrieval_text_hash"],
-                    "memberships": [],
-                }
-            jobs_by_evidence[evidence_id]["memberships"].append(membership)
-
-    jobs = list(jobs_by_evidence.values())
-    for job in jobs:
-        job["memberships"].sort(
-            key=lambda item: (item["generation_case_id"], item["evidence_provenance"]["prompt_label"])
         )
-    jobs.sort(key=lambda item: (item["evidence_id"], item["job_input_hash"]))
+    jobs.sort(key=lambda item: item["generation_case_id"])
     return jobs
 
 
@@ -530,6 +592,132 @@ def _find_exact_occurrences(source_text: str, quote: str) -> list[int]:
             return starts
         starts.append(index)
         offset = index + 1
+
+
+def validate_ec_extraction_response(
+    payload: Any,
+    *,
+    evidence_records: list[dict[str, Any]],
+    require_unique_quotes: bool,
+) -> dict[str, Any]:
+    """Validate grouped EC output and restore hidden evidence-card identities."""
+    if not isinstance(payload, dict):
+        raise OutputValidationError("Response root must be an object")
+    if set(payload) != {"evidence_results"}:
+        raise OutputValidationError(
+            "EC response root fields must be exactly ['evidence_results']"
+        )
+    results = payload["evidence_results"]
+    if not isinstance(results, list):
+        raise OutputValidationError("evidence_results must be an array")
+    if len(results) != len(evidence_records):
+        raise OutputValidationError(
+            f"evidence_results must contain exactly {len(evidence_records)} items"
+        )
+
+    validated_results: list[dict[str, Any]] = []
+    for result_index, (result, record) in enumerate(zip(results, evidence_records)):
+        label = f"evidence_results[{result_index}]"
+        if not isinstance(result, dict):
+            raise OutputValidationError(f"{label} must be an object")
+        if set(result) != {"prompt_label", "claims"}:
+            raise OutputValidationError(
+                f"{label} fields must be exactly ['claims', 'prompt_label']"
+            )
+        expected_prompt_label = record["prompt_label"]
+        if result["prompt_label"] != expected_prompt_label:
+            raise OutputValidationError(
+                f"{label}.prompt_label must be {expected_prompt_label!r}; "
+                "all labels must appear exactly once and in input order"
+            )
+        claims = result["claims"]
+        if not isinstance(claims, list):
+            raise OutputValidationError(f"{label}.claims must be an array")
+
+        validated_claims: list[dict[str, Any]] = []
+        occurrence_signatures: set[str] = set()
+        source_text = record["retrieval_text"]
+        for claim_index, claim in enumerate(claims):
+            claim_label = f"{label}.claims[{claim_index}]"
+            if not isinstance(claim, dict):
+                raise OutputValidationError(f"{claim_label} must be an object")
+            if set(claim) != {"claim_text", "source_quotes"}:
+                raise OutputValidationError(
+                    f"{claim_label} fields must be exactly "
+                    "['claim_text', 'source_quotes']"
+                )
+            claim_text = claim["claim_text"]
+            if not isinstance(claim_text, str) or not claim_text.strip():
+                raise OutputValidationError(
+                    f"{claim_label}.claim_text must be non-empty"
+                )
+            if claim_text != claim_text.strip():
+                raise OutputValidationError(
+                    f"{claim_label}.claim_text must not have outer whitespace"
+                )
+
+            quotes = claim["source_quotes"]
+            if not isinstance(quotes, list) or not quotes:
+                raise OutputValidationError(
+                    f"{claim_label}.source_quotes must be non-empty"
+                )
+            if len(quotes) != len(set(quotes)):
+                raise OutputValidationError(
+                    f"{claim_label}.source_quotes contains duplicates"
+                )
+
+            spans: list[dict[str, Any]] = []
+            for quote_index, quote in enumerate(quotes):
+                quote_label = f"{claim_label}.source_quotes[{quote_index}]"
+                if not isinstance(quote, str) or not quote:
+                    raise OutputValidationError(f"{quote_label} must be non-empty")
+                starts = _find_exact_occurrences(source_text, quote)
+                if not starts:
+                    raise OutputValidationError(
+                        f"{quote_label} is not an exact substring of the Text for "
+                        f"{expected_prompt_label!r}"
+                    )
+                if require_unique_quotes and len(starts) != 1:
+                    raise OutputValidationError(
+                        f"{quote_label} occurs {len(starts)} times in its record; "
+                        "a unique quote is required"
+                    )
+                start = starts[0]
+                spans.append(
+                    {
+                        "quote_index": quote_index,
+                        "quote": quote,
+                        "start": start,
+                        "end": start + len(quote),
+                    }
+                )
+
+            occurrence_signature = sha256_json(
+                {"claim_text": claim_text, "source_spans": spans}
+            )
+            if occurrence_signature in occurrence_signatures:
+                raise OutputValidationError(
+                    f"{claim_label} duplicates an already returned claim occurrence "
+                    "within the same evidence record"
+                )
+            occurrence_signatures.add(occurrence_signature)
+            validated_claims.append(
+                {
+                    "claim_text": claim_text,
+                    "source_quotes": list(quotes),
+                    "source_spans": spans,
+                }
+            )
+
+        validated_results.append(
+            {
+                "prompt_label": expected_prompt_label,
+                "evidence_id": record["evidence_id"],
+                "claims": validated_claims,
+            }
+        )
+
+    return {"evidence_results": validated_results}
 
 
 def validate_extraction_response(
@@ -693,40 +881,46 @@ def make_ec_occurrences(
         call = successful_calls.get(job["call_id"])
         if not call:
             continue
-        claims = call["validated_output"]["claims"]
-        for membership in job["memberships"]:
-            provenance = membership["evidence_provenance"]
-            for claim in claims:
+        records_by_label = {
+            record["prompt_label"]: record for record in job["evidence_records"]
+        }
+        for result in call["validated_output"]["evidence_results"]:
+            record = records_by_label[result["prompt_label"]]
+            provenance = record["evidence_provenance"]
+            for claim in result["claims"]:
                 occurrence_basis = {
-                    "generation_case_id": membership["generation_case_id"],
-                    "evidence_id": job["evidence_id"],
+                    "generation_case_id": job["generation_case_id"],
+                    "evidence_id": record["evidence_id"],
                     "claim_text": claim["claim_text"],
                     "source_spans": claim["source_spans"],
                 }
                 rows.append(
                     {
                         "schema_version": EC_OCCURRENCE_SCHEMA_VERSION,
-                        "generation_case_id": membership["generation_case_id"],
-                        "case_id": membership["case_id"],
+                        "generation_case_id": job["generation_case_id"],
+                        "case_id": job["case_id"],
                         "ec_occurrence_id": f"eco_{sha256_json(occurrence_basis)[:32]}",
                         "extraction_call_id": job["call_id"],
                         "claim_text": claim["claim_text"],
-                        "context_resolutions": claim["context_resolutions"],
-                        "evidence_id": job["evidence_id"],
+                        "context_resolutions": [],
+                        "evidence_id": record["evidence_id"],
                         "prompt_label": provenance["prompt_label"],
-                        "retrieval_text_hash": job["retrieval_text_hash"],
+                        "retrieval_text_hash": record["retrieval_text_hash"],
                         "source_spans": claim["source_spans"],
                         "evidence_provenance": provenance,
+                        "_prompt_position": record["prompt_position"],
                     }
                 )
     rows.sort(
         key=lambda row: (
             row["generation_case_id"],
-            row["evidence_provenance"].get("prompt_rank_from_retrieval") or 0,
+            row["_prompt_position"],
             row["source_spans"][0]["start"],
             row["ec_occurrence_id"],
         )
     )
+    for row in rows:
+        row.pop("_prompt_position")
     return rows
 
 

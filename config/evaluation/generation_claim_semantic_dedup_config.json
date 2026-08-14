@@ -25,7 +25,7 @@
   "prompt": {
     "file": "generation_claim_semantic_dedup_prompt_v1.txt",
     "version": "generation_claim_semantic_dedup_prompt_v1",
-    "sha256": "9ebb058658c1edb771d7d688b0ba33a1bc7d369654fc50eef68925900634f8d3"
+    "sha256": "b8cf89420645eebbd2b33da73af33b5f736f71ad46e212a520d67eafcf7c886e"
   },
   "response_schema": {
     "file": "generation_claim_semantic_dedup_response_schema_v1.json",

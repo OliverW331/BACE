@@ -11,10 +11,27 @@
     "support_sets": {
       "type": "array",
       "items": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "ec_claim_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "support_type": {
+            "type": "string",
+            "enum": [
+              "direct",
+              "inferred"
+            ]
+          }
+        },
+        "required": [
+          "ec_claim_ids",
+          "support_type"
+        ]
       }
     }
   },

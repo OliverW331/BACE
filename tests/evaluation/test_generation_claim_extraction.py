@@ -21,6 +21,7 @@ from generation_claims import (  # noqa: E402
     normalize_azure_base_url,
     select_cases,
     sha256_text,
+    validate_ec_extraction_response,
     validate_extraction_response,
 )
 from run_generation_claim_extraction import (  # noqa: E402
@@ -30,13 +31,19 @@ from run_generation_claim_extraction import (  # noqa: E402
     output_paths,
     prepare_output_directory,
     resolve_model,
+    should_skip_on_resume,
 )
 
 
-def make_card(*, evidence_id: str = "evidence-1", text: str | None = None) -> dict:
+def make_card(
+    *,
+    evidence_id: str = "evidence-1",
+    prompt_label: str = "Evidence 1",
+    text: str | None = None,
+) -> dict:
     text = text or "The Group cut emissions by 10% in 2023."
     return {
-        "prompt_label": "Evidence 1",
+        "prompt_label": prompt_label,
         "evidence_id": evidence_id,
         "evidence_type": "narrative",
         "source_type": "pdf",
@@ -63,7 +70,26 @@ def make_case(
     company_id: str = "company-1",
     company_name: str = "Acme plc",
     card: dict | None = None,
+    cards: list[dict] | None = None,
 ) -> dict:
+    evidence_cards = cards or [card or make_card()]
+    evidence_blocks = []
+    for evidence_card in evidence_cards:
+        evidence_blocks.append(
+            "\n\n".join(
+                [
+                    evidence_card["prompt_label"],
+                    f"Source:\n{evidence_card['source_label']}",
+                    f"Text:\n{evidence_card['retrieval_text']}",
+                ]
+            )
+        )
+    generation_prompt = (
+        "Instruction\n\nWrite a disclosure.\n\nEvidence\n\n"
+        "PDF Narrative Evidence\n\n"
+        + "\n\n".join(evidence_blocks)
+        + "\n"
+    )
     return {
         "schema_version": "w2_generation_cases_v1",
         "generation_case_id": generation_case_id,
@@ -72,8 +98,13 @@ def make_case(
         "company_name": company_name,
         "target_reporting_year": 2023,
         "task_id": "E1-1_transition_plan",
-        "prompt_evidence": [card or make_card()],
-        "prompt_metadata": {"evidence_count": 1},
+        "task_title": "E1-1 Transition plan for climate change mitigation",
+        "prompt_evidence": evidence_cards,
+        "generation_prompt": generation_prompt,
+        "prompt_metadata": {
+            "evidence_count": len(evidence_cards),
+            "prompt_hash": sha256_text(generation_prompt),
+        },
     }
 
 
@@ -210,44 +241,150 @@ class ResponseValidationTests(unittest.TestCase):
             )
 
 
+class GroupedEcResponseValidationTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.records = build_ec_jobs(
+            [
+                make_case(
+                    cards=[
+                        make_card(text="The Committee reviews targets."),
+                        make_card(
+                            evidence_id="evidence-2",
+                            prompt_label="Evidence 2",
+                            text="DFSS awards may be reduced.",
+                        ),
+                    ]
+                )
+            ]
+        )[0]["evidence_records"]
+
+    def test_all_labels_are_validated_in_input_order(self) -> None:
+        validated = validate_ec_extraction_response(
+            {
+                "evidence_results": [
+                    {
+                        "prompt_label": "Evidence 1",
+                        "claims": [
+                            {
+                                "claim_text": "The Committee reviews targets.",
+                                "source_quotes": ["The Committee reviews targets"],
+                            }
+                        ],
+                    },
+                    {"prompt_label": "Evidence 2", "claims": []},
+                ]
+            },
+            evidence_records=self.records,
+            require_unique_quotes=True,
+        )
+        self.assertEqual(
+            [result["evidence_id"] for result in validated["evidence_results"]],
+            ["evidence-1", "evidence-2"],
+        )
+        self.assertEqual(
+            validated["evidence_results"][0]["claims"][0]["source_spans"][0]["start"],
+            0,
+        )
+
+    def test_missing_reordered_or_unknown_labels_are_rejected(self) -> None:
+        invalid_payloads = [
+            {"evidence_results": [{"prompt_label": "Evidence 1", "claims": []}]},
+            {
+                "evidence_results": [
+                    {"prompt_label": "Evidence 2", "claims": []},
+                    {"prompt_label": "Evidence 1", "claims": []},
+                ]
+            },
+            {
+                "evidence_results": [
+                    {"prompt_label": "Evidence 1", "claims": []},
+                    {"prompt_label": "Evidence 99", "claims": []},
+                ]
+            },
+        ]
+        for payload in invalid_payloads:
+            with self.subTest(payload=payload), self.assertRaises(OutputValidationError):
+                validate_ec_extraction_response(
+                    payload,
+                    evidence_records=self.records,
+                    require_unique_quotes=True,
+                )
+
+    def test_quote_must_belong_to_the_attributed_record(self) -> None:
+        with self.assertRaises(OutputValidationError):
+            validate_ec_extraction_response(
+                {
+                    "evidence_results": [
+                        {
+                            "prompt_label": "Evidence 1",
+                            "claims": [
+                                {
+                                    "claim_text": "DFSS awards may be reduced.",
+                                    "source_quotes": ["DFSS awards may be reduced"],
+                                }
+                            ],
+                        },
+                        {"prompt_label": "Evidence 2", "claims": []},
+                    ]
+                },
+                evidence_records=self.records,
+                require_unique_quotes=True,
+            )
+
+
 class JobConstructionTests(unittest.TestCase):
-    def test_ec_jobs_cache_one_card_across_cases_and_keep_memberships(self) -> None:
+    def test_ec_builds_one_job_per_case_even_when_cards_repeat(self) -> None:
         shared_card = make_card()
         cases = [
             make_case("generation-case-1", case_id="case-1", card=dict(shared_card)),
             make_case("generation-case-2", case_id="case-2", card=dict(shared_card)),
         ]
         jobs = build_ec_jobs(cases)
-        self.assertEqual(len(jobs), 1)
-        self.assertEqual(len(jobs[0]["memberships"]), 2)
-        self.assertNotIn("task_id", jobs[0]["dynamic_input"])
-        self.assertNotIn("target_reporting_year", jobs[0]["context_metadata"])
-
-    def test_ec_job_rejects_same_evidence_id_with_different_payload(self) -> None:
-        cases = [
-            make_case("generation-case-1", card=make_card(text="The Group set a target.")),
-            make_case(
-                "generation-case-2",
-                case_id="case-2",
-                card=make_card(text="The Group did not set a target."),
-            ),
-        ]
-        with self.assertRaises(InputValidationError):
-            build_ec_jobs(cases)
-
-    def test_distinct_evidence_ids_remain_distinct_when_text_matches(self) -> None:
-        cases = [
-            make_case("generation-case-1", card=make_card(evidence_id="evidence-1")),
-            make_case(
-                "generation-case-2",
-                case_id="case-2",
-                card=make_card(evidence_id="evidence-2"),
-            ),
-        ]
-        jobs = build_ec_jobs(cases)
         self.assertEqual(len(jobs), 2)
-        self.assertEqual({job["evidence_id"] for job in jobs}, {"evidence-1", "evidence-2"})
         self.assertEqual(len({job["job_input_hash"] for job in jobs}), 2)
+        self.assertEqual(
+            set(jobs[0]["dynamic_input"]),
+            {"context_metadata", "evidence_section"},
+        )
+        self.assertEqual(
+            jobs[0]["dynamic_input"]["context_metadata"],
+            {
+                "company_name": "Acme plc",
+                "target_reporting_year": 2023,
+                "task_title": "E1-1 Transition plan for climate change mitigation",
+            },
+        )
+
+    def test_ec_job_preserves_prompt_order_labels_and_exact_evidence_section(self) -> None:
+        cards = [
+            make_card(text="First factual statement."),
+            make_card(
+                evidence_id="evidence-2",
+                prompt_label="Evidence 2",
+                text="Second factual statement.",
+            ),
+        ]
+        case = make_case(cards=cards)
+        job = build_ec_jobs([case])[0]
+        self.assertEqual(
+            [record["prompt_label"] for record in job["evidence_records"]],
+            ["Evidence 1", "Evidence 2"],
+        )
+        expected_section = case["generation_prompt"].split(
+            "\n\nEvidence\n\n", 1
+        )[1]
+        self.assertEqual(
+            job["dynamic_input"]["evidence_section"],
+            "Evidence\n\n" + expected_section,
+        )
+    def test_ec_job_rejects_prompt_card_mismatch(self) -> None:
+        case = make_case()
+        case["prompt_evidence"][0]["retrieval_text"] = "A different statement."
+        case["prompt_evidence"][0]["retrieval_text_hash"] = sha256_text(
+            "A different statement."
+        )
+        with self.assertRaises(InputValidationError):
+            build_ec_jobs([case])
 
     def test_dc_job_uses_one_complete_disclosure(self) -> None:
         case = make_case()
@@ -277,22 +414,28 @@ class OccurrenceConstructionTests(unittest.TestCase):
         ec_job["call_id"] = "ecx-test"
         ec_call = {
             "validated_output": {
-                "claims": [
+                "evidence_results": [
                     {
-                        "claim_text": "Acme plc cut emissions by 10% in 2023.",
-                        "source_quotes": ["The Group cut emissions by 10% in 2023"],
-                        "source_spans": [
+                        "prompt_label": "Evidence 1",
+                        "evidence_id": "evidence-1",
+                        "claims": [
                             {
-                                "quote_index": 0,
-                                "quote": "The Group cut emissions by 10% in 2023",
-                                "start": 0,
-                                "end": 42,
+                                "claim_text": "The Group cut emissions by 10% in 2023.",
+                                "source_quotes": [
+                                    "The Group cut emissions by 10% in 2023"
+                                ],
+                                "source_spans": [
+                                    {
+                                        "quote_index": 0,
+                                        "quote": "The Group cut emissions by 10% in 2023",
+                                        "start": 0,
+                                        "end": 42,
+                                    }
+                                ],
                             }
                         ],
-                        "context_resolutions": [],
                     }
-                ],
-                "no_claim_reason": None,
+                ]
             }
         }
         first = make_ec_occurrences([ec_job], {"ecx-test": ec_call})
@@ -300,6 +443,7 @@ class OccurrenceConstructionTests(unittest.TestCase):
         self.assertEqual(first, second)
         self.assertEqual(first[0]["evidence_id"], "evidence-1")
         self.assertEqual(first[0]["prompt_label"], "Evidence 1")
+        self.assertEqual(first[0]["context_resolutions"], [])
 
         case = make_case()
         dc_job = build_dc_jobs(
@@ -407,39 +551,31 @@ class FakeClient:
 class ModelCallContractTests(unittest.TestCase):
     def test_execute_job_uses_strict_schema_and_validates_output(self) -> None:
         output = {
-            "claims": [
+            "evidence_results": [
                 {
-                    "claim_text": "Acme plc set a target.",
-                    "source_quotes": ["Acme plc set a target"],
-                    "context_resolutions": [],
+                    "prompt_label": "Evidence 1",
+                    "claims": [
+                        {
+                            "claim_text": "Acme plc set a target.",
+                            "source_quotes": ["Acme plc set a target"],
+                        }
+                    ],
                 }
-            ],
-            "no_claim_reason": None,
+            ]
         }
         client = FakeClient(FakeResponse(output))
-        job = {
-            "task": "ec",
-            "call_id": "ecx-test",
-            "call_identity": {"test": True},
-            "dynamic_input": {
-                "evidence_type": "narrative",
-                "context_metadata": {"company_name": "Acme plc"},
-                "evidence_text": "Acme plc set a target.",
-            },
-            "source_text": "Acme plc set a target.",
-            "context_metadata": {"company_name": "Acme plc"},
-            "evidence_id": "evidence-1",
-            "retrieval_text_hash": sha256_text("Acme plc set a target."),
-            "memberships": [{"generation_case_id": "generation-case-1"}],
-        }
+        job = build_ec_jobs(
+            [make_case(card=make_card(text="Acme plc set a target."))]
+        )[0]
+        job["call_id"] = "ecx-test"
+        job["call_identity"] = {"test": True}
         schema = {
             "type": "object",
             "additionalProperties": False,
             "properties": {
-                "claims": {"type": "array"},
-                "no_claim_reason": {"type": ["string", "null"]},
+                "evidence_results": {"type": "array"},
             },
-            "required": ["claims", "no_claim_reason"],
+            "required": ["evidence_results"],
         }
         config = {
             "runtime": {"max_network_retries": 0},
@@ -475,6 +611,12 @@ class ModelCallContractTests(unittest.TestCase):
 
 
 class ResumeTests(unittest.TestCase):
+    def test_resume_skips_only_successful_calls(self) -> None:
+        self.assertTrue(should_skip_on_resume({"call_status": "success"}))
+        self.assertFalse(should_skip_on_resume({"call_status": "invalid_output"}))
+        self.assertFalse(should_skip_on_resume({"call_status": "api_error"}))
+        self.assertFalse(should_skip_on_resume(None))
+
     def test_resume_requires_manifest_and_latest_call_record_wins(self) -> None:
         import json
 

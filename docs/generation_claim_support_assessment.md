@@ -1,38 +1,31 @@
-# Post-Deduplication Claim Support Assessment
+# Candidate Selection and Claim Support Assessment
 
 ## 1. Purpose
 
-This document defines the claim-support assessment performed after Evidence Claim (EC) and Disclosure Claim (DC) extraction and semantic deduplication.
+This document defines the two-stage relationship assessment performed after Evidence Claim (EC) and Disclosure Claim (DC) extraction and semantic deduplication.
 
-For each generated disclosure, every deduplicated DC is assessed against the complete set of deduplicated ECs from the same generation case. The procedure deliberately skips a separate candidate-anchor retrieval stage. The LLM receives the full EC set for each DC and returns only the minimal sufficient EC support sets.
+For each DC, the procedure first selects a recall-oriented candidate EC set from the complete deduplicated EC set for the same generation case. A separate support judge then identifies zero or more minimal sufficient support sets from those candidates.
 
-This stage answers one question:
+The two stages answer different questions:
 
-> Does one EC, or a minimal combination of ECs, fully support this DC within the supplied evidence universe?
+1. Which ECs materially bear on assessing this DC?
+2. Which minimal combinations of those ECs fully support the DC?
 
-It does not diagnose why an unsupported DC failed. Unsupported-claim diagnosis is a later stage.
+Candidate selection is not a support verdict. Candidate ECs are retained even when the DC is unsupported so that a later diagnostic stage can explain the failure using the relevant evidence.
 
-## 2. Inputs
+## 2. Evidence boundary
 
-For one generated disclosure, the inputs are:
-
-- the deduplicated Disclosure Claim Set;
-- the deduplicated Evidence Claim Set from the same generation case;
-- a fixed, general support-assessment prompt;
-- a structured-output schema.
-
-Only claim identifiers and claim texts enter the LLM context. The following fields are excluded:
+Both stages operate only on self-contained deduplicated claim texts. No LLM request contains:
 
 - provenance;
 - evidence-card identifiers;
 - source spans;
-- retrieval or candidate scores;
-- generation metadata;
+- retrieval scores;
 - task definitions;
 - company, reporting-year, or other case metadata;
 - thesis-specific information.
 
-The EC and DC texts must therefore already be atomic, decontextualized, and self-contained after claim construction and deduplication.
+The supplied claim texts are the complete factual boundary for each model call. External facts and unstated assumptions are prohibited.
 
 ## 3. End-to-end procedure
 
@@ -43,7 +36,13 @@ Deduplicated ECs and DCs
 Deterministic temporary-ID mapping
         |
         v
-One LLM call per DC with the complete EC set
+Candidate LLM: one DC + complete case EC set
+        |
+        v
+Candidate EC IDs
+        |
+        v
+Support LLM: one DC + its candidate EC set
         |
         v
 Minimal sufficient support sets
@@ -55,27 +54,26 @@ Deterministic validation and original-ID restoration
 Supported or not supported
         |
         v
-Later diagnosis of unsupported DCs
+Later diagnosis of unsupported DCs using candidate ECs
 ```
 
-If a disclosure contains `n` deduplicated DCs, the procedure makes `n` support-assessment calls. Every call contains one DC and the same complete deduplicated EC set for that disclosure.
+For a disclosure containing `n` deduplicated DCs, candidate selection plans `n` LLM calls. Support assessment plans at most `n` additional LLM calls. A DC with an empty candidate set is assigned an empty support-set result deterministically without a support-model call.
 
-## 4. Deterministic temporary-ID mapping
+## 4. Deterministic temporary IDs
 
-Original claim IDs are not sent to the LLM. Before any model call, the script constructs short temporary IDs to reduce input-token usage and simplify constrained output.
+Original IDs are not sent to either LLM. For each generation case, the scripts:
 
-The mapping procedure is deterministic:
+1. sort original EC IDs lexicographically and assign `ec_001`, `ec_002`, and so on;
+2. sort original DC IDs lexicographically and assign `dc_001`, `dc_002`, and so on;
+3. retain the mappings for validation, audit, and restoration.
 
-1. Sort the original EC IDs lexicographically.
-2. Assign `ec_001`, `ec_002`, and so on in sorted order.
-3. Sort the original DC IDs lexicographically.
-4. Assign `dc_001`, `dc_002`, and so on in sorted order.
+Both stages derive aliases from the complete deduplicated claim sets, so a claim receives the same temporary ID in candidate selection and support assessment.
 
-For an unchanged claim set, this procedure always produces the same mapping. The mapping is retained by the script for validation, audit, and restoration of the original IDs. It is not produced by the LLM.
+## 5. Stage 1: candidate selection
 
-## 5. Exact LLM input
+### 5.1 LLM input
 
-Each call contains the fixed support-assessment prompt and one dynamic JSON object:
+The candidate LLM receives a fixed, general prompt and one dynamic JSON object:
 
 ```json
 {
@@ -91,88 +89,138 @@ Each call contains the fixed support-assessment prompt and one dynamic JSON obje
   ],
   "dc_claim": {
     "dc_claim_id": "dc_001",
-    "dc_text": "A self-contained disclosure claim."
+    "dc_text": "A self-contained target claim."
   }
 }
 ```
 
-The EC array is serialized before the DC object so that repeated calls for the
-same disclosure share the longest possible stable request prefix. This ordering
-does not change the semantic content of the input.
+The `ec_claims` array contains the complete deduplicated EC set for the same generation case.
 
-The prompt instructs the model to evaluate full semantic support, including material entities, time periods, quantities, scope, modality, polarity, and qualifiers. It also prohibits the use of external knowledge or unstated assumptions.
+### 5.2 Candidate criterion
 
-The structured-output schema is sent with the request solely to constrain the response format.
+Candidate selection is recall-oriented but not purely topical. An EC is a candidate when it materially bears on at least one component or boundary of the DC, including when it:
 
-## 6. Exact LLM output
+- supports all or part of the DC;
+- could contribute to a joint inference;
+- differs in a material entity, time, scope, quantity, modality, status, polarity, or relationship;
+- contradicts a material component;
+- helps explain why the DC may be partially supported or unsupported.
 
-The LLM returns only the DC temporary ID and zero or more minimal sufficient support sets:
+Shared topics, entities, or keywords alone are insufficient.
+
+### 5.3 LLM and canonical outputs
+
+The LLM returns temporary IDs only:
+
+```json
+{
+  "dc_claim_id": "dc_001",
+  "candidate_ec_ids": ["ec_021", "ec_049", "ec_084"]
+}
+```
+
+After validation, the script restores original IDs and writes the same two-field structure to `dc_candidate_ecs.jsonl`.
+
+## 6. Stage 2: support assessment
+
+### 6.1 LLM input
+
+The support LLM receives an independent, general support prompt and one dynamic JSON object:
+
+```json
+{
+  "ec_claims": [
+    {
+      "ec_claim_id": "ec_021",
+      "ec_text": "A candidate evidence claim."
+    },
+    {
+      "ec_claim_id": "ec_049",
+      "ec_text": "Another candidate evidence claim."
+    }
+  ],
+  "dc_claim": {
+    "dc_claim_id": "dc_001",
+    "dc_text": "A self-contained target claim."
+  }
+}
+```
+
+The support prompt does not refer to candidate selection or any other pipeline stage. It treats `ec_claims` simply as the supplied evidence set and applies a full-support standard.
+
+### 6.2 Support-set criterion
+
+Each returned set must independently entail the complete DC:
+
+- a singleton represents direct support;
+- a multi-EC set represents joint or inferred support;
+- every set must be minimal, so removing any member makes it insufficient;
+- partial relevance, compatibility, plausibility, or absence of contradiction is not support.
+
+### 6.3 LLM and canonical outputs
+
+The LLM returns temporary IDs only:
 
 ```json
 {
   "dc_claim_id": "dc_001",
   "support_sets": [
-    ["ec_012"],
-    ["ec_023", "ec_047"]
+    ["ec_021"],
+    ["ec_049", "ec_084"]
   ]
 }
 ```
 
-No verdict, explanation, rationale, per-EC assessment, or metadata is generated by the LLM.
+After validation, the script restores original IDs and writes the same two-field structure to `dc_support_sets.jsonl`.
 
-## 7. Support-set semantics
+If `candidate_ec_ids` is empty, the support script does not call the LLM and deterministically writes:
 
-Each element of `support_sets` must independently support the complete DC:
+```json
+{
+  "dc_claim_id": "the_original_dc_id",
+  "support_sets": []
+}
+```
 
-- A singleton such as `["ec_012"]` represents direct support by one EC.
-- A multi-EC set such as `["ec_023", "ec_047"]` represents joint or inferred support.
-- An empty `support_sets` array means that no sufficient support set was found and the DC is not supported.
+## 7. Deterministic validation
 
-Every returned set must be minimal. Removing any EC from the set must make the remainder insufficient to support the complete DC. The model must not return duplicate sets or a strict superset of another sufficient set.
+Candidate-selection validation requires that:
 
-Topical relevance, partial overlap, compatibility, plausibility, and absence of contradiction are not sufficient support. A support set must entail the DC using only the supplied EC texts.
+- the response contains exactly `dc_claim_id` and `candidate_ec_ids`;
+- the DC ID matches the request;
+- every EC ID exists in the complete input EC set;
+- no EC ID is repeated.
 
-## 8. Deterministic validation
+Support-assessment validation requires that:
 
-After each call, the script validates that:
+- the candidate input contains exactly one valid record for each selected DC;
+- every candidate EC belongs to the same generation case as its DC;
+- the response contains exactly `dc_claim_id` and `support_sets`;
+- every support-set member belongs to that DC's candidate set;
+- no member, support set, or obvious strict superset is duplicated.
 
-- the response contains exactly the required fields;
-- `dc_claim_id` matches the DC sent in the request;
-- every returned EC ID exists in the input EC set;
-- every support set is non-empty;
-- no support set repeats an EC ID;
-- no duplicate support sets are present;
-- no returned support set is a strict superset of another returned support set.
+Structural validation cannot prove semantic relevance, sufficiency, or minimality. Those remain LLM judgments.
 
-These checks validate structure and obvious set-level minimality violations. Semantic sufficiency and semantic minimality remain LLM judgments.
+## 8. Derived outcomes
 
-An invalid response must not silently become a support verdict. It should be recorded as a failed call and handled through the script's explicit retry or failure policy.
+The scripts derive downstream labels deterministically:
 
-## 9. Deterministic post-processing
+- non-empty `support_sets`: `supported`;
+- empty `support_sets`: `not_supported`;
+- one-member support set: direct support;
+- multi-member support set: joint or inferred support;
+- an EC in any support set: supporting EC;
+- a candidate EC outside every support set: relevant to assessment but not part of a sufficient support set.
 
-The script restores all temporary IDs to their original deduplicated claim IDs and derives the downstream labels:
+## 9. Unsupported diagnosis boundary
 
-- `support_sets` is non-empty: the DC is `supported`;
-- `support_sets` is empty: the DC is `not_supported`;
-- a one-member set is a direct support set;
-- a multi-member set is a joint or inferred support set;
-- an EC appearing in at least one valid support set is a supporting EC;
-- every other EC is operationally `irrelevant` for that DC.
+Support assessment does not diagnose unsupported claims. A later diagnostic stage receives the unsupported DC and its candidate EC texts. This preserves partial, boundary-mismatched, or contradictory evidence that would be lost if only an empty support set were retained.
 
-Here, `irrelevant` means only that the EC does not participate in a valid support set. It intentionally combines genuinely unrelated evidence, related but insufficient evidence, and contradictory evidence. Those distinctions are outside this stage.
-
-## 10. Unsupported-claim diagnosis boundary
-
-This support-assessment stage produces only `supported` and `not_supported` DC outcomes. It does not distinguish contradiction from missing, partial, or inflated support.
-
-In the later unsupported-claim diagnosis stage, each `not_supported` DC must be reassessed against the complete EC set. The diagnosis must not rely only on the compressed `irrelevant` labels because those labels deliberately discard the reason an EC did not support the DC.
-
-## 11. Responsibility boundary
+## 10. Responsibility boundary
 
 | Component | Responsibility |
 |---|---|
-| Deterministic script | Load deduplicated claims, sort IDs, create temporary mappings, construct requests, validate responses, restore original IDs, derive labels, and aggregate results |
-| LLM | Identify the minimal sufficient EC support sets for one DC from the complete supplied EC set |
-| Later diagnostic stage | Explain why a `not_supported` DC is unsupported |
-
-This boundary keeps the LLM output minimal while ensuring that all reproducible data handling and label derivation remain deterministic.
+| Candidate-selection LLM | Select materially relevant EC IDs from the complete EC set |
+| Support-assessment LLM | Identify minimal sufficient support sets from the supplied evidence claims |
+| Deterministic scripts | Validate inputs and outputs, map IDs, skip empty-candidate calls, restore IDs, record manifests, and aggregate usage |
+| Later diagnostic stage | Explain why a `not_supported` DC is unsupported using its candidate ECs |

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "generation_claim_extraction_response_v1",
-  "title": "Generation claim extraction response",
+  "$id": "generation_dc_claim_extraction_response_v1",
+  "title": "Generation disclosure claim extraction response",
   "type": "object",
   "additionalProperties": false,
   "properties": {

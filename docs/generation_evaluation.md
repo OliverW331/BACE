@@ -23,10 +23,10 @@ These inputs do not have equal evidentiary status:
 - the retrieved evidence is the only source that may provide factual support for a DC;
 - all retrieved evidence cards supplied in the generation prompt are processed into the Evidence Claim Set, without a second task-relevance or usability filter;
 - the task definition is retained because it defines and identifies the generation task and supports later aggregation and interpretation, but it does not determine EC membership or the Evidence Claim Coverage denominator;
-- company, target reporting year, and other case metadata may be used during claim construction only to resolve context that is already explicit in the source text, and are retained for identification, provenance, aggregation, and audit;
+- EC construction receives only the complete prompt-visible Evidence section; hidden evidence-card fields and case metadata are retained for deterministic provenance, aggregation, and audit but are not factual inputs to the EC extractor;
 - task definition and case metadata are not inputs to EC–DC anchor selection or the support verdict.
 
-Metadata may clarify an explicitly established referent, such as replacing “the company” with the named company when the source context makes that referent unambiguous. It must not introduce, infer, transfer, or alter factual content. For example, a target reporting year stored in the case metadata cannot be used to assign that year to an activity unless the evidence text itself establishes that temporal relationship.
+The EC extractor therefore has the same evidentiary context that was visible to the generator. It may resolve a reference, abbreviation, or heading scope only when the complete Evidence section makes the interpretation explicit and unambiguous. If the prompt-visible evidence does not establish the referent, the extractor preserves the source wording instead of guessing, expanding it from hidden metadata, or omitting an otherwise substantive claim.
 
 The supplied evidence forms a **closed evidence universe** for generation evaluation. A disclosure claim is not treated as supported merely because it may be true in the real world or verifiable from an external source. It must be supported by the evidence supplied in that generation case.
 
@@ -47,11 +47,15 @@ The **Evidence Claim Set** contains all atomic factual claims extracted from the
 Each evidence claim must be:
 
 - atomic: it expresses one independently evaluable factual proposition;
-- decontextualized: necessary entities, time periods, scopes, units, and qualifiers are explicit;
+- maximally self-contained within the prompt-visible evidence context;
 - semantically deduplicated across the supplied evidence;
 - linked to its complete provenance.
 
-Claim construction may use source context and case metadata to make implicit but unambiguous referents explicit. This decontextualization step must preserve the proposition expressed by the evidence and may not add facts that the evidence does not establish.
+EC extraction is performed once per generation case. The extractor receives the Evidence section copied from the recorded generation prompt, preserving its group headings, card order, prompt labels, source labels, and retrieval text. The generation instruction is excluded to avoid task-directed extraction bias.
+
+The complete Evidence section may clarify context, but every extracted claim is attributed to exactly one labeled evidence card whose `Text:` directly asserts it. Other cards may help resolve visible context but may not be combined to construct a fact that no individual card asserts. Every claim includes exact source quotes from its attributed card. The extraction response uses prompt labels only; the script validates all labels and quotes and then deterministically restores hidden evidence-card IDs and provenance.
+
+Self-containment is bounded by the supplied context. The extractor must preserve all explicit entities, periods, scopes, units, modalities, and qualifiers. It must also carry applicable headings or repeated context when these are visible and unambiguous. However, an actor, expansion, period, or scope absent from the complete Evidence section is not invented and is not treated as extractable information that was lost.
 
 EC membership is determined by whether the supplied text expresses an atomic factual proposition, not by whether the claim is relevant to the generation task or judged usable by the retrieval evaluation. Therefore:
 
@@ -74,7 +78,7 @@ Each disclosure claim must likewise be atomic, decontextualized, and semanticall
 
 DC deduplication is likewise performed only within one generation case. Each DC retains the identifier of its originating generated disclosure and its original occurrence location or text span. If semantic deduplication merges repeated expressions of the same claim within a disclosure, all occurrences are preserved in the DC provenance.
 
-After claim construction, every EC and DC must be self-contained enough for support assessment without hidden access to the task definition or case metadata.
+After claim construction, every EC and DC must be interpretable for support assessment without hidden access to the task definition or case metadata. An unresolved source expression may remain when the same unresolved expression was part of the generator's evidence context.
 
 ### 3.3 Atomicity principle
 
@@ -409,7 +413,7 @@ Every EC record should contain:
 |---|---|
 | `case_id` | Generation-case identifier |
 | `ec_id` | Deduplicated evidence-claim identifier |
-| `ec_text` | Decontextualized atomic evidence claim |
+| `ec_text` | Atomic evidence claim, maximally self-contained within the prompt-visible evidence context |
 | `evidence_card_ids` | All evidence cards from which the deduplicated EC originated |
 | `ec_provenance` | Structured mapping from each originating evidence-card ID to its source location, original occurrence, or text span |
 | `supported_dc_ids` | DCs to which the EC contributes |
@@ -445,7 +449,7 @@ Validate a sample of EC and DC decompositions for:
 
 - atomicity;
 - preservation of qualifiers;
-- decontextualization quality;
+- bounded self-containment quality;
 - semantic deduplication;
 - provenance preservation;
 - stability across repeated runs.
@@ -488,7 +492,7 @@ The framework does not by itself evaluate:
 
 These boundaries are necessary to keep the generation evaluation attributable to the generator and interpretable within the experiment.
 
-The inclusion of task definition and case metadata in the wider evaluation pipeline does not change the closed evidence boundary. The task definition supports case identification, aggregation, and interpretation. Case metadata may additionally support strictly bounded decontextualization and provenance. Neither changes EC membership, the ECCR denominator, or factual support.
+The inclusion of task definition and case metadata in the wider evaluation pipeline does not change the closed evidence boundary. The task definition supports case identification, aggregation, and interpretation. Case metadata supports deterministic provenance restoration and reporting, but it is not shown to the EC extractor and cannot fill gaps in the prompt-visible evidence. Neither changes EC membership, the ECCR denominator, or factual support.
 
 ## 15. Methodological positioning
 
@@ -512,14 +516,14 @@ For each generated disclosure:
 1. Convert supplied evidence into a deduplicated Evidence Claim Set while preserving provenance.
 2. Include every extractable atomic factual claim from every supplied evidence card; do not filter ECs by task relevance, Contribution, or Usability.
 3. Convert the generated disclosure into a deduplicated Disclosure Claim Set while preserving its provenance to the generated disclosure.
-4. During claim construction, use context and metadata only to resolve explicitly established referents; produce self-contained claims without adding factual content.
+4. Extract ECs once per case from the exact prompt-visible Evidence section, attribute each EC to one labeled card, and make claims as self-contained as that supplied context permits without using hidden metadata or adding factual content.
 5. For every DC, identify its minimal supporting EC set using only EC and DC semantics.
 6. Determine whether support comes from one EC, multiple ECs, or no anchor.
 7. Judge whether the complete DC is directly supported, validly inferred, or unsupported.
 8. Apply one or more failure diagnostics to unsupported DCs.
 9. Construct the EC–DC support graph while keeping claim-source provenance separate from support edges.
 10. Calculate disclosure support, full-set evidence claim coverage, inference, reuse, concentration, and unsupported diagnostic rates.
-11. Use the task definition and case metadata only within their stated boundaries for case identification, bounded claim decontextualization, provenance, aggregation, stratification, interpretation, and audit.
+11. Use the task definition and case metadata only within their stated boundaries for case identification, deterministic provenance restoration, aggregation, stratification, interpretation, and audit.
 12. Aggregate first at the disclosure level and then compare experimental conditions.
 
 The framework's organizing principle is:

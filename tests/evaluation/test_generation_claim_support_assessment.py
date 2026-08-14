@@ -12,7 +12,7 @@ EVALUATION_SCRIPT_DIR = REPO_ROOT / "script" / "evaluation"
 if str(EVALUATION_SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(EVALUATION_SCRIPT_DIR))
 
-from generation_claims import OutputValidationError
+from generation_claims import InputValidationError, OutputValidationError
 from run_generation_claim_support_assessment import (
     build_jobs,
     execute_job,
@@ -20,6 +20,7 @@ from run_generation_claim_support_assessment import (
     render_messages,
     resolve_model,
     restore_original_ids,
+    validate_candidate_selections,
     validate_support_response,
 )
 
@@ -36,7 +37,7 @@ class TemporaryIdTests(unittest.TestCase):
         self.assertEqual(alias_by_original["ec-z"], "ec_003")
         self.assertEqual(original_by_alias["ec_002"], "ec-m")
 
-    def test_build_jobs_sends_only_one_dc_and_complete_ec_set(self) -> None:
+    def test_build_jobs_sends_only_candidate_ecs(self) -> None:
         ec_rows = [
             {
                 "generation_case_id": "case-1",
@@ -71,13 +72,28 @@ class TemporaryIdTests(unittest.TestCase):
         jobs = build_jobs(
             ec_rows=ec_rows,
             dc_rows=dc_rows,
+            case_context_by_id={
+                "case-1": {
+                    "case_id": "metadata-1",
+                    "context_metadata": {
+                        "company_name": "Acme plc",
+                        "target_reporting_year": 2024,
+                    },
+                }
+            },
+            candidate_by_dc_id={
+                "dc-z": {
+                    "dc_claim_id": "dc-z",
+                    "candidate_ec_ids": ["ec-z"],
+                }
+            },
             case_ids=["case-1"],
             requested_dc_ids={"dc-z"},
             max_dcs=None,
             config={
                 "assessment": {
                     "temporary_id_min_width": 3,
-                    "max_evidence_claims_per_case": 10,
+                    "max_candidate_claims_per_dc": 10,
                 }
             },
             prompt_spec={"version": "prompt-v1", "sha256": "prompt-hash"},
@@ -88,11 +104,19 @@ class TemporaryIdTests(unittest.TestCase):
         )
         self.assertEqual(len(jobs), 1)
         dynamic_input = jobs[0]["dynamic_input"]
-        self.assertEqual(list(dynamic_input), ["ec_claims", "dc_claim"])
+        self.assertEqual(
+            list(dynamic_input), ["context_metadata", "dc_claim", "ec_claims"]
+        )
+        self.assertEqual(
+            dynamic_input["context_metadata"],
+            {
+                "company_name": "Acme plc",
+                "target_reporting_year": 2024,
+            },
+        )
         self.assertEqual(
             dynamic_input["ec_claims"],
             [
-                {"ec_claim_id": "ec_001", "ec_text": "Evidence A."},
                 {"ec_claim_id": "ec_002", "ec_text": "Evidence Z."},
             ],
         )
@@ -101,6 +125,52 @@ class TemporaryIdTests(unittest.TestCase):
             {"dc_claim_id": "dc_002", "dc_text": "Target Z."},
         )
         self.assertNotIn("provenance", json.dumps(dynamic_input))
+        self.assertEqual(jobs[0]["candidate_ec_aliases"], ["ec_002"])
+
+
+class CandidateSelectionInputTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.ec_rows = [
+            {"ec_id": "ec-1", "generation_case_id": "case-1"},
+            {"ec_id": "ec-2", "generation_case_id": "case-2"},
+        ]
+        self.dc_rows = [
+            {"dc_id": "dc-1", "generation_case_id": "case-1"},
+            {"dc_id": "dc-2", "generation_case_id": "case-2"},
+        ]
+
+    def test_valid_candidate_selection_is_indexed(self) -> None:
+        result = validate_candidate_selections(
+            [{"dc_claim_id": "dc-1", "candidate_ec_ids": ["ec-1"]}],
+            ec_rows=self.ec_rows,
+            dc_rows=self.dc_rows,
+            path=Path("candidates.jsonl"),
+        )
+        self.assertEqual(result["dc-1"]["candidate_ec_ids"], ["ec-1"])
+
+    def test_unknown_cross_case_duplicate_and_extra_fields_are_rejected(self) -> None:
+        invalid_rows = [
+            [{"dc_claim_id": "dc-unknown", "candidate_ec_ids": []}],
+            [{"dc_claim_id": "dc-1", "candidate_ec_ids": ["ec-unknown"]}],
+            [{"dc_claim_id": "dc-1", "candidate_ec_ids": ["ec-2"]}],
+            [{"dc_claim_id": "dc-1", "candidate_ec_ids": ["ec-1", "ec-1"]}],
+            [
+                {
+                    "dc_claim_id": "dc-1",
+                    "candidate_ec_ids": [],
+                    "rationale": "not allowed",
+                }
+            ],
+        ]
+        for rows in invalid_rows:
+            with self.subTest(rows=rows):
+                with self.assertRaises(InputValidationError):
+                    validate_candidate_selections(
+                        rows,
+                        ec_rows=self.ec_rows,
+                        dc_rows=self.dc_rows,
+                        path=Path("candidates.jsonl"),
+                    )
 
 
 class SupportResponseValidationTests(unittest.TestCase):
@@ -109,8 +179,11 @@ class SupportResponseValidationTests(unittest.TestCase):
             {
                 "dc_claim_id": "dc_001",
                 "support_sets": [
-                    ["ec_003", "ec_001"],
-                    ["ec_002"],
+                    {
+                        "ec_claim_ids": ["ec_003", "ec_001"],
+                        "support_type": "inferred",
+                    },
+                    {"ec_claim_ids": ["ec_002"], "support_type": "direct"},
                 ],
             },
             expected_dc_id="dc_001",
@@ -120,7 +193,13 @@ class SupportResponseValidationTests(unittest.TestCase):
             result,
             {
                 "dc_claim_id": "dc_001",
-                "support_sets": [["ec_001", "ec_003"], ["ec_002"]],
+                "support_sets": [
+                    {
+                        "ec_claim_ids": ["ec_001", "ec_003"],
+                        "support_type": "inferred",
+                    },
+                    {"ec_claim_ids": ["ec_002"], "support_type": "direct"},
+                ],
             },
         )
 
@@ -135,10 +214,20 @@ class SupportResponseValidationTests(unittest.TestCase):
     def test_wrong_dc_unknown_ec_and_repeated_ec_are_rejected(self) -> None:
         invalid_payloads = [
             {"dc_claim_id": "dc_999", "support_sets": []},
-            {"dc_claim_id": "dc_001", "support_sets": [["ec_999"]]},
             {
                 "dc_claim_id": "dc_001",
-                "support_sets": [["ec_001", "ec_001"]],
+                "support_sets": [
+                    {"ec_claim_ids": ["ec_999"], "support_type": "direct"}
+                ],
+            },
+            {
+                "dc_claim_id": "dc_001",
+                "support_sets": [
+                    {
+                        "ec_claim_ids": ["ec_001", "ec_001"],
+                        "support_type": "direct",
+                    }
+                ],
             },
         ]
         for payload in invalid_payloads:
@@ -154,11 +243,26 @@ class SupportResponseValidationTests(unittest.TestCase):
         invalid_payloads = [
             {
                 "dc_claim_id": "dc_001",
-                "support_sets": [["ec_001", "ec_002"], ["ec_002", "ec_001"]],
+                "support_sets": [
+                    {
+                        "ec_claim_ids": ["ec_001", "ec_002"],
+                        "support_type": "inferred",
+                    },
+                    {
+                        "ec_claim_ids": ["ec_002", "ec_001"],
+                        "support_type": "direct",
+                    },
+                ],
             },
             {
                 "dc_claim_id": "dc_001",
-                "support_sets": [["ec_001"], ["ec_001", "ec_002"]],
+                "support_sets": [
+                    {"ec_claim_ids": ["ec_001"], "support_type": "direct"},
+                    {
+                        "ec_claim_ids": ["ec_001", "ec_002"],
+                        "support_type": "inferred",
+                    },
+                ],
             },
         ]
         for payload in invalid_payloads:
@@ -174,7 +278,13 @@ class SupportResponseValidationTests(unittest.TestCase):
         restored = restore_original_ids(
             {
                 "dc_claim_id": "dc_001",
-                "support_sets": [["ec_001"], ["ec_002", "ec_003"]],
+                "support_sets": [
+                    {"ec_claim_ids": ["ec_001"], "support_type": "direct"},
+                    {
+                        "ec_claim_ids": ["ec_002", "ec_003"],
+                        "support_type": "inferred",
+                    },
+                ],
             },
             original_dc_id="dc-original",
             ec_original_by_alias={
@@ -188,8 +298,14 @@ class SupportResponseValidationTests(unittest.TestCase):
             {
                 "dc_claim_id": "dc-original",
                 "support_sets": [
-                    ["ec-original-a"],
-                    ["ec-original-b", "ec-original-c"],
+                    {
+                        "ec_claim_ids": ["ec-original-a"],
+                        "support_type": "direct",
+                    },
+                    {
+                        "ec_claim_ids": ["ec-original-b", "ec-original-c"],
+                        "support_type": "inferred",
+                    },
                 ],
             },
         )
@@ -227,19 +343,28 @@ class FakeClient:
 class ModelCallContractTests(unittest.TestCase):
     def test_messages_contain_only_prompt_and_dynamic_input(self) -> None:
         dynamic_input = {
-            "ec_claims": [{"ec_claim_id": "ec_001", "ec_text": "Evidence."}],
+            "context_metadata": {
+                "company_name": "Acme plc",
+                "target_reporting_year": 2024,
+            },
             "dc_claim": {"dc_claim_id": "dc_001", "dc_text": "Target."},
+            "ec_claims": [{"ec_claim_id": "ec_001", "ec_text": "Evidence."}],
         }
         messages = render_messages("Judge support.", dynamic_input)
         self.assertEqual(len(messages), 2)
         self.assertEqual(messages[0], {"role": "system", "content": "Judge support."})
         self.assertEqual(json.loads(messages[1]["content"]), dynamic_input)
-        self.assertTrue(messages[1]["content"].startswith('{"ec_claims"'))
+        self.assertTrue(messages[1]["content"].startswith('{"context_metadata"'))
 
     def test_execute_job_uses_schema_and_restores_original_ids(self) -> None:
         client = FakeClient(
             FakeResponse(
-                {"dc_claim_id": "dc_001", "support_sets": [["ec_001"]]}
+                {
+                    "dc_claim_id": "dc_001",
+                    "support_sets": [
+                        {"ec_claim_ids": ["ec_001"], "support_type": "direct"}
+                    ],
+                }
             )
         )
         job = {
@@ -250,14 +375,23 @@ class ModelCallContractTests(unittest.TestCase):
             "dc_id": "dc-original",
             "dc_alias": "dc_001",
             "ec_original_by_alias": {"ec_001": "ec-original"},
-            "call_identity": {"test": True},
+            "candidate_ec_aliases": ["ec_001"],
+            "call_identity": {
+                "test": True,
+                "candidate_ec_ids": ["ec-original"],
+            },
             "dynamic_input": {
+                "context_metadata": {
+                    "company_name": "Acme plc",
+                    "target_reporting_year": 2024,
+                },
+                "dc_claim": {"dc_claim_id": "dc_001", "dc_text": "Target."},
                 "ec_claims": [
                     {"ec_claim_id": "ec_001", "ec_text": "Evidence."}
                 ],
-                "dc_claim": {"dc_claim_id": "dc_001", "dc_text": "Target."},
             },
             "request_parameters": {"store": False},
+            "requires_model": True,
         }
         schema = {
             "type": "object",
@@ -287,13 +421,58 @@ class ModelCallContractTests(unittest.TestCase):
         self.assertEqual(record["call_status"], "success")
         self.assertEqual(
             record["restored_output"],
-            {"dc_claim_id": "dc-original", "support_sets": [["ec-original"]]},
+            {
+                "dc_claim_id": "dc-original",
+                "support_sets": [
+                    {"ec_claim_ids": ["ec-original"], "support_type": "direct"}
+                ],
+            },
         )
         self.assertEqual(record["usage"]["total_tokens"], 120)
         api_call = client.responses.calls[0]
         self.assertEqual(api_call["model"], "test-deployment")
         self.assertTrue(api_call["text"]["format"]["strict"])
         self.assertEqual(len(api_call["input"]), 2)
+
+    def test_empty_candidate_set_skips_model_call(self) -> None:
+        client = FakeClient(FakeResponse({"unused": True}))
+        job = {
+            "call_id": "support-empty-test",
+            "generation_case_id": "case-1",
+            "case_id": "metadata-1",
+            "generated_disclosure_id": "disclosure-1",
+            "dc_id": "dc-original",
+            "dc_alias": "dc_001",
+            "ec_original_by_alias": {"ec_001": "ec-original"},
+            "candidate_ec_aliases": [],
+            "call_identity": {"candidate_ec_ids": []},
+            "dynamic_input": {
+                "context_metadata": {
+                    "company_name": "Acme plc",
+                    "target_reporting_year": 2024,
+                },
+                "dc_claim": {"dc_claim_id": "dc_001", "dc_text": "Target."},
+                "ec_claims": [],
+            },
+            "request_parameters": {"store": False},
+            "requires_model": False,
+        }
+        record = execute_job(
+            job=job,
+            client=client,
+            deployment="test-deployment",
+            prompt_text="Judge support.",
+            schema={},
+            schema_spec={"structured_output_name": "support_test", "strict": True},
+            model_key="test-model",
+            model={"model_id": "gpt-5.6-sol", "model_version": "test"},
+            config={"runtime": {}},
+        )
+        self.assertEqual(record["call_status"], "success")
+        self.assertFalse(record["model_called"])
+        self.assertEqual(record["restored_output"]["support_sets"], [])
+        self.assertEqual(record["usage"]["total_tokens"], 0)
+        self.assertEqual(client.responses.calls, [])
 
 
 class AzureRoutingTests(unittest.TestCase):

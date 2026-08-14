@@ -44,6 +44,7 @@ from generation_claims import (
     sha256_json,
     sha256_text,
     utc_now,
+    validate_ec_extraction_response,
     validate_extraction_response,
     validate_file_hash,
     write_json,
@@ -54,7 +55,7 @@ from generation_claims import (
 REPO_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(REPO_ROOT / ".env", override=False)
 
-SCRIPT_VERSION = "run_generation_claim_extraction_v1.1"
+SCRIPT_VERSION = "run_generation_claim_extraction_v1.4"
 RUN_MANIFEST_SCHEMA_VERSION = "generation_claim_extraction_run_manifest_v1"
 QUALITY_SUMMARY_SCHEMA_VERSION = "generation_claim_extraction_quality_summary_v1"
 
@@ -120,6 +121,10 @@ def format_duration(seconds: float) -> str:
     return f"{remaining_seconds}s"
 
 
+def should_skip_on_resume(record: dict[str, Any] | None) -> bool:
+    return bool(record) and record.get("call_status") == "success"
+
+
 def start_progress_heartbeat(
     *,
     label: str,
@@ -161,8 +166,8 @@ def load_and_validate_configuration(
     dict[str, Any],
     dict[str, str],
     dict[str, Path],
-    dict[str, Any],
-    Path,
+    dict[str, dict[str, Any]],
+    dict[str, Path],
 ]:
     require_file(config_path, "claim extraction config")
     config = read_json(config_path)
@@ -184,18 +189,27 @@ def load_and_validate_configuration(
         prompt_paths[task] = prompt_path
         prompt_texts[task] = prompt_path.read_text(encoding="utf-8")
 
-    schema_spec = config.get("response_schema")
-    if not isinstance(schema_spec, dict):
-        raise InputValidationError("Missing response_schema configuration")
-    schema_path = config_dir / schema_spec["file"]
-    require_file(schema_path, "claim extraction response schema")
-    validate_file_hash(schema_path, schema_spec.get("sha256"), "response schema")
-    schema = read_json(schema_path)
-    if schema.get("$id") != schema_spec.get("version"):
-        raise InputValidationError(
-            "Response schema $id does not match configured schema version"
+    schemas: dict[str, dict[str, Any]] = {}
+    schema_paths: dict[str, Path] = {}
+    for task in ("ec", "dc"):
+        schema_spec = config.get("response_schemas", {}).get(task)
+        if not isinstance(schema_spec, dict):
+            raise InputValidationError(
+                f"Missing {task} response schema configuration"
+            )
+        schema_path = config_dir / schema_spec["file"]
+        require_file(schema_path, f"{task} claim extraction response schema")
+        validate_file_hash(
+            schema_path, schema_spec.get("sha256"), f"{task} response schema"
         )
-    return config, prompt_texts, prompt_paths, schema, schema_path
+        schema = read_json(schema_path)
+        if schema.get("$id") != schema_spec.get("version"):
+            raise InputValidationError(
+                f"{task} response schema $id does not match configured version"
+            )
+        schemas[task] = schema
+        schema_paths[task] = schema_path
+    return config, prompt_texts, prompt_paths, schemas, schema_paths
 
 
 def validate_source_manifests(
@@ -411,11 +425,9 @@ def call_model_with_retries(
 def job_summary(job: dict[str, Any]) -> dict[str, Any]:
     if job["task"] == "ec":
         return {
-            "evidence_id": job["evidence_id"],
-            "retrieval_text_hash": job["retrieval_text_hash"],
-            "generation_case_ids": [
-                membership["generation_case_id"] for membership in job["memberships"]
-            ],
+            "generation_case_id": job["generation_case_id"],
+            "evidence_count": len(job["evidence_records"]),
+            "evidence_section_sha256": job["evidence_section_sha256"],
         }
     return {
         "generation_case_id": job["generation_case_id"],
@@ -495,16 +507,24 @@ def execute_job(
     validated: dict[str, Any] | None = None
     try:
         parsed = json.loads(raw_output)
-        validated = validate_extraction_response(
-            parsed,
-            source_text=job["source_text"],
-            context_metadata=job["context_metadata"],
-            require_unique_quotes=bool(
-                (config.get("output_validation") or {}).get(
-                    "require_unique_source_quotes", True
-                )
-            ),
+        require_unique_quotes = bool(
+            (config.get("output_validation") or {}).get(
+                "require_unique_source_quotes", True
+            )
         )
+        if job["task"] == "ec":
+            validated = validate_ec_extraction_response(
+                parsed,
+                evidence_records=job["evidence_records"],
+                require_unique_quotes=require_unique_quotes,
+            )
+        else:
+            validated = validate_extraction_response(
+                parsed,
+                source_text=job["source_text"],
+                context_metadata=job["context_metadata"],
+                require_unique_quotes=require_unique_quotes,
+            )
     except (json.JSONDecodeError, OutputValidationError) as exc:
         validation_error = str(exc)
 
@@ -535,6 +555,15 @@ def make_quality_summary(
     dc_occurrences: list[dict[str, Any]],
     dry_run: bool,
 ) -> dict[str, Any]:
+    def claim_count(record: dict[str, Any]) -> int:
+        validated = record.get("validated_output") or {}
+        if record.get("task") == "ec":
+            return sum(
+                len(result.get("claims") or [])
+                for result in validated.get("evidence_results") or []
+            )
+        return len(validated.get("claims") or [])
+
     task_counts: dict[str, dict[str, int]] = {}
     for task, jobs in (("ec", ec_jobs), ("dc", dc_jobs)):
         records = [latest_calls[job["call_id"]] for job in jobs if job["call_id"] in latest_calls]
@@ -550,7 +579,7 @@ def make_quality_summary(
             ),
             "successful_calls_with_no_claim": sum(
                 record.get("call_status") == "success"
-                and not (record.get("validated_output") or {}).get("claims")
+                and claim_count(record) == 0
                 for record in records
             ),
         }
@@ -593,7 +622,7 @@ def main() -> None:
     ):
         require_file(path, label)
 
-    config, prompt_texts, prompt_paths, schema, schema_path = (
+    config, prompt_texts, prompt_paths, schemas, schema_paths = (
         load_and_validate_configuration(args.config)
     )
     cases = read_jsonl(args.generation_cases)
@@ -618,7 +647,6 @@ def main() -> None:
     model_key, model, deployment, base_url, _endpoint_env = resolve_model(
         config, model_key_override=args.model_key, dry_run=args.dry_run
     )
-    schema_spec = config["response_schema"]
     configured_tasks = ["ec", "dc"] if args.only == "both" else [args.only]
     ec_jobs = build_ec_jobs(selected_cases) if "ec" in configured_tasks else []
     dc_jobs = (
@@ -629,6 +657,7 @@ def main() -> None:
 
     for jobs, task in ((ec_jobs, "ec"), (dc_jobs, "dc")):
         prompt_spec = config["prompts"][task]
+        schema_spec = config["response_schemas"][task]
         effective_request_parameters = merge_dicts(
             model.get("request_parameters") or {},
             (model.get("task_request_parameters") or {}).get(task, {}),
@@ -665,7 +694,8 @@ def main() -> None:
         "generated_disclosures": sha256_file(args.generated_disclosures),
         "generation_run_manifest": sha256_file(args.generation_run_manifest),
         "config": sha256_file(args.config),
-        "response_schema": sha256_file(schema_path),
+        "ec_response_schema": sha256_file(schema_paths["ec"]),
+        "dc_response_schema": sha256_file(schema_paths["dc"]),
         "ec_prompt": sha256_file(prompt_paths["ec"]),
         "dc_prompt": sha256_file(prompt_paths["dc"]),
     }
@@ -741,11 +771,14 @@ def main() -> None:
             }
             for task in ("ec", "dc")
         },
-        "response_schema": {
-            "path": str(schema_path),
-            "version": schema_spec["version"],
-            "sha256": schema_spec["sha256"],
-            "strict": schema_spec.get("strict"),
+        "response_schemas": {
+            task: {
+                "path": str(schema_paths[task]),
+                "version": config["response_schemas"][task]["version"],
+                "sha256": config["response_schemas"][task]["sha256"],
+                "strict": config["response_schemas"][task].get("strict"),
+            }
+            for task in ("ec", "dc")
         },
         "planned_jobs": {"ec": len(ec_jobs), "dc": len(dc_jobs)},
         "runtime_controls": {
@@ -788,10 +821,8 @@ def main() -> None:
     latest_calls, all_call_records = load_latest_call_records(paths)
     jobs = ec_jobs + dc_jobs
     total_jobs = len(jobs)
-    terminal_statuses = {"success", "invalid_output"}
     skipped_jobs = sum(
-        bool(latest_calls.get(job["call_id"]))
-        and latest_calls[job["call_id"]].get("call_status") in terminal_statuses
+        should_skip_on_resume(latest_calls.get(job["call_id"]))
         for job in jobs
     )
     live_jobs_total = total_jobs - skipped_jobs
@@ -812,7 +843,7 @@ def main() -> None:
     try:
         for index, job in enumerate(jobs, start=1):
             previous = latest_calls.get(job["call_id"])
-            if previous and previous.get("call_status") in terminal_statuses:
+            if should_skip_on_resume(previous):
                 print(
                     f"[{index}/{total_jobs}] {job['task']} {job['call_id']} (resume skip)",
                     flush=True,
@@ -858,8 +889,8 @@ def main() -> None:
                     client=client,
                     deployment=deployment,
                     prompt_text=prompt_texts[job["task"]],
-                    schema=schema,
-                    schema_spec=schema_spec,
+                    schema=schemas[job["task"]],
+                    schema_spec=config["response_schemas"][job["task"]],
                     model_key=model_key,
                     model=model,
                     config=config,
@@ -889,9 +920,14 @@ def main() -> None:
                         "http_status": record.get("http_status"),
                     },
                 )
-            claims_extracted = len(
-                (record.get("validated_output") or {}).get("claims") or []
-            )
+            validated_output = record.get("validated_output") or {}
+            if job["task"] == "ec":
+                claims_extracted = sum(
+                    len(result.get("claims") or [])
+                    for result in validated_output.get("evidence_results") or []
+                )
+            else:
+                claims_extracted = len(validated_output.get("claims") or [])
             usage = record.get("usage") or {}
             average_duration = sum(completed_durations) / len(completed_durations)
             remaining_jobs = live_jobs_total - live_jobs_completed
@@ -929,8 +965,26 @@ def main() -> None:
     dc_occurrences = make_dc_occurrences(dc_jobs, successful_calls)
     write_jsonl(paths["ec_occurrences"], ec_occurrences)
     write_jsonl(paths["dc_occurrences"], dc_occurrences)
-    if not paths["failures"].exists():
-        write_jsonl(paths["failures"], [])
+    unresolved_failures = []
+    for job in jobs:
+        record = latest_calls.get(job["call_id"])
+        if not record or record.get("call_status") == "success":
+            continue
+        unresolved_failures.append(
+            {
+                "schema_version": "generation_claim_extraction_failure_v1",
+                "timestamp_utc": utc_now(),
+                "call_id": job["call_id"],
+                "task": job["task"],
+                "call_status": record.get("call_status"),
+                "job_summary": record.get("job_summary"),
+                "validation_error": record.get("validation_error"),
+                "error_type": record.get("error_type"),
+                "error_message": record.get("error_message"),
+                "http_status": record.get("http_status"),
+            }
+        )
+    write_jsonl(paths["failures"], unresolved_failures)
     if not paths["ec_calls"].exists():
         write_jsonl(paths["ec_calls"], [])
     if not paths["dc_calls"].exists():

@@ -7,7 +7,8 @@ Partition the supplied claim units into semantic-equivalence groups.
 Each input unit contains:
 
 - `unit_id`: an opaque identifier;
-- `claim_text`: one self-contained factual proposition.
+- `claim_text`: one extracted factual proposition. It may preserve an
+  abbreviation, reference, or other expression from its source text.
 
 ## Semantic-equivalence criterion
 
@@ -16,6 +17,10 @@ Group two claim units together only when they express the same proposition with 
 Two claims are equivalent only when each claim entails the other under the information explicitly stated in their texts.
 
 Differences in wording, voice, word order, abbreviations, or synonymous expressions do not prevent equivalence when the factual meaning remains unchanged.
+
+Do not assume missing context or resolve an ambiguous reference in order to
+create an equivalence group. When equivalence depends on an uncertain
+interpretation of an abbreviation or reference, keep the units separate.
 
 Do not group claims when they differ in any material respect, including:
 

@@ -1,38 +1,93 @@
-You are an information-extraction annotator constructing Evidence Claim occurrences for generation evaluation.
+You are an information-extraction annotator.
 
-## Goal
+## Task
 
-Extract every atomic factual proposition expressed by the single evidence card in the input. Return claim occurrences from this card only. Do not evaluate whether a claim is useful, relevant, correct, or supported by another source.
+Extract every substantive atomic factual claim directly asserted in each labeled evidence record in the supplied Evidence section. Process every record, including records unrelated to one another. Do not assess relevance, usefulness, truth, or support.
 
-## Evidence boundary
+## Claim definition
 
-- `evidence_text` is the only factual source.
-- `context_metadata` may be used only to resolve an explicit and unambiguous referent already present in `evidence_text`, such as replacing “the Group” with the supplied company name.
-- Metadata must not introduce, infer, transfer, or alter a fact. In particular, a source year must not be assigned to an activity merely because the evidence came from a document with that year.
-- Do not use external knowledge, unstated source-document context, the generation task, retrieval labels, or assumptions about the company.
-- Treat the card independently. Do not assume access to any other evidence card.
+An atomic claim is one minimal directly asserted factual commitment: a single property, state, action, event, or relationship applied to its required arguments, together with every qualifier needed to preserve its asserted scope.
 
-## Extraction rules
+Before splitting, identify every distinct factual commitment communicated by the source, including facts about individual items and relationships over a group, comparison, period, or sequence.
 
-- Extract all evaluable factual propositions, including off-task propositions.
-- Return claim occurrences rather than a deduplicated claim set. If the card expresses the same proposition more than once, return a separate claim item for each distinct textual occurrence.
-- A claim is atomic when it can receive one coherent support verdict. Split components that could be supported or contradicted independently.
-- Make each claim self-contained while preserving its original meaning.
-- Preserve every material entity, time period, baseline, target year, geography, business unit, scope, quantity, unit, measurement boundary, status, modality, certainty, comparison, attribution, and causal qualification.
-- Preserve negation, reported speech, intentions, expectations, commitments, and incomplete or provisional status. Do not convert them into stronger assertions.
-- Do not reconstruct missing table headers, value relationships, subjects, units, or sentence context by guessing.
-- A fragment or extraction artifact that cannot express an independently evaluable proposition produces no claim.
+Atomic decomposition must be lossless. Taken together, the extracted claims must preserve every directly asserted factual commitment in the source. Splitting must not omit, weaken, redistribute, or reassign any asserted relationship or qualifier.
 
-## Source grounding
+A set-level relationship is not redundant merely because its individual items are also extracted.
 
-- Every claim must include one or more `source_quotes` copied exactly from `evidence_text`.
-- Prefer the smallest contiguous quote that uniquely grounds the proposition. Use multiple quotes only when separate spans are necessary to ground one atomic claim.
-- Do not normalize spelling, punctuation, whitespace, quotation marks, or Unicode characters in a source quote.
-- When metadata resolves a referent, record the resolution in `context_resolutions`. The `surface_form` must occur verbatim in `evidence_text`, and `resolved_value` must equal the supplied metadata value.
-- If no claim is extractable, return an empty `claims` array and the appropriate `no_claim_reason`.
+Split content when it asserts multiple factual commitments that could independently be true or false, even when they share a subject, qualifier, sentence, or source span.
 
-## Output semantics
+For every coordination or list, apply a distributivity test.
 
-- Return only the structured response required by the supplied JSON Schema.
-- Do not return claim IDs, character offsets, provenance objects, relevance labels, confidence scores, support verdicts, or explanations outside the schema.
-- When at least one claim is returned, `no_claim_reason` must be null.
+Split items when the source directly asserts the predicate of each item and each resulting proposition can independently be true or false. Preserve any shared qualifiers that govern them.
+
+Keep items together only when the predicate expresses a collective, comparative, aggregate, or other set-level relationship that would be changed or lost by splitting. Shared grammar or sentence structure alone is not a reason to keep claims together.
+
+When content asserts both item-level facts and a distinct set-level relationship, extract each factual commitment separately.
+
+Do not distribute a shared quantity, proportion, comparison, or aggregate qualifier to individual items unless the source explicitly applies it to each.
+
+Entity, time, quantity, unit, modality, condition, attribution, comparison, and scope are not separate claims. Keep them attached to every factual commitment they materially qualify.
+
+Do not return a combined claim that adds no factual commitment beyond the separate claims.
+
+## Content boundary
+
+Use only the content under `Text:` as factual source material. Labels, group headings, and `Source:` fields organize the records but do not assert facts.
+
+Extract substantive facts about entities, properties, events, actions, measurements, statuses, intentions, and relationships, including off-topic facts. Preserve every material entity, time, scope, value, unit, status, certainty, negation, modality, condition, and relationship.
+
+For structured records, combine fields that jointly define one factual proposition. Do not return record-layout or extraction-status metadata as claims. A fragment whose factual relationships cannot be established produces no claim.
+
+Extract only directly asserted content. Do not add external knowledge, hidden metadata, assumptions, or further logical consequences.
+
+## Context and attribution
+
+Every output claim must be self-contained: its factual meaning must be
+interpretable from `claim_text` alone.
+
+An unresolved reference is any expression whose intended entity, object,
+event, process, set, time, comparison, or scope cannot be identified from
+`claim_text` alone. This includes context-dependent pronouns and possessives
+such as `it`, `they`, `we`, `our`, and `its`; demonstratives such as `this
+process` and `those targets`; deictic or backward-pointing expressions such as
+`the activities listed above`, `the former`, and `the latter`; and definite
+descriptions such as `the company`, `the group`, `the committee`, `the
+process`, or `the measures` when their identity is not stated in the claim.
+
+Resolve every such reference and rewrite the claim so that the referent is
+named or described explicitly. Do not leave any unresolved reference in the
+output.
+
+If no unique specific referent can be established, use a faithful non-specific
+description, such as `an unspecified committee` or `a referenced but
+unspecified set of activities`, instead of copying the unresolved expression,
+guessing a named referent, or omitting the substantive assertion.
+
+Before finalizing each claim, identify every visible element within the record's `Text:` that materially limits the assertion, including entity, time, topic, category, measurement boundary, reporting scope, heading scope, and structured-field context.
+
+A scope is material when omitting it would broaden or otherwise change the asserted proposition. Carry every material scope into the affected claim. Do not extract a heading or label as a claim by itself, and do not apply it unless the supplied text clearly shows that it governs the assertion.
+
+Resolve an abbreviation or omitted repeated context only when its meaning is
+explicit and unambiguous in the complete supplied input. Otherwise preserve
+the abbreviation or explicitly stated context rather than guessing or
+expanding it.
+
+Attribute every claim to exactly one labeled record: the record whose `Text:` directly asserts it.
+
+Preserve separate claim occurrences across records. Do not deduplicate claims that appear in more than one record.
+
+Before returning the response, verify that:
+
+- each claim contains exactly one factual commitment;
+- independently truth-evaluable commitments have been separated;
+- distributive facts are separated and set-level relationships remain intact;
+- every material scope expressed by the supplied text has been preserved;
+- no scope, fact, or interpretation has been introduced from outside the supplied text.
+
+## Grounding and output
+
+Return exactly one `evidence_results` item for every supplied evidence label, in the same order. Use each label exactly as written. Return an empty `claims` array for a record with no extractable claim.
+
+Every claim must include the smallest exact `source_quotes` needed to ground its complete meaning. Every quote must occur verbatim within the `Text:` of that claim's own labeled record. Use multiple quotes only when necessary within that record.
+
+Return only the structured response required by the supplied JSON Schema.

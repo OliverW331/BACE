@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Assess every deduplicated DC against its case's complete deduplicated EC set.
+"""Assess every deduplicated DC against its supplied candidate EC set.
 
-The script creates deterministic short claim IDs, sends one DC and the full EC
-set to the configured LLM, validates minimal-support-set response structure,
-and restores the original deduplicated claim IDs. No candidate retrieval is
-performed and no provenance or case metadata is sent to the model.
+The script validates candidate-selection results, creates deterministic short
+claim IDs, sends one DC, its candidate ECs, and prompt-visible case context to
+the configured LLM, validates typed minimal-support-set response structure, and
+restores the original deduplicated claim IDs. No provenance is sent to the model.
 """
 
 from __future__ import annotations
@@ -34,6 +34,7 @@ from generation_claims import (
     sha256_file,
     sha256_json,
     utc_now,
+    validate_generation_case,
     validate_file_hash,
     write_json,
     write_jsonl,
@@ -43,7 +44,7 @@ from generation_claims import (
 REPO_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(REPO_ROOT / ".env", override=False)
 
-SCRIPT_VERSION = "run_generation_claim_support_assessment_v1"
+SCRIPT_VERSION = "run_generation_claim_support_assessment_v1_1"
 CONFIG_SCHEMA_VERSION = "generation_claim_support_config_v1"
 CALL_SCHEMA_VERSION = "generation_claim_support_call_v1"
 FAILURE_SCHEMA_VERSION = "generation_claim_support_failure_v1"
@@ -56,12 +57,14 @@ DC_INPUT_SCHEMA_VERSION = "deduplicated_dc_claim_v1"
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Assess each deduplicated disclosure claim against the complete "
-            "deduplicated evidence-claim set from the same generation case."
+            "Assess each deduplicated disclosure claim against its supplied "
+            "candidate evidence-claim set."
         )
     )
     parser.add_argument("--ec-claims", type=Path, required=True)
     parser.add_argument("--dc-claims", type=Path, required=True)
+    parser.add_argument("--candidate-selections", type=Path, required=True)
+    parser.add_argument("--generation-cases", type=Path, required=True)
     parser.add_argument(
         "--config",
         type=Path,
@@ -325,6 +328,112 @@ def validate_claim_rows(
             )
 
 
+def index_generation_case_context(
+    rows: list[dict[str, Any]],
+    *,
+    claim_rows: list[dict[str, Any]],
+    path: Path,
+) -> dict[str, dict[str, Any]]:
+    by_generation_case_id: dict[str, dict[str, Any]] = {}
+    for row_number, row in enumerate(rows, start=1):
+        validate_generation_case(row, row_number)
+        generation_case_id = str(row["generation_case_id"])
+        if generation_case_id in by_generation_case_id:
+            raise InputValidationError(
+                f"Duplicate generation_case_id in {path}: {generation_case_id}"
+            )
+        company_name = row.get("company_name")
+        target_reporting_year = row.get("target_reporting_year")
+        if not isinstance(company_name, str) or not company_name.strip():
+            raise InputValidationError(
+                f"Generation case {generation_case_id} has invalid company_name"
+            )
+        if not isinstance(target_reporting_year, (str, int)) or isinstance(
+            target_reporting_year, bool
+        ):
+            raise InputValidationError(
+                f"Generation case {generation_case_id} has invalid target_reporting_year"
+            )
+        by_generation_case_id[generation_case_id] = {
+            "case_id": str(row["case_id"]),
+            "context_metadata": {
+                "company_name": company_name,
+                "target_reporting_year": target_reporting_year,
+            },
+        }
+
+    claim_case_ids = {
+        str(row["generation_case_id"]): str(row["case_id"]) for row in claim_rows
+    }
+    missing = sorted(set(claim_case_ids) - set(by_generation_case_id))
+    if missing:
+        raise InputValidationError(
+            f"Generation cases missing from {path}: {missing[:5]}"
+        )
+    mismatched = sorted(
+        generation_case_id
+        for generation_case_id, case_id in claim_case_ids.items()
+        if by_generation_case_id[generation_case_id]["case_id"] != case_id
+    )
+    if mismatched:
+        raise InputValidationError(
+            "Generation case context has mismatched case_id values: "
+            f"{mismatched[:5]}"
+        )
+    return by_generation_case_id
+
+
+def validate_candidate_selections(
+    rows: list[dict[str, Any]],
+    *,
+    ec_rows: list[dict[str, Any]],
+    dc_rows: list[dict[str, Any]],
+    path: Path,
+) -> dict[str, dict[str, Any]]:
+    if not rows:
+        raise InputValidationError(f"No candidate selections in {path}")
+    ec_case_by_id = {str(row["ec_id"]): str(row["generation_case_id"]) for row in ec_rows}
+    dc_case_by_id = {str(row["dc_id"]): str(row["generation_case_id"]) for row in dc_rows}
+    by_dc_id: dict[str, dict[str, Any]] = {}
+    for row_number, row in enumerate(rows, start=1):
+        label = f"Candidate selection {path}:{row_number}"
+        if not isinstance(row, dict) or set(row) != {"dc_claim_id", "candidate_ec_ids"}:
+            raise InputValidationError(
+                f"{label} must contain exactly dc_claim_id and candidate_ec_ids"
+            )
+        dc_id = row["dc_claim_id"]
+        candidate_ec_ids = row["candidate_ec_ids"]
+        if not isinstance(dc_id, str) or not dc_id:
+            raise InputValidationError(f"{label}.dc_claim_id must be non-empty")
+        if dc_id not in dc_case_by_id:
+            raise InputValidationError(f"{label} references unknown DC ID {dc_id!r}")
+        if dc_id in by_dc_id:
+            raise InputValidationError(f"Duplicate candidate selection for DC {dc_id}")
+        if not isinstance(candidate_ec_ids, list):
+            raise InputValidationError(f"{label}.candidate_ec_ids must be an array")
+        if any(not isinstance(ec_id, str) or not ec_id for ec_id in candidate_ec_ids):
+            raise InputValidationError(f"{label} contains an invalid EC ID")
+        if len(candidate_ec_ids) != len(set(candidate_ec_ids)):
+            raise InputValidationError(f"{label} contains a duplicate EC ID")
+        unknown = sorted(set(candidate_ec_ids) - set(ec_case_by_id))
+        if unknown:
+            raise InputValidationError(f"{label} contains unknown EC IDs: {unknown}")
+        cross_case = sorted(
+            ec_id
+            for ec_id in candidate_ec_ids
+            if ec_case_by_id[ec_id] != dc_case_by_id[dc_id]
+        )
+        if cross_case:
+            raise InputValidationError(
+                f"{label} contains EC IDs from a different generation case: {cross_case}"
+            )
+        by_dc_id[dc_id] = {
+            "dc_claim_id": dc_id,
+            "candidate_ec_ids": list(candidate_ec_ids),
+        }
+    return by_dc_id
+
+
 def select_case_ids(
     ec_rows: list[dict[str, Any]],
     *,
@@ -365,6 +474,8 @@ def build_jobs(
     *,
     ec_rows: list[dict[str, Any]],
     dc_rows: list[dict[str, Any]],
+    case_context_by_id: dict[str, dict[str, Any]],
+    candidate_by_dc_id: dict[str, dict[str, Any]],
     case_ids: list[str],
     requested_dc_ids: set[str] | None,
     max_dcs: int | None,
@@ -377,11 +488,11 @@ def build_jobs(
 ) -> list[dict[str, Any]]:
     assessment = config.get("assessment") or {}
     minimum_width = int(assessment.get("temporary_id_min_width", 3))
-    max_ecs = int(assessment.get("max_evidence_claims_per_case", 500))
+    max_candidates = int(assessment.get("max_candidate_claims_per_dc", 500))
     if minimum_width < 1:
         raise InputValidationError("temporary_id_min_width must be at least 1")
-    if max_ecs < 1:
-        raise InputValidationError("max_evidence_claims_per_case must be at least 1")
+    if max_candidates < 1:
+        raise InputValidationError("max_candidate_claims_per_dc must be at least 1")
 
     selected_case_set = set(case_ids)
     available_dc_ids = {
@@ -394,6 +505,27 @@ def build_jobs(
         if unknown:
             raise InputValidationError(f"Requested DC IDs not found: {unknown}")
 
+    selected_dc_rows = sorted(
+        (
+            row
+            for row in dc_rows
+            if row["generation_case_id"] in selected_case_set
+            and (not requested_dc_ids or str(row["dc_id"]) in requested_dc_ids)
+        ),
+        key=lambda row: (str(row["generation_case_id"]), str(row["dc_id"])),
+    )
+    if max_dcs is not None:
+        if max_dcs < 1:
+            raise InputValidationError("--max-dcs must be at least 1")
+        selected_dc_rows = selected_dc_rows[:max_dcs]
+    selected_dc_ids = {str(row["dc_id"]) for row in selected_dc_rows}
+    missing_selections = sorted(selected_dc_ids - set(candidate_by_dc_id))
+    if missing_selections:
+        raise InputValidationError(
+            "Candidate-selection input is missing selected DC IDs: "
+            f"{missing_selections}"
+        )
+
     request_parameters = dict(model.get("request_parameters") or {})
     jobs: list[dict[str, Any]] = []
     for generation_case_id in case_ids:
@@ -405,12 +537,6 @@ def build_jobs(
             (row for row in dc_rows if row["generation_case_id"] == generation_case_id),
             key=lambda row: str(row["dc_id"]),
         )
-        if len(case_ecs) > max_ecs:
-            raise InputValidationError(
-                f"{generation_case_id} has {len(case_ecs)} ECs; configured maximum is "
-                f"{max_ecs}. Refusing to split the EC set because joint support could cross batches."
-            )
-
         ec_alias_by_original, ec_original_by_alias = make_temporary_ids(
             (str(row["ec_id"]) for row in case_ecs),
             prefix="ec",
@@ -421,29 +547,42 @@ def build_jobs(
             prefix="dc",
             minimum_width=minimum_width,
         )
-        ec_input = [
-            {
-                "ec_claim_id": ec_alias_by_original[str(row["ec_id"])],
-                "ec_text": row["ec_text"],
-            }
-            for row in case_ecs
-        ]
+        ec_by_id = {str(row["ec_id"]): row for row in case_ecs}
         for dc_row in case_dcs:
             original_dc_id = str(dc_row["dc_id"])
-            if requested_dc_ids and original_dc_id not in requested_dc_ids:
+            if original_dc_id not in selected_dc_ids:
                 continue
+            candidate_ids = candidate_by_dc_id[original_dc_id]["candidate_ec_ids"]
+            if len(candidate_ids) > max_candidates:
+                raise InputValidationError(
+                    f"{original_dc_id} has {len(candidate_ids)} candidate ECs; "
+                    f"configured maximum is {max_candidates}"
+                )
+            candidate_ids = sorted(candidate_ids, key=ec_alias_by_original.__getitem__)
+            candidate_aliases = [ec_alias_by_original[ec_id] for ec_id in candidate_ids]
+            ec_input = [
+                {
+                    "ec_claim_id": ec_alias_by_original[ec_id],
+                    "ec_text": ec_by_id[ec_id]["ec_text"],
+                }
+                for ec_id in candidate_ids
+            ]
             dc_alias = dc_alias_by_original[original_dc_id]
             dynamic_input = {
-                "ec_claims": ec_input,
+                "context_metadata": case_context_by_id[generation_case_id][
+                    "context_metadata"
+                ],
                 "dc_claim": {
                     "dc_claim_id": dc_alias,
                     "dc_text": dc_row["dc_text"],
                 },
+                "ec_claims": ec_input,
             }
             job_input_hash = sha256_json(dynamic_input)
             call_identity = {
                 "generation_case_id": generation_case_id,
                 "dc_id": original_dc_id,
+                "candidate_ec_ids": candidate_ids,
                 "job_input_hash": job_input_hash,
                 "prompt_version": prompt_spec["version"],
                 "prompt_sha256": prompt_spec["sha256"],
@@ -463,18 +602,16 @@ def build_jobs(
                     "dc_id": original_dc_id,
                     "dc_alias": dc_alias,
                     "ec_original_by_alias": ec_original_by_alias,
+                    "candidate_ec_aliases": candidate_aliases,
                     "dynamic_input": dynamic_input,
                     "job_input_hash": job_input_hash,
                     "call_identity": call_identity,
                     "call_id": f"support_{sha256_json(call_identity)[:32]}",
                     "request_parameters": request_parameters,
+                    "requires_model": bool(candidate_aliases),
                 }
             )
     jobs.sort(key=lambda job: (job["generation_case_id"], job["dc_alias"]))
-    if max_dcs is not None:
-        if max_dcs < 1:
-            raise InputValidationError("--max-dcs must be at least 1")
-        jobs = jobs[:max_dcs]
     if not jobs:
         raise InputValidationError("No DCs match the requested filters")
     return jobs
@@ -500,31 +637,45 @@ def validate_support_response(
 
     expected_order = {claim_id: index for index, claim_id in enumerate(expected_ec_ids)}
     expected = set(expected_order)
-    normalized: list[tuple[str, ...]] = []
+    normalized: list[tuple[tuple[str, ...], str]] = []
     seen_sets: set[tuple[str, ...]] = set()
     for set_index, support_set in enumerate(support_sets, start=1):
-        if not isinstance(support_set, list) or not support_set:
+        if not isinstance(support_set, dict) or set(support_set) != {
+            "ec_claim_ids",
+            "support_type",
+        }:
             raise OutputValidationError(
-                f"Support set {set_index} must be a non-empty array"
+                f"Support set {set_index} must contain exactly ec_claim_ids and "
+                "support_type"
             )
-        if any(not isinstance(claim_id, str) or not claim_id for claim_id in support_set):
+        claim_ids = support_set["ec_claim_ids"]
+        support_type = support_set["support_type"]
+        if not isinstance(claim_ids, list) or not claim_ids:
+            raise OutputValidationError(
+                f"Support set {set_index}.ec_claim_ids must be a non-empty array"
+            )
+        if support_type not in {"direct", "inferred"}:
+            raise OutputValidationError(
+                f"Support set {set_index}.support_type must be direct or inferred"
+            )
+        if any(not isinstance(claim_id, str) or not claim_id for claim_id in claim_ids):
             raise OutputValidationError(f"Support set {set_index} contains an invalid EC ID")
-        if len(support_set) != len(set(support_set)):
+        if len(claim_ids) != len(set(claim_ids)):
             raise OutputValidationError(f"Support set {set_index} repeats an EC ID")
-        unknown = sorted(set(support_set) - expected)
+        unknown = sorted(set(claim_ids) - expected)
         if unknown:
             raise OutputValidationError(
                 f"Support set {set_index} contains unknown EC IDs: {unknown}"
             )
-        ordered = tuple(sorted(support_set, key=expected_order.__getitem__))
+        ordered = tuple(sorted(claim_ids, key=expected_order.__getitem__))
         if ordered in seen_sets:
             raise OutputValidationError(f"Duplicate support set: {list(ordered)}")
         seen_sets.add(ordered)
-        normalized.append(ordered)
+        normalized.append((ordered, support_type))
 
-    for smaller_index, smaller in enumerate(normalized):
+    for smaller_index, (smaller, _smaller_type) in enumerate(normalized):
         smaller_members = set(smaller)
-        for larger_index, larger in enumerate(normalized):
+        for larger_index, (larger, _larger_type) in enumerate(normalized):
             if smaller_index == larger_index:
                 continue
             if smaller_members < set(larger):
@@ -533,10 +684,15 @@ def validate_support_response(
                     f"{list(smaller)} and is therefore non-minimal"
                 )
 
-    normalized.sort(key=lambda values: tuple(expected_order[value] for value in values))
+    normalized.sort(
+        key=lambda item: tuple(expected_order[value] for value in item[0])
+    )
     return {
         "dc_claim_id": expected_dc_id,
-        "support_sets": [list(values) for values in normalized],
+        "support_sets": [
+            {"ec_claim_ids": list(values), "support_type": support_type}
+            for values, support_type in normalized
+        ],
     }
 
 
@@ -549,7 +705,13 @@ def restore_original_ids(
     return {
         "dc_claim_id": original_dc_id,
         "support_sets": [
-            [ec_original_by_alias[alias] for alias in support_set]
+            {
+                "ec_claim_ids": [
+                    ec_original_by_alias[alias]
+                    for alias in support_set["ec_claim_ids"]
+                ],
+                "support_type": support_set["support_type"],
+            }
             for support_set in validated_output["support_sets"]
         ],
     }
@@ -621,7 +783,7 @@ def usage_sum(values: Iterable[dict[str, int | None]]) -> dict[str, int | None]:
 def render_messages(
     prompt_text: str, dynamic_input: dict[str, Any]
 ) -> list[dict[str, str]]:
-    # Preserve insertion order so the shared EC set forms a stable request prefix.
+    # Preserve insertion order and serialize the supplied evidence before the target.
     user_content = json.dumps(
         dynamic_input,
         ensure_ascii=False,
@@ -645,7 +807,7 @@ def execute_job(
     model: dict[str, Any],
     config: dict[str, Any],
 ) -> dict[str, Any]:
-    expected_ec_ids = list(job["ec_original_by_alias"])
+    expected_ec_ids = list(job["candidate_ec_aliases"])
     common = {
         "schema_version": CALL_SCHEMA_VERSION,
         "call_id": job["call_id"],
@@ -654,6 +816,7 @@ def execute_job(
         "generated_disclosure_id": job["generated_disclosure_id"],
         "dc_id": job["dc_id"],
         "dc_temporary_id": job["dc_alias"],
+        "candidate_ec_ids": job["call_identity"]["candidate_ec_ids"],
         "ec_temporary_id_map": job["ec_original_by_alias"],
         "call_identity": job["call_identity"],
         "dynamic_input": job["dynamic_input"],
@@ -664,6 +827,30 @@ def execute_job(
         "request_parameters": job["request_parameters"],
         "started_at_utc": utc_now(),
     }
+    if not job["requires_model"]:
+        validated = {"dc_claim_id": job["dc_alias"], "support_sets": []}
+        restored = restore_original_ids(
+            validated,
+            original_dc_id=job["dc_id"],
+            ec_original_by_alias=job["ec_original_by_alias"],
+        )
+        return {
+            **common,
+            "finished_at_utc": utc_now(),
+            "call_status": "success",
+            "model_called": False,
+            "attempts": [],
+            "raw_output": "",
+            "parsed_output": validated,
+            "validated_output": validated,
+            "restored_output": restored,
+            "output_valid": True,
+            "validation_error": None,
+            "error_type": None,
+            "error_message": None,
+            "http_status": None,
+            "usage": {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0},
+        }
     messages = render_messages(prompt_text, job["dynamic_input"])
     text_config = make_structured_text_config(
         schema,
@@ -849,6 +1036,7 @@ def make_quality_summary(
 ) -> dict[str, Any]:
     records = [latest_calls[job["call_id"]] for job in jobs if job["call_id"] in latest_calls]
     support_sets = [support_set for result in results for support_set in result["support_sets"]]
+    candidate_counts = [len(job["candidate_ec_aliases"]) for job in jobs]
     usage_totals = {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
     for record in all_call_records:
         for key in usage_totals:
@@ -861,18 +1049,15 @@ def make_quality_summary(
         "dry_run": dry_run,
         "generation_case_count": len({job["generation_case_id"] for job in jobs}),
         "dc_count": len(jobs),
-        "ec_counts_by_case": {
-            case_id: len(
-                next(
-                    job["dynamic_input"]["ec_claims"]
-                    for job in jobs
-                    if job["generation_case_id"] == case_id
-                )
-            )
-            for case_id in sorted({job["generation_case_id"] for job in jobs})
-        },
-        "calls_planned": len(jobs),
+        "candidate_count_total": sum(candidate_counts),
+        "candidate_count_min": min(candidate_counts),
+        "candidate_count_max": max(candidate_counts),
+        "candidate_count_mean": sum(candidate_counts) / len(candidate_counts),
+        "jobs_planned": len(jobs),
+        "model_calls_planned": sum(job["requires_model"] for job in jobs),
+        "empty_candidate_jobs_planned": sum(not job["requires_model"] for job in jobs),
         "calls_recorded": len(records),
+        "model_calls_recorded": sum(bool(record.get("model_called")) for record in records),
         "calls_success": sum(record.get("call_status") == "success" for record in records),
         "calls_invalid_output": sum(
             record.get("call_status") == "invalid_output" for record in records
@@ -884,12 +1069,45 @@ def make_quality_summary(
         "not_supported_dc_count": (
             None if dry_run else sum(not r["support_sets"] for r in results)
         ),
+        "supported_direct_dc_count": (
+            None
+            if dry_run
+            else sum(
+                any(
+                    support_set["support_type"] == "direct"
+                    for support_set in result["support_sets"]
+                )
+                for result in results
+            )
+        ),
+        "supported_inferred_dc_count": (
+            None
+            if dry_run
+            else sum(
+                bool(result["support_sets"])
+                and all(
+                    support_set["support_type"] == "inferred"
+                    for support_set in result["support_sets"]
+                )
+                for result in results
+            )
+        ),
         "support_set_count": None if dry_run else len(support_sets),
         "direct_support_set_count": (
-            None if dry_run else sum(len(support_set) == 1 for support_set in support_sets)
+            None
+            if dry_run
+            else sum(
+                support_set["support_type"] == "direct"
+                for support_set in support_sets
+            )
         ),
-        "joint_support_set_count": (
-            None if dry_run else sum(len(support_set) > 1 for support_set in support_sets)
+        "inferred_support_set_count": (
+            None
+            if dry_run
+            else sum(
+                support_set["support_type"] == "inferred"
+                for support_set in support_sets
+            )
         ),
         "usage_totals": usage_totals,
     }
@@ -905,6 +1123,8 @@ def main() -> None:
         raise InputValidationError("--progress-interval-seconds cannot be negative")
     require_file(args.ec_claims, "deduplicated EC claims")
     require_file(args.dc_claims, "deduplicated DC claims")
+    require_file(args.candidate_selections, "candidate selections")
+    require_file(args.generation_cases, "generation cases")
 
     config, prompt_text, prompt_path, schema, schema_path = (
         load_and_validate_configuration(args.config)
@@ -916,11 +1136,24 @@ def main() -> None:
     )
     ec_rows = read_jsonl(args.ec_claims)
     dc_rows = read_jsonl(args.dc_claims)
+    candidate_rows = read_jsonl(args.candidate_selections)
+    generation_case_rows = read_jsonl(args.generation_cases)
     validate_claim_rows(
         ec_rows,
         dc_rows,
         ec_path=args.ec_claims,
         dc_path=args.dc_claims,
+    )
+    candidate_by_dc_id = validate_candidate_selections(
+        candidate_rows,
+        ec_rows=ec_rows,
+        dc_rows=dc_rows,
+        path=args.candidate_selections,
+    )
+    case_context_by_id = index_generation_case_context(
+        generation_case_rows,
+        claim_rows=dc_rows,
+        path=args.generation_cases,
     )
     case_ids = select_case_ids(
         ec_rows,
@@ -930,6 +1163,8 @@ def main() -> None:
     jobs = build_jobs(
         ec_rows=ec_rows,
         dc_rows=dc_rows,
+        case_context_by_id=case_context_by_id,
+        candidate_by_dc_id=candidate_by_dc_id,
         case_ids=case_ids,
         requested_dc_ids=split_values(args.dc_id),
         max_dcs=args.max_dcs,
@@ -952,6 +1187,14 @@ def main() -> None:
         "inputs": {
             "ec_claims": {"path": str(args.ec_claims), "sha256": sha256_file(args.ec_claims)},
             "dc_claims": {"path": str(args.dc_claims), "sha256": sha256_file(args.dc_claims)},
+            "candidate_selections": {
+                "path": str(args.candidate_selections),
+                "sha256": sha256_file(args.candidate_selections),
+            },
+            "generation_cases": {
+                "path": str(args.generation_cases),
+                "sha256": sha256_file(args.generation_cases),
+            },
         },
         "config_path": str(args.config),
         "config_sha256": sha256_file(args.config),
@@ -985,7 +1228,10 @@ def main() -> None:
         "completed_at_utc": None,
         "run_identity": run_identity,
         "run_identity_sha256": run_identity_sha256,
-        "planned_model_calls": len(jobs),
+        "planned_model_calls": sum(job["requires_model"] for job in jobs),
+        "planned_deterministic_empty_candidate_jobs": sum(
+            not job["requires_model"] for job in jobs
+        ),
         "outputs": {key: str(path) for key, path in paths.items()},
     }
     write_json(paths["manifest"], manifest)
@@ -1007,27 +1253,37 @@ def main() -> None:
         write_json(paths["manifest"], manifest)
         print("Dry run complete.")
         print(f"Selected generation cases: {summary['generation_case_count']}")
-        print(f"Selected DCs / planned model calls: {len(jobs)}")
-        print(f"EC counts by case: {summary['ec_counts_by_case']}")
+        print(f"Selected DCs: {len(jobs)}")
+        print(f"Candidate ECs: {summary['candidate_count_total']}")
+        print(f"Planned model calls: {summary['model_calls_planned']}")
+        print(
+            "Deterministic empty-candidate jobs: "
+            f"{summary['empty_candidate_jobs_planned']}"
+        )
         print(f"Run manifest: {paths['manifest']}")
         return
 
-    client = make_client(config=config, model=model, base_url=str(base_url))
     pending_jobs = [
         job
         for job in jobs
         if latest_calls.get(job["call_id"], {}).get("call_status") != "success"
     ]
+    client = (
+        make_client(config=config, model=model, base_url=str(base_url))
+        if any(job["requires_model"] for job in pending_jobs)
+        else None
+    )
     print(
-        f"Run plan: {len(jobs)} calls total | {len(jobs) - len(pending_jobs)} "
-        f"resume-skipped | {len(pending_jobs)} calls this run",
+        f"Run plan: {len(jobs)} jobs total | {len(jobs) - len(pending_jobs)} "
+        f"resume-skipped | {len(pending_jobs)} jobs this run | "
+        f"{sum(job['requires_model'] for job in pending_jobs)} model calls",
         flush=True,
     )
     run_started = time.monotonic()
     for index, job in enumerate(pending_jobs, start=1):
         label = (
             f"[{index}/{len(pending_jobs)}] {job['generation_case_id']} "
-            f"{job['dc_alias']} ({len(job['dynamic_input']['ec_claims'])} ECs)"
+            f"{job['dc_alias']} ({len(job['dynamic_input']['ec_claims'])} candidate ECs)"
         )
         call_started = time.monotonic()
         print(f"{label} started", flush=True)
