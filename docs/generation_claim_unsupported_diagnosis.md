@@ -8,7 +8,7 @@ Diagnosis is performed only for DCs whose support assessment returns an empty `s
 
 The stage answers one question:
 
-> Which failure mechanism explains why the candidate evidence claims do not support the complete factual meaning of this disclosure claim?
+> Which failure type best explains why the candidate evidence claims do not support the complete factual meaning of this disclosure claim?
 
 ## 2. Evidence and context boundary
 
@@ -58,6 +58,8 @@ The diagnostic LLM receives a fixed, general prompt and one dynamic JSON object:
 
 Original claim identifiers are replaced deterministically with temporary IDs before the request. The same case-level ID mapping used by candidate selection and support assessment should be reused so that aliases remain stable across stages.
 
+The `ec_claims` array may be empty. Candidate-set cardinality does not determine the diagnostic label.
+
 ## 4. Diagnostic output
 
 The output contains only the claim identifier, one diagnostic label, and a concise explanation:
@@ -76,21 +78,27 @@ The output does not repeat the support verdict, candidate set, support sets, or 
 
 ## 5. Mutually exclusive diagnostic labels
 
-Each unsupported DC receives exactly one label. The categories are made mutually exclusive by distinguishing direct incompatibility, multi-evidence combination, boundary transfer, semantic strengthening, and absence of an evidential anchor.
+Each unsupported DC receives exactly one label. The categories are made mutually exclusive by distinguishing non-disclosure statements, direct incompatibility, multi-evidence combination, boundary transfer, semantic strengthening, and absence of an evidential anchor.
 
-### 5.1 `contradiction`
+### 5.1 `non_disclosure_statement`
+
+The central proposition of the DC is that a specified item was not disclosed, identified, quantified, described, or otherwise provided within a stated reporting or evidence scope.
+
+This label applies to a statement about missing disclosure or evidence, rather than to an ordinary negative factual proposition about an entity, activity, event, or outcome. It is determined from the meaning of the complete DC. Do not apply it merely because no EC is supplied, because the DC uses negative wording, or because the DC lacks sufficient support. If an EC explicitly establishes the stated non-disclosure, the DC should have been supported upstream and should not enter diagnosis.
+
+### 5.2 `contradiction`
 
 The candidate evidence affirmatively establishes a proposition incompatible with the DC at the same material boundaries.
 
 This includes an opposite trend, incompatible value, reversed comparison, negated status, or mutually exclusive factual state for the same entity, period, scope, and metric. Absence of support is not contradiction. When the apparent conflict results from different entities, periods, scopes, or metrics, use `factual_boundary_distortion` instead.
 
-### 5.2 `evidence_conflation`
+### 5.3 `evidence_conflation`
 
 The DC combines elements supplied by two or more candidate ECs into a relationship, attribution, entity, event, or conclusion that the evidence does not establish.
 
 The individual elements may each be evidenced; the unsupported construction between them is the failure. This label takes precedence over `inferential_inflation` when the invalid conclusion is specifically created by combining multiple ECs.
 
-### 5.3 `factual_boundary_distortion`
+### 5.4 `factual_boundary_distortion`
 
 The DC preserves the core fact of recognizable evidence but transfers it to a different material boundary.
 
@@ -104,7 +112,7 @@ Material boundaries include:
 
 This label concerns where, when, to whom, or to what scope the fact applies. Changes in semantic force, certainty, implementation status, causality, or effectiveness are instead classified as `inferential_inflation`.
 
-### 5.4 `inferential_inflation`
+### 5.5 `inferential_inflation`
 
 The DC and its evidence anchor have materially matching boundaries, but the DC derives a stronger semantic conclusion, characterization, relationship, status, or level of certainty than the evidence entails.
 
@@ -119,7 +127,7 @@ Typical forms include:
 
 Use `evidence_conflation` instead when the unsupported conclusion is constructed from elements supplied by multiple ECs.
 
-### 5.5 `unsupported_novelty`
+### 5.6 `unsupported_novelty`
 
 No candidate EC provides a recognizable evidential anchor for the core factual proposition of the DC.
 
@@ -129,13 +137,14 @@ This label applies when the DC asserts an activity, target, result, attribute, e
 
 Apply the following checks in order and return the first applicable label:
 
-1. If evidence affirmatively establishes an incompatible fact at matching material boundaries, return `contradiction`.
-2. If the DC constructs an unsupported relationship from elements supplied by two or more ECs, return `evidence_conflation`.
-3. If the DC transfers an anchored fact to a different entity, time, geography, scope, metric, or unit, return `factual_boundary_distortion`.
-4. If the DC derives a stronger semantic conclusion from an anchored fact at otherwise matching boundaries, return `inferential_inflation`.
-5. If no candidate EC anchors the core factual proposition, return `unsupported_novelty`.
+1. If the DC's central proposition is that a specified item was not disclosed, identified, quantified, described, or otherwise provided within a stated reporting or evidence scope, return `non_disclosure_statement`.
+2. If evidence affirmatively establishes an incompatible fact at matching material boundaries, return `contradiction`.
+3. If the DC constructs an unsupported relationship from elements supplied by two or more ECs, return `evidence_conflation`.
+4. If the DC transfers an anchored fact to a different entity, time, geography, scope, metric, or unit, return `factual_boundary_distortion`.
+5. If the DC derives a stronger semantic conclusion from an anchored fact at otherwise matching boundaries, return `inferential_inflation`.
+6. If no candidate EC anchors the core factual proposition, return `unsupported_novelty`.
 
-Because the input DC is atomic, one primary mechanism should explain its support failure. If two genuinely independent mechanisms are required, the claim should be reviewed for insufficient atomic decomposition rather than assigned multiple labels.
+Because the input DC is atomic, one primary failure type should explain its support failure. If two genuinely independent failure types are required, the claim should be reviewed for insufficient atomic decomposition rather than assigned multiple labels.
 
 ## 7. Deterministic and LLM responsibilities
 
@@ -146,24 +155,15 @@ The script is responsible for:
 1. selecting only DCs with empty `support_sets`;
 2. joining each selected DC to its candidate EC set and permitted case context;
 3. creating and restoring stable temporary claim identifiers;
-4. skipping the LLM when the candidate set is empty;
-5. validating the response schema, identifier, label vocabulary, and non-empty rationale;
-6. recording call manifests, failures, token usage, and quality summaries;
-7. aggregating diagnostic-label counts and rates.
+4. validating the response schema, identifier, label vocabulary, and non-empty rationale;
+5. recording call manifests, failures, token usage, and quality summaries;
+6. aggregating diagnostic-label counts and rates.
 
-When candidate selection returns an empty set, the diagnosis is constructed deterministically:
-
-```json
-{
-  "dc_claim_id": "the_original_dc_id",
-  "unsupported_label": "unsupported_novelty",
-  "rationale": "No candidate evidence claim materially bears on the target claim."
-}
-```
+An empty candidate set does not determine the diagnostic label. The LLM still evaluates the DC because a non-disclosure statement and an unsupported novel assertion can both have no candidate ECs but represent different failure types.
 
 ### 7.2 LLM judgment
 
-For unsupported DCs with one or more candidate ECs, the LLM is responsible for:
+For every unsupported DC, including a DC with no candidate ECs, the LLM is responsible for:
 
 1. comparing the complete factual meaning of the DC with the candidate ECs;
 2. applying the exclusive decision sequence to the material reason that full entailment fails;
@@ -186,7 +186,7 @@ The candidate EC set remains stored separately in `dc_candidate_ecs.jsonl`. Diag
 
 ## 9. Relationship to evaluation metrics
 
-The unsupported label explains the primary failure mechanism; it does not replace the support verdict. For each diagnostic label $f$, reporting may include both prevalence among all DCs and composition among unsupported DCs:
+The unsupported label identifies the primary failure type; it does not replace the support verdict. For each diagnostic label $f$, reporting may include both prevalence among all DCs and composition among unsupported DCs:
 
 $$
 FailureRate_{f,d} =
@@ -198,7 +198,7 @@ UnsupportedComposition_{f,d} =
 \frac{|\{DC_j : Label(DC_j)=f\}|}{N_{unsupported,d}}
 $$
 
-Because every unsupported DC receives exactly one label, unsupported composition values sum to one across the five categories.
+Because every unsupported DC receives exactly one label, unsupported composition values sum to one across the six categories.
 
 ## 10. Methodological boundary
 

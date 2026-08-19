@@ -25,12 +25,12 @@
   "prompt": {
     "file": "../prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt",
     "version": "generation_claim_unsupported_diagnosis_prompt_v1",
-    "sha256": "9a284a3c9f479b420106f1fea796c0b4dcd3ced6f75fcaa00509e6ae8dbd8d7a"
+    "sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8"
   },
   "response_schema": {
     "file": "../schemas/generation_claim_unsupported_diagnosis_response_schema_v1.json",
     "version": "generation_claim_unsupported_diagnosis_response_v1",
-    "sha256": "43fd862500fe5dee79f4d786a3d3551c589b538b4d6be4e5a8b2c8b91a151c76",
+    "sha256": "0f65691949117c2dba149becef600450eeec775ff33af319cd1d7cee89d65a27",
     "structured_output_name": "generation_claim_unsupported_diagnosis_response_v1",
     "strict": true
   },

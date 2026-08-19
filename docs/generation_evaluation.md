@@ -173,7 +173,7 @@ A DC is `supported_direct` when at least one returned minimal sufficient set is 
 
 ### Step 5: Diagnose unsupported claims
 
-If and only if the primary verdict is `unsupported`, exactly one unsupported failure label is assigned through the exclusive diagnostic decision sequence. The label identifies the primary mechanism that explains the support failure.
+If and only if the primary verdict is `unsupported`, exactly one unsupported failure label is assigned through the exclusive diagnostic decision sequence. The label identifies the primary failure type that explains the support failure.
 
 ## 6. Primary support verdicts
 
@@ -213,39 +213,44 @@ A claim remains unsupported even if:
 
 ## 7. Unsupported failure diagnosis
 
-Unsupported diagnosis uses five mutually exclusive labels. Apply the checks in order and assign the first applicable label.
+Unsupported diagnosis uses six mutually exclusive labels. Apply the checks in order and assign the first applicable label.
 
-### 7.1 Contradiction
+### 7.1 Non-disclosure statement
+
+Use `non_disclosure_statement` when the DC's central proposition is that a specified item was not disclosed, identified, quantified, described, or otherwise provided within a stated reporting or evidence scope. This is a statement about missing disclosure or evidence, not an ordinary negative factual proposition. Determine the category from the complete meaning of the DC. Do not apply it merely because no EC is supplied, because the DC uses negative wording, or because the DC lacks sufficient support.
+
+### 7.2 Contradiction
 
 Use `contradiction` when evidence affirmatively establishes a proposition incompatible with the DC at the same entity, time, scope, and metric boundaries. Different boundaries are classified as factual boundary distortion rather than contradiction.
 
-### 7.2 Evidence conflation
+### 7.3 Evidence conflation
 
 Use `evidence_conflation` when the DC constructs an unsupported relationship, attribution, entity, event, or conclusion from elements supplied by two or more ECs. The elements may each be evidenced; their combination is not.
 
-### 7.3 Factual boundary distortion
+### 7.4 Factual boundary distortion
 
 Use `factual_boundary_distortion` when the DC preserves an anchored core fact but transfers it to a different entity, organizational level, period, geography, population, activity scope, metric definition, unit, or measurement boundary.
 
-### 7.4 Inferential inflation
+### 7.5 Inferential inflation
 
 Use `inferential_inflation` when the DC and evidence anchor have materially matching boundaries, but the DC derives a stronger semantic conclusion, characterization, relationship, status, certainty, causality, or effectiveness than the evidence entails. If the conclusion is specifically constructed from multiple ECs, classify it as evidence conflation instead.
 
-### 7.5 Unsupported novelty
+### 7.6 Unsupported novelty
 
 Use `unsupported_novelty` when no candidate EC provides a recognizable evidential anchor for the core factual proposition of the DC.
 
-### 7.6 Exclusive decision rule
+### 7.7 Exclusive decision rule
 
 The fixed precedence is:
 
-1. `contradiction`;
-2. `evidence_conflation`;
-3. `factual_boundary_distortion`;
-4. `inferential_inflation`;
-5. `unsupported_novelty`.
+1. `non_disclosure_statement`;
+2. `contradiction`;
+3. `evidence_conflation`;
+4. `factual_boundary_distortion`;
+5. `inferential_inflation`;
+6. `unsupported_novelty`.
 
-Atomic claim construction should make one primary mechanism sufficient. A claim requiring two independent failure labels should be reviewed for insufficient atomic decomposition.
+Atomic claim construction should make one primary failure type sufficient. A claim requiring two independent failure labels should be reviewed for insufficient atomic decomposition.
 
 ## 8. Core metrics
 
@@ -364,7 +369,7 @@ UnsupportedComposition_{f,d} =
 \frac{|\{DC_j : Label(DC_j)=f\}|}{N_{unsupported,d}}
 $$
 
-Because every unsupported DC receives exactly one label, unsupported composition values sum to one across the five categories.
+Because every unsupported DC receives exactly one label, unsupported composition values sum to one across the six categories.
 
 The primary quality result remains the support verdict. Failure rates are diagnostic explanations of unsupported generation, not competing top-level evaluation systems.
 
@@ -463,7 +468,7 @@ The framework supports the following interpretations:
 - **ECCR** evaluates utilization of the complete supplied Evidence Claim Set from the evidence side.
 - **Inference Rate** distinguishes synthesis from direct restatement among supported claims.
 - **Reuse and concentration** describe the structure of evidence use.
-- **Unsupported labels** identify the primary mechanism that produced each unsupported claim.
+- **Unsupported labels** identify the primary failure type assigned to each unsupported claim.
 
 The framework does not by itself evaluate:
 
@@ -488,7 +493,7 @@ Its methodological contribution is the joint treatment of:
 2. evidence-side utilization of the complete supplied Evidence Claim Set;
 3. direct versus valid inferred support, independently of support-set cardinality;
 4. evidence reuse and concentration structure;
-5. mutually exclusive diagnosis of unsupported synthesis;
+5. mutually exclusive diagnosis of unsupported claims;
 6. evaluation without a reference disclosure.
 
 The framework should therefore be described as an extension and integration of established claim-level evaluation principles, not as the first use of atomic claims, entailment judgments, evidence utilization, or multi-source support.

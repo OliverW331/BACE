@@ -11,6 +11,7 @@
     "unsupported_label": {
       "type": "string",
       "enum": [
+        "non_disclosure_statement",
         "contradiction",
         "evidence_conflation",
         "factual_boundary_distortion",

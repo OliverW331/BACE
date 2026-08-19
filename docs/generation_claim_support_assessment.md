@@ -236,11 +236,13 @@ Support assessment does not diagnose unsupported claims. A later diagnostic stag
 
 The diagnostic stage assigns exactly one mutually exclusive failure label and one concise rationale, as defined in [Unsupported Disclosure Claim Diagnosis](generation_claim_unsupported_diagnosis.md).
 
+An empty candidate set skips the support-model call but does not determine the later diagnostic label. Diagnosis still evaluates the DC because a non-disclosure statement and an unsupported novel assertion can both have no candidate ECs.
+
 ## 10. Responsibility boundary
 
 | Component | Responsibility |
 |---|---|
 | Candidate-selection LLM | Select materially relevant EC IDs from the complete EC set |
 | Support-assessment LLM | Identify minimal sufficient support sets from the supplied evidence claims |
-| Deterministic scripts | Validate inputs and outputs, map IDs, skip empty-candidate calls, restore IDs, record manifests, and aggregate usage |
+| Deterministic scripts | Validate inputs and outputs, map IDs, skip empty-candidate support calls, restore IDs, record manifests, and aggregate usage |
 | Later diagnostic stage | Explain why a `not_supported` DC is unsupported using its candidate ECs |
