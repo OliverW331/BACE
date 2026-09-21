@@ -1,0 +1,257 @@
+#!/usr/bin/env python3
+"""Review native draft extraction through source-grounded edits with immutable claim IDs and expected old text."""
+from __future__ import annotations
+
+import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+import time
+
+from dotenv import load_dotenv
+from jsonschema import Draft202012Validator
+
+from identified_claim_patches import canonicalize, PatchContractError, make_claim_index
+from claim_refinement_lineage import checked_draft
+from focused_claim_review import make_focus, effective_prompt, prompt_hash, validate_focus_patch, validate_focus_record
+from generation_claims import (
+    InputValidationError, add_call_identity, append_jsonl, build_dc_jobs, build_ec_jobs,
+    make_dc_occurrences, make_ec_occurrences, read_json, read_jsonl, select_cases,
+    sha256_file, sha256_json, utc_now, write_json, write_jsonl,
+)
+from run_generation_claim_extraction import (
+    execute_job, load_and_validate_configuration, load_latest_call_records, make_client,
+    make_quality_summary, merge_dicts, output_paths, prepare_output_directory, resolve_model,
+    start_progress_heartbeat, stop_progress_heartbeat,
+)
+
+ROOT = Path(__file__).resolve().parents[2]
+
+DRAFT_IDENTITY_FIELDS = (
+    'schema_version', 'script_version', 'run_fingerprint', 'inputs', 'source_hashes',
+    'code_hashes', 'filters', 'model', 'prompts', 'response_schemas', 'output_processing_mode',
+)
+
+
+def draft_manifest_identity(manifest):
+    """Ignore resume timestamps/counters, while binding all extraction inputs."""
+    return {key: manifest.get(key) for key in DRAFT_IDENTITY_FIELDS}
+
+
+def canonical_call(record):
+    """A separate adapter view for legacy occurrence/quality helpers."""
+    return {**record, 'parsed_output': record['canonical_output'],
+            'validated_output': record['canonical_output']}
+
+
+def successful(record):
+    if not record or record.get('call_status') != 'success':
+        return False
+    if (record.get('api_response') or {}).get('status') != 'completed':
+        return False
+    validate_focus_record(record)
+    return record.get('canonical_output') == canonicalize(record['task'], record['parsed_output'], record['dynamic_input']['draft_extraction'], record.get('source_attributions'))
+
+
+def bind_output(record, job, schema):
+    """Preserve native output; reject malformed contracts without hiding them."""
+    record['output_processing_mode'] = 'schema_only_identified_patch'
+    record['canonical_output'] = None
+    record['draft_call_id'] = job['draft_call_id']
+    record['source_attributions'] = job['source_attributions']
+    record['review_assignment'] = job['review_assignment']
+    record['effective_prompt'] = job['effective_prompt']
+    if record['call_status'] != 'success':
+        return record
+    errors = sorted(Draft202012Validator(schema).iter_errors(record['parsed_output']), key=lambda e: str(e.path))
+    try:
+        if errors:
+            raise PatchContractError(str(errors[0]))
+        if (record.get('api_response') or {}).get('status') != 'completed':
+            raise PatchContractError('Provider response is not completed')
+        if job['task'] == 'ec':
+            labels = [r['prompt_label'] for r in record['parsed_output']['evidence_results']]
+            if labels != [r['prompt_label'] for r in job['evidence_records']]:
+                raise PatchContractError('Evidence labels missing, duplicated or reordered')
+        validate_focus_patch(job['task'], record['parsed_output'], job['review_assignment'])
+        record['canonical_output'] = canonicalize(job['task'], record['parsed_output'], job['dynamic_input']['draft_extraction'], job['source_attributions'])
+    except PatchContractError as exc:
+        record.update(call_status='invalid_output', output_valid=False, validation_error=str(exc))
+    return record
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--plan', type=Path, required=True)
+    parser.add_argument('--split', choices=('development', 'validation'), required=True)
+    parser.add_argument('--output-dir', type=Path)
+    parser.add_argument('--resume', action='store_true')
+    parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--max-new-calls', type=int)
+    parser.add_argument('--workers', type=int, default=2)
+    args = parser.parse_args()
+    if args.workers < 1 or (args.max_new_calls is not None and args.max_new_calls < 1):
+        parser.error('workers and max-new-calls must be positive')
+    if args.resume and args.dry_run:
+        parser.error('resume and dry-run are mutually exclusive')
+    load_dotenv(ROOT / '.env', override=False)
+    plan = read_json(args.plan)
+    for filename, expected in plan['baseline_files'].items():
+        if sha256_file(ROOT / filename) != expected:
+            raise InputValidationError(f'Frozen original changed: {filename}')
+    if args.split == 'validation':
+        freeze = plan.get('validation_freeze', {})
+        if freeze.get('validation_contents_reviewed_before_freeze') is not False:
+            raise InputValidationError('Validation requires a frozen candidate')
+        for filename, expected in freeze['candidate_files'].items():
+            if sha256_file(ROOT / filename) != expected:
+                raise InputValidationError(f'Frozen candidate changed: {filename}')
+    baseline = read_json(ROOT / plan['baseline_dir'] / 'claim_extraction_run_manifest.json')
+    lineage = baseline
+    if 'generation_input_manifest' not in baseline['inputs']:
+        lineage = read_json(ROOT / baseline['inputs']['source_run_dir'] / 'claim_extraction_run_manifest.json')
+    inputs = {k: str((ROOT / v).resolve()) for k, v in lineage['inputs'].items() if k in ('generation_cases', 'generated_disclosures', 'generation_input_manifest', 'generation_run_manifest')}
+    names = ('generation_cases', 'generated_disclosures', 'generation_input_manifest', 'generation_run_manifest')
+    source_hashes = {name: sha256_file(Path(inputs[name])) for name in names}
+    if any(source_hashes[n] != lineage['source_hashes'][n] for n in names):
+        raise InputValidationError('Original source hash mismatch')
+    review_tasks = plan.get('review_tasks', ['ec', 'dc'])
+    if not review_tasks or set(review_tasks) - {'ec', 'dc'}:
+        raise InputValidationError('Invalid review task selection')
+    selected_ids = [c['generation_case_id'] for c in plan['cases'] if c['split'] == args.split]
+    cases, disclosures, selection_counts = select_cases(
+        read_jsonl(Path(inputs['generation_cases'])), read_jsonl(Path(inputs['generated_disclosures'])),
+        case_ids=set(selected_ids))
+    by_id = {c['generation_case_id']: c for c in cases}
+    cases = [by_id[cid] for cid in selected_ids]
+    config_path = ROOT / plan['active_config']
+    config, prompts, prompt_paths, schemas, schema_paths = load_and_validate_configuration(config_path)
+    if config.get('output_validation', {}).get('mode') != 'schema_only':
+        raise InputValidationError('Native output preservation requires schema_only')
+    model_key, model, deployment, base_url, _ = resolve_model(config, model_key_override=None, dry_run=args.dry_run)
+    source_hashes['config'] = sha256_file(config_path)
+    definition_spec = config.get('operational_definition')
+    if definition_spec:
+        definition_path = (config_path.parent / definition_spec['file']).resolve()
+        definition_text = definition_path.read_text()
+        if (sha256_file(definition_path) != definition_spec['sha256']
+                or not all(text.startswith(definition_text) for text in prompts.values())):
+            raise InputValidationError('Review prompts do not share the frozen operational definition')
+        source_hashes['operational_definition'] = definition_spec['sha256']
+    code_files = [Path(__file__).resolve(), ROOT / 'script/evaluation/claim_extraction_patches.py', ROOT / 'script/evaluation/identified_claim_patches.py', ROOT / 'script/evaluation/claim_refinement_lineage.py', ROOT / 'script/evaluation/audit_identified_claim_extraction.py',
+                  ROOT / 'script/evaluation/generation_claims.py', ROOT / 'script/evaluation/run_generation_claim_extraction.py', ROOT / 'script/evaluation/focused_claim_review.py']
+    code_hashes = {str(p.relative_to(ROOT)): sha256_file(p) for p in code_files}
+    contract_hash = sha256_json(code_hashes)
+    draft_dir = ROOT / plan['draft_dir']
+    draft_manifest = read_json(draft_dir / 'claim_extraction_run_manifest.json')
+    if draft_manifest['run_status'] != 'complete':
+        raise InputValidationError('The preceding extraction stage must be complete')
+    source_hashes['draft_manifest'] = sha256_json(draft_manifest_identity(draft_manifest))
+    jobs_by_task = {}
+    for task, source_jobs in [('ec', build_ec_jobs(cases)), ('dc', build_dc_jobs(cases, disclosures))]:
+        if task not in review_tasks:
+            continue
+        source_hashes[f'{task}_prompt'] = sha256_file(prompt_paths[task])
+        source_hashes[f'{task}_response_schema'] = sha256_file(schema_paths[task])
+        parameters = merge_dicts(model.get('request_parameters') or {}, (model.get('task_request_parameters') or {}).get(task, {}))
+        source_hashes[f'draft_{task}_calls'] = sha256_file(draft_dir / f'{task}_extraction_calls.jsonl')
+        baseline_calls = {r['job_summary']['generation_case_id']: r for r in read_jsonl(ROOT / plan['baseline_dir'] / f'{task}_extraction_calls.jsonl')}
+        drafts = {r['job_summary']['generation_case_id']: r for r in read_jsonl(draft_dir / f'{task}_extraction_calls.jsonl')}
+        jobs_by_task[task] = {}
+        for job in source_jobs:
+            old = baseline_calls[job['generation_case_id']]
+            if job['dynamic_input'] != old['dynamic_input'] or deployment != old['deployment_name'] or parameters != old['request_parameters']:
+                raise InputValidationError('Source input or deployment/settings differ from baseline')
+            draft = drafts[job['generation_case_id']]
+            draft_payload = checked_draft(draft, job['dynamic_input'], deployment, parameters)
+            job['draft_call_id'] = draft['call_id']
+            job['source_attributions'] = {}
+            job['dynamic_input'] = {**job['dynamic_input'], 'draft_extraction': draft_payload, 'draft_claim_index': make_claim_index(task, draft_payload)}
+            job['review_assignment'] = make_focus(task, draft_payload, plan['focus_assignments'][task][job['generation_case_id']])
+            job['effective_prompt'] = effective_prompt(prompts[task], job['review_assignment'])
+            job['job_input_hash'] = sha256_json({'focus': job['review_assignment'], 'original': job['job_input_hash'], 'contract_hash': contract_hash, 'draft': draft_payload, 'draft_call_id': draft['call_id']})
+            ps, ss = config['prompts'][task], config['response_schemas'][task]
+            jobs_by_task[task][job['generation_case_id']] = add_call_identity(job,
+                prompt_version=ps['version'], prompt_sha256=prompt_hash(job['effective_prompt']), schema_version=ss['version'],
+                schema_sha256=ss['sha256'], model_key=model_key, model_id=model['model_id'],
+                model_version=model.get('model_version'), deployment_name=deployment, request_parameters=parameters)
+    jobs = [jobs_by_task[t][cid] for cid in selected_ids for t in review_tasks]
+    fingerprint = sha256_json({'source_hashes': source_hashes, 'code_hashes': code_hashes, 'jobs': [j['call_id'] for j in jobs]})
+    output_dir = args.output_dir or args.plan.parent / plan['run_directories'][args.split]
+    paths = output_paths(output_dir)
+    previous = prepare_output_directory(output_dir=output_dir, paths=paths, resume=args.resume)
+    if previous and (previous['run_fingerprint'] != fingerprint or previous['dry_run']):
+        raise InputValidationError('Cannot resume a changed or dry run')
+    manifest = {
+        'schema_version': 'generation_claim_extraction_run_manifest_v1',
+        'script_version': 'run_focused_claim_refinement_v1', 'run_id': output_dir.name,
+        'run_fingerprint': fingerprint, 'run_status': 'running', 'dry_run': args.dry_run,
+        'started_at_utc': previous['started_at_utc'] if previous else utc_now(),
+        'inputs': inputs, 'source_hashes': source_hashes, 'code_hashes': code_hashes,
+        'review_focus': plan.get('review_focus'),
+        'review_tasks': review_tasks,
+        'focus_assignments': plan['focus_assignments'],
+        'effective_prompt_policy': 'Per-job assignment appended to frozen base prompt; full effective text, hash and request-message hash retained in native records.',
+        'draft_run': {'directory': str(draft_dir.resolve()), 'manifest': str((draft_dir / 'claim_extraction_run_manifest.json').resolve()), 'identity_fields': list(DRAFT_IDENTITY_FIELDS), 'identity': draft_manifest_identity(draft_manifest)},
+        'filters': {'case_ids': selected_ids, 'only': ','.join(review_tasks)},
+        'model': {'model_key': model_key, 'model_id': model['model_id'], 'model_version': model.get('model_version'), 'deployment_name': deployment, 'provider': model['provider'], 'api_style': model['api_style'], 'request_parameters': model.get('request_parameters')},
+        'prompts': {t: {'path': str(prompt_paths[t].resolve()), **config['prompts'][t]} for t in ('ec', 'dc')},
+        'response_schemas': {t: {'path': str(schema_paths[t].resolve()), **config['response_schemas'][t]} for t in ('ec', 'dc')},
+        'planned_jobs': {t: len(selected_ids) if t in review_tasks else 0 for t in ('ec', 'dc')},
+        'output_processing_mode': 'schema_only_identified_patch', 'report_attribution_mode': 'draft_preserved',
+        'outputs': {k: str(v.resolve()) for k, v in paths.items()},
+        'comparison_condition': 'Identical original source and deployment/settings; the validated preceding extraction and focused sparse review are the treatment; report attribution is preserved from the draft.',
+    }
+    latest, all_records = load_latest_call_records(paths)
+    pending = [j for j in jobs if not successful(latest.get(j['call_id']))]
+    selected = pending[:args.max_new_calls] if args.max_new_calls else pending
+    manifest['invocation'] = {'resume_skips': len(jobs) - len(pending), 'new_calls_planned': 0 if args.dry_run else len(selected), 'workers': args.workers}
+    write_json(paths['manifest'], manifest)
+    run_start = time.monotonic()
+    client = None if args.dry_run or not selected else make_client(config=config, model=model, base_url=base_url)
+
+    def run(job):
+        label = job['task'] + ' ' + job['generation_case_id']
+        print(label + ' started', flush=True)
+        heartbeat = start_progress_heartbeat(label=label, interval_seconds=30, call_started=time.monotonic(), run_started=run_start)
+        try:
+            result = execute_job(job=job, client=client, deployment=deployment,
+                prompt_text=job['effective_prompt'], schema=schemas[job['task']],
+                schema_spec=config['response_schemas'][job['task']], model_key=model_key, model=model, config=config)
+            result = bind_output(result, job, schemas[job['task']])
+            print(label + ' ' + result['call_status'], flush=True)
+            return result
+        finally:
+            stop_progress_heartbeat(heartbeat)
+    try:
+        if not args.dry_run:
+            with ThreadPoolExecutor(max_workers=args.workers) as pool:
+                for future in as_completed([pool.submit(run, job) for job in selected]):
+                    result = future.result()
+                    append_jsonl(paths[f'{result["task"]}_calls'], result)
+                    latest[result['call_id']] = result
+                    all_records.append(result)
+    finally:
+        ec_jobs, dc_jobs = ([j for j in jobs if j['task'] == t] for t in ('ec', 'dc'))
+        accepted = {k: canonical_call(r) for k, r in latest.items() if successful(r)}
+        ec_rows = make_ec_occurrences(ec_jobs, accepted, use_parsed_output=True)
+        dc_rows = make_dc_occurrences(dc_jobs, accepted, use_parsed_output=True)
+        write_jsonl(paths['ec_occurrences'], ec_rows)
+        write_jsonl(paths['dc_occurrences'], dc_rows)
+        write_jsonl(paths['failures'], [r for r in all_records if r['call_status'] != 'success'])
+        for task in ('ec', 'dc'):
+            if not paths[f'{task}_calls'].exists(): write_jsonl(paths[f'{task}_calls'], [])
+        views = {k: canonical_call(r) if successful(r) else r for k, r in latest.items()}
+        quality = make_quality_summary(selection_counts=selection_counts, ec_jobs=ec_jobs, dc_jobs=dc_jobs,
+            latest_calls=views, all_call_records=all_records, ec_occurrences=ec_rows, dc_occurrences=dc_rows, dry_run=args.dry_run)
+        write_json(paths['quality'], quality)
+        manifest['quality_summary'] = quality
+        manifest['run_status'] = 'dry_run_complete' if args.dry_run else ('complete' if all(j['call_id'] in accepted for j in jobs) else 'incomplete')
+        if not args.dry_run and len(selected) < len(pending) and all(j['call_id'] in accepted for j in selected):
+            manifest['run_status'] = 'paused'
+        manifest['updated_at_utc'] = utc_now()
+        write_json(paths['manifest'], manifest)
+        print('Run status: ' + manifest['run_status'], flush=True)
+
+
+if __name__ == '__main__':
+    main()

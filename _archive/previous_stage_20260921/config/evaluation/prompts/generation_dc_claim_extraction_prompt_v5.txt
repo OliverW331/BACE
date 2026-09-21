@@ -1,0 +1,56 @@
+You extract source-faithful atomic disclosure claims.
+
+Process the entire generated disclosure, independently of retrieved evidence. Preserve its unsupported statements, errors and ambiguities as written. Do not fact-check, correct or strengthen its claims.
+
+## Operational definitions
+
+A claim is a substantive proposition asserted by the source about an identified or explicitly referenced entity, event, state, measurement, intention, classification or relationship. It includes its arguments and all qualifiers governing that assertion. A claim can be false, uncertain, prospective, or a statement that information is absent. Extraction does not decide truth or evidential support.
+
+An atomic claim expresses one independently asserted predicate–argument relationship. Different sentences can express the same claim; one sentence can assert several claims. Split independent predicates and distributive lists. Keep a joint total, comparison, condition, causal relationship or other irreducible relationship intact. Never turn a plan into its execution or derive an unstated fact.
+
+A claim is self-contained when its text retains the entity, referent and material qualifiers needed to interpret it without reading another extracted claim. Shared context belongs in EVERY affected claim, even when this repeats many words. An unresolved reference must remain recognisably unresolved in claim_text and be described in unresolved_context.
+
+## Procedure
+
+1. Read the whole permitted source context before extracting. Locate the speaker/entity, named objects and targets, governing headings, historical periods, report attribution, units, boundaries, modality and negation. Distinguish statement time, action time, measurement period, baseline and deadline. Do not substitute the task year for any of them.
+
+2. Identify the substantive assertions in each sentence, clause, bullet or table cell. Include reported classifications, intentions, uncertainties, explanations, explicit absence statements and assertions outside the task topic. Do not extract page numbers, document titles, section headings, GRI index navigation, column identifiers or processing notes as substantive claims. A classification of a company's issue or policy is substantive; a document's table-of-contents or index mapping is document structure.
+
+3. Expand references using the source BEFORE splitting. Replace the company’s pronouns with the applicable company, a subsidiary with that subsidiary, and “this target/calculation/policy” with its complete identifying description when the source provides it. A target identity includes its metric, covered scope, magnitude, baseline and deadline when needed to distinguish it. A calculation identity includes its period and measurement boundary. Do not shorten an identified object back to “the target”, “these targets”, “the calculation” or “the framework” in a child claim.
+
+4. Split independent assertions. An ordinary “and” does not create a collective relationship. If the source separately applies a predicate to each list member, output a claim for each member. Repeat the governing entity, object identity, period, scope, status, conditions and material modifiers in each child. Retain the strength of modifiers such as “particularly”, “at least”, “approximately”, “historically”, “expected”, “proposed” and “only”. Do not leave the qualifier solely in a sibling claim or source quote.
+
+5. Preserve relationships as well as the events they connect when the source explicitly asserts both. Do not extract hypothetical condition contents as actual events. Do not add a combined claim merely repeating a conjunction of the children. Repeated occurrences at different source locations may be kept; semantic deduplication is later.
+
+6. Handle uncertainty without supplying missing facts. If the source leaves an antecedent, period, category boundary or value assignment ambiguous, retain that original expression or association in claim_text and list the precise ambiguity in unresolved_context. Do not choose one reading and then disclaim it in the note. Do not broaden “this” into “some initiative”, turn “A/B” into “A or B”, or silently normalize damaged measurement units. Preserve absence statements with their stated evidence/document/year/entity scope; record alternative scope readings when the context does not decide them.
+
+7. Account for unusable or non-substantive source spans in unextracted_spans. Use document_structure for a heading/index/navigation fragment, extraction_metadata for a processing note, or missing_proposition for a fragment lacking an identifiable predicate/metric/relation. Copy its exact source quote and explain the missing information. A bare number against an unnamed column is not a complete measurement claim. By contrast, an identified emissions metric with a missing year IS a claim: retain the value and metric, and flag the missing year. Uncertainty alone must not remove an otherwise substantive assertion. Do not list every word excluded during paraphrasing: this field is for identifiable fragments that have no substantive claim representation.
+
+8. Check both directions before returning: every substantive source assertion has a claim, and every claim expresses only a source assertion. Read EACH claim in isolation. Resolve remaining “this/these/it/the target” from available antecedents; otherwise preserve and flag them. Check all children against the original qualifier set. Inspect every “and” or list: split independent relationships, retain genuinely joint ones. Check that uncertainty notes do not contradict a definite claim_text. Check excluded spans for a recoverable substantive assertion.
+
+## Examples
+
+- “The company adopted a policy and appointed a committee.” gives two claims about the named company. “The committee is expected to review and approve the budget.” gives separate expected-review and expected-approval claims, each naming the committee and budget.
+- “The programme improves energy and space efficiency.” gives one energy-efficiency improvement claim and one space-efficiency improvement claim. “Sites A and B jointly emitted 30 tonnes in 2020.” gives one joint-total claim, never 30 tonnes for each site.
+- “Scope 1 and 2 emissions together will fall by 50% by 2030 versus 2018.” gives one combined-scope target. It does not assert a 50% target for either scope separately.
+- “The company targeted a 40% reduction in water intake by 2030 versus 2020. Implementation of this target reached 15% in 2024.” The implementation claim repeats the 40%-water-intake target, 2030 deadline and 2020 baseline, as well as the 15% implementation status in 2024. Do not recast implementation as a measured 15% reduction unless the source says that.
+- “In its 2022 report, the company said it would introduce a policy in 2024 to identify and address risks.” Each child retains the 2022 report attribution and the planned 2024 policy: introduction, intended risk identification, intended risk response. None describes a plan first made in 2024 or an implemented policy.
+- “Historically, the company's operational-control boundary covered its offices and warehouses.” Both coverage claims name the company and retain “historically” and “operational-control”.
+- “The company monitored emissions while its policy was being developed.” Preserve the company's monitoring, its policy development during that monitoring, and the stated concurrency relationship. Do not replace ongoing development with intent.
+- “Scope 2, 80 tonnes; year column missing” supports a Scope 2 amount with an unresolved year. “unnamed_column_3 = 80” without a stated metric belongs in unextracted_spans with missing_proposition. “GRI 305-1, page 55” is document_structure. A note that extraction requires manual review is extraction_metadata.
+
+## Disclosure input roles
+
+Use disclosure_text, including its paragraphs, headings, table labels and explicit antecedents, to establish scope. Resolve company references and carry the applicable company into every child. Keep a subsidiary distinct from the parent. Preserve explicit report attribution when the disclosure gives it; do not invent a source report or attach “the disclosure says” to every claim.
+
+context_metadata supplies company_name and target_reporting_year solely for resolving explicit references whose meaning is clear. These fields cannot supply a missing measurement year or overwrite historical context. Preserve governing paragraph years when clearly applicable; record genuine competing readings rather than treating every un-repeated date as unknowable.
+
+## Output
+
+Return claims, no_claim_reason and unextracted_spans. Each claim contains claim_text, source_quotes, context_resolutions and unresolved_context. source_quotes uses exact passages from disclosure_text, including necessary antecedents or table headings. unresolved_context is [] only when no material dependency remains unresolved.
+
+context_resolutions records only resolutions using supplied metadata. surface_form must occur exactly in the disclosure, metadata_field must be a supplied field, and resolved_value must equal its complete value. Text-to-text resolutions need no metadata entry. Return [] when metadata is unused.
+
+Each unextracted_spans item contains source_quotes, reason and explanation. It accounts for identifiable source fragments excluded under the shared definition, not unsupported claims. Return no_claim_reason=null when claims are present. Use an allowed no_claim_reason only when claims is empty.
+
+Return only the required JSON Schema response.

@@ -1,0 +1,286 @@
+{
+  "schema_version": "esrs_s1_task_specs_v1",
+  "config_version": "esrs_s1_task_specs_draft_v1",
+  "status": "draft_for_retrieval_sanity_check",
+  "task_family": "ESRS S1 Own Workforce",
+  "project_context": "Transparent evidence-card RAG for AI-assisted CSRD / ESRS-style disclosure generation",
+  "target_reporting_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "design_notes": {
+    "purpose": "Define controlled ESRS S1 Own Workforce information needs using the same task-spec, deterministic query-bundle and shared-generation pipeline as E1. Requirement numbering follows the original 2023 ESRS Annex I.",
+    "not_runtime_generated": true,
+    "llm_used_to_create_runtime_values": false,
+    "freeze_scope": [],
+    "not_frozen_here": [
+      "task selection pending evidence and retrieval checks",
+      "exact retrieval query wording",
+      "exact generation prompt wording",
+      "final top_k",
+      "final retrieval ranking parameters",
+      "claim annotation guideline",
+      "source validation and document eligibility for the expanded corpus"
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "S1-1_workforce_policies",
+      "esrs_reference": "S1-1",
+      "task_name": "Policies related to own workforce",
+      "task_scope": "Retrieve evidence about adopted workforce policies, their covered populations, labour and human-rights commitments, non-discrimination, equal opportunities, and occupational safety policy.",
+      "task_selection_rationale": "Tests whether policy existence, applicability and commitments remain grounded. Its focus is policy content and coverage; action implementation belongs to S1-4.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 17-24. Policies related to own workforce.",
+      "evidence_availability_rationale": "Historical human-resources, human-rights and safety sections are plausible narrative sources. Supplier-only policies cannot establish coverage of own workforce.",
+      "retrieval_intent": "Find company-specific evidence about adopted workforce policies, their covered populations, labour and human-rights commitments, non-discrimination, equal opportunities, and occupational safety policy.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about policies related to own workforce using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Adopted workforce policies and their coverage",
+        "Labour and human-rights commitments",
+        "Non-discrimination, equal opportunities and diversity commitments",
+        "Occupational accident-prevention policy or management system",
+        "Policy implementation procedures when explicitly described"
+      ],
+      "query_facets": [
+        "own workforce policy",
+        "employees",
+        "labour rights",
+        "human rights policy",
+        "equal opportunities",
+        "non-discrimination",
+        "diversity and inclusion",
+        "forced labour",
+        "child labour",
+        "occupational safety policy",
+        "policy coverage",
+        "ILO",
+        "UN Guiding Principles"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "temporal",
+        "scope_boundary"
+      ],
+      "claim_risk_notes": [
+        "Do not transfer supplier-worker policies to own workforce.",
+        "A policy commitment is not demonstrated implementation or effectiveness.",
+        "Do not extend a policy covering employees to all non-employees or all countries.",
+        "Do not infer alignment with international instruments from a generic commitment.",
+        "Do not infer policy absence from missing retrieved evidence."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "S1-4_workforce_actions_resources",
+      "esrs_reference": "S1-4",
+      "task_name": "Actions, resources and effectiveness related to own workforce",
+      "task_scope": "Retrieve evidence about actions taken, underway or planned to address own-workforce impacts, risks and opportunities; resources, remediation, and evidenced methods or results for assessing effectiveness.",
+      "task_selection_rationale": "Tests implementation status, attribution, resources and claimed outcomes in workforce management. Routine training is included only when linked to a workforce impact, risk or opportunity.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 35-43. Actions, resources and effectiveness related to own workforce.",
+      "evidence_availability_rationale": "Historical workforce development, occupational health, inclusion, restructuring and employee-wellbeing narratives can provide action evidence. Numerical resource claims need a traceable table or passage.",
+      "retrieval_intent": "Find company-specific evidence about actions taken, underway or planned to address own-workforce impacts, risks and opportunities; resources, remediation, and evidenced methods or results for assessing effectiveness.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about actions, resources and effectiveness related to own workforce using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Workforce actions taken, underway or planned",
+        "Actions addressing negative impacts and delivering positive impacts",
+        "Remediation and support for affected workers",
+        "Resources allocated to workforce actions",
+        "Methods for tracking effectiveness and explicitly reported outcomes"
+      ],
+      "query_facets": [
+        "workforce action plan",
+        "employee development",
+        "reskilling",
+        "occupational safety measures",
+        "employee wellbeing",
+        "diversity initiatives",
+        "remediation",
+        "restructuring support",
+        "allocated resources",
+        "implementation status",
+        "effectiveness assessment",
+        "employee outcomes"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "temporal",
+        "causal",
+        "numeric",
+        "scope_boundary"
+      ],
+      "claim_risk_notes": [
+        "Do not turn planned activities into completed actions.",
+        "Do not infer causal improvement from participation or expenditure alone.",
+        "Do not assign a group-wide resource total to one workforce programme.",
+        "Do not treat a policy statement as evidence that an action occurred.",
+        "Separate workforce-development training from anti-corruption controls under G1-3."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "S1-5_workforce_targets",
+      "esrs_reference": "S1-5",
+      "task_name": "Targets related to own-workforce impacts, risks and opportunities",
+      "task_scope": "Retrieve evidence about time-bound and outcome-oriented workforce targets actually disclosed, including diversity or safety targets, baselines where stated, target dates, population boundaries, progress, and worker involvement in target setting.",
+      "task_selection_rationale": "Retains a substantive forward-looking workforce task. Both the 2023 standard and historical company reports support it; the selection is not based solely on symmetry with E1.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 44-47; ESRS 2 MDR-T paragraphs 78-81. Targets related to own-workforce impacts, risks and opportunities.",
+      "evidence_availability_rationale": "BASF 2023 discloses a 2030 target for women in leadership and a safety target. This establishes plausibility, not prevalence across the final sample. Targets require narrative or table evidence; the local numeric catalogue has no dedicated S1-5 entries.",
+      "retrieval_intent": "Find company-specific evidence about time-bound and outcome-oriented workforce targets actually disclosed, including diversity or safety targets, baselines where stated, target dates, population boundaries, progress, and worker involvement in target setting.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about targets related to own-workforce impacts, risks and opportunities using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Time-bound, outcome-oriented workforce targets",
+        "Diversity or occupational safety targets when disclosed",
+        "Target metric, target year and covered workforce population",
+        "Baseline values and years when disclosed",
+        "Progress and revisions to targets",
+        "Worker or representative involvement in target-setting and monitoring when disclosed"
+      ],
+      "query_facets": [
+        "workforce target",
+        "diversity target",
+        "women in leadership",
+        "health and safety target",
+        "time-bound target",
+        "target year",
+        "baseline",
+        "covered employee population",
+        "progress against target",
+        "target revision",
+        "worker representatives",
+        "outcome-oriented target"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "target",
+        "commitment",
+        "numeric",
+        "temporal",
+        "scope_boundary"
+      ],
+      "claim_risk_notes": [
+        "An ambition or policy commitment is not automatically a time-bound outcome target.",
+        "Preserve leadership-level and geographic boundaries.",
+        "Do not confuse a current result with a future target.",
+        "Do not invent baseline values, worker participation or external validation.",
+        "Separate target progress from causal effectiveness; preserve revisions to metric definitions."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "S1-14_health_safety_metrics",
+      "esrs_reference": "S1-14",
+      "task_name": "Health and safety metrics",
+      "task_scope": "Retrieve evidence about health and safety management-system coverage, work-related fatalities, recordable accidents and their rates, work-related ill health and days lost, with worker category, metric definition and reporting period preserved.",
+      "task_selection_rationale": "Provides a quantitative and boundary-sensitive social task: employees versus non-employees, fatalities versus incidents, and incompatible accident-rate definitions require careful evidence use.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 86-90; application requirements AR 80-95. Health and safety metrics.",
+      "evidence_availability_rationale": "The local catalogue contains 23 indicator definitions, with nonempty extracted cells in 18 of 25 development company-years. These cells require source checking. Historical safety tables and methodology narratives are candidate sources.",
+      "retrieval_intent": "Find company-specific evidence about health and safety management-system coverage, work-related fatalities, recordable accidents and their rates, work-related ill health and days lost, with worker category, metric definition and reporting period preserved.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about health and safety metrics using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "csv_metric",
+        "pdf_table_row",
+        "narrative"
+      ],
+      "expected_evidence_content": [
+        "Health and safety management-system coverage",
+        "Work-related fatalities by worker category",
+        "Recordable work-related accidents and their rates",
+        "Work-related ill health and days lost",
+        "Metric definitions, rate denominators and hours worked",
+        "Reporting year and workforce boundary"
+      ],
+      "query_facets": [
+        "health and safety management system coverage",
+        "employee fatalities",
+        "contractor fatalities",
+        "recordable work-related accidents",
+        "work-related ill health",
+        "days lost",
+        "lost time injury rate",
+        "total recordable injury rate",
+        "hours worked",
+        "rate denominator",
+        "employees and non-employees",
+        "reporting boundary"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "csv_metric"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row",
+          "narrative"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "descriptive"
+      ],
+      "claim_risk_notes": [
+        "Do not equate LTIFR, TRIR, high-severity injury rates and ESRS recordable-accident rates.",
+        "Preserve rates per 200,000 versus 1,000,000 hours; do not silently convert or relabel.",
+        "Distinguish own-workforce non-employees from other workers at sites.",
+        "Do not infer zero fatalities or accidents from missing information.",
+        "Certification at selected sites does not establish group-wide coverage.",
+        "Do not equate accident counts, fatal events and numbers of people killed."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    }
+  ]
+}

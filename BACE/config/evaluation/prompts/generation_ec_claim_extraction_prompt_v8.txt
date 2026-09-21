@@ -1,0 +1,77 @@
+Extract claims directly from the source. Do not judge truth, answer relevance or evidential support. Include unsupported, negative, uncertain, prospective and off-topic statements as written.
+
+DEFINITION
+A claim is one substantive proposition asserted by the source: who or what has a particular property, performs an action, reports a measurement, intends something, lacks information, or stands in an explicitly stated relationship. Its entity, modality, negation, conditions, time, scope, unit and referents are part of the proposition.
+
+An atomic claim contains one independently assessable assertion. Different predicates, distributive list members, years, regions or accounting bases normally give different claims. Keep a genuinely combined total/target, comparison, cause, sequence or condition together. Preserve both explicitly asserted events and their explicitly stated relationship. Do not invent consequences or duplicate a conjunction merely because its children were split.
+
+A self-contained claim can be interpreted without another extracted claim. Name the applicable entity from the document context. Resolve an identified plan, target, process, boundary or calculation in each child; retain defining dates, quantities, scopes and conditions. Keep explicit business-unit/legal-entity names literal. Do not expand a name into a parent from metadata. Use unresolved_context only for a genuine ambiguity or missing defining information, and keep claim_text consistent with that uncertainty.
+
+PROCEDURE
+1. Read the whole permitted context, then work source clause by source clause. Identify the actor, predicate, arguments and only the qualifiers that grammatically govern that assertion. Do not transfer a modifier from one coordinated action to another.
+2. Emit each substantive proposition as a complete sentence, resolving explicit antecedents and unambiguous implicit company context. Preserve material words such as historically, proposed, particularly, expected, at least, approximately and only. A purpose is not proof of its fulfilment.
+3. Separate statement/report time, action time, measurement period, baseline and deadline. Resolve a source-relative date from its actual report, never a task-year default. Use clear governing headings and paragraph context; do not mark an unambiguous reference unknown merely because it is not repeated locally.
+4. Split independent assertions without changing scope. A component of a combined target is NOT an identical standalone component target. Preserve its membership in the combined target. For table observations, retain one metric/value/basis/period per claim, even if a missing column meaning must be flagged. Keep the source's literal damaged unit in the claim and explain the damage.
+5. Preserve genuine uncertainty and the breadth of absence statements. A nearby positive Scope 1/year statement does not automatically narrow 'No absolute emissions value was provided in the evidence'. Retain the original absent object and flag competing metric/time readings. Do not replace an unresolved 'This' with an invented initiative.
+6. Record headings, GRI navigation, processing notes and predicate-free fragments in unextracted_spans. An identifiable metric with an unknown year remains a claim; an unnamed number with no metric does not. A company's issue classification is substantive. Recover complete assertions before a truncated ending, including intentions and anticipated announcements.
+7. Check every source assertion has representation, every claim is source-faithful, and every independent child retains its own entity, antecedent, modality and governing qualifiers. An uncertainty note cannot repair a definite unsupported claim. Do not calculate, normalize questionable data, merge independent observations or add facts.
+
+WORKED EXAMPLES OF COMPLETE CLAIMS
+These examples define the extraction convention. Extract only the real dynamic input, not these examples. The examples list claim_text; the actual response must also provide the required exact source_quotes and uncertainty fields. Repeat the full defining context as shown, even when repetitive.
+
+A. Report attribution versus intended action time, and grammatical actor
+Source context: Company A's 2020 annual report.
+Text: "Targets for 2021. In 2021 we will formulate a comprehensive group-wide environmental policy to identify and address our environmental impacts, as well as set out which reporting criteria and standards we will use."
+Claims:
+- According to Company A's 2020 annual report, Company A stated that it would formulate a comprehensive group-wide environmental policy in 2021.
+- According to Company A's 2020 annual report, the comprehensive group-wide environmental policy that Company A stated it would formulate in 2021 was intended to identify Company A's environmental impacts.
+- According to Company A's 2020 annual report, the comprehensive group-wide environmental policy that Company A stated it would formulate in 2021 was intended to address Company A's environmental impacts.
+- According to Company A's 2020 annual report, Company A stated that it would set out in 2021 which reporting criteria it would use.
+- According to Company A's 2020 annual report, Company A stated that it would set out in 2021 which reporting standards it would use.
+The year 2021 modifies the intended action. "Company A planned in 2021" would instead date the planning and is not an equivalent rendering. The policy is not the actor that sets the reporting criteria.
+
+B. A component's membership in a combined target, with every defining parameter
+Text: "Company A aims to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020. The Scope 2 component covers market-based and location-based emissions."
+Claims:
+- Company A aims to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020.
+- The Scope 2 component of Company A's target to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020 covers market-based emissions.
+- The Scope 2 component of Company A's target to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020 covers location-based emissions.
+Do not shorten the children to "Company A's Scope 2 target" or assert an independent 40% Scope 2 reduction target. If the source does not establish that a component belongs to a particular target, preserve that ambiguity rather than attaching guessed parameters.
+
+C. Target calculation and downstream reference
+Text: "During 2022, Company A progressed targets aligned with a 1.5-degree trajectory. The targets were calculated for the combined A and B business using a 2019 baseline and submitted for verification. These targets provide the basis for lower-carbon operations and green-energy use."
+Claims:
+- During 2022, Company A progressed targets aligned with a 1.5-degree trajectory.
+- Company A's targets progressed during 2022 and aligned with a 1.5-degree trajectory were calculated for the combined A and B business using a 2019 baseline.
+- Company A's targets progressed during 2022, aligned with a 1.5-degree trajectory and calculated for the combined A and B business using a 2019 baseline were submitted for verification.
+- Company A's targets progressed during 2022, aligned with a 1.5-degree trajectory and calculated for the combined A and B business using a 2019 baseline provide the basis for lower-carbon operations.
+- Company A's targets progressed during 2022, aligned with a 1.5-degree trajectory and calculated for the combined A and B business using a 2019 baseline provide the basis for green-energy use.
+
+D. Unresolved reference without an invented referent type
+Text: "This will provide immediate and long-term initiatives and processes for all business areas."
+Claims:
+- "This" will provide immediate initiatives for all business areas.
+- "This" will provide long-term initiatives for all business areas.
+- "This" will provide immediate processes for all business areas.
+- "This" will provide long-term processes for all business areas.
+Each claim records that the antecedent of "This" is absent. Do not replace it with "an initiative", "a plan" or an imagined referent. Add report attribution only if the real source supplies it.
+
+E. Complete scope inside each method claim
+Text: "Company A's greenhouse gas figures and life-cycle indicators covering Scope 1, Scope 2 and selected Scope 3 emissions are recorded and published under Standard X."
+Claims:
+- Company A's greenhouse gas figures covering Scope 1, Scope 2 and selected Scope 3 emissions are recorded under Standard X.
+- Company A's greenhouse gas figures covering Scope 1, Scope 2 and selected Scope 3 emissions are published under Standard X.
+- Company A's life-cycle indicators covering Scope 1, Scope 2 and selected Scope 3 emissions are recorded under Standard X.
+- Company A's life-cycle indicators covering Scope 1, Scope 2 and selected Scope 3 emissions are published under Standard X.
+
+F. A table classification is substantive; a navigation entry is not
+Text: "Company: A. Category = Environment; Issue = Our contribution to climate change; Goal = Cut carbon footprint by 10% by 2030."
+Claims include "Company A classifies its contribution to climate change as an environmental issue" and "Company A has a goal to cut its carbon footprint by 10% by 2030". Record an unspecified baseline where material. Conversely, "GRI 305-1: page 42" is document navigation and belongs in unextracted_spans.
+
+OUTPUT
+Every claim has claim_text, exact source_quotes and unresolved_context. Put all necessary context in claim_text, not only a quote or note. Use [] when there is no material unresolved dependency. Quote source passages locating both the assertion and its needed antecedents/headings. Repeated occurrences from different source locations are retained; deduplication is later. Return only the required JSON.
+
+EVIDENCE RULES
+Process each supplied Text independently of any disclosure. The full visible Evidence section can resolve explicit antecedents/footnotes, but each claim must be asserted by its assigned record. Do not fill a missing value/header merely from a similar record.
+Visible Source labels may identify the report/speaker and resolve this year; opaque IDs have no factual meaning. For every claim from an identified report, include a concise report attribution such as 'According to the 2020 report, ...', distinct from any event/measurement year. For a tracker record, directly retain its explicit company, reporting year, indicator, value and unit; do not add a report year or reinterpret a target percentage as achieved reduction.
+Return every supplied prompt_label in order with claims and unextracted_spans. Use claims=[] only when no substantive proposition can be recovered. Quotes must come from that record's Text; do not fabricate Text quotes for Source-label metadata. Classifications of company issues are claims even when written in table labels.

@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-16",
+  "status": "passed",
+  "kind": "offline_configuration_integration_check",
+  "model_calls": 0,
+  "real_retrieval_run": false,
+  "synthetic_company_years": 2,
+  "tasks_per_company_year": 12,
+  "synthetic_cases_checked": 24,
+  "checks": [
+    "Exact E1 top-level, design-note, task and evidence-rule field structure in S1/G1 specs",
+    "Both existing task-spec loaders accept all twelve tasks",
+    "E1 task records and rendered E1 query bundles unchanged",
+    "Every task has two or three explicit subqueries and all placeholders render",
+    "Shared generation instruction and evidence grouping work for every task",
+    "E1 generation cases unchanged when loaded through the combined task spec",
+    "Native external-evaluator adapter accepts all synthetic cases and verifies prompt/evidence hashes"
+  ],
+  "subquery_counts": {
+    "E1-1_transition_plan": 2,
+    "E1-3_actions_resources": 2,
+    "E1-4_targets": 2,
+    "E1-6_ghg_emissions": 3,
+    "G1-1_business_conduct_policies": 2,
+    "G1-2_supplier_relationships": 2,
+    "G1-3_anti_corruption_controls": 2,
+    "G1-4_corruption_bribery_incidents": 3,
+    "S1-14_health_safety_metrics": 3,
+    "S1-1_workforce_policies": 2,
+    "S1-4_workforce_actions_resources": 2,
+    "S1-5_workforce_targets": 2
+  },
+  "limits": [
+    "Does not establish source quality, retrieval relevance, disclosure quality or evaluator validity.",
+    "Task choices remain provisional pending evidence and retrieval checks."
+  ]
+}

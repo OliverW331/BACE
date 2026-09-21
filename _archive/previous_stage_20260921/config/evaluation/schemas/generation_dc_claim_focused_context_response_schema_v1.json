@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_dc_claim_focused_context_response_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "edits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "claim_text": {
+                  "type": "string"
+                },
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "context_resolutions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "surface_form": {
+                        "type": "string"
+                      },
+                      "resolved_value": {
+                        "type": "string"
+                      },
+                      "metadata_field": {
+                        "type": "string",
+                        "enum": [
+                          "company_name",
+                          "target_reporting_year"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "surface_form",
+                      "resolved_value",
+                      "metadata_field"
+                    ]
+                  }
+                },
+                "unresolved_context": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "claim_text",
+                "source_quotes",
+                "context_resolutions",
+                "unresolved_context"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 1
+          },
+          "reason": {
+            "type": "string"
+          },
+          "replaces": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "claim_id": {
+                  "type": "string"
+                },
+                "expected_claim_text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "claim_id",
+                "expected_claim_text"
+              ]
+            },
+            "maxItems": 1
+          }
+        },
+        "required": [
+          "replaces",
+          "claims",
+          "reason"
+        ]
+      }
+    },
+    "additions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim_text": {
+            "type": "string"
+          },
+          "source_quotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "context_resolutions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "surface_form": {
+                  "type": "string"
+                },
+                "resolved_value": {
+                  "type": "string"
+                },
+                "metadata_field": {
+                  "type": "string",
+                  "enum": [
+                    "company_name",
+                    "target_reporting_year"
+                  ]
+                }
+              },
+              "required": [
+                "surface_form",
+                "resolved_value",
+                "metadata_field"
+              ]
+            }
+          },
+          "unresolved_context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "claim_text",
+          "source_quotes",
+          "context_resolutions",
+          "unresolved_context"
+        ]
+      },
+      "maxItems": 0
+    },
+    "no_claim_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "no_evaluable_factual_proposition",
+        "insufficient_context_or_extraction_noise"
+      ]
+    },
+    "exclusion_update": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "edits",
+    "additions",
+    "exclusion_update",
+    "no_claim_reason"
+  ]
+}

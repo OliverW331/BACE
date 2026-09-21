@@ -1,0 +1,294 @@
+[
+  {
+    "source": "config/evaluation/configs/external_evaluation_config.json",
+    "destination": "config/evaluation/configs/external_evaluation_config.json",
+    "source_sha256": "5dfc3ea9de25503f36fae606d95d8c8aafd874796cc75d51071c84cf33cc6987"
+  },
+  {
+    "source": "config/evaluation/configs/generation_claim_atomicity_review_config_v2.json",
+    "destination": "config/evaluation/configs/generation_claim_atomicity_review_config_v2.json",
+    "source_sha256": "aca5effface93b850af28dff37e7e2d8a08d17c9132680d5e10e6c56e5167e2b"
+  },
+  {
+    "source": "config/evaluation/configs/generation_claim_candidate_selection_config.json",
+    "destination": "config/evaluation/configs/generation_claim_candidate_selection_config.json",
+    "source_sha256": "f9b2f8429756ef16b68d8b8804442bdc6c2ce5eb82b85149c4af2c486d27e3fa"
+  },
+  {
+    "source": "config/evaluation/configs/generation_claim_extraction_config_v8.json",
+    "destination": "config/evaluation/configs/generation_claim_extraction_config_v8.json",
+    "source_sha256": "5a397e4a187bf168293c9c9e34bbf7063b7d9d72a66333d4f238a0d90e16b806"
+  },
+  {
+    "source": "config/evaluation/configs/generation_claim_patch_review_config_v4.json",
+    "destination": "config/evaluation/configs/generation_claim_patch_review_config_v4.json",
+    "source_sha256": "bb38606e69589e29dbec91db00b74a7fbdcb3debcd98297395b9d004efe27212"
+  },
+  {
+    "source": "config/evaluation/configs/generation_claim_semantic_dedup_config.json",
+    "destination": "config/evaluation/configs/generation_claim_semantic_dedup_config.json",
+    "source_sha256": "c0f7ef2357b51c26a29385462cbf901a8413ead7598a136f30d4ae38daa7b9c3"
+  },
+  {
+    "source": "config/evaluation/configs/generation_claim_support_config.json",
+    "destination": "config/evaluation/configs/generation_claim_support_config.json",
+    "source_sha256": "7bd879bbca0c4ba08bdeb7aceb8db0dd69731fd189dd8f875c0de5d32ef5bb92"
+  },
+  {
+    "source": "config/evaluation/configs/generation_claim_unsupported_diagnosis_config.json",
+    "destination": "config/evaluation/configs/generation_claim_unsupported_diagnosis_config.json",
+    "source_sha256": "1a542a8943c26df412ae93df17baaadcadffeb45dfa9d47ee6f121eaebd6bda7"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_claim_definition_v2.txt",
+    "destination": "config/evaluation/prompts/generation_claim_definition_v2.txt",
+    "source_sha256": "ab7bb9937aca9b0237ab954c8f31021542a9d2062d3b5e974e30273b3e818acf"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_dc_claim_atomicity_review_prompt_v2.txt",
+    "destination": "config/evaluation/prompts/generation_dc_claim_atomicity_review_prompt_v2.txt",
+    "source_sha256": "e6d02cd6bd331287153b483816809f4e79ebb206494cdf32c34a1ee29f8f41d2"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_dc_claim_extraction_prompt_v8.txt",
+    "destination": "config/evaluation/prompts/generation_dc_claim_extraction_prompt_v8.txt",
+    "source_sha256": "9b09bd62e05a77e4182c2e070f34531561a5aa8be77eb10020c93a5d5cd92f0f"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_dc_claim_patch_review_prompt_v4.txt",
+    "destination": "config/evaluation/prompts/generation_dc_claim_patch_review_prompt_v4.txt",
+    "source_sha256": "1d51a196f1561a1e82fbb8a3c900f2c9af743293ca1097ace40f0dd9cc22ad87"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_ec_claim_atomicity_review_prompt_v2.txt",
+    "destination": "config/evaluation/prompts/generation_ec_claim_atomicity_review_prompt_v2.txt",
+    "source_sha256": "423fbf4624cdb2c999ac303837e4dd46d858d8a017a14c2a027d10922c71d9c6"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_ec_claim_extraction_prompt_v8.txt",
+    "destination": "config/evaluation/prompts/generation_ec_claim_extraction_prompt_v8.txt",
+    "source_sha256": "c16eb19e8f739e6f54d8169e844a84e06112813f7cb9f25ceccb7647f9084d22"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_ec_claim_patch_review_prompt_v4.txt",
+    "destination": "config/evaluation/prompts/generation_ec_claim_patch_review_prompt_v4.txt",
+    "source_sha256": "f1ec61f6416d4a30a32bda4a91371a8c68aa064417493d0373c66612d6185ba5"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_dc_claim_atomicity_review_response_schema_v1.json",
+    "destination": "config/evaluation/schemas/generation_dc_claim_atomicity_review_response_schema_v1.json",
+    "source_sha256": "59631481063ed67846d202f7646b11660d5368a60bc3b2123b0d3aa7a78c6b01"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_dc_claim_extraction_response_schema_v3.json",
+    "destination": "config/evaluation/schemas/generation_dc_claim_extraction_response_schema_v3.json",
+    "source_sha256": "eae6fee8b733ae9b94272fdba875a54a53e9f549a1525d03ff65f27523bc1621"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_dc_claim_patch_review_response_schema_v2.json",
+    "destination": "config/evaluation/schemas/generation_dc_claim_patch_review_response_schema_v2.json",
+    "source_sha256": "ffa91b17443e45e6f7177057dfd1d4f8c1f59fbd70daa46c00dba86f45587cf5"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_ec_claim_atomicity_review_response_schema_v1.json",
+    "destination": "config/evaluation/schemas/generation_ec_claim_atomicity_review_response_schema_v1.json",
+    "source_sha256": "181d1a2aeaf2adb3efa7254a8b0e4690c97a17dfaa4199b59aa679680d46ed0d"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_ec_claim_extraction_response_schema_v3.json",
+    "destination": "config/evaluation/schemas/generation_ec_claim_extraction_response_schema_v3.json",
+    "source_sha256": "a449d177529e986ae4ac49f6c96b4facb62f06ff0c78b0d742541c4f8905dc65"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_ec_claim_patch_review_response_schema_v2.json",
+    "destination": "config/evaluation/schemas/generation_ec_claim_patch_review_response_schema_v2.json",
+    "source_sha256": "3dedca659fa3d4584ac8ec3ef28f002348374b5d5c36b73ce6664e844168cb10"
+  },
+  {
+    "source": "config/prompts/generation_prompt_templates.json",
+    "destination": "config/prompts/generation_prompt_templates.json",
+    "source_sha256": "d4e3b13f739e23167e386a3f1c6bc856ee049a261ea87e868321e42adbfe4799"
+  },
+  {
+    "source": "config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json",
+    "destination": "config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json",
+    "source_sha256": "33def6804bfd8babcbc7c62944be31d4ca1a20a91731309044f7d0906f989aa5"
+  },
+  {
+    "source": "script/data_2_evidence/csv_2_evidence.py",
+    "destination": "script/data_2_evidence/csv_2_evidence.py",
+    "source_sha256": "1f118bf91e17278c50c653389174580e129693e0c1df2e4a09f23e5cbd3346fd"
+  },
+  {
+    "source": "script/data_2_evidence/pdf_2_evidence.py",
+    "destination": "script/data_2_evidence/pdf_2_evidence.py",
+    "source_sha256": "3c073984479091de485b0704cb5dac729a272043b78c659fd1567395627e5148"
+  },
+  {
+    "source": "script/evaluation/audit_identified_claim_extraction.py",
+    "destination": "script/evaluation/audit_identified_claim_extraction.py",
+    "source_sha256": "8f850f3f1de052408d61238734ba280d6fa2b6cb5f8527c5ce89bf7c53851951"
+  },
+  {
+    "source": "script/evaluation/audit_staged_claim_extraction.py",
+    "destination": "script/evaluation/audit_staged_claim_extraction.py",
+    "source_sha256": "5b095494c5810ffdbf9d6b177921a8162f388620240dc503001e666e6c236562"
+  },
+  {
+    "source": "script/evaluation/claim_extraction_patches.py",
+    "destination": "script/evaluation/claim_extraction_patches.py",
+    "source_sha256": "735d06534285624087b78f7996efe7a9da7c06e098188415d591e86ac8c1d07a"
+  },
+  {
+    "source": "script/evaluation/claim_refinement_lineage.py",
+    "destination": "script/evaluation/claim_refinement_lineage.py",
+    "source_sha256": "88c1684a4c92366cc1181fb1e70202818593779f79607f49f63252f92543fe6b"
+  },
+  {
+    "source": "script/evaluation/external_evaluation.py",
+    "destination": "script/evaluation/external_evaluation.py",
+    "source_sha256": "0b8c40593208829213ae00e9416be5fd9e34afacc3eb517ac9c572dd83f13bd3"
+  },
+  {
+    "source": "script/evaluation/generation_claims.py",
+    "destination": "script/evaluation/generation_claims.py",
+    "source_sha256": "861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d"
+  },
+  {
+    "source": "script/evaluation/identified_claim_patches.py",
+    "destination": "script/evaluation/identified_claim_patches.py",
+    "source_sha256": "a28f852657cb00fcd5816564e832c1ed5fa86c45f011bb7af50682e7f39c18a0"
+  },
+  {
+    "source": "script/evaluation/run_extraction_repair.py",
+    "destination": "script/evaluation/run_extraction_repair.py",
+    "source_sha256": "05f660f56c782ffc01261811cff8176c315b35d8f9afe693c6998ef48d83a82c"
+  },
+  {
+    "source": "script/evaluation/run_generation_claim_candidate_selection.py",
+    "destination": "script/evaluation/run_generation_claim_candidate_selection.py",
+    "source_sha256": "438a783bf1991920a5ffb4046c8c6b2c492827628236ac694bcd00568105e279"
+  },
+  {
+    "source": "script/evaluation/run_generation_claim_extraction.py",
+    "destination": "script/evaluation/run_generation_claim_extraction.py",
+    "source_sha256": "ccc7ec1dd69fb7a8e844889e867a769ec9067b8473ec25ce7278cca3fad1f1e3"
+  },
+  {
+    "source": "script/evaluation/run_generation_claim_semantic_dedup.py",
+    "destination": "script/evaluation/run_generation_claim_semantic_dedup.py",
+    "source_sha256": "2dc9a817c080364b201d6a2991d133c42a7c66ff062ecb233cb9ec3957623576"
+  },
+  {
+    "source": "script/evaluation/run_generation_claim_support_assessment.py",
+    "destination": "script/evaluation/run_generation_claim_support_assessment.py",
+    "source_sha256": "5807ced807e15ed970042b7fa5daeca5e70ba2b22d5cf346be8985f6d08b733f"
+  },
+  {
+    "source": "script/evaluation/run_generation_claim_unsupported_diagnosis.py",
+    "destination": "script/evaluation/run_generation_claim_unsupported_diagnosis.py",
+    "source_sha256": "be1047ee7743a0d705af4c42a08cfcbaa6adb321369206b130941b4543d8db29"
+  },
+  {
+    "source": "script/evaluation/run_ragas.py",
+    "destination": "script/evaluation/run_ragas.py",
+    "source_sha256": "b0289ccc19d4243131f0b9d1615354a49ab4c531d6d8944390d5a550435c8f98"
+  },
+  {
+    "source": "script/evaluation/run_ragchecker.py",
+    "destination": "script/evaluation/run_ragchecker.py",
+    "source_sha256": "86d9216874d0e40364fc14ca3dc742310b426c9c5eb3a6b7d3674d9774ac04ed"
+  },
+  {
+    "source": "script/evaluation/run_staged_claim_refinement.py",
+    "destination": "script/evaluation/run_staged_claim_refinement.py",
+    "source_sha256": "81388ba4b78f8af67380428f06697fafb7100b898565480a3bfd68024705243d"
+  },
+  {
+    "source": "script/generation/run_w2_generation.py",
+    "destination": "script/generation/run_w2_generation.py",
+    "source_sha256": "f8ccb32d3d3745d6ef9426d3d11c837cbbcc8ee17f8248f742545436058c5686"
+  },
+  {
+    "source": "script/human_validation/prepare_materials.py",
+    "destination": "script/human_validation/prepare_materials.py",
+    "source_sha256": "30b95913bc80c8e3256c0eeaf0370f6988c9135e7b37b8f6709256fd9f789fc8"
+  },
+  {
+    "source": "script/rag/build_w2_generation_inputs.py",
+    "destination": "script/rag/build_w2_generation_inputs.py",
+    "source_sha256": "d47fba057a85341083891de4eca6176a26864b6324984fc3c1cb744232411816"
+  },
+  {
+    "source": "script/rag/embed_evidence_cards.py",
+    "destination": "script/rag/embed_evidence_cards.py",
+    "source_sha256": "b466c036a65163ee801936829ec5d799438867a4b8b7ce29e4ea7779905ebeee"
+  },
+  {
+    "source": "script/rag/run_w2_retrieval_sanity_check.py",
+    "destination": "script/rag/run_w2_retrieval_sanity_check.py",
+    "source_sha256": "17ca8128e61bb86f8f99961213b5e1cfa36f2b0a1814460830229b42f45eaa77"
+  },
+  {
+    "source": "config/tasks/esrs_e1_s1_g1_task_specs.json",
+    "destination": "config/tasks.json",
+    "source_sha256": "e844ec29670ca0b871bd2a23665942020af574e27bb1ea86fd641294c98523f1"
+  },
+  {
+    "source": "config/prompts/retrieval_query_bundle_templates_e1_s1_g1_v1.json",
+    "destination": "config/queries.json",
+    "source_sha256": "530dde10d37fbc051892c0c0e4bacccdc87c5dfde86a3d5a020a06a8fee7115e"
+  },
+  {
+    "source": "script/evaluation/summarize_bace_comparison.py",
+    "destination": "script/evaluation/metrics.py",
+    "source_sha256": "818e149ac7de20300130e4eb74d272728f5c888f99981c8af9322522d3c7a5e3",
+    "reuse": "Copied index, ratio, bace_metrics and external_metrics functions without behavioral changes; removed pilot-specific paths."
+  },
+  {
+    "source": "config/evaluation/prompts/generation_claim_candidate_selection_prompt_v1.txt",
+    "destination": "config/evaluation/prompts/generation_claim_candidate_selection_prompt_v1.txt",
+    "source_sha256": "82ac020bf83280a66716eec93b7cd61b6e9b39fff2d37e9ad654e807dab63e08"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_claim_candidate_selection_response_schema_v1.json",
+    "destination": "config/evaluation/schemas/generation_claim_candidate_selection_response_schema_v1.json",
+    "source_sha256": "6439ba6f454cf2d33f66ce2e505448b53b8dee4bfcb13f33976c0072b6ba2aa5"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_claim_semantic_dedup_prompt_v1.txt",
+    "destination": "config/evaluation/prompts/generation_claim_semantic_dedup_prompt_v1.txt",
+    "source_sha256": "b8cf89420645eebbd2b33da73af33b5f736f71ad46e212a520d67eafcf7c886e"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_claim_semantic_dedup_response_schema_v1.json",
+    "destination": "config/evaluation/schemas/generation_claim_semantic_dedup_response_schema_v1.json",
+    "source_sha256": "d88d88577996dde1aeabc2da5e83a816c381085b6cb9c21d9c1ea0f557686201"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_claim_support_prompt_v1.txt",
+    "destination": "config/evaluation/prompts/generation_claim_support_prompt_v1.txt",
+    "source_sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_claim_support_response_schema_v1.json",
+    "destination": "config/evaluation/schemas/generation_claim_support_response_schema_v1.json",
+    "source_sha256": "a3b455f8d7bbd9fba4231b04d8494038a3dfb582dbe9ac76dd135e54a0ecb930"
+  },
+  {
+    "source": "config/evaluation/prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt",
+    "destination": "config/evaluation/prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt",
+    "source_sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8"
+  },
+  {
+    "source": "config/evaluation/schemas/generation_claim_unsupported_diagnosis_response_schema_v1.json",
+    "destination": "config/evaluation/schemas/generation_claim_unsupported_diagnosis_response_schema_v1.json",
+    "source_sha256": "0f65691949117c2dba149becef600450eeec775ff33af319cd1d7cee89d65a27"
+  },
+  {
+    "source": "script/evaluation/summarize_bace_comparison.py",
+    "destination": "script/evaluation/lineage_audit.py",
+    "source_sha256": "818e149ac7de20300130e4eb74d272728f5c888f99981c8af9322522d3c7a5e3",
+    "reuse": "Copied audit_extraction with local common file helpers; retained native replay and draft linkage checks."
+  }
+]

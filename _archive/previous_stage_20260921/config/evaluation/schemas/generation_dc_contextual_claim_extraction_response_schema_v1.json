@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_dc_contextual_claim_extraction_response_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "claim_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "context": {
+            "type": "string"
+          },
+          "stem": {
+            "type": "string"
+          },
+          "source_quotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "unresolved_context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "completion": {
+                  "type": "string"
+                },
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "unresolved_context": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "completion",
+                "source_quotes",
+                "unresolved_context"
+              ]
+            }
+          }
+        },
+        "required": [
+          "context",
+          "stem",
+          "source_quotes",
+          "unresolved_context",
+          "claims"
+        ]
+      }
+    },
+    "no_claim_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "no_evaluable_factual_proposition",
+        "insufficient_context_or_extraction_noise"
+      ]
+    },
+    "unextracted_spans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "source_quotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string",
+            "enum": [
+              "document_structure",
+              "extraction_metadata",
+              "missing_proposition"
+            ]
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_quotes",
+          "reason",
+          "explanation"
+        ]
+      }
+    }
+  },
+  "required": [
+    "claim_groups",
+    "no_claim_reason",
+    "unextracted_spans"
+  ]
+}

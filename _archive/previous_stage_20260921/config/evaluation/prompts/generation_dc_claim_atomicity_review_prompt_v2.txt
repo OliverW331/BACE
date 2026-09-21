@@ -1,0 +1,50 @@
+BACE OPERATIONAL DEFINITION
+A claim is a substantive proposition that the source asserts about an entity, action, state, measurement, intention, classification, absence or relationship. Preserve assertions even when false, unsupported, negative, uncertain, prospective or off-topic. Extraction does not judge their truth or support.
+
+ADMISSION: The source must identify what is being asserted, not merely display a string or number. A company name, year and value without a named attribute/metric do not form a claim. "The table records 96.3" and "the report contains 1.7%" are descriptions of source presentation, not substitutes for the missing proposition. An uncertainty note cannot make them substantive. Exclude such fragments as missing_proposition. This does not exclude a source's actual assertion that it did not disclose a value, lacked data or omitted a metric.
+
+Missing qualifiers differ from a missing predicate. A source assertion "Company A emitted 12 tonnes CO2e" remains a claim with an unknown period. A row "Company A; 2020=12; unnamed_column=4%" lacks the metric and must remain excluded. A row label beside several unlabelled numerical columns does not establish which column is an emissions level, reduction, share, baseline or comparator. Do not infer a column role or percentage denominator from a neighbouring labelled column. Retain separately recoverable, explicitly labelled measurements in the same row.
+
+ATOMICITY: An atomic claim has one independently assessable assertion with all its governing arguments and qualifiers. Separate independent predicates, explicitly identified measurements/years/accounting bases, and clearly distributive objects. Preserve the same subject and object population in every child. Coordinated adjectives or noun modifiers that restrict a population are part of its identity, not permission to create different populations. Do not form a Cartesian product of coordinated categories. A combined target/total, collective relationship, comparison, cause, simultaneous effect or condition is itself a relationship: retain it with its full arguments. Retain explicitly stated underlying facts too; never calculate new values or infer unasserted consequences.
+
+FIDELITY: Each claim must independently retain the applicable entity, modality, negation, period, boundary, unit and material conditions. Resolve a target/plan/process/calculation reference with its full material identity, including known magnitude, scope, baseline and deadline. Do not rely on sibling claims or source_quotes to supply this identity. Bind each action to its grammatical actor; bind each modifier only to the predicates it governs. Report/statement time, planned action time and measurement time are distinct. Use only supplied context. If a reference remains genuinely ambiguous, preserve the original breadth and expression with an uncertainty note, never a guessed reading that the note retracts.
+
+Proposition status is independent of layout. A substantive achievement heading is admissible. Bare titles, taxonomy labels, GRI navigation, processing notes and unrecoverable fragments belong in exclusions. Source_quotes must quote text actually supplied; they locate assertions and context but do not replace context in claim_text.
+
+TASK: CONSERVATIVE SPLITTING OF ALREADY ADMITTED CLAIMS
+The supplied draft has undergone source admission and context repair. Your only task is to split an existing compound assertion into independently assessable source assertions while preserving all its meaning. Do not perform a new extraction or coverage pass. The schema forbids free additions, deletion, merging different parent claims and changing exclusions. An empty source unit must stay empty.
+
+For each existing claim:
+1. Identify its main asserted predicate(s), governing arguments, population restrictions and context. Decide from the original source whether it actually contains independent assertions. Do not split only because you see and, a comma or a long list.
+2. Split coordinated actions or clearly distributed independently asserted outcomes. Preserve a joint/combined target, category definition or restricted population as a unit. Never distribute a shared numeric target to each scope or create a cross-product of modifiers and categories. If distribution is uncertain, leave the claim unchanged.
+3. Every child is a complete claim. Repeat the parent's report attribution, named actor/business unit, plan/target identity, baseline/deadline, accounting boundary, modality, negation and material conditions wherever they govern that child. Keep source-relative/action dates distinct. Do not shorten target identity to the target or the pathway. Preserve applicable unresolved_context in each child; do not resolve a missing antecedent by guessing.
+4. Preserve explicitly stated relationships. For a parent asserting a comparison or simultaneous capability, retain the relationship alongside its explicitly given underlying facts. Do not introduce calculated values or implied consequences.
+5. Check that the children together neither lose a parent assertion nor broaden any argument. If no valid split is needed, return no edit for that entry.
+
+EXAMPLES
+"According to A's2020 report, its vision inspires and motivates it to improve healthcare and quality of life for patients and families."
+The four independent assertions concern inspiring healthcare improvement, motivating healthcare improvement, inspiring quality-of-life improvement and motivating quality-of-life improvement. Every child retains the2020 report, company vision and patients/families.
+
+"According to A's2020 report, it develops treatments for patients with life-threatening and debilitating diseases."
+Keep unchanged: the disease adjectives restrict the same patient population. Splitting into two disease populations would expand the assertion.
+
+"The initiative confirmed Company's target to reduce combined absolute Scope1 andScope2 plant emissions by40% by2035 against2020 and its target to reduce Scope3 use-phase emissions per vehicle-kilometre by30% by2035 against2020."
+Split into two confirmations, each naming the full specific target. Retain the combinedScope1/2 identity; do not create separate40% targets forScope1 andScope2.
+
+"Scope1 comprises direct energy- and process-related emissions from production and energy generation."
+Keep unchanged: do not invent four energy/process by production/generation combinations.
+
+"According to A's2020 report, its2013 environmental guidelines require products that are particularly environmentally friendly and energy-efficient within their market segments."
+Split the two requirements. Each child retains the2013 guideline identity, report attribution, relevant quality qualification and market-segment scope.
+
+"Company's greenhouse-gas figures and life-cycle indicators are recorded and published under Protocol P, coveringScope1,Scope2 and selectedScope3 emissions."
+Use four type/action statements; keep the complete coveringScope1/Scope2/selectedScope3 qualifier with each. Do not split or weaken that governing coverage qualifier.
+
+"Company's carbon intensity declined from1.4 units in2017 to1.1 units in2020."
+Keep the comparison and the two explicitly stated year/value observations. Do not calculate the percentage decline.
+
+OUTPUT
+Each edit addresses exactly one original claim_id with its exact expected_claim_text and supplies at least two complete children. Copy IDs/text from draft_claim_index. Unmentioned entries remain byte-for-byte unchanged. additions must be []; exclusion_update must be null. Quotes must come from the supplied source. Return schema-conforming JSON only.
+
+DC SOURCE ROLES
+Use the complete disclosure and its own headings, tables and antecedents. Preserve its unsupported assertions and factual errors; no retrieved evidence or reference answer is supplied. Resolve unambiguous corporate context while keeping explicit business-unit/legal-entity names literal. Metadata cannot create a missing measurement date. context_resolutions is [] unless supplied metadata is actually used; then record exact surface_form, metadata_field and resolved_value. Set no_claim_reason=null if any final claims remain.

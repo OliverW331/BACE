@@ -1,0 +1,40 @@
+BACE OPERATIONAL DEFINITION
+A claim is a substantive proposition asserted by the source about an entity, action, state, measurement, intention, classification, absence or relationship. Extract the source's assertion even when false, unsupported, negative, uncertain, prospective or off-topic. Do not judge truth or evidence support.
+
+An atomic claim has one independently assessable assertion, including its governing arguments and qualifiers. Two independent predicates, measurements, years, accounting bases or distributive objects require separate claims. A joint target/total, collective institutional relationship, comparison, cause, sequence or condition is one relationship and must not be broken into statements the source does not entail. Retain separately asserted underlying facts as well as an explicitly asserted relationship. Never derive new numbers or consequences.
+
+A source-faithful, self-contained claim retains its applicable entity, modality, negation, period, boundary, unit and conditions. Resolve an explicit target, plan, process or calculation reference with its full material identity, including known magnitude, scope, baseline and deadline, so a sibling claim is not needed. Source/report time is distinct from intended action time and measurement time. Use only supplied context. If a referent or qualifier is genuinely missing or ambiguous, preserve the source's breadth/literal wording and record the uncertainty; never assert a guess that the uncertainty note retracts.
+
+Proposition status is independent of page layout. A substantive achievement in a heading is still a claim. Bare section titles, taxonomy column labels, GRI navigation, processing notes and numbers without any identifiable metric are not corporate propositions; record them in exclusions. Identifiable measurements with unknown column/year mappings remain claims with explicit uncertainty. Source quotations locate the assertion and its needed context; they do not replace context in claim_text.
+
+PASS: SOURCE COVERAGE AND CONTEXT FIDELITY
+Work from the original source, not from the draft's assumptions. This pass repairs omissions, semantic distortions and incomplete/incorrect context. Keep the existing segmentation of faithful compound assertions; a later pass handles atomicity. Do not merge faithful draft entries or split them merely for granularity here.
+
+1. Read every source clause and substantive table entry. Locate its representation in the draft; add missing propositions, including substantive headings. Preserve intentions, negative/absence assertions and source errors. Recover complete assertions before truncated endings.
+2. Inspect every draft claim without relying on a sibling. Identify its actor and exact referenced target/plan/process/calculation/boundary from all permitted context. Repeat all defining parameters and governing qualifiers in that claim, even when verbose. Report attribution alone does not identify a measurement actor or operational boundary.
+3. Resolve pronouns and short references only where the source supports one reading. Do not replace an unresolved This with an invented initiative. Do not change a named subsidiary/business unit into a parent from metadata. Do not leave an unambiguous corporate actor as the reporting company.
+4. Preserve statement/action/measurement dates separately, local modifier scope, and commitment strength. Will do is not has done; an inventory intended to identify hotspots does not establish actual use. Do not transfer continue or as appropriate across predicates that they do not govern.
+5. Read negative assertions independently for their scope: a nearby 2019 Scope 1 measurement does not make an ensuing No base year or No absolute emissions value statement exclusively about that measurement. Keep its breadth unless grammar or an explicit reference establishes the restriction, and flag competing readings. Preserve a governing report period when explicit; report publication year alone is not a measurement date.
+
+COMPLETE CONTEXT EXAMPLES
+Source: "Company A targets a 40% reduction in combined absolute Scope 1 and Scope 2 plant emissions by 2035 against 2020. The Scope 2 component covers market- and location-based emissions."
+A child must say "The Scope 2 component of Company A's target to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 against 2020 covers market-based emissions." It must not say Company A's 40% Scope 2 target or omit the joint target's parameters. The location-based child needs the same full identity.
+
+Source: "Targets aligned with 1.5 degrees were calculated for the combined A and B business using a 2019 baseline and submitted for verification. These targets provide a basis for lower-carbon operations."
+The submission and basis claims must both identify the 1.5-degree-aligned targets calculated for the combined A and B business using a 2019 baseline. Do not reduce their identity to the targets or Company A's targets. A dependent target-percentage metric needs this same identity, without guessing what the percentage means.
+
+Source: "In our 2020 report: In 2021 we will formulate a policy to identify impacts and set out which reporting criteria we will use."
+Preserve the 2020 report and intended 2021 action, not planned in 2021. Identify the grammatical actor of each action independently; the company sets its criteria unless the source assigns that action to the policy.
+
+Source: "In 2021 Scope 1 fell 5%. No absolute emissions value or base year was provided in the evidence."
+Retain "No absolute emissions value was provided in Company A's evidence" and "No base year was provided in Company A's evidence", with the competing broad versus Scope-1-specific reading noted. Do not silently restrict either absence to 2021 Scope 1.
+
+Before returning, re-read each proposed replacement/addition against its source and the entire final inventory for omissions. Preserve correct existing text. Do not correct a data inconsistency with external knowledge.
+
+EDIT OUTPUT CONTRACT
+The untrusted draft_extraction contains the current claims and exclusions. draft_claim_index gives an immutable claim_id beside each exact original claim_text. Return only necessary edits. For each replaces entry, copy that ID and its exact text as expected_claim_text. Both must match the same original entry. Do not count positions or invent IDs. Unmentioned claims are preserved exactly. Use additions for omitted propositions; an empty replacement deletes the addressed claim. Each replacement/addition is a complete flat claim with the required source_quotes and unresolved_context (and context_resolutions for DC).
+
+exclusion_update=null preserves existing exclusions. To change them, supply a complete replacement unextracted_spans list and a source-grounded reason. An empty list explicitly removes all exclusions; do not clear unchanged explanations. A recovered substantive assertion must no longer be excluded. Return schema-conforming JSON only. Keep repeated source occurrences separate; semantic deduplication is later.
+
+DC SOURCE ROLES
+Use the complete disclosure and its own headings, tables and antecedents. Preserve its unsupported assertions and factual errors; no retrieved evidence or reference answer is supplied. Resolve unambiguous corporate context while keeping explicit business-unit/legal-entity names literal. Metadata cannot create a missing measurement date. context_resolutions is [] unless supplied metadata is actually used; then record exact surface_form, metadata_field and resolved_value. Set no_claim_reason=null if any final claims remain.

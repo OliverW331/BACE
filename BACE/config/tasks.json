@@ -1,0 +1,826 @@
+{
+  "schema_version": "esrs_task_specs_v1",
+  "config_version": "esrs_e1_s1_g1_bace_v1",
+  "status": "frozen_bace_v1",
+  "task_family": "ESRS E1 Climate Change; S1 Own Workforce; G1 Business Conduct",
+  "project_context": "Transparent evidence-card RAG for AI-assisted CSRD / ESRS-style disclosure generation",
+  "target_reporting_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "design_notes": {
+    "purpose": "Run the twelve 2023-edition ESRS tasks as independent company-year-task cases through the existing W2 retrieval, shared generation and evaluation pipeline. E1 task records are copied unchanged; S1/G1 task selection remains provisional.",
+    "not_runtime_generated": true,
+    "llm_used_to_create_runtime_values": false,
+    "freeze_scope": [],
+    "not_frozen_here": [
+      "expanded task selection and evidence validation",
+      "exact retrieval query wording",
+      "exact generation prompt wording",
+      "final top_k",
+      "final retrieval ranking parameters",
+      "claim annotation guideline"
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "E1-1_transition_plan",
+      "esrs_reference": "E1-1",
+      "task_name": "Transition plan for climate change mitigation",
+      "task_scope": "Retrieve evidence about the existence, content, implementation status, targets, actions, investments, and alignment claims of the company's climate transition plan.",
+      "task_selection_rationale": "E1-1 is included because it tests strategic narrative grounding and high-risk overclaiming around transition-plan existence, implementation status, decarbonisation levers, investment support, and 1.5C or Paris-alignment claims.",
+      "official_requirement_basis": "ESRS E1-1 concerns the undertaking's transition plan for climate change mitigation, including compatibility with the transition to a sustainable economy and limiting global warming to 1.5C where applicable.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through PDF narrative cards describing climate strategy, transition plans, decarbonisation roadmaps, actions, targets, governance, and investments. PDF table-row evidence may support action or investment details when available.",
+      "retrieval_intent": "Find company-specific evidence about climate transition plans, decarbonisation strategy, transition roadmap, climate targets, actions, governance, investments, resources, and implementation status.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about the company's transition plan using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "transition plan",
+        "climate transition strategy",
+        "decarbonisation roadmap",
+        "decarbonisation levers",
+        "climate targets linked to the transition plan",
+        "actions supporting the transition plan",
+        "resources, investments, CapEx, or OpEx linked to transition actions",
+        "implementation status",
+        "1.5C, Paris-alignment, or science-based alignment claims only when explicitly evidenced"
+      ],
+      "query_facets": [
+        "transition plan",
+        "climate transition",
+        "decarbonisation",
+        "decarbonization",
+        "roadmap",
+        "1.5C",
+        "1.5°C",
+        "Paris alignment",
+        "net zero",
+        "climate strategy",
+        "investment",
+        "CapEx",
+        "OpEx",
+        "governance",
+        "implementation"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "temporal",
+        "target",
+        "commitment",
+        "normative_or_evaluative"
+      ],
+      "claim_risk_notes": [
+        "over-claiming that a transition plan exists",
+        "unsupported 1.5C or Paris-alignment claim",
+        "planned versus implemented confusion",
+        "unsupported investment or resource claim",
+        "overly positive framing of transition-plan credibility"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "E1-3_actions_resources",
+      "esrs_reference": "E1-3",
+      "task_name": "Actions and resources in relation to climate policies",
+      "task_scope": "Retrieve evidence about climate actions, mitigation or adaptation measures, resources, investments, implementation status, and achieved or expected outcomes.",
+      "task_selection_rationale": "E1-3 is included because it tests whether action-oriented disclosures are grounded in evidence about actual or planned measures, resources, implementation status, and claimed outcomes.",
+      "official_requirement_basis": "ESRS E1-3 concerns actions and resources in relation to climate change policies, including key actions taken or planned and resources allocated to their implementation.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through PDF narrative cards describing climate actions, energy-efficiency measures, renewable-energy procurement, operational changes, resource allocation, and action outcomes. PDF table-row cards may support action, investment, CapEx, OpEx, or performance tables when available.",
+      "retrieval_intent": "Find company-specific evidence about climate actions, mitigation measures, adaptation actions, resources, CapEx, OpEx, investments, implementation status, achieved outcomes, and expected or achieved emission reductions.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about climate actions and resources using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "climate actions",
+        "mitigation measures",
+        "adaptation actions",
+        "energy efficiency initiatives",
+        "renewable energy procurement",
+        "resources allocated to climate actions",
+        "CapEx or OpEx",
+        "investments",
+        "implementation status",
+        "achieved or expected greenhouse gas emission reductions"
+      ],
+      "query_facets": [
+        "climate action",
+        "mitigation",
+        "adaptation",
+        "energy efficiency",
+        "renewable energy",
+        "resources",
+        "CapEx",
+        "OpEx",
+        "investment",
+        "implementation",
+        "emission reduction",
+        "GHG reduction"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "causal",
+        "temporal",
+        "numeric",
+        "commitment"
+      ],
+      "claim_risk_notes": [
+        "unsupported causal claims about actions causing emission reductions",
+        "planned versus completed action confusion",
+        "exaggerated scale of action",
+        "unsupported achieved or expected reduction claim",
+        "unsupported resource or investment claim"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "E1-4_targets",
+      "esrs_reference": "E1-4",
+      "task_name": "Climate-related targets",
+      "task_scope": "Retrieve evidence about climate targets, baseline year, target year, covered scopes, reduction type, target boundary, progress, and validation claims.",
+      "task_selection_rationale": "E1-4 is included because it tests target-specific grounding, including baseline years, target years, covered scopes, target type, progress claims, and unsupported validation or science-based target claims.",
+      "official_requirement_basis": "ESRS E1-4 concerns targets related to climate change mitigation and adaptation, including target characteristics, baseline values, target periods, scope coverage, and progress where disclosed.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through PDF narrative cards, PDF table-row cards, and CSV metric cards containing target descriptions, baseline values, emissions metrics, progress indicators, and related climate performance information.",
+      "retrieval_intent": "Find company-specific evidence about climate targets, greenhouse gas reduction targets, baseline years, target years, covered scopes, target type, target progress, and external validation if explicitly evidenced.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about climate-related targets using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row",
+        "csv_metric"
+      ],
+      "expected_evidence_content": [
+        "climate targets",
+        "greenhouse gas reduction targets",
+        "baseline year",
+        "target year",
+        "covered scopes",
+        "absolute reduction target",
+        "intensity reduction target",
+        "target boundary",
+        "target progress",
+        "SBTi or external validation only when explicitly evidenced"
+      ],
+      "query_facets": [
+        "target",
+        "climate target",
+        "GHG reduction target",
+        "greenhouse gas reduction target",
+        "baseline year",
+        "target year",
+        "Scope 1",
+        "Scope 2",
+        "Scope 3",
+        "absolute reduction",
+        "intensity reduction",
+        "progress",
+        "SBTi",
+        "validated target",
+        "science-based target"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row",
+          "csv_metric"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "target",
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "normative_or_evaluative"
+      ],
+      "claim_risk_notes": [
+        "target year and reporting year confusion",
+        "missing or incorrect baseline year",
+        "unsupported target progress claim",
+        "unsupported SBTi, science-based, or external validation claim",
+        "unclear scope or boundary coverage"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "E1-6_ghg_emissions",
+      "esrs_reference": "E1-6",
+      "task_name": "Gross Scope 1, Scope 2, Scope 3 and total GHG emissions",
+      "task_scope": "Retrieve evidence about Scope 1, Scope 2, Scope 3, total GHG emissions, units, reporting year, methodology, and reporting boundary.",
+      "task_selection_rationale": "E1-6 is included because it tests numeric, temporal, unit, and scope-boundary grounding across structured CSV metric evidence, PDF table-row evidence, and narrative methodology evidence.",
+      "official_requirement_basis": "ESRS E1-6 concerns gross Scope 1, Scope 2, Scope 3 and total greenhouse gas emissions.",
+      "evidence_availability_rationale": "The evidence-card corpus can plausibly support this task through CSV metric cards containing structured emissions indicators, PDF table-row cards containing emissions tables, and PDF narrative cards describing methodology, boundary, and Scope 2 calculation approaches.",
+      "retrieval_intent": "Find company-specific numeric and methodological evidence for gross Scope 1, Scope 2, Scope 3 and total GHG emissions, including units, reporting boundary, and Scope 2 method where available.",
+      "generation_intent": "Draft an ESRS E1-style disclosure paragraph about GHG emissions using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "csv_metric",
+        "pdf_table_row",
+        "narrative"
+      ],
+      "expected_evidence_content": [
+        "Scope 1 greenhouse gas emissions",
+        "Scope 2 greenhouse gas emissions",
+        "Scope 3 greenhouse gas emissions",
+        "total GHG emissions",
+        "tCO2e or CO2e unit",
+        "reporting year",
+        "market-based or location-based Scope 2 method",
+        "organizational boundary",
+        "operational boundary",
+        "GHG methodology"
+      ],
+      "query_facets": [
+        "Scope 1",
+        "Scope 2",
+        "Scope 3",
+        "total GHG emissions",
+        "greenhouse gas emissions",
+        "GHG",
+        "CO2e",
+        "tCO2e",
+        "market-based",
+        "location-based",
+        "methodology",
+        "boundary",
+        "CSV metric",
+        "PDF table"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "csv_metric"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row",
+          "narrative"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "descriptive"
+      ],
+      "claim_risk_notes": [
+        "numeric error",
+        "unit error",
+        "wrong reporting year",
+        "Scope 2 market-based versus location-based confusion",
+        "incomplete total emissions",
+        "boundary confusion"
+      ],
+      "task_scope_status": "frozen_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "S1-1_workforce_policies",
+      "esrs_reference": "S1-1",
+      "task_name": "Policies related to own workforce",
+      "task_scope": "Retrieve evidence about adopted workforce policies, their covered populations, labour and human-rights commitments, non-discrimination, equal opportunities, and occupational safety policy.",
+      "task_selection_rationale": "Tests whether policy existence, applicability and commitments remain grounded. Its focus is policy content and coverage; action implementation belongs to S1-4.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 17-24. Policies related to own workforce.",
+      "evidence_availability_rationale": "Historical human-resources, human-rights and safety sections are plausible narrative sources. Supplier-only policies cannot establish coverage of own workforce.",
+      "retrieval_intent": "Find company-specific evidence about adopted workforce policies, their covered populations, labour and human-rights commitments, non-discrimination, equal opportunities, and occupational safety policy.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about policies related to own workforce using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Adopted workforce policies and their coverage",
+        "Labour and human-rights commitments",
+        "Non-discrimination, equal opportunities and diversity commitments",
+        "Occupational accident-prevention policy or management system",
+        "Policy implementation procedures when explicitly described"
+      ],
+      "query_facets": [
+        "own workforce policy",
+        "employees",
+        "labour rights",
+        "human rights policy",
+        "equal opportunities",
+        "non-discrimination",
+        "diversity and inclusion",
+        "forced labour",
+        "child labour",
+        "occupational safety policy",
+        "policy coverage",
+        "ILO",
+        "UN Guiding Principles"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "temporal",
+        "scope_boundary"
+      ],
+      "claim_risk_notes": [
+        "Do not transfer supplier-worker policies to own workforce.",
+        "A policy commitment is not demonstrated implementation or effectiveness.",
+        "Do not extend a policy covering employees to all non-employees or all countries.",
+        "Do not infer alignment with international instruments from a generic commitment.",
+        "Do not infer policy absence from missing retrieved evidence."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "S1-4_workforce_actions_resources",
+      "esrs_reference": "S1-4",
+      "task_name": "Actions, resources and effectiveness related to own workforce",
+      "task_scope": "Retrieve evidence about actions taken, underway or planned to address own-workforce impacts, risks and opportunities; resources, remediation, and evidenced methods or results for assessing effectiveness.",
+      "task_selection_rationale": "Tests implementation status, attribution, resources and claimed outcomes in workforce management. Routine training is included only when linked to a workforce impact, risk or opportunity.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 35-43. Actions, resources and effectiveness related to own workforce.",
+      "evidence_availability_rationale": "Historical workforce development, occupational health, inclusion, restructuring and employee-wellbeing narratives can provide action evidence. Numerical resource claims need a traceable table or passage.",
+      "retrieval_intent": "Find company-specific evidence about actions taken, underway or planned to address own-workforce impacts, risks and opportunities; resources, remediation, and evidenced methods or results for assessing effectiveness.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about actions, resources and effectiveness related to own workforce using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Workforce actions taken, underway or planned",
+        "Actions addressing negative impacts and delivering positive impacts",
+        "Remediation and support for affected workers",
+        "Resources allocated to workforce actions",
+        "Methods for tracking effectiveness and explicitly reported outcomes"
+      ],
+      "query_facets": [
+        "workforce action plan",
+        "employee development",
+        "reskilling",
+        "occupational safety measures",
+        "employee wellbeing",
+        "diversity initiatives",
+        "remediation",
+        "restructuring support",
+        "allocated resources",
+        "implementation status",
+        "effectiveness assessment",
+        "employee outcomes"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "temporal",
+        "causal",
+        "numeric",
+        "scope_boundary"
+      ],
+      "claim_risk_notes": [
+        "Do not turn planned activities into completed actions.",
+        "Do not infer causal improvement from participation or expenditure alone.",
+        "Do not assign a group-wide resource total to one workforce programme.",
+        "Do not treat a policy statement as evidence that an action occurred.",
+        "Separate workforce-development training from anti-corruption controls under G1-3."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "S1-5_workforce_targets",
+      "esrs_reference": "S1-5",
+      "task_name": "Targets related to own-workforce impacts, risks and opportunities",
+      "task_scope": "Retrieve evidence about time-bound and outcome-oriented workforce targets actually disclosed, including diversity or safety targets, baselines where stated, target dates, population boundaries, progress, and worker involvement in target setting.",
+      "task_selection_rationale": "Retains a substantive forward-looking workforce task. Both the 2023 standard and historical company reports support it; the selection is not based solely on symmetry with E1.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 44-47; ESRS 2 MDR-T paragraphs 78-81. Targets related to own-workforce impacts, risks and opportunities.",
+      "evidence_availability_rationale": "BASF 2023 discloses a 2030 target for women in leadership and a safety target. This establishes plausibility, not prevalence across the final sample. Targets require narrative or table evidence; the local numeric catalogue has no dedicated S1-5 entries.",
+      "retrieval_intent": "Find company-specific evidence about time-bound and outcome-oriented workforce targets actually disclosed, including diversity or safety targets, baselines where stated, target dates, population boundaries, progress, and worker involvement in target setting.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about targets related to own-workforce impacts, risks and opportunities using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Time-bound, outcome-oriented workforce targets",
+        "Diversity or occupational safety targets when disclosed",
+        "Target metric, target year and covered workforce population",
+        "Baseline values and years when disclosed",
+        "Progress and revisions to targets",
+        "Worker or representative involvement in target-setting and monitoring when disclosed"
+      ],
+      "query_facets": [
+        "workforce target",
+        "diversity target",
+        "women in leadership",
+        "health and safety target",
+        "time-bound target",
+        "target year",
+        "baseline",
+        "covered employee population",
+        "progress against target",
+        "target revision",
+        "worker representatives",
+        "outcome-oriented target"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "target",
+        "commitment",
+        "numeric",
+        "temporal",
+        "scope_boundary"
+      ],
+      "claim_risk_notes": [
+        "An ambition or policy commitment is not automatically a time-bound outcome target.",
+        "Preserve leadership-level and geographic boundaries.",
+        "Do not confuse a current result with a future target.",
+        "Do not invent baseline values, worker participation or external validation.",
+        "Separate target progress from causal effectiveness; preserve revisions to metric definitions."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "S1-14_health_safety_metrics",
+      "esrs_reference": "S1-14",
+      "task_name": "Health and safety metrics",
+      "task_scope": "Retrieve evidence about health and safety management-system coverage, work-related fatalities, recordable accidents and their rates, work-related ill health and days lost, with worker category, metric definition and reporting period preserved.",
+      "task_selection_rationale": "Provides a quantitative and boundary-sensitive social task: employees versus non-employees, fatalities versus incidents, and incompatible accident-rate definitions require careful evidence use.",
+      "official_requirement_basis": "2023 Annex I, ESRS S1, paragraphs 86-90; application requirements AR 80-95. Health and safety metrics.",
+      "evidence_availability_rationale": "The local catalogue contains 23 indicator definitions, with nonempty extracted cells in 18 of 25 development company-years. These cells require source checking. Historical safety tables and methodology narratives are candidate sources.",
+      "retrieval_intent": "Find company-specific evidence about health and safety management-system coverage, work-related fatalities, recordable accidents and their rates, work-related ill health and days lost, with worker category, metric definition and reporting period preserved.",
+      "generation_intent": "Draft an ESRS S1-style disclosure paragraph about health and safety metrics using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "csv_metric",
+        "pdf_table_row",
+        "narrative"
+      ],
+      "expected_evidence_content": [
+        "Health and safety management-system coverage",
+        "Work-related fatalities by worker category",
+        "Recordable work-related accidents and their rates",
+        "Work-related ill health and days lost",
+        "Metric definitions, rate denominators and hours worked",
+        "Reporting year and workforce boundary"
+      ],
+      "query_facets": [
+        "health and safety management system coverage",
+        "employee fatalities",
+        "contractor fatalities",
+        "recordable work-related accidents",
+        "work-related ill health",
+        "days lost",
+        "lost time injury rate",
+        "total recordable injury rate",
+        "hours worked",
+        "rate denominator",
+        "employees and non-employees",
+        "reporting boundary"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "csv_metric"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row",
+          "narrative"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "descriptive"
+      ],
+      "claim_risk_notes": [
+        "Do not equate LTIFR, TRIR, high-severity injury rates and ESRS recordable-accident rates.",
+        "Preserve rates per 200,000 versus 1,000,000 hours; do not silently convert or relabel.",
+        "Distinguish own-workforce non-employees from other workers at sites.",
+        "Do not infer zero fatalities or accidents from missing information.",
+        "Certification at selected sites does not establish group-wide coverage.",
+        "Do not equate accident counts, fatal events and numbers of people killed."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "G1-1_business_conduct_policies",
+      "esrs_reference": "G1-1",
+      "task_name": "Business conduct policies and corporate culture",
+      "task_scope": "Retrieve evidence about business-conduct policies, corporate culture, code of conduct, reporting channels, whistleblower protection, policy scope, and responsible functions.",
+      "task_selection_rationale": "Tests governance commitments and policy boundaries. Detailed anti-corruption procedures and training performance are reserved for G1-3.",
+      "official_requirement_basis": "2023 Annex I, ESRS G1, paragraphs 7-11. Business conduct policies and corporate culture.",
+      "evidence_availability_rationale": "Historical codes of conduct and governance or compliance report sections are candidate sources. A hotline does not by itself establish anonymity, non-retaliation or independent investigation.",
+      "retrieval_intent": "Find company-specific evidence about business-conduct policies, corporate culture, code of conduct, reporting channels, whistleblower protection, policy scope, and responsible functions.",
+      "generation_intent": "Draft an ESRS G1-style disclosure paragraph about business conduct policies and corporate culture using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Business-conduct policies and code of conduct",
+        "Development, promotion and assessment of corporate culture",
+        "Mechanisms for reporting concerns",
+        "Whistleblower protection and measures against retaliation",
+        "Policy training, responsibilities and coverage",
+        "Animal-welfare policy where applicable and evidenced"
+      ],
+      "query_facets": [
+        "code of conduct",
+        "business ethics",
+        "corporate culture",
+        "business conduct policy",
+        "whistleblower protection",
+        "non-retaliation",
+        "speak-up channel",
+        "reporting concerns",
+        "policy training",
+        "policy scope",
+        "functions at risk"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "temporal",
+        "scope_boundary"
+      ],
+      "claim_risk_notes": [
+        "Do not infer an effective ethical culture from the existence of a code.",
+        "Distinguish confidential reporting, anonymity and protection against retaliation.",
+        "Do not infer independent investigation from an externally operated hotline.",
+        "Do not claim universal employee or supplier coverage without evidence.",
+        "Do not substitute board diversity or remuneration under ESRS 2 GOV for G1 business conduct."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "G1-2_supplier_relationships",
+      "esrs_reference": "G1-2",
+      "task_name": "Management of relationships with suppliers",
+      "task_scope": "Retrieve evidence about supplier relationship management, procurement risks, social and environmental selection criteria, supplier assessment and development, and policies to prevent late payment, especially to SMEs.",
+      "task_selection_rationale": "Adds substantive supply-chain management coverage and prevents the four-task governance set from consisting entirely of internal compliance disclosures.",
+      "official_requirement_basis": "2023 Annex I, ESRS G1, paragraphs 12-15; application requirements AR 2-3. Management of relationships with suppliers.",
+      "evidence_availability_rationale": "BASF and Evonik 2023 reports contain supplier selection, assessment, training and development evidence. The core is management practice; full payment-performance measurement belongs to G1-6.",
+      "retrieval_intent": "Find company-specific evidence about supplier relationship management, procurement risks, social and environmental selection criteria, supplier assessment and development, and policies to prevent late payment, especially to SMEs.",
+      "generation_intent": "Draft an ESRS G1-style disclosure paragraph about management of relationships with suppliers using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row"
+      ],
+      "expected_evidence_content": [
+        "Management of supplier relationships and procurement risks",
+        "Social and environmental supplier-selection criteria",
+        "Supplier screening, assessments and audits",
+        "Supplier engagement, development and corrective actions",
+        "Policies to prevent late payments, especially to SMEs",
+        "Supplier-assessment populations and denominators"
+      ],
+      "query_facets": [
+        "supplier code of conduct",
+        "supplier selection",
+        "social and environmental criteria",
+        "supplier risk assessment",
+        "supplier audit",
+        "supplier development",
+        "corrective actions",
+        "responsible procurement",
+        "procurement training",
+        "late payment policy",
+        "SME suppliers",
+        "supplier assessment coverage"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "commitment"
+      ],
+      "claim_risk_notes": [
+        "An audit or assessment does not establish that every supplier complies.",
+        "Preserve direct versus indirect supplier and spend-versus-supplier-count denominators.",
+        "Do not attribute all industry-initiative audits to the company.",
+        "Supplier-worker impacts belong to S2 unless used specifically as evidence of procurement management.",
+        "A payment policy or a threshold such as paid within 60 days is not an observed average payment time."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "G1-3_anti_corruption_controls",
+      "esrs_reference": "G1-3",
+      "task_name": "Prevention and detection of corruption and bribery",
+      "task_scope": "Retrieve evidence about procedures to prevent, detect, investigate and respond to corruption or bribery; investigator independence, reporting to governing bodies, policy communication and anti-corruption training.",
+      "task_selection_rationale": "Tests whether operational control and training claims are supported, while keeping allegations and incident outcomes in G1-4.",
+      "official_requirement_basis": "2023 Annex I, ESRS G1, paragraphs 16-21; application requirements AR 4-8. Prevention and detection of corruption and bribery.",
+      "evidence_availability_rationale": "The local catalogue contains 21 training-related indicator definitions and nonempty extracted cells in all 25 development company-years. General compliance training must be distinguished from anti-corruption training.",
+      "retrieval_intent": "Find company-specific evidence about procedures to prevent, detect, investigate and respond to corruption or bribery; investigator independence, reporting to governing bodies, policy communication and anti-corruption training.",
+      "generation_intent": "Draft an ESRS G1-style disclosure paragraph about prevention and detection of corruption and bribery using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row",
+        "csv_metric"
+      ],
+      "expected_evidence_content": [
+        "Procedures to prevent, detect, investigate and respond to corruption or bribery",
+        "Independence of investigators from implicated management",
+        "Reporting investigation outcomes to governing bodies",
+        "Communication of anti-corruption and anti-bribery policies",
+        "Nature, scope and depth of relevant training",
+        "Coverage of functions at risk and training of governing bodies"
+      ],
+      "query_facets": [
+        "anti-corruption",
+        "anti-bribery",
+        "corruption risk assessment",
+        "due diligence",
+        "investigation procedures",
+        "investigator independence",
+        "reporting to the board",
+        "anti-corruption training",
+        "functions at risk",
+        "training coverage",
+        "training hours",
+        "policy communication"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row",
+          "csv_metric"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "descriptive",
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "causal"
+      ],
+      "claim_risk_notes": [
+        "Do not label all compliance training as anti-corruption training.",
+        "Do not confuse participants, unique people, completions, hours and coverage percentages.",
+        "Retain the correct denominator for functions at risk.",
+        "Do not infer control effectiveness or absence of corruption from training coverage.",
+        "Do not infer independence from an investigator's job title or external hotline operation."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    },
+    {
+      "task_id": "G1-4_corruption_bribery_incidents",
+      "esrs_reference": "G1-4",
+      "task_name": "Incidents of corruption or bribery",
+      "task_scope": "Retrieve evidence about reporting-period corruption and bribery convictions, fines and actions addressing breaches; confirmed incidents, disciplinary measures, business-partner consequences and legal-case outcomes when disclosed.",
+      "task_selection_rationale": "Provides an incident-and-outcome task with substantively distinct allegation, confirmation and legal-status boundaries. Retention is conditional on a source audit because historical coverage is uneven.",
+      "official_requirement_basis": "2023 Annex I, ESRS G1, paragraphs 22-26. Incidents of corruption or bribery.",
+      "evidence_availability_rationale": "The local catalogue has five indicator definitions and nonempty extracted cells in only 10 of 25 development company-years. Evonik 2023 demonstrates that extracted values can mislabel alleged cases and general compliance outcomes as confirmed corruption.",
+      "retrieval_intent": "Find company-specific evidence about reporting-period corruption and bribery convictions, fines and actions addressing breaches; confirmed incidents, disciplinary measures, business-partner consequences and legal-case outcomes when disclosed.",
+      "generation_intent": "Draft an ESRS G1-style disclosure paragraph about incidents of corruption or bribery using only the evidence available within the workflow boundary.",
+      "expected_evidence_types": [
+        "narrative",
+        "pdf_table_row",
+        "csv_metric"
+      ],
+      "expected_evidence_content": [
+        "Number of convictions and amounts of fines under anti-corruption and anti-bribery laws",
+        "Actions taken to address breaches in procedures and standards",
+        "Confirmed incidents and their nature where disclosed",
+        "Disciplinary measures, dismissals and business-partner consequences linked to corruption where disclosed",
+        "Public legal cases and reporting-period outcomes where disclosed",
+        "Incident status, reporting year, currency and company involvement"
+      ],
+      "query_facets": [
+        "corruption allegation",
+        "bribery allegation",
+        "confirmed corruption incident",
+        "confirmed bribery incident",
+        "convictions",
+        "anti-corruption fines",
+        "disciplinary measures",
+        "dismissals",
+        "business partner contract termination",
+        "public legal proceedings",
+        "case outcome",
+        "reporting period"
+      ],
+      "evidence_type_coverage_rule": {
+        "log_expected_type_coverage": true,
+        "required_for_sanity_check": [
+          "narrative"
+        ],
+        "preferred_but_not_required": [
+          "pdf_table_row",
+          "csv_metric"
+        ],
+        "fallback_allowed": false
+      },
+      "claim_type_coverage": [
+        "numeric",
+        "temporal",
+        "scope_boundary",
+        "descriptive"
+      ],
+      "claim_risk_notes": [
+        "Allegations, investigations, confirmed incidents and convictions are different statuses.",
+        "Do not treat all compliance dismissals or terminated contracts as corruption outcomes.",
+        "No convictions or no material cases does not establish no incidents.",
+        "Retain currency, reporting period, recognition basis and company involvement.",
+        "Do not treat missing evidence as zero, or a policy statement as an incident outcome.",
+        "A heading mentioning confirmed incidents cannot override qualifying text describing allegations."
+      ],
+      "task_scope_status": "draft_for_retrieval_sanity_check",
+      "query_template_status": "not_in_this_file",
+      "prompt_template_status": "not_in_this_file"
+    }
+  ],
+  "bace_freeze_version": "bace_30x5x12_v1"
+}

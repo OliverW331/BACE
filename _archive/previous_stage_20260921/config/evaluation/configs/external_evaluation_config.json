@@ -1,0 +1,65 @@
+{
+  "schema_version": "external_evaluation_config_v1",
+  "selection_purpose": "Engineering pilot; two cases per company across four E1 tasks, with numerical, non-disclosure and multi-EC support examples. Not a prevalence or held-out validation sample.",
+  "inputs": {
+    "generation_cases": "generation_inputs/w2_main_text_embedding_3_large_stratified_n10_top200/generation_cases.jsonl",
+    "generated_disclosures": "generation_outputs/w2_main_text_embedding_3_large_stratified_n10_top200/gpt_5_6_sol_run1/generated_disclosures.jsonl"
+  },
+  "case_ids": [
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__admiral_group__2019__e1_1_transition_plan",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__admiral_group__2023__e1_6_ghg_emissions",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2020__e1_3_actions_resources",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2022__e1_4_targets",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__genmab__2021__e1_6_ghg_emissions",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__genmab__2023__e1_1_transition_plan",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__informa__2020__e1_4_targets",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__informa__2022__e1_3_actions_resources",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__mercedes_benz_group__2019__e1_4_targets",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__mercedes_benz_group__2023__e1_6_ghg_emissions"
+  ],
+  "package_versions": {
+    "ragchecker": "0.1.9",
+    "refchecker": "0.2.13",
+    "ragas": "0.4.3",
+    "openai": "2.54.0"
+  },
+  "judge": {
+    "model_id": "gpt-5.6-sol",
+    "model_version": "2026-07-09",
+    "provider": "azure_openai",
+    "api_style": "responses",
+    "deployment_name_env": "CLAIM_SUPPORT_AZURE_OPENAI_DEPLOYMENT",
+    "endpoint_env": "CLAIM_SUPPORT_AZURE_OPENAI_ENDPOINT",
+    "api_key_env": "CLAIM_SUPPORT_AZURE_OPENAI_API_KEY",
+    "request_parameters": {
+      "reasoning": {
+        "effort": "medium"
+      },
+      "store": false
+    }
+  },
+  "runtime": {
+    "concurrency": 8,
+    "request_timeout_seconds": 600,
+    "max_retries": 2,
+    "max_output_tokens": 16384
+  },
+  "transport_policy": "Native prompts and scoring; Azure Responses adapter supplies reasoning settings and output budget instead of the packages' default chat-completion temperature/token settings.",
+  "invalid_case_policy": "Exclude empty extractions, incomplete responses and unresolved parse/alignment failures from aggregate scores; retain status and raw outputs.",
+  "frameworks": {
+    "ragchecker": {
+      "metrics": [
+        "faithfulness"
+      ],
+      "joint_check_num": 5,
+      "batch_size": 32,
+      "output_dir": "evidence_pilot/evaluation/ragchecker/pilot_v1"
+    },
+    "ragas": {
+      "metrics": [
+        "faithfulness"
+      ],
+      "output_dir": "evidence_pilot/evaluation/ragas/pilot_v1"
+    }
+  }
+}

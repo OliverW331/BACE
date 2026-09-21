@@ -1,0 +1,62 @@
+{
+  "schema_version": "generation_claim_extraction_config_v1",
+  "status": "paired_extraction_fidelity_pilot_v3",
+  "current_primary_model": "azure_gpt_5_6_sol",
+  "current_primary_model_env": "CLAIM_EXTRACTION_MODEL_KEY",
+  "models": {
+    "azure_gpt_5_6_sol": {
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": null,
+      "deployment_name_env": "CLAIM_EXTRACTION_AZURE_OPENAI_DEPLOYMENT",
+      "provider": "azure_openai",
+      "api_style": "responses",
+      "auth_type": "api_key",
+      "endpoint_env": "CLAIM_EXTRACTION_AZURE_OPENAI_ENDPOINT",
+      "api_key_env": "CLAIM_EXTRACTION_AZURE_OPENAI_API_KEY",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    }
+  },
+  "prompts": {
+    "ec": {
+      "file": "../prompts/generation_ec_claim_extraction_prompt_v3.txt",
+      "version": "generation_ec_claim_extraction_prompt_v3",
+      "sha256": "9992a67a5d98f6a4dad030d0fa5081ae54bbe6dd384a42e4cbb52fd444788a5c"
+    },
+    "dc": {
+      "file": "../prompts/generation_dc_claim_extraction_prompt_v3.txt",
+      "version": "generation_dc_claim_extraction_prompt_v3",
+      "sha256": "a864c8c2c49f932ea98ec7903548f69610c901953ab984959dc2db8c0a202ebf"
+    }
+  },
+  "response_schemas": {
+    "ec": {
+      "file": "../schemas/generation_ec_claim_extraction_response_schema_v2.json",
+      "version": "generation_ec_claim_extraction_response_v2",
+      "sha256": "68223f3c4444cb298ff4962a902b6c0ec1bb5298bd5dde251b3995ed4eabc593",
+      "structured_output_name": "generation_ec_claim_extraction_response_v2",
+      "strict": true
+    },
+    "dc": {
+      "file": "../schemas/generation_dc_claim_extraction_response_schema_v2.json",
+      "version": "generation_dc_claim_extraction_response_v2",
+      "sha256": "7b335a552f21248bd67253c2f81ccf5f7bd153353aaef0cea81e6f16f07b6316",
+      "structured_output_name": "generation_dc_claim_extraction_response_v2",
+      "strict": true
+    }
+  },
+  "runtime": {
+    "request_timeout_seconds": 600,
+    "max_network_retries": 4,
+    "retry_initial_seconds": 2,
+    "retry_max_seconds": 60
+  },
+  "output_validation": {
+    "mode": "schema_only"
+  }
+}

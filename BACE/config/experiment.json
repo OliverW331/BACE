@@ -1,0 +1,82 @@
+{
+  "schema_version": "bace_experiment_v1",
+  "experiment_id": "bace_30x5x12_v1",
+  "status": "frozen_protocol",
+  "data_root": "../data",
+  "evidence_root": "evidence",
+  "results_root": "results",
+  "target_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "sample_size": 30,
+  "expected_case_count": 1800,
+  "sampling": {
+    "seed": 20260916,
+    "classification": "Latest primary_sics_sector at or before 2023 from companies.csv",
+    "allocation": "One per eligible SICS sector; remaining 30-S slots by Hamilton largest remainders weighted by eligible sector count minus one; alphabetical ties",
+    "eligibility": "Known sector; at least one valid nonempty CSV metric in each source year 2015–2023 and at least one PDF with a valid header in each source year 2015–2022. Full PDF parsing is subsequently checked before acceptance. No task-specific metric, disclosure content or evaluator score gate.",
+    "missing_policy": "No imputation of absent metrics or evidence strata; retain missingness. Failed PDF parsing is recorded; if an entire required source year is unusable, use the next prespecified same-sector reserve and record the replacement before any generation. Never replace on evaluator scores."
+  },
+  "windows": {
+    "csv_window_years": 5,
+    "csv_lag_years": 0,
+    "pdf_window_years": 4,
+    "pdf_lag_years": 1
+  },
+  "tasks": "config/tasks.json",
+  "queries": "config/queries.json",
+  "retrieval": "config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json",
+  "generation": {
+    "provider": "azure_openai",
+    "model": "gpt-5.6-sol",
+    "model_version": "2026-07-09",
+    "reasoning_effort": "medium",
+    "min_words": 300,
+    "max_words": 500,
+    "max_output_tokens": 8192,
+    "retry_attempts": 2,
+    "prompt": "config/prompts/generation_prompt_templates.json",
+    "length_policy": "Accept first complete 300–500-word response; retry the identical prompt up to two times per invocation; preserve rejected text; never choose by evaluation score."
+  },
+  "embedding": {
+    "model": "text-embedding-3-large",
+    "dimensions": 3072,
+    "batch_size": 1024,
+    "max_batch_tokens": 250000,
+    "workers": 8,
+    "provider": "azure_openai"
+  },
+  "bace": {
+    "extraction": "generation_claim_extraction_config_v8.json",
+    "integrated_review": "generation_claim_patch_review_config_v4.json",
+    "atomicity_review": "generation_claim_atomicity_review_config_v2.json",
+    "downstream": [
+      "semantic_dedup",
+      "candidate_selection",
+      "support",
+      "unsupported_diagnosis"
+    ]
+  },
+  "runtime": {
+    "case_workers": 16,
+    "pdf_workers": 16,
+    "max_stage_attempts": 3
+  },
+  "pilot": {
+    "case_count": 12,
+    "selection": "One case per task, cycling sectors, companies and years in frozen order; selected before generation and evaluations."
+  },
+  "main_run_authorized_in_preparation": false,
+  "source_quality": {
+    "policy_version": "unreadable_extraction_quarantine_v1",
+    "unmapped_glyph_minimum_count": 10,
+    "unmapped_glyph_fraction_threshold": 0.05,
+    "maximum_card_tokens": 8191,
+    "tokenizer": "cl100k_base",
+    "action": "Exclude the entire card; preserve source PDF and raw extracted card cache; recheck source-year availability; no company replacement based on model scores."
+  }
+}

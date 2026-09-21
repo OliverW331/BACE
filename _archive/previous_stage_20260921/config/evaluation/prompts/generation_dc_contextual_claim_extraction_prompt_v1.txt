@@ -1,0 +1,56 @@
+Extract every substantive claim from disclosure_text, independently of retrieved evidence or reference answers. Preserve unsupported assertions and errors as written.
+
+## Shared operational definition
+
+A claim is a substantive proposition asserted by the source about an entity, event, state, measurement, intention, classification or relationship. Preserve its subject, referents and governing qualifiers. A claim can be false, uncertain, prospective or an explicit statement of absent information. Extraction does not assess truth or support.
+
+An atomic claim contains one independently asserted predicate–argument relationship. Split independent predicates and distributive lists; retain a genuinely joint total, comparison, condition or causal relationship. Do not invent logical or arithmetic consequences. Preserve both explicitly stated events/states and any separately asserted relationship connecting them.
+
+Use the entire permitted context to identify the subject and object, named plan/target/calculation, source attribution, scope, periods, baseline, deadline, conditions, modality and negation. Preserve material words such as historically, proposed, expected, particularly, at least, approximately and only. A task year is not a default event year. Plans are not executions; submitted targets are not verified targets.
+
+## Output contract: bind before splitting
+
+Output claim_groups. Each group contains context, stem, source_quotes, unresolved_context and claims. Each child contains completion, source_quotes and unresolved_context.
+
+The complete claim is mechanically rendered as:
+[source_attribution, if EC] + [context, if present] + stem + completion.
+The program repeats attribution, context and stem for EVERY child. They are semantically part of each claim, not optional comments. Do not return a separate claim_text.
+
+- context is an optional introductory qualifier phrase, such as “Under the 2014–2017 Growth Plan” or “For the target to reduce combined Scope 1/2 emissions by 40% by 2030 versus 2020”. It must contain only qualifiers governing every child in that group. Use an empty string when none is needed. It must not assert an unrelated fact.
+- stem is the full subject and any shared predicate/modal prefix. Name the applicable entity and fully identify a referenced object. Include the target/plan/calculation identity and measurement coverage in context or stem BEFORE splitting, even when this requires a long phrase. A bare “these targets”, “the strategy”, “the figures” or “2021 calculation” is insufficient if the source supplies the identity or scope.
+- stem may be empty only when each completion is already a complete sentence with its own explicit subject; put any shared governing qualifiers in context. Do not use an empty stem to omit a subject or object identity.
+- completion finishes exactly one grammatical, substantive proposition with that context and stem. It can be a finite predicate if stem is just a subject, or complete a shared phrase such as “was expected to”. Do not merge independent actions merely to reduce output length.
+- Children sharing a subject and qualifiers belong in one group. Use separate groups when applying the same context/stem would attach a qualifier or subject to the wrong action. Never transfer a policy's purpose to a coordinated action of the company.
+- Group source_quotes locate the shared subject and context using exact source passages. Child source_quotes locate the individual predicate/complement. Quotes can overlap. A matching quote establishes location, not semantic correctness.
+- Group unresolved_context applies to every child; child unresolved_context applies to that child. These are arrays of concise explanations. Use [] only when no material ambiguity remains.
+
+Examples of the contract:
+1. Source: “Under its 2014–2017 Growth Plan, the company's strategy was to restore growth and build future capabilities.” One group: context="Under its 2014–2017 Growth Plan"; stem="The company's strategy was to"; completions="restore growth" and "build future capabilities". Resolve the company name from permitted context. Do not let a child lose the plan identity.
+2. Source: “Company A's figures covering Scope 1, Scope 2 and selected Scope 3 are recorded and published under Standard X.” One group: stem="Company A's figures covering Scope 1, Scope 2 and selected Scope 3"; completions="are recorded under Standard X" and "are published under Standard X". Separate coverage claims do not substitute for retaining coverage in those method claims.
+3. Source: “The 2021 Scope 1 and Scope 2 calculation established a starting point for ambitions and targets.” A group stem names the complete calculation and ends “established a starting point for”; separate completions identify ambitions and targets.
+4. “The proposed policy was intended to identify and address risks.” Keep “proposed” and “was intended to” in the shared stem, with separate identification and response completions.
+5. “The company will formulate a policy to identify risks, as well as set out reporting criteria.” Policy purposes and the company's setting-out action use separate groups. Do not make the policy the subject of setting out criteria.
+
+## Fidelity checks
+
+Preserve proper names already in the source, including business-unit qualifiers. Do NOT normalize “Mercedes-Benz”, “Cars & Vans”, “AG”, or another named entity into a parent/group name from case metadata. Metadata may resolve a genuinely explicit pronoun when unambiguous; it cannot expand a named entity. If the identity or its relation to another entity is uncertain, retain the original name and flag the uncertainty.
+
+Resolve an explicit antecedent when uniquely identified. Retain its complete defining qualifiers in context/stem: target metric/magnitude/baseline/deadline, plan name/period, calculation period/scopes, or figure coverage. Do not treat missing target parameters as making an otherwise identifiable target antecedent unknowable. When ambiguity is genuine, preserve the source expression and describe the competing readings. Do not invent a generic referent, reinterpret an A/B label as A or B, silently repair damaged units, or choose a definite table mapping that the uncertainty note then retracts.
+
+For an absence assertion, preserve the source's actual absent object and evidence/document/entity/time scope. An adjacent “For 2020” or positive Scope 1 assertion does not by itself restrict “No absolute emissions value was provided in the evidence”. Preserve that breadth when multiple readings remain defensible, and record both metric and temporal ambiguities. Explicit dates in the absence statement or a clearly governing heading remain applicable. Preserve standalone absence assertions as well as explicitly stated consequences.
+
+Ordinary conjunction is not automatically collective. A list saying “95% for metric A and metric B” assigns the stated percentage to each listed metric unless a joint value is explicitly stated; extract separate metric assertions without inventing different percentages. Conversely, a target for combined Scope 1 and Scope 2 emissions is one joint-scope target, not an identical reduction target for each scope separately. Do not create unstated combinations of actors, quantities or conditions.
+
+Extract all substantive assertions, including off-topic ones. Preserve a recoverable assertion in a truncated sentence even if its following purpose clause or object is missing: a policy that “provides guidelines for limiting unnecessary ...” still provides guidelines; flag the incomplete purpose, and do not invent its missing object.
+
+Use unextracted_spans for identifiable fragments with no substantive claim representation. Each item has source_quotes, reason and explanation. Reasons: document_structure (titles, bare headings, GRI navigation/index mappings); extraction_metadata (processing notes); missing_proposition (no identifiable predicate/metric/relation). A company's explicitly stated issue classification is substantive. A bare number against an unnamed column is not a measurement; an identified metric with an unknown year is a claim with unresolved context. Never hide a recoverable or unsupported assertion in this field.
+
+Before returning, read each context+stem+completion as a complete claim. Check that all original predicates are represented and that no new relationship is asserted. Check every child against the shared scope, object identity and modality. If a proper name has expanded, restore the source name. If context is unresolved, flag it rather than filling it. Preserve repeated occurrences; deduplication is a later operation.
+
+## Disclosure source roles
+
+The disclosure's sentences, paragraphs, headings and table labels establish scope. Use only company_name and target_reporting_year from metadata to resolve explicit references when their meaning is unambiguous. Do not use metadata to expand a source name or supply a missing measurement year. Preserve clearly governing paragraph context, and flag genuine alternative readings.
+
+Return claim_groups, no_claim_reason and unextracted_spans. There is no record-wide source_attribution field: put an attribution in the relevant group context only when the disclosure explicitly gives one. Quotes must come from disclosure_text. When claims exist, no_claim_reason is null; otherwise use an allowed reason and account for unrepresented fragments.
+
+Return only the required JSON Schema response.

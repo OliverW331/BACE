@@ -1,0 +1,43 @@
+BACE OPERATIONAL DEFINITION
+A claim is a substantive proposition asserted by the source about an entity, action, state, measurement, intention, classification, absence or relationship. Extract the source's assertion even when false, unsupported, negative, uncertain, prospective or off-topic. Do not judge truth or evidence support.
+
+An atomic claim has one independently assessable assertion, including its governing arguments and qualifiers. Two independent predicates, measurements, years, accounting bases or distributive objects require separate claims. A joint target/total, collective institutional relationship, comparison, cause, sequence or condition is one relationship and must not be broken into statements the source does not entail. Retain separately asserted underlying facts as well as an explicitly asserted relationship. Never derive new numbers or consequences.
+
+A source-faithful, self-contained claim retains its applicable entity, modality, negation, period, boundary, unit and conditions. Resolve an explicit target, plan, process or calculation reference with its full material identity, including known magnitude, scope, baseline and deadline, so a sibling claim is not needed. Source/report time is distinct from intended action time and measurement time. Use only supplied context. If a referent or qualifier is genuinely missing or ambiguous, preserve the source's breadth/literal wording and record the uncertainty; never assert a guess that the uncertainty note retracts.
+
+Proposition status is independent of page layout. A substantive achievement in a heading is still a claim. Bare section titles, taxonomy column labels, GRI navigation, processing notes and numbers without any identifiable metric are not corporate propositions; record them in exclusions. Identifiable measurements with unknown column/year mappings remain claims with explicit uncertainty. Source quotations locate the assertion and its needed context; they do not replace context in claim_text.
+
+PASS: ATOMICITY AND PROPOSITION BOUNDARIES
+The draft has already received a source-coverage/context review. Inspect both the source and every draft claim. Repair only claim granularity and substantive-proposition boundaries here, including missing independent assertions or incorrectly excluded substantive headings. Preserve correct wording and all material context in unchanged claims and in every split child. Do not shorten names, report attribution, dates, scopes, amounts, baselines, deadlines, qualifiers or resolved antecedents for style.
+
+1. Split independent predicates or distributive objects; copy their entire applicable context into each child. Two targets being confirmed are two confirmation assertions. Calculating Scope 1 and Scope 2 under a method yields one method assertion for each scope. Joint Scope 1/2 reduction targets remain combined.
+2. Keep collective relationships intact. A joint initiative of A, B and C is one joint relationship with all participants, not three joint initiatives. Do not infer a Cartesian product of effects/mechanisms from a summary sentence: if reimbursement addresses commuting and remote meetings address business travel, preserve those pairings and the collective summary without asserting that both mechanisms address both effects.
+3. Keep comparisons, causality and conditions intact, and retain their separately asserted underlying facts. "Metric M was 8 in 2021 and 9 in 2022" contains two observations. "M fell from 9 in 2021 to 8 in 2022" additionally asserts the decline. A purpose remains a purpose; a hypothetical condition does not create an actual event.
+4. Classify by proposition, not typography. "High standard of climate reporting established" asserts an achievement; recover it. "Climate reporting" is a title. Taxonomy headings naming climate/water/DNSH dimensions do not establish a company's criterion values or compliance. Preserve processing/navigation/truncation exclusions unless explicitly corrected.
+
+COMPLETE SPLITTING EXAMPLES
+Source: "Company A calculated Scope 1 and Scope 2 emissions for 2022 under Standard X."
+- Company A calculated Scope 1 emissions for 2022 under Standard X.
+- Company A calculated Scope 2 emissions for 2022 under Standard X.
+Do not keep the two independently assessable method applications in one claim.
+
+Context-complete draft: "According to the 2020 report, Body B confirmed Company A's target to reduce combined Scope 1 and Scope 2 emissions by 40% by 2035 against 2020 and its target to reduce use-phase Scope 3 emissions per kilometre by 30% by 2035 against 2020."
+- According to the 2020 report, Body B confirmed Company A's target to reduce combined Scope 1 and Scope 2 emissions by 40% by 2035 against 2020.
+- According to the 2020 report, Body B confirmed Company A's target to reduce use-phase Scope 3 emissions per kilometre by 30% by 2035 against 2020.
+Keep the first target combined; split the independent endorsements. Do not collapse either child to Company A's target.
+
+Source: "Company A's figures and indicators covering Scope 1, Scope 2 and selected Scope 3 are recorded and published under X."
+There are four method claims: figures recorded, figures published, indicators recorded, indicators published. Each must explicitly retain Company A, all three stated scope qualifiers and X. Coverage in a separate sibling is insufficient.
+
+Source: "This will provide immediate, short-term and long-term initiatives and processes."
+When the sentence distributes the durations over both objects, retain all six combinations. Preserve literal unresolved This and its uncertainty note in every child. In contrast, preserve "Body B is a joint initiative of A, B and C" with all three participants together.
+
+Before returning, compare the proposed final inventory with the source and draft: no source assertion or governing context may disappear through a split, merge or deletion. Every edit must be justified by a real independence/collectivity/boundary issue, not by a desire to change the draft.
+
+EDIT OUTPUT CONTRACT
+The untrusted draft_extraction contains the current claims and exclusions. draft_claim_index gives an immutable claim_id beside each exact original claim_text. Return only necessary edits. For each replaces entry, copy that ID and its exact text as expected_claim_text. Both must match the same original entry. Do not count positions or invent IDs. Unmentioned claims are preserved exactly. Use additions for omitted propositions; an empty replacement deletes the addressed claim. Each replacement/addition is a complete flat claim with the required source_quotes and unresolved_context (and context_resolutions for DC).
+
+exclusion_update=null preserves existing exclusions. To change them, supply a complete replacement unextracted_spans list and a source-grounded reason. An empty list explicitly removes all exclusions; do not clear unchanged explanations. A recovered substantive assertion must no longer be excluded. Return schema-conforming JSON only. Keep repeated source occurrences separate; semantic deduplication is later.
+
+EC SOURCE ROLES
+Use each original Text independently of any generated disclosure. The full visible Evidence section can resolve explicit antecedents and footnotes, but a claim must be asserted by its assigned record; do not import a value from a similar record. Use visible Source labels for report attribution and explicit source-relative dates. Retain that attribution in all children; do not infer a measurement period from it. Tracker records retain their stated company, reporting year, indicator, value and unit. Return every prompt_label in order. Quotes come from the assigned record's Text, not invented metadata quotations.

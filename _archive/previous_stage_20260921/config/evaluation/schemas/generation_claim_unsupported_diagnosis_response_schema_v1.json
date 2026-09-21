@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_claim_unsupported_diagnosis_response_v1",
+  "title": "Generation claim unsupported diagnosis response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "dc_claim_id": {
+      "type": "string"
+    },
+    "unsupported_label": {
+      "type": "string",
+      "enum": [
+        "non_disclosure_statement",
+        "contradiction",
+        "evidence_conflation",
+        "factual_boundary_distortion",
+        "inferential_inflation",
+        "unsupported_novelty"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "dc_claim_id",
+    "unsupported_label",
+    "rationale"
+  ]
+}

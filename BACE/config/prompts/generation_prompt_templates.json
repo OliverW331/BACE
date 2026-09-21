@@ -1,0 +1,30 @@
+{
+  "schema_version": "generation_prompt_templates_v2",
+  "config_version": "bace_generation_prompt_v1",
+  "status": "frozen",
+  "design_principles": [
+    "All twelve E1, S1 and G1 tasks use the same generation instruction.",
+    "The output unit is one 300–500-word ESRS disclosure section.",
+    "Prompt-local Evidence labels map to stable IDs outside the prompt.",
+    "Evidence IDs and evaluator information are not shown to the generator.",
+    "The machine-readable JSON configuration is the source of truth."
+  ],
+  "instruction_template": "You are writing as part of {company_name}'s sustainability reporting team.\n\nWrite a 300–500 word ESRS-style sustainability-report disclosure section for {company_name}'s {target_reporting_year} reporting year, addressing {task_title}, using only the information in the evidence provided.\n\nWrite in a professional corporate reporting style, as if the text were to appear directly in {company_name}'s sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.\n\nPrioritise information that is directly relevant to {task_title}.",
+  "output_length_words": {
+    "minimum": 300,
+    "maximum": 500
+  },
+  "w2": {
+    "uses_shared_instruction": true,
+    "evidence_input": "retrieved evidence cards rendered in deterministic order",
+    "evidence_group_order": [
+      "narrative",
+      "pdf_table_row",
+      "csv_metric"
+    ],
+    "evidence_label_format": "Evidence {number}",
+    "evidence_id_in_prompt": false,
+    "prompt_label_maps_to_evidence_id": true,
+    "citation_required": false
+  }
+}

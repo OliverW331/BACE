@@ -1,0 +1,47 @@
+{
+  "schema_version": "external_evaluation_config_v1",
+  "selection_purpose": "Per-case adapter: pipeline.py binds the selected case IDs and input paths from the frozen 1,800-case matrix.",
+  "package_versions": {
+    "ragchecker": "0.1.9",
+    "refchecker": "0.2.13",
+    "ragas": "0.4.3",
+    "openai": "2.54.0"
+  },
+  "judge": {
+    "model_id": "gpt-5.6-sol",
+    "model_version": "2026-07-09",
+    "provider": "azure_openai",
+    "api_style": "responses",
+    "deployment_name_env": "CLAIM_SUPPORT_AZURE_OPENAI_DEPLOYMENT",
+    "endpoint_env": "CLAIM_SUPPORT_AZURE_OPENAI_ENDPOINT",
+    "api_key_env": "CLAIM_SUPPORT_AZURE_OPENAI_API_KEY",
+    "request_parameters": {
+      "reasoning": {
+        "effort": "medium"
+      },
+      "store": false
+    }
+  },
+  "runtime": {
+    "concurrency": 8,
+    "request_timeout_seconds": 600,
+    "max_retries": 2,
+    "max_output_tokens": 16384
+  },
+  "transport_policy": "Native prompts and scoring; Azure Responses adapter supplies reasoning settings and output budget instead of the packages' default chat-completion temperature/token settings.",
+  "invalid_case_policy": "Exclude empty extractions, incomplete responses and unresolved parse/alignment failures from aggregate scores; retain status and raw outputs.",
+  "frameworks": {
+    "ragchecker": {
+      "metrics": [
+        "faithfulness"
+      ],
+      "joint_check_num": 5,
+      "batch_size": 32
+    },
+    "ragas": {
+      "metrics": [
+        "faithfulness"
+      ]
+    }
+  }
+}

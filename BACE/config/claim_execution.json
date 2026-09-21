@@ -1,0 +1,55 @@
+{
+  "version": "parallel_runtime_v2",
+  "scope": "Sixteen concurrent cases; independent BACE, RAGChecker and RAGAS branches. Native prompts, models, inputs and scores are unchanged.",
+  "stages": {
+    "generation": {
+      "workers": 1,
+      "max_inflight": 16,
+      "resource": "generation",
+      "initial_inflight": 4
+    },
+    "extraction": {
+      "workers": 2,
+      "max_inflight": 32,
+      "resource": "extraction",
+      "initial_inflight": 8
+    },
+    "dedup": {
+      "workers": 2,
+      "max_inflight": 32,
+      "resource": "dedup",
+      "initial_inflight": 8
+    },
+    "candidates": {
+      "workers": 8,
+      "max_inflight": 64,
+      "resource": "candidates",
+      "initial_inflight": 4
+    },
+    "support": {
+      "workers": 8,
+      "max_inflight": 48,
+      "resource": "support",
+      "initial_inflight": 8
+    },
+    "diagnosis": {
+      "workers": 8,
+      "max_inflight": 32,
+      "resource": "diagnosis",
+      "initial_inflight": 8
+    },
+    "ragchecker": {
+      "workers": 8,
+      "max_inflight": 48,
+      "resource": "support",
+      "initial_inflight": 8
+    },
+    "ragas": {
+      "workers": 1,
+      "max_inflight": 48,
+      "resource": "support",
+      "initial_inflight": 8
+    }
+  },
+  "rate_limit_policy": "Use local ephemeral coordination, shared deployment slots and paced request starts. Honor Retry-After; halve capacity and slow starts once per 429 cooldown, then recover gradually. Local ceilings are not Azure RPM or TPM quotas."
+}

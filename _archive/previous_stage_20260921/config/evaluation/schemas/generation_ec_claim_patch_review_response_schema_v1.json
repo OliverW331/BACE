@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_ec_claim_patch_review_response_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "evidence_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "prompt_label": {
+            "type": "string"
+          },
+          "edits": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "replace_indices": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  }
+                },
+                "claims": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "claim_text": {
+                        "type": "string"
+                      },
+                      "source_quotes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "unresolved_context": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "claim_text",
+                      "source_quotes",
+                      "unresolved_context"
+                    ]
+                  }
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "replace_indices",
+                "claims",
+                "reason"
+              ]
+            }
+          },
+          "additions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "claim_text": {
+                  "type": "string"
+                },
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "unresolved_context": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "claim_text",
+                "source_quotes",
+                "unresolved_context"
+              ]
+            }
+          },
+          "unextracted_spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "reason": {
+                  "type": "string",
+                  "enum": [
+                    "document_structure",
+                    "extraction_metadata",
+                    "missing_proposition"
+                  ]
+                },
+                "explanation": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "source_quotes",
+                "reason",
+                "explanation"
+              ]
+            }
+          }
+        },
+        "required": [
+          "prompt_label",
+          "edits",
+          "additions",
+          "unextracted_spans"
+        ]
+      }
+    }
+  },
+  "required": [
+    "evidence_results"
+  ]
+}

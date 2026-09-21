@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_dc_claim_extraction_response_v2",
+  "title": "Generation disclosure claim extraction response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim_text": {
+            "type": "string"
+          },
+          "source_quotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "context_resolutions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "surface_form": {
+                  "type": "string"
+                },
+                "resolved_value": {
+                  "type": "string"
+                },
+                "metadata_field": {
+                  "type": "string",
+                  "enum": [
+                    "company_name",
+                    "target_reporting_year"
+                  ]
+                }
+              },
+              "required": [
+                "surface_form",
+                "resolved_value",
+                "metadata_field"
+              ]
+            }
+          },
+          "unresolved_context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "claim_text",
+          "source_quotes",
+          "context_resolutions",
+          "unresolved_context"
+        ]
+      }
+    },
+    "no_claim_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "no_evaluable_factual_proposition",
+        "insufficient_context_or_extraction_noise"
+      ]
+    }
+  },
+  "required": [
+    "claims",
+    "no_claim_reason"
+  ]
+}

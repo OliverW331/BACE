@@ -1,0 +1,318 @@
+{
+  "created_at_utc": "2026-09-21T20:30:22.328279+00:00",
+  "purpose": "Archive the previous experiment stage while retaining the active BACE project, shared data, and research documentation.",
+  "workspace_root": "/home/muwang/master_thesis",
+  "moves": [
+    {
+      "source": "config",
+      "destination": "_archive/previous_stage_20260921/config",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567640790065,
+        "size": 4096,
+        "mtime_ns": 1784794563766651000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567640790065,
+        "size": 4096,
+        "mtime_ns": 1790022622329651000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "script",
+      "destination": "_archive/previous_stage_20260921/script",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567633614544,
+        "size": 4096,
+        "mtime_ns": 1789507449140162000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567633614544,
+        "size": 4096,
+        "mtime_ns": 1790022652373340000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "tests",
+      "destination": "_archive/previous_stage_20260921/tests",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567641078772,
+        "size": 4096,
+        "mtime_ns": 1789507537443239000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567641078772,
+        "size": 4096,
+        "mtime_ns": 1790022652375310000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "generation_inputs",
+      "destination": "_archive/previous_stage_20260921/generation_inputs",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567638956364,
+        "size": 4096,
+        "mtime_ns": 1788697686204970000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567638956364,
+        "size": 4096,
+        "mtime_ns": 1790022652376314000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "generation_outputs",
+      "destination": "_archive/previous_stage_20260921/generation_outputs",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680563338076005,
+        "size": 4096,
+        "mtime_ns": 1788697686246385000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680563338076005,
+        "size": 4096,
+        "mtime_ns": 1790022652377952000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "logs",
+      "destination": "_archive/previous_stage_20260921/logs",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567647482619,
+        "size": 8192,
+        "mtime_ns": 1788717172866518000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567647482619,
+        "size": 8192,
+        "mtime_ns": 1790022652380309000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "output",
+      "destination": "_archive/previous_stage_20260921/output",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680571908290619,
+        "size": 4096,
+        "mtime_ns": 1788991087646317000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680571908290619,
+        "size": 4096,
+        "mtime_ns": 1790022652380950000
+      },
+      "status": "moved"
+    },
+    {
+      "source": ".venv",
+      "destination": "_archive/previous_stage_20260921/.venv",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567647131919,
+        "size": 4096,
+        "mtime_ns": 1783241194959914000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567647131919,
+        "size": 4096,
+        "mtime_ns": 1790022652383323000
+      },
+      "status": "moved"
+    },
+    {
+      "source": ".venv-external-evaluation",
+      "destination": "_archive/previous_stage_20260921/.venv-external-evaluation",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567633157254,
+        "size": 4096,
+        "mtime_ns": 1788700346784466000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567633157254,
+        "size": 4096,
+        "mtime_ns": 1790022652385309000
+      },
+      "status": "moved"
+    },
+    {
+      "source": ".cache",
+      "destination": "_archive/previous_stage_20260921/.cache",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567624346186,
+        "size": 4096,
+        "mtime_ns": 1788700797323633000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567624346186,
+        "size": 4096,
+        "mtime_ns": 1790022652386314000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "requirements.txt",
+      "destination": "_archive/previous_stage_20260921/requirements.txt",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567619854164,
+        "size": 359,
+        "mtime_ns": 1786392081517706000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567619854164,
+        "size": 359,
+        "mtime_ns": 1786392081517706000
+      },
+      "status": "moved"
+    },
+    {
+      "source": "requirements-external-evaluation.txt",
+      "destination": "_archive/previous_stage_20260921/requirements-external-evaluation.txt",
+      "original_identity": {
+        "device": 64,
+        "inode": 9241680567625428401,
+        "size": 483,
+        "mtime_ns": 1788700853035584000
+      },
+      "archived_identity": {
+        "device": 64,
+        "inode": 9241680567625428401,
+        "size": 483,
+        "mtime_ns": 1788700853035584000
+      },
+      "status": "moved"
+    }
+  ],
+  "retained_directories": [
+    "BACE",
+    "data",
+    "docs",
+    ".git",
+    "_archive"
+  ],
+  "status": "complete",
+  "documentation_link_updates": [
+    {
+      "file": "docs/main/esrs_s1_g1_task_selection_research.md",
+      "links": [
+        {
+          "old_target": "../../config/tasks/proposals/esrs_s1_task_specs_2023_research_v1.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/tasks/proposals/esrs_s1_task_specs_2023_research_v1.json"
+        },
+        {
+          "old_target": "../../config/tasks/proposals/esrs_g1_task_specs_2023_research_v1.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/tasks/proposals/esrs_g1_task_specs_2023_research_v1.json"
+        }
+      ]
+    },
+    {
+      "file": "docs/main/esrs_task_pipeline_alignment.md",
+      "links": [
+        {
+          "old_target": "../../config/tasks/esrs_e1_task_specs.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/tasks/esrs_e1_task_specs.json"
+        },
+        {
+          "old_target": "../../config/tasks/esrs_s1_task_specs.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/tasks/esrs_s1_task_specs.json"
+        },
+        {
+          "old_target": "../../config/tasks/esrs_g1_task_specs.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/tasks/esrs_g1_task_specs.json"
+        },
+        {
+          "old_target": "../../config/tasks/esrs_e1_s1_g1_task_specs.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/tasks/esrs_e1_s1_g1_task_specs.json"
+        },
+        {
+          "old_target": "../../config/prompts/retrieval_query_bundle_templates_e1_s1_g1_v1.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/prompts/retrieval_query_bundle_templates_e1_s1_g1_v1.json"
+        },
+        {
+          "old_target": "../../config/prompts/generation_prompt_templates.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/prompts/generation_prompt_templates.json"
+        },
+        {
+          "old_target": "../../config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json",
+          "new_target": "../../_archive/previous_stage_20260921/config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json"
+        },
+        {
+          "old_target": "../../script/rag/run_w2_retrieval_sanity_check.py",
+          "new_target": "../../_archive/previous_stage_20260921/script/rag/run_w2_retrieval_sanity_check.py"
+        },
+        {
+          "old_target": "../../script/rag/build_w2_generation_inputs.py",
+          "new_target": "../../_archive/previous_stage_20260921/script/rag/build_w2_generation_inputs.py"
+        },
+        {
+          "old_target": "../../script/evaluation/external_evaluation.py",
+          "new_target": "../../_archive/previous_stage_20260921/script/evaluation/external_evaluation.py"
+        }
+      ]
+    },
+    {
+      "file": "docs/main/experimental_framework_evolution_executive_report.md",
+      "links": [
+        {
+          "old_target": "/home/muwang/master_thesis/generation_outputs/w2_main_text_embedding_3_large_stratified_n10_top200/gpt_5_6_sol_run1/generation_run_manifest.json",
+          "new_target": "/home/muwang/master_thesis/_archive/previous_stage_20260921/generation_outputs/w2_main_text_embedding_3_large_stratified_n10_top200/gpt_5_6_sol_run1/generation_run_manifest.json"
+        },
+        {
+          "old_target": "/home/muwang/master_thesis/config/prompts/generation_prompt_templates.json",
+          "new_target": "/home/muwang/master_thesis/_archive/previous_stage_20260921/config/prompts/generation_prompt_templates.json"
+        }
+      ]
+    },
+    {
+      "file": "docs/main/ragchecker_ragas_feasibility_audit.md",
+      "links": [
+        {
+          "old_target": "../../script/rag/build_w2_generation_inputs.py",
+          "new_target": "../../_archive/previous_stage_20260921/script/rag/build_w2_generation_inputs.py"
+        },
+        {
+          "old_target": "../../script/generation/run_w2_generation.py",
+          "new_target": "../../_archive/previous_stage_20260921/script/generation/run_w2_generation.py"
+        },
+        {
+          "old_target": "../../requirements.txt",
+          "new_target": "../../_archive/previous_stage_20260921/requirements.txt"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "moves_preserved_device_inode_and_size": true,
+    "filesystem_note": "Renaming directories on this filesystem updates their modification times. Original and archived metadata are retained above.",
+    "frozen_artifacts_exist_with_unchanged_metadata": 254,
+    "small_frozen_artifacts_hash_verified": 143,
+    "main_run_state_and_freeze_hashes_unchanged": true,
+    "bace_environment_matches_freeze": true,
+    "model_calls_made": false
+  }
+}

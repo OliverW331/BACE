@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_dc_claim_patch_review_response_v2",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "edits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "claim_text": {
+                  "type": "string"
+                },
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "context_resolutions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "surface_form": {
+                        "type": "string"
+                      },
+                      "resolved_value": {
+                        "type": "string"
+                      },
+                      "metadata_field": {
+                        "type": "string",
+                        "enum": [
+                          "company_name",
+                          "target_reporting_year"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "surface_form",
+                      "resolved_value",
+                      "metadata_field"
+                    ]
+                  }
+                },
+                "unresolved_context": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "claim_text",
+                "source_quotes",
+                "context_resolutions",
+                "unresolved_context"
+              ]
+            }
+          },
+          "reason": {
+            "type": "string"
+          },
+          "replaces": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "claim_id": {
+                  "type": "string"
+                },
+                "expected_claim_text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "claim_id",
+                "expected_claim_text"
+              ]
+            }
+          }
+        },
+        "required": [
+          "replaces",
+          "claims",
+          "reason"
+        ]
+      }
+    },
+    "additions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim_text": {
+            "type": "string"
+          },
+          "source_quotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "context_resolutions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "surface_form": {
+                  "type": "string"
+                },
+                "resolved_value": {
+                  "type": "string"
+                },
+                "metadata_field": {
+                  "type": "string",
+                  "enum": [
+                    "company_name",
+                    "target_reporting_year"
+                  ]
+                }
+              },
+              "required": [
+                "surface_form",
+                "resolved_value",
+                "metadata_field"
+              ]
+            }
+          },
+          "unresolved_context": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "claim_text",
+          "source_quotes",
+          "context_resolutions",
+          "unresolved_context"
+        ]
+      }
+    },
+    "no_claim_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "no_evaluable_factual_proposition",
+        "insufficient_context_or_extraction_noise"
+      ]
+    },
+    "exclusion_update": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "unextracted_spans": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "source_quotes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "reason": {
+                    "type": "string",
+                    "enum": [
+                      "document_structure",
+                      "extraction_metadata",
+                      "missing_proposition"
+                    ]
+                  },
+                  "explanation": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "source_quotes",
+                  "reason",
+                  "explanation"
+                ]
+              }
+            },
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "unextracted_spans",
+            "reason"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "edits",
+    "additions",
+    "exclusion_update",
+    "no_claim_reason"
+  ]
+}

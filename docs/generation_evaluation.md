@@ -1,8 +1,8 @@
-# Generation Evaluation Framework
+# BACE: Boundary-Aware Claim Evaluation
 
 ## 1. Purpose
 
-This document defines the canonical generation evaluation framework for the thesis. The framework evaluates one generated sustainability disclosure at a time by reconstructing the claim-level support relationship between the evidence supplied to the generator and the claims produced in the disclosure.
+This document defines **BACE (Boundary-Aware Claim Evaluation)**, the canonical generation evaluation framework for the project. BACE evaluates one generated sustainability disclosure at a time by reconstructing the claim-level support relationship between the evidence supplied to the generator and the claims produced in the disclosure.
 
 The central question is:
 
@@ -55,7 +55,7 @@ Each evidence claim must be:
 
 EC extraction is performed once per generation case. The extractor receives the Evidence section copied from the recorded generation prompt, preserving its group headings, card order, prompt labels, source labels, and retrieval text. It also receives the company name, target reporting year, and task title in the same metadata form used by generation. The remaining generation instruction is excluded to avoid task-directed extraction bias.
 
-The complete supplied input may clarify context, but every extracted claim is attributed to exactly one labeled evidence card whose `Text:` directly asserts it. Every claim includes exact source quotes from its attributed card. The extraction response uses prompt labels only; the script validates all labels and quotes and then deterministically restores hidden evidence-card IDs and provenance.
+The complete supplied input may clarify context, but the extractor is instructed to attribute each claim to exactly one labeled evidence card whose `Text:` directly asserts it and to return exact source quotes from that card. The extraction response uses prompt labels only; evidence-card IDs and provenance are restored deterministically from those labels. In the current `schema_only` processing mode, quotation matching is not an acceptance criterion. Source quotes and recoverable source spans are retained as best-effort provenance rather than treated as verified attribution.
 
 Self-containment is bounded by the supplied context. The extractor must preserve all explicit entities, periods, scopes, units, modalities, and qualifiers. It must also carry applicable headings or repeated context when these are visible and unambiguous. A resolvable reference is replaced by its explicit referent; an unresolvable reference is represented faithfully and non-specifically. An actor, expansion, period, or scope absent from the complete supplied input is not invented and is not treated as extractable information that was lost.
 
@@ -485,7 +485,7 @@ The inclusion of task definition and case metadata in the wider evaluation pipel
 
 ## 15. Methodological positioning
 
-The framework belongs to the broader family of atomic-claim factuality, entailment-based faithfulness, claim–source attribution, and claim-level RAG evaluation methods. Its distinctive unit of analysis is an explicit, two-sided Evidence–Disclosure Claim Support Graph for long-form corporate disclosure generation.
+BACE belongs to the broader family of atomic-claim factuality, entailment-based faithfulness, claim–source attribution, and claim-level RAG evaluation methods. Its distinctive unit of analysis is an explicit, two-sided Evidence–Disclosure Claim Support Graph for long-form corporate disclosure generation.
 
 Its methodological contribution is the joint treatment of:
 

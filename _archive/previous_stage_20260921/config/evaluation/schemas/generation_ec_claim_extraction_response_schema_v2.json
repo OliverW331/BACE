@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_ec_claim_extraction_response_v2",
+  "title": "Generation evidence claim extraction response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "evidence_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "prompt_label": {
+            "type": "string"
+          },
+          "claims": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "claim_text": {
+                  "type": "string"
+                },
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "unresolved_context": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "claim_text",
+                "source_quotes",
+                "unresolved_context"
+              ]
+            }
+          }
+        },
+        "required": [
+          "prompt_label",
+          "claims"
+        ]
+      }
+    }
+  },
+  "required": [
+    "evidence_results"
+  ]
+}

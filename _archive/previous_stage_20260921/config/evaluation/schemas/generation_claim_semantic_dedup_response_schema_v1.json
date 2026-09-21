@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_claim_semantic_dedup_response_v1",
+  "title": "Generation claim semantic deduplication response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "canonical_unit_id": {
+            "type": "string"
+          },
+          "member_unit_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "canonical_unit_id",
+          "member_unit_ids"
+        ]
+      }
+    }
+  },
+  "required": [
+    "groups"
+  ]
+}

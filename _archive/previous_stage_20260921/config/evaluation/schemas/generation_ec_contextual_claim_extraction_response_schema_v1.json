@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_ec_contextual_claim_extraction_response_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "evidence_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "prompt_label": {
+            "type": "string"
+          },
+          "source_attribution": {
+            "type": "string"
+          },
+          "claim_groups": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "context": {
+                  "type": "string"
+                },
+                "stem": {
+                  "type": "string"
+                },
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "unresolved_context": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "claims": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "completion": {
+                        "type": "string"
+                      },
+                      "source_quotes": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "unresolved_context": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "completion",
+                      "source_quotes",
+                      "unresolved_context"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "context",
+                "stem",
+                "source_quotes",
+                "unresolved_context",
+                "claims"
+              ]
+            }
+          },
+          "unextracted_spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "source_quotes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "reason": {
+                  "type": "string",
+                  "enum": [
+                    "document_structure",
+                    "extraction_metadata",
+                    "missing_proposition"
+                  ]
+                },
+                "explanation": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "source_quotes",
+                "reason",
+                "explanation"
+              ]
+            }
+          }
+        },
+        "required": [
+          "prompt_label",
+          "source_attribution",
+          "claim_groups",
+          "unextracted_spans"
+        ]
+      }
+    }
+  },
+  "required": [
+    "evidence_results"
+  ]
+}

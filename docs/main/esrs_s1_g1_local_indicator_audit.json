@@ -1,0 +1,120 @@
+{
+  "scope": "Five development companies, 2019-2023; nonempty extracted CSV cells, not source-validated availability or independent observations. Values zero are retained.",
+  "companies": {
+    "060107a1-5462-4b5b-adf7-ca200f3bb587": "Evonik Industries",
+    "03c716df-c496-489f-8d20-b27e270e90fe": "Mercedes-Benz Group",
+    "04b00c87-7d27-4a7f-a503-88f54d86d830": "Genmab",
+    "034847ad-4df8-4fde-a032-a1ae9d231942": "Informa",
+    "0175e243-c24c-42ce-acc6-b5b40bb43080": "Admiral Group"
+  },
+  "requirements": {
+    "G1-3": {
+      "indicator_definitions": 21,
+      "nonempty_cells": 203,
+      "company_years_with_nonempty_cells": 25,
+      "cells_by_company": {
+        "Evonik Industries": 65,
+        "Admiral Group": 30,
+        "Genmab": 19,
+        "Informa": 23,
+        "Mercedes-Benz Group": 66
+      }
+    },
+    "G1-4": {
+      "indicator_definitions": 5,
+      "nonempty_cells": 26,
+      "company_years_with_nonempty_cells": 10,
+      "cells_by_company": {
+        "Evonik Industries": 15,
+        "Mercedes-Benz Group": 11
+      }
+    },
+    "G1-6": {
+      "indicator_definitions": 3,
+      "nonempty_cells": 20,
+      "company_years_with_nonempty_cells": 19,
+      "cells_by_company": {
+        "Evonik Industries": 6,
+        "Admiral Group": 5,
+        "Informa": 5,
+        "Mercedes-Benz Group": 3,
+        "Genmab": 1
+      }
+    },
+    "S1-14": {
+      "indicator_definitions": 23,
+      "nonempty_cells": 130,
+      "company_years_with_nonempty_cells": 18,
+      "cells_by_company": {
+        "Evonik Industries": 80,
+        "Genmab": 6,
+        "Informa": 4,
+        "Mercedes-Benz Group": 40
+      }
+    },
+    "S1-6": {
+      "indicator_definitions": 52,
+      "nonempty_cells": 1021,
+      "company_years_with_nonempty_cells": 25,
+      "cells_by_company": {
+        "Evonik Industries": 235,
+        "Admiral Group": 208,
+        "Genmab": 172,
+        "Informa": 204,
+        "Mercedes-Benz Group": 202
+      }
+    }
+  },
+  "research_date": "2026-09-15",
+  "source_paths": [
+    "config/pilot_companies_5.txt",
+    "data/raw/datasets/companies.csv",
+    "data/raw/datasets/indicator_metadata.csv",
+    "data/processed/results/esg_indicators_postprocessed.csv"
+  ],
+  "counting_method": {
+    "unit": "A data row with nonempty value_final; rows are not assumed independent.",
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "excluded_value_markers": [
+      "",
+      "none",
+      "null",
+      "nan",
+      "n/a",
+      "na",
+      "not disclosed"
+    ],
+    "zero_values_retained": true,
+    "source_validation_performed_for_all_cells": false
+  },
+  "source_check_examples": [
+    {
+      "company": "Evonik Industries",
+      "year": 2023,
+      "source_pdf": "data/raw/reports_pdf/060107a1-5462-4b5b-adf7-ca200f3bb587_2023_SR.pdf",
+      "page": 124,
+      "data_point_id": "79721786-0de7-4a9f-b933-d7cfe2def60b",
+      "extracted_value": "8.0",
+      "extracted_label": "Number of confirmed incidents of corruption or bribery",
+      "source_quote": "Eight alleged cases of corruption were investigated in the reporting period.",
+      "issue": "Alleged cases were mapped to confirmed incidents; the passage also says no evidence of the suspected conduct was found in six kick-back cases."
+    },
+    {
+      "company": "Evonik Industries",
+      "year": 2023,
+      "source_pdf": "data/raw/reports_pdf/060107a1-5462-4b5b-adf7-ca200f3bb587_2023_SR.pdf",
+      "page": 130,
+      "data_point_id": "7c966679-3964-4ebe-bc33-0e96343dca51",
+      "extracted_value": "60.0",
+      "extracted_label": "Average number of days to pay invoice from date when contractual or statutory term of payment starts to be calculated",
+      "source_quote": "Around 90 percent of invoices are settled within 60 days.",
+      "issue": "A proportion below a threshold was mapped to a mean."
+    }
+  ]
+}

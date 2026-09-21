@@ -1,8 +1,8 @@
-# Candidate Selection and Claim Support Assessment
+# BACE: Candidate Selection and Claim Support Assessment
 
 ## 1. Purpose
 
-This document defines the two-stage relationship assessment performed after Evidence Claim (EC) and Disclosure Claim (DC) extraction and semantic deduplication.
+This document defines the two-stage relationship assessment in **BACE (Boundary-Aware Claim Evaluation)**, performed after Evidence Claim (EC) and Disclosure Claim (DC) extraction and semantic deduplication. The complete framework is defined in [BACE: Boundary-Aware Claim Evaluation](generation_evaluation.md).
 
 For each DC, the procedure first selects a recall-oriented candidate EC set from the complete deduplicated EC set for the same generation case. A separate support judge then identifies zero or more minimal sufficient support sets from those candidates.
 

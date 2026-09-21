@@ -1,5 +1,6 @@
 # Python
 .venv/
+.venv-external-evaluation/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
@@ -12,7 +13,18 @@ __pycache__/
 
 # Caches and generated experiment artifacts
 .cache/
-_archive/
+# Keep legacy source snapshots, but leave bulky runtime artifacts local.
+/_archive/*
+!/_archive/previous_stage_20260921/
+/_archive/previous_stage_20260921/*
+!/_archive/previous_stage_20260921/README.md
+!/_archive/previous_stage_20260921/archive_manifest.json
+!/_archive/previous_stage_20260921/config/
+!/_archive/previous_stage_20260921/script/
+!/_archive/previous_stage_20260921/tests/
+!/_archive/previous_stage_20260921/requirements.txt
+!/_archive/previous_stage_20260921/requirements-external-evaluation.txt
+!/_archive/previous_stage_20260921/output/
 data/
 evidence_pilot/
 generation_outputs/

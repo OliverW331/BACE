@@ -1,0 +1,66 @@
+{
+  "schema_version": "generation_claim_extraction_config_v1",
+  "status": "experimental_staged_context_review",
+  "current_primary_model": "azure_gpt_5_6_sol",
+  "current_primary_model_env": "CLAIM_EXTRACTION_MODEL_KEY",
+  "models": {
+    "azure_gpt_5_6_sol": {
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": null,
+      "deployment_name_env": "CLAIM_EXTRACTION_AZURE_OPENAI_DEPLOYMENT",
+      "provider": "azure_openai",
+      "api_style": "responses",
+      "auth_type": "api_key",
+      "endpoint_env": "CLAIM_EXTRACTION_AZURE_OPENAI_ENDPOINT",
+      "api_key_env": "CLAIM_EXTRACTION_AZURE_OPENAI_API_KEY",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    }
+  },
+  "prompts": {
+    "ec": {
+      "file": "../prompts/generation_ec_claim_context_review_prompt_v1.txt",
+      "version": "generation_ec_claim_context_review_prompt_v1",
+      "sha256": "704641073d6d3902c74a02ccdd533b5773ef4982fc9fdc8fa36b7136e7204596"
+    },
+    "dc": {
+      "file": "../prompts/generation_dc_claim_context_review_prompt_v1.txt",
+      "version": "generation_dc_claim_context_review_prompt_v1",
+      "sha256": "761dab7dda2421dff4e3e0401c1830d46ac4148f60d3b17a90852a69cc314ed5"
+    }
+  },
+  "response_schemas": {
+    "ec": {
+      "file": "../schemas/generation_ec_claim_patch_review_response_schema_v2.json",
+      "version": "generation_ec_claim_patch_review_response_v2",
+      "sha256": "3dedca659fa3d4584ac8ec3ef28f002348374b5d5c36b73ce6664e844168cb10",
+      "structured_output_name": "generation_ec_claim_patch_review_response_v2",
+      "strict": true
+    },
+    "dc": {
+      "file": "../schemas/generation_dc_claim_patch_review_response_schema_v2.json",
+      "version": "generation_dc_claim_patch_review_response_v2",
+      "sha256": "ffa91b17443e45e6f7177057dfd1d4f8c1f59fbd70daa46c00dba86f45587cf5",
+      "structured_output_name": "generation_dc_claim_patch_review_response_v2",
+      "strict": true
+    }
+  },
+  "runtime": {
+    "request_timeout_seconds": 600,
+    "max_network_retries": 4,
+    "retry_initial_seconds": 2,
+    "retry_max_seconds": 60
+  },
+  "output_validation": {
+    "mode": "schema_only"
+  },
+  "operational_definition": {
+    "file": "../prompts/generation_claim_definition_v1.txt",
+    "sha256": "08ab9ceade99b9ac320969a2e6b1ed04dc80001e919d4a5af9af1a09b35190b5"
+  }
+}

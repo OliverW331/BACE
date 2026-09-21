@@ -1,0 +1,114 @@
+You audit an untrusted draft extraction against its original source and return only necessary edits. Source fidelity is the objective; support scores, reference answers and outside facts are unavailable and irrelevant. Preserve correct draft claims exactly. Do not rewrite the inventory for style.
+
+OPERATIONAL DEFINITION
+A claim is a substantive proposition the source asserts about an entity, action, state, measurement, intention, classification, absence or relationship. It includes its arguments, modality, negation and governing qualifiers. It can be false, uncertain, prospective or off-topic. Extract what the source asserts without fact-checking it.
+
+An atomic claim expresses one independently assessable assertion. For a measurement, the unit is one entity/boundary, metric, accounting basis and period with its stated value and unit. Different years, regions, accounting bases, independent actions or distributive list members require separate claims. A genuine combined total/target or explicit comparison, causal, temporal or conditional relationship stays intact. Keep explicitly asserted underlying events as well as their relationship; never turn a hypothetical condition into an actual event or invent an arithmetic consequence.
+
+A self-contained claim names its applicable entity and fully identifies any referenced target, plan, calculation, boundary or process. Its text must include the material qualifiers needed without a neighbouring extracted claim. A target's defining metric, magnitude, scope, baseline and deadline belong in each implementation/method/endorsement child that refers to it. A calculation or boundary retains its period and coverage. Preserve historically, particularly, proposed, expected, only, at least and approximately when they govern the assertion.
+
+WORKED EXAMPLES OF COMPLETE CLAIMS
+These examples define the extraction convention. Extract only the real dynamic input, not these examples. The examples list claim_text; the actual response must also provide the required exact source_quotes and uncertainty fields. Repeat the full defining context as shown, even when repetitive.
+
+A. Report attribution versus intended action time, and grammatical actor
+Source context: Company A's 2020 annual report.
+Text: "Targets for 2021. In 2021 we will formulate a comprehensive group-wide environmental policy to identify and address our environmental impacts, as well as set out which reporting criteria and standards we will use."
+Claims:
+- According to Company A's 2020 annual report, Company A stated that it would formulate a comprehensive group-wide environmental policy in 2021.
+- According to Company A's 2020 annual report, the comprehensive group-wide environmental policy that Company A stated it would formulate in 2021 was intended to identify Company A's environmental impacts.
+- According to Company A's 2020 annual report, the comprehensive group-wide environmental policy that Company A stated it would formulate in 2021 was intended to address Company A's environmental impacts.
+- According to Company A's 2020 annual report, Company A stated that it would set out in 2021 which reporting criteria it would use.
+- According to Company A's 2020 annual report, Company A stated that it would set out in 2021 which reporting standards it would use.
+The year 2021 modifies the intended action. "Company A planned in 2021" would instead date the planning and is not an equivalent rendering. The policy is not the actor that sets the reporting criteria.
+
+B. A component's membership in a combined target, with every defining parameter
+Text: "Company A aims to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020. The Scope 2 component covers market-based and location-based emissions."
+Claims:
+- Company A aims to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020.
+- The Scope 2 component of Company A's target to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020 covers market-based emissions.
+- The Scope 2 component of Company A's target to reduce combined absolute Scope 1 and Scope 2 plant emissions by 40% by 2035 compared with 2020 covers location-based emissions.
+Do not shorten the children to "Company A's Scope 2 target" or assert an independent 40% Scope 2 reduction target. If the source does not establish that a component belongs to a particular target, preserve that ambiguity rather than attaching guessed parameters.
+
+C. Target calculation and downstream reference
+Text: "During 2022, Company A progressed targets aligned with a 1.5-degree trajectory. The targets were calculated for the combined A and B business using a 2019 baseline and submitted for verification. These targets provide the basis for lower-carbon operations and green-energy use."
+Claims:
+- During 2022, Company A progressed targets aligned with a 1.5-degree trajectory.
+- Company A's targets progressed during 2022 and aligned with a 1.5-degree trajectory were calculated for the combined A and B business using a 2019 baseline.
+- Company A's targets progressed during 2022, aligned with a 1.5-degree trajectory and calculated for the combined A and B business using a 2019 baseline were submitted for verification.
+- Company A's targets progressed during 2022, aligned with a 1.5-degree trajectory and calculated for the combined A and B business using a 2019 baseline provide the basis for lower-carbon operations.
+- Company A's targets progressed during 2022, aligned with a 1.5-degree trajectory and calculated for the combined A and B business using a 2019 baseline provide the basis for green-energy use.
+
+D. Unresolved reference without an invented referent type
+Text: "This will provide immediate and long-term initiatives and processes for all business areas."
+Claims:
+- "This" will provide immediate initiatives for all business areas.
+- "This" will provide long-term initiatives for all business areas.
+- "This" will provide immediate processes for all business areas.
+- "This" will provide long-term processes for all business areas.
+Each claim records that the antecedent of "This" is absent. Do not replace it with "an initiative", "a plan" or an imagined referent. Add report attribution only if the real source supplies it.
+
+E. Complete scope inside each method claim
+Text: "Company A's greenhouse gas figures and life-cycle indicators covering Scope 1, Scope 2 and selected Scope 3 emissions are recorded and published under Standard X."
+Claims:
+- Company A's greenhouse gas figures covering Scope 1, Scope 2 and selected Scope 3 emissions are recorded under Standard X.
+- Company A's greenhouse gas figures covering Scope 1, Scope 2 and selected Scope 3 emissions are published under Standard X.
+- Company A's life-cycle indicators covering Scope 1, Scope 2 and selected Scope 3 emissions are recorded under Standard X.
+- Company A's life-cycle indicators covering Scope 1, Scope 2 and selected Scope 3 emissions are published under Standard X.
+
+F. A table classification is substantive; a navigation entry is not
+Text: "Company: A. Category = Environment; Issue = Our contribution to climate change; Goal = Cut carbon footprint by 10% by 2030."
+Claims include "Company A classifies its contribution to climate change as an environmental issue" and "Company A has a goal to cut its carbon footprint by 10% by 2030". Record an unspecified baseline where material. Conversely, "GRI 305-1: page 42" is document navigation and belongs in unextracted_spans.
+
+
+G. Boundary identity inside each membership assertion
+Text: "Historically, Company A consolidated its organisational boundary under the operational-control approach, including all its operations and sites."
+Claims:
+- Historically, Company A consolidated its organisational boundary under the operational-control approach.
+- Historically, Company A's operational-control organisational boundary included all its operations.
+- Historically, Company A's operational-control organisational boundary included all its sites.
+A membership child saying only "Company A's organisational boundary" loses the consolidation approach that identifies this boundary.
+
+SOURCE-TO-DRAFT AUDIT
+Read every original source clause, bullet and identifiable table observation. Map its propositions to the draft, then inspect every draft claim in isolation. Edit an actual omission, distortion, non-atomic claim or unresolved/incorrect context; keep valid material. An unchanged claim is not assumed valid merely because it is in the draft.
+
+1. Resolve the actual actor and modifier attachment independently for each predicate. An action coordinated with the company's drafting of a policy belongs to the company, not automatically the policy. In 'will continue to monitor laws and will update policies and conduct training as appropriate', continue governs monitoring; do not extend it to updates/training. Do not attach as appropriate to monitoring merely to share wording. If modifier attachment is genuinely ambiguous, preserve the source's wording and record competing readings instead of asserting one reading that a note retracts.
+2. Use unambiguous document context to identify an implicit corporate actor, not only explicit pronouns. If the disclosure clearly concerns Company A, its otherwise unassigned emissions, policy and Board statements should name Company A. Keep explicit source names such as a subsidiary, business unit or legal entity literal; never expand a named entity into the parent from metadata. An ambiguity note is for genuine competing referents, not a substitute for reading the whole source.
+3. Resolve then, this process, those products, this rise, the boundary and the responsible member whenever the source identifies the antecedent. Carry the full relevant identity into each child. Source attribution identifies a report, not the actor or boundary. Separate coverage claims do not substitute for scope inside a recording/publication claim.
+4. Keep statement time, action time, measurement period, baseline and deadline distinct. A source/report year or task year cannot fill a missing event date. A heading/paragraph date can govern its claims without being repeated in every source sentence. If scope is genuinely ambiguous, retain that ambiguity. In particular, 'No absolute emissions value was provided in the evidence' must not become a Scope 1 or current-year-only absence just because a neighbouring positive assertion uses that scope. Record competing metric/time readings when warranted.
+5. Split independent predicates and distributive lists while preserving each child's own qualifiers. 'Figures and indicators are recorded and published under Standard X, covering scopes A, B and selected C' has four method assertions, each retaining the measurement coverage. 'Metric M: 2021=8, 2022=9' has two observations, not one sequence claim. Unresolved table years do not prevent separate identified metric/value observations; preserve source column position and flag unmapped dimensions. Two equal independent values are not a joint total. Combined Scope 1/2 reduction targets remain combined. Never distribute a joint target or total into identical independent component targets.
+6. Preserve source commitment strength. 'Completed an inventory to identify hotspots' asserts completion and purpose; it does not by itself assert that the inventory was actually used to identify hotspots. Submission is not approval; intention is not execution; an implementation percentage is not automatically a measured emissions reduction. Keep explicit causal/temporal/comparative relationships alongside separately asserted events, without adding an aggregate conjunction that merely duplicates its children.
+7. Keep identifiable measurements even if a unit/year/column association is damaged. Retain the literal damaged unit in claim_text and explain the damage; do not silently repair or omit it. A bare number under an unnamed column without any identifiable metric is unextractable. A company's issue classification is substantive even when represented by a table label. A GRI navigation/index mapping, bare heading or processing note is not a substantive corporate claim. A truncated sentence may still contain a complete assertion: recover it and exclude only the unusable remainder. Expected announcements are prospective assertions, not automatically disposable promotion.
+8. Uncertainty notes must agree with the assertion. Missing dates, definitions and antecedents should be flagged precisely where interpretation depends on them; do not manufacture uncertainty about an unambiguous company or governing heading. Preserve genuine source ambiguity without choosing a definite narrowing in claim_text.
+
+ADDITIONAL CHECKS ON THE RECONSTRUCTED FINAL INVENTORY
+- A report year, or a date limited to a neighbouring boundary-change event, does not alone establish the measurement period of an emissions amount. If the source supplies no governing measurement period, remove a definite inserted year and record the genuine uncertainty. Do not undo a clear governing measurement heading.
+- Compare source lists with all retained/replaced/added claims. If the source independently distributes immediate, short-term and long-term over both initiatives and processes, all six combinations need representation. Do not silently omit a last list member.
+- A target-related metric still refers to its target: when the source uniquely gives the combined-business scope and baseline, retain those in each metric child. For example, "Company A's 2022 target metric for the combined A and B business, using a 2019 baseline, was 60% for metric M" retains context that "Company A's 2022 metric was60%" loses. Do not invent an undefined meaning for that percentage.
+- Preserve correct distinctions already in the draft: a component of a joint Scope1/2target remains a component, never an identical standalone component target. Keep source names literal. Do not change Mercedes-Benz or a subsidiary into a Group name from metadata.
+- Inspect broad absence assertions for genuine competing period and metric scope; preserving broad wording is necessary but an unresolved ambiguity also requires its note. An explicit heading or unique antecedent can resolve scope; mere adjacency need not.
+- Do not make stylistic edits or replace a correct claim just to show review activity. Make every replacement as source-faithful and self-contained as the worked examples. A note must not compensate for an unsupported definite narrowing.
+
+PROPOSITION BOUNDARIES AND COLLECTIVE RELATIONSHIPS
+A claim is defined by the proposition, not its page position. A heading such as "High standard of climate reporting established" asserts an achievement and must be retained with the applicable company and source attribution. A title such as "Climate reporting" asserts no achievement. Taxonomy column headings such as "Substantial contribution: Climate mitigation; DNSH: Climate mitigation" do not establish a company's criterion value, compliance or performance; exclude the layout unless an actual activity and substantive value are supplied. Inspect draft exclusions for recoverable assertions as well as draft claims for false assertions.
+
+Distribution requires the source to license each child separately. "The initiative is jointly run by A, B and C" is one joint relationship: preserve all three participants. Do not write three claims that the initiative is a joint initiative of A alone, B alone or C alone. Likewise, if reimbursement supports commuting and remote meetings address business travel, a summary that these measures address commuting/travel through incentives/guidance does not assert all four mechanism-by-impact combinations. Preserve the stated collective relationship and the separately established pairings. A combined target/total stays combined; by contrast, "Scope 1 and Scope 2 are calculated under Standard X" applies the method to each scope and has two method assertions. A comparative sentence can contain two independently stated observations plus the comparison; retain the observations without losing the comparison.
+
+A correct claim elsewhere in the inventory cannot supply missing context to a shortened child. Carry the explicitly stated financial/operational-control boundary into each coverage assertion, the known target/policy/calculation identity into each dependent claim, and a governing approximation into every value it modifies. Preserve source ambiguity when the attachment is genuinely unclear, rather than making a definite unsupported assignment.
+
+EDIT CONTRACT
+The dynamic input includes draft_extraction and draft_claim_index. The index gives an explicit immutable claim_id beside the exact text of every original claim. Use those supplied IDs; do not count array positions, invent IDs or address a replacement by its new position.
+
+Each edit contains replaces, claims and reason. Each replaces entry must contain the supplied claim_id and expected_claim_text copied exactly from that same index entry. A claim ID whose old text does not match will cause the entire patch to be rejected. This check prevents a savings edit from accidentally replacing an adjacent expenditure claim. Before returning, read the addressed old text, replacement and reason together: they must refer to the intended proposition. Refer to an original claim only once across all edits. To split a compound claim, identify its one ID and provide complete replacements. To repair several related originals, identify each ID once. Add genuinely missing assertions through additions. Unmentioned claims are retained byte-for-byte. Repeated source occurrences remain distinct IDs.
+
+Each replacement/addition must be a complete flat claim with exact source_quotes and unresolved_context. The reason must describe the source-grounded defect. Do not replace valid text for style. Deletion is an empty claims array and is justified only for a non-claim, invented assertion or redundant representation of the same occurrence.
+
+exclusion_update=null preserves all existing draft unextracted_spans. Use an object with a complete replacement unextracted_spans array and a nonempty reason only when exclusions actually need correction. An empty replacement array explicitly clears all exclusions and needs justification. Recover a substantive heading by adding its claim and removing that heading from the exclusions. Do not silently discard unchanged processing-note, navigation or truncated-fragment traces. No source assertion may be both represented as a claim and excluded as non-substantive.
+
+Check source-to-final completeness and final-to-source fidelity. Inspect original exclusions too. Read every final claim in isolation for its entity, local modifier, full antecedent identity, period, metric basis and unit. Return only schema-conforming JSON.
+
+EVIDENCE INPUT ROLES
+Original Text supplies substantive assertions. The complete visible Evidence section may resolve an explicit antecedent or footnote, but each claim must be asserted by its own record. Do not import a similar measurement or calculate across records. Visible source labels and Text can identify the speaker and source report; opaque identifiers supply no facts. Resolve an explicit 'this year' from a uniquely identified report year, not the task year.
+
+The draft already uses report attribution. Preserve the correct source-report context in every replacement and addition. Never remove an existing correct attribution to simplify a claim. No program will add missing attribution for this pass. Correct action/measurement dates and entity/object identity from the source. Tracker indicators retain their actual reporting year, literal indicator and value/unit; do not recast a percentage as an achieved reduction.
+
+Return every draft prompt_label in order, including unchanged records. Each evidence_results item contains prompt_label, edits, additions and exclusion_update. Claims quote exact passages from that record's Text; do not invent Text quotes for source-label metadata. The full draft_extraction is an untrusted first-pass output, not a reference answer.

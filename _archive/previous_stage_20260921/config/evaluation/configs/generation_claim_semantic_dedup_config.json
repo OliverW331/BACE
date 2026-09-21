@@ -1,0 +1,49 @@
+{
+  "schema_version": "generation_claim_semantic_dedup_config_v1",
+  "status": "pilot_ready",
+  "current_primary_model": "azure_gpt_5_6_sol",
+  "current_primary_model_env": "CLAIM_DEDUP_MODEL_KEY",
+  "models": {
+    "azure_gpt_5_6_sol": {
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": null,
+      "deployment_name_env": "CLAIM_DEDUP_AZURE_OPENAI_DEPLOYMENT",
+      "provider": "azure_openai",
+      "api_style": "responses",
+      "auth_type": "api_key",
+      "endpoint_env": "CLAIM_DEDUP_AZURE_OPENAI_ENDPOINT",
+      "api_key_env": "CLAIM_DEDUP_AZURE_OPENAI_API_KEY",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    }
+  },
+  "prompt": {
+    "file": "../prompts/generation_claim_semantic_dedup_prompt_v1.txt",
+    "version": "generation_claim_semantic_dedup_prompt_v1",
+    "sha256": "b8cf89420645eebbd2b33da73af33b5f736f71ad46e212a520d67eafcf7c886e"
+  },
+  "response_schema": {
+    "file": "../schemas/generation_claim_semantic_dedup_response_schema_v1.json",
+    "version": "generation_claim_semantic_dedup_response_v1",
+    "sha256": "d88d88577996dde1aeabc2da5e83a816c381085b6cb9c21d9c1ea0f557686201",
+    "structured_output_name": "generation_claim_semantic_dedup_response_v1",
+    "strict": true
+  },
+  "deduplication": {
+    "exact_normalization": "unicode_nfkc_casefold_whitespace_v1",
+    "semantic_equivalence": "mutual_entailment_same_truth_conditions_v1",
+    "max_claim_units_per_case_and_kind": 400
+  },
+  "runtime": {
+    "request_timeout_seconds": 600,
+    "max_network_retries": 4,
+    "max_invalid_output_retries": 2,
+    "retry_initial_seconds": 2,
+    "retry_max_seconds": 60
+  }
+}

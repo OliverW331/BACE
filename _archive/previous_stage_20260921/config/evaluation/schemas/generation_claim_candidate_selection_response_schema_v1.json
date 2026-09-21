@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation_claim_candidate_selection_response_v1",
+  "title": "Generation claim candidate selection response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "dc_claim_id": {
+      "type": "string"
+    },
+    "candidate_ec_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "dc_claim_id",
+    "candidate_ec_ids"
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "schema_version": "retrieval_query_bundle_templates_v1",
+  "config_version": "retrieval_query_bundle_templates_e1_s1_g1_draft_v1",
+  "status": "draft_for_expanded_retrieval_sanity_check",
+  "freeze_date": null,
+  "design_principles": {
+    "query_role": "Evidence-seeking representation of task information needs, not a writing instruction.",
+    "runtime_llm_query_rewriting_allowed": false,
+    "query_templates_manually_authored_and_version_controlled": true,
+    "multi_subquery_rule": "Use two or three task-specific subqueries when the ESRS task contains separable evidence needs such as strategy, actions, targets, numeric metrics, methodology, or boundary information.",
+    "hard_filter_rule": "Company, package-manifest source-year window, and eligible evidence types must be enforced before retrieval ranking; they must not be left to query text alone.",
+    "forbidden_query_content": [
+      "paragraph length",
+      "professional tone",
+      "write a disclosure",
+      "citation instructions",
+      "final output formatting"
+    ]
+  },
+  "methodological_basis": [
+    {
+      "key": "lewis_et_al_2020_rag",
+      "role": "Supports retrieval and generation as distinct stages and explicit non-parametric evidence access."
+    },
+    {
+      "key": "chatreport_ni_et_al_2023",
+      "role": "Sustainability-report LLM system emphasizing traceability and hallucination mitigation."
+    },
+    {
+      "key": "climretrieve_schimanski_et_al_2024",
+      "role": "Domain-specific evidence retrieval from corporate climate disclosures."
+    },
+    {
+      "key": "gao_et_al_2023_hyde",
+      "role": "Supports the value of query transformation for zero-shot dense retrieval; this thesis uses deterministic manual query templates instead of runtime LLM rewriting."
+    },
+    {
+      "key": "ma_et_al_2023_rewrite_retrieve_read",
+      "role": "Supports explicit query rewriting as a separate RAG stage; this thesis freezes the rewrite as version-controlled templates."
+    },
+    {
+      "key": "sahoo_et_al_2024_prompt_engineering_survey",
+      "role": "Supports prompts as task-specific instructions controlling model behavior without changing model parameters."
+    },
+    {
+      "key": "robertson_zaragoza_2009_bm25",
+      "role": "Lexical retrieval baseline and probabilistic relevance framework."
+    },
+    {
+      "key": "karpukhin_et_al_2020_dpr",
+      "role": "Dense passage retrieval as vector-based query-passage matching."
+    },
+    {
+      "key": "thakur_et_al_2021_beir",
+      "role": "Heterogeneous retrieval benchmark showing BM25 as robust baseline and the need for diagnostics across retrieval families."
+    },
+    {
+      "key": "cormack_clarke_buettcher_2009_rrf",
+      "role": "Unsupervised rank fusion method for combining ranked lists from multiple IR systems."
+    }
+  ],
+  "placeholders": [
+    "{company_name}",
+    "{target_reporting_year}",
+    "{esrs_reference}",
+    "{task_name}",
+    "{expected_evidence_content}",
+    "{query_facets}"
+  ],
+  "templates": {
+    "E1-1_transition_plan": [
+      {
+        "subquery_id": "Q1_transition_plan_strategy",
+        "evidence_need": "transition-plan existence, strategy content, implementation status, and alignment evidence",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: transition plan existence, climate transition strategy, decarbonisation roadmap, implementation status, 1.5C alignment, Paris alignment, and science-based alignment only where explicitly evidenced. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "over-claiming that a transition plan exists",
+          "unsupported 1.5C or Paris-alignment claim",
+          "planned versus implemented confusion"
+        ]
+      },
+      {
+        "subquery_id": "Q2_targets_actions_investments",
+        "evidence_need": "targets, decarbonisation levers, supporting actions, governance, and resource evidence",
+        "template": "Find evidence for {company_name} for target reporting year {target_reporting_year} about climate targets linked to transition planning, decarbonisation levers, climate actions, governance, resources, investment, CapEx, OpEx, and implementation measures relevant to {esrs_reference}. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "unsupported investment or resource claim",
+          "overly positive framing of transition-plan credibility"
+        ]
+      }
+    ],
+    "E1-3_actions_resources": [
+      {
+        "subquery_id": "Q1_actions_implementation",
+        "evidence_need": "climate actions, mitigation/adaptation measures, and implementation status evidence",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: climate actions, mitigation measures, adaptation actions, energy efficiency initiatives, renewable energy measures, implementation status, planned actions, completed actions, and action outcomes. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "planned versus completed action confusion",
+          "exaggerated scale of action"
+        ]
+      },
+      {
+        "subquery_id": "Q2_resources_outcomes",
+        "evidence_need": "resources, investments, CapEx/OpEx, and achieved or expected outcome evidence",
+        "template": "Find evidence for {company_name} for target reporting year {target_reporting_year} about resources allocated to climate actions, investment, CapEx, OpEx, expected GHG reductions, achieved GHG reductions, operational changes, and action-related reporting boundaries relevant to {esrs_reference}. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "unsupported causal claims about actions causing emission reductions",
+          "unsupported achieved or expected reduction claim",
+          "unsupported resource or investment claim"
+        ]
+      }
+    ],
+    "E1-4_targets": [
+      {
+        "subquery_id": "Q1_target_baseline_scope",
+        "evidence_need": "target definition, baseline, target year, covered scopes, target type, and boundary evidence",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: climate targets, GHG reduction targets, baseline year, target year, covered Scope 1, Scope 2, Scope 3, absolute target, intensity target, target boundary, and target period. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "target year and reporting year confusion",
+          "missing or incorrect baseline year",
+          "unclear scope or boundary coverage"
+        ]
+      },
+      {
+        "subquery_id": "Q2_target_progress_validation",
+        "evidence_need": "target progress, target status, SBTi/science-based/external validation evidence",
+        "template": "Find evidence for {company_name} for target reporting year {target_reporting_year} about progress against climate targets, target status, progress indicators, baseline comparison, SBTi validation, science-based target claims, or external validation only where explicitly evidenced, relevant to {esrs_reference}. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "unsupported target progress claim",
+          "unsupported SBTi, science-based, or external validation claim"
+        ]
+      }
+    ],
+    "E1-6_ghg_emissions": [
+      {
+        "subquery_id": "Q1_numeric_ghg_metrics",
+        "evidence_need": "numeric Scope 1, Scope 2, Scope 3, total GHG, unit, and reporting-year evidence",
+        "template": "Find company-specific numeric evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: Scope 1 GHG emissions, Scope 2 GHG emissions, Scope 3 GHG emissions, total GHG emissions, CO2e, tCO2e, value, unit, and reporting year. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "numeric error",
+          "unit error",
+          "wrong reporting year",
+          "incomplete total emissions"
+        ]
+      },
+      {
+        "subquery_id": "Q2_methodology_boundary",
+        "evidence_need": "GHG methodology, organizational boundary, operational boundary, and Scope 2 method evidence",
+        "template": "Find evidence for {company_name} for target reporting year {target_reporting_year} about GHG emissions methodology, organizational boundary, operational boundary, consolidation approach, Scope 2 market-based method, Scope 2 location-based method, emissions calculation method, and reporting boundary relevant to {esrs_reference}. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "Scope 2 market-based versus location-based confusion",
+          "boundary confusion"
+        ]
+      },
+      {
+        "subquery_id": "Q3_structured_metric_sources",
+        "evidence_need": "CSV metric and PDF table-row evidence for GHG emissions",
+        "template": "Find structured CSV metric evidence and PDF table-row evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference}: Scope 1, Scope 2, Scope 3, total greenhouse gas emissions, emissions value, emissions unit, reporting year, CO2e, tCO2e, and GHG metric labels.",
+        "targeted_claim_risks": [
+          "numeric error",
+          "unit error",
+          "wrong reporting year"
+        ]
+      }
+    ],
+    "S1-1_workforce_policies": [
+      {
+        "subquery_id": "Q1_workforce_policy_content",
+        "evidence_need": "adopted labour, human-rights and workforce policies",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: workforce policies, labour rights, non-discrimination, equal opportunities, diversity and inclusion, forced and child labour commitments, and occupational safety policies. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "policy commitment versus implementation",
+          "own workforce versus value-chain workers"
+        ]
+      },
+      {
+        "subquery_id": "Q2_policy_scope_procedures",
+        "evidence_need": "covered worker groups and policy implementation procedures",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: policy adoption, covered employee and non-employee groups, geographic and entity boundaries, implementation procedures, and international-instrument alignment only where explicitly evidenced. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "unsupported group-wide coverage",
+          "unsupported alignment claim"
+        ]
+      }
+    ],
+    "S1-4_workforce_actions_resources": [
+      {
+        "subquery_id": "Q1_workforce_actions_status",
+        "evidence_need": "workforce actions and their implementation status",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: actions taken, underway or planned for workforce development, reskilling, occupational safety, wellbeing, inclusion, restructuring support and remediation. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "planned versus completed action",
+          "unsupported action scope"
+        ]
+      },
+      {
+        "subquery_id": "Q2_resources_effectiveness",
+        "evidence_need": "workforce resources and tracking of action effectiveness",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: resources allocated to workforce actions, programme scope, implementation dates, methods for assessing effectiveness, and achieved or expected outcomes. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "unsupported resource allocation",
+          "unsupported causal improvement"
+        ]
+      }
+    ],
+    "S1-5_workforce_targets": [
+      {
+        "subquery_id": "Q1_workforce_target_definition",
+        "evidence_need": "target metrics, time horizons and workforce boundaries",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: time-bound workforce targets, diversity and safety targets, target values, baseline values and years, target dates, covered employee groups and geographic boundaries. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "ambition versus measurable target",
+          "wrong target population"
+        ]
+      },
+      {
+        "subquery_id": "Q2_target_progress_participation",
+        "evidence_need": "progress, target revisions and worker participation",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: progress against workforce targets, current measurements, revisions to targets or metric definitions, and worker or representative involvement in setting or monitoring targets where explicitly evidenced. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "current result versus future target",
+          "invented baseline or worker participation"
+        ]
+      }
+    ],
+    "S1-14_health_safety_metrics": [
+      {
+        "subquery_id": "Q1_safety_counts_rates",
+        "evidence_need": "work-related fatalities, accidents, ill health and lost days",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: work-related fatalities, recordable accident counts and rates, work-related ill health, lost working days, reporting year and worker categories. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "accident versus fatality count",
+          "missing value versus zero"
+        ]
+      },
+      {
+        "subquery_id": "Q2_safety_definitions_boundaries",
+        "evidence_need": "safety metric definitions, denominators and worker boundaries",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: lost-time injury rates, total recordable injury rates, high-severity injury rates, hours worked, rates per 200000 or 1000000 hours, and employee, non-employee and contractor scope. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "incompatible accident metrics",
+          "incorrect rate denominator or worker population"
+        ]
+      },
+      {
+        "subquery_id": "Q3_safety_system_coverage",
+        "evidence_need": "management-system coverage and supporting metric tables",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: health and safety management-system coverage, headcount denominators, site-level audits or certifications, and PDF tables or structured metric evidence for workforce safety. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "site certification versus group-wide coverage",
+          "headcount versus full-time equivalents"
+        ]
+      }
+    ],
+    "G1-1_business_conduct_policies": [
+      {
+        "subquery_id": "Q1_conduct_policy_culture",
+        "evidence_need": "conduct policies, ethical commitments and corporate culture",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: code of conduct, business ethics policies, anti-corruption policy commitments, corporate culture development and assessment, responsibilities and policy-training approach. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "policy existence versus effectiveness",
+          "unsupported culture assessment"
+        ]
+      },
+      {
+        "subquery_id": "Q2_reporting_protection_scope",
+        "evidence_need": "reporting channels, whistleblower protection and policy scope",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: internal and external concern-reporting channels, confidential or anonymous reporting, protection against retaliation, policy coverage and animal-welfare policies where applicable. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "confidentiality versus anonymity",
+          "hotline operation versus investigator independence"
+        ]
+      }
+    ],
+    "G1-2_supplier_relationships": [
+      {
+        "subquery_id": "Q1_supplier_selection_assessment",
+        "evidence_need": "supplier relationship management, selection and risk assessment",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: supplier selection, social and environmental criteria, procurement risks, supplier codes, screening, audits, assessments and covered supplier populations. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "assessment versus compliance",
+          "supplier-count versus spend coverage"
+        ]
+      },
+      {
+        "subquery_id": "Q2_supplier_development_payments",
+        "evidence_need": "supplier development and late-payment prevention policies",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: supplier engagement, corrective actions, procurement training, supplier development, fair procurement and policies to prevent late payments, especially to small and medium suppliers. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "industry-initiative totals versus company activity",
+          "payment policy versus payment performance"
+        ]
+      }
+    ],
+    "G1-3_anti_corruption_controls": [
+      {
+        "subquery_id": "Q1_prevention_investigation",
+        "evidence_need": "prevention, detection, investigation and governance reporting",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: anti-corruption and anti-bribery risk assessments, prevention and detection procedures, handling allegations, independence from implicated management and reporting outcomes to governing bodies. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "unsubstantiated independent investigation",
+          "control existence versus effectiveness"
+        ]
+      },
+      {
+        "subquery_id": "Q2_anti_corruption_training",
+        "evidence_need": "anti-corruption policy communication and training coverage",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: anti-corruption and anti-bribery training content, target groups, functions at risk, governing-body training, participation counts, hours, completion and coverage denominators. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "general compliance versus anti-corruption training",
+          "participants versus completions or hours"
+        ]
+      }
+    ],
+    "G1-4_corruption_bribery_incidents": [
+      {
+        "subquery_id": "Q1_convictions_fines",
+        "evidence_need": "corruption and bribery convictions, fines and reporting-period outcomes",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: convictions for violation of anti-corruption and anti-bribery laws, fines, currencies, reporting periods and legal-case outcomes. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "allegation versus conviction",
+          "wrong period or currency"
+        ]
+      },
+      {
+        "subquery_id": "Q2_incidents_status",
+        "evidence_need": "reported allegations, investigations and confirmed incidents",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: corruption or bribery allegations, investigations, confirmed incidents, case status, outcomes and explicit statements of zero or absence with their stated scope. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "alleged versus confirmed incident",
+          "missing evidence versus explicit zero"
+        ]
+      },
+      {
+        "subquery_id": "Q3_incident_linked_actions",
+        "evidence_need": "actions addressing breaches and corruption-linked consequences",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}: actions addressing breaches in anti-corruption procedures, corruption-linked disciplinary measures, dismissals, business-partner contract terminations and the population or cases to which these outcomes relate. Evidence concepts: {expected_evidence_content}.",
+        "targeted_claim_risks": [
+          "general compliance outcomes versus corruption outcomes",
+          "people counts versus incident counts"
+        ]
+      }
+    ],
+    "default": [
+      {
+        "subquery_id": "Q1_task_evidence",
+        "evidence_need": "task-specific evidence",
+        "template": "Find company-specific evidence for {company_name} for target reporting year {target_reporting_year} related to {esrs_reference} {task_name}. Evidence concepts: {expected_evidence_content}. Query facets: {query_facets}.",
+        "targeted_claim_risks": [
+          "general unsupported claim"
+        ]
+      }
+    ]
+  }
+}
