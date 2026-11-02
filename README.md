@@ -1,9 +1,13 @@
 # BACE main experiment and results
 
+BACE expands to **Bidirectional Atomic Claim Evaluation**. The author-confirmed
+terminology correction is dated 2 November 2026; it changes the name, not the
+frozen methods or saved results.
+
 This repository contains the frozen BACE main experiment and its saved,
-descriptive results. Follow-up studies, manuscript preparation, writing skills,
-the review prototype and previous-stage archives are not part of the tracked
-repository. Their existing local files are preserved.
+descriptive results. Follow-up studies, manuscript preparation, AI-agent
+instructions and skills, the review prototype and previous-stage archives are
+not part of the tracked repository. Their existing local files are preserved.
 
 ## Repository map
 
@@ -25,14 +29,21 @@ repository. Their existing local files are preserved.
 - [Failure patterns](BACE/analysis/outputs/02_failure_patterns.html).
 - [Native evaluator comparison](BACE/analysis/outputs/03_evaluator_comparison.html).
 
-The saved snapshot records 1,800 planned cases, 1,798 BACE-complete cases and two
-failures. The execution record remains `incomplete`; the paired analysis does
-not silently treat the two missing cases as zero scores. See the linked status
-and snapshot manifests for the underlying records.
+Result status checked on 2 November 2026: the saved snapshot records 1,800
+planned cases. Generation, RAGChecker and RAGAS are complete for all 1,800;
+BACE is complete for 1,798, with two failures. The execution record remains
+`incomplete`; paired comparisons use the 1,798 common completed cases and do
+not treat missing BACE outcomes as zero scores. See the linked status and
+snapshot manifests for the underlying records.
+
+Readiness records describe preparation and pilot acceptance, not main-run
+completion. The frozen protocol's statement that the next main invocation
+starts from scratch describes an earlier scheduling revision, not the current
+saved run. The separate main-experiment report does not change the execution
+record or establish completed human validation.
 
 ## Working boundaries
 
-- Follow [project instructions](AGENTS.md) and any more-specific `AGENTS.md`.
 - Do not alter frozen protocols, prompts, model settings, environments or saved
   experiment outputs during writing or repository maintenance.
 - Treat support as conditional on the supplied evidence, not external truth,

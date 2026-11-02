@@ -2,7 +2,11 @@
 
 ## 1. Purpose
 
-This document defines the diagnostic stage in **BACE (Boundary-Aware Claim Evaluation)**, applied after candidate selection and claim support assessment. It explains why a Disclosure Claim (DC) is unsupported by the candidate Evidence Claims (ECs) available within the same generation case. The complete framework is defined in [BACE: Boundary-Aware Claim Evaluation](generation_evaluation.md).
+This document defines the diagnostic stage in **BACE (Bidirectional Atomic Claim Evaluation)**, applied after candidate selection and claim support assessment. It explains why a Disclosure Claim (DC) is unsupported by the candidate Evidence Claims (ECs) available within the same generation case. The complete framework is defined in [BACE: Bidirectional Atomic Claim Evaluation](generation_evaluation.md).
+
+Terminology corrected on 2 November 2026 following the author-confirmed
+[main-report correction](../paper/reports/main_experiment_2026-11-02/README.md).
+Frozen prompts, configuration, diagnosis rules and saved results are unchanged.
 
 Diagnosis is performed only for DCs whose support assessment returns an empty `support_sets` array. It does not replace candidate selection, repeat support-set construction, or evaluate external truth.
 

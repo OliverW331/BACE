@@ -3,9 +3,10 @@
 Evidence checked: 2 November 2026. Scope: the frozen `main_v1` experiment only.
 
 Terminology correction, 2 November 2026: the author confirms that BACE expands
-to **Bidirectional Atomic Claim Evaluation**. The report uses this full name;
-the frozen experiment documentation is left unchanged. No methods or results
-change with this correction.
+to **Bidirectional Atomic Claim Evaluation**. The report and current repository
+README/framework explanations use this full name. Frozen protocols, prompts,
+configuration and saved experiment artifacts are left unchanged. No methods or
+results change with this correction.
 
 Concept-definition revision, 2 November 2026: expanded the operational claim,
 context, deduplication, candidate, support, diagnosis and metric definitions
@@ -24,7 +25,19 @@ separated from observations; no generation or evaluation is rerun.
 - `provenance.json`: hashes, execution identity, verification scope and limits.
 - `concept_provenance.json`: exact prompt/schema/config paths, hashes, versions, source-section locators and report uses for the operational definitions.
 - `upstream_README.md`, `upstream_source.json`: a pinned public upstream description and its source locator; not proof of local/remote dataset identity.
-- `render_manifest.json`, `validation_report.json`, `review/concept_definitions_final/`: current rendering hashes, validation record and PDF inspection artifacts. Earlier preview folders retain draft renders.
+- `render_manifest.json`, `validation_report.json`: hashes and validation records for the saved rendering, including the recorded local visual inspection.
+
+The PDF inspection files under `review/concept_definitions_final/` and earlier
+draft-preview directories remain local and are not included in Git. The saved
+validation receipt records an inspection of those local files; it does not mean
+the preview files are downloadable from this repository.
+
+`upstream_README.md` is preserved byte-for-byte as a cited upstream source, not
+as BACE's own reproduction guide. Its references to "this repository", relative
+links (including the GUIDE-LLM checklist) and Quarto/R commands belong to the
+upstream dataset repository. Those linked files are not included in BACE. Use
+the pinned upstream source locator in `upstream_source.json` to interpret that
+document; use the BACE experiment/analysis READMEs for this experiment.
 
 ## Reproduction
 

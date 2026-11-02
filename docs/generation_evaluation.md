@@ -1,8 +1,13 @@
-# BACE: Boundary-Aware Claim Evaluation
+# BACE: Bidirectional Atomic Claim Evaluation
 
 ## 1. Purpose
 
-This document defines **BACE (Boundary-Aware Claim Evaluation)**, the canonical generation evaluation framework for the project. BACE evaluates one generated sustainability disclosure at a time by reconstructing the claim-level support relationship between the evidence supplied to the generator and the claims produced in the disclosure.
+This document defines **BACE (Bidirectional Atomic Claim Evaluation)**, the canonical generation evaluation framework for the project. BACE evaluates one generated sustainability disclosure at a time by reconstructing the claim-level support relationship between the evidence supplied to the generator and the claims produced in the disclosure.
+
+The full name was corrected on 2 November 2026 following the author-confirmed
+terminology in the [main-report README](../paper/reports/main_experiment_2026-11-02/README.md).
+This documentation correction does not change the frozen protocol, operational
+prompts, configuration, metric definitions or saved results.
 
 The central question is:
 
@@ -290,11 +295,11 @@ $$
 
 It measures the proportion of all deduplicated Evidence Claims supplied to the generator that contribute to at least one Disclosure Claim.
 
-No task-relevance or usability screening is applied to the denominator. Task relevance and evidence-card usability are already evaluated in the separate retrieval evaluation through the Contribution and Usability dimensions. Reapplying those judgments here would duplicate retrieval evaluation and blur the boundary between retrieval and generation analysis.
+No task-relevance or usability screening is applied to the denominator. Contribution and Usability belong to a separate retrieval-evaluation framework; the published BACE main experiment does not establish them as completed measurements. They do not determine EC membership or the ECCR denominator. Keeping these judgments separate preserves the boundary between retrieval and generation analysis.
 
-ECCR is therefore a **supplied-evidence utilization diagnostic**, not a monotonic generation-quality score. A low value may reflect irrelevant or unusable retrieval results, generator underuse of useful evidence, disclosure-length constraints, peripheral evidence, or the fact that a small subset of claims was sufficient for the task. These explanations should be investigated by combining generation results with the separate retrieval-evaluation outputs rather than by changing $E_d$ or the ECCR denominator.
+ECCR is therefore a **supplied-evidence utilization diagnostic**, not a monotonic generation-quality score. A low value may reflect irrelevant or unusable retrieval results, generator underuse of useful evidence, disclosure-length constraints, peripheral evidence, or the fact that a small subset of claims was sufficient for the task. Where independently verified retrieval-evaluation outputs are available, they may help investigate these explanations; the published main results alone do not establish them. Such investigation must not change $E_d$ or the ECCR denominator.
 
-Because every EC retains evidence-card provenance, supplementary cross-layer analyses may stratify EC utilization by the originating cards' Contribution and Usability labels. These retrieval labels are used only for post hoc interpretation; they never determine EC membership, support edges, or the ECCR denominator.
+Because every EC retains evidence-card provenance, a possible supplementary cross-layer analysis could stratify EC utilization by the originating cards' Contribution and Usability labels, if those labels were separately collected and verified. This is not a completed analysis established by the published main experiment. Such retrieval labels would be used only for post hoc interpretation; they would never determine EC membership, support edges, or the ECCR denominator.
 
 ## 9. Relationship-structure diagnostics
 

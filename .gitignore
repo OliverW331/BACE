@@ -2,7 +2,6 @@
 /*
 !/.gitignore
 !/README.md
-!/AGENTS.md
 !/BACE/
 !/docs/
 !/paper/
@@ -19,6 +18,13 @@
 !/paper/reports/main_experiment_2026-11-02/
 /paper/reports/main_experiment_2026-11-02/review/
 /paper/reports/main_experiment_2026-11-02/*.log
+
+# Keep AI-agent instructions and skills local, including nested copies.
+AGENTS.md
+SKILL.md
+.agents/
+.codex/
+skills/
 
 # Python
 .venv/

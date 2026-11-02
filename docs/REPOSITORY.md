@@ -6,7 +6,7 @@ Scope narrowed at the author's request on 2 November 2026.
 
 - Main-experiment implementation, tests, existing dependency locks and frozen
   protocol/configuration/prompt/schema records under `BACE/`.
-- Framework definitions under `docs/` and basic repository instructions.
+- Framework definitions under `docs/` and repository-scope documentation.
 - Main-run planned-case and execution records under `BACE/results/main_v1/`.
 - The original main sampling record, `BACE/evidence/sample/sample.json`.
 - Main notebooks 00–03, their analysis helpers and validation exporter code.
@@ -26,7 +26,10 @@ are not interchangeable; missing outcomes must remain missing.
 
 ## Excluded from tracking, preserved locally
 
-- `.agents/`, manuscript drafts, bibliography/literature maintenance, writing
+- AI-agent instruction files and skills: `AGENTS.md`, `SKILL.md`, `.agents/`,
+  `.codex/` and `skills/`, including nested copies. Scientific method documents,
+  experiment prompts and result documentation remain in scope.
+- Manuscript drafts, bibliography/literature maintenance, writing
   analyses, other paper reports and skill audits.
 - `prototypes/`, product-design documents, previous-stage `_archive/` material
   and historical framework-development notes.
