@@ -1,0 +1,31 @@
+company_id,company_name,company_slug,primary_sics_sector,country,classification_year,eligible,selected,missing_csv_year_count,missing_pdf_year_count
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,d_ieterengroup,Consumer Goods,Belgium,2023,True,True,0,0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,dufry,Consumer Goods,Switzerland,2023,True,True,0,0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,grafton_group,Consumer Goods,United Kingdom,2023,True,True,0,0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,omv,Extractives & Minerals Processing,Austria,2023,True,True,0,0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,subsea_7,Extractives & Minerals Processing,Norway,2023,True,True,0,0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,banco_bpm,Financials,Italy,2023,True,True,0,0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,deutsche_bank,Financials,Germany,2023,True,True,0,0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,intesa_sanpaolo,Financials,Germany,2023,True,True,0,0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,investec,Financials,United Kingdom,2023,True,True,0,0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,kinnevik,Financials,Sweden,2023,True,True,0,0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,mowi,Food & Beverage,Norway,2023,True,True,0,0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,nestle,Food & Beverage,Switzerland,2023,True,True,0,0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,diasorin,Health Care,Italy,2023,True,True,0,0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,genmab,Health Care,Denmark,2023,True,True,0,0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,cofinimmo,Infrastructure,Belgium,2023,True,True,0,0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,hera,Infrastructure,Italy,2023,True,True,0,0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,pennon,Infrastructure,United Kingdom,2023,True,True,0,0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,svenska_cellulosa,Renewable Resources & Alternative Energy,Sweden,2023,True,True,0,0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,covestro,Resource Transformation,Germany,2023,True,True,0,0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,evonik_industries,Resource Transformation,Germany,2023,True,True,0,0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,huhtamaki,Resource Transformation,Finland,2023,True,True,0,0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,mondi,Resource Transformation,United Kingdom,2023,True,True,0,0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,w_rtsil,Resource Transformation,Finland,2023,True,True,0,0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,intertek,Services,United Kingdom,2023,True,True,0,0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,inter_conti_nenta_l_hot_els_g_roup,Services,United Kingdom,2023,True,True,0,0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,asml,Technology & Communications,Netherlands,2023,True,True,0,0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,ses,Technology & Communications,France,2023,True,True,0,0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,sage,Technology & Communications,United Kingdom,2023,True,True,0,0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,air_france_klm,Transportation,France,2023,True,True,0,0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,continental,Transportation,Germany,2023,True,True,0,0

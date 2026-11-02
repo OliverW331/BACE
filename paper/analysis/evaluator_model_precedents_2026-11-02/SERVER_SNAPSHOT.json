@@ -1,0 +1,76 @@
+{
+  "inspection_date": "2026-11-02",
+  "memory_quota_disk_probe_timestamp": "2026-11-02T16:21:15+01:00",
+  "host": "stratus",
+  "scope": "Hardware and resources visible to the current shell; no remote GPU nodes were inspected",
+  "os": "openSUSE Leap 16.0",
+  "kernel": "6.12.0-160000.34-default",
+  "cpu": {
+    "model": "AMD EPYC 9335 32-Core Processor",
+    "sockets": 2,
+    "cores_per_socket": 32,
+    "threads_per_core": 2,
+    "logical_cpus": 128,
+    "process_available_cpus": 128,
+    "numa_nodes": 2,
+    "observed_instruction_flags": ["avx2", "avx512f", "avx512_bf16", "avx512_vnni"],
+    "sources": ["lscpu", "nproc"]
+  },
+  "memory": {
+    "mem_total_kib": 2377546388,
+    "mem_free_kib": 77414112,
+    "mem_available_kib": 2290568636,
+    "source": "/proc/meminfo",
+    "qualification": "Host-wide counters; shared availability is not a reserved allocation"
+  },
+  "accelerators": {
+    "nvidia_smi_in_path": false,
+    "rocm_smi_in_path": false,
+    "amd_smi_in_path": false,
+    "nvidia_devices_exposed": false,
+    "amd_kfd_device_exposed": false,
+    "pci_nvidia_vendor_0x10de_found": false,
+    "pci_amd_gpu_vendor_0x1002_found": false,
+    "display_device": "ASPEED Graphics Family",
+    "display_vendor": "0x1a03",
+    "display_device_id": "0x2000",
+    "display_pci_address": "0000:52:00.0",
+    "display_driver": "ast",
+    "gpu_visibility_environment": {"CUDA_VISIBLE_DEVICES": "UNSET", "NVIDIA_VISIBLE_DEVICES": "UNSET", "ROCR_VISIBLE_DEVICES": "UNSET"},
+    "sources": ["command -v", "lspci -nn", "/sys/bus/pci/devices/*/vendor", "/sys/class/drm/card0/device", "/dev"],
+    "conclusion": "No NVIDIA/AMD inference accelerator is visible in the current session"
+  },
+  "home_quota": {
+    "filesystem": "iacnas:/linhome",
+    "used_kib": 99171608,
+    "soft_limit_kib": 104857600,
+    "hard_limit_kib": 104857600,
+    "source": "quota -v -w",
+    "qualification": "Per-user limit, unlike filesystem-wide df availability"
+  },
+  "disk": {
+    "home_filesystem_available_bytes": 4151616405504,
+    "tmp_available_bytes": 1616699191296,
+    "tmp_writable": true,
+    "tmp_persistence_policy": "UNVERIFIED",
+    "source": "df -B1 . /tmp; test -w /tmp",
+    "qualification": "No write test performed; available capacity is not reserved"
+  },
+  "process_limits": {
+    "virtual_memory_ulimit": "unlimited",
+    "cpu_time_ulimit": "unlimited",
+    "cpuset_cpus_effective": "0-127",
+    "numeric_cgroup_memory_or_cpu_cap": "No readable memory.max/memory.high/cpu.max found in inspected hierarchy",
+    "qualification": "Missing readable limit files do not guarantee unrestricted resource use"
+  },
+  "default_python_packages": {
+    "torch": "NOT_INSTALLED_IN_SYSTEM_PYTHON",
+    "transformers": "NOT_INSTALLED_IN_SYSTEM_PYTHON",
+    "vllm": "NOT_INSTALLED_IN_SYSTEM_PYTHON",
+    "sglang": "NOT_INSTALLED_IN_SYSTEM_PYTHON",
+    "llama-cpp-python": "NOT_INSTALLED_IN_SYSTEM_PYTHON",
+    "accelerate": "NOT_INSTALLED_IN_SYSTEM_PYTHON",
+    "qualification": "Other isolated environments and non-PATH binaries were not exhaustively inventoried"
+  },
+  "actions_not_performed": ["model download", "package installation", "inference benchmark", "BACE execution", "remote node login", "credential sourcing", "experiment configuration changes"]
+}

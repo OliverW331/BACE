@@ -1,0 +1,30 @@
+{
+  "name": "citation-verification",
+  "upstream_path": ".",
+  "source": "ruichenrui/citation-verification",
+  "commit": "61f42ae438afa93fcb3eeb1302f5f4ef7f59e32f",
+  "commit_date": "2026-06-06T05:52:31Z",
+  "retrieval_date": "2026-09-29",
+  "upstream_skill_sha256": "9ba11915b725fa434e65c30f9881ef718cd3e558eb9ed0bd525a9e22d8481800",
+  "archive_sha256": "3928498936de58bf478691775da01a13b3641cf08839d5632fe7f418df9496dc",
+  "license": "MIT",
+  "installed_path": "/home/muwang/master_thesis/.agents/skills/citation-verification",
+  "invocation": "$citation-verification",
+  "mode": "reviewed English instruction adaptation",
+  "included_upstream_helpers": [],
+  "status": "VERIFIED_PROJECT_ADAPTER",
+  "installed_files_sha256": {
+    "SKILL.md": "092b50f4f67806efeec22539492688d85d783920cea3cf4193947814fc36960e",
+    "LICENSE": "aae05faf814e4dbe7c870adb9bfa9065abc4d8212bbd4ae11c30030330e0f7f7",
+    "agents/openai.yaml": "e16f1ed1904dd17ff0dbbc95bd84c7cbc15945f98aa1f40bd929a0cc7db63cc1"
+  },
+  "modified_upstream_helpers": [],
+  "verification": {
+    "codex_discovery": true,
+    "schema_validation": true,
+    "bounded_instruction_invocation": true,
+    "behavioral_test_context": "six paired synthetic workflows in one separate evaluation context",
+    "full_upstream_runtime_installed": false,
+    "scientific_results_validated": false
+  }
+}

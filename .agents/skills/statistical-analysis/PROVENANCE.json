@@ -1,0 +1,30 @@
+{
+  "name": "statistical-analysis",
+  "upstream_path": "skills/statistical-analysis",
+  "source": "K-Dense-AI/scientific-agent-skills",
+  "commit": "065b734670d7d990627dbc06a05b5a99be33f1f1",
+  "commit_date": "2026-09-28T09:31:55Z",
+  "retrieval_date": "2026-09-29",
+  "upstream_skill_sha256": "1b1d63fd667ef454a8e0cadf32457a511883d3308dcc79c47c48bc565d9a23f7",
+  "archive_sha256": "ebdf3e0bd0ccf9b639a7bafc36dd1e3107183de330b4724b0edb46604eda3228",
+  "license": "MIT",
+  "installed_path": "/home/muwang/master_thesis/.agents/skills/statistical-analysis",
+  "invocation": "$statistical-analysis",
+  "mode": "reviewed English instruction adaptation",
+  "included_upstream_helpers": [],
+  "status": "VERIFIED_PROJECT_ADAPTER",
+  "installed_files_sha256": {
+    "SKILL.md": "0cb4c9e774524cbbc336a4749b472e1850ef2d19b78e70958f4f3f20872a766a",
+    "LICENSE.md": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "agents/openai.yaml": "c967159f225cf82ca193b68c38149af30bdd223caa640fcbae08ded305983bee"
+  },
+  "modified_upstream_helpers": [],
+  "verification": {
+    "codex_discovery": true,
+    "schema_validation": true,
+    "bounded_instruction_invocation": true,
+    "behavioral_test_context": "six paired synthetic workflows in one separate evaluation context",
+    "full_upstream_runtime_installed": false,
+    "scientific_results_validated": false
+  }
+}

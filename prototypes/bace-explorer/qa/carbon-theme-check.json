@@ -1,0 +1,232 @@
+{
+  "passed": true,
+  "scope": "Selected text contrast and dark surface consistency; not full accessibility conformance",
+  "minimumTextContrast": 5.9258941318050535,
+  "samples": [
+    {
+      "selector": ".paper-copy",
+      "ratio": 13.24268862801517,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        233,
+        233,
+        231
+      ]
+    },
+    {
+      "selector": ".column-header h2",
+      "ratio": 7.940621525945512,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        180,
+        182,
+        188
+      ]
+    },
+    {
+      "selector": ".node-short",
+      "ratio": 7.940621525945512,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        180,
+        182,
+        188
+      ]
+    },
+    {
+      "selector": ".evidence-card h3",
+      "ratio": 13.24268862801517,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        233,
+        233,
+        231
+      ]
+    },
+    {
+      "selector": ".demo-badge",
+      "ratio": 8.677106769079519,
+      "background": [
+        24,
+        25,
+        27
+      ],
+      "foreground": [
+        180,
+        182,
+        188
+      ]
+    },
+    {
+      "selector": ".disclosure-span.is-active",
+      "ratio": 9.882698800549168,
+      "background": [
+        41,
+        55,
+        77
+      ],
+      "foreground": [
+        233,
+        233,
+        231
+      ]
+    },
+    {
+      "selector": ".dc-node.is-active .node-short",
+      "ratio": 5.9258941318050535,
+      "background": [
+        41,
+        55,
+        77
+      ],
+      "foreground": [
+        180,
+        182,
+        188
+      ]
+    },
+    {
+      "selector": ".dc-node.is-muted .node-short",
+      "ratio": 5.933702224262506,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        154,
+        157,
+        165
+      ]
+    },
+    {
+      "selector": ".supported",
+      "ratio": 7.05371393668444,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        98,
+        189,
+        144
+      ]
+    },
+    {
+      "selector": ".ec-full-text",
+      "ratio": 13.24268862801517,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        233,
+        233,
+        231
+      ]
+    },
+    {
+      "selector": ".set-name",
+      "ratio": 7.282573716871837,
+      "background": [
+        38,
+        40,
+        44
+      ],
+      "foreground": [
+        180,
+        182,
+        188
+      ]
+    },
+    {
+      "selector": ".filter-popover .toggle-label",
+      "ratio": 12.145252840471748,
+      "background": [
+        38,
+        40,
+        44
+      ],
+      "foreground": [
+        233,
+        233,
+        231
+      ]
+    },
+    {
+      "selector": ".reader-copy",
+      "ratio": 13.24268862801517,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        233,
+        233,
+        231
+      ]
+    },
+    {
+      "selector": ".reader-toolbar",
+      "ratio": 7.940621525945512,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        180,
+        182,
+        188
+      ]
+    },
+    {
+      "selector": ".unsupported",
+      "ratio": 7.02704313195339,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        212,
+        163,
+        84
+      ]
+    },
+    {
+      "selector": ".diagnosis-rationale",
+      "ratio": 7.940621525945512,
+      "background": [
+        32,
+        33,
+        36
+      ],
+      "foreground": [
+        180,
+        182,
+        188
+      ]
+    }
+  ],
+  "errors": []
+}

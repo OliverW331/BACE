@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-01T22:58:56.073484+00:00",
+  "reviewer": "Codex visual inspection and PDF geometry checks; not independent research validation",
+  "pdf_sha256": "9e262fbb37dafa9b1a62fc966bd0be0d14e4711a243a2c02b2f7532b9f5d3983",
+  "pages": 16,
+  "visual_pages": [
+    1,
+    2,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "checks": [
+    "Introduction displayed without a printed section heading; six paragraphs flow into Results.",
+    "Superscript citations are legible; bibliography entries 1–10 render in first-appearance order.",
+    "Official 2023 ESRS bibliographic entry retains the original-edition qualification.",
+    "Figures 1–4 and complete legends remain on pages 13–16; artwork and figure-environment hashes match the integration baseline.",
+    "No visible overlaps or clipped content in inspected pages; all text bounding boxes stay within page rectangles.",
+    "Author, Abstract, Discussion and declaration placeholders remain explicit."
+  ],
+  "all_pdf_text_bbox_violations": [],
+  "replacement_characters": [],
+  "preview_hashes": {
+    "page_1.png": "ba43ea245fc5274d08aba30ca2ddbac879e544df63f2ae8b7e1da953e4ca7b3a",
+    "page_2.png": "4ac2ceb0cb447c8691f9d26f285745698c1f8bbe891fad5cbf1406fd9d26da0a",
+    "page_3.png": "1e96416ecd1a48d408170b79751ca949b8548c48a0fe941594c310dadb6c2fb6",
+    "page_11.png": "abbb93e2abcf5905b0787e9b5afffe8f2876510f0a0619af3264c9a4649e650a",
+    "page_12.png": "63984e56e86b39729eb8a4dde31a24d1372d4c75e2d549557d2ebeeab0089f92",
+    "references_figures_contact.png": "fbf42161f1b137c66a6640e4548cfa0618a80e8ff178de077616ff007fc985f3"
+  },
+  "portable_source_compile": "PASS",
+  "limits": "Visual review of listed pages, plus geometry checks across all pages. Earlier figure design and source audits remain dated records. No external Overleaf upload."
+}

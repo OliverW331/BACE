@@ -1,0 +1,9 @@
+[
+ {"id":"s13","backend":"openalex","query":"sustainability AND (\"retrieval augmented generation\" OR \"large language models\") AND evaluation","limit":25},
+ {"id":"s14","backend":"openalex","query":"ESRS AND (hallucination OR faithfulness OR entailment)","limit":20},
+ {"id":"s15","backend":"openalex","query":"\"RefChecker\"","limit":5},
+ {"id":"s16","backend":"openalex","query":"\"RAGChecker\"","limit":5},
+ {"id":"s17","backend":"openalex","query":"\"EcoSmartGuide\"","limit":5},
+ {"id":"s18","backend":"openalex","query":"\"sustainability reporting\" AND \"claim\" AND (factuality OR hallucination)","limit":20},
+ {"id":"s19","backend":"openalex","query":"\"Towards Effective Extraction and Evaluation of Factual Claims\"","limit":5}
+]

@@ -1,0 +1,13 @@
+framework,category,positive_disagreements,all_positive_disagreements,positive_composition_percent,matched_bace_unsupported_in_category,external_acceptance_in_matched_category_percent,all_bace_unsupported_in_category,category_matching_coverage_percent,positive_disagreements_with_zero_candidates
+ragas,factual_boundary_distortion,1419,2010,70.59701492537313,1505,94.28571428571429,19130,7.867224255096707,0
+ragas,evidence_conflation,283,2010,14.07960199004975,380,74.47368421052632,12205,3.11347808275297,0
+ragas,inferential_inflation,156,2010,7.7611940298507465,205,76.09756097560975,3193,6.420294393986846,0
+ragas,unsupported_novelty,100,2010,4.975124378109452,110,90.9090909090909,1698,6.478209658421672,78
+ragas,non_disclosure_statement,52,2010,2.5870646766169156,125,41.6,6378,1.9598620257133899,2
+ragas,contradiction,0,2010,0.0,0,,42,0.0,0
+ragchecker,factual_boundary_distortion,392,500,78.4,402,97.51243781094527,19130,2.101411395713539,0
+ragchecker,evidence_conflation,56,500,11.2,64,87.5,12205,0.5243752560426055,0
+ragchecker,inferential_inflation,34,500,6.8,36,94.44444444444444,3193,1.127466332602568,0
+ragchecker,unsupported_novelty,15,500,3.0,18,83.33333333333333,1698,1.0600706713780919,13
+ragchecker,non_disclosure_statement,3,500,0.6,14,21.428571428571427,6378,0.21950454687989965,0
+ragchecker,contradiction,0,500,0.0,0,,42,0.0,0

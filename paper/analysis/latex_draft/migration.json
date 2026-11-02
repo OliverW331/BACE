@@ -1,0 +1,226 @@
+{
+  "prepared_date": "2026-10-01",
+  "title_status": "WORKING_PROPOSAL_FROM_BLUEPRINT",
+  "script_sha256": "296b8db51df279d82f6bc3798006d528ede2c82d7fd4d7739e694df5a5510eca",
+  "sources": {
+    "paper/08_results_draft.md": "b2378d35e9ea0874511513fe4e9c90b6bca1ac308d327f4f73a40fcfd416009e",
+    "paper/10_methods_draft.md": "8f5e1a55556ab024bc0fb894f5286360354b17fa79f789a5c6f4f9b33c17a20f"
+  },
+  "bibliography_source": {
+    "path": "paper/references.bib",
+    "sha256": "e7d10ad3a43c17ae5fa2c9edb1e665b3d650dac1e70a0708d0c57348fe42a2e2"
+  },
+  "paragraphs": {
+    "R01": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "2054ae24fd3fa9a75b7192358071941c5366e95fa3706c7a246c51ed76f2b3d4",
+      "tex_line": 47
+    },
+    "R02": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "b3f4d0211a43dc98e19b0dce59cf308731e271d79d9427f813872700ead0fbb5",
+      "tex_line": 50
+    },
+    "R03": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "ec09da84a372b93404b933e47bdce26a8a9b29ca155ebf004f934a24c90b8c96",
+      "tex_line": 55
+    },
+    "R04": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "e401ec846a9a0db80bce88399cfd0bcf737338e230613c816d6cbcf134007b24",
+      "tex_line": 58
+    },
+    "R05": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "cb4014b0f9ef9156b779dc85e9450a1e10b736710ed3a643c6442ab398c9d8ad",
+      "tex_line": 61
+    },
+    "R06": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "918bdf94160780fedfffef13214a948e29b68191084510446aecb967bfcb237c",
+      "tex_line": 66
+    },
+    "R07": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "d5b87e755aa0ef5384323eb73d5234b2ad6b6ff5cd91e34efcdf67ea461b1234",
+      "tex_line": 69
+    },
+    "R08": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "d3789672919944a46017fec0ed9205f7d2214bc7a7e6d6af74acaaded93ad147",
+      "tex_line": 72
+    },
+    "R09": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "3b219e07c4f7f7940f1ace714618ecd654342d3cd9b8ed112f44e99f731cf3db",
+      "tex_line": 77
+    },
+    "R10": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "fbf65bae020a9c2e80b5602a020569f727176b985332de751d6af3649cb447d6",
+      "tex_line": 80
+    },
+    "R11": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "881cc8b62bac0f40741e88a51f289ab4031f2227dad7de8f03f47b2cfc8046eb",
+      "tex_line": 83
+    },
+    "R12": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "8c13c4a64864d5864021452167d3813d5ecc653623cc07b2a463e54ac20c5017",
+      "tex_line": 86
+    },
+    "R13": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "c7068738cbde25f1966cc4e81854cfc4c5697fe21b96fc61526e470c46a87f21",
+      "tex_line": 89
+    },
+    "R14": {
+      "source": "paper/08_results_draft.md",
+      "source_body_sha256": "6c50d98b71014069adb84ce9693495f2c098ee01c062e6e32364d996a50c978d",
+      "tex_line": 92
+    },
+    "M01": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "7eea51f5dc6bc319b1557998e95d0edc04d267afa2d22a60c78d65e4195ac708",
+      "tex_line": 106
+    },
+    "M02": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "48effcda26a0a5d09a22c5b5f260a38566a443b53e48e59dab846c80a62687f2",
+      "tex_line": 109
+    },
+    "M03": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "69b6ff3012b8dffed3c77e4b25311e5214ef634841f860dce5534e76f3ac49bd",
+      "tex_line": 114
+    },
+    "M04": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "e3692312df018a9a4c21f54089b58db77abf688df35505704eecf8de106344df",
+      "tex_line": 117
+    },
+    "M05": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "ac0493427125a77055bdaee724deaee90f33af910523547f5eb75b14db4958c7",
+      "tex_line": 122
+    },
+    "M06": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "36d495f71190f13ab88023f732dd570c18a3920906937c2870dfe3156af90cb0",
+      "tex_line": 125
+    },
+    "M07": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "6b5d01e81fa2f7ce85e02d479c435adab014888c4377c4f733ff3d4b367374e9",
+      "tex_line": 128
+    },
+    "M08": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "79f934e0a67ef2762c826636076a23031c109c792362e7f4b1166adb60078b21",
+      "tex_line": 133
+    },
+    "M09": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "531b6ebd9f2ba985919135366479d3de3ac5bfb52fee894157f0a7e28b5b101e",
+      "tex_line": 136
+    },
+    "M10": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "4f1de8e9b206c9eca70d1c3dada676d6a8eadd223359c0852b93a89a3b8342a3",
+      "tex_line": 141
+    },
+    "M11": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "989efffc2aec4fa399f82c4ac4b60bafbab5ad8bc7966269d03e5649a999aa13",
+      "tex_line": 144
+    },
+    "M12": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "03ddf95ae534426115a7f29cfcc04ca77cb2b29d5e0acb4531fe05e70389baee",
+      "tex_line": 147
+    },
+    "M13": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "0c8b6f7b93414b0d9d3b11fb5785c935ecae4217edcf5939e9e115d003bcec97",
+      "tex_line": 150
+    },
+    "M14": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "3c0786344cfc29cd1b33d2137e0d464c1474d358a57dc5d7ea9ba8c67bd88f16",
+      "tex_line": 155
+    },
+    "M15": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "bb45784543e4c23d58ad0226222adec9456ef0a8b72d49aa3d74625b7435d404",
+      "tex_line": 172
+    },
+    "M16": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "54b747d6a36f63ea7ae392cd4d52f4dd1eb04de1cd5865905642c50b6882b6c1",
+      "tex_line": 175
+    },
+    "M17": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "d85230aaef6843a3b145803bb055751d37a1b935e501255241873af02cf9676c",
+      "tex_line": 178
+    },
+    "M18": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "493e23a1d9e69d89c2fa8514c52788de2285784676a288cfdee61a43ff8584ad",
+      "tex_line": 183
+    },
+    "M19": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "2de6c9db61d40febcfffd6c2dcbd5d20edd23de4fbc6b8d0c7d629b4f632d33e",
+      "tex_line": 186
+    },
+    "M20": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "55576c6fd70314d5f4d0da0d63ed0fc2ec9e265d8dce781e431d9f7814bb95aa",
+      "tex_line": 191
+    },
+    "M21": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "7361c5011aec0c68099f2d7391e419ffde83e9f26dc3b799c6587106930877e1",
+      "tex_line": 194
+    },
+    "M22": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "c024a81a0244b822220270b85b62295a344c63db032f60a6b80adcf5d00ccadd",
+      "tex_line": 197
+    },
+    "M23": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "2c7146cf9501e32ecf41c20bb6be9c87abc848ec023f650b130a9753d4fb1726",
+      "tex_line": 202
+    },
+    "M24": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "f5ca79f47c8a5bb689c05ece39899eece66a0d10ec534787a2f122daf18208a8",
+      "tex_line": 205
+    },
+    "M25": {
+      "source": "paper/10_methods_draft.md",
+      "source_body_sha256": "b34a5d753169f35f6e5c0c2d81ed3f796c6e0a667a29031e1b1e86f2ad53fac5",
+      "tex_line": 208
+    }
+  },
+  "citation_keys": [
+    "ragchecker2024",
+    "ragas2024"
+  ],
+  "transformations": [
+    "Manuscript-marker extraction only; working ledgers excluded",
+    "Markdown headings to unnumbered LaTeX headings",
+    "Paragraph IDs retained as comments",
+    "TeX escaping of prose and Unicode punctuation",
+    "Existing inline/display mathematics preserved",
+    "Citation keys retained with numeric citation commands",
+    "Figure numbers replaced with cross-references to explicit placeholders"
+  ],
+  "main_tex_sha256": "e1a4d63b6ff7a26ff9e2b45ed1f3bd3cb21d7fa1a799870de25a10458328bf2e",
+  "references_bib_sha256": "5fa642ece947b62aa7035aa33e74706e37dc57ace237c369aae546e4bc481447",
+  "scope": "Formatting migration and partial-manuscript scaffold; no new scientific findings or completed author declarations."
+}

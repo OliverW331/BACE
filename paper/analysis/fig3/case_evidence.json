@@ -1,0 +1,3483 @@
+{
+  "wartsila": {
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+    "company": "Wärtsilä",
+    "target_year": 2022,
+    "task": "G1-2_supplier_relationships",
+    "selection": {
+      "seed": 20260924,
+      "pool_size": 19113,
+      "dc_id": "dc_0a68745f651e5169efaa2c0409458081"
+    },
+    "dc_id": "dc_0a68745f651e5169efaa2c0409458081",
+    "dc_text": "Wärtsilä uses an online solution for supply-chain risk identification.",
+    "generated_quote": "Wärtsilä also uses an online solution for supply-chain risk identification, assessment and monitoring, with more than 2,000 suppliers followed against defined key criteria.",
+    "generated_disclosure": "### G1-2 – Management of relationships with suppliers\n\nSuppliers play a significant role in Wärtsilä’s delivery process. Wärtsilä seeks close relationships with key suppliers to ensure a shared understanding of, and compliance with, process and product requirements. Open and continuous dialogue supports supplier performance, knowledge sharing and innovation, and enables strategic suppliers to integrate more closely into Wärtsilä’s value chain. Engagement methods include regular dialogue on supplier performance, the supplier portal eTool, supplier development support, Supplier Days, assessments and audits.\n\nWärtsilä has defined processes for supplier selection, compliance assessment and relationship development. General supplier requirements cover compliance with applicable legislation, environmental aspects, quality, occupational health and safety management, social performance and cyber security. Product- and service-specific requirements apply in addition to these general requirements. Suppliers must demonstrate compliance to obtain approved supplier status, and the requirements are incorporated into standard supply agreements.\n\nSuppliers are assessed and managed through the Supplier Relationship Management tool, a risk-based assessment and management system. Before a relationship begins, potential suppliers are assessed with regard to their offering, risk level and compliance with Wärtsilä’s requirements. The basic risk assessment considers both supplier- and country-level risks and is also applied to existing suppliers through periodic reassessments. The Supply Management team reviews supplier submissions and determines whether further assessment is required. Low-risk suppliers may be approved based on the basic assessment, while medium- and high-risk suppliers are, as a default, subject to a detailed assessment. This assesses capabilities and capacity and provides additional information supporting the approval decision.\n\nSupplier compliance is monitored through performance indicators, audits and continuous supplier performance management. Wärtsilä also uses an online solution for supply-chain risk identification, assessment and monitoring, with more than 2,000 suppliers followed against defined key criteria. Supplier and subcontractor risks are managed through supplier requirements, the supplier management system and business continuity planning, with responsibilities assigned to the businesses and Supply Management. Where requirements are not met, suppliers may be banned; corrective action can lead to an improved rating.\n\nThe supplier management system is assessed and upgraded regularly. The risk-based tool was introduced for new suppliers in 2018 and for existing suppliers in 2019, with development and deployment continuing thereafter.\n\nFor the 2022 reporting year, the average time to pay an invoice, measured from the date on which the contractual or statutory payment term began, was 74 days. The available metric is not disaggregated by supplier size. No 2022 supplier-rating coverage target or outcome is reported in the available data.",
+    "supplied_evidence": [
+      {
+        "prompt_label": "Evidence 1",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p065::c0344",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 65",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 65,
+        "page_end": 65,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 1,
+        "prompt_rank_from_retrieval": 1,
+        "final_rrf_score": 0.03252247488101534,
+        "bm25_best_rank": 1,
+        "dense_best_rank": 7,
+        "retrieval_text": "By the end of 2019, we rated 712 out of our 1,255 direct global suppliers, which covers 96% of the related spend (target for the year was 96%). The rating coverage of local supplier spend was 69% (target 80%), and of indirect supplier spend 76% (target 70%). In 2019, 40 suppliers received banned status because of their failure to meet Wärtsilä’s requirements on product specific issues, compliance, quality or sustainability. Of these suppliers, nine completed corrective actions that led to an improved rating.",
+        "retrieval_text_hash": "5298417ead46d047eeb21b6899e9fead1c4eddd91b88e52c5bde23a858225eb3",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 2",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2020::p065::c0368",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2020,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2020_AR.pdf | Pages 65-66",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2020_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 65,
+        "page_end": 66,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 4,
+        "prompt_rank_from_retrieval": 2,
+        "final_rrf_score": 0.030776515151515152,
+        "bm25_best_rank": 35,
+        "dense_best_rank": 2,
+        "retrieval_text": "65 ANNUAL REPORT 2020 This is Wärtsilä Governance Financial review Sustainability Sustainability data Report profile Sustainability at Wärtsilä Supplier rating coverage in spend in years 2017–2020 100% 80% 60% 40% 2017 2018 WÄRTSILÄ SUPPLIER REQUIREMENTS Wärtsilä has defined general supplier requirements for areas of compliance with legislation, environmental aspects, quality, occupational health and safety management, social performance, and cyber security. Compliance with these requirements are assessed, both in the selection and onboarding of new suppliers, as well as in the continuous supplier performance management process. Potential new suppliers must meet these requirements in order to receive approved supplier status. The general supplier requirements are also included in our standard supply agreements.",
+        "retrieval_text_hash": "9254ee78fbddf05d7c67bfe1cf3d611035dd471694995223310e78c1552eabf5",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 3",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2020::p066::c0370",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2020,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2020_AR.pdf | Page 66",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2020_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 66,
+        "page_end": 66,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 5,
+        "prompt_rank_from_retrieval": 3,
+        "final_rrf_score": 0.029857397504456328,
+        "bm25_best_rank": 36,
+        "dense_best_rank": 6,
+        "retrieval_text": "2020 0% Global direct Indirect Other sourcing In addition to these general supplier requirements, we also have productand service-specific requirements, which are monitored as part of the above-mentioned continuous supplier performance management process. Wärtsilä assesses and upgrades its supplier management system as necessary on a regular basis. In 2019, we launched the Supplier Relationship Management tool, a risk-based supplier assessment and management system, for existing suppliers, following its launch for new suppliers in 2018. Development and deployment of the system continued during 2020 and will continue in 2021.",
+        "retrieval_text_hash": "da8c23b3b2d0dd8bac2c0ed2e86765aa37706790b0c7e6eeeb47a9fcbe693d2f",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 4",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2018::p062::c0271",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf | Page 62",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 62,
+        "page_end": 62,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 6,
+        "prompt_rank_from_retrieval": 4,
+        "final_rrf_score": 0.028371628371628373,
+        "bm25_best_rank": 12,
+        "dense_best_rank": 13,
+        "retrieval_text": "In addition to requirements relating to general features and product-specific issues, Wärtsilä has clear expectations towards its suppliers in terms of compliance with relevant legislation, environmental, quality, and occupational health and safety management, and social performance. Suppliers must demonstrate their compliance with these requirements in order to receive approved supplier status. These requirements are also included in standard supply contracts. Wärtsilä monitors that suppliers comply with these requirements by using performance indicators and conducting various types of audits.",
+        "retrieval_text_hash": "db6a1b0318fa5a0c68e1f2990da32256ad6fba9381c5c1e53b7d1b494dc10ae4",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 5",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2018::p063::c0275",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf | Page 63",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 63,
+        "page_end": 63,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 7,
+        "prompt_rank_from_retrieval": 5,
+        "final_rrf_score": 0.028371628371628373,
+        "bm25_best_rank": 27,
+        "dense_best_rank": 17,
+        "retrieval_text": "Wärtsilä r ärtsilä reached its supplier rating coverage targets for 2018 eached its supplier rating coverage targets for 2018 By the end of 2018, we rated 763 out of our 1,199 direct global suppliers, which covers 97% of the related spend (target for the year was 96%). The rating coverage of local supplier spend was 82% (target 80%), and of indirect supplier spend 77% (target 70%). In 2018, 32 suppliers were banned because of non-compliance with Wärtsilä’s requirements, including 17 for sustainability reasons.",
+        "retrieval_text_hash": "046d634a04f55aeb6933f6bccdf67c4a47027954d48cac8849f4b81dc2235437",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 6",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p065::c0342",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 65",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 65,
+        "page_end": 65,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 9,
+        "prompt_rank_from_retrieval": 6,
+        "final_rrf_score": 0.027271052146674038,
+        "bm25_best_rank": 22,
+        "dense_best_rank": 21,
+        "retrieval_text": "Wärtsilä assesses and upgrades its supplier management system as necessary on a regular basis. In 2019, we launched the risk-based supplier assessment and management system for existing suppliers, following its launch for new suppliers in 2018. Supplier rating coverage in 2019 Supplier rating coverage in 2019",
+        "retrieval_text_hash": "9e6527cf3f0f0259ba3d1bcad007476b607c11e87c25adb1c77f7007df2f3bdf",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 7",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 132,
+        "page_end": 132,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 10,
+        "prompt_rank_from_retrieval": 7,
+        "final_rrf_score": 0.027271052146674038,
+        "bm25_best_rank": 19,
+        "dense_best_rank": 16,
+        "retrieval_text": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring. More than 2,000 suppliers have been, and continue to be, followed through the system. The solution includes a selection of key criteria defined by Wärtsilä, against which the situation of each supplier is continuously measured. Any",
+        "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 8",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2018::p062::c0272",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf | Page 62",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 62,
+        "page_end": 62,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 11,
+        "prompt_rank_from_retrieval": 8,
+        "final_rrf_score": 0.027252906976744186,
+        "bm25_best_rank": 2,
+        "dense_best_rank": 20,
+        "retrieval_text": "Supplier assessment and selection Supplier assessment and selection Wärtsilä assesses and manages its suppliers through its Supplier Management System. Wärtsilä assesses potential new suppliers before the supplier relationship begins, in a pre-assessment phase. For suppliers of higher criticality and risk, in terms of management system, offered scope and geographical location, this phase is more advanced,",
+        "retrieval_text_hash": "47688467adafc364763d689773f4813593e95050df197e45d55da8f3748feac5",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 9",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2018::p063::c0276",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf | Page 63",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 63,
+        "page_end": 63,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 12,
+        "prompt_rank_from_retrieval": 9,
+        "final_rrf_score": 0.02651914295749912,
+        "bm25_best_rank": 56,
+        "dense_best_rank": 14,
+        "retrieval_text": "Wärtsilä develops its supply management system on a regular basis. In 2018, Wärtsilä launched a risk-based supplier assessment and management system for new suppliers. The tool will be applied in 2019 also to existing suppliers. All existing suppliers are required to submit the self-assessment by the end of 2020.",
+        "retrieval_text_hash": "958f752a20e521fe94880a88c04600a343452cef05e8d9a1be7d95d05158d9ed",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 10",
+        "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 37,
+        "page_end": 37,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 13,
+        "prompt_rank_from_retrieval": 10,
+        "final_rrf_score": 0.026397515527950312,
+        "bm25_best_rank": 20,
+        "dense_best_rank": 17,
+        "retrieval_text": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring. More than 2,000 suppliers have been, and continue to be, followed through the system. The solution includes a selection of key criteria defined by Wärtsilä, against which the situation of each supplier is continuously measured. Any",
+        "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 11",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2018::p028::t01::r0002",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf | Page 28",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 28,
+        "page_end": 28,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 2,
+        "prompt_rank_from_retrieval": 11,
+        "final_rrf_score": 0.032266458495966696,
+        "bm25_best_rank": 8,
+        "dense_best_rank": 1,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2018, page 28, table. Table row: SSuupppplliieerr lliiffeeccyyccllee mmaannaaggeemmeenntt TARGET DEVELOPMENT Risk-based supplier assessment The new risk-based Supply and management process in use Relationship Management Tool by 2018: was taken into use for new suppliers during 2018. The tool will • Phase I: new suppliers be taken into use for existing by 2017 suppliers in 2019. All existing • Phase II: existing suppliers are required to submit a suppliers by 2018 self-assessment by the end of 2020. Schedule:2018 = SSuupppplliieerr mmoonniittoorriinngg TARGET DEVELOPMENT Achieve the following rating In 2018, Wärtsilä achieved its coverage for suppliers: rating coverage targets. The rating coverage of direct global supplier • 96% of direct global spend was 97%, 77% of indirect supplier spend rated supplier spend and 82% of local • 70% of indirect supplier supplier spend. For the year 2018, spend rated the supplier rating target level for • 75% of local supplier local suppliers was raised to 80% spend rated from the original 75%. Nevertheless, this target was also achieved. Schedule:2020.",
+        "retrieval_text_hash": "886aea5f5a9b48638746ce6a9936bce9889b0a89c787fcced759f93971f8310b",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 12",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p064::t01::r0002",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 64",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 64,
+        "page_end": 64,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 3,
+        "prompt_rank_from_retrieval": 12,
+        "final_rrf_score": 0.03200204813108039,
+        "bm25_best_rank": 6,
+        "dense_best_rank": 3,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2019, page 64, table. Table row: LLiiffeeccyyccllee aapppprrooaacchh Wärtsilä's products have a long operational life. Therefore, identifying the lifecycle impacts of our products is essential for understanding their total environmental impact. We manage the lifecycle of our products through their design, thecareful selection of suppliers, production methods, and by optimising transportation, maintenance and repairs during the products’ operational life. Our products are delivered with adequate user guides that include basic information about the products and full instructions for their use. Moreover, we provide specific training and advice for our customers to ensure environmentally sound and safe utilisation of Wärtsilä products, and that the products and systems are used in the most efficient way. We also offer service agreements and products that help customers to optimise their operations, and actively support them in selecting suitable solutions already in the early phase of projects. = Anchor SSuuppppllyy cchhaaiinn mmaannaaggeemmeenntt Suppliers play a significant role in our delivery process. We aim to have close and excellent relationships with our key suppliers in order to ensure that both parties understand and comply with our strict process and product requirements. Apart from financial benefits, close relationships stimulate knowledge sharing, create an environment of innovation, and allow strategic suppliers to integrate more strongly into our value chain. We have an extensive supply base with around 27,000 active suppliers, most of whom are located in Europe, where we have our main production units. WWäärrttssiillää ssuupppplliieerr rreeqquuiirreemmeennttss Wärtsilä has defined processes for selecting suppliers, determining their compliance with Wärtsilä supplier requirements, and developing the supply relationship. We offer our suppliers a partnership that strengthens the competitiveness of both parties through open and continuous dialogue. The partnership approach is also applied in ourresearch and development activities, often in collaboration with universities, research institutes, and key suppliers. WWee hhaavvee cclleeaarr eexxppeeccttaattiioonnss ttoowwaarrddss oouurr ssuupppplliieerrss iinn tteerrmmss ooff ccoommpplliiaannccee wwiitthh rreelleevvaanntt lleeggiissllaattiioonn,, eennvviirroonnmmeennttaall aassppeeccttss,, qquuaalliittyy,, ooccccuuppaattiioonnaall hheeaalltthh aanndd ssaaffeettyy mmaannaaggeemmeenntt,, aanndd ssoocciiaall ppeerrffoorrmmaannccee.. In addition to requirements relating to general features and product-specific issues, we have clear expectations towards our suppliers in terms of compliance with relevant legislation, environmental aspects, quality, occupational health and safety management, and social performance. Suppliers must demonstrate their compliance with these requirements in order to receive approved supplier status. These requirements are also included in standard supply contracts. We monitor suppliers’ compliance with these requirements by using performance indicators, and by conducting various types of audits. AAssssuurriinngg ssuupppplliieerr ccoommpplliiaannccee Suppliers are assessed and managed through our Supplier Relationship Management tool. For potential new suppliers, the offering, risk level, and compliance with Wärtsilä’s supplier requirements are assessed during the basic assessment phase before the supplier relationship begins. The basic risk assessment takes into account both supplier-level and country-level risks, and is applied also to existing suppliers with assessment renewals at set intervals. The Wärtsilä supply management team analyses the basic assessment submitted by a supplier, and decides whether any further steps in the assessment process are needed. Low-risk suppliers can be approved to do business with Wärtsilä based on the basic assessment. As a default for medium and high-risk suppliers, and especially for potential suppliers and new suppliers for a specific product or service, a detailed assessment is conducted. The purpose of the detailed assessment is to complement the basic risk assessment, assess the supplier’s capabilities and capacity, and to collect further.",
+        "retrieval_text_hash": "1f127c5d1f6792ebd39d84add5e8e12264c388ccd0b097daabcf42142e9a0fac",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 13",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2018::p062::t01::r0002",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf | Page 62",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 62,
+        "page_end": 62,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 8,
+        "prompt_rank_from_retrieval": 13,
+        "final_rrf_score": 0.02786377708978328,
+        "bm25_best_rank": 46,
+        "dense_best_rank": 11,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2018, page 62, table. Table row: minimum environmental standard in larger global power plant projects. The EHS guidelines together with the IFC’s Environmental and Social Performance Standards are adhered to in most of the projects financed by international financial institutions in emerging markets. In the EU, the Industrial Emissions Directive (IED) and the Medium Combustion Plant Directive (MCPD) set the main requirements for large and medium-sized combustion plants to lower emissions from different industrial sources throughout the EU. In order to ensure Wärtsilä’s ability to respond to future regulation requirements, the company actively monitors legislative initiatives and changes in environmental legislation. As a result, Wärtsilä has focused its R&D activities on the development of new environmentally sound products and solutions that meet the future demands of the changing operating environment. LLiiffeeccyyccllee aapppprrooaacchh Wärtsilä's products have a long operational life. Therefore, identifying the lifecycle impacts of our products is essential for understanding their total environmental impact. Wärtsilä manages the lifecycle of its products through product design, careful selection of suppliers, production methods, optimising transportation, maintenance and repair during the operational lifetime of the products, and by training and advising our customers in using the products and systems in the most efficient way. Wärtsilä offers service agreements and products that help customers to optimise their operations. Furthermore, Wärtsilä actively supports customers in selecting suitable solutions in the early phase of projects. Wärtsilä's products are delivered with adequate user guides that include basic information about the products and full instructions for their use. In addition, Wärtsilä provides specific training to ensure environmentally sound and safe utilisation of Wärtsilä’s products at customers’ daily operations. = Anchor SSuuppppllyy cchhaaiinn mmaannaaggeemmeenntt Suppliers play a significant role in our delivery process. We aim to have close and excellent relationships with our key suppliers in order to ensure that both parties understand and comply with our strict process and product requirements. Apart from financial benefits, close relationships stimulate knowledge sharing, create an environment of innovation, and integrate more strongly strategic suppliers into Wärtsilä's value chain. Wärtsilä has an extensive supply base with around 27,000 active suppliers, most of whom are located in Europe, where we have our main production units. We are also continuously investing in developing a strong supply chain network in Asia. WWäärrttssiillää ssuupppplliieerr rreeqquuiirreemmeennttss Wärtsilä has defined processes for selecting suppliers, determining their compliance with Wärtsilä requirements, and developing the supply relationship. We offer our suppliers a partnership that strengthens the competitiveness of both parties. A precondition of this partnership is an open and continuous dialogue. The partnership approach is also applied in Wärtsilä's research and development activities, in which we often collaborate with universities, research institutes, and key suppliers. In addition to requirements relating to general features and product-specific issues, Wärtsilä has clear expectations towards its suppliers in terms of compliance with relevant legislation, environmental, quality, and occupational health and safety management, and social performance. Suppliers must demonstrate their compliance with these requirements in order to receive approved supplier status. These requirements are also included in standard supply contracts. Wärtsilä monitors that suppliers comply with these requirements by using performance indicators and conducting various types of audits. SSuupppplliieerr aasssseessssmmeenntt aanndd sseelleeccttiioonn Wärtsilä assesses and manages its suppliers through its Supplier Management System. Wärtsilä assesses potential new suppliers before the supplier relationship begins, in a pre-assessment phase. For suppliers of higher criticality and risk, in terms of management system, offered scope and geographical location, this phase is more advanced,.",
+        "retrieval_text_hash": "8fe24d7f3ea3518446eb4de38348c24e612b37a8c8dcd78a9c937587e9abdbdc",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 14",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p024::t01::r0002",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 24",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 24,
+        "page_end": 24,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 15,
+        "prompt_rank_from_retrieval": 14,
+        "final_rrf_score": 0.025937081659973226,
+        "bm25_best_rank": 106,
+        "dense_best_rank": 3,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2019, page 24, table. Table row: DDeeccaarrbboonniissaattiioonn ooff ttrraannssppoorrtt Target Development Contribute to the development of more In 2019, Wärtsilä's product launches included sustainable transportation through gas-based the Navi-Planner voyage planning and and other technologies. optimisation solution, the Wärtsilä 31SG pure gas engine for marine market applications, and Schedule: 2020 the Wärtsilä HY hybrid power module for dredging operations. In the Intellitug project, Wärtsilä, together with PSA Marine, made feasible an autonomously operated harbour tug concept with trials being carried out under real-world conditions. Wärtsilä joined the Zero Emission Energy Distribution at Sea (ZEEDS) initiative and the Getting to Zero 2030 Coalition to advance zero emissions shipping and commercially viable deep-sea zero emission vessels. = Anchor SSuupppplliieerr mmoonniittoorriinngg Target Development Reach the following rating coverage for In 2019, the rating coverages were: suppliers: • 96% of direct global supplier spend • 96% of direct global supplier spend • 76% of indirect supplier spend rated • 69% of local supplier spend • 70% of indirect supplier spend rated • 80% of local supplier spend rated Schedule: 2020.",
+        "retrieval_text_hash": "1c08c560831cd4860380c04bbfbb96634686c32410664bed076dd32764fa7685",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 15",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p045::t01::r0002",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 45",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 45,
+        "page_end": 45,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 20,
+        "prompt_rank_from_retrieval": 15,
+        "final_rrf_score": 0.024422933730454205,
+        "bm25_best_rank": 28,
+        "dense_best_rank": 10,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2019, page 45, table. Table row: unnamed_column_0 = SSuupppplliieerrss; • Internal communication channels • Training events • National statutory employee bodies and the European Works Council • Occupational health and safety committees • Collaborative innovation platform Spark • Compliance reporting • Continuous Improvement Proposals (CIP) and Initiatives = • Regular dialogue with suppliers on supplier performance • Supplier portal eTool • Supplier development support • Supplier Days; unnamed_column_2 = • Supplier assessments and audits (Continual). Table extraction requires manual review.",
+        "retrieval_text_hash": "e67ec3bd7362b4015384f92494d26b9123b2e33aa9aefafd3576f159623bd6d0",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 16",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p043::t01::r0011",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 43",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 43,
+        "page_end": 43,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 36,
+        "prompt_rank_from_retrieval": 16,
+        "final_rrf_score": 0.019615384615384618,
+        "bm25_best_rank": null,
+        "dense_best_rank": 4,
+        "retrieval_text": "Company: Wärtsilä. Source: sustainability report 2019, page 43, table. Table row: Anchor RRiisskk pprroofifilleess aanndd rreessppoonnssiibbiilliittiieess LLooww HHiigghh = Supplier and subcontractor risk; unnamed_column_2 = Supplier requirement and supplier management system, Business Continuity Plan; unnamed_column_3 = Businesses and Supply Management. Table extraction requires manual review.",
+        "retrieval_text_hash": "e52fb440596018a13e17ee2949f8f9a6a3a6e8e47a068abdc7f81146c5bb9e60",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 17",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2018::p042::t01::r0012",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_SR.pdf | Page 42",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 42,
+        "page_end": 42,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 39,
+        "prompt_rank_from_retrieval": 17,
+        "final_rrf_score": 0.01878969654199012,
+        "bm25_best_rank": null,
+        "dense_best_rank": 5,
+        "retrieval_text": "Company: Wärtsilä. Source: sustainability report 2018, page 42, table. Table row: Anchor = Supplier and subcontractor risk; unnamed_column_2 = Supplier requirement and supplier management system, Business Continuity Plan; unnamed_column_3 = Businesses and Supply Management. Table extraction requires manual review.",
+        "retrieval_text_hash": "9f33eefc7bea18363e45bf2ac6cb79f61c1fe8a05e73b592cca795cd3973a6a5",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 18",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p086::t01::r0002",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 86",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 86,
+        "page_end": 86,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 43,
+        "prompt_rank_from_retrieval": 18,
+        "final_rrf_score": 0.017677937316658947,
+        "bm25_best_rank": 188,
+        "dense_best_rank": 21,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2019, page 86, table. Table row: Human rights assessment = Supplier social assessment. Table extraction requires manual review.",
+        "retrieval_text_hash": "ceba7d70679d520887f54464c9fc283e76b50983d73bd69f4534d4f7928a8228",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 19",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p138::t01::r0011",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2019,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 138",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 138,
+        "page_end": 138,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 44,
+        "prompt_rank_from_retrieval": 19,
+        "final_rrf_score": 0.01739656606913244,
+        "bm25_best_rank": null,
+        "dense_best_rank": 10,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2019, page 138, table. Table row: Anchor RRiisskk pprroofifilleess aanndd rreessppoonnssiibbiilliittiieess LLooww HHiigghh = Supplier and subcontractor risk; unnamed_column_2 = Supplier requirement and supplier management system, Business Continuity Plan; unnamed_column_3 = Businesses and Supply Management. Table extraction requires manual review.",
+        "retrieval_text_hash": "d6877c8288167fde7f6fbcd24108383db8fa5896a34e08e4d1e34de15711995c",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 20",
+        "evidence_id": "pdf_table_row::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2018::p138::t01::r0011",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf | Page 138",
+        "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 138,
+        "page_end": 138,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 47,
+        "prompt_rank_from_retrieval": 20,
+        "final_rrf_score": 0.01666782415445517,
+        "bm25_best_rank": null,
+        "dense_best_rank": 15,
+        "retrieval_text": "Company: Wärtsilä. Source: annual report 2018, page 138, table. Table row: Anchor RRiisskk pprroofifilleess aanndd rreessppoonnssiibbiilliittiieess LLooww HHiigghh = Supplier and subcontractor risk; unnamed_column_2 = Supplier requirement and supplier management system, Business Continuity Plan; unnamed_column_3 = Businesses and Supply Management. Table extraction requires manual review.",
+        "retrieval_text_hash": "f4f4ec088aaaa3000391ecf09ed418afc0fd75cb92eb221b6497310475773e75",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 21",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::2da53565-d3ce-4666-9f0c-0f5891cb36f1",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Percentage of functions-at-risk covered by anti-corruption and anti-bribery training programmes",
+        "value_text": "66.0",
+        "unit": "percent",
+        "retrieval_rank": 25,
+        "prompt_rank_from_retrieval": 21,
+        "final_rrf_score": 0.023414503612523417,
+        "bm25_best_rank": 52,
+        "dense_best_rank": 18,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Percentage of functions-at-risk covered by anti-corruption and anti-bribery training programmes. Value: 66.0 percent.",
+        "retrieval_text_hash": "2aa26916496e2b218645a3807fcc71518053593b3b4a3fc41371c09f7eca0a3e",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 22",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::7c966679-3964-4ebe-bc33-0e96343dca51",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Average number of days to pay invoice from date when contractual or statutory term of payment starts to be calculated",
+        "value_text": "74.0",
+        "unit": null,
+        "retrieval_rank": 33,
+        "prompt_rank_from_retrieval": 22,
+        "final_rrf_score": 0.019961427193828353,
+        "bm25_best_rank": 144,
+        "dense_best_rank": 14,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-6. Indicator: Average number of days to pay invoice from date when contractual or statutory term of payment starts to be calculated. Value: 74.0.",
+        "retrieval_text_hash": "63e9b763e0aa7d175b571d152a0516c4bd72cea8fee930d71d57cdda5d308861",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 23",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::113cd43b-893a-4da5-925a-cf14f0ab5810",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Date of last process modification ESRS G1 Business conduct",
+        "value_text": "2022-01-01",
+        "unit": null,
+        "retrieval_rank": 35,
+        "prompt_rank_from_retrieval": 23,
+        "final_rrf_score": 0.019641495041952707,
+        "bm25_best_rank": 122,
+        "dense_best_rank": 25,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Date of last process modification ESRS G1 Business conduct. Value: 2022-01-01.",
+        "retrieval_text_hash": "ebec42617da914f28670cd654289ebd9eed254509a58141c0d9e7783c5dd9005",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 24",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::c59434cd-ca5d-4dc5-801b-ec5339e67b64",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year)",
+        "value_text": "20.0",
+        "unit": "percent",
+        "retrieval_rank": 54,
+        "prompt_rank_from_retrieval": 24,
+        "final_rrf_score": 0.015318627450980392,
+        "bm25_best_rank": 91,
+        "dense_best_rank": 48,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 20.0 percent.",
+        "retrieval_text_hash": "ed20906ee0f916bc8b072dc64208a8ee029e7635f5d031eae0aba25076be5b54",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 25",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2019::2da53565-d3ce-4666-9f0c-0f5891cb36f1",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Percentage of functions-at-risk covered by anti-corruption and anti-bribery training programmes",
+        "value_text": "86.0",
+        "unit": "percent",
+        "retrieval_rank": 55,
+        "prompt_rank_from_retrieval": 25,
+        "final_rrf_score": 0.015318168730204435,
+        "bm25_best_rank": 131,
+        "dense_best_rank": 41,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2019. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Percentage of functions-at-risk covered by anti-corruption and anti-bribery training programmes. Value: 86.0 percent.",
+        "retrieval_text_hash": "cd4264a5ba485bca9cdd2ca1d46bb21f4d04ae5f989738e87e852e6760a1bf82",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 26",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2021::2da53565-d3ce-4666-9f0c-0f5891cb36f1",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2021,
+        "source_label": "Corporate Sustainability Tracker | Source year 2021",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Percentage of functions-at-risk covered by anti-corruption and anti-bribery training programmes",
+        "value_text": "88.0",
+        "unit": "percent",
+        "retrieval_rank": 66,
+        "prompt_rank_from_retrieval": 26,
+        "final_rrf_score": 0.013704416388980147,
+        "bm25_best_rank": 133,
+        "dense_best_rank": 30,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2021. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Percentage of functions-at-risk covered by anti-corruption and anti-bribery training programmes. Value: 88.0 percent.",
+        "retrieval_text_hash": "80bafcfa3b8b8184cce21c5f124216735f489115864472ca9db88fe28d0ff53b",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 27",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::2a021882-bc02-467d-b9e9-4ffef610a875",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies",
+        "value_text": "10000.0",
+        "unit": null,
+        "retrieval_rank": 67,
+        "prompt_rank_from_retrieval": 27,
+        "final_rrf_score": 0.013678065054211843,
+        "bm25_best_rank": 95,
+        "dense_best_rank": 57,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies. Value: 10000.0.",
+        "retrieval_text_hash": "b9d786e83bd7abe6abc1354f1b3e18bcdc56afb723280d8f06de0738292abae9",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 28",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::c42e16f4-8e08-44cd-be58-4eca46248f12",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year)",
+        "value_text": "34.1",
+        "unit": "percent",
+        "retrieval_rank": 68,
+        "prompt_rank_from_retrieval": 28,
+        "final_rrf_score": 0.01365613922010957,
+        "bm25_best_rank": 90,
+        "dense_best_rank": 66,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 34.1 percent.",
+        "retrieval_text_hash": "2f93e354442b7193f649432415429a47f4b4749655c51287ace22ed9fd96eae1",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 29",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::b46db9cf-fa04-4a51-bc25-15c5fa85fe4b",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Duration of classroom training Administrative / management and supervisory bodies",
+        "value_text": "45.599999999999994",
+        "unit": "hour",
+        "retrieval_rank": 77,
+        "prompt_rank_from_retrieval": 29,
+        "final_rrf_score": 0.01322547508988187,
+        "bm25_best_rank": 69,
+        "dense_best_rank": 163,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Duration of classroom training Administrative / management and supervisory bodies. Value: 45.599999999999994 hour.",
+        "retrieval_text_hash": "b553634ed859cbcda4f5db98f71c450142bda5c8ad6d9b2475ff859fe7acbd26",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 30",
+        "evidence_id": "csv::30d40e80-a663-49f5-85bf-9c41d11314ba::2022::93f3f861-d9e5-4591-8be9-e58018f6fc9a",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2022,
+        "source_label": "Corporate Sustainability Tracker | Source year 2022",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Duration of computer-based training Administrative / management and supervisory bodies",
+        "value_text": "4.0",
+        "unit": "hour",
+        "retrieval_rank": 83,
+        "prompt_rank_from_retrieval": 30,
+        "final_rrf_score": 0.01266771902131018,
+        "bm25_best_rank": 72,
+        "dense_best_rank": 169,
+        "retrieval_text": "Company: Wärtsilä. Reporting year: 2022. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Duration of computer-based training Administrative / management and supervisory bodies. Value: 4.0 hour.",
+        "retrieval_text_hash": "c3086fbf7ea2e97f08893f42691a5cca3ff67b6f39edcb7ec405c31e1346c61d",
+        "shown_in_prompt": true
+      }
+    ],
+    "supplied_card": {
+      "prompt_label": "Evidence 7",
+      "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2019,
+      "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+      "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+      "document_type": "annual_report",
+      "page_start": 132,
+      "page_end": 132,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 10,
+      "prompt_rank_from_retrieval": 7,
+      "final_rrf_score": 0.027271052146674038,
+      "bm25_best_rank": 19,
+      "dense_best_rank": 16,
+      "retrieval_text": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring. More than 2,000 suppliers have been, and continue to be, followed through the system. The solution includes a selection of key criteria defined by Wärtsilä, against which the situation of each supplier is continuously measured. Any",
+      "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+      "shown_in_prompt": true
+    },
+    "selected_ec_id": "ec_930a1671acf6ad70bbe3d74a620a9e26",
+    "selected_ec_text": "According to Wärtsilä's 2019 annual report, Wärtsilä used an online solution for supply-chain risk identification.",
+    "candidate_ecs": [
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_27cf8a29025e5d4b9534fbf01f1a49ce",
+        "ec_text": "According to Wärtsilä's 2019 sustainability report, more than 2,000 suppliers continued to be followed through Wärtsilä's online supply-chain risk solution.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218"
+        ],
+        "ec_occurrence_ids": [
+          "eco_fb4a3cc113379a4b177cbd00a253e412"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_fb4a3cc113379a4b177cbd00a253e412",
+            "claim_text": "According to Wärtsilä's 2019 sustainability report, more than 2,000 suppliers continued to be followed through Wärtsilä's online supply-chain risk solution.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+            "prompt_label": "Evidence 10",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "More than 2,000 suppliers have been, and continue to be, followed through the system.",
+                "start": 99,
+                "end": 184,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 99,
+                    "end": 184
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "More than 2,000 suppliers have been, and continue to be, followed through the system."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+              "prompt_label": "Evidence 10",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 37,
+              "page_end": 37,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 10
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_dd52aaf9095b9abdc21b59e42379e899",
+          "canonical_occurrence_id": "eco_fb4a3cc113379a4b177cbd00a253e412",
+          "member_unit_ids": [
+            "ecu_dd52aaf9095b9abdc21b59e42379e899"
+          ],
+          "member_occurrence_ids": [
+            "eco_fb4a3cc113379a4b177cbd00a253e412"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_38894ee2ce5646a1325fc54fa579a34a",
+        "ec_text": "According to Wärtsilä's 2019 annual report, the situation of each supplier was continuously measured against the key criteria in Wärtsilä's online supply-chain risk solution.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797"
+        ],
+        "ec_occurrence_ids": [
+          "eco_ae2d794289e855f332c921f850c9e526"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_ae2d794289e855f332c921f850c9e526",
+            "claim_text": "According to Wärtsilä's 2019 annual report, the situation of each supplier was continuously measured against the key criteria in Wärtsilä's online supply-chain risk solution.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "against which the situation of each supplier is continuously measured.",
+                "start": 256,
+                "end": 326,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 256,
+                    "end": 326
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "against which the situation of each supplier is continuously measured."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 132,
+              "page_end": 132,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_3e93292d23401b6923a4162c37822982",
+          "canonical_occurrence_id": "eco_ae2d794289e855f332c921f850c9e526",
+          "member_unit_ids": [
+            "ecu_3e93292d23401b6923a4162c37822982"
+          ],
+          "member_occurrence_ids": [
+            "eco_ae2d794289e855f332c921f850c9e526"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_4aa602634822a0af60701d95ba386cc4",
+        "ec_text": "According to Wärtsilä's 2019 annual report, Wärtsilä's online supply-chain risk solution included a selection of key criteria defined by Wärtsilä.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797"
+        ],
+        "ec_occurrence_ids": [
+          "eco_c0078ccbd8afa863600861a289927106"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_c0078ccbd8afa863600861a289927106",
+            "claim_text": "According to Wärtsilä's 2019 annual report, Wärtsilä's online supply-chain risk solution included a selection of key criteria defined by Wärtsilä.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "The solution includes a selection of key criteria defined by Wärtsilä",
+                "start": 185,
+                "end": 254,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 185,
+                    "end": 254
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "The solution includes a selection of key criteria defined by Wärtsilä"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 132,
+              "page_end": 132,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_644dee1721f88c705534e10a7695882a",
+          "canonical_occurrence_id": "eco_c0078ccbd8afa863600861a289927106",
+          "member_unit_ids": [
+            "ecu_644dee1721f88c705534e10a7695882a"
+          ],
+          "member_occurrence_ids": [
+            "eco_c0078ccbd8afa863600861a289927106"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_533a49384724aed1fb2a32fef2f98eab",
+        "ec_text": "According to Wärtsilä's 2019 sustainability report, more than 2,000 suppliers had been followed through Wärtsilä's online supply-chain risk solution.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218"
+        ],
+        "ec_occurrence_ids": [
+          "eco_88b05205e9d985d336c71d5b5260d3da"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_88b05205e9d985d336c71d5b5260d3da",
+            "claim_text": "According to Wärtsilä's 2019 sustainability report, more than 2,000 suppliers had been followed through Wärtsilä's online supply-chain risk solution.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+            "prompt_label": "Evidence 10",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "More than 2,000 suppliers have been, and continue to be, followed through the system.",
+                "start": 99,
+                "end": 184,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 99,
+                    "end": 184
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "More than 2,000 suppliers have been, and continue to be, followed through the system."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+              "prompt_label": "Evidence 10",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 37,
+              "page_end": 37,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 10
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_e67714602f93831c8432711c1e75cb02",
+          "canonical_occurrence_id": "eco_88b05205e9d985d336c71d5b5260d3da",
+          "member_unit_ids": [
+            "ecu_e67714602f93831c8432711c1e75cb02"
+          ],
+          "member_occurrence_ids": [
+            "eco_88b05205e9d985d336c71d5b5260d3da"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_5ad4464904982241a6d81653184c770d",
+        "ec_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä's online supply-chain risk solution included a selection of key criteria defined by Wärtsilä.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218"
+        ],
+        "ec_occurrence_ids": [
+          "eco_34240bb92f0cb09a233f37f0718a7878"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_34240bb92f0cb09a233f37f0718a7878",
+            "claim_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä's online supply-chain risk solution included a selection of key criteria defined by Wärtsilä.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+            "prompt_label": "Evidence 10",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "The solution includes a selection of key criteria defined by Wärtsilä",
+                "start": 185,
+                "end": 254,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 185,
+                    "end": 254
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "The solution includes a selection of key criteria defined by Wärtsilä"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+              "prompt_label": "Evidence 10",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 37,
+              "page_end": 37,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 10
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_882066591f17b08433a044f21932e6b6",
+          "canonical_occurrence_id": "eco_34240bb92f0cb09a233f37f0718a7878",
+          "member_unit_ids": [
+            "ecu_882066591f17b08433a044f21932e6b6"
+          ],
+          "member_occurrence_ids": [
+            "eco_34240bb92f0cb09a233f37f0718a7878"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_6b5227ff1c054cf4bcf1fa03b2746592",
+        "ec_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä used an online solution for supply-chain risk assessment.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218"
+        ],
+        "ec_occurrence_ids": [
+          "eco_f320b0e3ef42b558f83a3d032767984d"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_f320b0e3ef42b558f83a3d032767984d",
+            "claim_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä used an online solution for supply-chain risk assessment.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+            "prompt_label": "Evidence 10",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring.",
+                "start": 0,
+                "end": 98,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 0,
+                    "end": 98
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+              "prompt_label": "Evidence 10",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 37,
+              "page_end": 37,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 10
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_d3b9b3654fc2400c4e8da0d390f510ad",
+          "canonical_occurrence_id": "eco_f320b0e3ef42b558f83a3d032767984d",
+          "member_unit_ids": [
+            "ecu_d3b9b3654fc2400c4e8da0d390f510ad"
+          ],
+          "member_occurrence_ids": [
+            "eco_f320b0e3ef42b558f83a3d032767984d"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_6ba8e22b3946714e7b124d4086f2ce1d",
+        "ec_text": "According to Wärtsilä's 2019 annual report, more than 2,000 suppliers continued to be followed through Wärtsilä's online supply-chain risk solution.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797"
+        ],
+        "ec_occurrence_ids": [
+          "eco_9784562a1eb5ffe497a0cffaf7fa5e88"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_9784562a1eb5ffe497a0cffaf7fa5e88",
+            "claim_text": "According to Wärtsilä's 2019 annual report, more than 2,000 suppliers continued to be followed through Wärtsilä's online supply-chain risk solution.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "More than 2,000 suppliers have been, and continue to be, followed through the system.",
+                "start": 99,
+                "end": 184,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 99,
+                    "end": 184
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "More than 2,000 suppliers have been, and continue to be, followed through the system."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 132,
+              "page_end": 132,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_489cd3eec72652ec7054f711656d7cff",
+          "canonical_occurrence_id": "eco_9784562a1eb5ffe497a0cffaf7fa5e88",
+          "member_unit_ids": [
+            "ecu_489cd3eec72652ec7054f711656d7cff"
+          ],
+          "member_occurrence_ids": [
+            "eco_9784562a1eb5ffe497a0cffaf7fa5e88"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_73d73e6b0fd70cbc7369b0a29e0c6367",
+        "ec_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä used an online solution for supply-chain risk identification.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218"
+        ],
+        "ec_occurrence_ids": [
+          "eco_c451ae32c028771265df5a8c83836651"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_c451ae32c028771265df5a8c83836651",
+            "claim_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä used an online solution for supply-chain risk identification.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+            "prompt_label": "Evidence 10",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring.",
+                "start": 0,
+                "end": 98,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 0,
+                    "end": 98
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+              "prompt_label": "Evidence 10",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 37,
+              "page_end": 37,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 10
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_2e57831a52bd859e37667bcb76a91651",
+          "canonical_occurrence_id": "eco_c451ae32c028771265df5a8c83836651",
+          "member_unit_ids": [
+            "ecu_2e57831a52bd859e37667bcb76a91651"
+          ],
+          "member_occurrence_ids": [
+            "eco_c451ae32c028771265df5a8c83836651"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_74fd8d7cf8dbce93a19511479637baa1",
+        "ec_text": "According to Wärtsilä's 2019 annual report, more than 2,000 suppliers had been followed through Wärtsilä's online supply-chain risk solution.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797"
+        ],
+        "ec_occurrence_ids": [
+          "eco_cc51806cc997426631738234882a65e5"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_cc51806cc997426631738234882a65e5",
+            "claim_text": "According to Wärtsilä's 2019 annual report, more than 2,000 suppliers had been followed through Wärtsilä's online supply-chain risk solution.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "More than 2,000 suppliers have been, and continue to be, followed through the system.",
+                "start": 99,
+                "end": 184,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 99,
+                    "end": 184
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "More than 2,000 suppliers have been, and continue to be, followed through the system."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 132,
+              "page_end": 132,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_715f8dbbe1eec040355996b355f71a9d",
+          "canonical_occurrence_id": "eco_cc51806cc997426631738234882a65e5",
+          "member_unit_ids": [
+            "ecu_715f8dbbe1eec040355996b355f71a9d"
+          ],
+          "member_occurrence_ids": [
+            "eco_cc51806cc997426631738234882a65e5"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_80c0241dfd98a1ba6d01d8d27b7f8cae",
+        "ec_text": "According to Wärtsilä's 2019 annual report, Wärtsilä used an online solution for supply-chain risk monitoring.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797"
+        ],
+        "ec_occurrence_ids": [
+          "eco_933d29ed226dd92a4633d385c62bb84a"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_933d29ed226dd92a4633d385c62bb84a",
+            "claim_text": "According to Wärtsilä's 2019 annual report, Wärtsilä used an online solution for supply-chain risk monitoring.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring.",
+                "start": 0,
+                "end": 98,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 0,
+                    "end": 98
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 132,
+              "page_end": 132,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_c1e9701fa4bea3ad81467771ad01ea0d",
+          "canonical_occurrence_id": "eco_933d29ed226dd92a4633d385c62bb84a",
+          "member_unit_ids": [
+            "ecu_c1e9701fa4bea3ad81467771ad01ea0d"
+          ],
+          "member_occurrence_ids": [
+            "eco_933d29ed226dd92a4633d385c62bb84a"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_930a1671acf6ad70bbe3d74a620a9e26",
+        "ec_text": "According to Wärtsilä's 2019 annual report, Wärtsilä used an online solution for supply-chain risk identification.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797"
+        ],
+        "ec_occurrence_ids": [
+          "eco_8d969bf418ac7dd6626525b5c3b22cea"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_8d969bf418ac7dd6626525b5c3b22cea",
+            "claim_text": "According to Wärtsilä's 2019 annual report, Wärtsilä used an online solution for supply-chain risk identification.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring.",
+                "start": 0,
+                "end": 98,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 0,
+                    "end": 98
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 132,
+              "page_end": 132,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_d6b7a88d184ca686822a7f2c6218e710",
+          "canonical_occurrence_id": "eco_8d969bf418ac7dd6626525b5c3b22cea",
+          "member_unit_ids": [
+            "ecu_d6b7a88d184ca686822a7f2c6218e710"
+          ],
+          "member_occurrence_ids": [
+            "eco_8d969bf418ac7dd6626525b5c3b22cea"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_9f06735ac16edd4f7e29fee430b1f049",
+        "ec_text": "According to Wärtsilä's 2019 sustainability report, the situation of each supplier was continuously measured against the key criteria in Wärtsilä's online supply-chain risk solution.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218"
+        ],
+        "ec_occurrence_ids": [
+          "eco_d01f4788e86bfffdf406c693e067edcf"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_d01f4788e86bfffdf406c693e067edcf",
+            "claim_text": "According to Wärtsilä's 2019 sustainability report, the situation of each supplier was continuously measured against the key criteria in Wärtsilä's online supply-chain risk solution.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+            "prompt_label": "Evidence 10",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "against which the situation of each supplier is continuously measured.",
+                "start": 256,
+                "end": 326,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 256,
+                    "end": 326
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "against which the situation of each supplier is continuously measured."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+              "prompt_label": "Evidence 10",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 37,
+              "page_end": 37,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 10
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_af9c629b47d9228baaaff8a06112771b",
+          "canonical_occurrence_id": "eco_d01f4788e86bfffdf406c693e067edcf",
+          "member_unit_ids": [
+            "ecu_af9c629b47d9228baaaff8a06112771b"
+          ],
+          "member_occurrence_ids": [
+            "eco_d01f4788e86bfffdf406c693e067edcf"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_c106388ab130ae6248d5407748eaeac1",
+        "ec_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä used an online solution for supply-chain risk monitoring.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218"
+        ],
+        "ec_occurrence_ids": [
+          "eco_723d645392d1db20a1d6d4309d914fd2"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_723d645392d1db20a1d6d4309d914fd2",
+            "claim_text": "According to Wärtsilä's 2019 sustainability report, Wärtsilä used an online solution for supply-chain risk monitoring.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+            "prompt_label": "Evidence 10",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring.",
+                "start": 0,
+                "end": 98,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 0,
+                    "end": 98
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::sustainability_report::2019::p037::c0218",
+              "prompt_label": "Evidence 10",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf | Page 37",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 37,
+              "page_end": 37,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 10
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_c45beb225646c51e60fdc8a2bb3391b8",
+          "canonical_occurrence_id": "eco_723d645392d1db20a1d6d4309d914fd2",
+          "member_unit_ids": [
+            "ecu_c45beb225646c51e60fdc8a2bb3391b8"
+          ],
+          "member_occurrence_ids": [
+            "eco_723d645392d1db20a1d6d4309d914fd2"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+        "case_id": "30d40e80-a663-49f5-85bf-9c41d11314ba__ty2022__G1-2_supplier_relationships__W2__sanity",
+        "ec_id": "ec_e0322d36adbb787fd4b4f5439c2a13fc",
+        "ec_text": "According to Wärtsilä's 2019 annual report, Wärtsilä used an online solution for supply-chain risk assessment.",
+        "evidence_card_ids": [
+          "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797"
+        ],
+        "ec_occurrence_ids": [
+          "eco_cb41c94f2a5cb6937b88f822cefc7a6e"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_cb41c94f2a5cb6937b88f822cefc7a6e",
+            "claim_text": "According to Wärtsilä's 2019 annual report, Wärtsilä used an online solution for supply-chain risk assessment.",
+            "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring.",
+                "start": 0,
+                "end": 98,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 0,
+                    "end": 98
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring."
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::30d40e80-a663-49f5-85bf-9c41d11314ba::annual_report::2019::p132::c0797",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2019,
+              "source_label": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf | Page 132",
+              "source_file": "30d40e80-a663-49f5-85bf-9c41d11314ba_2019_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 132,
+              "page_end": 132,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "73a4f78813c6c1a2829ba567f670b145d631fa7310f8ae87ee78a1b59b525ee9",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": []
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_21d6266917c3ffcfc941f45ee17ca502",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_8d2c903dcbe71d7de4a7c91937c21e67",
+          "canonical_occurrence_id": "eco_cb41c94f2a5cb6937b88f822cefc7a6e",
+          "member_unit_ids": [
+            "ecu_8d2c903dcbe71d7de4a7c91937c21e67"
+          ],
+          "member_occurrence_ids": [
+            "eco_cb41c94f2a5cb6937b88f822cefc7a6e"
+          ]
+        }
+      }
+    ],
+    "candidate_ec_ids": [
+      "ec_27cf8a29025e5d4b9534fbf01f1a49ce",
+      "ec_38894ee2ce5646a1325fc54fa579a34a",
+      "ec_4aa602634822a0af60701d95ba386cc4",
+      "ec_533a49384724aed1fb2a32fef2f98eab",
+      "ec_5ad4464904982241a6d81653184c770d",
+      "ec_6b5227ff1c054cf4bcf1fa03b2746592",
+      "ec_6ba8e22b3946714e7b124d4086f2ce1d",
+      "ec_73d73e6b0fd70cbc7369b0a29e0c6367",
+      "ec_74fd8d7cf8dbce93a19511479637baa1",
+      "ec_80c0241dfd98a1ba6d01d8d27b7f8cae",
+      "ec_930a1671acf6ad70bbe3d74a620a9e26",
+      "ec_9f06735ac16edd4f7e29fee430b1f049",
+      "ec_c106388ab130ae6248d5407748eaeac1",
+      "ec_e0322d36adbb787fd4b4f5439c2a13fc"
+    ],
+    "support": {
+      "dc_claim_id": "dc_0a68745f651e5169efaa2c0409458081",
+      "support_sets": []
+    },
+    "diagnosis": {
+      "dc_claim_id": "dc_0a68745f651e5169efaa2c0409458081",
+      "unsupported_label": "factual_boundary_distortion",
+      "rationale": "The evidence establishes that Wärtsilä used an online solution for supply-chain risk identification in 2019, but does not establish its use in the 2022 reporting year."
+    },
+    "analyst_note": "The wording about an online solution is supported in a 2019 report, while the generated disclosure is framed as 2022. The disputed boundary is temporal carry-forward. The excerpt alone cannot establish that the company stopped using the solution.",
+    "selection_scope": "Fixed seeded within-label example; manuscript subset editorially selected; not representative validation",
+    "display_card_excerpt": "Wärtsilä uses an online solution for supply chain risk identification, assessment, and monitoring.",
+    "interpretation_limit": "The excerpt does not establish that the practice ceased."
+  },
+  "asml": {
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+    "company": "ASML",
+    "target_year": 2019,
+    "task": "E1-6_ghg_emissions",
+    "selection": {
+      "seed": 20260922,
+      "pool_size": 42,
+      "dc_id": "dc_7448bba670219eca599b5121b2de5985"
+    },
+    "dc_id": "dc_7448bba670219eca599b5121b2de5985",
+    "dc_text": "ASML's Scope 1 footprint has historically been defined as emissions from purchased CO₂.",
+    "generated_quote": "ASML’s Scope 1 footprint has historically been defined as emissions from the combustion of natural gas and purchased CO₂.",
+    "generated_disclosure": "### E1-6 – Gross Scope 1, Scope 2, Scope 3 and total GHG emissions\n\nASML monitors greenhouse gas (GHG) emissions associated with its own operations as part of its environmental-efficiency activities. Climate-related focus areas include product stewardship, the energy efficiency of products, renewable electricity and environmental efficiency in our own operations. Responsibility for these focus areas is associated with Products & Technology and Operations.\n\nFor 2019, gross Scope 2 GHG emissions were **141,400 tCO₂e**. This amount is reported on both a market-based and location-based basis and relates to ASML’s consolidated accounting group under a financial-control approach. The same amount is identified as relating to own operations. The available dataset also assigns 141,400 tCO₂e to both upstream and downstream value-chain fields for Scope 2. As these entries represent the same reported Scope 2 amount, they have not been added together in determining emissions.\n\n| GHG emissions category | 2019 |\n|---|---:|\n| Gross Scope 1 emissions | Not available in the provided 2019 data |\n| Gross Scope 2 emissions – location-based | 141,400 tCO₂e |\n| Gross Scope 2 emissions – market-based | 141,400 tCO₂e |\n| Gross Scope 3 emissions | Not available in the provided 2019 data |\n| Other Scope 3 category | 0 tCO₂e |\n| Total GHG emissions | Not determinable from the provided data |\n\nASML’s Scope 1 footprint has historically been defined as emissions from the combustion of natural gas and purchased CO₂. Scope 2 emissions have historically been calculated by multiplying electricity consumption at manufacturing locations by applicable local conversion factors. The evidence available for 2019 does not provide the underlying activity data, emission factors, treatment of renewable electricity instruments or separate Scope 1 emissions required to reconcile the 2019 result.\n\nFor context, ASML reported an own-operations CO₂ footprint of **32.9 ktonnes in 2018**, comprising **17.5 ktonnes of direct Scope 1 emissions** and **15.4 ktonnes of indirect Scope 2 emissions**. The available information does not establish that the 2018 and 2019 figures have consistent boundaries or methodologies; consequently, no year-on-year trend has been calculated.\n\nA value of zero is reported only for the “other Scope 3” category. It does not demonstrate that total Scope 3 emissions were zero, as no complete Scope 3 inventory or category breakdown is available. Accordingly, gross total GHG emissions cannot be calculated without adding unsupported assumptions to the reported information.",
+    "supplied_evidence": [
+      {
+        "prompt_label": "Evidence 1",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p200::c1210",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2017,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 200",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 200,
+        "page_end": 200,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 130,
+        "prompt_rank_from_retrieval": 1,
+        "final_rrf_score": 0.015151836418200296,
+        "bm25_best_rank": 90,
+        "dense_best_rank": null,
+        "retrieval_text": "Code Dutch Corporate Governance Code Code of Conduct Code of ethics and conduct Company ASML Holding N.V. CO2 Carbon Dioxide Consists of the combustion of natural gas and purchased CO2 CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors",
+        "retrieval_text_hash": "f6de1e4ef286a07d472ff5efb52915c27654eaf7893b239150f018579ff28a8c",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 2",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p216::c1352",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 216",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 216,
+        "page_end": 216,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 131,
+        "prompt_rank_from_retrieval": 2,
+        "final_rrf_score": 0.015025062656641604,
+        "bm25_best_rank": 91,
+        "dense_best_rank": null,
+        "retrieval_text": "CFO Chief Financial Officer Code Dutch Corporate Governance Code Code of Conduct Code of ethics and conduct Company ASML Holding N.V. CO2 Carbon Dioxide Consists of the combustion of natural gas and purchased CO2 CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors",
+        "retrieval_text_hash": "07ecfa5d09cf34f111febb3efa5dcf79231a3e494c278fba5f10ac1f79e4273e",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 3",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p216::c1352",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 216",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 216,
+        "page_end": 216,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 132,
+        "prompt_rank_from_retrieval": 3,
+        "final_rrf_score": 0.014950062965241286,
+        "bm25_best_rank": 92,
+        "dense_best_rank": null,
+        "retrieval_text": "CFO Chief Financial Officer Code Dutch Corporate Governance Code Code of Conduct Code of ethics and conduct Company ASML Holding N.V. CO2 Carbon Dioxide Consists of the combustion of natural gas and purchased CO2 CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors",
+        "retrieval_text_hash": "07ecfa5d09cf34f111febb3efa5dcf79231a3e494c278fba5f10ac1f79e4273e",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 4",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p216::c1353",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 216",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 216,
+        "page_end": 216,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 137,
+        "prompt_rank_from_retrieval": 4,
+        "final_rrf_score": 0.01467353807712389,
+        "bm25_best_rank": 91,
+        "dense_best_rank": null,
+        "retrieval_text": "CO2 footprint - indirect scope 2 COO Chief Operations Officer CPU Central Processing Unit CTO Chief Technology Officer Cymer Cymer Inc., Cymer LLC and its subsidiaries D&E Development and Engineering DAP Development Action Plan DRAM Dynamic Random Access Memory (often called performance memory)",
+        "retrieval_text_hash": "8c5f99278c2f89531eedbb91b06a9ce90526cd4c6a28a1c32430a1fa809a2f6a",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 5",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2017,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 161",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 161,
+        "page_end": 161,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 140,
+        "prompt_rank_from_retrieval": 5,
+        "final_rrf_score": 0.014618213884569159,
+        "bm25_best_rank": 94,
+        "dense_best_rank": null,
+        "retrieval_text": "operations with environmental laws and regulations CO2 footprint (in kton) made up of 37.2 45.9 46.6 Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 21.4 20.4 19.0 operations CO2 footprint - indirect scope 2 (in kton) 15.8 25.5 27.6",
+        "retrieval_text_hash": "f84224de15310b858875e0676c1ce1db15087fcc022f77f0fc761b4782829e7b",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 6",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p216::c1353",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 216",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 216,
+        "page_end": 216,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 142,
+        "prompt_rank_from_retrieval": 6,
+        "final_rrf_score": 0.014557719570109748,
+        "bm25_best_rank": 92,
+        "dense_best_rank": null,
+        "retrieval_text": "CO2 footprint - indirect scope 2 COO Chief Operations Officer CPU Central Processing Unit CTO Chief Technology Officer Cymer Cymer Inc., Cymer LLC and its subsidiaries D&E Development and Engineering DAP Development Action Plan DRAM Dynamic Random Access Memory (often called performance memory)",
+        "retrieval_text_hash": "8c5f99278c2f89531eedbb91b06a9ce90526cd4c6a28a1c32430a1fa809a2f6a",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 7",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 175",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 175,
+        "page_end": 175,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 143,
+        "prompt_rank_from_retrieval": 7,
+        "final_rrf_score": 0.01454729151456985,
+        "bm25_best_rank": 95,
+        "dense_best_rank": null,
+        "retrieval_text": "operations with environmental laws and regulations CO2 footprint (in kton) made up of 45.9 46.6 32.9 Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations CO2 footprint - indirect scope 2 (in kton) 25.5 27.6 15.4",
+        "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 8",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 175",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 175,
+        "page_end": 175,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 146,
+        "prompt_rank_from_retrieval": 8,
+        "final_rrf_score": 0.014452906761063214,
+        "bm25_best_rank": 96,
+        "dense_best_rank": null,
+        "retrieval_text": "operations with environmental laws and regulations CO2 footprint (in kton) made up of 45.9 46.6 32.9 Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations CO2 footprint - indirect scope 2 (in kton) 25.5 27.6 15.4",
+        "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 9",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p049::c0243",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2017,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 49",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 49,
+        "page_end": 49,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 155,
+        "prompt_rank_from_retrieval": 9,
+        "final_rrf_score": 0.013674025729863292,
+        "bm25_best_rank": 103,
+        "dense_best_rank": null,
+        "retrieval_text": "Set out below are our Consolidated Statements of Operations data for the years ended December 31, 2016 and 2017: Year ended December 31 2016 2017 (in millions) EUR EUR Total net sales 6,794.8 9,052.8 Total cost of sales (3,750.3) (4,976.1) Gross profit 3,044.5 4,076.7 Other income 93.8 95.8 Research and development costs (1,105.8) (1,259.7) Selling, general and administrative costs (374.8) (416.6) Income from operations 1,657.7 2,496.2 Interest and other, net 33.7 (50.3) Income before income taxes 1,691.4 2,445.9 Provision for income taxes (219.5) (310.7) Income after income taxes 1,471.9 2,135.2 Profit (loss) related to equity method investments — (16.7) Net income 1,471.9 2,118.5",
+        "retrieval_text_hash": "9eab114cd55986845b9d037a827412c2df364c6b6ef8736e57ace03bb23fb2c9",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 10",
+        "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p155::c0960",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2017,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 155",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 155,
+        "page_end": 155,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 177,
+        "prompt_rank_from_retrieval": 10,
+        "final_rrf_score": 0.011645266826860488,
+        "bm25_best_rank": 97,
+        "dense_best_rank": null,
+        "retrieval_text": "Exceptions Reported data scope Applicable to a subset of the reporting scope (where relevant) or where indicators do not fit the reporting scope ASML ASML world- ASML world- ASML worldwide ASML manufacturing D&E ASML products wide excluding locations wide excluding",
+        "retrieval_text_hash": "e58f0d9c5fb8af9573b92139cc1cb9781292c58bc6e0238d23f40b94250956cc",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 11",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p199::t01::r0011",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 199",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 199,
+        "page_end": 199,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 114,
+        "prompt_rank_from_retrieval": 11,
+        "final_rrf_score": 0.016304313502589367,
+        "bm25_best_rank": 183,
+        "dense_best_rank": 80,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 199, table. Table row: unnamed_column_6 = 0.53; unnamed_column_8 = 0.61; unnamed_column_10 = 0.70. Table extraction requires manual review.",
+        "retrieval_text_hash": "1289880ece4c02daadd7db499469b184a022654c6ceeb59aae19b737b9db826e",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 12",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p199::t01::r0009",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 199",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 199,
+        "page_end": 199,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 138,
+        "prompt_rank_from_retrieval": 12,
+        "final_rrf_score": 0.014671449105640461,
+        "bm25_best_rank": null,
+        "dense_best_rank": 89,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 199, table. Table row: unnamed_column_12 = 1.05; unnamed_column_14 = 1.20. Table extraction requires manual review.",
+        "retrieval_text_hash": "2f07a5c20008a2ad13d8c08074ae26f9db2ea7163b3a40e7c3003b01d920bd61",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 13",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p199::t01::r0012",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 199",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 199,
+        "page_end": 199,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 139,
+        "prompt_rank_from_retrieval": 13,
+        "final_rrf_score": 0.014633631230269884,
+        "bm25_best_rank": null,
+        "dense_best_rank": 89,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 199, table. Table row: unnamed_column_0 = 0.20; unnamed_column_2 = 0.40; unnamed_column_4 = 0.46. Table extraction requires manual review.",
+        "retrieval_text_hash": "e2264c616bb54c50ebbc2aa5f280907e6a25a186cc5a0c5f808727bec356e6f0",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 14",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p199::t01::r0007",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 199",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 199,
+        "page_end": 199,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 149,
+        "prompt_rank_from_retrieval": 14,
+        "final_rrf_score": 0.014413158912419361,
+        "bm25_best_rank": null,
+        "dense_best_rank": 91,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 199, table. Table row: unnamed_column_16 = 1.40. Table extraction requires manual review.",
+        "retrieval_text_hash": "547cc09797bde0061e656695603196d340d874aedde2dc3e42dbbcddd547a64d",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 15",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p199::t01::r0006",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 199",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 199,
+        "page_end": 199,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 154,
+        "prompt_rank_from_retrieval": 15,
+        "final_rrf_score": 0.013802347949519473,
+        "bm25_best_rank": null,
+        "dense_best_rank": 92,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 199, table. Table row: unnamed_column_18 = 2.10. Table extraction requires manual review.",
+        "retrieval_text_hash": "826d0ced64e622623037165ce72eb8601690191f1ac75aba5d7dd23398e84c67",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 16",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p037::t03::r0010",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 37",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 37,
+        "page_end": 37,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 193,
+        "prompt_rank_from_retrieval": 16,
+        "final_rrf_score": 0.010579413769597819,
+        "bm25_best_rank": 114,
+        "dense_best_rank": 117,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 37, table. Table row: 2018 focus areas: = a. Secure quality of hires; unnamed_column_3 = 2019. Table extraction requires manual review.",
+        "retrieval_text_hash": "a8580122509f1e4e9fd6ad0826bd167f168cd5a3512f6e6abecf2ed32cb3d44d",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 17",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p037::t03::r0009",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 37",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 37,
+        "page_end": 37,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 194,
+        "prompt_rank_from_retrieval": 17,
+        "final_rrf_score": 0.010554818744473917,
+        "bm25_best_rank": 162,
+        "dense_best_rank": 98,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 37, table. Table row: 2018 focus areas: = 2019 focus areas:. Table extraction requires manual review.",
+        "retrieval_text_hash": "7ac7811126b01f9ed6583f134fa59f7655357712759a361979940317742d2545",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 18",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p029::t03::r0004",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2017,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 29",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 29,
+        "page_end": 29,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 200,
+        "prompt_rank_from_retrieval": 18,
+        "final_rrf_score": 0.008943008284259906,
+        "bm25_best_rank": 100,
+        "dense_best_rank": null,
+        "retrieval_text": "Company: ASML. Source: annual report 2017, page 29, table. Table row: Increase the Technical Competence and Functional Ownership maturity score to 3.6. = Each year have on average 15 hours of technical training per FTE (D&E employees).; 2017 = 2016-2017; See Products and technology KPIs in the table below - we achieved a maturity score of 3.7 for Technical Competence and 4.0 for Functional Ownership, exceeding our 2017 target. = See Products and technology KPIs in the table below - the number of training hours was 18.2, exceeding our 2017 target. Table extraction requires manual review.",
+        "retrieval_text_hash": "e3ac5acd847e970c3bb9c1c890767e19b5f05073772d9ae4f839888d2509a181",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 19",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p066::t01::r0005",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2018,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 66",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+        "document_type": "sustainability_report",
+        "page_start": 66,
+        "page_end": 66,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 201,
+        "prompt_rank_from_retrieval": 19,
+        "final_rrf_score": 0.00891616029230708,
+        "bm25_best_rank": null,
+        "dense_best_rank": 104,
+        "retrieval_text": "Company: ASML. Source: sustainability report 2018, page 66, table. Table row: unnamed_column_0 = Take urgent action to combat • Product stewardship • Energy efficiency products • Products & Technology climate change and its impacts • Environmental efficiency • Renewable electricity • Operations own operations. Table extraction requires manual review.",
+        "retrieval_text_hash": "37e75c998d4e35550630b49fdf910c0fd4e01873b3b7976c1a26e311030a561a",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 20",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p064::t01::r0005",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2017,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 64",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 64,
+        "page_end": 64,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 202,
+        "prompt_rank_from_retrieval": 20,
+        "final_rrf_score": 0.008759823653440675,
+        "bm25_best_rank": null,
+        "dense_best_rank": 110,
+        "retrieval_text": "Company: ASML. Source: annual report 2017, page 64, table. Table row: unnamed_column_0 = Take urgent action to combat • Product stewardship • Energy efficiency products • Products & Technology climate change and its impacts • Environmental efficiency • Renewable electricity • Operations own operations. Table extraction requires manual review.",
+        "retrieval_text_hash": "d024c9ee5dff676578444ed74bc94cb92af9e909eab362cb2a59710a56a88fef",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 21",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::ed468f6a-6bd5-49be-b44e-749d524e2503",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross market-based Scope 2 greenhouse gas emissions Upstream value chain",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 1,
+        "prompt_rank_from_retrieval": 21,
+        "final_rrf_score": 0.04817150063051703,
+        "bm25_best_rank": 6,
+        "dense_best_rank": 2,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Upstream value chain. Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "0b31e328bfad47016bbcdc83cde0db2c6cba4bc757cbd85478124255e34f1661",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 22",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::4950ab6a-ebf6-4c21-9120-db6f459cbcdd",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross market-based Scope 2 greenhouse gas emissions Downstream value chain",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 2,
+        "prompt_rank_from_retrieval": 22,
+        "final_rrf_score": 0.04642338900734423,
+        "bm25_best_rank": 5,
+        "dense_best_rank": 7,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Downstream value chain. Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "743ce9f0c3a124ce3b4a83c5f51dfbb2e3407593578450234efd79f049f888c1",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 23",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::db0b1f5d-fae3-4dc4-a6d4-72a533873418",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category",
+        "value_text": "0.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 3,
+        "prompt_rank_from_retrieval": 23,
+        "final_rrf_score": 0.04614695340501792,
+        "bm25_best_rank": 1,
+        "dense_best_rank": 1,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross Scope 3 greenhouse gas emissions Other Scope 3 greenhouse gas emissions category. Value: 0.0 tCO2e.",
+        "retrieval_text_hash": "3a23ffcaff266764538a32126418484e64d19442526c47b08e043c8c3468a2c9",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 24",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::d61d5d6d-2e6e-47b1-8031-81abfe00d653",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross market-based Scope 2 greenhouse gas emissions",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 4,
+        "prompt_rank_from_retrieval": 24,
+        "final_rrf_score": 0.045934988518943745,
+        "bm25_best_rank": 17,
+        "dense_best_rank": 1,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross market-based Scope 2 greenhouse gas emissions. Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "a99076bbae9e26229201d8caa4c8252e6cc1106d0246d55057f2a9a33fb23659",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 25",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::e8915407-deca-4a83-83b2-66a9ba070986",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross market-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control)",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 5,
+        "prompt_rank_from_retrieval": 25,
+        "final_rrf_score": 0.04529114263053264,
+        "bm25_best_rank": 14,
+        "dense_best_rank": 1,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "a4ddc34bea4b905a54be5141f3942cab7d72165aae30a810601177f0dccac97c",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 26",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::5ac7c2c6-0130-4880-9e5c-4fd8bbc6a982",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control)",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 6,
+        "prompt_rank_from_retrieval": 26,
+        "final_rrf_score": 0.045111391340899545,
+        "bm25_best_rank": 3,
+        "dense_best_rank": 4,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control). Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "3dd2918dd52f7e74f37b2aca893652e4bd96d82bd298c4104de52b0579ea003b",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 27",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::46b00a8b-80f1-440c-a264-aabf37065759",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross location-based Scope 2 greenhouse gas emissions",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 7,
+        "prompt_rank_from_retrieval": 27,
+        "final_rrf_score": 0.044533544747991996,
+        "bm25_best_rank": 5,
+        "dense_best_rank": 7,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Gross location-based Scope 2 greenhouse gas emissions. Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "97da46ad09edd56ea014ba12f807638dec08d96313329c4552fce631b87d9725",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 28",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::dbfb82a5-ef1b-4275-b87d-d4aef0f17e0d",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross market-based Scope 2 greenhouse gas emissions Own operations",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 8,
+        "prompt_rank_from_retrieval": 28,
+        "final_rrf_score": 0.04418242576137313,
+        "bm25_best_rank": 8,
+        "dense_best_rank": 5,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross market-based Scope 2 greenhouse gas emissions Own operations. Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "833d8308d89a8e77d046194728618ac5afd8e6ddcdd42f2eaff71747b4ddb634",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 29",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::0ba0aee0-4e1c-4988-8eae-59f1e6d5f19f",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross location-based Scope 2 greenhouse gas emissions Carbon prices for impairment testing / Approximate value of GHG emissions covered by internal carbon pricing scheme",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 9,
+        "prompt_rank_from_retrieval": 29,
+        "final_rrf_score": 0.04324404761904762,
+        "bm25_best_rank": 1,
+        "dense_best_rank": 14,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-8. Indicator: Gross location-based Scope 2 greenhouse gas emissions Carbon prices for impairment testing / Approximate value of GHG emissions covered by internal carbon pricing scheme. Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "63e780305e946c23984a367c33bc40fd1129435abc3483e70c837b37d8b7482d",
+        "shown_in_prompt": true
+      },
+      {
+        "prompt_label": "Evidence 30",
+        "evidence_id": "csv::2e1f7005-6454-4596-8e28-87214e82b95e::2019::cd824419-429c-41dd-9fc8-a35ea4213186",
+        "evidence_type": "csv_metric",
+        "source_type": "csv",
+        "source_year": 2019,
+        "source_label": "Corporate Sustainability Tracker | Source year 2019",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "document_type": null,
+        "page_start": null,
+        "page_end": null,
+        "metric": "Gross location-based Scope 2 greenhouse gas emissions Own operations",
+        "value_text": "141400.0",
+        "unit": "tCO2e",
+        "retrieval_rank": 10,
+        "prompt_rank_from_retrieval": 30,
+        "final_rrf_score": 0.04235739750445633,
+        "bm25_best_rank": 2,
+        "dense_best_rank": 17,
+        "retrieval_text": "Company: ASML. Reporting year: 2019. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-6. Indicator: Gross location-based Scope 2 greenhouse gas emissions Own operations. Value: 141400.0 tCO2e.",
+        "retrieval_text_hash": "c14126ebae9e461ee095dc09dcfba5a9914b7e912fff5b293b18c3322dbb3b15",
+        "shown_in_prompt": true
+      }
+    ],
+    "supplied_card": {
+      "prompt_label": "Evidence 2",
+      "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p216::c1352",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2018,
+      "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 216",
+      "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+      "document_type": "annual_report",
+      "page_start": 216,
+      "page_end": 216,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 131,
+      "prompt_rank_from_retrieval": 2,
+      "final_rrf_score": 0.015025062656641604,
+      "bm25_best_rank": 91,
+      "dense_best_rank": null,
+      "retrieval_text": "CFO Chief Financial Officer Code Dutch Corporate Governance Code Code of Conduct Code of ethics and conduct Company ASML Holding N.V. CO2 Carbon Dioxide Consists of the combustion of natural gas and purchased CO2 CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors",
+      "retrieval_text_hash": "07ecfa5d09cf34f111febb3efa5dcf79231a3e494c278fba5f10ac1f79e4273e",
+      "shown_in_prompt": true
+    },
+    "selected_ec_id": "ec_5bbf4eea25fd1efe534d87d723f1cd46",
+    "selected_ec_text": "According to ASML's 2018 annual report, ASML's direct Scope 1 CO2 footprint is calculated by multiplying electricity consumption at its manufacturing locations by local conversion factors.",
+    "candidate_ecs": [
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_10311fabd61a968725b45398bf6f9ad5",
+        "ec_text": "According to ASML's 2017 annual report, the reported direct Scope 1 CO2 footprint for own operations was 21.4 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003"
+        ],
+        "ec_occurrence_ids": [
+          "eco_c4f612c38ed9124fda7d6de65ae02350"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_c4f612c38ed9124fda7d6de65ae02350",
+            "claim_text": "According to ASML's 2017 annual report, the reported direct Scope 1 CO2 footprint for own operations was 21.4 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003",
+            "prompt_label": "Evidence 5",
+            "retrieval_text_hash": "f84224de15310b858875e0676c1ce1db15087fcc022f77f0fc761b4782829e7b",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 21.4 20.4 19.0 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 21.4 20.4 19.0 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003",
+              "prompt_label": "Evidence 5",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2017,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 161",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 161,
+              "page_end": 161,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "f84224de15310b858875e0676c1ce1db15087fcc022f77f0fc761b4782829e7b",
+              "prompt_rank_from_retrieval": 5
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_0a14f340bc7a4713529ec747e93120ec",
+          "canonical_occurrence_id": "eco_c4f612c38ed9124fda7d6de65ae02350",
+          "member_unit_ids": [
+            "ecu_0a14f340bc7a4713529ec747e93120ec"
+          ],
+          "member_occurrence_ids": [
+            "eco_c4f612c38ed9124fda7d6de65ae02350"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_42c9a5042918c4c74829f0c5da735031",
+        "ec_text": "According to ASML's 2018 annual report, the reported direct Scope 1 CO2 footprint for own operations was 17.5 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137"
+        ],
+        "ec_occurrence_ids": [
+          "eco_cca76577b0c17e1d997a683f72f15867"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_cca76577b0c17e1d997a683f72f15867",
+            "claim_text": "According to ASML's 2018 annual report, the reported direct Scope 1 CO2 footprint for own operations was 17.5 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 175",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 175,
+              "page_end": 175,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_ffdb960a8806673c999e95e4ace1181a",
+          "canonical_occurrence_id": "eco_cca76577b0c17e1d997a683f72f15867",
+          "member_unit_ids": [
+            "ecu_ffdb960a8806673c999e95e4ace1181a"
+          ],
+          "member_occurrence_ids": [
+            "eco_cca76577b0c17e1d997a683f72f15867"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_5bbf4eea25fd1efe534d87d723f1cd46",
+        "ec_text": "According to ASML's 2018 annual report, ASML's direct Scope 1 CO2 footprint is calculated by multiplying electricity consumption at its manufacturing locations by local conversion factors.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p216::c1352"
+        ],
+        "ec_occurrence_ids": [
+          "eco_687775b48c0eb56fb6317fcbb11ae8b4"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_687775b48c0eb56fb6317fcbb11ae8b4",
+            "claim_text": "According to ASML's 2018 annual report, ASML's direct Scope 1 CO2 footprint is calculated by multiplying electricity consumption at its manufacturing locations by local conversion factors.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p216::c1352",
+            "prompt_label": "Evidence 2",
+            "retrieval_text_hash": "07ecfa5d09cf34f111febb3efa5dcf79231a3e494c278fba5f10ac1f79e4273e",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors",
+                "start": 213,
+                "end": 357,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 213,
+                    "end": 357
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p216::c1352",
+              "prompt_label": "Evidence 2",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 216",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 216,
+              "page_end": 216,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "07ecfa5d09cf34f111febb3efa5dcf79231a3e494c278fba5f10ac1f79e4273e",
+              "prompt_rank_from_retrieval": 2
+            },
+            "unresolved_context": [
+              "The glossary text may have lost column alignment, so it is uncertain whether the calculation description applies to direct Scope 1 CO2 footprint."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_9514ba85fb024b4f4162a86887839489",
+          "canonical_occurrence_id": "eco_687775b48c0eb56fb6317fcbb11ae8b4",
+          "member_unit_ids": [
+            "ecu_9514ba85fb024b4f4162a86887839489"
+          ],
+          "member_occurrence_ids": [
+            "eco_687775b48c0eb56fb6317fcbb11ae8b4"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_5c6742b69957d00dca9d8bde5b161936",
+        "ec_text": "According to ASML's 2018 annual report, the reported direct Scope 1 CO2 footprint for own operations was 20.4 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137"
+        ],
+        "ec_occurrence_ids": [
+          "eco_3b0b27430a71657411346e9e6aa04cc2"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_3b0b27430a71657411346e9e6aa04cc2",
+            "claim_text": "According to ASML's 2018 annual report, the reported direct Scope 1 CO2 footprint for own operations was 20.4 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 175",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 175,
+              "page_end": 175,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_e67d6b348a96ffd20e2b30c66cdda27f",
+          "canonical_occurrence_id": "eco_3b0b27430a71657411346e9e6aa04cc2",
+          "member_unit_ids": [
+            "ecu_e67d6b348a96ffd20e2b30c66cdda27f"
+          ],
+          "member_occurrence_ids": [
+            "eco_3b0b27430a71657411346e9e6aa04cc2"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_691f5050b1fd7e6c1b798b8b073b9e1d",
+        "ec_text": "According to ASML's 2018 annual report, the reported direct Scope 1 CO2 footprint for own operations was 19.0 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137"
+        ],
+        "ec_occurrence_ids": [
+          "eco_1f9b9bd1404e3f407f8d24bac380d274"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_1f9b9bd1404e3f407f8d24bac380d274",
+            "claim_text": "According to ASML's 2018 annual report, the reported direct Scope 1 CO2 footprint for own operations was 19.0 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137",
+            "prompt_label": "Evidence 7",
+            "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p175::c1137",
+              "prompt_label": "Evidence 7",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf | Page 175",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 175,
+              "page_end": 175,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+              "prompt_rank_from_retrieval": 7
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_acdfedfe5f5c5aeadd2b09b2c1376546",
+          "canonical_occurrence_id": "eco_1f9b9bd1404e3f407f8d24bac380d274",
+          "member_unit_ids": [
+            "ecu_acdfedfe5f5c5aeadd2b09b2c1376546"
+          ],
+          "member_occurrence_ids": [
+            "eco_1f9b9bd1404e3f407f8d24bac380d274"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_77678aa0450d24fc0dd5ec46218e6826",
+        "ec_text": "According to ASML's 2017 annual report, ASML's direct Scope 1 CO2 footprint is calculated by multiplying electricity consumption at its manufacturing locations by local conversion factors.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p200::c1210"
+        ],
+        "ec_occurrence_ids": [
+          "eco_75cbc798cf14fbf55b7e0634d4d3743e"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_75cbc798cf14fbf55b7e0634d4d3743e",
+            "claim_text": "According to ASML's 2017 annual report, ASML's direct Scope 1 CO2 footprint is calculated by multiplying electricity consumption at its manufacturing locations by local conversion factors.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p200::c1210",
+            "prompt_label": "Evidence 1",
+            "retrieval_text_hash": "f6de1e4ef286a07d472ff5efb52915c27654eaf7893b239150f018579ff28a8c",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors",
+                "start": 185,
+                "end": 329,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 185,
+                    "end": 329
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p200::c1210",
+              "prompt_label": "Evidence 1",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2017,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 200",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 200,
+              "page_end": 200,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "f6de1e4ef286a07d472ff5efb52915c27654eaf7893b239150f018579ff28a8c",
+              "prompt_rank_from_retrieval": 1
+            },
+            "unresolved_context": [
+              "The glossary text may have lost column alignment, so it is uncertain whether the calculation description applies to direct Scope 1 CO2 footprint."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_553a9be2e40384682c76e682f7b33633",
+          "canonical_occurrence_id": "eco_75cbc798cf14fbf55b7e0634d4d3743e",
+          "member_unit_ids": [
+            "ecu_553a9be2e40384682c76e682f7b33633"
+          ],
+          "member_occurrence_ids": [
+            "eco_75cbc798cf14fbf55b7e0634d4d3743e"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_8c5022b06f4b152c19777d21085d2a14",
+        "ec_text": "According to ASML's 2018 sustainability report, the reported direct Scope 1 CO2 footprint for own operations was 19.0 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137"
+        ],
+        "ec_occurrence_ids": [
+          "eco_56ede763af971fa297b27948296a6774"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_56ede763af971fa297b27948296a6774",
+            "claim_text": "According to ASML's 2018 sustainability report, the reported direct Scope 1 CO2 footprint for own operations was 19.0 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137",
+            "prompt_label": "Evidence 8",
+            "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137",
+              "prompt_label": "Evidence 8",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 175",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 175,
+              "page_end": 175,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+              "prompt_rank_from_retrieval": 8
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_5768ce140129bf16fa9501844a0e08b8",
+          "canonical_occurrence_id": "eco_56ede763af971fa297b27948296a6774",
+          "member_unit_ids": [
+            "ecu_5768ce140129bf16fa9501844a0e08b8"
+          ],
+          "member_occurrence_ids": [
+            "eco_56ede763af971fa297b27948296a6774"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_993b5265d7c66fef5f25209ed7b61fcf",
+        "ec_text": "According to ASML's 2018 sustainability report, ASML's direct Scope 1 CO2 footprint is calculated by multiplying electricity consumption at its manufacturing locations by local conversion factors.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p216::c1352"
+        ],
+        "ec_occurrence_ids": [
+          "eco_4b64129aacad03fbc6ad98849f5acfb4"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_4b64129aacad03fbc6ad98849f5acfb4",
+            "claim_text": "According to ASML's 2018 sustainability report, ASML's direct Scope 1 CO2 footprint is calculated by multiplying electricity consumption at its manufacturing locations by local conversion factors.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p216::c1352",
+            "prompt_label": "Evidence 3",
+            "retrieval_text_hash": "07ecfa5d09cf34f111febb3efa5dcf79231a3e494c278fba5f10ac1f79e4273e",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors",
+                "start": 213,
+                "end": 357,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 213,
+                    "end": 357
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p216::c1352",
+              "prompt_label": "Evidence 3",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 216",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 216,
+              "page_end": 216,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "07ecfa5d09cf34f111febb3efa5dcf79231a3e494c278fba5f10ac1f79e4273e",
+              "prompt_rank_from_retrieval": 3
+            },
+            "unresolved_context": [
+              "The glossary text may have lost column alignment, so it is uncertain whether the calculation description applies to direct Scope 1 CO2 footprint."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_bd83011bf13d879c9ba9b704d0c1234f",
+          "canonical_occurrence_id": "eco_4b64129aacad03fbc6ad98849f5acfb4",
+          "member_unit_ids": [
+            "ecu_bd83011bf13d879c9ba9b704d0c1234f"
+          ],
+          "member_occurrence_ids": [
+            "eco_4b64129aacad03fbc6ad98849f5acfb4"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_a419c37100dd4f60b16ffdc537245108",
+        "ec_text": "According to ASML's 2018 sustainability report, the reported direct Scope 1 CO2 footprint for own operations was 17.5 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137"
+        ],
+        "ec_occurrence_ids": [
+          "eco_fbe05d76e7c150f144f077c8362edb7f"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_fbe05d76e7c150f144f077c8362edb7f",
+            "claim_text": "According to ASML's 2018 sustainability report, the reported direct Scope 1 CO2 footprint for own operations was 17.5 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137",
+            "prompt_label": "Evidence 8",
+            "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137",
+              "prompt_label": "Evidence 8",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 175",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 175,
+              "page_end": 175,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+              "prompt_rank_from_retrieval": 8
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_3a4e17378fd84bbcf5898e479bb62654",
+          "canonical_occurrence_id": "eco_fbe05d76e7c150f144f077c8362edb7f",
+          "member_unit_ids": [
+            "ecu_3a4e17378fd84bbcf5898e479bb62654"
+          ],
+          "member_occurrence_ids": [
+            "eco_fbe05d76e7c150f144f077c8362edb7f"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_bfdfe7ad59111c0d4c2394026c6d5030",
+        "ec_text": "According to ASML's 2017 annual report, the reported direct Scope 1 CO2 footprint for own operations was 20.4 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003"
+        ],
+        "ec_occurrence_ids": [
+          "eco_57c942dc7966464b975f429437df92f1"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_57c942dc7966464b975f429437df92f1",
+            "claim_text": "According to ASML's 2017 annual report, the reported direct Scope 1 CO2 footprint for own operations was 20.4 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003",
+            "prompt_label": "Evidence 5",
+            "retrieval_text_hash": "f84224de15310b858875e0676c1ce1db15087fcc022f77f0fc761b4782829e7b",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 21.4 20.4 19.0 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 21.4 20.4 19.0 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003",
+              "prompt_label": "Evidence 5",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2017,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 161",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 161,
+              "page_end": 161,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "f84224de15310b858875e0676c1ce1db15087fcc022f77f0fc761b4782829e7b",
+              "prompt_rank_from_retrieval": 5
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_828dafebaff608f796d7611d533312c5",
+          "canonical_occurrence_id": "eco_57c942dc7966464b975f429437df92f1",
+          "member_unit_ids": [
+            "ecu_828dafebaff608f796d7611d533312c5"
+          ],
+          "member_occurrence_ids": [
+            "eco_57c942dc7966464b975f429437df92f1"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_d462e50af58d9bbae0829bd0aba8627f",
+        "ec_text": "According to ASML's 2017 annual report, the reported direct Scope 1 CO2 footprint for own operations was 19.0 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003"
+        ],
+        "ec_occurrence_ids": [
+          "eco_c2a5d9fba6f4c775c2f08d4199cef604"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_c2a5d9fba6f4c775c2f08d4199cef604",
+            "claim_text": "According to ASML's 2017 annual report, the reported direct Scope 1 CO2 footprint for own operations was 19.0 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003",
+            "prompt_label": "Evidence 5",
+            "retrieval_text_hash": "f84224de15310b858875e0676c1ce1db15087fcc022f77f0fc761b4782829e7b",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 21.4 20.4 19.0 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 21.4 20.4 19.0 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p161::c1003",
+              "prompt_label": "Evidence 5",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2017,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf | Page 161",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2017_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 161,
+              "page_end": 161,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "f84224de15310b858875e0676c1ce1db15087fcc022f77f0fc761b4782829e7b",
+              "prompt_rank_from_retrieval": 5
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_3004dc2e002db59aba86203d0f1be9d6",
+          "canonical_occurrence_id": "eco_c2a5d9fba6f4c775c2f08d4199cef604",
+          "member_unit_ids": [
+            "ecu_3004dc2e002db59aba86203d0f1be9d6"
+          ],
+          "member_occurrence_ids": [
+            "eco_c2a5d9fba6f4c775c2f08d4199cef604"
+          ]
+        }
+      },
+      {
+        "schema_version": "deduplicated_ec_claim_v1",
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+        "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2019__E1-6_ghg_emissions__W2__sanity",
+        "ec_id": "ec_f8b16f780c8a8db426007c931f0d0a43",
+        "ec_text": "According to ASML's 2018 sustainability report, the reported direct Scope 1 CO2 footprint for own operations was 20.4 kton for an unidentified reporting period.",
+        "evidence_card_ids": [
+          "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137"
+        ],
+        "ec_occurrence_ids": [
+          "eco_80013edcbbb258eddeeb12e9deb9ee22"
+        ],
+        "ec_provenance": [
+          {
+            "ec_occurrence_id": "eco_80013edcbbb258eddeeb12e9deb9ee22",
+            "claim_text": "According to ASML's 2018 sustainability report, the reported direct Scope 1 CO2 footprint for own operations was 20.4 kton for an unidentified reporting period.",
+            "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137",
+            "prompt_label": "Evidence 8",
+            "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations",
+                "start": 101,
+                "end": 196,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 101,
+                    "end": 196
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "source_quotes": [
+              "Environmental efficiency own CO2 footprint - direct scope 1 (in kton) 20.4 19.0 17.5 operations"
+            ],
+            "grounding_status": "exact_unique",
+            "context_resolutions": [],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p175::c1137",
+              "prompt_label": "Evidence 8",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2018,
+              "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf | Page 175",
+              "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2018_SR.pdf",
+              "document_type": "sustainability_report",
+              "page_start": 175,
+              "page_end": 175,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "14bb986062a19826ab60bf994e8215eabf3d265da6fc74828e411412a4c8d244",
+              "prompt_rank_from_retrieval": 8
+            },
+            "unresolved_context": [
+              "The table's reporting-period headers are absent, the entity is not explicitly identified, and extraction order makes the placement of “operations” uncertain."
+            ]
+          }
+        ],
+        "supported_dc_ids": [],
+        "semantic_dedup": {
+          "call_id": "ecdup_16cf2722bf3f438848ddecffb57da7e5",
+          "merge_type": "singleton",
+          "canonical_unit_id": "ecu_f35a642aef4495f41264b52d07319e54",
+          "canonical_occurrence_id": "eco_80013edcbbb258eddeeb12e9deb9ee22",
+          "member_unit_ids": [
+            "ecu_f35a642aef4495f41264b52d07319e54"
+          ],
+          "member_occurrence_ids": [
+            "eco_80013edcbbb258eddeeb12e9deb9ee22"
+          ]
+        }
+      }
+    ],
+    "candidate_ec_ids": [
+      "ec_10311fabd61a968725b45398bf6f9ad5",
+      "ec_42c9a5042918c4c74829f0c5da735031",
+      "ec_5bbf4eea25fd1efe534d87d723f1cd46",
+      "ec_5c6742b69957d00dca9d8bde5b161936",
+      "ec_691f5050b1fd7e6c1b798b8b073b9e1d",
+      "ec_77678aa0450d24fc0dd5ec46218e6826",
+      "ec_8c5022b06f4b152c19777d21085d2a14",
+      "ec_993b5265d7c66fef5f25209ed7b61fcf",
+      "ec_a419c37100dd4f60b16ffdc537245108",
+      "ec_bfdfe7ad59111c0d4c2394026c6d5030",
+      "ec_d462e50af58d9bbae0829bd0aba8627f",
+      "ec_f8b16f780c8a8db426007c931f0d0a43"
+    ],
+    "support": {
+      "dc_claim_id": "dc_7448bba670219eca599b5121b2de5985",
+      "support_sets": []
+    },
+    "diagnosis": {
+      "dc_claim_id": "dc_7448bba670219eca599b5121b2de5985",
+      "unsupported_label": "contradiction",
+      "rationale": "The evidence states that ASML calculated its direct Scope 1 CO₂ footprint from manufacturing-site electricity consumption using local conversion factors, which is incompatible with defining it as emissions from purchased CO₂."
+    },
+    "analyst_note": "The narrative card flattens a two-column glossary. Inspection of the original PDF below assigns purchased CO2 to direct Scope 1 and electricity conversion factors to indirect Scope 2. The automatic rationale follows a misassociated extracted EC; this is not a clean generation-contradiction example.",
+    "selection_scope": "Fixed seeded within-label example; manuscript subset editorially selected; not representative validation",
+    "glossary_rows": [
+      {
+        "label": "CO2 footprint - direct scope 1",
+        "description": "Consists of the combustion of natural gas and purchased CO2"
+      },
+      {
+        "label": "CO2 footprint - indirect scope 2",
+        "description": "Calculated by multiplying electricity consumptions of the manufacturing locations by the local conversion factors"
+      }
+    ],
+    "interpretation_limit": "The source challenges the rationale; it does not validate the full disclosure."
+  }
+}

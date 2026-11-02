@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "date": "2026-11-02",
+  "pdf_pages": 17,
+  "word_box_boundary_violations": [],
+  "report_has_unresolved_tokens": false,
+  "numeric_status": "COMPUTED_VERIFIED",
+  "source_hashes_rechecked": 70,
+  "definition_stages_checked": 7,
+  "diagnosis_order_checked": [
+    "non_disclosure_statement",
+    "contradiction",
+    "evidence_conflation",
+    "factual_boundary_distortion",
+    "inferential_inflation",
+    "unsupported_novelty"
+  ],
+  "full_consumed_source_index_previously_verified": 18155,
+  "visual_review": {
+    "method": "Contact-sheet inspection of all pages and full-size inspection of definition tables, principal results and source locators",
+    "page_previews": [
+      "review/concept_definitions_final/page-01.png",
+      "review/concept_definitions_final/page-02.png",
+      "review/concept_definitions_final/page-03.png",
+      "review/concept_definitions_final/page-04.png",
+      "review/concept_definitions_final/page-05.png",
+      "review/concept_definitions_final/page-06.png",
+      "review/concept_definitions_final/page-07.png",
+      "review/concept_definitions_final/page-08.png",
+      "review/concept_definitions_final/page-09.png",
+      "review/concept_definitions_final/page-10.png",
+      "review/concept_definitions_final/page-11.png",
+      "review/concept_definitions_final/page-12.png",
+      "review/concept_definitions_final/page-13.png",
+      "review/concept_definitions_final/page-14.png",
+      "review/concept_definitions_final/page-15.png",
+      "review/concept_definitions_final/page-16.png",
+      "review/concept_definitions_final/page-17.png"
+    ],
+    "findings": "No observed clipping, overlapping text, unreadable glyphs or trailing orphan page"
+  },
+  "pdf_sha256": "41ac66189f48512e246a82011b0c66bf54b4e9b24517808984f5ff8ffa12cf4f",
+  "script_sha256": "24eedbff1c31061292d7484fb3ba0581c079bda2745ea31f855459da902aa3d6"
+}

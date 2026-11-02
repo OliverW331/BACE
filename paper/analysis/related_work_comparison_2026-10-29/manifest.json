@@ -1,0 +1,123 @@
+{
+  "inspection_date": "2026-10-29",
+  "scope": "Original-source comparison; no new experiment or statistical calculation",
+  "inputs": [
+    {
+      "path": "paper/literature/SOURCE_INDEX.md",
+      "bytes": 16335,
+      "sha256": "0eeac8c1d1cf6655ff937275f6887bdde40b836dd291594e679f7902daed748f"
+    },
+    {
+      "path": "docs/generation_evaluation.md",
+      "bytes": 31410,
+      "sha256": "03123d02c8f807d15f077ccda121a1665fd8b48fcdc62708e451da8ce75f1754"
+    },
+    {
+      "path": "BACE/config/evaluation/prompts/generation_claim_support_prompt_v1.txt",
+      "bytes": 3011,
+      "sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543"
+    },
+    {
+      "path": "BACE/config/evaluation/prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt",
+      "bytes": 3076,
+      "sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8"
+    },
+    {
+      "path": "BACE/script/evaluation/run_generation_claim_unsupported_diagnosis.py",
+      "bytes": 55221,
+      "sha256": "a290b3f6fa64b2b5197f1b204519f5d0ad3abaeddc2f369e6b467c5414cefb7f"
+    },
+    {
+      "path": "BACE/script/evaluation/metrics.py",
+      "bytes": 4612,
+      "sha256": "7c936986759fea2fc0fa4d171882c091b6c4dc7a5f58802d10ca8bce66a36cf8"
+    },
+    {
+      "path": "paper/analysis/storyline_gap_check_2026-10-29/NOTE.md",
+      "bytes": 10216,
+      "sha256": "42ac7a90f3353b718c15c1e0a9ae714b58717cd3695ec61da0cb020f2bbd1e87"
+    },
+    {
+      "path": "paper/literature/sources/susgen2025/original.pdf",
+      "bytes": 2247630,
+      "sha256": "b5c5a39adce35e460f1f78886d50874e0ddfced9a5265ad803d90da450a62453"
+    },
+    {
+      "path": "paper/literature/sources/susgen2025/fulltext.txt",
+      "bytes": 115013,
+      "sha256": "e899add84e3d569580c9065f34723c717ad093a6360e3a7cba266ab17b280923"
+    },
+    {
+      "path": "paper/literature/sources/chatreport2023/original.pdf",
+      "bytes": 609749,
+      "sha256": "030b048c3e8eb21c2a263e007c5328f68e79f1de22bc4dd493aa4384e9f9f810"
+    },
+    {
+      "path": "paper/literature/sources/chatreport2023/fulltext.txt",
+      "bytes": 191173,
+      "sha256": "f05a00c91561957b827821a4338020f34e93927365c61f7259ebd635fdd0fe46"
+    },
+    {
+      "path": "paper/literature/sources/esgbench2026/original.pdf",
+      "bytes": 2050951,
+      "sha256": "c2ca63413f68f7b814cc8a8c9a32277203d83e60c209a077f31cf77457c1eb90"
+    },
+    {
+      "path": "paper/literature/sources/esgbench2026/fulltext.txt",
+      "bytes": 62308,
+      "sha256": "be398a0421d44fb2a7163fa025bb3444c5441d4bc5a80757560f36ac068837bb"
+    },
+    {
+      "path": "paper/analysis/main_results_reaudit_2026-10-29/REPORT.md",
+      "bytes": 18241,
+      "sha256": "0fac615ea232aa529c2fca3ce2af7fa1151fad26f215c568d6f48b4361ee593b"
+    },
+    {
+      "path": "paper/analysis/main_results_reaudit_2026-10-29/diagnoses.csv",
+      "bytes": 491,
+      "sha256": "81bf696fa04cd30f01c9ea409a5515467ba0381ce4f099fe0ebc497cf8c67789"
+    },
+    {
+      "path": "paper/analysis/main_results_reaudit_2026-10-29/results.json",
+      "bytes": 28733,
+      "sha256": "663c0b33d8ac39c60e71eeb541613252b09b70682fb14e0bd60a14182e58d54a"
+    },
+    {
+      "path": "paper/analysis/main_results_reaudit_2026-10-29/reanalyse_main.py",
+      "bytes": 24341,
+      "sha256": "14100c625301fdb19a7605a21a4831559a04b2c97543cddb572967f1b4e6fe0c"
+    },
+    {
+      "path": "paper/analysis/main_results_reaudit_2026-10-29/integrity.json",
+      "bytes": 474,
+      "sha256": "d2f099c9106e1931b150dea11315a8357781bdcd422ebc4cc7f4dd332359cdac"
+    },
+    {
+      "path": "paper/analysis/main_results_reaudit_2026-10-29/provenance.json",
+      "bytes": 2173,
+      "sha256": "7fd966a22a995bd994a28a2c9d9910430627102b8f0d3a37d33ebc9e02a33ca8"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "paper/analysis/related_work_comparison_2026-10-29/REPORT.md",
+      "bytes": 17148,
+      "sha256": "4478fe8843013349c7a0efc8d70d410fabbe112645c87f3cafa9d7105178e3c9"
+    },
+    {
+      "path": "paper/analysis/related_work_comparison_2026-10-29/generate_manifest.py",
+      "bytes": 2346,
+      "sha256": "651124f9b0d401f0186609f32d034d53d34c0344a996e861bbb7a53c0f001b0e"
+    },
+    {
+      "path": "paper/analysis/related_work_comparison_2026-10-29/source_previews/esgbench_pdf_page_4.png",
+      "bytes": 573576,
+      "sha256": "8ab0d347bc85c79982781f91fa5593fb3238a79cc0db1ff034d7ef02d873075e"
+    },
+    {
+      "path": "paper/analysis/related_work_comparison_2026-10-29/source_previews/susgen_pdf_page_4.png",
+      "bytes": 501441,
+      "sha256": "124c365fe24e816ee94e3707efa4a1223d71d9addae886e141e6eb7636e65752"
+    }
+  ]
+}

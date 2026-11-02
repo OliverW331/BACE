@@ -1,0 +1,176 @@
+ragas_style raw file and all paired verdicts verified; failures: 2
+ragchecker_style raw file and all paired verdicts verified; failures: 1
+{
+  "computed_at_utc": "2026-10-22T09:18:14.552352+00:00",
+  "status": "COMPUTED_VERIFIED",
+  "disclosures": 1796,
+  "companies": 30,
+  "claims": 94854,
+  "excluded_disclosures": [
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__hera__2022__e1_4_targets",
+    "w2__text_embedding_3_large__stratified_by_evidence_type_n10__intertek__2019__s1_5_workforce_targets"
+  ],
+  "failed_condition_records": 3,
+  "all_claims": {
+    "mean_support_percent": {
+      "original": 55.36416240950258,
+      "ragas_style": 63.023600806980895,
+      "ragchecker_style": 60.33574142418171,
+      "ragas_native": 90.65612987433987,
+      "ragchecker_native": 90.23227556308358
+    },
+    "native_minus_bace_gap_pp": {
+      "original": {
+        "ragas": 35.29196746483729,
+        "ragchecker": 34.868113153581
+      },
+      "ragas_style": {
+        "ragas": 27.632529067358973,
+        "ragchecker": 27.20867475610268
+      },
+      "ragchecker_style": {
+        "ragas": 30.320388450158156,
+        "ragchecker": 29.896534138901867
+      }
+    },
+    "claim_pooled_support_percent": {
+      "original": 55.0772766567567,
+      "ragas_style": 62.392729879604445,
+      "ragchecker_style": 59.73285259451367
+    }
+  },
+  "excluding_original_boundary": {
+    "mean_support_percent": {
+      "original": 68.67990010126988,
+      "ragas_style": 72.50370680949298,
+      "ragchecker_style": 69.7250590317849,
+      "ragas_native": 90.65612987433987,
+      "ragchecker_native": 90.23227556308358
+    },
+    "native_minus_bace_gap_pp": {
+      "original": {
+        "ragas": 21.976229773069992,
+        "ragchecker": 21.552375461813703
+      },
+      "ragas_style": {
+        "ragas": 18.152423064846886,
+        "ragchecker": 17.728568753590594
+      },
+      "ragchecker_style": {
+        "ragas": 20.931070842554966,
+        "ragchecker": 20.507216531298678
+      }
+    },
+    "claim_pooled_support_percent": {
+      "original": 68.97129881445885,
+      "ragas_style": 72.57941013386846,
+      "ragchecker_style": 69.84527235761624
+    }
+  },
+  "remaining_claim_count_excluding_original_boundary": 75746,
+  "original_boundary_claim_count": 19108,
+  "saved_prompt_effects": [
+    {
+      "condition": "ragas_style",
+      "label": "BACE–RAGAS-style",
+      "disclosures": "1796",
+      "claims": "94854",
+      "estimate": "0.0765943839747832",
+      "low": "0.06838572209669627",
+      "high": "0.0846154480044914",
+      "companies_with_observations": "30",
+      "resampling_companies": "30",
+      "denominator": "1796.0",
+      "valid_draws": "2000",
+      "undefined_draws": "0",
+      "leave_one_company_out_min": "0.07485235681219948",
+      "leave_one_company_out_max": "0.07814151910022964"
+    },
+    {
+      "condition": "ragchecker_style",
+      "label": "BACE–RAGChecker-style",
+      "disclosures": "1796",
+      "claims": "94854",
+      "estimate": "0.04971579014679135",
+      "low": "0.04143141816926605",
+      "high": "0.05792193573433631",
+      "companies_with_observations": "30",
+      "resampling_companies": "30",
+      "denominator": "1796.0",
+      "valid_draws": "2000",
+      "undefined_draws": "0",
+      "leave_one_company_out_min": "0.047884210604679046",
+      "leave_one_company_out_max": "0.051071783324033324"
+    }
+  ],
+  "saved_prompt_scores": [
+    {
+      "condition": "original",
+      "label": "Original BACE",
+      "disclosures": "1796",
+      "claims": "94854",
+      "estimate": "0.5536416240950258",
+      "low": "0.5391301190089873",
+      "high": "0.5683460532880735",
+      "companies_with_observations": "30",
+      "resampling_companies": "30",
+      "denominator": "1796.0",
+      "valid_draws": "2000",
+      "undefined_draws": "0",
+      "leave_one_company_out_min": "0.550050104922801",
+      "leave_one_company_out_max": "0.55633428549641"
+    },
+    {
+      "condition": "ragas_style",
+      "label": "BACE–RAGAS-style",
+      "disclosures": "1796",
+      "claims": "94854",
+      "estimate": "0.630236008069809",
+      "low": "0.6115886146182569",
+      "high": "0.6491877379902492",
+      "companies_with_observations": "30",
+      "resampling_companies": "30",
+      "denominator": "1796.0",
+      "valid_draws": "2000",
+      "undefined_draws": "0",
+      "leave_one_company_out_min": "0.6266274749867042",
+      "leave_one_company_out_max": "0.6335937572608697"
+    },
+    {
+      "condition": "ragchecker_style",
+      "label": "BACE–RAGChecker-style",
+      "disclosures": "1796",
+      "claims": "94854",
+      "estimate": "0.603357414241817",
+      "low": "0.5847034573826417",
+      "high": "0.6221560188760268",
+      "companies_with_observations": "30",
+      "resampling_companies": "30",
+      "denominator": "1796.0",
+      "valid_draws": "2000",
+      "undefined_draws": "0",
+      "leave_one_company_out_min": "0.5996611548616331",
+      "leave_one_company_out_max": "0.6067599179840005"
+    }
+  ],
+  "selected_case_count": 18,
+  "changed_selected_cases": {
+    "ragas_style": [
+      "R02",
+      "R03",
+      "R05",
+      "R11"
+    ],
+    "ragchecker_style": [
+      "R05",
+      "R11"
+    ]
+  },
+  "notes": [
+    "All means use the same 1,796 complete disclosures and equal disclosure weights.",
+    "Native scores retain each framework's own claims and evidence interface.",
+    "The adapted prompts judge the same BACE DCs against the same candidate ECs; no diagnosis was rerun and no textual rationale was saved.",
+    "Boundary exclusion removes the original BACE boundary-labelled DCs from all BACE conditions, including newly supported ones. It does not remove corresponding native claims.",
+    "The 18 cases are reused examples, not a representative sample or human validation."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "citation-audit",
+  "upstream_path": "skills/skills-codex/citation-audit",
+  "source": "wanshuiyin/Auto-claude-code-research-in-sleep",
+  "commit": "2132036060e03e8d0df69a4b21e5971819c0c2d6",
+  "commit_date": "2026-09-29T05:26:25Z",
+  "retrieval_date": "2026-09-29",
+  "upstream_skill_sha256": "08c75f43bc03d525898d05a36c5e8459ae0877939b436a2b39f9161c6a3e7c42",
+  "archive_sha256": "23fd763e826415e938648399394a5d2bf448eb06ce7288f39a8dec6782ad8cd1",
+  "license": "MIT",
+  "installed_path": "/home/muwang/master_thesis/.agents/skills/citation-audit",
+  "invocation": "$citation-audit",
+  "mode": "reviewed English instruction adaptation",
+  "included_upstream_helpers": [],
+  "status": "VERIFIED_PROJECT_ADAPTER",
+  "installed_files_sha256": {
+    "SKILL.md": "e085e7bf058cec6bb316bc7bdcdd3a2e62b164106876c1f4f39ca6ee0cba5159",
+    "LICENSE": "e30cf5dd5f49b4f9b656590e23d782b4756c924a9f0ff0162b3e7b5d87006bf5",
+    "agents/openai.yaml": "32f7543673df3bdc5d538b56b4c2ab20545a1442795787594301f96ca7866e73"
+  },
+  "modified_upstream_helpers": [],
+  "verification": {
+    "codex_discovery": true,
+    "schema_validation": true,
+    "bounded_instruction_invocation": true,
+    "behavioral_test_context": "six paired synthetic workflows in one separate evaluation context",
+    "full_upstream_runtime_installed": false,
+    "scientific_results_validated": false
+  }
+}

@@ -1,0 +1,214 @@
+Verifying saved snapshot inputs and source hashes...
+Recomputing point estimates, literal alignment and clustered contrasts...
+{
+  "cohort": {
+    "planned": 1800,
+    "bace_complete": 1798,
+    "companies": 30,
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tasks": [
+      "E1-1",
+      "E1-3",
+      "E1-4",
+      "E1-6",
+      "G1-1",
+      "G1-2",
+      "G1-3",
+      "G1-4",
+      "S1-1",
+      "S1-14",
+      "S1-4",
+      "S1-5"
+    ],
+    "missing": [
+      {
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets",
+        "company_name": "Banco BPM",
+        "year": 2019.0,
+        "task": "S1-5",
+        "state_status": "partial"
+      },
+      {
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies",
+        "company_name": "Investec",
+        "year": 2023.0,
+        "task": "S1-1",
+        "state_status": "partial"
+      }
+    ]
+  },
+  "rates": {
+    "bace": {
+      "mean": 0.5537546371346639,
+      "low": 0.5392260385547821,
+      "high": 0.5687282257061399,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "ragchecker": {
+      "mean": 0.902355564781211,
+      "low": 0.8953242108041017,
+      "high": 0.9096931067598968,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "ragas": {
+      "mean": 0.9065974089675372,
+      "low": 0.8996188236532434,
+      "high": 0.9132159991274342,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "non_disclosure_sensitivity": {
+      "mean": 0.5972471919481566,
+      "low": 0.582331502672753,
+      "high": 0.6127564837673108,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "zero_candidate_upper_bound": {
+      "mean": 0.5742434015014095,
+      "low": 0.5607102570831972,
+      "high": 0.5889710086945847,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  },
+  "distribution": {
+    "median": 0.5562587904360057,
+    "q25": 0.4523809523809524,
+    "q75": 0.6589523281596452,
+    "minimum": 0.06666666666666667,
+    "maximum": 0.9342105263157895,
+    "below_half_cases": 634,
+    "at_least_80pct_cases": 89,
+    "fully_supported_cases": 0,
+    "zero_support_cases": 0
+  },
+  "paired_contrasts": {
+    "G1-1_minus_S1-5": {
+      "mean": 0.1869066685355524,
+      "low": 0.13885038621146,
+      "high": 0.23597506078074498,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 27,
+      "negative_company_means": 3
+    },
+    "G1-1_minus_S1-5_non_disclosure_sensitivity": {
+      "mean": 0.13116788126956305,
+      "low": 0.0856523944326516,
+      "high": 0.17782629443232773,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 26,
+      "negative_company_means": 4
+    },
+    "E1-4_minus_S1-5": {
+      "mean": 0.1734830388860637,
+      "low": 0.1307943909694692,
+      "high": 0.2190547185776652,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 28,
+      "negative_company_means": 2
+    },
+    "E1-4_minus_S1-5_non_disclosure_sensitivity": {
+      "mean": 0.15518789291863788,
+      "low": 0.11411262607915305,
+      "high": 0.19666915051777792,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 28,
+      "negative_company_means": 2
+    },
+    "E1-6_minus_S1-5": {
+      "mean": 0.1683673001792348,
+      "low": 0.13742036168807803,
+      "high": 0.19945377525294242,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 29,
+      "negative_company_means": 1
+    },
+    "E1-6_minus_S1-5_non_disclosure_sensitivity": {
+      "mean": 0.21229903351783636,
+      "low": 0.1715882327126548,
+      "high": 0.25431859853462113,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 29,
+      "negative_company_means": 1
+    },
+    "E1_minus_S1": {
+      "mean": 0.07480293131022148,
+      "low": 0.05104254412594862,
+      "high": 0.09962487910814155,
+      "companies": 30,
+      "observations": 148,
+      "positive_company_means": 26,
+      "negative_company_means": 4
+    },
+    "G1_minus_S1": {
+      "mean": 0.07334260905332458,
+      "low": 0.048467363637383694,
+      "high": 0.0992139938903482,
+      "companies": 30,
+      "observations": 148,
+      "positive_company_means": 24,
+      "negative_company_means": 6
+    },
+    "2023_minus_2019": {
+      "mean": 0.04301346094441071,
+      "low": 0.016832250750547874,
+      "high": 0.06877000110881787,
+      "companies": 30,
+      "observations": 358,
+      "positive_company_means": 20,
+      "negative_company_means": 10
+    }
+  },
+  "evidence_use": {
+    "case_level_ec": 224611.0,
+    "case_level_used_ec": 71187.0,
+    "macro_eccr": 0.34341482922035954,
+    "median_eccr": 0.3230769230769231,
+    "pooled_eccr": 0.3169346113948115,
+    "inferred_fraction_supported": 0.3417958668680342,
+    "multi_ec_required_dc": 13710.0,
+    "limit": "ECs are case-level deduplicated inventories. Unused ECs may be redundant, irrelevant or outside task scope; ECCR is not recall or completeness."
+  },
+  "human_review": [
+    {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx",
+      "sample_rows": 600,
+      "support_labels": 0,
+      "diagnosis_labels": 0,
+      "sha256": "7d6bf6fec6285bba2179457bf29b31058f7007b65024b85dcdd47660894344c5"
+    },
+    {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx",
+      "sample_rows": 600,
+      "support_labels": 0,
+      "diagnosis_labels": 0,
+      "sha256": "0f161380f1777042ccd35cf09ef01b15c8baa17b9210ec92ea1d33c9fdce499b"
+    }
+  ],
+  "hash_mismatches": 0
+}

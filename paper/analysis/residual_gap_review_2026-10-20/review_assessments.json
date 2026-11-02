@@ -1,0 +1,156 @@
+{
+  "reviewer": "Codex AI assistant",
+  "review_type": "Non-blinded internal source review; not independent human validation",
+  "scope": "Complete supplied evidence cards and generated disclosure for each selected pair; saved ECs, candidates and judgments inspected subsequently. No external truth assessment or full-report absence claim.",
+  "outcome_rule": "SUPPORTED and UNSUPPORTED refer to the complete matched target under the stated source rule. UNRESOLVED retains material ambiguities rather than counting them as errors. Core-anchor findings do not override unresolved temporal or semantic scope.",
+  "assessments": [
+    {
+      "review_id": "R01", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Present; the original paragraph links energy-efficiency assistance, the platform and suggested actions.",
+      "evidence": [{"label": "Evidence 1", "quote": "To help hotels achieve their target, we provided training and resources, sharing guidance and best practices in achieving energy efficiency and carbon reduction."}, {"label": "Evidence 1", "quote": "Using the IHG Green Engage platform, (see page 31) hotels have constant visibility of progress and suggestions of actions to take."}],
+      "reason": "The original paragraph gives RAGAS a coherent contextual basis; the separated ECs weaken that connection. However, it is a 2019 passage used in a 2020 disclosure. The complete current-practice interpretation is not established without a continuity rule. This is not a clean confirmed evidence-conflation miss.",
+      "pipeline_finding": "Relevant propositions are present in candidates, but their paragraph-level relationship is less explicit after atomization.",
+      "resolution": "Decide whether the unqualified target describes the documented historical practice or asserts its continuation in 2020; inspect that relationship under a shared context policy."
+    },
+    {
+      "review_id": "R02", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Explicit historical training passages, with 2021 training counts but without all training-content qualifiers.",
+      "evidence": [{"label": "Evidence 1", "quote": "Employees with senior positions and those with external contacts are trained in anti-cor ruption legislation"}, {"label": "Evidence 8", "quote": "Employees in a senior position and/or with external contacts are given additional training in anti-corruption."}, {"label": "Evidence 28", "quote": "Number of employees receiving anti-corruption and anti-bribery training, during period Managers. Value: 1000.0."}],
+      "reason": "The basic training proposition is directly documented in earlier years. A 2021 count does not independently establish that the same additional legislation-focused training continued for the same population. BACE's diagnosis is explicitly about this cross-year combination, despite being labeled evidence_conflation rather than factual_boundary_distortion.",
+      "pipeline_finding": "The pertinent historical and current-count ECs are retained; the remaining dispute is interpretation of continuity and scope.",
+      "resolution": "Use a shared policy on historical training practices and current-year counts; do not claim that excluding a diagnosis label removes all temporal issues."
+    },
+    {
+      "review_id": "R03", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Partial: trends/performance monitoring occurs in an environmental passage whose first word is a truncated incident reference.",
+      "evidence": [{"label": "Evidence 1", "quote": "incidents. We monitor trends and performance and measure these against our targets."}, {"label": "Evidence 1", "quote": "Environmental hazard severity is measured through a points system that reflects the potential impact on the environment should an incident occur."}],
+      "reason": "The card does not retain the antecedent of its opening 'incidents.' The target's 'alongside' relationship is plausible, but it is not safely resolved from this fragment; the source is also from 2018 and the disclosure from 2019. BACE cannot be declared correct simply because its ECs separate the topics, nor RAGChecker because it labels the fragment entailment.",
+      "pipeline_finding": "Context truncation predates EC checking. RAGChecker also accepts a separate 2015 incident-count passage that does not by itself establish the full target.",
+      "resolution": "Inspect the source-page antecedent as an auxiliary extraction check, then keep evidence supplied to the evaluator distinct from any restored context."
+    },
+    {
+      "review_id": "R04", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Present in the stakeholder list: suppliers/contractors and on-time payment.",
+      "evidence": [{"label": "Evidence 5", "quote": "Suppliers and contractors"}, {"label": "Evidence 5", "quote": "On-time payment"}],
+      "reason": "RAGAS uses a real source anchor. BACE receives only the 2023 average-payment-days metric, which does not express recognition of on-time payment as a relationship issue. The relevant 2019 card has no final ECs. That is a verified evidence-retention difference, but it does not establish continued applicability in 2023.",
+      "pipeline_finding": "No final EC cites Evidence 5. The sole candidate is the 2023 payment-duration metric; the issue is upstream of candidate selection.",
+      "anchor_cards_for_ec_audit": ["Evidence 5"],
+      "resolution": "Repair or audit preservation of stakeholder-list relations, and adjudicate historical-to-current applicability separately."
+    },
+    {
+      "review_id": "R05", "source_verdict": "UNSUPPORTED",
+      "core_anchor": "The 2019 Scope 1 target exists; the additional monitoring activity is not stated.",
+      "evidence": [{"label": "Evidence 2", "quote": "Percentage of target related to Scope 1 Greenhouse gas emissions (as of emissions of base year). Value: 37.0 percent."}, {"label": "Evidence 9", "quote": "Percentage of Scope 1 Greenhouse gas emissions reduction (as of emissions of base year). Value: 37.0 percent."}],
+      "reason": "Under the stated entailment rule, a saved target value and reduction value do not establish that Intesa Sanpaolo performed the activity 'monitored a target'. These are source-dataset indicators, not an account of its monitoring process. RAGAS's reason supports target existence but does not address that added verb. BACE's rejection is better supported under this rule.",
+      "pipeline_finding": "Both relevant metrics are present in the candidate ECs; this disagreement is not an empty-candidate artifact.",
+      "resolution": "If the project instead defines publication of a target/result pair as sufficient for 'monitored', record that explicit convention and re-adjudicate. Do not claim external nonexistence of monitoring."
+    },
+    {
+      "review_id": "R06", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Supervisory-duties training was scheduled for March-April 2021.",
+      "evidence": [{"label": "Evidence 10", "quote": "training event on legislative-related matters during March - April 2021 (delegation of duties, supervisory duties, disciplinary instruments)"}],
+      "reason": "'The programme included training' can describe planned programme content, which the source supports. The complete generated sentence additionally says 'delivered during March and April', which is not established by the scheduling passage. The extracted target omits 'delivered'. A binary winner depends on whether completion is carried into the target from its original sentence. BACE's diagnosis itself treats scheduled versus included as a difference, which is not automatically valid.",
+      "pipeline_finding": "The candidate preserves scheduling. Separately, RAGChecker marks Evidence 21 (100% health-and-safety-system coverage) as entailment, although that card does not establish supervisory training.",
+      "resolution": "Keep two targets distinct: planned programme inclusion versus completed delivery. Audit that RAGChecker evidence edge separately from its overall claim verdict."
+    },
+    {
+      "review_id": "R07", "source_verdict": "UNRESOLVED",
+      "core_anchor": "A supplied investment-property table mentions monitoring and regulatory measures.",
+      "evidence": [{"label": "Evidence 19", "quote": "ENVIRONMENTAL SECURITY OF INVESTMENT PROPERTIES"}, {"label": "Evidence 19", "quote": "Monitoring of conditions of properties and measures for the relative regulation."}],
+      "reason": "The source contains a recognizable anchor, so the absence of BACE candidates is not evidence that no original anchor exists. However, the table has missing column names and a manual-review flag; whether it reports completed measures or a management response is unclear. It is also from 2019, while the disclosure concerns 2020. This does not warrant an unconditional BACE false-rejection label.",
+      "pipeline_finding": "Evidence 19 produces no final ECs and this target has no candidates.",
+      "anchor_cards_for_ec_audit": ["Evidence 19"],
+      "resolution": "Check the original table headers and preserve action status; use any restored source context only in a separately labeled extraction review."
+    },
+    {
+      "review_id": "R08", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Explicit: ASML Speak Up appears in the supplier-channel list.",
+      "evidence": [{"label": "Evidence 10", "quote": "Suppliers • ASML’s supplier days • Supplier Relationship Satisfaction Survey • Direct interaction via supplier account teams / procurement account managers • Supplier audits • ASML Speak up service"}],
+      "reason": "RAGAS's source reason is accurate for the documented supplier channel. None of the four supplied cards carrying this list yields a final EC. BACE's no-anchor diagnosis therefore describes its EC inventory, not the original cards. Whether the 2017-2019 channel still operated in the 2021 reporting context remains unresolved.",
+      "pipeline_finding": "Zero final ECs linked to Evidence 4, 6, 7 and 10; zero target candidates.",
+      "anchor_cards_for_ec_audit": ["Evidence 4", "Evidence 6", "Evidence 7", "Evidence 10"],
+      "resolution": "Preserve list-to-stakeholder relations during EC extraction; distinguish a historical channel statement from a current-year assertion."
+    },
+    {
+      "review_id": "R09", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Employee development reviews appear with communication and discussion channels.",
+      "evidence": [{"label": "Evidence 4", "quote": "Employee development reviews"}, {"label": "Evidence 4", "quote": "Roundtable discussions and networks"}],
+      "reason": "The original card gives a relevant anchor, but no final EC is linked to it and the target has no candidates. The 2019 list also lacks its column headings in the supplied text; the current 2023 facilitation claim cannot be resolved solely by noticing that the words 'development reviews' appear.",
+      "pipeline_finding": "Evidence 4 has zero linked final ECs; this is an upstream retention issue, not merely selection among available ECs.",
+      "anchor_cards_for_ec_audit": ["Evidence 4"],
+      "resolution": "Check list context and temporal scope before calling this a BACE false rejection."
+    },
+    {
+      "review_id": "R10", "source_verdict": "SUPPORTED",
+      "core_anchor": "Closed-input statement: no specific 2021 SME-supplier arrangements appear in the complete supplied set.",
+      "evidence": [{"label": "Evidence 1", "quote": "Our Global Procurement Policy lays the ground rules for how we conduct ourselves toward our vendors and our expectations toward the supply chain."}, {"label": "Evidence 23", "quote": "Average number of days to pay invoice from date when contractual or statutory term of payment starts to be calculated. Value: 30.0."}],
+      "reason": "All 30 supplied cards were reviewed. They discuss general procurement, supplier onboarding and average payment duration, but no arrangements specific to small and medium-sized suppliers for 2021. The target expressly limits itself to 'the available information'. Under a closed-input reading, RAGAS is better supported and BACE rejects an accurate description of the input's limitation.",
+      "pipeline_finding": "The four candidates are payment-duration metrics. A positive EC inventory lacks the completeness premise needed to reason about what the full input omits.",
+      "resolution": "Treat input-limited absence separately from company-wide non-disclosure. This verdict does not claim that Mowi had no such arrangements or reported none elsewhere."
+    },
+    {
+      "review_id": "R11", "source_verdict": "SUPPORTED",
+      "core_anchor": "The full supplied input has the 2022 LTI result and 2023 target, but no 2023 LTI result.",
+      "evidence": [{"label": "Evidence 9", "quote": "Target attainment in 2022 Lost time injury rate (LTI-R) 1 0.25"}, {"label": "Evidence 9", "quote": "Targets for 2023 and beyond Two-tier stacking of drums. Lost time injury rate (LTI-R) 1 ≤ 0.26"}],
+      "reason": "All 30 supplied cards were reviewed; other 2023 workforce measures do not supply the missing LTI result. The statement is explicitly about available information, so it is supported as a closed-input observation. RAGAS is better supported. BACE's diagnosis actually restates the same missing-result observation, while its earlier support stage still returns no support set.",
+      "pipeline_finding": "Both candidate ECs retain the correct year and target/result distinction. The issue is the support policy for absence over the complete input, not lack of the two visible metrics.",
+      "resolution": "Add an explicit corpus-scope/completeness treatment for input-limited negative statements. Do not reinterpret a 2023 target as an observed result."
+    },
+    {
+      "review_id": "R12", "source_verdict": "UNRESOLVED",
+      "core_anchor": "An explicit company non-reporting statement exists for the 2022 report.",
+      "evidence": [{"label": "Evidence 3", "quote": "Deutsche Bank does not report on transition assistance programs provided to facilitate continued employability and the management of career endings resulting from retirement or termination of employment."}],
+      "reason": "RAGChecker cites a nearly exact source statement, so this is not unsupported novelty. But the source is the 2022 report and the generated disclosure is for 2023. Unlike R10 and R11, this target asserts company non-reporting without an explicit limitation to the available cards. BACE's temporal reservation is valid; the correct binary decision depends on the target's intended reporting scope.",
+      "pipeline_finding": "The historical non-reporting statement is retained in candidates. The disagreement is not evidence loss.",
+      "resolution": "Distinguish 'the 2022 report states X' from 'the company does not report X in 2023'. Under the latter reading, the supplied evidence is insufficient."
+    },
+    {
+      "review_id": "R13", "source_verdict": "UNSUPPORTED",
+      "core_anchor": "SES performed assessments in accordance with EN 16247 in a European energy-saving legal context.",
+      "evidence": [{"label": "Evidence 9", "quote": "In the context of the legal framework in Europe with the goal to save energy, SES started to analyse the energy efficiency of the main facilities in accordance with EN 16247."}],
+      "reason": "The evidence relates SES's assessment activity to the legal context and to a technical standard. It does not establish the new proposition that the standard itself reflects that legal framework. Under the necessary-inference rule, RAGAS's rejection is better supported than BACE's inferred support. The original generated sentence's 'reflecting' could modify the assessment activity; the extracted target instead attaches it to EN 16247.",
+      "pipeline_finding": "The single supporting EC faithfully retains the activity-level relation. The unsupported step appears in the target-level relation/inference, not a missing candidate.",
+      "resolution": "Review the extracted target's modifier attachment; do not use external legal knowledge to rescue the supplied-evidence verdict."
+    },
+    {
+      "review_id": "R14", "source_verdict": "UNRESOLVED",
+      "core_anchor": "100% of employees were covered by a health-and-safety management system in 2020.",
+      "evidence": [{"label": "Evidence 21", "quote": "Percentage of people in own workforce who are covered by health and safety management system based on legal requirements and (or) recognised standards or guidelines Employees. Value: 100.0 percent."}],
+      "reason": "Operating a management system ordinarily requires organizational resources, which supports BACE's broad existential reading. The indicator does not specify a resource-allocation decision, staffing or budget, which supports RAGAS's stricter reading. The target does not quantify resources. The available evidence does not resolve which interpretation of 'allocated organizational resources' was intended.",
+      "pipeline_finding": "The same 2020 coverage metric is the BACE support set; the dispute is the permitted inference, not absent evidence.",
+      "resolution": "Define whether the phrase means any resources inherent in operating a system or an independently documented allocation decision."
+    },
+    {
+      "review_id": "R15", "source_verdict": "SUPPORTED",
+      "core_anchor": "Current and prior high-climate-impact revenue, plus current other-activity revenue, support ordinary business significance.",
+      "evidence": [{"label": "Evidence 22", "quote": "Revenue from activities in high climate impact sectors. Value: 3466400000.0 USD."}, {"label": "Evidence 24", "quote": "Revenue from activities other than in high climate impact sectors. Value: 631400000.0 USD."}, {"label": "Evidence 26", "quote": "Revenue from activities in high climate impact sectors. Value: 3657000000.0 USD."}],
+      "reason": "The 2020 high-impact revenue is the large majority of the sum of the two reported revenue categories, and the 2019 value is also substantial. In this paragraph, 'remained material' is an ordinary qualitative description of business exposure, not a claim of a completed formal ESRS materiality assessment. On that reading BACE's positive target verdict is better supported. RAGChecker returns Neutral for every individual card.",
+      "pipeline_finding": "The source conclusion uses current-year scale and a prior-year comparison. This is compatible with a limitation of isolated-card checking, but does not prove a causal mechanism without a controlled rerun. BACE's individual minimal support sets were not independently validated.",
+      "resolution": "If 'material' is intended as a formal regulatory classification, mark that stronger proposition unresolved; do not infer such a classification from revenue alone."
+    },
+    {
+      "review_id": "R16", "source_verdict": "SUPPORTED",
+      "core_anchor": "Changing weather influences crop yields; other supplied passages connect climate/weather to food production and food security.",
+      "evidence": [{"label": "Evidence 3", "quote": "Changing weather influences crop yields and the livelihoods of farmers."}, {"label": "Evidence 4", "quote": "given the impact it may have on agriculture and food production systems"}, {"label": "Evidence 5", "quote": "shifting weather patterns threatening food security"}],
+      "reason": "Crop production is a component of food production. A statement that changing weather can affect food production systems is a modest consequence of the supplied statements, not a claim about all foods, a quantified impact or a particular year's weather. BACE's support is better grounded. RAGChecker marks every card Neutral, including the crop-yield passage.",
+      "pipeline_finding": "The core crop-yield EC is present and is BACE's minimal support set. This is a comparator rejection of a supported generalization within the supplied scope.",
+      "resolution": "Retain this as a source-supported reverse-disagreement example; no external climate literature is needed for this input-relative verdict."
+    },
+    {
+      "review_id": "R17", "source_verdict": "SUPPORTED",
+      "core_anchor": "The current-year input explicitly reports market-based Scope 2 emissions.",
+      "evidence": [{"label": "Evidence 22", "quote": "Gross market-based Scope 2 greenhouse gas emissions Own operations. Value: 46306.0 tCO2e."}],
+      "reason": "The 2020 indicator directly establishes that the disclosed Scope 2 measure uses the market-based method. Both evaluators accept it. The target does not say that market-based is the only method; the simultaneous location-based values do not contradict it.",
+      "pipeline_finding": "Current-year evidence is retained and directly supports the target; positive agreement control.",
+      "resolution": "No unresolved source issue for this narrow target."
+    },
+    {
+      "review_id": "R18", "source_verdict": "UNRESOLVED",
+      "core_anchor": "Explicit source statement: thousands of suppliers worldwide in 2018 and 2019.",
+      "evidence": [{"label": "Evidence 4", "quote": "We work with thousands of suppliers worldwide"}, {"label": "Evidence 10", "quote": "we engage with thousands of suppliers worldwide"}],
+      "reason": "Both evaluators support the unqualified target from historical passages. The core wording is directly evidenced, but its continuation into the 2020 reporting context is not independently established by those passages. Applying the same temporal caution used in the disagreement cases prevents treating agreement as ground truth.",
+      "pipeline_finding": "BACE explicitly accepts source-year 2018/2019 ECs in the 2020 context. This shows that a uniformly strict continuity policy cannot be inferred from BACE's observed judgments.",
+      "resolution": "Use this agreement control when defining the same temporal-continuity rule for all methods and all cases."
+    }
+  ]
+}

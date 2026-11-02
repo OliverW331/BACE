@@ -1,0 +1,408 @@
+[
+  {
+    "id": "N0",
+    "value": {
+      "planned_cases": 1800,
+      "completed_bace_cases": 1798,
+      "paired_cases": 1798,
+      "companies": 30,
+      "reporting_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "tasks": [
+        "E1-1",
+        "E1-3",
+        "E1-4",
+        "E1-6",
+        "G1-1",
+        "G1-2",
+        "G1-3",
+        "G1-4",
+        "S1-1",
+        "S1-14",
+        "S1-4",
+        "S1-5"
+      ],
+      "run_status": "incomplete",
+      "excluded_cases": [
+        {
+          "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets",
+          "error": "Incomplete branches: bace"
+        },
+        {
+          "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies",
+          "error": "Incomplete branches: bace"
+        }
+      ],
+      "exclusions": "Incomplete BACE branches; excluded from BACE summaries and paired comparisons, never scored as zero."
+    },
+    "unit": "cases/companies/years/tasks",
+    "status": "COMPUTED_VERIFIED",
+    "sources": [
+      "BACE/analysis/outputs/snapshot/metrics.csv",
+      "BACE/results/main_v1/execution_status.json"
+    ],
+    "locator": "bace_complete; native score columns; execution status",
+    "formula": "Count explicit completed branches and intersect score availability.",
+    "denominator": "Planned case inventory and its completed subset.",
+    "uncertainty": "Descriptive arithmetic; no new interval or hypothesis test."
+  },
+  {
+    "id": "N1",
+    "value": {
+      "macro_mean_pct": 55.37546371346639,
+      "macro_saved_95_interval_pct": [
+        53.91879278525853,
+        56.84094432533995
+      ],
+      "all_dc": 94955,
+      "counts": {
+        "Direct": 34430,
+        "Inferred": 17879,
+        "Unsupported": 42646
+      },
+      "percent_all_dc": {
+        "Direct": 36.25928071191617,
+        "Inferred": 18.828918961613397,
+        "Unsupported": 44.911800326470434
+      },
+      "pooled_support_pct": 55.088199673529566
+    },
+    "unit": "percent and DC counts",
+    "status": "COMPUTED_VERIFIED",
+    "sources": [
+      "BACE/analysis/outputs/snapshot/metrics.csv",
+      "BACE/analysis/outputs/figures/03/03_native_comparison__cohort_summary.csv",
+      "BACE/analysis/outputs/figures/01/01_support_distribution__claim_counts.csv"
+    ],
+    "locator": "Common/BACE row; Direct, Inferred and Unsupported rows; bace_complete=True",
+    "formula": "Macro: mean of per-disclosure supported/all-DC rates. Pooled: summed supported DCs / summed all DCs. Multiply rates by 100.",
+    "denominator": "1798 equally weighted disclosures for macro; 94955 equally weighted DCs for pooled.",
+    "uncertainty": "SOURCE_REPORTED: saved 95% percentile company-cluster interval, 2,000 draws, seed 20260921; not rerun. See analysis_data.py::company_bootstrap and ANALYSIS_SPEC.md."
+  },
+  {
+    "id": "N2",
+    "value": [
+      {
+        "task": "E1-1",
+        "mean": "0.5653902739558061",
+        "low": "0.5395701480810736",
+        "high": "0.5924528291053037",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "E1-3",
+        "mean": "0.531544001589556",
+        "low": "0.5042974095389423",
+        "high": "0.560851295002642",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "E1-4",
+        "mean": "0.6113967078468558",
+        "low": "0.5699298335764154",
+        "high": "0.6476256398725556",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "E1-6",
+        "mean": "0.6077965555462206",
+        "low": "0.5762812116266993",
+        "high": "0.6351799223882537",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "S1-1",
+        "mean": "0.5255254241513383",
+        "low": "0.4925818789438183",
+        "high": "0.5592099256057547",
+        "companies": "30",
+        "disclosures": "149",
+        "draws": "2000"
+      },
+      {
+        "task": "S1-4",
+        "mean": "0.5223708432767249",
+        "low": "0.4967119033372528",
+        "high": "0.5478566939852861",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "S1-5",
+        "mean": "0.43866129787251595",
+        "low": "0.41343185627364215",
+        "high": "0.46484365847491327",
+        "companies": "30",
+        "disclosures": "149",
+        "draws": "2000"
+      },
+      {
+        "task": "S1-14",
+        "mean": "0.5342838023785368",
+        "low": "0.5049150014947359",
+        "high": "0.5636249800978375",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "G1-1",
+        "mean": "0.6251475132986812",
+        "low": "0.5936013760636214",
+        "high": "0.6582079665357372",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "G1-2",
+        "mean": "0.5746772138535369",
+        "low": "0.538026987850683",
+        "high": "0.6107291410816265",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "G1-3",
+        "mean": "0.5529767969479698",
+        "low": "0.5229893489689441",
+        "high": "0.5836684687587625",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      },
+      {
+        "task": "G1-4",
+        "mean": "0.5543297312165882",
+        "low": "0.5251330385763663",
+        "high": "0.5848656288361553",
+        "companies": "30",
+        "disclosures": "150",
+        "draws": "2000"
+      }
+    ],
+    "unit": "fractions; disclosure counts",
+    "status": "SOURCE_REPORTED",
+    "sources": [
+      "BACE/analysis/outputs/figures/01/01_task_support__data.csv",
+      "BACE/analysis/outputs/snapshot/metrics.csv"
+    ],
+    "locator": "All task rows: mean, low, high, disclosures, companies, draws",
+    "formula": "Saved task-specific disclosure means and intervals; means/counts independently checked.",
+    "denominator": "All completed disclosures in each task; all tasks retained in protocol order.",
+    "uncertainty": "SOURCE_REPORTED: saved 95% percentile company-cluster interval, 2,000 draws, seed 20260921; not rerun. See analysis_data.py::company_bootstrap and ANALYSIS_SPEC.md."
+  },
+  {
+    "id": "N3",
+    "value": {
+      "all_labels": [
+        {
+          "label": "non_disclosure_statement",
+          "count": "6378",
+          "disclosures": "1157",
+          "percent_all_dc": "6.716865883839714",
+          "percent_unsupported": "14.955681658303241",
+          "percent_disclosures": "64.34927697441601"
+        },
+        {
+          "label": "contradiction",
+          "count": "42",
+          "disclosures": "36",
+          "percent_all_dc": "0.04423147806855879",
+          "percent_unsupported": "0.09848520377057637",
+          "percent_disclosures": "2.0022246941045605"
+        },
+        {
+          "label": "evidence_conflation",
+          "count": "12205",
+          "disclosures": "1735",
+          "percent_all_dc": "12.853456900637143",
+          "percent_unsupported": "28.61933123856868",
+          "percent_disclosures": "96.49610678531702"
+        },
+        {
+          "label": "factual_boundary_distortion",
+          "count": "19130",
+          "disclosures": "1772",
+          "percent_all_dc": "20.146385129798325",
+          "percent_unsupported": "44.857665431693476",
+          "percent_disclosures": "98.5539488320356"
+        },
+        {
+          "label": "inferential_inflation",
+          "count": "3193",
+          "disclosures": "1246",
+          "percent_all_dc": "3.3626454636406717",
+          "percent_unsupported": "7.487220372367866",
+          "percent_disclosures": "69.2992213570634"
+        },
+        {
+          "label": "unsupported_novelty",
+          "count": "1698",
+          "disclosures": "551",
+          "percent_all_dc": "1.7882154704860196",
+          "percent_unsupported": "3.9816160952961592",
+          "percent_disclosures": "30.64516129032258"
+        }
+      ],
+      "boundary_and_conflation_count": 31335,
+      "unsupported_denominator": 42646,
+      "boundary_and_conflation_pct": 73.47699667026215
+    },
+    "unit": "automated diagnoses and percent",
+    "status": "COMPUTED_VERIFIED",
+    "sources": [
+      "BACE/analysis/outputs/figures/02/02_label_composition__data.csv",
+      "BACE/analysis/outputs/snapshot/metrics.csv"
+    ],
+    "locator": "All six label rows; boundary-distortion and conflation counts",
+    "formula": "Sum selected label counts / all unsupported DCs × 100; all six categories remain in the denominator.",
+    "denominator": "42646 BACE-unsupported DCs, including non-disclosure statements.",
+    "uncertainty": "Descriptive arithmetic; no new interval or hypothesis test."
+  },
+  {
+    "id": "N4",
+    "value": {
+      "common_means": {
+        "BACE": {
+          "method": "BACE",
+          "cohort": "Common",
+          "mean": "0.5537546371346639",
+          "low": "0.5391879278525853",
+          "high": "0.5684094432533995",
+          "companies": "30",
+          "disclosures": "1798",
+          "draws": "2000"
+        },
+        "RAGChecker": {
+          "method": "RAGChecker",
+          "cohort": "Common",
+          "mean": "0.902355564781211",
+          "low": "0.8951370860262127",
+          "high": "0.9093228633682203",
+          "companies": "30",
+          "disclosures": "1798",
+          "draws": "2000"
+        },
+        "RAGAS": {
+          "method": "RAGAS",
+          "cohort": "Common",
+          "mean": "0.9065974089675373",
+          "low": "0.8995134600571143",
+          "high": "0.912957350096464",
+          "companies": "30",
+          "disclosures": "1798",
+          "draws": "2000"
+        }
+      },
+      "paired_differences": [
+        {
+          "contrast": "BACE − RAGChecker",
+          "mean": "-0.3486009276465471",
+          "low": "-0.36168802786909376",
+          "high": "-0.3345631766582438",
+          "companies": "30",
+          "disclosures": "1798",
+          "draws": "2000"
+        },
+        {
+          "contrast": "BACE − RAGAS",
+          "mean": "-0.3528427718328733",
+          "low": "-0.36504949096202344",
+          "high": "-0.34054828320744185",
+          "companies": "30",
+          "disclosures": "1798",
+          "draws": "2000"
+        }
+      ]
+    },
+    "unit": "fractions (multiply differences by 100 for percentage points)",
+    "status": "SOURCE_REPORTED",
+    "sources": [
+      "BACE/analysis/outputs/figures/03/03_native_comparison__scores.csv",
+      "BACE/analysis/outputs/figures/03/03_native_comparison__cohort_summary.csv",
+      "BACE/analysis/outputs/figures/03/03_native_comparison__paired_differences.csv"
+    ],
+    "locator": "Common cohort rows; BACE minus comparator contrasts",
+    "formula": "Subtract within disclosure, then average; saved point estimates independently checked.",
+    "denominator": "1798 matched disclosures; native within-disclosure claim denominators differ.",
+    "uncertainty": "SOURCE_REPORTED: saved 95% percentile company-cluster interval, 2,000 draws, seed 20260921; not rerun. See analysis_data.py::company_bootstrap and ANALYSIS_SPEC.md."
+  },
+  {
+    "id": "N5",
+    "value": {
+      "bace_dc_count": 52.0,
+      "ragchecker_claim_count": 40.0,
+      "ragas_claim_count": 42.0
+    },
+    "unit": "claims per disclosure",
+    "status": "COMPUTED_VERIFIED",
+    "sources": [
+      "BACE/analysis/outputs/figures/03/03_claim_inventories__data.csv"
+    ],
+    "locator": "bace_dc_count, ragchecker_claim_count, ragas_claim_count",
+    "formula": "Median native claim inventory on the paired cohort.",
+    "denominator": "1798 disclosures per method.",
+    "uncertainty": "Descriptive arithmetic; no new interval or hypothesis test."
+  },
+  {
+    "id": "N6",
+    "value": {
+      "median_change_pp": 1.922087346615653,
+      "max_change_pp": 58.03571428571429
+    },
+    "unit": "percentage points",
+    "status": "COMPUTED_VERIFIED",
+    "sources": [
+      "BACE/analysis/outputs/figures/01/01_secondary_metrics__data.csv"
+    ],
+    "locator": "Sensitivity support minus all-DC support, paired per disclosure",
+    "formula": "Median and maximum of within-disclosure score changes.",
+    "denominator": "1798 completed disclosures; excluding non-disclosure statements changes the score denominator.",
+    "uncertainty": "Descriptive arithmetic; no new interval or hypothesis test."
+  },
+  {
+    "id": "N7",
+    "value": {
+      "A": {
+        "file": "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx",
+        "sample_rows": 600,
+        "unique_ids": 600,
+        "support_cells_filled": 0,
+        "diagnosis_cells_filled": 0
+      },
+      "B": {
+        "file": "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx",
+        "sample_rows": 600,
+        "unique_ids": 600,
+        "support_cells_filled": 0,
+        "diagnosis_cells_filled": 0
+      }
+    },
+    "unit": "samples and filled cells",
+    "status": "COMPUTED_VERIFIED",
+    "sources": [
+      "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx",
+      "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx"
+    ],
+    "locator": "Claim_review: A2:A601, F2:G601",
+    "formula": "Read XLSX XML; count sample IDs and nonempty classification cells; compare supplied inputs A–E.",
+    "denominator": "Each formal reviewer workbook; coordinator automatic-result workbook is excluded.",
+    "uncertainty": "Descriptive arithmetic; no new interval or hypothesis test."
+  }
+]

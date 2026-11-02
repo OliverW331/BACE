@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked_files": [
+    "paper/README.md",
+    "paper/01_paper_blueprint.md",
+    "paper/02_evidence_map.md",
+    "paper/05_results_storyline.md"
+  ],
+  "broken_local_links": [],
+  "changed_source_files": [],
+  "source_files_rechecked": 44,
+  "main_figure_slots": 5,
+  "manuscript_figures_rendered": false,
+  "storyline_sha256": "ad146d1aa30aa7ea10a566b8da6660a1df74e1a920df02f2989e8760592d08ee",
+  "scope": "Link, source-hash and selected numeric consistency checks; not evaluator validation.",
+  "followup": "Updated after adding the link to source-inspected disagreement cases; numerical storyline inputs unchanged."
+}

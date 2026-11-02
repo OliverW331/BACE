@@ -1,0 +1,13 @@
+{
+  "backend": "Python/Matplotlib",
+  "matplotlib_version": "3.11.2",
+  "executable": "/home/muwang/master_thesis/BACE/analysis/.venv/bin/python",
+  "command": "PYTHONDONTWRITEBYTECODE=1 BACE/analysis/.venv/bin/python paper/analysis/support_gap_composition_2026-10-20/plot_gap_composition.py",
+  "script_sha256": "68adfe9d96a8f58a7f28e2ccd1a143b48a8e74d95e02560a8948815611620af2",
+  "source_csv_sha256": "f968dfd914ba8960b759399820d5dcd61ecbe1ab1fb1fcdce87ba665321c6810",
+  "output_sha256": {
+    "pdf": "5489f84a325c74e0632278bea719a864c352b539e12c0f9f2714f2a1efa4332a",
+    "svg": "8ba04efb489af3f9f3ed36a4f58f04a5c5d5ae0cb2bd000b22ed5f3e64924a74",
+    "png": "c63303ff0951caf0bdf8ede4e9b25079ee9411e7b32b783eb9a1ed4ecdc26ca3"
+  }
+}

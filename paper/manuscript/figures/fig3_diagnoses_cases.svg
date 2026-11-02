@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="481.889764pt" viewBox="0 0 510.23622 481.889764" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-02T00:21:17.421192</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 481.889764 
+L 510.23622 481.889764 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 22.96063 115.732226 
+L 500.031496 115.732226 
+L 500.031496 17.829921 
+L 22.96063 17.829921 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 223.022606 36.33748 
+L 280.562283 36.33748 
+L 280.562283 43.579568 
+L 223.022606 43.579568 
+z
+" clip-path="url(#p4d7264a14a)" style="fill: #b7c2ca"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 223.022606 49.748755 
+L 223.401513 49.748755 
+L 223.401513 56.990843 
+L 223.022606 56.990843 
+z
+" clip-path="url(#p4d7264a14a)" style="fill: #b7c2ca"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 223.022606 63.160029 
+L 333.131067 63.160029 
+L 333.131067 70.402118 
+L 223.022606 70.402118 
+z
+" clip-path="url(#p4d7264a14a)" style="fill: #8db6c9"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 223.022606 76.571304 
+L 395.605552 76.571304 
+L 395.605552 83.813392 
+L 223.022606 83.813392 
+z
+" clip-path="url(#p4d7264a14a)" style="fill: #38657d"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 223.022606 89.982579 
+L 251.828531 89.982579 
+L 251.828531 97.224667 
+L 223.022606 97.224667 
+z
+" clip-path="url(#p4d7264a14a)" style="fill: #b7c2ca"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 223.022606 103.393853 
+L 238.34126 103.393853 
+L 238.34126 110.635941 
+L 223.022606 110.635941 
+z
+" clip-path="url(#p4d7264a14a)" style="fill: #b7c2ca"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mbf458f955c" d="M 0 0 
+L 0 2.5 
+" style="stroke: #263746; stroke-width: 0.5"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbf458f955c" x="223.022606" y="115.732226" style="fill: #263746; stroke: #263746; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #263746" x="223.022606" y="125.17121" transform="rotate(-0 223.022606 125.17121)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mbf458f955c" x="261.496063" y="115.732226" style="fill: #263746; stroke: #263746; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #263746" x="261.496063" y="125.17121" transform="rotate(-0 261.496063 125.17121)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mbf458f955c" x="299.96952" y="115.732226" style="fill: #263746; stroke: #263746; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #263746" x="299.96952" y="125.17121" transform="rotate(-0 299.96952 125.17121)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mbf458f955c" x="338.442977" y="115.732226" style="fill: #263746; stroke: #263746; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #263746" x="338.442977" y="125.17121" transform="rotate(-0 338.442977 125.17121)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mbf458f955c" x="376.916434" y="115.732226" style="fill: #263746; stroke: #263746; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #263746" x="376.916434" y="125.17121" transform="rotate(-0 376.916434 125.17121)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mbf458f955c" x="415.389891" y="115.732226" style="fill: #263746; stroke: #263746; stroke-width: 0.5"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #263746" x="415.389891" y="125.17121" transform="rotate(-0 415.389891 125.17121)">50</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #263746" x="319.206248" y="132.419487" transform="rotate(-0 319.206248 132.419487)">Share of unsupported claims (%)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_9">
+    <path d="M 223.022606 115.732226 
+L 415.389891 115.732226 
+" style="fill: none; stroke: #82909b; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="10.829921" transform="rotate(-0 22.96063 10.829921)">a</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="34.96063" y="10.829921" transform="rotate(-0 34.96063 10.829921)">Automated diagnosis composition</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #38657d" x="500.031496" y="23.819391" transform="rotate(-0 500.031496 23.819391)">73.5% boundary distortion + conflation</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="26.807976" y="23.439469" transform="rotate(-0 26.807976 23.439469)">42,646 unsupported claims</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="442.321311" y="32.290911" transform="rotate(-0 442.321311 32.290911)">Share</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="500.031496" y="32.290911" transform="rotate(-0 500.031496 32.290911)">Count</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="26.807976" y="41.752118" transform="rotate(-0 26.807976 41.752118)">Non-disclosure statement</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="442.321311" y="41.752118" transform="rotate(-0 442.321311 41.752118)">15.0%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="500.031496" y="41.752118" transform="rotate(-0 500.031496 41.752118)">6,378</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="26.807976" y="55.163393" transform="rotate(-0 26.807976 55.163393)">Contradiction</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="442.321311" y="55.163393" transform="rotate(-0 442.321311 55.163393)">0.1%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="500.031496" y="55.163393" transform="rotate(-0 500.031496 55.163393)">42</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="26.807976" y="68.574667" transform="rotate(-0 26.807976 68.574667)">Evidence conflation</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="442.321311" y="68.574667" transform="rotate(-0 442.321311 68.574667)">28.6%</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="500.031496" y="68.574667" transform="rotate(-0 500.031496 68.574667)">12,205</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="26.807976" y="81.985942" transform="rotate(-0 26.807976 81.985942)">Factual boundary distortion</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="442.321311" y="81.985942" transform="rotate(-0 442.321311 81.985942)">44.9%</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="500.031496" y="81.985942" transform="rotate(-0 500.031496 81.985942)">19,130</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="26.807976" y="95.397216" transform="rotate(-0 26.807976 95.397216)">Inferential inflation</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="442.321311" y="95.397216" transform="rotate(-0 442.321311 95.397216)">7.5%</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="500.031496" y="95.397216" transform="rotate(-0 500.031496 95.397216)">3,193</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="26.807976" y="108.808491" transform="rotate(-0 26.807976 108.808491)">Unsupported novelty</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="442.321311" y="108.808491" transform="rotate(-0 442.321311 108.808491)">4.0%</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #263746" x="500.031496" y="108.808491" transform="rotate(-0 500.031496 108.808491)">1,698</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_10">
+    <path d="M 22.96063 240.413467 
+L 234.078197 240.413467 
+L 234.078197 166.891872 
+L 22.96063 166.891872 
+z
+" clip-path="url(#p7c94e3d3ba)" style="fill: #f3f6f8; stroke: #becbd3; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 291.655715 240.413467 
+L 500.031496 240.413467 
+L 500.031496 166.891872 
+L 291.655715 166.891872 
+z
+" clip-path="url(#p7c94e3d3ba)" style="fill: #f7f8f9; stroke: #becbd3; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 241.561715 207.210166 
+Q 262.866298 207.210166 283.16465 207.210166 
+" clip-path="url(#p7c94e3d3ba)" style="fill: none; stroke: #38657d; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 279.96465 205.610166 
+L 283.16465 207.210166 
+L 279.96465 208.810166 
+z
+" clip-path="url(#p7c94e3d3ba)" style="fill: #38657d; stroke: #38657d; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="150.405215" transform="rotate(-0 22.96063 150.405215)">b</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="34.96063" y="150.405215" transform="rotate(-0 34.96063 150.405215)">Wärtsilä: historical evidence and the target reporting year</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="31.18599" y="179.325771" transform="rotate(-0 31.18599 179.325771)">Supplied evidence · source year 2019</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(31.18599 198.299086)">“Wärtsilä uses an online solution for supply</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(31.18599 206.4035)">chain risk identification, assessment, and</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(31.18599 214.507914)">monitoring.”</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="31.18599" y="235.865794" transform="rotate(-0 31.18599 235.865794)">Annual Report 2019, p. 132 · Evidence 7</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="299.881075" y="179.325771" transform="rotate(-0 299.881075 179.325771)">Extracted disclosure claim · target 2022</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(299.881075 198.299086)">“Wärtsilä uses an online solution for</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(299.881075 206.4035)">supply-chain risk identification.”</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="299.881075" y="235.865794" transform="rotate(-0 299.881075 235.865794)">G1-2 · Supplier relationships</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(247.986527 190.804171)">Temporal</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(240.973128 198.329698)">carry-forward</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #38657d" x="22.96063" y="255.219031" transform="rotate(-0 22.96063 255.219031)">BACE diagnosis: Factual boundary distortion</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="269.069095" transform="rotate(-0 22.96063 269.069095)">Historical evidence does not establish discontinuation of the practice.</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_13">
+    <path d="M 22.96063 438.159219 
+L 275.204996 438.159219 
+L 275.204996 367.268015 
+L 22.96063 367.268015 
+z
+" clip-path="url(#p6df295c270)" style="fill: #f3f6f8; stroke: #becbd3; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 319.073581 438.159219 
+L 500.031496 438.159219 
+L 500.031496 367.268015 
+L 319.073581 367.268015 
+z
+" clip-path="url(#p6df295c270)" style="fill: #fcf5e8; stroke: #996b2e; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 282.684665 405.076657 
+Q 297.135705 405.076657 310.580514 405.076657 
+" clip-path="url(#p6df295c270)" style="fill: none; stroke: #996b2e; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 307.380514 403.476657 
+L 310.580514 405.076657 
+L 307.380514 406.676657 
+z
+" clip-path="url(#p6df295c270)" style="fill: #996b2e; stroke: #996b2e; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 22.96063 402.713617 
+L 275.204996 402.713617 
+" clip-path="url(#p6df295c270)" style="fill: none; stroke: #becbd3; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 99.730654 438.159219 
+L 99.730654 367.268015 
+" clip-path="url(#p6df295c270)" style="fill: none; stroke: #becbd3; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="305.918092" transform="rotate(-0 22.96063 305.918092)">c</text>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="34.96063" y="305.918092" transform="rotate(-0 34.96063 305.918092)">ASML: source-row association challenges an automated contradiction</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="322.583157" transform="rotate(-0 22.96063 322.583157)">Extracted DC (target 2019):</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="143.59924" y="322.583157" transform="rotate(-0 143.59924 322.583157)">“ASML's Scope 1 footprint has historically been defined as emissions from purchased CO₂.”</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="346.59348" transform="rotate(-0 22.96063 346.59348)">Original glossary rows · typeset transcription</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="358.028759" transform="rotate(-0 22.96063 358.028759)">ASML Integrated Report 2018, p. 209 (PDF p. 216)</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="319.073581" y="346.59348" transform="rotate(-0 319.073581 346.59348)">Selected candidate evidence claim</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="319.073581" y="358.028759" transform="rotate(-0 319.073581 358.028759)">Extracted from the flattened supplied card</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(28.444203 379.29612)">CO₂ footprint –</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(28.444203 386.821647)">direct scope 1</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(105.214228 379.29612)">Consists of the combustion of natural gas and</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(105.214228 386.821647)">purchased CO₂</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(28.444203 414.741722)">CO₂ footprint –</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(28.444203 422.267249)">indirect scope 2</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(105.214228 414.741722)">Calculated by multiplying electricity</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(105.214228 422.267249)">consumptions of the manufacturing locations by</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(105.214228 429.792776)">the local conversion factors</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(327.298941 379.29612)">“According to ASML's 2018 annual report,</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(327.298941 386.821647)">ASML's direct Scope 1 CO₂ footprint is</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(327.298941 394.347174)">calculated by multiplying electricity</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(327.298941 401.872702)">consumption at its manufacturing locations by</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #263746" transform="translate(327.298941 409.398229)">local conversion factors.”</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #996b2e" transform="translate(290.566164 384.0222)">Text</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; fill: #996b2e" transform="translate(280.658742 391.547727)">extraction</text>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #996b2e" x="22.96063" y="452.930285" transform="rotate(-0 22.96063 452.930285)">BACE: Contradiction. Source check: electricity belongs to Scope 2.</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #263746" x="22.96063" y="466.728604" transform="rotate(-0 22.96063 466.728604)">The source challenges the rationale; it does not validate the full disclosure.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4d7264a14a">
+   <rect x="22.96063" y="17.829921" width="477.070866" height="97.902305"/>
+  </clipPath>
+  <clipPath id="p7c94e3d3ba">
+   <rect x="22.96063" y="157.405215" width="477.070866" height="113.839889"/>
+  </clipPath>
+  <clipPath id="p6df295c270">
+   <rect x="22.96063" y="312.918092" width="477.070866" height="155.960648"/>
+  </clipPath>
+ </defs>
+</svg>

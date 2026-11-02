@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-09-29",
+  "checks": "Local artifact consistency; semantic source review is recorded separately in source_evidence.json.",
+  "markdown_files_checked": 9,
+  "broken_local_links": [],
+  "stale_manifest_inputs": [],
+  "unique_bibliography_entries": 15,
+  "citation_occurrences": 32,
+  "cited_keys_resolved": true,
+  "formatter_no_fix_exit_code": 0,
+  "formatter_field_preservation": true,
+  "formatter_messages": "Parsing paper/references.bib...\nFound 15 entries\nFormatting entries...",
+  "references_sha256": "e7d10ad3a43c17ae5fa2c9edb1e665b3d650dac1e70a0708d0c57348fe42a2e2",
+  "python": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python",
+  "status": "PASS"
+}

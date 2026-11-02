@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "reviewer_type": "assistant visual inspection, not author review",
+  "checked_at_utc": "2026-10-01T22:09:54.654471+00:00",
+  "scope": [
+    "All three panels individually and together",
+    "Final histogram after exact-ratio bin-boundary correction",
+    "Figure and entire legend on manuscript page 12",
+    "13-page manuscript layout contact sheet"
+  ],
+  "observations": {
+    "a": "All 1798 disclosures included; 5-percentage-point bins checked against exact integer claim ratios; mean marker and labels clear.",
+    "b": "All three categories retained; counts and percentages readable above zero-origin bars; pooled denominator explicit.",
+    "c": "All 12 tasks, topics, means, capped intervals and actual sample sizes visible; numeric scale 0 to 100%; no significance annotation.",
+    "integration": "Figure 2 and full 202-word legend fit on page 12; no clipping or overlap found. Figure 1 remains on page 11; two remaining figure placeholders are explicit."
+  },
+  "artifacts": {
+    "paper/analysis/fig2/panel_a.png": "cffaca20fb363a27ca4235a1ad42b33d858eb982c318024de022fe45f36d6885",
+    "paper/analysis/fig2/panel_b.png": "7ae1fc42782cfadb6199ef8d3be98c6b4cee1d11102ea62425de68f13936b5bd",
+    "paper/analysis/fig2/panel_c.png": "14f90eb99e3cd8e3e6ce4a3c9a7e9aee48dc2a8344af8ab9d53f4b4ce5ef7752",
+    "paper/analysis/fig2/manuscript_figure2_page.png": "1fdad334cbf63b6c0e113c91a4c3b7d76f021c96451e765021af68499276818d",
+    "paper/analysis/fig2/manuscript_contact.png": "bb8ef58340c31681c675fad1d83ad57f5e5839c83fed785fad158bc0e697947e",
+    "paper/manuscript/figures/fig2_support.pdf": "5dd96a9d7a367b2bc3da31191cd826b3932af761ff4087cc28bc14f2d69723ce",
+    "paper/manuscript/figures/fig2_support.png": "f67db4ab1de15c3595313b85bff0c09b2854ca5d81de8887aae2b1c4a41c1850",
+    "paper/manuscript/main.pdf": "e63c69579267e95634e93258cf45edbb5ba4773d7545521c5b42f8dfcf0c0ace",
+    "paper/manuscript/bace_overleaf.zip": "e8ba88394ac5a95db9e1760133c97beb405c24d878bd3809e964114b19d0f18e"
+  },
+  "limits": "Visual preparation audit only. No completed human validation, independent evaluator-accuracy evidence or author scientific approval is implied."
+}

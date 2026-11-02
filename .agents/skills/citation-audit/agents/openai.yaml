@@ -1,0 +1,6 @@
+interface:
+  display_name: "Citation Audit"
+  short_description: "Verified BACE writing workflow with evidence checks"
+  default_prompt: "Use $citation-audit for the relevant BACE paper task and record unresolved evidence."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,240 @@
+{
+  "status": "PASS",
+  "prepared_date": "2026-10-01",
+  "checked_at_utc": "2026-10-01T21:57:50.358378+00:00",
+  "command": "/usr/bin/python3 paper/analysis/fig1/render_fig1.py",
+  "script_sha256": "179e218dd80c49b754cfbd8ecc9f2bc3e42373616402a975c9e2dfb04a8d08a6",
+  "python": "3.13.14 (main, Aug 14 2026, 23:29:42) [GCC]",
+  "matplotlib": "3.10.3",
+  "input_files": {
+    "BACE/analysis/outputs/snapshot/metrics.csv": {
+      "sha256": "0801aa97b2076d883ff9f8f57b2e339ee26d01bdfaaa67c0a8aa5bf24aa63908",
+      "bytes": 940297
+    },
+    "BACE/results/main_v1/execution_status.json": {
+      "sha256": "fec3824e309f4c04fcb0ffebe28162e3c5cdd1ae53ba84cbb82318dd95f7985a",
+      "bytes": 200285
+    },
+    "BACE/config/experiment.json": {
+      "sha256": "c81c4f67d0d596e8ab32b0c427ec19e3e4dc450fd2168a439cdecd057ef7292e",
+      "bytes": 3308
+    },
+    "BACE/config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json": {
+      "sha256": "893eabbdb9256d5a05780a55c193f7eb15504166a125e7e1313629c98bb19bdf",
+      "bytes": 3231
+    },
+    "BACE/analysis/validation/_private/sample_manifest.json": {
+      "sha256": "3949dc3cb5da7ab784754a397440b99c591a2056d05aae77a3037cb8a27406c6",
+      "bytes": 2379192
+    },
+    "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx": {
+      "sha256": "7d6bf6fec6285bba2179457bf29b31058f7007b65024b85dcdd47660894344c5",
+      "bytes": 204804
+    },
+    "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx": {
+      "sha256": "0f161380f1777042ccd35cf09ef01b15c8baa17b9210ec92ea1d33c9fdce499b",
+      "bytes": 204804
+    },
+    "BACE/script/evaluation/metrics.py": {
+      "sha256": "7c936986759fea2fc0fa4d171882c091b6c4dc7a5f58802d10ca8bce66a36cf8",
+      "bytes": 4612
+    },
+    "docs/generation_evaluation.md": {
+      "sha256": "03123d02c8f807d15f077ccda121a1665fd8b48fcdc62708e451da8ce75f1754",
+      "bytes": 31410
+    },
+    "BACE/PROTOCOL.md": {
+      "sha256": "7452ef74ce5e30c6a01e06d05fed11c26ac2c99a2f1f8dcd0e9b8dcdef15788b",
+      "bytes": 14407
+    },
+    "BACE/analysis/validation/README.md": {
+      "sha256": "84675e6fa536d39a47f93f55d356cf3efde82c3467bd70af2e01f7780bdaea3b",
+      "bytes": 18604
+    },
+    "BACE/config/evaluation/prompts/generation_claim_support_prompt_v1.txt": {
+      "sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543",
+      "bytes": 3011
+    },
+    "BACE/config/evaluation/prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt": {
+      "sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8",
+      "bytes": 3076
+    },
+    "paper/NATURE_SUSTAINABILITY_GUIDELINES.md": {
+      "sha256": "935d25c9189b48275b399addfb2ae11309a3a9c967ebc1d18f467ca5e0a7d432",
+      "bytes": 6612
+    },
+    "paper/analysis/fig1/FIGURE_CONTRACT.md": {
+      "sha256": "c205bcd61d97cd2edecba7bbe778fdaee69c396b22930bd40895cee51e749963",
+      "bytes": 4090
+    }
+  },
+  "facts": [
+    {
+      "name": "companies",
+      "value": 30,
+      "units": "companies",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "locator": "company_id",
+      "aggregation": "Distinct company IDs in the planned matrix",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "years",
+      "value": 5,
+      "units": "years",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "locator": "year",
+      "aggregation": "Distinct target reporting years",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "tasks",
+      "value": 12,
+      "units": "tasks",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "locator": "task",
+      "aggregation": "Distinct task identifiers",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "planned",
+      "value": 1800,
+      "units": "cases",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "locator": "generation_case_id",
+      "aggregation": "All planned company-year-task rows",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "analysed",
+      "value": 1798,
+      "units": "disclosures",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "locator": "bace_support_rate_all_dc, ragchecker_faithfulness, ragas_faithfulness",
+      "aggregation": "Intersection of available scores; matches all completed BACE cases",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "excluded",
+      "value": 2,
+      "units": "cases",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "locator": "bace_complete",
+      "aggregation": "Planned minus completed BACE cases; no zero imputation",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "target_years",
+      "value": "2019–2023",
+      "units": "reporting years",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "locator": "year",
+      "aggregation": "Minimum and maximum of observed planned years",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "pdf_source_year_offsets",
+      "value": "-4 through -1",
+      "units": "years relative to target t",
+      "source": "BACE/config/experiment.json",
+      "locator": "windows",
+      "aggregation": "Newest = -lag; oldest = newest - window length + 1",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "csv_source_year_offsets",
+      "value": "-4 through 0",
+      "units": "years relative to target t",
+      "source": "BACE/config/experiment.json",
+      "locator": "windows",
+      "aggregation": "Newest = -lag; oldest = newest - window length + 1",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "per_type",
+      "value": 10,
+      "units": "cards",
+      "source": "BACE/config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json",
+      "locator": "final_selection.stratified_by_evidence_type.main_generation_per_evidence_type_top_n",
+      "aggregation": "Configured maximum, not observed count per case",
+      "status": "SOURCE_REPORTED"
+    },
+    {
+      "name": "maximum_cards",
+      "value": 30,
+      "units": "cards",
+      "source": "BACE/config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json",
+      "locator": "final_selection.stratified_by_evidence_type.max_main_generation_cards",
+      "aggregation": "Configured maximum, not observed count per case",
+      "status": "SOURCE_REPORTED"
+    },
+    {
+      "name": "prepared_human_sample",
+      "value": 600,
+      "units": "unique DCs",
+      "source": "BACE/analysis/validation/_private/sample_manifest.json",
+      "locator": "records.sample_id",
+      "aggregation": "Distinct formal sample IDs shared by both workbooks",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "reviewer_A_filled_label_cells",
+      "value": 0,
+      "units": "cells",
+      "source": "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx",
+      "locator": "Claim_review!F2:G601",
+      "aggregation": "Nonempty human support and diagnosis cells",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "reviewer_B_filled_label_cells",
+      "value": 0,
+      "units": "cells",
+      "source": "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx",
+      "locator": "Claim_review!F2:G601",
+      "aggregation": "Nonempty human support and diagnosis cells",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "prepared_reviewer_workbooks",
+      "value": 2,
+      "units": "workbooks",
+      "source": "BACE/analysis/validation/README.md",
+      "locator": "Which file to use; A/B workbook inspection",
+      "aggregation": "Distinct prepared formal workbooks, not completed reviewers",
+      "status": "COMPUTED_VERIFIED"
+    },
+    {
+      "name": "diagnosis_categories",
+      "value": 6,
+      "units": "ordered categories",
+      "source": "BACE/script/evaluation/metrics.py",
+      "locator": "LABELS",
+      "aggregation": "Count of the ordered diagnosis labels in the metric implementation",
+      "status": "COMPUTED_VERIFIED"
+    }
+  ],
+  "geometry_mm": {
+    "width": 180,
+    "height": 167
+  },
+  "minimum_source_font_pt": 6.5,
+  "minimum_font_at_160mm_pt": 5.777777777777778,
+  "alignment_verdict": "PASS",
+  "outputs": {
+    "paper/manuscript/figures/fig1_study_design.pdf": "55ff99bac6a46d6bef8611788d0708cce2fa46bec8818ab0c8c0b6fe6e4ed2bf",
+    "paper/manuscript/figures/fig1_study_design.svg": "7a742d76397d03f462bfe1f357e7b6d471aa56f8c6880038c72f35522e69667f",
+    "paper/manuscript/figures/fig1_study_design.png": "580af277a997d1bbfec3b7638e79b6ba6301e93ee769097abbc5a1b33d673483",
+    "paper/analysis/fig1/source_data.csv": "cdb78075ba2dfde5c2da98bf4cdf7d8bf96433e01636e6b120531758a656773b",
+    "paper/analysis/fig1/verified_facts.json": "fa6881eef7b71a7031f3feebef7b6a7d90f5440e7bad93cf165a010568633301"
+  },
+  "scope": "Original scripted schematic with observed cohort counts and configured evidence limits. No model calls, hypothesis tests or completed human validation.",
+  "qa_record": "paper/analysis/fig1/qa.json",
+  "visual_review": "paper/analysis/fig1/visual_review.json",
+  "integration": {
+    "manuscript_page": 11,
+    "manuscript_pdf_sha256": "e72bca348e87cbfe9acc28dc58092b5b4a76364edb8ce988db9b7f6fb737f885",
+    "overleaf_zip_sha256": "c106ece25edf3f4eaf369d8fecc96239208e88e1a84a3a09828a27142d462053",
+    "portable_compilation": "PASS"
+  }
+}

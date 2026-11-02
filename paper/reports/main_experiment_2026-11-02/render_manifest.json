@@ -1,0 +1,17 @@
+{
+  "source": "REPORT.md",
+  "source_sha256": "584c83f148b820567a6a028230d9a895126f695c8acda8ac9eff6308a5efad0e",
+  "numeric_ledger_sha256": "bfd6f8eceb566c520429cdc08ab0556d5c57d892b6244b2734365cd7740e519f",
+  "pdf": "BACE_main_experiment_report.pdf",
+  "pdf_sha256": "41ac66189f48512e246a82011b0c66bf54b4e9b24517808984f5ff8ffa12cf4f",
+  "figures": {
+    "workflow.png": "09a4d2dbd75c6382b7b0160a772719cc446931ad3baf9b65edc7fec5552ed5b2",
+    "workflow.pdf": "7e5c341fe80d4d7404aafa515543e9cb5e5c8e2d6efe0100ca93fe865374f084",
+    "workflow.svg": "1c5c035a6e87568df7cd576d6db0d7a531c3693b466ed03556e0ccc7f20f87ec",
+    "main_results.png": "6eb6af15e48247f0f4189ad9c46481d4c265db0de72b392daba91f089c01a1d2",
+    "main_results.pdf": "55e3229e0ffd07fbb366cff370f324a465e9f2e3b8c1f5288661c193571fd784",
+    "main_results.svg": "565e9f346cc70de7412006bfa6cd11557f5c71e73c5f011a5d2e747f88a0c271"
+  },
+  "renderer": "reportlab; locally available system packages, without environment changes",
+  "renderer_sha256": "a06d53f747c5866ab05886778e7ecbe0c0c9ad5323197742f807b70d11a182aa"
+}

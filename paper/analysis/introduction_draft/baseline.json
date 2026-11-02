@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-02",
+  "main_tex_before_sha256": "caa3fb85de724315adb2933a612362c92c71e7c4031d9b1faf93bba89fc1c8a3",
+  "main_pdf_before_sha256": "37f24b6281893efa71c97133f3dd4574e92621c9f6ef3c93db59ef8a316e212f",
+  "preserved_blocks": {
+    "RESULTS": "3e3662f137edad1e334a130e3d099bcbe7eed55f7d54a054763f9ac5c3a04553",
+    "METHODS": "761a78524d60c8693120f1b378799903767cd56c7d36ef3729cb4d4cb0627dfa"
+  },
+  "figures": {
+    "paper/manuscript/figures/README.md": "ff9fd6d2e660c67077e0d8eb236e402dd909f5357cff023b7d75258094241309",
+    "paper/manuscript/figures/fig1_study_design.pdf": "55ff99bac6a46d6bef8611788d0708cce2fa46bec8818ab0c8c0b6fe6e4ed2bf",
+    "paper/manuscript/figures/fig1_study_design.svg": "7a742d76397d03f462bfe1f357e7b6d471aa56f8c6880038c72f35522e69667f",
+    "paper/manuscript/figures/fig1_study_design.png": "580af277a997d1bbfec3b7638e79b6ba6301e93ee769097abbc5a1b33d673483",
+    "paper/manuscript/figures/fig2_support.pdf": "5dd96a9d7a367b2bc3da31191cd826b3932af761ff4087cc28bc14f2d69723ce",
+    "paper/manuscript/figures/fig2_support.svg": "eed6afdd7f58f190822882daa8ffd042bf1d7249111b1437057fb506ea58253f",
+    "paper/manuscript/figures/fig2_support.png": "f67db4ab1de15c3595313b85bff0c09b2854ca5d81de8887aae2b1c4a41c1850",
+    "paper/manuscript/figures/fig3_diagnoses_cases.pdf": "7b1bd11eeb2ca34914a252a517a246db80ee8ba3d3b2e1e68f24e24c90fd81ee",
+    "paper/manuscript/figures/fig3_diagnoses_cases.svg": "d903b276a547106b098ff8b49bf47cff09e5df420db100bfc525e4db98c1bf5e",
+    "paper/manuscript/figures/fig3_diagnoses_cases.png": "c921f7318535f1774eb2bc111898333d90f0c1af0853cfbfe2d2bc30ebd10793",
+    "paper/manuscript/figures/fig4_native_comparison.pdf": "e0d4576cb2c0e57764154928cc70702da166f5f58690afe10e2a9feb5c147e4d",
+    "paper/manuscript/figures/fig4_native_comparison.svg": "8e8bbde1a0a621ba3d5e459a27be0b663541dcd55bcc2f9150c80ccb927eee9d",
+    "paper/manuscript/figures/fig4_native_comparison.png": "dcf954e389362bc9bf466208f9587977457ae86ae767bb2869527b8ff816fa9a"
+  },
+  "figure_environments_sha256": [
+    "3577e1b0dc456936df630aaf2e6037b82578271775133648176b5029f1844894",
+    "b83c06016d54ed9ac7b012d1b45fcaf5a0fa1f74382aa1d241d8f42dd736482a",
+    "af308e2dde7a4fba424389df3f39426617069ecb72dc52a826d8312607bd775b",
+    "fed288342abbfc234f4d0a8e4e8e01a7764e7411d1e797b0530205fd8cdb1a74"
+  ]
+}

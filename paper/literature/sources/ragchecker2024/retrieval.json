@@ -1,0 +1,81 @@
+{
+  "id": "ragchecker2024",
+  "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/27245589131d17368cccdfa990cbf16e-Abstract-Datasets_and_Benchmarks_Track.html",
+  "checked_date": "2026-09-29",
+  "retrieved_at_utc": "2026-09-29T20:18:29.425921+00:00",
+  "final_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/27245589131d17368cccdfa990cbf16e-Abstract-Datasets_and_Benchmarks_Track.html",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "eefa7f6c833b80383e5406a43d4dde07270ac182723ae1aba41827d758884cc6",
+  "metadata": {
+    "": [
+      ""
+    ],
+    "viewport": [
+      "width=device-width, initial-scale=1, shrink-to-fit=no"
+    ],
+    "citation_title": [
+      "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation"
+    ],
+    "citation_author": [
+      "Ru, Dongyu",
+      "Qiu, Lin",
+      "Hu, Xiangkun",
+      "Zhang, Tianhang",
+      "Shi, Peng",
+      "Chang, Shuaichen",
+      "Jiayang, Cheng",
+      "Wang, Cunxiang",
+      "Sun, Shichao",
+      "Li, Huanyu",
+      "Zhang, Zizhao",
+      "Wang, Binjie",
+      "Jiang, Jiarong",
+      "He, Tong",
+      "Wang, Zhiguo",
+      "Liu, Pengfei",
+      "Zhang, Yue",
+      "Zhang, Zheng"
+    ],
+    "citation_journal_title": [
+      "Advances in Neural Information Processing Systems"
+    ],
+    "citation_volume": [
+      "37"
+    ],
+    "citation_doi": [
+      "10.52202/079017-0692"
+    ],
+    "citation_firstpage": [
+      "21999"
+    ],
+    "citation_lastpage": [
+      "22027"
+    ],
+    "citation_pdf_url": [
+      "https://proceedings.neurips.cc/paper_files/paper/2024/file/27245589131d17368cccdfa990cbf16e-Paper-Datasets_and_Benchmarks_Track.pdf"
+    ],
+    "citation_publication_date": [
+      "2024-12-16"
+    ]
+  },
+  "links": [
+    "/",
+    "/admin/login/?next=/admin/",
+    "/admin/logout/?nextp=/admin",
+    "/paper_files/paper/2024",
+    "/paper_files/paper/26902-/bibtex",
+    "/paper_files/paper/2024/file/27245589131d17368cccdfa990cbf16e-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "/paper_files/paper/2024/file/27245589131d17368cccdfa990cbf16e-Supplemental-Datasets_and_Benchmarks_Track.zip",
+    "https://doi.org/10.52202/079017-0692",
+    "https://neurips.cc/Help/Contact?select=Conference",
+    "#"
+  ],
+  "pdf_request_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/27245589131d17368cccdfa990cbf16e-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/27245589131d17368cccdfa990cbf16e-Paper-Datasets_and_Benchmarks_Track.pdf",
+  "pdf_http_status": 200,
+  "pdf_sha256": "fbb9f84db779e4b1faeaa9e4839f5ca20b5000fe6df69232c941c03cd286f077",
+  "pdf_pages": 29,
+  "text_sha256": "4093fa637631c99908fc322db460d1ccb3913ac1249608cdef76f273eb55e4d9",
+  "fulltext_extracted": true
+}

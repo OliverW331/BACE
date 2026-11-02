@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "reading_order": [
+    "Disclosure passages and claims",
+    "Full disclosure",
+    "Evidence excerpts",
+    "Candidate ECs",
+    "Full evidence",
+    "Results, reasons and support sets",
+    "EC usage and per-evidence judgments"
+  ],
+  "case_pages_checked": 36,
+  "workbooks": [
+    {
+      "workbook": "paper/analysis/residual_gap_review_2026-10-20/excel_reader/BACE_18_Case_Reader.xlsx",
+      "sha256": "645e0c87d2222f7726394f5bdc2ab935fdb98b11f20328d04fbf57b709d49cdb",
+      "cases": 18,
+      "verified_source_cells": 1996,
+      "verified_links": 838
+    },
+    {
+      "workbook": "paper/analysis/prompt_gap_review_2026-10-22/excel_reader/BACE_Prompt_Comparison_18_Cases.xlsx",
+      "sha256": "11cc280482a6e809d3f1ce4b9f11448d2334d664afd8e4c8657e86680e3a00fb",
+      "cases": 18,
+      "verified_source_cells": 2140,
+      "verified_links": 841
+    }
+  ],
+  "source_values": "Both builders revalidated all source text against saved inputs.",
+  "visual_check": "R02 disclosure, evidence/candidates and result sections inspected in LibreOffice-rendered previews.",
+  "hyperlink_display": "Explicit separators preserve readability in multiline source labels."
+}

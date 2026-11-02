@@ -1,0 +1,426 @@
+{
+  "id": "esghrag2025",
+  "url": "https://doi.org/10.1007/s11227-025-07604-0",
+  "checked_date": "2026-09-29",
+  "retrieved_at_utc": "2026-09-29T20:16:57.767242+00:00",
+  "final_url": "https://link.springer.com/article/10.1007/s11227-025-07604-0",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "1c5799fab63d6f698283fd26e8acc043c3ccb7a2783e3dbfbb3d91e5c61550af",
+  "metadata": {
+    "": [
+      "",
+      "IE=edge",
+      "1",
+      "2",
+      "3"
+    ],
+    "applicable-device": [
+      "pc,mobile"
+    ],
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "robots": [
+      "max-image-preview:large"
+    ],
+    "access": [
+      "Yes"
+    ],
+    "360-site-verification": [
+      "1268d79b5e96aecf3ff2a7dac04ad990"
+    ],
+    "twitter:site": [
+      "@SpringerLink"
+    ],
+    "twitter:card": [
+      "summary_large_image"
+    ],
+    "twitter:image:alt": [
+      "Content cover image"
+    ],
+    "twitter:title": [
+      "An innovative ESGH-RAG module with ChatGPT-4o for automatic ESG-report generation"
+    ],
+    "twitter:description": [
+      "The Journal of Supercomputing - With the growing global focus on sustainability, the demand for ESG reports that meet international guidelines is rising. However, existing systems often face..."
+    ],
+    "twitter:image": [
+      "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11227-025-07604-0/MediaObjects/11227_2025_7604_Fig1_HTML.png"
+    ],
+    "journal_id": [
+      "11227"
+    ],
+    "dc.title": [
+      "An innovative ESGH-RAG module with ChatGPT-4o for automatic ESG-report generation"
+    ],
+    "dc.source": [
+      "The Journal of Supercomputing 2025 81:10"
+    ],
+    "dc.format": [
+      "text/html"
+    ],
+    "dc.publisher": [
+      "Springer"
+    ],
+    "dc.date": [
+      "2025-07-02"
+    ],
+    "dc.type": [
+      "OriginalPaper"
+    ],
+    "dc.language": [
+      "En"
+    ],
+    "dc.copyright": [
+      "2025 The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature"
+    ],
+    "dc.rights": [
+      "2025 The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature"
+    ],
+    "dc.rightsAgent": [
+      "journalpermissions@springernature.com"
+    ],
+    "dc.description": [
+      "With the growing global focus on sustainability, the demand for ESG reports that meet international guidelines is rising. However, existing systems often face incomplete datasets and unclear methodologies. This study proposes a novel method integrating ChatGPT-4o with an ESG-enhanced hybrid RAG (ESGH-RAG) for ESG report generation, utilizing a high-performance computing (HPC) environment to enhance processing speed. This method introduces two key innovations: first, ESGH-RAG allows for the retrieval of ESG guidelines and dynamically adjusts retrieval methods; second, ChatGPT-4o Report Synthesizer (CRS) generates reports through a multi-prompt module. This method was tested using real-world ESG datasets from publicly listed companies, with experiments conducted on two hardware setups. Results show that in an HPC environment, report generation is faster, and the method outperforms existing approaches in generating high-quality ESG reports. ESGH-RAG achieved 92.1% accuracy, surpassing reference methods."
+    ],
+    "prism.issn": [
+      "1573-0484"
+    ],
+    "prism.publicationName": [
+      "The Journal of Supercomputing"
+    ],
+    "prism.publicationDate": [
+      "2025-07-02"
+    ],
+    "prism.volume": [
+      "81"
+    ],
+    "prism.number": [
+      "10"
+    ],
+    "prism.section": [
+      "OriginalPaper"
+    ],
+    "prism.startingPage": [
+      "1103"
+    ],
+    "prism.endingPage": [
+      ""
+    ],
+    "prism.copyright": [
+      "2025 The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature"
+    ],
+    "prism.rightsAgent": [
+      "journalpermissions@springernature.com"
+    ],
+    "prism.url": [
+      "https://link.springer.com/article/10.1007/s11227-025-07604-0"
+    ],
+    "prism.doi": [
+      "doi:10.1007/s11227-025-07604-0"
+    ],
+    "citation_pdf_url": [
+      "https://link.springer.com/content/pdf/10.1007/s11227-025-07604-0.pdf"
+    ],
+    "citation_fulltext_html_url": [
+      "https://link.springer.com/article/10.1007/s11227-025-07604-0"
+    ],
+    "citation_journal_title": [
+      "The Journal of Supercomputing"
+    ],
+    "citation_journal_abbrev": [
+      "J Supercomput"
+    ],
+    "citation_publisher": [
+      "Springer US"
+    ],
+    "citation_issn": [
+      "1573-0484"
+    ],
+    "citation_title": [
+      "An innovative ESGH-RAG module with ChatGPT-4o for automatic ESG-report generation"
+    ],
+    "citation_volume": [
+      "81"
+    ],
+    "citation_issue": [
+      "10"
+    ],
+    "citation_publication_date": [
+      "2025/07"
+    ],
+    "citation_online_date": [
+      "2025/07/02"
+    ],
+    "citation_firstpage": [
+      "1103"
+    ],
+    "citation_lastpage": [
+      ""
+    ],
+    "citation_article_type": [
+      "Article"
+    ],
+    "citation_language": [
+      "en"
+    ],
+    "dc.identifier": [
+      "doi:10.1007/s11227-025-07604-0"
+    ],
+    "DOI": [
+      "10.1007/s11227-025-07604-0"
+    ],
+    "size": [
+      "171890"
+    ],
+    "citation_doi": [
+      "10.1007/s11227-025-07604-0"
+    ],
+    "citation_springer_api_url": [
+      "http://api.springer.com/xmldata/jats?q=doi:10.1007/s11227-025-07604-0&api_key="
+    ],
+    "description": [
+      "With the growing global focus on sustainability, the demand for ESG reports that meet international guidelines is rising. However, existing systems often f"
+    ],
+    "dc.creator": [
+      "Wang, Jhing-Fa",
+      "Zhang, Wen-Yuan",
+      "Tseng, Shih-Pang"
+    ],
+    "dc.subject": [
+      "Programming Languages, Compilers, Interpreters",
+      "Processor Architectures",
+      "Computer Science, general"
+    ],
+    "citation_reference": [
+      "Wu J-W, Lin LH-M, Tsai RT-H (2024) Enhancing ESG reporting analysis: leveraging GPT and resampling methods for improved multi-label classification. pp 415–418. IEEE",
+      "Zhao Y, Cao H, Zhao X, Ou Z (2024) An empirical study of retrieval augmented generation with chain-of-thought, 436–440. IEEE",
+      "Sashida M, Izumi K, Sakaji H (2023) Extraction SDGs-related sentences from sustainability reports using BERT and ChatGPT. pp 742–745. IEEE",
+      "citation_journal_title=Adv Neural Inf Process Syst; citation_title=Retrieval-augmented generation for knowledge-intensive nlp tasks; citation_author=P Lewis, E Perez, A Piktus, F Petroni, V Karpukhin, N Goyal, H Küttler, M Lewis, W-T Yih, T Rocktäschel; citation_volume=33; citation_publication_date=2020; citation_pages=9459-9474; citation_id=CR4",
+      "Joshi P, Gupta A, Kumar P, Sisodia M (2024) Robust multi model rag pipeline for documents containing text, table & images, 993–999. IEEE",
+      "Bezerra YF, Weigang L (2025) Llmquoter: enhancing rag capabilities through efficient quote extraction from large contexts. arXiv preprint \n                  arXiv:2501.05554\n                  \n                ",
+      "Sawarkar K, Mangal A, Solanki SR (2024) Blended rag: improving rag (retriever-augmented generation) accuracy with semantic search and hybrid query-based retrievers. arXiv preprint \n                  arXiv:2404.07220\n                  \n                ",
+      "Omrani P, Hosseini A, Hooshanfar K, Ebrahimian Z, Toosi R, Akhaee MA (2024) Hybrid retrieval-augmented generation approach for LLMs query response enhancement. pp 22–26. IEEE",
+      "Lin LH-M, Ting F-K, Chang T-J, Wu J-W, Tsai RT-H (2024) Gpt4esg: streamlining environment, society, and governance analysis with custom ai models. pp 442–446. IEEE",
+      "citation_journal_title=J Emerg Technol Account; citation_title=Using artificial intelligence in ESG assurance; citation_author=N Li, M Kim, J Dai, MA Vasarhelyi; citation_volume=21; citation_issue=2; citation_publication_date=2024; citation_pages=83-99; citation_doi=10.2308/JETA-2022-054; citation_id=CR10",
+      "citation_journal_title=Int J Global Econ Manag; citation_title=The influence of artificial intelligence and digital technology on ESG reporting quality; citation_author=S Chen; citation_volume=3; citation_issue=1; citation_publication_date=2024; citation_pages=301-310; citation_doi=10.62051/IJGEM.v3n1.36; citation_id=CR11",
+      "Sulkowski AJ (2024) AI, ESG, and law: potential, limitations, and strategies concerning artificial intelligence in sustainability reporting",
+      "Kulkarni A, Joseph S, Patil K (2023) Role of artificial intelligence in sustainability reporting by leveraging ESG theory into action. pp 795–800. IEEE",
+      "citation_journal_title=Sustain Account Manag Policy J; citation_title=How will ai text generation and processing impact sustainability reporting? Critical analysis, a conceptual framework and avenues for future research; citation_author=C Villiers, R Dimes, M Molinari; citation_volume=15; citation_issue=1; citation_publication_date=2024; citation_pages=96-118; citation_id=CR14",
+      "Ehrhardt A, Nguyen MT (2021) Automated ESG report analysis by joint entity and relation extraction. pp 325–340. Springer",
+      "Global Reporting Initiative: Global Reporting Initiative Standards (2021) Global Reporting Initiative. \n                  https://www.globalreporting.org/standards/\n                  \n                ",
+      "Corporation TSE (2025) ESG digital platform—sustainable report generation function. \n                  https://esggenplus.twse.com.tw/inquiry/info/individual\n                  \n                "
+    ],
+    "citation_author": [
+      "Wang, Jhing-Fa",
+      "Zhang, Wen-Yuan",
+      "Tseng, Shih-Pang"
+    ],
+    "citation_author_email": [
+      "jameswangjf@gmail.com",
+      "n26110011@gs.ncku.edu.tw",
+      "tsengshinpang@czcit.edu.cn"
+    ],
+    "citation_author_institution": [
+      "Department of Electrical Engineering, National Cheng Kung University, Tainan City, Taiwan",
+      "School of Information Science and Technology, Sanda University, Shanghai, China",
+      "Department of Electrical Engineering, National Cheng Kung University, Tainan City, Taiwan",
+      "Changzhou College of Information Technology, Changzhou City, China"
+    ],
+    "format-detection": [
+      "telephone=no",
+      "telephone=no"
+    ],
+    "citation_cover_date": [
+      "2025/07/01"
+    ],
+    "og:url": [
+      "https://link.springer.com/article/10.1007/s11227-025-07604-0"
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "SpringerLink"
+    ],
+    "og:title": [
+      "An innovative ESGH-RAG module with ChatGPT-4o for automatic ESG-report generation - The Journal of Supercomputing"
+    ],
+    "og:description": [
+      "With the growing global focus on sustainability, the demand for ESG reports that meet international guidelines is rising. However, existing systems often face incomplete datasets and unclear methodologies. This study proposes a novel method integrating ChatGPT-4o with an ESG-enhanced hybrid RAG (ESGH-RAG) for ESG report generation, utilizing a high-performance computing (HPC) environment to enhance processing speed. This method introduces two key innovations: first, ESGH-RAG allows for the retrieval of ESG guidelines and dynamically adjusts retrieval methods; second, ChatGPT-4o Report Synthesizer (CRS) generates reports through a multi-prompt module. This method was tested using real-world ESG datasets from publicly listed companies, with experiments conducted on two hardware setups. Results show that in an HPC environment, report generation is faster, and the method outperforms existing approaches in generating high-quality ESG reports. ESGH-RAG achieved 92.1% accuracy, surpassing reference methods."
+    ],
+    "og:image": [
+      "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11227-025-07604-0/MediaObjects/11227_2025_7604_Fig1_HTML.png"
+    ],
+    "theme-color": [
+      "#e6e6e6"
+    ]
+  },
+  "links": [
+    "#main",
+    "//pubads.g.doubleclick.net/gampad/jump?iu=/270604982/springerlink/11227/article&sz=728x90&pos=top&articleid=s11227-025-07604-0",
+    "https://link.springer.com",
+    "https://idp.springer.com/auth/personal/springernature?redirect_uri=https://link.springer.com/article/10.1007/s11227-025-07604-0",
+    "#eds-c-header-nav",
+    "https://link.springer.com/journals/",
+    "https://www.springernature.com/gp/authors",
+    "https://link.springernature.com/home/",
+    "#eds-c-header-popup-search",
+    "/saved-research",
+    "https://order.springer.com/public/cart",
+    "/",
+    "/journal/11227",
+    "#citeas",
+    "/content/pdf/10.1007/s11227-025-07604-0.pdf",
+    "/article/10.1007/s11227-025-07604-0/save-research?_csrf=pIv-q3rUbphYLBGxSGktCAq6hM-KdX3U",
+    "/saved-research",
+    "/journal/11227",
+    "/journal/11227/aims-and-scope",
+    "https://submission.nature.com/new-submission/11227/3",
+    "/content/pdf/10.1007/s11227-025-07604-0.pdf",
+    "#auth-Jhing_Fa-Wang-Aff1-Aff2",
+    "#Aff1",
+    "#Aff2",
+    "#na1",
+    "#auth-Wen_Yuan-Zhang-Aff1",
+    "#Aff1",
+    "#auth-Shih_Pang-Tseng-Aff3",
+    "#Aff3",
+    "#na1",
+    "/article/10.1007/s11227-025-07604-0/metrics",
+    "https://link.springer.com/chapter/10.1007/978-3-032-26349-0_7?fromPaywallRec=false",
+    "https://link.springer.com/chapter/10.1007/978-3-032-12524-8_3?fromPaywallRec=false",
+    "https://link.springer.com/article/10.1007/s10690-020-09309-1?fromPaywallRec=false",
+    "/subjects/automation",
+    "/subjects/e-governance",
+    "/subjects/elispot",
+    "/subjects/escrt",
+    "/subjects/next-generation-sequencing",
+    "/subjects/open-source",
+    "/subjects/sustainable-economic-development-and-energy-transition",
+    "/article/10.1007/s11227-025-07604-0#ref-CR1",
+    "/article/10.1007/s11227-025-07604-0#ref-CR2",
+    "/article/10.1007/s11227-025-07604-0#ref-CR3",
+    "/article/10.1007/s11227-025-07604-0#ref-CR4",
+    "/article/10.1007/s11227-025-07604-0#ref-CR5",
+    "/article/10.1007/s11227-025-07604-0#ref-CR6",
+    "/article/10.1007/s11227-025-07604-0#ref-CR7",
+    "/article/10.1007/s11227-025-07604-0#ref-CR8",
+    "/article/10.1007/s11227-025-07604-0#ref-CR7",
+    "/article/10.1007/s11227-025-07604-0#ref-CR8",
+    "/article/10.1007/s11227-025-07604-0#ref-CR9",
+    "/article/10.1007/s11227-025-07604-0#ref-CR10",
+    "/article/10.1007/s11227-025-07604-0#ref-CR11",
+    "/article/10.1007/s11227-025-07604-0#ref-CR10",
+    "/article/10.1007/s11227-025-07604-0#ref-CR12",
+    "/article/10.1007/s11227-025-07604-0#ref-CR13",
+    "/article/10.1007/s11227-025-07604-0#ref-CR9",
+    "/article/10.1007/s11227-025-07604-0#ref-CR14",
+    "/article/10.1007/s11227-025-07604-0#ref-CR15",
+    "/article/10.1007/s11227-025-07604-0/figures/1",
+    "/article/10.1007/s11227-025-07604-0#Fig1",
+    "/article/10.1007/s11227-025-07604-0/figures/2",
+    "/article/10.1007/s11227-025-07604-0#Fig2",
+    "/article/10.1007/s11227-025-07604-0#ref-CR7",
+    "/article/10.1007/s11227-025-07604-0#ref-CR8",
+    "/article/10.1007/s11227-025-07604-0#Equ1",
+    "/article/10.1007/s11227-025-07604-0#ref-CR7",
+    "/article/10.1007/s11227-025-07604-0#ref-CR8",
+    "/article/10.1007/s11227-025-07604-0#Equ2",
+    "/article/10.1007/s11227-025-07604-0#Equ3",
+    "/article/10.1007/s11227-025-07604-0#Equ4",
+    "/article/10.1007/s11227-025-07604-0#Equ5",
+    "/article/10.1007/s11227-025-07604-0#Equ6",
+    "/article/10.1007/s11227-025-07604-0#Equ7",
+    "/article/10.1007/s11227-025-07604-0/figures/3",
+    "/article/10.1007/s11227-025-07604-0#Fig3",
+    "/article/10.1007/s11227-025-07604-0#Tab1",
+    "/article/10.1007/s11227-025-07604-0/tables/1",
+    "/article/10.1007/s11227-025-07604-0#ref-CR16",
+    "/article/10.1007/s11227-025-07604-0#Tab2",
+    "/article/10.1007/s11227-025-07604-0/tables/2",
+    "/article/10.1007/s11227-025-07604-0#ref-CR17",
+    "/article/10.1007/s11227-025-07604-0#Tab3",
+    "/article/10.1007/s11227-025-07604-0/tables/3",
+    "/article/10.1007/s11227-025-07604-0#Equ8",
+    "/article/10.1007/s11227-025-07604-0#Equ9",
+    "/article/10.1007/s11227-025-07604-0#Equ10",
+    "/article/10.1007/s11227-025-07604-0#Equ11",
+    "/article/10.1007/s11227-025-07604-0#Tab4",
+    "/article/10.1007/s11227-025-07604-0/tables/4",
+    "/article/10.1007/s11227-025-07604-0/tables/5",
+    "/article/10.1007/s11227-025-07604-0#ref-CR14",
+    "/article/10.1007/s11227-025-07604-0#ref-CR17",
+    "/article/10.1007/s11227-025-07604-0#Tab5",
+    "/article/10.1007/s11227-025-07604-0#Tab6",
+    "/article/10.1007/s11227-025-07604-0/tables/6",
+    "/article/10.1007/s11227-025-07604-0#ref-CR16",
+    "/article/10.1007/s11227-025-07604-0#ref-CR17",
+    "http://scholar.google.com/scholar_lookup?&title=Retrieval-augmented%20generation%20for%20knowledge-intensive%20nlp%20tasks&journal=Adv%20Neural%20Inf%20Process%20Syst&volume=33&pages=9459-9474&publication_year=2020&author=Lewis%2CP&author=Perez%2CE&author=Piktus%2CA&author=Petroni%2CF&author=Karpukhin%2CV&author=Goyal%2CN&author=K%C3%BCttler%2CH&author=Lewis%2CM&author=Yih%2CW-T&author=Rockt%C3%A4schel%2CT",
+    "http://arxiv.org/abs/2501.05554",
+    "http://arxiv.org/abs/2404.07220",
+    "https://doi.org/10.2308%2FJETA-2022-054",
+    "http://scholar.google.com/scholar_lookup?&title=Using%20artificial%20intelligence%20in%20ESG%20assurance&journal=J%20Emerg%20Technol%20Account&doi=10.2308%2FJETA-2022-054&volume=21&issue=2&pages=83-99&publication_year=2024&author=Li%2CN&author=Kim%2CM&author=Dai%2CJ&author=Vasarhelyi%2CMA",
+    "https://doi.org/10.62051%2FIJGEM.v3n1.36",
+    "http://scholar.google.com/scholar_lookup?&title=The%20influence%20of%20artificial%20intelligence%20and%20digital%20technology%20on%20ESG%20reporting%20quality&journal=Int%20J%20Global%20Econ%20Manag&doi=10.62051%2FIJGEM.v3n1.36&volume=3&issue=1&pages=301-310&publication_year=2024&author=Chen%2CS",
+    "http://scholar.google.com/scholar_lookup?&title=How%20will%20ai%20text%20generation%20and%20processing%20impact%20sustainability%20reporting%3F%20Critical%20analysis%2C%20a%20conceptual%20framework%20and%20avenues%20for%20future%20research&journal=Sustain%20Account%20Manag%20Policy%20J&volume=15&issue=1&pages=96-118&publication_year=2024&author=Villiers%2CC&author=Dimes%2CR&author=Molinari%2CM",
+    "https://www.globalreporting.org/standards/",
+    "https://esggenplus.twse.com.tw/inquiry/info/individual",
+    "https://citation-needed.springer.com/v2/references/10.1007/s11227-025-07604-0?format=refman&flavour=references",
+    "/search?sortBy=newestFirst&contributor=Jhing-Fa%20Wang",
+    "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Jhing-Fa%20Wang",
+    "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Jhing-Fa%20Wang%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+    "/search?sortBy=newestFirst&contributor=Wen-Yuan%20Zhang",
+    "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Wen-Yuan%20Zhang",
+    "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Wen-Yuan%20Zhang%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+    "/search?sortBy=newestFirst&contributor=Shih-Pang%20Tseng",
+    "https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&term=Shih-Pang%20Tseng",
+    "https://scholar.google.co.uk/scholar?as_q=&num=10&btnG=Search+Scholar&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=%22Shih-Pang%20Tseng%22&as_publication=&as_ylo=&as_yhi=&as_allsubj=all&hl=en",
+    "mailto:n26110011@gs.ncku.edu.tw",
+    "https://s100.copyright.com/AppDispatchServlet?title=An%20innovative%20ESGH-RAG%20module%20with%20ChatGPT-4o%20for%20automatic%20ESG-report%20generation&author=Jhing-Fa%20Wang%20et%20al&contentID=10.1007%2Fs11227-025-07604-0&copyright=The%20Author%28s%29%2C%20under%20exclusive%20licence%20to%20Springer%20Science%2BBusiness%20Media%2C%20LLC%2C%20part%20of%20Springer%20Nature&publication=1573-0484&publicationDate=2025-07-02&publisherName=SpringerNature&orderBeanReset=true",
+    "https://crossmark.crossref.org/dialog/?doi=10.1007/s11227-025-07604-0",
+    "https://citation-needed.springer.com/v2/references/10.1007/s11227-025-07604-0?format=refman&flavour=citation",
+    "/search?query=ESG%20report&facet-discipline=\"Computer%20Science\"",
+    "/search?query=Generative%20AI&facet-discipline=\"Computer%20Science\"",
+    "/search?query=RAG&facet-discipline=\"Computer%20Science\"",
+    "/search?query=ESG%20guideline&facet-discipline=\"Computer%20Science\"",
+    "/researchers/77855965SN",
+    "https://link.springer.com/collections/diidjacjbi",
+    "https://link.springer.com/journals/",
+    "https://www.springernature.com/gp/authors",
+    "https://link.springernature.com/home/",
+    "https://link.springer.com/journals/a/1",
+    "https://link.springer.com/books/a/1",
+    "https://link.springer.com/subjects",
+    "https://link.springer.com/journals",
+    "https://www.springernature.com/gp/authors",
+    "https://authorservices.springernature.com/go/sn/?utm_source=SNLinkfooter&utm_medium=Web&utm_campaign=SNReferral",
+    "https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research",
+    "https://www.springernature.com/gp/products",
+    "https://www.springernature.com/gp/librarians",
+    "https://www.springernature.com/gp/societies",
+    "https://www.springernature.com/gp/partners",
+    "https://link.springer.com/brands/springer",
+    "https://www.nature.com/",
+    "https://link.springer.com/brands/bmc",
+    "/brands/palgrave",
+    "/brands/apress",
+    "https://link.springer.com/brands/discover",
+    "https://www.springernature.com/gp/legal/ccpa",
+    "https://link.springer.com/accessibility",
+    "https://link.springer.com/termsandconditions",
+    "https://link.springer.com/privacystatement",
+    "https://support.springernature.com/en/support/home",
+    "https://link.springer.com/legal-notice",
+    "https://support.springernature.com/en/support/solutions/articles/6000255911-subscription-cancellations",
+    "https://www.springernature.com/"
+  ],
+  "pdf_request_url": "https://link.springer.com/content/pdf/10.1007/s11227-025-07604-0.pdf",
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11227-025-07604-0.pdf",
+  "pdf_http_status": 200,
+  "pdf_sha256": "298231c6f120283257726212f40de89034c9972a68cbb9e71a75c699bed9748b",
+  "pdf_pages": 22,
+  "text_sha256": "c0296695f960782fe2ad6d3d6ae147ff36fd81f998170ef9ccb11d95209641e8",
+  "fulltext_extracted": true
+}

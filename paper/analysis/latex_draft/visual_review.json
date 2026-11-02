@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-01T21:43:11.343179+00:00",
+  "pdf_path": "paper/manuscript/main.pdf",
+  "pdf_sha256": "9f6ac7376d2153472e0a1ee9088350ea7ad6a057e3b5aad8bd89fcc39aaec4fb",
+  "pages_reviewed_in_contact_sheets": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "pages_reviewed_at_larger_size": [
+    3,
+    7
+  ],
+  "checks": [
+    "Consistent margins and readable typography",
+    "No visible clipping or overlap",
+    "Complete page numbering and section flow",
+    "Correct display of formulas, negative score differences and numeric citations",
+    "Explicitly labelled unfinished sections and four figure frames"
+  ],
+  "render_command": "pdftoppm -scale-to 1050 -png paper/manuscript/main.pdf paper/analysis/latex_draft/previews/page",
+  "previews": {
+    "paper/analysis/latex_draft/previews/contact-1.png": "12235845e57361f712de9236b57384d7cf2d5fc84167b2ffbd60a809b5079c5c",
+    "paper/analysis/latex_draft/previews/contact-2.png": "c1b1e59f66b9060984997d95d8b15f5b25f8ea98b36bc207635c336d25336030",
+    "paper/analysis/latex_draft/previews/page-01.png": "52ac9049a149c3a5166f84ec56807f8b561853eac5573006e75204783d08f650",
+    "paper/analysis/latex_draft/previews/page-02.png": "fe22100e62ed1b4545359f242a891006db2b3c3946e925459056780c2a56d33d",
+    "paper/analysis/latex_draft/previews/page-03.png": "d695304340f719ea61b5dd7acaef87bb198d5b15a1bac4e648ef9c9665af79e7",
+    "paper/analysis/latex_draft/previews/page-04.png": "2d8398eb7e6acc1f0a02dfb91cfcd8f75d77e124808ec2a3576abeadd8830bec",
+    "paper/analysis/latex_draft/previews/page-05.png": "f07dcf732536d0194917d4402e6f412e3e5cc6dc5f02d9104d7c67fcf89138b3",
+    "paper/analysis/latex_draft/previews/page-06.png": "eec44a8bcf1351bf2c780fe446c2bd308b1557ee6ead6c6b10e687faab09b5f7",
+    "paper/analysis/latex_draft/previews/page-07.png": "0633579ec1502cfb4b8ed5810d91eafa180f7f6819ea5f71f51c454de60cff31",
+    "paper/analysis/latex_draft/previews/page-08.png": "d6fd5b75d47b88d2662d3ece28c95366156ca40c0bd6fa106b57da41e2d46413",
+    "paper/analysis/latex_draft/previews/page-09.png": "50ce1e8dc13c7d038dade2f03254d42dac1cfbef6c6cf6a2e3cb4151cd77f987",
+    "paper/analysis/latex_draft/previews/page-10.png": "e62723a3a0a7baa325c7362426e963c4e28fb25a25e0a329a5fbb7c8bd112280",
+    "paper/analysis/latex_draft/previews/page-11.png": "cae4208bcfe6b77f19d31c0e64f97fccfad06f2d867e51d128fffc0121567ce4",
+    "paper/analysis/latex_draft/previews/page-12.png": "fb7f4461f198beac1ba798eb6b4831184d64d481d1ce91d6ccead048a47e0a6d"
+  },
+  "review_scope": "AI-assisted visual inspection of the compiled draft. This is not completed author review, human validation or scientific peer review."
+}

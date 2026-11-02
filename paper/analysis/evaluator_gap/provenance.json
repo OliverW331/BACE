@@ -1,0 +1,52 @@
+{
+  "computed_at_utc": "2026-09-30T10:26:50.530923+00:00",
+  "client_analysis_date": "2026-09-30",
+  "python": "3.13.14 (main, Aug 14 2026, 23:29:42) [GCC]",
+  "executable": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python",
+  "platform": "Linux-6.12.0-160000.34-default-x86_64-with-glibc2.40",
+  "command": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python paper/analysis/evaluator_gap/analyze_saved_gap.py",
+  "script_sha256": "8be733a75759b4bd1e588ce3a6dd47981586ca272ba3d07b5b79847bb64d0404",
+  "inputs": {
+    "BACE/analysis/outputs/snapshot/manifest.json": {
+      "sha256": "6f31f4532c08ef8cb650b4742eeb8d85ed4f8159954f99b9123bd96dbdb30e0e",
+      "bytes": 1228
+    },
+    "BACE/analysis/outputs/snapshot/metrics.csv": {
+      "sha256": "0801aa97b2076d883ff9f8f57b2e339ee26d01bdfaaa67c0a8aa5bf24aa63908",
+      "bytes": 940297
+    },
+    "BACE/analysis/outputs/snapshot/claims.csv": {
+      "sha256": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751",
+      "bytes": 27061098
+    },
+    "BACE/analysis/outputs/snapshot/external_claims.csv": {
+      "sha256": "3e1bf669c7981dfc3796d368150b5edbb8c4ae1afe5ddbb8b4a59d3562f9b3dd",
+      "bytes": 31595855
+    },
+    "BACE/analysis/analysis_data.py": {
+      "sha256": "8b184f0664dc3a67fa51f01824f1240d20aadf23c14f4ebf984212dd033f9d47",
+      "bytes": 15936
+    },
+    "BACE/analysis/validation/README.md": {
+      "sha256": "84675e6fa536d39a47f93f55d356cf3efde82c3467bd70af2e01f7780bdaea3b",
+      "bytes": 18604
+    },
+    "BACE/results/main_v1/execution_status.json": {
+      "sha256": "fec3824e309f4c04fcb0ffebe28162e3c5cdd1ae53ba84cbb82318dd95f7985a",
+      "bytes": 200285
+    },
+    "BACE/analysis/outputs/figures/03/03_alignment_coverage__data.csv": {
+      "sha256": "993450923430678be2f8f57f96708d9d05c95f2c46b3e4ae6a3ad9d884448234",
+      "bytes": 170
+    }
+  },
+  "verification": "Snapshot table hashes match the saved manifest; all paired case counts and support rates reconcile with claim-level rows. Literal alignment reproduces existing pair and agreement counts. Raw histories and the full experiment are not re-audited.",
+  "model_calls": 0,
+  "experiment_changes": "None",
+  "dependencies": "Python standard library in the independent writing environment",
+  "output_sha256": {
+    "results.json": "175ce5007624511f1032e249c855afb0594909c467824a5abe67ac005720f404",
+    "case_diagnostics.csv": "628a622c80518a9960f67153ba86c42f0a1e49f648f16b0a0359c7d46ae3c172",
+    "literal_pairs.csv": "f7e198b7c0b722b5da2323a92c86967cb1f346c9501f3174549396ebb0b15769"
+  }
+}

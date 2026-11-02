@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+outputs/
+
+# Reviewer workbooks and coordinator-only records stay local.
+/validation/*.xlsx
+/validation/_private/*
+!/validation/_private/README.md

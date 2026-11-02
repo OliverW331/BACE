@@ -1,0 +1,50 @@
+[
+  {
+    "label": "non_disclosure_statement",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2021__g1_4_corruption_bribery_incidents",
+    "dc_id": "dc_4b58b8002b419d54893cc0e96b5f30cf",
+    "pool_size": 6369,
+    "seed": 20260921,
+    "source_claim_table_sha256": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751"
+  },
+  {
+    "label": "contradiction",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions",
+    "dc_id": "dc_7448bba670219eca599b5121b2de5985",
+    "pool_size": 42,
+    "seed": 20260922,
+    "source_claim_table_sha256": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751"
+  },
+  {
+    "label": "evidence_conflation",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships",
+    "dc_id": "dc_84ccccefb3191a8866e4d95907b86623",
+    "pool_size": 12199,
+    "seed": 20260923,
+    "source_claim_table_sha256": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751"
+  },
+  {
+    "label": "factual_boundary_distortion",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships",
+    "dc_id": "dc_0a68745f651e5169efaa2c0409458081",
+    "pool_size": 19113,
+    "seed": 20260924,
+    "source_claim_table_sha256": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751"
+  },
+  {
+    "label": "inferential_inflation",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__pennon__2019__g1_2_supplier_relationships",
+    "dc_id": "dc_118d701f44477477ce3663047ab1656c",
+    "pool_size": 3192,
+    "seed": 20260925,
+    "source_claim_table_sha256": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751"
+  },
+  {
+    "label": "unsupported_novelty",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__s1_1_workforce_policies",
+    "dc_id": "dc_0f4c0e7afbf2515b1e763992f16943c5",
+    "pool_size": 1698,
+    "seed": 20260926,
+    "source_claim_table_sha256": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751"
+  }
+]

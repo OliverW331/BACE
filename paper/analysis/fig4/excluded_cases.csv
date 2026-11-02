@@ -1,0 +1,3 @@
+generation_case_id,company,year,task,reason
+w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets,Banco BPM,2019,S1-5,Incomplete BACE assessment; excluded from all panels without zero imputation
+w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies,Investec,2023,S1-1,Incomplete BACE assessment; excluded from all panels without zero imputation

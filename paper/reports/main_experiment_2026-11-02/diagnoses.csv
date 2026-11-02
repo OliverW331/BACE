@@ -1,0 +1,7 @@
+label,name,count,denominator_unsupported,share
+factual_boundary_distortion,Factual boundary distortion,19130,42646,0.4485766543169348
+evidence_conflation,Evidence conflation,12205,42646,0.2861933123856868
+non_disclosure_statement,Non-disclosure statement,6378,42646,0.1495568165830324
+inferential_inflation,Inferential inflation,3193,42646,0.07487220372367866
+unsupported_novelty,Unsupported novelty,1698,42646,0.03981616095296159
+contradiction,Contradiction,42,42646,0.0009848520377057637

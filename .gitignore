@@ -4,6 +4,9 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
 
 # Local configuration and secrets
 .env
@@ -33,3 +36,6 @@ logs/
 # OS and editor files
 .DS_Store
 .vscode/
+*~
+*.swp
+*.swo

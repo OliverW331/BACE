@@ -1,0 +1,25 @@
+{
+  "checked_date": "2026-09-29",
+  "review_type": "targeted original-source comparison",
+  "canonical_fulltext_sources": 15,
+  "citation_occurrences": 32,
+  "inaccessible_candidates": [
+    "ecosmart2024",
+    "selfeval2026"
+  ],
+  "rendered_pages_inspected": [
+    "previews/veriscore_page3.png",
+    "previews/esgbench_page4.png"
+  ],
+  "command": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python paper/literature/build_audit_artifacts.py",
+  "python": "3.13.14 (main, Aug 14 2026, 23:29:42) [GCC]",
+  "input_hashes": {
+    "literature/source_evidence.json": "fa62f7805fdc46b8d04c27b5d6ec89725452263d947ae37f7dc492cef54a5fd9",
+    "literature/doi_metadata_raw.bib": "85ee8953863b82695250773345c8b87546f4f950a6738a4bfc42394694186b4f",
+    "literature/additional_metadata_raw.bib": "060fc7ad3b081e809b140b4f22a6a891de4d28a79ac624a6c39f924a1852d47a",
+    "03_research_foundation.md": "4b16cc83354437572b708d966595749c4323ad2cb4be6daa20276317658ad471",
+    "04_research_gap_verification.md": "840eca01b0b3c40863cb0a63642c349988c5491ac6d0a18b13c640afb8d97014"
+  },
+  "script_sha256": "565b4d530612456b62dc2aafb554d1228ddd02a0087b47d53fd47cf5555054be",
+  "numerical_results": "No experiment metrics recalculated or changed; counts here describe the audit artifacts only."
+}

@@ -1,0 +1,12 @@
+{
+  "procedure": "Screen every BACE contradiction and other unsupported DCs having an exact normalized supported RAGAS statement; retain nearest token-overlap native claims and both positive labels. Manual equivalence and full evidence review are still required.",
+  "normalization": "Unicode NFKC, casefold, word-token whitespace joining; this can erase punctuation and is only a retrieval heuristic.",
+  "screened": 2346,
+  "both_positive_nearest_claims": 2211,
+  "not_a_population_estimate": true,
+  "input_sha256": {
+    "claims.csv": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751",
+    "external_claims.csv": "3e1bf669c7981dfc3796d368150b5edbb8c4ae1afe5ddbb8b4a59d3562f9b3dd"
+  },
+  "script_sha256": "99d9e532c57386f84750b50f8aa2d1ac0114f7540b0449a99a880f90f514cd01"
+}

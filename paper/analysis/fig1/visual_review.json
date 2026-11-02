@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-01T22:00:50.029265+00:00",
+  "figure_pdf_sha256": "55ff99bac6a46d6bef8611788d0708cce2fa46bec8818ab0c8c0b6fe6e4ed2bf",
+  "manuscript_pdf_sha256": "e72bca348e87cbfe9acc28dc58092b5b4a76364edb8ce988db9b7f6fb737f885",
+  "panels": {
+    "a": {
+      "role": "Study cohort and supplied-evidence boundary",
+      "statistic": "Counts and configured limits",
+      "uncertainty": "Not applicable to this schematic",
+      "unit": "Company-year-task case; paired disclosure",
+      "review": "Counts, exclusions, source-year windows and card limits match the saved ledger; no clipping or overlap."
+    },
+    "b": {
+      "role": "Conditional automated judgment and prepared human-review scope",
+      "statistic": "Prepared sample/workbook counts only",
+      "uncertainty": "No validation estimate is drawn",
+      "unit": "DC with its candidate EC input",
+      "review": "EC/DC branches, candidate-selection inputs, contextual metadata and unsupported-only diagnosis are distinct. The dashed review branch is explicitly pending; connectors and labels are clear."
+    }
+  },
+  "manuscript_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "figure_page_inspected_at_larger_size": 11,
+  "findings": "Both panels and the full manuscript were inspected. Artwork and legend fit on page 11; the remaining three placeholders fit on page 12. No visible clipping, overlap, unresolved references or displaced text was found.",
+  "scope": "AI-assisted visual inspection, not completed author review or independent human validation."
+}

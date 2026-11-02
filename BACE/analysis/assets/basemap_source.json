@@ -1,0 +1,8 @@
+{
+  "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_admin_0_countries.geojson",
+  "version": "Natural Earth v5.1.2",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+  "purpose": "Country outlines for register-country counts; no geocoding or company coordinates."
+}

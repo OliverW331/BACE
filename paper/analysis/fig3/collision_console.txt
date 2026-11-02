@@ -1,0 +1,10 @@
+Nature Figure Rendered Collision Audit
+pdf: /home/muwang/master_thesis/paper/manuscript/figures/fig3_diagnoses_cases.pdf
+pages: 1
+visible text boxes: 72
+stroke paths: 17
+
+
+summary: 0 fail, 0 warn, 45 contained fill overlays, 0 contained image overlays
+verdict: PASS
+note: contained overlays can be intentional; WARN findings need final-size visual review

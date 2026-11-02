@@ -1,0 +1,214 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          9
+        ]
+      ],
+      "date-time": "2026-07-09T02:35:58Z",
+      "timestamp": 1783564558724,
+      "version": "3.55.0"
+    },
+    "publisher-location": "Stroudsburg, PA, USA",
+    "reference-count": 0,
+    "publisher": "Association for Computational Linguistics",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.18653/v1/2025.findings-naacl.66",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          7
+        ]
+      ],
+      "date-time": "2025-06-07T12:33:56Z",
+      "timestamp": 1749299636000
+    },
+    "page": "1184-1203",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "SusGen-GPT: A Data-Centric LLM for Financial NLP and Sustainability Report Generation"
+    ],
+    "prefix": "10.18653",
+    "author": [
+      {
+        "given": "Qilong",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoneng",
+        "family": "Xiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huang",
+        "family": "Hejia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yeo",
+        "family": "Wei Jie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ranjan",
+        "family": "Satapathy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ricardo Shirota",
+        "family": "Filho",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bharadwaj",
+        "family": "Veeravalli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1643",
+    "event": {
+      "name": "Findings of the Association for Computational Linguistics: NAACL 2025",
+      "location": "Albuquerque, New Mexico",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Findings of the Association for Computational Linguistics: NAACL 2025"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          7
+        ]
+      ],
+      "date-time": "2025-06-07T12:36:21Z",
+      "timestamp": 1749299781000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aclanthology.org/2025.findings-naacl.66"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.18653/v1/2025.findings-naacl.66",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  }
+}

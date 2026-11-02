@@ -1,0 +1,120 @@
+[
+  {
+    "skill": "citation-verification",
+    "included_scripts": []
+  },
+  {
+    "skill": "citation-management",
+    "included_scripts": [
+      {
+        "file": "scripts/_common.py",
+        "sha256": "87540160163671b972c2fccb4d0a42db3cca2603c664d26d5da3ca5dbc7dfdd2",
+        "imports": [
+          "__future__",
+          "collections",
+          "re",
+          "sys",
+          "typing",
+          "unicodedata"
+        ],
+        "network_endpoints": []
+      },
+      {
+        "file": "scripts/doi_to_bibtex.py",
+        "sha256": "24ad5b18e4acca95a2e6d181abb9ed455d47a3a9bc1a92f0d9b7ecc9e3332807",
+        "imports": [
+          "_common",
+          "argparse",
+          "json",
+          "re",
+          "requests",
+          "sys",
+          "time",
+          "typing",
+          "urllib.parse"
+        ],
+        "network_endpoints": [
+          "http://doi.org/",
+          "https://doi.org/",
+          "https://doi.org/{quote(doi,"
+        ]
+      },
+      {
+        "file": "scripts/format_bibtex.py",
+        "sha256": "182d0f39c18fa7fd4bab3ed7f8ce92c1f36494cf975f79734d427ab0bf5f9929",
+        "imports": [
+          "__future__",
+          "_common",
+          "argparse",
+          "collections",
+          "pathlib",
+          "re",
+          "sys",
+          "typing"
+        ],
+        "network_endpoints": [
+          "http://doi.org/",
+          "http://dx.doi.org/",
+          "https://doi.org/",
+          "https://dx.doi.org/"
+        ]
+      }
+    ]
+  },
+  {
+    "skill": "scientific-critical-thinking",
+    "included_scripts": []
+  },
+  {
+    "skill": "statistical-analysis",
+    "included_scripts": []
+  },
+  {
+    "skill": "paper-writing",
+    "included_scripts": []
+  },
+  {
+    "skill": "citation-audit",
+    "included_scripts": []
+  },
+  {
+    "skill": "bace-nature-writing",
+    "included_scripts": []
+  },
+  {
+    "skill": "bace-nature-polishing",
+    "included_scripts": []
+  },
+  {
+    "skill": "bace-nature-reviewer",
+    "included_scripts": []
+  },
+  {
+    "skill": "bace-nature-response",
+    "included_scripts": [
+      {
+        "file": "scripts/check_package_consistency.py",
+        "sha256": "efb5fbbf31156cc96ca4ac0f023e94a6940ee0996dd700cdd17807d21939cd06",
+        "imports": [
+          "__future__",
+          "argparse",
+          "dataclasses",
+          "json",
+          "pathlib",
+          "re",
+          "sys",
+          "typing"
+        ],
+        "network_endpoints": []
+      }
+    ]
+  },
+  {
+    "skill": "bace-nature-data",
+    "included_scripts": []
+  },
+  {
+    "skill": "bace-nature-statistics",
+    "included_scripts": []
+  }
+]

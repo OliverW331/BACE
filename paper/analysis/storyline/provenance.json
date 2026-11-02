@@ -1,0 +1,187 @@
+{
+  "checked_at_utc": "2026-09-29T20:37:52.500034+00:00",
+  "command": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python paper/analysis/storyline/verify_storyline_evidence.py",
+  "python": "3.13.14 (main, Aug 14 2026, 23:29:42) [GCC]",
+  "script_sha256": "4b927af78fdd727f9555371fb273c6977cc0b3b361086ea8c3c18847804a93d0",
+  "input_files": {
+    "BACE/analysis/outputs/snapshot/metrics.csv": {
+      "sha256": "0801aa97b2076d883ff9f8f57b2e339ee26d01bdfaaa67c0a8aa5bf24aa63908",
+      "bytes": 940297
+    },
+    "BACE/analysis/outputs/snapshot/manifest.json": {
+      "sha256": "6f31f4532c08ef8cb650b4742eeb8d85ed4f8159954f99b9123bd96dbdb30e0e",
+      "bytes": 1228
+    },
+    "BACE/analysis/analysis_data.py": {
+      "sha256": "8b184f0664dc3a67fa51f01824f1240d20aadf23c14f4ebf984212dd033f9d47",
+      "bytes": 15936
+    },
+    "BACE/analysis/scripts/build_notebooks.py": {
+      "sha256": "42b48dd30126c4ba1c144293fd530cba002e37129a163f4d3f1f7d07b25afaf0",
+      "bytes": 62559
+    },
+    "BACE/analysis/ANALYSIS_SPEC.md": {
+      "sha256": "688023810d0d016d77f31aef338662702df99a80841dd36ca04228ca76809130",
+      "bytes": 6554
+    },
+    "BACE/analysis/requirements.lock.txt": {
+      "sha256": "c454950ce95d2ed23a605031e1e83374d6428668bb0d8e094fee1b78e6b22d8c",
+      "bytes": 1162
+    },
+    "BACE/analysis/outputs/analysis_manifest.json": {
+      "sha256": "c62529c0ec7c16c46550ad50d9259b4a949645f4438ef6201c4741367ff32312",
+      "bytes": 7157
+    },
+    "BACE/results/main_v1/execution_status.json": {
+      "sha256": "fec3824e309f4c04fcb0ffebe28162e3c5cdd1ae53ba84cbb82318dd95f7985a",
+      "bytes": 200285
+    },
+    "BACE/analysis/outputs/figures/01/01_support_distribution__disclosures.csv": {
+      "sha256": "d628f543a727810e1ebe9139811a80f59f5ec1bcf5a5633d3725ed6f3b94f745",
+      "bytes": 283959
+    },
+    "BACE/analysis/outputs/figures/01/01_support_distribution__claim_counts.csv": {
+      "sha256": "9f4a055b9ca8cf8c68d03a1ab178ad209a32849fa165fd980c258accec1c3b2e",
+      "bytes": 136
+    },
+    "BACE/analysis/outputs/figures/03/03_native_comparison__cohort_summary.csv": {
+      "sha256": "b98950bed3bf2dd9485f9469ca432407173018b88800d5216172bc13c4be6fba",
+      "bytes": 491
+    },
+    "BACE/analysis/outputs/figures/01/01_task_support__data.csv": {
+      "sha256": "aaf7a6c2c044a6e4843a6ff143e3ab63e03787ade069de6ec73af9766d705757",
+      "bytes": 936
+    },
+    "BACE/analysis/outputs/figures/02/02_label_composition__data.csv": {
+      "sha256": "8840f7d7b91df7bdb10800956f8240aa9b836cadf6007d298d8a1cc4670693c8",
+      "bytes": 599
+    },
+    "BACE/analysis/outputs/figures/03/03_native_comparison__scores.csv": {
+      "sha256": "c5a87f0554a8f6dcceb9429e605a6002bd3232a5cb848afb097444be9a181a93",
+      "bytes": 340552
+    },
+    "BACE/analysis/outputs/figures/03/03_native_comparison__paired_differences.csv": {
+      "sha256": "eb87ac741c2488ec47351aa3c8a4b9f48dcffb147edfc2f7d3b36aed1206037d",
+      "bytes": 235
+    },
+    "BACE/analysis/outputs/figures/03/03_claim_inventories__data.csv": {
+      "sha256": "22bd0ba4129058e9b13c8bc28d1b5698f5d17ad0db523a81afc867962bc6a695",
+      "bytes": 360385
+    },
+    "BACE/analysis/outputs/figures/01/01_secondary_metrics__data.csv": {
+      "sha256": "de45b8614a85d48d9fed0a831b01213a3b217ee11a69f15e6de8afdaa737704a",
+      "bytes": 382068
+    },
+    "BACE/analysis/validation/_private/sample_manifest.json": {
+      "sha256": "3949dc3cb5da7ab784754a397440b99c591a2056d05aae77a3037cb8a27406c6",
+      "bytes": 2379192
+    },
+    "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx": {
+      "sha256": "7d6bf6fec6285bba2179457bf29b31058f7007b65024b85dcdd47660894344c5",
+      "bytes": 204804
+    },
+    "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx": {
+      "sha256": "0f161380f1777042ccd35cf09ef01b15c8baa17b9210ec92ea1d33c9fdce499b",
+      "bytes": 204804
+    },
+    "BACE/analysis/outputs/examples/02_factual_boundary_distortion.json": {
+      "sha256": "d875dfc49556dffc810a26761525ba457b70872899d352622900abca75195a74",
+      "bytes": 1616055
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/inputs/generation_cases.jsonl": {
+      "sha256": "7e3009b83c13508dea90038a88fc0cf20ea4995490b34d9813352fe4c76ce722",
+      "bytes": 71688
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/generation/generated_disclosures.jsonl": {
+      "sha256": "f78f049199a3a0b8dc3759780cc21859502cc309656a8ac50801e9a0e26a0afc",
+      "bytes": 17782
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/dedup/dc_claims.jsonl": {
+      "sha256": "3d650823514a8db021b00008dfb6dd811c590ea49b38a1781f3ddf7b4ecb17bb",
+      "bytes": 148391
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/dedup/ec_claims.jsonl": {
+      "sha256": "4cda6f6e20ad347e575f045c7577133a92cc1f5bf2e8202d54404f1480b14d04",
+      "bytes": 641845
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "2039b4f702aa9906666d748b512622a85f7dbf06556bd07ae2022982f5c30383",
+      "bytes": 12271
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "38e40d1abc73493b8c2f63d4d20e44046442596431680569e01fc853dbf50658",
+      "bytes": 35425
+    },
+    "BACE/analysis/outputs/examples/02_evidence_conflation.json": {
+      "sha256": "70b5b1f576a725a0f4f1e53a93c9d03a99b09f94223109cbe3072139db4df87d",
+      "bytes": 1777592
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/inputs/generation_cases.jsonl": {
+      "sha256": "4c3275d63af06557802de612aa666bb79cf54187bc919cbfd74e7c2660b0c109",
+      "bytes": 68375
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/generation/generated_disclosures.jsonl": {
+      "sha256": "8fa6fb6fadb1314d20532c41ef3b1adbca285055195bb69ad4f82b22f5dd0c34",
+      "bytes": 16139
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/dedup/dc_claims.jsonl": {
+      "sha256": "ba65b29f1a239c09b58ee376dee90f872828653084e29b434d68bbeb422e77de",
+      "bytes": 184838
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/dedup/ec_claims.jsonl": {
+      "sha256": "aa91006f499c0ca36bd4380093caf9a33fbe111f8e892078140b089c1d2f8998",
+      "bytes": 807267
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "c82c6bfbcaa055a381bbe0f2d0e7a37b794e250d736b1ab8f478afd381c6dd8e",
+      "bytes": 8079
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "72bbb1eea6fa3aa2db25825325f7afcf8e01d9e6bc3562ec9986832dd095e236",
+      "bytes": 24922
+    },
+    "BACE/analysis/outputs/examples/02_contradiction.json": {
+      "sha256": "9014140db38a85bcb5e617746576c4f6a0eb14c181ec7d6457d3f70aecf515c3",
+      "bytes": 819057
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/inputs/generation_cases.jsonl": {
+      "sha256": "2de57bf35f96bfd294d394de1e5aba108aa54d1b0822ab767a2de4c0512a08e2",
+      "bytes": 46535
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/generation/generated_disclosures.jsonl": {
+      "sha256": "ffd587a632d9bcf684ab602f44f5443cdef4fa5ae468778ac4275a94f1a0132f",
+      "bytes": 15049
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/dedup/dc_claims.jsonl": {
+      "sha256": "743847cf79e8ff2c960454e140e12ec7488485c02fe75e3bfde304b7cced102d",
+      "bytes": 85507
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/dedup/ec_claims.jsonl": {
+      "sha256": "7805f8984b23c6003738f78877327e6d6d1ef67150cfee3ab975fdf3a5d8d3a4",
+      "bytes": 273344
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "1dd0b91b8f437398a73e086d4c88c965292324b8c9b72cef4259f4059238e36a",
+      "bytes": 8166
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "3e3d114d336b40b54d2afb5d7895b78238260dadb9419d791447067ff1945adf",
+      "bytes": 18382
+    },
+    "BACE/analysis/assets/failure_example_selection.json": {
+      "sha256": "0fe33b87f7fed963fee2b0bb08408762c6fb25f6084185419dd1816c3ecac78d",
+      "bytes": 2192
+    },
+    "BACE/analysis/outputs/figures/02/02_asml_source_layout__data.csv": {
+      "sha256": "34b41f9eb2c26ca678e034d0400c1508ad010542b044f2432527376e1844d462",
+      "bytes": 192
+    },
+    "BACE/analysis/outputs/figures/02/02_asml_source_layout.png": {
+      "sha256": "73c834f473885a9eb2b1f4cb06d7baedff97231347670db5d345d0e6c6be5349",
+      "bytes": 412665
+    }
+  },
+  "checks": "PASS",
+  "bootstrap": "Saved intervals reused; not rerun.",
+  "experiment_changes": "None; only paper/analysis/storyline outputs written."
+}

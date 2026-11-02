@@ -1,0 +1,782 @@
+{
+  "E1": {
+    "case": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__e1_1_transition_plan",
+    "ec": {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__e1_1_transition_plan",
+      "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2019__E1-1_transition_plan__W2__sanity",
+      "ec_id": "ec_37b787b5767574836690905fdd7838c1",
+      "ec_text": "For reporting year 2016, the Corporate Sustainability Tracker records 2016-10-06 as Air France-KLM's value for the E1-1 indicator \"Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change.\"",
+      "evidence_card_ids": [
+        "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::8f04c55a-aea8-4acc-a6db-1b0d1ec6af7b"
+      ],
+      "ec_occurrence_ids": [
+        "eco_61ff7c68d17115c2ad722a104f05e9cb"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_61ff7c68d17115c2ad722a104f05e9cb",
+          "claim_text": "For reporting year 2016, the Corporate Sustainability Tracker records 2016-10-06 as Air France-KLM's value for the E1-1 indicator \"Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change.\"",
+          "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::8f04c55a-aea8-4acc-a6db-1b0d1ec6af7b",
+          "prompt_label": "Evidence 16",
+          "retrieval_text_hash": "89ed3341eae7817960c7fe4f5b9004db6d97ba143943e0abb468ee5abcb195be",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Air France-KLM. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2016-10-06.",
+              "start": 0,
+              "end": 256,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 256
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Air France-KLM. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2016-10-06."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::8f04c55a-aea8-4acc-a6db-1b0d1ec6af7b",
+            "prompt_label": "Evidence 16",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2016,
+            "source_label": "Corporate Sustainability Tracker | Source year 2016",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change",
+            "value_text": "2016-10-06",
+            "unit": null,
+            "retrieval_text_hash": "89ed3341eae7817960c7fe4f5b9004db6d97ba143943e0abb468ee5abcb195be",
+            "prompt_rank_from_retrieval": 16
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_11c233eda45aa0375689300f7721ca39",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_da7e7d62059dab1f8655d9bb9421d2aa",
+        "canonical_occurrence_id": "eco_61ff7c68d17115c2ad722a104f05e9cb",
+        "member_unit_ids": [
+          "ecu_da7e7d62059dab1f8655d9bb9421d2aa"
+        ],
+        "member_occurrence_ids": [
+          "eco_61ff7c68d17115c2ad722a104f05e9cb"
+        ]
+      }
+    },
+    "cards": [
+      {
+        "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::8f04c55a-aea8-4acc-a6db-1b0d1ec6af7b",
+        "source_type": "csv",
+        "evidence_type": "csv_metric",
+        "company_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce",
+        "company_slug": "air_france_klm",
+        "company_name": "Air France-KLM",
+        "isin": null,
+        "country": "France",
+        "primary_sics_sector": "Transportation",
+        "source_year": 2016,
+        "company_year": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2016",
+        "data_point_id": "8f04c55a-aea8-4acc-a6db-1b0d1ec6af7b",
+        "metric": "Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change",
+        "indicator_label": "Date of adoption of transition plan for undertaking not having adopted transition plan yet",
+        "esg_topic": "env",
+        "standard": "E1",
+        "standard_topic": "Climate change",
+        "discl_req": "E1-1",
+        "discl_req_label": "Transition plan for climate change mitigation",
+        "type_standard": "date",
+        "value": "2016-10-06",
+        "value_text": "2016-10-06",
+        "unit": null,
+        "retrieval_text": "Company: Air France-KLM. Reporting year: 2016. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Date of adoption of transition plan for undertaking not having adopted transition plan yet ESRS E1 Climate change. Value: 2016-10-06.",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "source_key": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2016_8f04c55a-aea8-4acc-a6db-1b0d1ec6af7b",
+        "model_output": "{'value': '2016-10-06', 'unit': None}",
+        "model_output_valid": true,
+        "schema_version": "csv_metric_card_v1",
+        "processing_method": "deterministic_csv_metric_card_builder_v1",
+        "retrieval_text_template": "deterministic_csv_metric_template_v1",
+        "source_sha256": "7401fb688ba39d81ade8512923ab673791d47355646fbcbf851b906a99c4c860"
+      }
+    ]
+  },
+  "ESRS 2": {
+    "case": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__g1_1_business_conduct_policies",
+    "ec": {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__g1_1_business_conduct_policies",
+      "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2019__G1-1_business_conduct_policies__W2__sanity",
+      "ec_id": "ec_50a7351fd9fe15a85ff85285522f02cb",
+      "ec_text": "For reporting year 2016, the Corporate Sustainability Tracker records Air France-KLM's date of future revision of the materiality assessment for ESRS G1 Business conduct as 2017-01-01 under ESG topic gov, ESRS standard ESRS 2 and disclosure requirement ESRS2.IRO.",
+      "evidence_card_ids": [
+        "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::ecff3364-6398-421d-a7a9-c1b5acc38e68"
+      ],
+      "ec_occurrence_ids": [
+        "eco_9f914c8a2f58a8ec1f2fd613bc696dac"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_9f914c8a2f58a8ec1f2fd613bc696dac",
+          "claim_text": "For reporting year 2016, the Corporate Sustainability Tracker records Air France-KLM's date of future revision of the materiality assessment for ESRS G1 Business conduct as 2017-01-01 under ESG topic gov, ESRS standard ESRS 2 and disclosure requirement ESRS2.IRO.",
+          "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::ecff3364-6398-421d-a7a9-c1b5acc38e68",
+          "prompt_label": "Evidence 20",
+          "retrieval_text_hash": "9c5c2d64c4f8584848b13aa274331ac76a646e2ea5d2f8f708d03b17022eb057",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Air France-KLM. Reporting year: 2016. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Dates of future revision of materiality assessment ESRS G1 Business conduct. Value: 2017-01-01.",
+              "start": 0,
+              "end": 227,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 227
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Air France-KLM. Reporting year: 2016. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Dates of future revision of materiality assessment ESRS G1 Business conduct. Value: 2017-01-01."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::ecff3364-6398-421d-a7a9-c1b5acc38e68",
+            "prompt_label": "Evidence 20",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2016,
+            "source_label": "Corporate Sustainability Tracker | Source year 2016",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Dates of future revision of materiality assessment ESRS G1 Business conduct",
+            "value_text": "2017-01-01",
+            "unit": null,
+            "retrieval_text_hash": "9c5c2d64c4f8584848b13aa274331ac76a646e2ea5d2f8f708d03b17022eb057",
+            "prompt_rank_from_retrieval": 20
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_aac4fe287f9c9f502936d56e51c4dc80",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_1f8f2088486893d427ac420c2258ab79",
+        "canonical_occurrence_id": "eco_9f914c8a2f58a8ec1f2fd613bc696dac",
+        "member_unit_ids": [
+          "ecu_1f8f2088486893d427ac420c2258ab79"
+        ],
+        "member_occurrence_ids": [
+          "eco_9f914c8a2f58a8ec1f2fd613bc696dac"
+        ]
+      }
+    },
+    "cards": [
+      {
+        "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2016::ecff3364-6398-421d-a7a9-c1b5acc38e68",
+        "source_type": "csv",
+        "evidence_type": "csv_metric",
+        "company_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce",
+        "company_slug": "air_france_klm",
+        "company_name": "Air France-KLM",
+        "isin": null,
+        "country": "France",
+        "primary_sics_sector": "Transportation",
+        "source_year": 2016,
+        "company_year": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2016",
+        "data_point_id": "ecff3364-6398-421d-a7a9-c1b5acc38e68",
+        "metric": "Dates of future revision of materiality assessment ESRS G1 Business conduct",
+        "indicator_label": "Dates of future revision of materiality assessment",
+        "esg_topic": "gov",
+        "standard": "ESRS 2",
+        "standard_topic": "General",
+        "discl_req": "ESRS2.IRO",
+        "discl_req_label": "Process to identify and assess material impacts, risks and opportunities",
+        "type_standard": "date",
+        "value": "2017-01-01",
+        "value_text": "2017-01-01",
+        "unit": null,
+        "retrieval_text": "Company: Air France-KLM. Reporting year: 2016. ESG topic: gov. ESRS standard: ESRS 2. Disclosure requirement: ESRS2.IRO. Indicator: Dates of future revision of materiality assessment ESRS G1 Business conduct. Value: 2017-01-01.",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "source_key": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2016_ecff3364-6398-421d-a7a9-c1b5acc38e68",
+        "model_output": "{'value': '2017-01-01', 'unit': None}",
+        "model_output_valid": true,
+        "schema_version": "csv_metric_card_v1",
+        "processing_method": "deterministic_csv_metric_card_builder_v1",
+        "retrieval_text_template": "deterministic_csv_metric_template_v1",
+        "source_sha256": "7401fb688ba39d81ade8512923ab673791d47355646fbcbf851b906a99c4c860"
+      }
+    ]
+  },
+  "G1": {
+    "case": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__g1_1_business_conduct_policies",
+    "ec": {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__g1_1_business_conduct_policies",
+      "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2019__G1-1_business_conduct_policies__W2__sanity",
+      "ec_id": "ec_cbc049215241b09e5b91b50c6468bdc1",
+      "ec_text": "For reporting year 2017, the Corporate Sustainability Tracker records Air France-KLM's value for the indicator “Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies” as 10000.0 under ESG topic gov, ESRS standard G1 and disclosure requirement G1-3.",
+      "evidence_card_ids": [
+        "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2017::2a021882-bc02-467d-b9e9-4ffef610a875"
+      ],
+      "ec_occurrence_ids": [
+        "eco_f1defe5674afc30bb8bcf0ddeb54ff6e"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_f1defe5674afc30bb8bcf0ddeb54ff6e",
+          "claim_text": "For reporting year 2017, the Corporate Sustainability Tracker records Air France-KLM's value for the indicator “Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies” as 10000.0 under ESG topic gov, ESRS standard G1 and disclosure requirement G1-3.",
+          "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2017::2a021882-bc02-467d-b9e9-4ffef610a875",
+          "prompt_label": "Evidence 19",
+          "retrieval_text_hash": "2397462d7fe330f7f5357f24c85d124652592abc9e514ab402fdb03c4d072449",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Air France-KLM. Reporting year: 2017. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies. Value: 10000.0.",
+              "start": 0,
+              "end": 277,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 277
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Air France-KLM. Reporting year: 2017. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies. Value: 10000.0."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2017::2a021882-bc02-467d-b9e9-4ffef610a875",
+            "prompt_label": "Evidence 19",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2017,
+            "source_label": "Corporate Sustainability Tracker | Source year 2017",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies",
+            "value_text": "10000.0",
+            "unit": null,
+            "retrieval_text_hash": "2397462d7fe330f7f5357f24c85d124652592abc9e514ab402fdb03c4d072449",
+            "prompt_rank_from_retrieval": 19
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_aac4fe287f9c9f502936d56e51c4dc80",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_aa99104d1b528cee9090a15ad43896ed",
+        "canonical_occurrence_id": "eco_f1defe5674afc30bb8bcf0ddeb54ff6e",
+        "member_unit_ids": [
+          "ecu_aa99104d1b528cee9090a15ad43896ed"
+        ],
+        "member_occurrence_ids": [
+          "eco_f1defe5674afc30bb8bcf0ddeb54ff6e"
+        ]
+      }
+    },
+    "cards": [
+      {
+        "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2017::2a021882-bc02-467d-b9e9-4ffef610a875",
+        "source_type": "csv",
+        "evidence_type": "csv_metric",
+        "company_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce",
+        "company_slug": "air_france_klm",
+        "company_name": "Air France-KLM",
+        "isin": null,
+        "country": "France",
+        "primary_sics_sector": "Transportation",
+        "source_year": 2017,
+        "company_year": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2017",
+        "data_point_id": "2a021882-bc02-467d-b9e9-4ffef610a875",
+        "metric": "Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies",
+        "indicator_label": "Number of employees receiving anti-corruption and anti-bribery training, during period",
+        "esg_topic": "gov",
+        "standard": "G1",
+        "standard_topic": "Business conduct",
+        "discl_req": "G1-3",
+        "discl_req_label": "Prevention and detection of corruption and bribery",
+        "type_standard": "integer",
+        "value": "10000.0",
+        "value_text": "10000.0",
+        "unit": null,
+        "retrieval_text": "Company: Air France-KLM. Reporting year: 2017. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-3. Indicator: Number of employees receiving anti-corruption and anti-bribery training, during period Administrative / management and supervisory bodies. Value: 10000.0.",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "source_key": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2017_2a021882-bc02-467d-b9e9-4ffef610a875",
+        "model_output": "{'value': 10000.0, 'unit': None}",
+        "model_output_valid": true,
+        "schema_version": "csv_metric_card_v1",
+        "processing_method": "deterministic_csv_metric_card_builder_v1",
+        "retrieval_text_template": "deterministic_csv_metric_template_v1",
+        "source_sha256": "7401fb688ba39d81ade8512923ab673791d47355646fbcbf851b906a99c4c860"
+      }
+    ]
+  },
+  "S1": {
+    "case": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__s1_4_workforce_actions_resources",
+    "ec": {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2019__s1_4_workforce_actions_resources",
+      "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2019__S1-4_workforce_actions_resources__W2__sanity",
+      "ec_id": "ec_0c84c5e2a561aede0c39d64be4863146",
+      "ec_text": "For reporting year 2015, the Corporate Sustainability Tracker recorded 0.0 employee fatalities in Air France-KLM's own workforce as a result of work-related injuries and work-related ill health under ESRS S1 disclosure requirement S1-14.",
+      "evidence_card_ids": [
+        "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2015::e18792ef-ccb2-4e49-aa7b-93ee2d97a5bc"
+      ],
+      "ec_occurrence_ids": [
+        "eco_12bdb6bc01d6373b60b34df740d85bbd"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_12bdb6bc01d6373b60b34df740d85bbd",
+          "claim_text": "For reporting year 2015, the Corporate Sustainability Tracker recorded 0.0 employee fatalities in Air France-KLM's own workforce as a result of work-related injuries and work-related ill health under ESRS S1 disclosure requirement S1-14.",
+          "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2015::e18792ef-ccb2-4e49-aa7b-93ee2d97a5bc",
+          "prompt_label": "Evidence 16",
+          "retrieval_text_hash": "818f7b41812e93282232355365ab7ea176a6edf9409da9b25c324c88bc58c900",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Air France-KLM. Reporting year: 2015. ESG topic: soc. ESRS standard: S1. Disclosure requirement: S1-14. Indicator: Number of fatalities in own workforce as result of work-related injuries and work-related ill health Employees. Value: 0.0.",
+              "start": 0,
+              "end": 247,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 247
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Air France-KLM. Reporting year: 2015. ESG topic: soc. ESRS standard: S1. Disclosure requirement: S1-14. Indicator: Number of fatalities in own workforce as result of work-related injuries and work-related ill health Employees. Value: 0.0."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2015::e18792ef-ccb2-4e49-aa7b-93ee2d97a5bc",
+            "prompt_label": "Evidence 16",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2015,
+            "source_label": "Corporate Sustainability Tracker | Source year 2015",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Number of fatalities in own workforce as result of work-related injuries and work-related ill health Employees",
+            "value_text": "0.0",
+            "unit": null,
+            "retrieval_text_hash": "818f7b41812e93282232355365ab7ea176a6edf9409da9b25c324c88bc58c900",
+            "prompt_rank_from_retrieval": 16
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_5a60c5cfda2fc09fb507961b880a0946",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_1ad2fae82d29b886453461e9e5f63afe",
+        "canonical_occurrence_id": "eco_12bdb6bc01d6373b60b34df740d85bbd",
+        "member_unit_ids": [
+          "ecu_1ad2fae82d29b886453461e9e5f63afe"
+        ],
+        "member_occurrence_ids": [
+          "eco_12bdb6bc01d6373b60b34df740d85bbd"
+        ]
+      }
+    },
+    "cards": [
+      {
+        "evidence_id": "csv::28367af8-ef59-4ce7-a851-2c0535aea0ce::2015::e18792ef-ccb2-4e49-aa7b-93ee2d97a5bc",
+        "source_type": "csv",
+        "evidence_type": "csv_metric",
+        "company_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce",
+        "company_slug": "air_france_klm",
+        "company_name": "Air France-KLM",
+        "isin": null,
+        "country": "France",
+        "primary_sics_sector": "Transportation",
+        "source_year": 2015,
+        "company_year": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2015",
+        "data_point_id": "e18792ef-ccb2-4e49-aa7b-93ee2d97a5bc",
+        "metric": "Number of fatalities in own workforce as result of work-related injuries and work-related ill health Employees",
+        "indicator_label": "Number of fatalities in own workforce as result of work-related injuries and work-related ill health",
+        "esg_topic": "soc",
+        "standard": "S1",
+        "standard_topic": "Own workforce",
+        "discl_req": "S1-14",
+        "discl_req_label": "Health and safety metrics",
+        "type_standard": "integer",
+        "value": "0.0",
+        "value_text": "0.0",
+        "unit": null,
+        "retrieval_text": "Company: Air France-KLM. Reporting year: 2015. ESG topic: soc. ESRS standard: S1. Disclosure requirement: S1-14. Indicator: Number of fatalities in own workforce as result of work-related injuries and work-related ill health Employees. Value: 0.0.",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "source_key": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2015_e18792ef-ccb2-4e49-aa7b-93ee2d97a5bc",
+        "model_output": "{'value': 0, 'unit': None}",
+        "model_output_valid": true,
+        "schema_version": "csv_metric_card_v1",
+        "processing_method": "deterministic_csv_metric_card_builder_v1",
+        "retrieval_text_template": "deterministic_csv_metric_template_v1",
+        "source_sha256": "7401fb688ba39d81ade8512923ab673791d47355646fbcbf851b906a99c4c860"
+      }
+    ]
+  },
+  "PDF": {
+    "case": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2023__e1_1_transition_plan",
+    "ec": {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2023__e1_1_transition_plan",
+      "case_id": "2e1f7005-6454-4596-8e28-87214e82b95e__ty2023__E1-1_transition_plan__W2__sanity",
+      "ec_id": "ec_a6e76f823aa0266216612fd593c45629",
+      "ec_text": "According to ASML's 2022 annual report, ESG disclosure requirements are increasing.",
+      "evidence_card_ids": [
+        "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2022::p060::t01::r0005"
+      ],
+      "ec_occurrence_ids": [
+        "eco_b9939196aff2c105f39464cab49595b3"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_b9939196aff2c105f39464cab49595b3",
+          "claim_text": "According to ASML's 2022 annual report, ESG disclosure requirements are increasing.",
+          "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2022::p060::t01::r0005",
+          "prompt_label": "Evidence 20",
+          "retrieval_text_hash": "b5510a72b849c6f25c64f901ee36bee56af173f8e4934b48de3a56092e77fae2",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "ESG disclosure requirements are increasing",
+              "start": 3456,
+              "end": 3498,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 3456,
+                  "end": 3498
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "ESG disclosure requirements are increasing"
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2022::p060::t01::r0005",
+            "prompt_label": "Evidence 20",
+            "evidence_type": "pdf_table_row",
+            "source_type": "pdf",
+            "source_year": 2022,
+            "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2022_AR.pdf | Page 60",
+            "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2022_AR.pdf",
+            "document_type": "annual_report",
+            "page_start": 60,
+            "page_end": 60,
+            "metric": null,
+            "value_text": null,
+            "unit": null,
+            "retrieval_text_hash": "b5510a72b849c6f25c64f901ee36bee56af173f8e4934b48de3a56092e77fae2",
+            "prompt_rank_from_retrieval": 20
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_da208e732555630d17837fd449a2982d",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_3b40926732ccba5cea48d2c18c592d3b",
+        "canonical_occurrence_id": "eco_b9939196aff2c105f39464cab49595b3",
+        "member_unit_ids": [
+          "ecu_3b40926732ccba5cea48d2c18c592d3b"
+        ],
+        "member_occurrence_ids": [
+          "eco_b9939196aff2c105f39464cab49595b3"
+        ]
+      }
+    },
+    "cards": [
+      {
+        "prompt_label": "Evidence 20",
+        "evidence_id": "pdf_table_row::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2022::p060::t01::r0005",
+        "evidence_type": "pdf_table_row",
+        "source_type": "pdf",
+        "source_year": 2022,
+        "source_label": "2e1f7005-6454-4596-8e28-87214e82b95e_2022_AR.pdf | Page 60",
+        "source_file": "2e1f7005-6454-4596-8e28-87214e82b95e_2022_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 60,
+        "page_end": 60,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_rank": 145,
+        "prompt_rank_from_retrieval": 20,
+        "final_rrf_score": 0.009197784074089737,
+        "bm25_best_rank": null,
+        "dense_best_rank": 72,
+        "retrieval_text": "Company: ASML. Source: annual report 2022, page 60, table. Table row: unnamed_column_0 = Companies across all industries are facing increasing scrutiny relating to their ESG policies. Investors, capital providers, shareholder advocacy groups, other market participants, customers and other stakeholders are increasingly focused on ESG practices and, in recent years, have placed increasing importance on the implications and social cost of their investments. In particular, within the semiconductor industry, there is a focus on contribution to society and minimizing environmental and social impacts of products throughout all life-cycle stages. Failure to achieve our ESG objectives, meet the emerging ESG expectations of our stakeholders and/or timely respond to enhanced regulations and disclosure obligations could negatively affect our brand and reputation, which may impede our ability to compete as effectively to recruit or retain employees, which may adversely affect our operations.; unnamed_column_3 = Climate change contributes to increasing severity and frequency of extreme weather events, rising sea levels and droughts that can impact continuity of our operations and/or our supply chain. Climate change concerns and the potential environmental impact of climate change have resulted in and may result in new laws and regulations that may affect us, our suppliers and our customers. Such laws or regulations could cause us to incur additional direct costs for compliance, as well as increased indirect costs resulting from our value chain. Furthermore, the ability to improve our product-related environmental performance (such as energy efficiency) may be affected by the complexity of our technology and products. In order to meet our ESG goals and requirements in this regard, we are dependent on our suppliers and their ability to reduce their ecological footprints. In addition, we are dependent on our customers and/or our customers may not be satisfied with our progress, which can impact demand.; unnamed_column_5 = A global trend to transition to a lower-carbon economy has resulted in the imposition of increased regulations that could lead to technology restrictions, modification of product designs, an increase in energy prices and energy or carbon taxes, restrictions on pollution, required remediation measures or other requirements that could impact our business and increase our costs. A variety of regulatory developments have been introduced that focus on restricting or managing the emission of carbon dioxide and other greenhouse gases. This could result in a need to redesign products and/or purchase at higher costs new equipment or materials with lower carbon footprints. We publish disclosures on ESG matters relating to our business and our partners in compliance with applicable regulations and guidance and other data which may not be required but which we nonetheless elect to disclose.; unnamed_column_7 = Such disclosure includes statements based on our expectations and assumptions, involving forecasts about costs and future circumstances, which may prove to be incorrect. In addition, our ESG Sustainability strategy may not have the intended results, and our estimates concerning the timing and cost of implementing and ability to meet stated goals are subject to risks and uncertainties, which could result in us not meeting our goals on expected timing or at all or within expected costs. In addition, ESG disclosure requirements are increasing and authorities have proposed disclosure requirements on ESG matters which differ from the requirements that we are currently subject to, so we face risks in compliance with such regulations, including the risk of complying with requirements in different jurisdictions, costs associated with such compliance and potential liability in the event that our ESG disclosures prove incorrect. Table extraction requires manual review.",
+        "retrieval_text_hash": "b5510a72b849c6f25c64f901ee36bee56af173f8e4934b48de3a56092e77fae2",
+        "shown_in_prompt": true
+      }
+    ]
+  },
+  "Intertek_G1_6": {
+    "case": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__intertek__2019__g1_2_supplier_relationships",
+    "ec": {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__intertek__2019__g1_2_supplier_relationships",
+      "case_id": "72fd1a08-2f46-403a-b124-d153def65363__ty2019__G1-2_supplier_relationships__W2__sanity",
+      "ec_id": "ec_d69f681ad0cba8290c7289a37b5296d7",
+      "ec_text": "For reporting year 2016, Intertek reported that 50.1 percent of payments were aligned with standard payment terms under ESRS G1 disclosure requirement G1-6.",
+      "evidence_card_ids": [
+        "csv::72fd1a08-2f46-403a-b124-d153def65363::2016::0549c0a0-5322-4545-9d6b-01aaac7e06c7"
+      ],
+      "ec_occurrence_ids": [
+        "eco_8bcdcf8a0b6e4b5b982ce6625adec14f"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_8bcdcf8a0b6e4b5b982ce6625adec14f",
+          "claim_text": "For reporting year 2016, Intertek reported that 50.1 percent of payments were aligned with standard payment terms under ESRS G1 disclosure requirement G1-6.",
+          "evidence_id": "csv::72fd1a08-2f46-403a-b124-d153def65363::2016::0549c0a0-5322-4545-9d6b-01aaac7e06c7",
+          "prompt_label": "Evidence 21",
+          "retrieval_text_hash": "d832d45c271a460cdfe7971c4fda845a2806dc4f6695ce65f85433279ca48caf",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Intertek. Reporting year: 2016. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-6. Indicator: Percentage of payments aligned with standard payment terms. Value: 50.1 percent.",
+              "start": 0,
+              "end": 197,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 197
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Intertek. Reporting year: 2016. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-6. Indicator: Percentage of payments aligned with standard payment terms. Value: 50.1 percent."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::72fd1a08-2f46-403a-b124-d153def65363::2016::0549c0a0-5322-4545-9d6b-01aaac7e06c7",
+            "prompt_label": "Evidence 21",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2016,
+            "source_label": "Corporate Sustainability Tracker | Source year 2016",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Percentage of payments aligned with standard payment terms",
+            "value_text": "50.1",
+            "unit": "percent",
+            "retrieval_text_hash": "d832d45c271a460cdfe7971c4fda845a2806dc4f6695ce65f85433279ca48caf",
+            "prompt_rank_from_retrieval": 21
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_f9287229f81d8822fd846d891425edf0",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_f1cb45ec39d6df2378749bf12d5f8519",
+        "canonical_occurrence_id": "eco_8bcdcf8a0b6e4b5b982ce6625adec14f",
+        "member_unit_ids": [
+          "ecu_f1cb45ec39d6df2378749bf12d5f8519"
+        ],
+        "member_occurrence_ids": [
+          "eco_8bcdcf8a0b6e4b5b982ce6625adec14f"
+        ]
+      }
+    },
+    "cards": [
+      {
+        "evidence_id": "csv::72fd1a08-2f46-403a-b124-d153def65363::2016::0549c0a0-5322-4545-9d6b-01aaac7e06c7",
+        "source_type": "csv",
+        "evidence_type": "csv_metric",
+        "company_id": "72fd1a08-2f46-403a-b124-d153def65363",
+        "company_slug": "intertek",
+        "company_name": "Intertek",
+        "isin": null,
+        "country": "United Kingdom",
+        "primary_sics_sector": "Services",
+        "source_year": 2016,
+        "company_year": "72fd1a08-2f46-403a-b124-d153def65363_2016",
+        "data_point_id": "0549c0a0-5322-4545-9d6b-01aaac7e06c7",
+        "metric": "Percentage of payments aligned with standard payment terms",
+        "indicator_label": "Percentage of payments aligned with standard payment terms",
+        "esg_topic": "gov",
+        "standard": "G1",
+        "standard_topic": "Business conduct",
+        "discl_req": "G1-6",
+        "discl_req_label": "Payment practices",
+        "type_standard": "percent",
+        "value": "50.1",
+        "value_text": "50.1",
+        "unit": "percent",
+        "retrieval_text": "Company: Intertek. Reporting year: 2016. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-6. Indicator: Percentage of payments aligned with standard payment terms. Value: 50.1 percent.",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "source_key": "72fd1a08-2f46-403a-b124-d153def65363_2016_0549c0a0-5322-4545-9d6b-01aaac7e06c7",
+        "model_output": "{'value': 50.1, 'unit': '%'}",
+        "model_output_valid": true,
+        "schema_version": "csv_metric_card_v1",
+        "processing_method": "deterministic_csv_metric_card_builder_v1",
+        "retrieval_text_template": "deterministic_csv_metric_template_v1",
+        "source_sha256": "7401fb688ba39d81ade8512923ab673791d47355646fbcbf851b906a99c4c860"
+      }
+    ]
+  },
+  "Mowi_S1_14": {
+    "case": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__mowi__2023__s1_14_health_safety_metrics",
+    "ec": {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__mowi__2023__s1_14_health_safety_metrics",
+      "case_id": "124b2a53-7ae3-46a9-bc2e-4ef4be0e6021__ty2023__S1-14_health_safety_metrics__W2__sanity",
+      "ec_id": "ec_a683c5e0217098c6c0bc2c1b9d6c3108",
+      "ec_text": "For reporting year 2023, the Corporate Sustainability Tracker records Mowi's number of recordable work-related accidents among non-employees as 19.0 under ESRS S1 disclosure requirement S1-14.",
+      "evidence_card_ids": [
+        "csv::124b2a53-7ae3-46a9-bc2e-4ef4be0e6021::2023::9ca459a4-4b37-4425-a892-d5da861bb5cf"
+      ],
+      "ec_occurrence_ids": [
+        "eco_263ada842c14b0f730c70d790a2f3e25"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_263ada842c14b0f730c70d790a2f3e25",
+          "claim_text": "For reporting year 2023, the Corporate Sustainability Tracker records Mowi's number of recordable work-related accidents among non-employees as 19.0 under ESRS S1 disclosure requirement S1-14.",
+          "evidence_id": "csv::124b2a53-7ae3-46a9-bc2e-4ef4be0e6021::2023::9ca459a4-4b37-4425-a892-d5da861bb5cf",
+          "prompt_label": "Evidence 26",
+          "retrieval_text_hash": "93a6c44ac675681b9d506eea3b3b8a8b48626794dbf2dd98ee0980bfbd07ac17",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Mowi. Reporting year: 2023. ESG topic: soc. ESRS standard: S1. Disclosure requirement: S1-14. Indicator: Number of recordable work-related accidents Non-employees. Value: 19.0.",
+              "start": 0,
+              "end": 185,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 185
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Mowi. Reporting year: 2023. ESG topic: soc. ESRS standard: S1. Disclosure requirement: S1-14. Indicator: Number of recordable work-related accidents Non-employees. Value: 19.0."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::124b2a53-7ae3-46a9-bc2e-4ef4be0e6021::2023::9ca459a4-4b37-4425-a892-d5da861bb5cf",
+            "prompt_label": "Evidence 26",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2023,
+            "source_label": "Corporate Sustainability Tracker | Source year 2023",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Number of recordable work-related accidents Non-employees",
+            "value_text": "19.0",
+            "unit": null,
+            "retrieval_text_hash": "93a6c44ac675681b9d506eea3b3b8a8b48626794dbf2dd98ee0980bfbd07ac17",
+            "prompt_rank_from_retrieval": 26
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_2010bf76057613fdc1f131030d8a48a1",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_d135a2a8417dcf7cc610c8538700156f",
+        "canonical_occurrence_id": "eco_263ada842c14b0f730c70d790a2f3e25",
+        "member_unit_ids": [
+          "ecu_d135a2a8417dcf7cc610c8538700156f"
+        ],
+        "member_occurrence_ids": [
+          "eco_263ada842c14b0f730c70d790a2f3e25"
+        ]
+      }
+    },
+    "cards": [
+      {
+        "evidence_id": "csv::124b2a53-7ae3-46a9-bc2e-4ef4be0e6021::2023::9ca459a4-4b37-4425-a892-d5da861bb5cf",
+        "source_type": "csv",
+        "evidence_type": "csv_metric",
+        "company_id": "124b2a53-7ae3-46a9-bc2e-4ef4be0e6021",
+        "company_slug": "mowi",
+        "company_name": "Mowi",
+        "isin": null,
+        "country": "Norway",
+        "primary_sics_sector": "Food & Beverage",
+        "source_year": 2023,
+        "company_year": "124b2a53-7ae3-46a9-bc2e-4ef4be0e6021_2023",
+        "data_point_id": "9ca459a4-4b37-4425-a892-d5da861bb5cf",
+        "metric": "Number of recordable work-related accidents Non-employees",
+        "indicator_label": "Number of recordable work-related accidents",
+        "esg_topic": "soc",
+        "standard": "S1",
+        "standard_topic": "Own workforce",
+        "discl_req": "S1-14",
+        "discl_req_label": "Health and safety metrics",
+        "type_standard": "integer",
+        "value": "19.0",
+        "value_text": "19.0",
+        "unit": null,
+        "retrieval_text": "Company: Mowi. Reporting year: 2023. ESG topic: soc. ESRS standard: S1. Disclosure requirement: S1-14. Indicator: Number of recordable work-related accidents Non-employees. Value: 19.0.",
+        "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+        "source_key": "124b2a53-7ae3-46a9-bc2e-4ef4be0e6021_2023_9ca459a4-4b37-4425-a892-d5da861bb5cf",
+        "model_output": "{'value': 19, 'unit': 'number'}",
+        "model_output_valid": true,
+        "schema_version": "csv_metric_card_v1",
+        "processing_method": "deterministic_csv_metric_card_builder_v1",
+        "retrieval_text_template": "deterministic_csv_metric_template_v1",
+        "source_sha256": "7401fb688ba39d81ade8512923ab673791d47355646fbcbf851b906a99c4c860"
+      }
+    ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "status": "COMPUTED_VERIFIED",
+  "cohort": "Common complete BACE/RAGChecker/RAGAS disclosures from main_v1 only",
+  "planned_disclosures": 1800,
+  "analysed_disclosures": 1798,
+  "company_clusters": 30,
+  "methods": [
+    {
+      "mean": 0.553754637134664,
+      "low": 0.5391879278525853,
+      "high": 0.5684094432533995,
+      "companies": 30,
+      "disclosures": 1798,
+      "method": "BACE",
+      "numerator": 52309,
+      "denominator": 94955,
+      "median_claims": 52.0,
+      "pooled": 0.5508819967352957
+    },
+    {
+      "mean": 0.902355564781211,
+      "low": 0.8951370860262127,
+      "high": 0.9093228633682203,
+      "companies": 30,
+      "disclosures": 1798,
+      "method": "RAGChecker",
+      "numerator": 65934,
+      "denominator": 72633,
+      "median_claims": 40.0,
+      "pooled": 0.9077691958200818
+    },
+    {
+      "mean": 0.906597408967537,
+      "low": 0.8995134600571143,
+      "high": 0.912957350096464,
+      "companies": 30,
+      "disclosures": 1798,
+      "method": "RAGAS",
+      "numerator": 69017,
+      "denominator": 76123,
+      "median_claims": 42.0,
+      "pooled": 0.9066510778608305
+    }
+  ],
+  "paired_differences": [
+    {
+      "mean": -0.34860092764654715,
+      "low": -0.36168802786909376,
+      "high": -0.3345631766582438,
+      "companies": 30,
+      "disclosures": 1798,
+      "comparison": "BACE minus ragchecker"
+    },
+    {
+      "mean": -0.3528427718328732,
+      "low": -0.36504949096202344,
+      "high": -0.34054828320744185,
+      "companies": 30,
+      "disclosures": 1798,
+      "comparison": "BACE minus ragas"
+    }
+  ],
+  "tasks": [
+    {
+      "mean": 0.565390273955806,
+      "low": 0.5395701480810736,
+      "high": 0.5924528291053037,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "E1-1",
+      "title": "E1-1 Transition plan for climate change mitigation"
+    },
+    {
+      "mean": 0.531544001589556,
+      "low": 0.5042974095389423,
+      "high": 0.560851295002642,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "E1-3",
+      "title": "E1-3 Actions and resources in relation to climate policies"
+    },
+    {
+      "mean": 0.6113967078468558,
+      "low": 0.5699298335764154,
+      "high": 0.6476256398725556,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "E1-4",
+      "title": "E1-4 Climate-related targets"
+    },
+    {
+      "mean": 0.6077965555462206,
+      "low": 0.5762812116266993,
+      "high": 0.6351799223882538,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "E1-6",
+      "title": "E1-6 Gross Scope 1, Scope 2, Scope 3 and total GHG emissions"
+    },
+    {
+      "mean": 0.5255254241513383,
+      "low": 0.4925818789438183,
+      "high": 0.5592099256057547,
+      "companies": 30,
+      "disclosures": 149,
+      "task": "S1-1",
+      "title": "S1-1 Policies related to own workforce"
+    },
+    {
+      "mean": 0.5223708432767248,
+      "low": 0.4967119033372528,
+      "high": 0.5478566939852861,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "S1-4",
+      "title": "S1-4 Actions, resources and effectiveness related to own workforce"
+    },
+    {
+      "mean": 0.43866129787251584,
+      "low": 0.41343185627364215,
+      "high": 0.46484365847491327,
+      "companies": 30,
+      "disclosures": 149,
+      "task": "S1-5",
+      "title": "S1-5 Targets related to own-workforce impacts, risks and opportunities"
+    },
+    {
+      "mean": 0.5342838023785368,
+      "low": 0.5049150014947359,
+      "high": 0.5636249800978375,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "S1-14",
+      "title": "S1-14 Health and safety metrics"
+    },
+    {
+      "mean": 0.6251475132986812,
+      "low": 0.5936013760636214,
+      "high": 0.6582079665357372,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "G1-1",
+      "title": "G1-1 Business conduct policies and corporate culture"
+    },
+    {
+      "mean": 0.5746772138535368,
+      "low": 0.538026987850683,
+      "high": 0.6107291410816265,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "G1-2",
+      "title": "G1-2 Management of relationships with suppliers"
+    },
+    {
+      "mean": 0.5529767969479698,
+      "low": 0.5229893489689441,
+      "high": 0.5836684687587625,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "G1-3",
+      "title": "G1-3 Prevention and detection of corruption and bribery"
+    },
+    {
+      "mean": 0.5543297312165885,
+      "low": 0.5251330385763663,
+      "high": 0.5848656288361554,
+      "companies": 30,
+      "disclosures": 150,
+      "task": "G1-4",
+      "title": "G1-4 Incidents of corruption or bribery"
+    }
+  ],
+  "diagnoses": [
+    {
+      "label": "factual_boundary_distortion",
+      "name": "Factual boundary distortion",
+      "count": 19130,
+      "denominator_unsupported": 42646,
+      "share": 0.4485766543169348
+    },
+    {
+      "label": "evidence_conflation",
+      "name": "Evidence conflation",
+      "count": 12205,
+      "denominator_unsupported": 42646,
+      "share": 0.2861933123856868
+    },
+    {
+      "label": "non_disclosure_statement",
+      "name": "Non-disclosure statement",
+      "count": 6378,
+      "denominator_unsupported": 42646,
+      "share": 0.1495568165830324
+    },
+    {
+      "label": "inferential_inflation",
+      "name": "Inferential inflation",
+      "count": 3193,
+      "denominator_unsupported": 42646,
+      "share": 0.07487220372367866
+    },
+    {
+      "label": "unsupported_novelty",
+      "name": "Unsupported novelty",
+      "count": 1698,
+      "denominator_unsupported": 42646,
+      "share": 0.03981616095296159
+    },
+    {
+      "label": "contradiction",
+      "name": "Contradiction",
+      "count": 42,
+      "denominator_unsupported": 42646,
+      "share": 0.0009848520377057637
+    }
+  ],
+  "claim_counts": {
+    "non_disclosure_statement": 6378,
+    "direct": 34430,
+    "evidence_conflation": 12205,
+    "inferred": 17879,
+    "factual_boundary_distortion": 19130,
+    "unsupported_novelty": 1698,
+    "inferential_inflation": 3193,
+    "contradiction": 42
+  },
+  "secondary_metrics": {
+    "bace_eccr": {
+      "mean": 0.34341482922035954,
+      "low": 0.31818203110713655,
+      "high": 0.36747827013176876,
+      "companies": 30,
+      "disclosures": 1798
+    },
+    "bace_inference_rate": {
+      "mean": 0.34925511148885824,
+      "low": 0.33937635599356336,
+      "high": 0.3596153559305942,
+      "companies": 30,
+      "disclosures": 1798
+    },
+    "bace_support_rate_excluding_non_disclosure_sensitivity": {
+      "mean": 0.5972471919481567,
+      "low": 0.5826230001375252,
+      "high": 0.6130440775567745,
+      "companies": 30,
+      "disclosures": 1798
+    },
+    "sensitivity_uplift": {
+      "median_pp": 1.922087346615653,
+      "maximum_pp": 58.03571428571428
+    }
+  },
+  "canonical_card_counts": {
+    "CSV metric": 43827,
+    "PDF narrative": 497551,
+    "PDF table row": 390070
+  },
+  "pdf_sources": 401,
+  "quality_excluded_cards": 44,
+  "visible_occurrences": 51806,
+  "visible_cards_min": 10,
+  "visible_cards_max": 30,
+  "stage_counts": [
+    {
+      "stage": "stage_generation",
+      "completed": 1800,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_direct",
+      "completed": 1799,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_integrated",
+      "completed": 1798,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_atomic",
+      "completed": 1798,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_dedup",
+      "completed": 1798,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_candidates",
+      "completed": 1798,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_support",
+      "completed": 1798,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_diagnosis",
+      "completed": 1798,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_ragchecker",
+      "completed": 1800,
+      "planned": 1800
+    },
+    {
+      "stage": "stage_ragas",
+      "completed": 1800,
+      "planned": 1800
+    }
+  ],
+  "bootstrap": {
+    "unit": "Company; retain all observed disclosures within each sampled cluster",
+    "draws": 2000,
+    "seed": 20260921,
+    "generator": "numpy.random.default_rng",
+    "interval": "Uncorrected 2.5th/97.5th percentiles",
+    "null_handling": "Exclude missing method scores before the explicitly matched comparison; never impute zero",
+    "interpretation": "Descriptive company-cluster resampling uncertainty, not model-run or source-error uncertainty"
+  },
+  "tokens": {
+    "concept_source_table": "| Definition stage | Prompt or definition file | Configuration and source locator |\n| --- | --- | --- |\n| Operational definition v2 | `prompts/generation_claim_definition_v2.txt` | Referenced by patch/atomicity configs; ADMISSION, ATOMICITY, FIDELITY |\n| Direct extraction | `prompts/generation_ec_claim_extraction_prompt_v8.txt`; `prompts/generation_dc_claim_extraction_prompt_v8.txt` | `configs/generation_claim_extraction_config_v8.json`; DEFINITION; PROCEDURE; OUTPUT; EVIDENCE/DISCLOSURE RULES |\n| Identified-patch review | `prompts/generation_ec_claim_patch_review_prompt_v4.txt`; `prompts/generation_dc_claim_patch_review_prompt_v4.txt` | `configs/generation_claim_patch_review_config_v4.json`; BACE OPERATIONAL DEFINITION; WORK SEQUENCE; EDIT OUTPUT CONTRACT |\n| Atomicity review | `prompts/generation_ec_claim_atomicity_review_prompt_v2.txt`; `prompts/generation_dc_claim_atomicity_review_prompt_v2.txt` | `configs/generation_claim_atomicity_review_config_v2.json`; TASK: CONSERVATIVE SPLITTING OF ALREADY ADMITTED CLAIMS; For each existing claim; OUTPUT |\n| Semantic deduplication | `prompts/generation_claim_semantic_dedup_prompt_v1.txt` | `configs/generation_claim_semantic_dedup_config.json`; Semantic-equivalence criterion; Partition contract |\n| Candidate selection | `prompts/generation_claim_candidate_selection_prompt_v1.txt` | `configs/generation_claim_candidate_selection_config.json`; Candidate criterion; Recall and selectivity; Evidence boundary; Output contract |\n| Support assessment | `prompts/generation_claim_support_prompt_v1.txt` | `configs/generation_claim_support_config.json`; Support assessment; Support type; Minimality; Output contract |\n| Unsupported diagnosis | `prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt` | `configs/generation_claim_unsupported_diagnosis_config.json`; Exclusive classification; Rationale; Output contract |",
+    "bace_macro": "55.4%",
+    "bace_pooled": "55.1%",
+    "bace_ci": "53.9-56.8%",
+    "ragchecker_macro": "90.2%",
+    "ragchecker_pooled": "90.8%",
+    "ragchecker_ci": "89.5-90.9%",
+    "ragas_macro": "90.7%",
+    "ragas_pooled": "90.7%",
+    "ragas_ci": "90.0-91.3%",
+    "method_table": "| Evaluator | Disclosures | Macro rate, % (95% CI) | Supported / native claims | Claim-pooled rate | Median claims |\n| --- | --- | --- | --- | --- | --- |\n| BACE | 1798 | 55.4% (53.9-56.8) | 52,309 / 94,955 | 55.1% | 52 |\n| RAGChecker | 1798 | 90.2% (89.5-90.9) | 65,934 / 72,633 | 90.8% | 40 |\n| RAGAS | 1798 | 90.7% (90.0-91.3) | 69,017 / 76,123 | 90.7% | 42 |",
+    "difference_table": "| Paired comparison | Mean difference, percentage points | 95% company-cluster interval |\n| --- | --- | --- |\n| BACE minus ragchecker | -34.9 | -36.2 to -33.5 |\n| BACE minus ragas | -35.3 | -36.5 to -34.1 |",
+    "lowest_task_rate": "43.9%",
+    "highest_task_rate": "62.5%",
+    "task_results_table": "| Task | Disclosures | BACE macro support, % (95% CI) |\n| --- | --- | --- |\n| E1-1 | 150 | 56.5% (54.0-59.2) |\n| E1-3 | 150 | 53.2% (50.4-56.1) |\n| E1-4 | 150 | 61.1% (57.0-64.8) |\n| E1-6 | 150 | 60.8% (57.6-63.5) |\n| S1-1 | 149 | 52.6% (49.3-55.9) |\n| S1-4 | 150 | 52.2% (49.7-54.8) |\n| S1-5 | 149 | 43.9% (41.3-46.5) |\n| S1-14 | 150 | 53.4% (50.5-56.4) |\n| G1-1 | 150 | 62.5% (59.4-65.8) |\n| G1-2 | 150 | 57.5% (53.8-61.1) |\n| G1-3 | 150 | 55.3% (52.3-58.4) |\n| G1-4 | 150 | 55.4% (52.5-58.5) |",
+    "diagnosis_table": "| Automated diagnosis | DCs | Share of unsupported DCs |\n| --- | --- | --- |\n| Factual boundary distortion | 19,130 | 44.9% |\n| Evidence conflation | 12,205 | 28.6% |\n| Non-disclosure statement | 6,378 | 15.0% |\n| Inferential inflation | 3,193 | 7.5% |\n| Unsupported novelty | 1,698 | 4.0% |\n| Contradiction | 42 | 0.1% |",
+    "direct_count": "34,430",
+    "inferred_count": "17,879",
+    "unsupported_count": "42,646",
+    "direct_share": "36.3%",
+    "inferred_share": "18.8%",
+    "unsupported_share": "44.9%",
+    "boundary_conflation_count": "31,335",
+    "boundary_conflation_share": "73.5%",
+    "eccr_macro": "34.3%",
+    "inference_macro": "34.9%",
+    "sensitivity_macro": "59.7%",
+    "uplift_median": "1.9",
+    "uplift_maximum": "58.0",
+    "corpus_table": "| Retained canonical evidence type | Distinct cards | Preparation |\n| --- | --- | --- |\n| CSV metric | 43,827 | Deterministic rendering of valid, nonempty extracted rows |\n| PDF narrative | 497,551 | PyMuPDF narrative extraction and chunking |\n| PDF table row | 390,070 | pdfplumber table detection and row serialization |\n| Total | 931,448 | All indexed using the same embedding identity |",
+    "sector_table": "| SICS sector | Eligible companies | Selected companies |\n| --- | --- | --- |\n| Consumer Goods | 23 | 3 |\n| Extractives & Minerals Processing | 12 | 2 |\n| Financials | 48 | 5 |\n| Food & Beverage | 18 | 2 |\n| Health Care | 19 | 2 |\n| Infrastructure | 26 | 3 |\n| Renewable Resources & Alternative Energy | 2 | 1 |\n| Resource Transformation | 48 | 5 |\n| Services | 18 | 2 |\n| Technology & Communications | 23 | 3 |\n| Transportation | 13 | 2 |",
+    "company_table": "| Company | Country in register | SICS sector |\n| --- | --- | --- |\n| D'IeterenGroup | Belgium | Consumer Goods |\n| Dufry | Switzerland | Consumer Goods |\n| Grafton Group | United Kingdom | Consumer Goods |\n| OMV | Austria | Extractives & Minerals Processing |\n| Subsea 7 | Norway | Extractives & Minerals Processing |\n| Banco BPM | Italy | Financials |\n| Deutsche Bank | Germany | Financials |\n| Intesa Sanpaolo | Germany | Financials |\n| Investec | United Kingdom | Financials |\n| Kinnevik | Sweden | Financials |\n| Mowi | Norway | Food & Beverage |\n| Nestle | Switzerland | Food & Beverage |\n| DiaSorin | Italy | Health Care |\n| Genmab | Denmark | Health Care |\n| Cofinimmo | Belgium | Infrastructure |\n| Hera | Italy | Infrastructure |\n| Pennon | United Kingdom | Infrastructure |\n| Svenska Cellulosa | Sweden | Renewable Resources & Alternative Energy |\n| Covestro | Germany | Resource Transformation |\n| Evonik Industries | Germany | Resource Transformation |\n| Huhtamaki | Finland | Resource Transformation |\n| Mondi | United Kingdom | Resource Transformation |\n| Wärtsilä | Finland | Resource Transformation |\n| Intertek | United Kingdom | Services |\n| Inter­­conti­­nenta­­l Hot­­els G­­roup | United Kingdom | Services |\n| ASML | Netherlands | Technology & Communications |\n| SES | France | Technology & Communications |\n| Sage | United Kingdom | Technology & Communications |\n| Air France-KLM | France | Transportation |\n| Continental | Germany | Transportation |",
+    "visible_count": "51,806",
+    "visible_mean": "28.78",
+    "visible_range": "10-30",
+    "completion_table": "| Stage | Completed / planned |\n| --- | --- |\n| Generation | 1,800 / 1,800 |\n| Direct | 1,799 / 1,800 |\n| Integrated | 1,798 / 1,800 |\n| Atomic | 1,798 / 1,800 |\n| Dedup | 1,798 / 1,800 |\n| Candidates | 1,798 / 1,800 |\n| Support | 1,798 / 1,800 |\n| Diagnosis | 1,798 / 1,800 |\n| Ragchecker | 1,800 / 1,800 |\n| Ragas | 1,800 / 1,800 |",
+    "length_range": "317-468"
+  }
+}

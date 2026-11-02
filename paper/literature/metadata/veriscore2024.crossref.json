@@ -1,0 +1,154 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2026-09-19T00:59:50Z",
+      "timestamp": 1789779590837,
+      "version": "4.0.1"
+    },
+    "publisher-location": "Stroudsburg, PA, USA",
+    "reference-count": 0,
+    "publisher": "Association for Computational Linguistics",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.18653/v1/2024.findings-emnlp.552",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2024-11-27T22:28:12Z",
+      "timestamp": 1732746492000
+    },
+    "page": "9447-9474",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "VeriScore: Evaluating the factuality of verifiable claims in long-form text generation"
+    ],
+    "prefix": "10.18653",
+    "author": [
+      {
+        "given": "Yixiao",
+        "family": "Song",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yekyung",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohit",
+        "family": "Iyyer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1643",
+    "event": {
+      "name": "Findings of the Association for Computational Linguistics: EMNLP 2024",
+      "location": "Miami, Florida, USA",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Findings of the Association for Computational Linguistics: EMNLP 2024"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2024-11-27T22:40:48Z",
+      "timestamp": 1732747248000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aclanthology.org/2024.findings-emnlp.552"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.18653/v1/2024.findings-emnlp.552",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

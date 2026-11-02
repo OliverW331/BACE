@@ -1,0 +1,493 @@
+{
+  "access_date": "2026-10-26",
+  "completed_at_utc": "2026-10-26T09:18:54.423486+00:00",
+  "scope": "All main_v1 case directories; four saved EC stages; canonical CSV cards; candidate and support records.",
+  "counting_unit": "Stage rows are case-level claim occurrences (or case-level deduplicated ECs), not independent source observations. Reference flags search claim_text/ec_text only, excluding quotations and provenance. Multiple source standards/types form their own combined category.",
+  "reference_regex": "\\bESRS\\b|\\bdisclosure requirements?\\b|\\b[ESG]\\d[-–]\\d{1,2}\\b",
+  "exact_phrases": [
+    "under ESRS S1 disclosure requirement S1-14",
+    "under ESRS G1 disclosure requirement G1-6"
+  ],
+  "case_count": 1800,
+  "missing_stage_files": [
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/extraction/atomic/ec_claim_occurrences.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/dedup/ec_claims.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/integrated/ec_claim_occurrences.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/atomic/ec_claim_occurrences.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/dedup/ec_claims.jsonl"
+  ],
+  "available_cases_by_stage": {
+    "direct": 1800,
+    "integrated": 1799,
+    "atomic": 1798,
+    "dedup": 1798
+  },
+  "missing_downstream_files": [
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/candidates/dc_candidate_ecs.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/support/dc_support_sets.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/candidates/dc_candidate_ecs.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/support/dc_support_sets.jsonl"
+  ],
+  "canonical_csv_cards_by_standard": {
+    "S1": 19354,
+    "ESRS 2": 5709,
+    "E1": 12176,
+    "G1": 2498,
+    "E2": 476,
+    "E4": 172,
+    "E5": 2645,
+    "E3": 701,
+    "S4": 96
+  },
+  "prompt_exposure": {
+    "csv_card_occurrences": 18000,
+    "csv_card_occurrences_with_explicit_ESRS_metadata": 18000,
+    "csv_card_text_matches_canonical": 18000,
+    "csv_card_requirement_differs_from_task": 11610
+  },
+  "flagged_cases_by_stage": {
+    "direct": 1328,
+    "integrated": 1327,
+    "atomic": 1326,
+    "dedup": 1326
+  },
+  "unique_flagged_evidence_cards_by_stage": {
+    "direct": 5250,
+    "integrated": 5240,
+    "atomic": 5239,
+    "dedup": 5239
+  },
+  "stage_transition_case_card_flags": {
+    "integrated_newly_flagged_case_card_pairs": 0,
+    "integrated_no_longer_flagged_case_card_pairs": 10,
+    "atomic_newly_flagged_case_card_pairs": 0,
+    "atomic_no_longer_flagged_case_card_pairs": 0,
+    "dedup_newly_flagged_case_card_pairs": 0,
+    "dedup_no_longer_flagged_case_card_pairs": 0
+  },
+  "counts": [
+    {
+      "stage": "atomic",
+      "dimension": "all",
+      "group": "ALL",
+      "total": 244037,
+      "reference_flags": 10657,
+      "exact_user_phrases": 640
+    },
+    {
+      "stage": "atomic",
+      "dimension": "evidence_type",
+      "group": "csv_metric",
+      "total": 18215,
+      "reference_flags": 10634,
+      "exact_user_phrases": 640
+    },
+    {
+      "stage": "atomic",
+      "dimension": "evidence_type",
+      "group": "narrative",
+      "total": 143437,
+      "reference_flags": 1,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "atomic",
+      "dimension": "evidence_type",
+      "group": "pdf_table_row",
+      "total": 82385,
+      "reference_flags": 22,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "atomic",
+      "dimension": "source_standard",
+      "group": "E1",
+      "total": 6379,
+      "reference_flags": 4139,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "atomic",
+      "dimension": "source_standard",
+      "group": "ESRS 2",
+      "total": 1215,
+      "reference_flags": 1197,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "atomic",
+      "dimension": "source_standard",
+      "group": "G1",
+      "total": 4874,
+      "reference_flags": 2954,
+      "exact_user_phrases": 58
+    },
+    {
+      "stage": "atomic",
+      "dimension": "source_standard",
+      "group": "PDF",
+      "total": 225822,
+      "reference_flags": 23,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "atomic",
+      "dimension": "source_standard",
+      "group": "S1",
+      "total": 5747,
+      "reference_flags": 2344,
+      "exact_user_phrases": 582
+    },
+    {
+      "stage": "atomic",
+      "dimension": "task_family",
+      "group": "E1",
+      "total": 72922,
+      "reference_flags": 3998,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "atomic",
+      "dimension": "task_family",
+      "group": "G1",
+      "total": 92416,
+      "reference_flags": 3968,
+      "exact_user_phrases": 59
+    },
+    {
+      "stage": "atomic",
+      "dimension": "task_family",
+      "group": "S1",
+      "total": 78699,
+      "reference_flags": 2691,
+      "exact_user_phrases": 581
+    },
+    {
+      "stage": "dedup",
+      "dimension": "all",
+      "group": "ALL",
+      "total": 224611,
+      "reference_flags": 10650,
+      "exact_user_phrases": 638
+    },
+    {
+      "stage": "dedup",
+      "dimension": "evidence_type",
+      "group": "csv_metric",
+      "total": 18203,
+      "reference_flags": 10627,
+      "exact_user_phrases": 638
+    },
+    {
+      "stage": "dedup",
+      "dimension": "evidence_type",
+      "group": "narrative",
+      "total": 131527,
+      "reference_flags": 1,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "evidence_type",
+      "group": "narrative+pdf_table_row",
+      "total": 4127,
+      "reference_flags": 0,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "evidence_type",
+      "group": "pdf_table_row",
+      "total": 70754,
+      "reference_flags": 22,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "source_standard",
+      "group": "E1",
+      "total": 6378,
+      "reference_flags": 4139,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "source_standard",
+      "group": "ESRS 2",
+      "total": 1214,
+      "reference_flags": 1197,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "source_standard",
+      "group": "ESRS 2+G1",
+      "total": 1,
+      "reference_flags": 0,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "source_standard",
+      "group": "G1",
+      "total": 4873,
+      "reference_flags": 2954,
+      "exact_user_phrases": 58
+    },
+    {
+      "stage": "dedup",
+      "dimension": "source_standard",
+      "group": "PDF",
+      "total": 206408,
+      "reference_flags": 23,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "source_standard",
+      "group": "S1",
+      "total": 5737,
+      "reference_flags": 2337,
+      "exact_user_phrases": 580
+    },
+    {
+      "stage": "dedup",
+      "dimension": "task_family",
+      "group": "E1",
+      "total": 66307,
+      "reference_flags": 3998,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "dedup",
+      "dimension": "task_family",
+      "group": "G1",
+      "total": 84955,
+      "reference_flags": 3968,
+      "exact_user_phrases": 59
+    },
+    {
+      "stage": "dedup",
+      "dimension": "task_family",
+      "group": "S1",
+      "total": 73349,
+      "reference_flags": 2684,
+      "exact_user_phrases": 579
+    },
+    {
+      "stage": "direct",
+      "dimension": "all",
+      "group": "ALL",
+      "total": 242497,
+      "reference_flags": 10631,
+      "exact_user_phrases": 643
+    },
+    {
+      "stage": "direct",
+      "dimension": "evidence_type",
+      "group": "csv_metric",
+      "total": 18150,
+      "reference_flags": 10608,
+      "exact_user_phrases": 643
+    },
+    {
+      "stage": "direct",
+      "dimension": "evidence_type",
+      "group": "narrative",
+      "total": 141494,
+      "reference_flags": 1,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "direct",
+      "dimension": "evidence_type",
+      "group": "pdf_table_row",
+      "total": 82853,
+      "reference_flags": 22,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "direct",
+      "dimension": "source_standard",
+      "group": "E1",
+      "total": 6367,
+      "reference_flags": 4135,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "direct",
+      "dimension": "source_standard",
+      "group": "ESRS 2",
+      "total": 1205,
+      "reference_flags": 1189,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "direct",
+      "dimension": "source_standard",
+      "group": "G1",
+      "total": 4865,
+      "reference_flags": 2950,
+      "exact_user_phrases": 58
+    },
+    {
+      "stage": "direct",
+      "dimension": "source_standard",
+      "group": "PDF",
+      "total": 224347,
+      "reference_flags": 23,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "direct",
+      "dimension": "source_standard",
+      "group": "S1",
+      "total": 5713,
+      "reference_flags": 2334,
+      "exact_user_phrases": 585
+    },
+    {
+      "stage": "direct",
+      "dimension": "task_family",
+      "group": "E1",
+      "total": 73785,
+      "reference_flags": 3995,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "direct",
+      "dimension": "task_family",
+      "group": "G1",
+      "total": 89482,
+      "reference_flags": 3965,
+      "exact_user_phrases": 59
+    },
+    {
+      "stage": "direct",
+      "dimension": "task_family",
+      "group": "S1",
+      "total": 79230,
+      "reference_flags": 2671,
+      "exact_user_phrases": 584
+    },
+    {
+      "stage": "integrated",
+      "dimension": "all",
+      "group": "ALL",
+      "total": 229995,
+      "reference_flags": 10611,
+      "exact_user_phrases": 643
+    },
+    {
+      "stage": "integrated",
+      "dimension": "evidence_type",
+      "group": "csv_metric",
+      "total": 18109,
+      "reference_flags": 10588,
+      "exact_user_phrases": 643
+    },
+    {
+      "stage": "integrated",
+      "dimension": "evidence_type",
+      "group": "narrative",
+      "total": 135517,
+      "reference_flags": 1,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "integrated",
+      "dimension": "evidence_type",
+      "group": "pdf_table_row",
+      "total": 76369,
+      "reference_flags": 22,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "integrated",
+      "dimension": "source_standard",
+      "group": "E1",
+      "total": 6336,
+      "reference_flags": 4115,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "integrated",
+      "dimension": "source_standard",
+      "group": "ESRS 2",
+      "total": 1205,
+      "reference_flags": 1189,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "integrated",
+      "dimension": "source_standard",
+      "group": "G1",
+      "total": 4865,
+      "reference_flags": 2950,
+      "exact_user_phrases": 58
+    },
+    {
+      "stage": "integrated",
+      "dimension": "source_standard",
+      "group": "PDF",
+      "total": 211886,
+      "reference_flags": 23,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "integrated",
+      "dimension": "source_standard",
+      "group": "S1",
+      "total": 5703,
+      "reference_flags": 2334,
+      "exact_user_phrases": 585
+    },
+    {
+      "stage": "integrated",
+      "dimension": "task_family",
+      "group": "E1",
+      "total": 69464,
+      "reference_flags": 3975,
+      "exact_user_phrases": 0
+    },
+    {
+      "stage": "integrated",
+      "dimension": "task_family",
+      "group": "G1",
+      "total": 86483,
+      "reference_flags": 3965,
+      "exact_user_phrases": 59
+    },
+    {
+      "stage": "integrated",
+      "dimension": "task_family",
+      "group": "S1",
+      "total": 74048,
+      "reference_flags": 2671,
+      "exact_user_phrases": 584
+    }
+  ],
+  "downstream": {
+    "cases": 1800,
+    "cases_with_candidate_file": 1798,
+    "cases_with_support_file": 1798,
+    "candidate_dc_records": 94955,
+    "candidate_dc_records_with_flagged_ec": 13809,
+    "support_dc_records": 94955,
+    "support_dc_records_with_flagged_ec": 6905,
+    "support_sets": 117509,
+    "support_sets_with_flagged_ec": 10518,
+    "flagged_ecs_selected_as_candidates": 8986,
+    "flagged_ecs_in_support_sets": 5207,
+    "cases_with_flagged_candidate_ec": 1231,
+    "cases_with_flagged_support_ec": 1154
+  },
+  "csv_evidence_ids_represented_in_final_ec": 6823,
+  "csv_evidence_ids_with_both_flagged_and_unflagged_final_claims": 2104,
+  "limitations": [
+    "Text flags are a reproducible screen, not a semantic error count.",
+    "An EC appearing in a support set does not show its ESRS phrase changed the verdict.",
+    "Same-card wording differences may include legitimate contextual variation; no new model run was performed.",
+    "Corporate Sustainability Tracker measurements were not revalidated against every original corporate PDF."
+  ]
+}

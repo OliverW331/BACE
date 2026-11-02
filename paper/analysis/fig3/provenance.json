@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "prepared_date": "2026-10-02",
+  "checked_at_utc": "2026-10-01T22:21:18.590078+00:00",
+  "command": "/usr/bin/python3 paper/analysis/fig3/render_fig3.py",
+  "script_sha256": "cdd466014a7c4857993ed3015bceb419c312a9331cdfa22c55ce604752775983",
+  "python": "3.13.14 (main, Aug 14 2026, 23:29:42) [GCC]",
+  "matplotlib": "3.10.3",
+  "geometry_mm": {
+    "width": 180,
+    "height": 170
+  },
+  "minimum_source_font_pt": 6.5,
+  "input_files": {
+    "paper/analysis/fig3/prepare_data.py": {
+      "sha256": "6a3b1621c49776979f55dacb9883f7a8af083929f97eb29123fa3decc4911035",
+      "bytes": 13564
+    },
+    "paper/analysis/fig3/data_provenance.json": {
+      "sha256": "68e46b732df2c7ebaa17cbdbafa80a8de42927b5afb6148817a2f5c5a57640dc",
+      "bytes": 7391
+    },
+    "paper/analysis/fig3/diagnosis_composition.csv": {
+      "sha256": "3baafd21cd42e36eead479773472393218499b94fec728ce073d20114c536d4e",
+      "bytes": 1595
+    },
+    "paper/analysis/fig3/verified_facts.json": {
+      "sha256": "dcdfae921d7dcaf17aa0da4e88c16f2bdcae30928cb1b699f9c1435f90db92ce",
+      "bytes": 635
+    },
+    "paper/analysis/fig3/case_evidence.json": {
+      "sha256": "33216f271f5e45ce425afc36a15049fb9769c67820ea625272ccfbe8732f4ec2",
+      "bytes": 195726
+    },
+    "paper/analysis/fig3/original_source_checks.json": {
+      "sha256": "aa932df3a11612a0d7f1be5a280430997132cee32d3446f1ee68e155ef9c3dee",
+      "bytes": 1826
+    },
+    "paper/analysis/fig3/FIGURE_CONTRACT.md": {
+      "sha256": "e54802a04d797dd6fa541db51ebd52c12361a880d1107b62c7785ce6633a8485",
+      "bytes": 4523
+    }
+  },
+  "outputs": {
+    "paper/manuscript/figures/fig3_diagnoses_cases.pdf": "7b1bd11eeb2ca34914a252a517a246db80ee8ba3d3b2e1e68f24e24c90fd81ee",
+    "paper/manuscript/figures/fig3_diagnoses_cases.svg": "d903b276a547106b098ff8b49bf47cff09e5df420db100bfc525e4db98c1bf5e",
+    "paper/manuscript/figures/fig3_diagnoses_cases.png": "c921f7318535f1774eb2bc111898333d90f0c1af0853cfbfe2d2bc30ebd10793",
+    "paper/analysis/fig3/displayed_text.csv": "946a0ad2b80287a0608d04ceea4a47fd8add9b2d13f0d7191bdd4177f3c7e690"
+  },
+  "alignment_verdict": "PASS",
+  "panel_a_axis_label_to_b_heading_gap_pt": 10.684712156975802,
+  "scope": "Pooled diagnostic counts plus two fixed source-linked illustrations; no validated error prevalence or human assessment result",
+  "qa_record": "paper/analysis/fig3/qa.json",
+  "visual_review_record": "paper/analysis/fig3/visual_review.json",
+  "qa_notes": "paper/analysis/fig3/QA_NOTES.md",
+  "delivery": {
+    "manuscript_pdf_sha256": "26a6f37c0d16f0032def011ddf1e602efb8ca21fd350bab614cc340d1dda778b",
+    "overleaf_zip_sha256": "80598b464337c31dc3849deca1ff30c9a6d411f969ba59d69f13329701473924",
+    "portable_compile": "PASS",
+    "figure_page": 13,
+    "pages": 14
+  }
+}

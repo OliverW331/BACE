@@ -1,0 +1,4 @@
+category,count,denominator,percent,status,source,column
+Direct,34430,94955,36.25928071191617,COMPUTED_VERIFIED,BACE/analysis/outputs/snapshot/metrics.csv,bace_supported_direct
+Inferred,17879,94955,18.828918961613397,COMPUTED_VERIFIED,BACE/analysis/outputs/snapshot/metrics.csv,bace_supported_inferred
+Unsupported,42646,94955,44.911800326470434,COMPUTED_VERIFIED,BACE/analysis/outputs/snapshot/metrics.csv,bace_unsupported

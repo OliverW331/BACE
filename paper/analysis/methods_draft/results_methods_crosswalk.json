@@ -1,0 +1,105 @@
+{
+  "review_date": "2026-10-01",
+  "results_to_methods": {
+    "R01": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09"
+    ],
+    "R02": [
+      "M07",
+      "M10",
+      "M11",
+      "M12",
+      "M13"
+    ],
+    "R03": [
+      "M09",
+      "M14",
+      "M18",
+      "M19"
+    ],
+    "R04": [
+      "M03",
+      "M09",
+      "M18",
+      "M19"
+    ],
+    "R05": [
+      "M14",
+      "M15",
+      "M18"
+    ],
+    "R06": [
+      "M13",
+      "M14"
+    ],
+    "R07": [
+      "M04",
+      "M13",
+      "M20"
+    ],
+    "R08": [
+      "M05",
+      "M10",
+      "M13",
+      "M20"
+    ],
+    "R09": [
+      "M09",
+      "M14",
+      "M16",
+      "M17",
+      "M18",
+      "M19"
+    ],
+    "R10": [
+      "M16",
+      "M17",
+      "M18",
+      "M21",
+      "M22"
+    ],
+    "R11": [
+      "M11",
+      "M13",
+      "M16",
+      "M17",
+      "M21",
+      "M22"
+    ],
+    "R12": [
+      "M11",
+      "M13",
+      "M16",
+      "M17",
+      "M21",
+      "M22"
+    ],
+    "R13": [
+      "M05",
+      "M11",
+      "M13",
+      "M16",
+      "M17",
+      "M21",
+      "M22"
+    ],
+    "R14": [
+      "M20",
+      "M21",
+      "M22",
+      "M23",
+      "M24",
+      "M25"
+    ]
+  },
+  "coverage": "All 14 Results paragraphs mapped; all 25 Methods paragraphs represented.",
+  "limits": "Authoring crosswalk checked for complete IDs and source links; coverage is not independent semantic validation."
+}

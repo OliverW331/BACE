@@ -1,0 +1,16 @@
+{
+  "access_date": "2026-11-02",
+  "authentication": "none",
+  "method": "GET official Hugging Face model metadata; HEAD one listed safetensors URL per checkpoint",
+  "limitations": "No weight bytes downloaded; no model deployment, BACE execution, or memory measurements. Creation dates are repository creation dates, not verified public release dates.",
+  "records": [
+    {"model_id": "Qwen/Qwen3.8-27B", "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0", "gated": false, "license_metadata": "apache-2.0", "repository_created_at": "2026-08-05T08:22:59.000Z", "safetensors_total": 27781427952, "tested_weight_path": "model-00001-of-00018.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "Qwen/Qwen3.8-Flash-Next", "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540", "gated": false, "license_metadata": "other", "license_card": "qwen-community-1.0", "repository_created_at": "2026-08-24T08:24:59.000Z", "safetensors_total": 179999981459, "tested_weight_path": "model-00001-of-00131.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "google/gemma-4-31B-it", "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475", "gated": false, "license_metadata": "apache-2.0", "repository_created_at": "2026-03-11T18:22:36.000Z", "safetensors_total": 31273088876, "tested_weight_path": "model-00001-of-00002.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "google/gemma-4-26B-A4B-it", "revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52", "gated": false, "license_metadata": "apache-2.0", "repository_created_at": "2026-03-11T21:25:57.000Z", "safetensors_total": 25805936206, "tested_weight_path": "model-00001-of-00002.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "google/gemma-4-12B-it", "revision": "43c9d014b231474fa7212dbb48a762566c2b255d", "gated": false, "license_metadata": "apache-2.0", "repository_created_at": "2026-05-23T01:17:15.000Z", "safetensors_total": 11959730224, "tested_weight_path": "model.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "meta-models/Muse-Glimmer-30B", "revision": "cec94fcfd6512f2cfe708138c32533b346ea4f69", "gated": false, "license_metadata": "apache-2.0", "repository_created_at": "2026-08-09T17:51:35.000Z", "safetensors_total": 29776626688, "tested_weight_path": "model-00001-of-00002.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct", "revision": "92f3b1597a195b523d8d9e5700e57e4fbb8f20d3", "gated": "manual", "license_metadata": "other", "license_card": "llama4", "repository_created_at": "2025-04-02T13:34:17.000Z", "safetensors_total": 108641793536, "tested_weight_path": "model-00001-of-00050.safetensors", "anonymous_weight_head_status": 401},
+    {"model_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct", "revision": "73d14711bcc77c16df3470856949c3764056b617", "gated": "manual", "license_metadata": "other", "license_card": "llama4", "repository_created_at": "2025-04-01T22:17:20.000Z", "safetensors_total": 401583781376, "tested_weight_path": "model-00001-of-00055.safetensors", "anonymous_weight_head_status": 401}
+  ]
+}

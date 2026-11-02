@@ -1,0 +1,880 @@
+{
+  "status": "PASS",
+  "prepared_date": "2026-10-01",
+  "prepared_timezone": "Europe/Zurich",
+  "checked_at_utc": "2026-10-01T22:57:43.330488+00:00",
+  "python": "3.13.14 (main, Aug 14 2026, 23:29:42) [GCC]",
+  "command": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python paper/analysis/results_draft/verify_draft.py",
+  "script_sha256": "55fd909ec4fc25be8189c2f1d054864eed5d75f177a260a1cda48f58036d9c5e",
+  "input_files": {
+    "paper/analysis/storyline/provenance.json": {
+      "sha256": "48a70f1626ed58a969abc416547e22b1b6d7ff0ffdd989789918afdd2f485acc",
+      "bytes": 10210
+    },
+    "BACE/analysis/outputs/snapshot/metrics.csv": {
+      "sha256": "0801aa97b2076d883ff9f8f57b2e339ee26d01bdfaaa67c0a8aa5bf24aa63908",
+      "bytes": 940297
+    },
+    "BACE/analysis/outputs/snapshot/manifest.json": {
+      "sha256": "6f31f4532c08ef8cb650b4742eeb8d85ed4f8159954f99b9123bd96dbdb30e0e",
+      "bytes": 1228
+    },
+    "BACE/analysis/analysis_data.py": {
+      "sha256": "8b184f0664dc3a67fa51f01824f1240d20aadf23c14f4ebf984212dd033f9d47",
+      "bytes": 15936
+    },
+    "BACE/analysis/scripts/build_notebooks.py": {
+      "sha256": "42b48dd30126c4ba1c144293fd530cba002e37129a163f4d3f1f7d07b25afaf0",
+      "bytes": 62559
+    },
+    "BACE/analysis/ANALYSIS_SPEC.md": {
+      "sha256": "688023810d0d016d77f31aef338662702df99a80841dd36ca04228ca76809130",
+      "bytes": 6554
+    },
+    "BACE/analysis/requirements.lock.txt": {
+      "sha256": "c454950ce95d2ed23a605031e1e83374d6428668bb0d8e094fee1b78e6b22d8c",
+      "bytes": 1162
+    },
+    "BACE/analysis/outputs/analysis_manifest.json": {
+      "sha256": "c62529c0ec7c16c46550ad50d9259b4a949645f4438ef6201c4741367ff32312",
+      "bytes": 7157
+    },
+    "BACE/results/main_v1/execution_status.json": {
+      "sha256": "fec3824e309f4c04fcb0ffebe28162e3c5cdd1ae53ba84cbb82318dd95f7985a",
+      "bytes": 200285
+    },
+    "BACE/analysis/outputs/figures/01/01_support_distribution__disclosures.csv": {
+      "sha256": "d628f543a727810e1ebe9139811a80f59f5ec1bcf5a5633d3725ed6f3b94f745",
+      "bytes": 283959
+    },
+    "BACE/analysis/outputs/figures/01/01_support_distribution__claim_counts.csv": {
+      "sha256": "9f4a055b9ca8cf8c68d03a1ab178ad209a32849fa165fd980c258accec1c3b2e",
+      "bytes": 136
+    },
+    "BACE/analysis/outputs/figures/03/03_native_comparison__cohort_summary.csv": {
+      "sha256": "b98950bed3bf2dd9485f9469ca432407173018b88800d5216172bc13c4be6fba",
+      "bytes": 491
+    },
+    "BACE/analysis/outputs/figures/01/01_task_support__data.csv": {
+      "sha256": "aaf7a6c2c044a6e4843a6ff143e3ab63e03787ade069de6ec73af9766d705757",
+      "bytes": 936
+    },
+    "BACE/analysis/outputs/figures/02/02_label_composition__data.csv": {
+      "sha256": "8840f7d7b91df7bdb10800956f8240aa9b836cadf6007d298d8a1cc4670693c8",
+      "bytes": 599
+    },
+    "BACE/analysis/outputs/figures/03/03_native_comparison__scores.csv": {
+      "sha256": "c5a87f0554a8f6dcceb9429e605a6002bd3232a5cb848afb097444be9a181a93",
+      "bytes": 340552
+    },
+    "BACE/analysis/outputs/figures/03/03_native_comparison__paired_differences.csv": {
+      "sha256": "eb87ac741c2488ec47351aa3c8a4b9f48dcffb147edfc2f7d3b36aed1206037d",
+      "bytes": 235
+    },
+    "BACE/analysis/outputs/figures/03/03_claim_inventories__data.csv": {
+      "sha256": "22bd0ba4129058e9b13c8bc28d1b5698f5d17ad0db523a81afc867962bc6a695",
+      "bytes": 360385
+    },
+    "BACE/analysis/outputs/figures/01/01_secondary_metrics__data.csv": {
+      "sha256": "de45b8614a85d48d9fed0a831b01213a3b217ee11a69f15e6de8afdaa737704a",
+      "bytes": 382068
+    },
+    "BACE/analysis/validation/_private/sample_manifest.json": {
+      "sha256": "3949dc3cb5da7ab784754a397440b99c591a2056d05aae77a3037cb8a27406c6",
+      "bytes": 2379192
+    },
+    "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx": {
+      "sha256": "7d6bf6fec6285bba2179457bf29b31058f7007b65024b85dcdd47660894344c5",
+      "bytes": 204804
+    },
+    "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx": {
+      "sha256": "0f161380f1777042ccd35cf09ef01b15c8baa17b9210ec92ea1d33c9fdce499b",
+      "bytes": 204804
+    },
+    "BACE/analysis/outputs/examples/02_factual_boundary_distortion.json": {
+      "sha256": "d875dfc49556dffc810a26761525ba457b70872899d352622900abca75195a74",
+      "bytes": 1616055
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/inputs/generation_cases.jsonl": {
+      "sha256": "7e3009b83c13508dea90038a88fc0cf20ea4995490b34d9813352fe4c76ce722",
+      "bytes": 71688
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/generation/generated_disclosures.jsonl": {
+      "sha256": "f78f049199a3a0b8dc3759780cc21859502cc309656a8ac50801e9a0e26a0afc",
+      "bytes": 17782
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/dedup/dc_claims.jsonl": {
+      "sha256": "3d650823514a8db021b00008dfb6dd811c590ea49b38a1781f3ddf7b4ecb17bb",
+      "bytes": 148391
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/dedup/ec_claims.jsonl": {
+      "sha256": "4cda6f6e20ad347e575f045c7577133a92cc1f5bf2e8202d54404f1480b14d04",
+      "bytes": 641845
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "2039b4f702aa9906666d748b512622a85f7dbf06556bd07ae2022982f5c30383",
+      "bytes": 12271
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2022__g1_2_supplier_relationships/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "38e40d1abc73493b8c2f63d4d20e44046442596431680569e01fc853dbf50658",
+      "bytes": 35425
+    },
+    "BACE/analysis/outputs/examples/02_evidence_conflation.json": {
+      "sha256": "70b5b1f576a725a0f4f1e53a93c9d03a99b09f94223109cbe3072139db4df87d",
+      "bytes": 1777592
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/inputs/generation_cases.jsonl": {
+      "sha256": "4c3275d63af06557802de612aa666bb79cf54187bc919cbfd74e7c2660b0c109",
+      "bytes": 68375
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/generation/generated_disclosures.jsonl": {
+      "sha256": "8fa6fb6fadb1314d20532c41ef3b1adbca285055195bb69ad4f82b22f5dd0c34",
+      "bytes": 16139
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/dedup/dc_claims.jsonl": {
+      "sha256": "ba65b29f1a239c09b58ee376dee90f872828653084e29b434d68bbeb422e77de",
+      "bytes": 184838
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/dedup/ec_claims.jsonl": {
+      "sha256": "aa91006f499c0ca36bd4380093caf9a33fbe111f8e892078140b089c1d2f8998",
+      "bytes": 807267
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "c82c6bfbcaa055a381bbe0f2d0e7a37b794e250d736b1ab8f478afd381c6dd8e",
+      "bytes": 8079
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__g1_2_supplier_relationships/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "72bbb1eea6fa3aa2db25825325f7afcf8e01d9e6bc3562ec9986832dd095e236",
+      "bytes": 24922
+    },
+    "BACE/analysis/outputs/examples/02_contradiction.json": {
+      "sha256": "9014140db38a85bcb5e617746576c4f6a0eb14c181ec7d6457d3f70aecf515c3",
+      "bytes": 819057
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/inputs/generation_cases.jsonl": {
+      "sha256": "2de57bf35f96bfd294d394de1e5aba108aa54d1b0822ab767a2de4c0512a08e2",
+      "bytes": 46535
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/generation/generated_disclosures.jsonl": {
+      "sha256": "ffd587a632d9bcf684ab602f44f5443cdef4fa5ae468778ac4275a94f1a0132f",
+      "bytes": 15049
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/dedup/dc_claims.jsonl": {
+      "sha256": "743847cf79e8ff2c960454e140e12ec7488485c02fe75e3bfde304b7cced102d",
+      "bytes": 85507
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/dedup/ec_claims.jsonl": {
+      "sha256": "7805f8984b23c6003738f78877327e6d6d1ef67150cfee3ab975fdf3a5d8d3a4",
+      "bytes": 273344
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "1dd0b91b8f437398a73e086d4c88c965292324b8c9b72cef4259f4059238e36a",
+      "bytes": 8166
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2019__e1_6_ghg_emissions/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "3e3d114d336b40b54d2afb5d7895b78238260dadb9419d791447067ff1945adf",
+      "bytes": 18382
+    },
+    "BACE/analysis/assets/failure_example_selection.json": {
+      "sha256": "0fe33b87f7fed963fee2b0bb08408762c6fb25f6084185419dd1816c3ecac78d",
+      "bytes": 2192
+    },
+    "BACE/analysis/outputs/figures/02/02_asml_source_layout__data.csv": {
+      "sha256": "34b41f9eb2c26ca678e034d0400c1508ad010542b044f2432527376e1844d462",
+      "bytes": 192
+    },
+    "BACE/analysis/outputs/figures/02/02_asml_source_layout.png": {
+      "sha256": "73c834f473885a9eb2b1f4cb06d7baedff97231347670db5d345d0e6c6be5349",
+      "bytes": 412665
+    },
+    "paper/analysis/disagreement_cases/bundle_provenance.json": {
+      "sha256": "20ee7dc15c232b4c74ea883b212567e76d458f80556c165cb9a5d0c28078bee7",
+      "bytes": 16117
+    },
+    "BACE/script/evaluation/external_evaluation.py": {
+      "sha256": "f191785f8da2a8fa78b939ac11f756baed0b5f5e3042a6110b02a22eea5cff25",
+      "bytes": 18339
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/inputs/generation_cases.jsonl": {
+      "sha256": "da2dc47354251097089e270bf544c3aaaff32435330928c9b50cbc1c2c0f9258",
+      "bytes": 69141
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/generation/generated_disclosures.jsonl": {
+      "sha256": "31e8ef84853dade34fa70f63e98e79402665a6c965cd8b6a8a7b03e38ee67ffd",
+      "bytes": 14943
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/bace/dedup/dc_claims.jsonl": {
+      "sha256": "83cd8482609a366de4fc214af3ba5e9550cff2932c9cce054587f8a7403ffc48",
+      "bytes": 100247
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/bace/dedup/ec_claims.jsonl": {
+      "sha256": "8916880b1d6049a30a09544d39e0dad52bb4b77bde0a5b42f28313999d8258c3",
+      "bytes": 522644
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "0352ceaecad23af6e4cbc3cd7eb8525643c021f32c31d6d5bd972681482e1e3a",
+      "bytes": 11812
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/bace/support/dc_support_sets.jsonl": {
+      "sha256": "4b9fe4b448ddcf55dd694f102256b66b1b37a0ec47e43efa031f2c26859a60d9",
+      "bytes": 6733
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "e4d23eb690010c69899a13c70a2a4429fde3ab7ff5f05835bab8b9ddf631993c",
+      "bytes": 5681
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/evaluation/ragchecker/results.jsonl": {
+      "sha256": "c160b91e544d27ab52bc16a2ec33cc8cbf5fbee6fca95adf927d31c7ee4ac30d",
+      "bytes": 203976
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__kinnevik__2020__e1_1_transition_plan/evaluation/ragas/results.jsonl": {
+      "sha256": "138508b96c72efc2c11e04528d75dfc3c70c881b99bead04201187a30da08c38",
+      "bytes": 30681
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/inputs/generation_cases.jsonl": {
+      "sha256": "018c9bd47d5955049b7b8f85db548596c5bc9f0e1e9be70fae2d403f5d2cc307",
+      "bytes": 55658
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/generation/generated_disclosures.jsonl": {
+      "sha256": "9dfaae34fd996291eb781786e05d9788ed7b66564a9bfefda0bbd1567d837693",
+      "bytes": 16396
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/bace/dedup/dc_claims.jsonl": {
+      "sha256": "5328ef19879ed6a6705e3d36478b959c6cbce07d86e84a7e74c4a9c58c15dd56",
+      "bytes": 145099
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/bace/dedup/ec_claims.jsonl": {
+      "sha256": "80bc89977794bce09b1ee08c9847d031e504f0e748c9d680d6f2dd49c5cbbbf0",
+      "bytes": 298070
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "cbcc52373949a3f3cf216c0a7f20c74fdf502de38711cff0e9641af13e4802a0",
+      "bytes": 19404
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/bace/support/dc_support_sets.jsonl": {
+      "sha256": "0b99d854c248cb603b5f8fbc1c5c57240f4bd69c11cb8e6b25431fa4c7626703",
+      "bytes": 11041
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "96d9f12f8757d459659749904e0ad335ab284c1dbaee336a5c6369b4f4302bbe",
+      "bytes": 6572
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/evaluation/ragchecker/results.jsonl": {
+      "sha256": "d1017718fd5c4a124d33af57bddc1047bb4a70c676039ab7833867332b51299b",
+      "bytes": 217878
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources/evaluation/ragas/results.jsonl": {
+      "sha256": "8fbae43c8fd726a4dae2f432b1939ba51293d817206445c1a13b304f97b8cb5e",
+      "bytes": 33160
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/inputs/generation_cases.jsonl": {
+      "sha256": "253701cd07b79afb8d4c05fa7d18a3c8ef86699513275db1b63e58258bd6dfe7",
+      "bytes": 65871
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/generation/generated_disclosures.jsonl": {
+      "sha256": "a1d145e2b6f53790699dc23e8acd5ead6965e78760ba55974eab2bc1b00a50ae",
+      "bytes": 14978
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/dedup/dc_claims.jsonl": {
+      "sha256": "a2cda88d69219240e17ab566139381fe29cbedc2a226bfe7ff98aa24bc9ffb4a",
+      "bytes": 103735
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/dedup/ec_claims.jsonl": {
+      "sha256": "9ac5794bf406b03899ea2a38fdfe74c7ce48afeb5f8b10789aef4b673f393f0e",
+      "bytes": 598069
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "d07d0a99388804160bebdc3ff581daeef7697a36e7033f425fe52d303ef187a9",
+      "bytes": 16957
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/support/dc_support_sets.jsonl": {
+      "sha256": "8fcd4249536d8c7f2db3cb0d774db1923e659c3ace683fe37a2a2ac6309b8760",
+      "bytes": 7440
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "533c56dc6dc06ffb57292613dfd73cf77a6d10b62e4cc58140ebac22209fe0e5",
+      "bytes": 4203
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/evaluation/ragchecker/results.jsonl": {
+      "sha256": "8a6a5acaacad08616f9c5f121295415e5b067929c7e69fdb8bc55e084eaa8b64",
+      "bytes": 151330
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/evaluation/ragas/results.jsonl": {
+      "sha256": "541442fa4bd3014ccdc61f14c1f09d85bd9e23055d65565a19c5ed7d50502fa7",
+      "bytes": 29951
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/inputs/generation_cases.jsonl": {
+      "sha256": "989b86dad18f0b82be068b5e6f98a5577b365f577b0c8d043cac6f2f802de284",
+      "bytes": 40165
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/generation/generated_disclosures.jsonl": {
+      "sha256": "7deb181b785e501c0c6efebf66fcd3c10690b86760322a9814411cfb431d9c1c",
+      "bytes": 15340
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/bace/dedup/dc_claims.jsonl": {
+      "sha256": "07b24a398f017a286abecfef9325d2dbce529b7bf4a513a5c23c4881e831d6cb",
+      "bytes": 141541
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/bace/dedup/ec_claims.jsonl": {
+      "sha256": "36a351136fb98d36d8617d23d1665db6b4413c009f3ee5e8197268726eb66b08",
+      "bytes": 302795
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "02abbec31e7a62b65c53a775c838052da42f9823e5dd2239cb6151f03379b46f",
+      "bytes": 27395
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/bace/support/dc_support_sets.jsonl": {
+      "sha256": "48c365ac68d511b11173f7032c9126254d7c764061bd8350ffed868cb65d647a",
+      "bytes": 9057
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "a0c4d26f00cbe8a0a78312dea2cb73fd62fea730d58b417f9ab12dcbe3365a5d",
+      "bytes": 11129
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/evaluation/ragchecker/results.jsonl": {
+      "sha256": "deeed0c47834619d4b55578ba7fb278b72e69f92d2579db2ae097be8a769d14b",
+      "bytes": 90695
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2020__s1_1_workforce_policies/evaluation/ragas/results.jsonl": {
+      "sha256": "f88c52fdeb738b6a6d870a1fbee8d0f44a19692134eadf026c393f7cc099ec4b",
+      "bytes": 30746
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/inputs/generation_cases.jsonl": {
+      "sha256": "963f0681729eac0d04baf07d9b4666fc1f2a3bf8dacbdcb4f7584474f6354479",
+      "bytes": 65227
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/generation/generated_disclosures.jsonl": {
+      "sha256": "9c07f233ceecdd3a93afe0d712fbc0db87ae44b10c5ea4a6b8efc3de646cf5b4",
+      "bytes": 15796
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/dedup/dc_claims.jsonl": {
+      "sha256": "232d42a296423f89862d45a99672b3374c5cc3896e8df1e19e966f84f80446f6",
+      "bytes": 119974
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/dedup/ec_claims.jsonl": {
+      "sha256": "75f679844ef98e0ce673e097cdfd25d160c2db7091b6d7d36932b5a5a2db9bf1",
+      "bytes": 475944
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/candidates/dc_candidate_ecs.jsonl": {
+      "sha256": "1576660bd90f0012f18415bfe13087cd0582f2e9731ce9a32b6e8d6f3a7da57d",
+      "bytes": 15786
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/support/dc_support_sets.jsonl": {
+      "sha256": "e0c0f4e3ce82461eff54d74858994ee3955c26d68f140ef15b56efaac1d82d46",
+      "bytes": 5484
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/diagnosis/dc_unsupported_diagnoses.jsonl": {
+      "sha256": "234bdac22b908284418d28ca9f18c15fa6742137f7217a1ca8bf9ee3e0e928f2",
+      "bytes": 11776
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/evaluation/ragchecker/results.jsonl": {
+      "sha256": "7a279d1c91134172d1f002915cae41ac3c51a837c694cab94eece6b01b7f71c4",
+      "bytes": 211131
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/evaluation/ragas/results.jsonl": {
+      "sha256": "bbeef07b1943ea6bb6361c2f615977ef4e46bb1377e5da2376cc292b7d679ed0",
+      "bytes": 34838
+    },
+    "data/raw/reports_pdf/1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf": {
+      "sha256": "b66fa048952a04e1e29827d02807ee8350563b8f57ae9ca0bdd2122f635601c2",
+      "bytes": 5236810
+    },
+    "data/processed/results/esg_indicators_postprocessed.csv": {
+      "sha256": "7401fb688ba39d81ade8512923ab673791d47355646fbcbf851b906a99c4c860",
+      "bytes": 747481029
+    },
+    "BACE/evidence/sample/sample.json": {
+      "sha256": "d22ff9a317fbc184c4736b1478bcb3b94f953fd134095f88a27dd3a07f5375c4",
+      "bytes": 278301
+    },
+    "paper/analysis/storyline/verify_storyline_evidence.py": {
+      "sha256": "4b927af78fdd727f9555371fb273c6977cc0b3b361086ea8c3c18847804a93d0",
+      "bytes": 15987
+    },
+    "paper/analysis/disagreement_cases/sca_incidents_workers.json": {
+      "sha256": "f1226265307e71b9827840edcfe068c50651f001ae4ccd8fc6ed889d4f4201ca",
+      "bytes": 68813
+    },
+    "paper/analysis/disagreement_cases/continental_coverage.json": {
+      "sha256": "7f6b20f6e3655eea47a809741cf6f1901eb3a58211cfff2ba3e5783e246c611b",
+      "bytes": 67185
+    },
+    "paper/analysis/disagreement_cases/banco_bpm_actual_as_target.json": {
+      "sha256": "7bccaaddc2c286ae767b3f266b5dcc7f2671dd4cddef4c564dfb6ce4805d1d2d",
+      "bytes": 101955
+    },
+    "paper/analysis/results_draft/citation_occurrences.json": {
+      "sha256": "93a87e799a27c84469e60ea4cf30564e4817d4295e615e046488c3d97326849a",
+      "bytes": 2892
+    },
+    "paper/literature/sources/ragchecker2024/fulltext.txt": {
+      "sha256": "4093fa637631c99908fc322db460d1ccb3913ac1249608cdef76f273eb55e4d9",
+      "bytes": 130347
+    },
+    "paper/literature/sources/ragchecker2024/retrieval.json": {
+      "sha256": "cf609f11944fb27903e53ef78ffcdfa81e715c73b96e470173ef9ee9b609ac75",
+      "bytes": 2826
+    },
+    "paper/literature/sources/ragas2024/fulltext.txt": {
+      "sha256": "c7ab398ffefa55445618740dd6ccea4bae868b3639192221a787fec4631db80d",
+      "bytes": 47011
+    },
+    "paper/literature/sources/ragas2024/retrieval.json": {
+      "sha256": "7c27ac2c66773777f20d01efbe3fb58592f363c245ba7abc65d211321a14dfcc",
+      "bytes": 4333
+    },
+    "paper/05_results_storyline.md": {
+      "sha256": "bfee028759d2776d380b8d879d48630d79c29a4f933ae61ace68f0c941af384d",
+      "bytes": 20943
+    },
+    "BACE/PROTOCOL.md": {
+      "sha256": "7452ef74ce5e30c6a01e06d05fed11c26ac2c99a2f1f8dcd0e9b8dcdef15788b",
+      "bytes": 14407
+    },
+    "docs/generation_evaluation.md": {
+      "sha256": "03123d02c8f807d15f077ccda121a1665fd8b48fcdc62708e451da8ce75f1754",
+      "bytes": 31410
+    },
+    "BACE/config/evaluation/prompts/generation_claim_support_prompt_v1.txt": {
+      "sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543",
+      "bytes": 3011
+    },
+    "BACE/config/evaluation/prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt": {
+      "sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8",
+      "bytes": 3076
+    },
+    "paper/analysis/storyline/example_candidates.json": {
+      "sha256": "f665240fafe4199fe0647608bd2c18f3e5ff8b5a78e6215d4db8ae6e75cfca3e",
+      "bytes": 7279
+    },
+    "paper/analysis/disagreement_cases/banco_bpm_2022_p15.png": {
+      "sha256": "aef59bfe9a00db5d27c5aebf92f1e880d746d72edc643cc7e980c2318bf0a89f",
+      "bytes": 365051
+    },
+    "paper/06_verified_disagreement_examples.md": {
+      "sha256": "76d418b01e05546a36d8717077dc8fa7101f02894856a6ce9c2b4f65d155ab03",
+      "bytes": 13335
+    },
+    "paper/07_expanded_disagreement_examples.md": {
+      "sha256": "0ed229634a9d012c212476f5350d00025bff0172d43c2ddf380e0770f5ca3f50",
+      "bytes": 15153
+    },
+    "BACE/evidence/sample/selected_companies.csv": {
+      "sha256": "69829e74ac25bee85ed24fd141e80ae91393fdf1149eb61844913d7e09072dc2",
+      "bytes": 2695
+    },
+    "BACE/config/experiment.json": {
+      "sha256": "c81c4f67d0d596e8ab32b0c427ec19e3e4dc450fd2168a439cdecd057ef7292e",
+      "bytes": 3308
+    },
+    "BACE/config/tasks.json": {
+      "sha256": "eaf8ebf0adf6cc1f05e19a1084eaa7846a3643d10e90987159194b084e0a2226",
+      "bytes": 41909
+    },
+    "BACE/config/queries.json": {
+      "sha256": "6014b85af65e94e73e84b65cc6a273e537d2d0dda11bf5da54154345a60ed66d",
+      "bytes": 22658
+    },
+    "BACE/config/retrieval/retrieval_algorithm_config_text_embedding_3_large_top200_v1.json": {
+      "sha256": "893eabbdb9256d5a05780a55c193f7eb15504166a125e7e1313629c98bb19bdf",
+      "bytes": 3231
+    },
+    "BACE/config/prompts/generation_prompt_templates.json": {
+      "sha256": "f4a93eb73c73dedf4925603c34627b8bd7a3cecbc1c53908c216ae6e39d905d5",
+      "bytes": 1679
+    },
+    "BACE/config/claim_execution.json": {
+      "sha256": "909c47459e5085abf6da32a1a6f68591c1a8b85472f7b0ba7335cdc8358b34da",
+      "bytes": 1493
+    },
+    "BACE/config/evaluation/configs/generation_claim_extraction_config_v8.json": {
+      "sha256": "5a397e4a187bf168293c9c9e34bbf7063b7d9d72a66333d4f238a0d90e16b806",
+      "bytes": 2232
+    },
+    "BACE/config/evaluation/configs/generation_claim_patch_review_config_v4.json": {
+      "sha256": "bb38606e69589e29dbec91db00b74a7fbdcb3debcd98297395b9d004efe27212",
+      "bytes": 2412
+    },
+    "BACE/config/evaluation/configs/generation_claim_atomicity_review_config_v2.json": {
+      "sha256": "aca5effface93b850af28dff37e7e2d8a08d17c9132680d5e10e6c56e5167e2b",
+      "bytes": 2456
+    },
+    "BACE/config/evaluation/configs/generation_claim_candidate_selection_config.json": {
+      "sha256": "f9b2f8429756ef16b68d8b8804442bdc6c2ce5eb82b85149c4af2c486d27e3fa",
+      "bytes": 1662
+    },
+    "BACE/config/evaluation/configs/generation_claim_support_config.json": {
+      "sha256": "7bd879bbca0c4ba08bdeb7aceb8db0dd69731fd189dd8f875c0de5d32ef5bb92",
+      "bytes": 1582
+    },
+    "BACE/script/evaluation/metrics.py": {
+      "sha256": "7c936986759fea2fc0fa4d171882c091b6c4dc7a5f58802d10ca8bce66a36cf8",
+      "bytes": 4612
+    },
+    "BACE/config/evaluation/configs/external_evaluation_config.json": {
+      "sha256": "fa6d7c882e5ae858ec250c81c4757b8329b9bba62b9c338ec9177455adbcfe91",
+      "bytes": 1486
+    },
+    "BACE/script/evaluation/run_ragchecker.py": {
+      "sha256": "86d9216874d0e40364fc14ca3dc742310b426c9c5eb3a6b7d3674d9774ac04ed",
+      "bytes": 4396
+    },
+    "BACE/script/evaluation/run_ragas.py": {
+      "sha256": "711d475e65b2d49eacbbd4b1c9e870b267317ab35a5129df8b2d245da4b59dcb",
+      "bytes": 2986
+    },
+    "paper/analysis/disagreement_cases/screen_provenance.json": {
+      "sha256": "1626f5408d058aec63ebe82e12f1e7ecca88b1909d5353dc11a9d6e4e42e8264",
+      "bytes": 794
+    },
+    "paper/analysis/disagreement_cases/expansion_review_notes.json": {
+      "sha256": "005c14c73fe57f4f59f93974ba8a4dc59ee46bbae1a236ed6e1e9c0d222b44b2",
+      "bytes": 290101
+    },
+    "BACE/analysis/validation/README.md": {
+      "sha256": "84675e6fa536d39a47f93f55d356cf3efde82c3467bd70af2e01f7780bdaea3b",
+      "bytes": 18604
+    },
+    "paper/NATURE_SUSTAINABILITY_GUIDELINES.md": {
+      "sha256": "935d25c9189b48275b399addfb2ae11309a3a9c967ebc1d18f467ca5e0a7d432",
+      "bytes": 6612
+    },
+    "BACE/script/select_sample.py": {
+      "sha256": "d972a552ba2d5c4fc369b34c262402b740a55afc698fbb813fc37d3bcdd28674",
+      "bytes": 5217
+    },
+    "BACE/script/prepare_evidence.py": {
+      "sha256": "a8e5c2ff7f1d60b287a14b46b5f5186466f95ed4da4186d7470c603ef5ffbc14",
+      "bytes": 12401
+    },
+    "BACE/script/evidence_quality.py": {
+      "sha256": "c2c380ee5014ec38333680e25a2cc363914711618673b95b431ab09185b8c572",
+      "bytes": 2958
+    },
+    "BACE/script/prepare_inputs.py": {
+      "sha256": "5388da146e1ab895943bb87268754fa2aaa7ca95eb93ecaae1cd4bdbc7a12085",
+      "bytes": 14240
+    },
+    "BACE/evidence/embeddings/manifest.json": {
+      "sha256": "8e9f158c669a4d24d9cb6ebe88a59a109156e3a4e5dd8c9371c6c9fb6c64ac43",
+      "bytes": 776
+    },
+    "paper/analysis/disagreement_cases/screen_candidates.py": {
+      "sha256": "99d9e532c57386f84750b50f8aa2d1ac0114f7540b0449a99a880f90f514cd01",
+      "bytes": 3392
+    },
+    "paper/analysis/disagreement_cases/screen_numerical_candidates.py": {
+      "sha256": "99cd3256f5624b12587ea44ded5d46a5c9416701c32f85b7af17440c791e6da6",
+      "bytes": 2423
+    },
+    "paper/01_paper_blueprint.md": {
+      "sha256": "8bb2da7dd8601b14382adb0fe0cdc575f31db2858e3ab6a20b4db7bc40fc5a2b",
+      "bytes": 14416
+    },
+    "paper/02_evidence_map.md": {
+      "sha256": "17855df72e84ce65705df8aa49c8bc66aac5f2bf8f4d12b0e4873b0f4ebf416c",
+      "bytes": 9981
+    },
+    "paper/03_research_foundation.md": {
+      "sha256": "4b16cc83354437572b708d966595749c4323ad2cb4be6daa20276317658ad471",
+      "bytes": 11614
+    },
+    "paper/04_research_gap_verification.md": {
+      "sha256": "840eca01b0b3c40863cb0a63642c349988c5491ac6d0a18b13c640afb8d97014",
+      "bytes": 12821
+    },
+    "paper/references.bib": {
+      "sha256": "e87f1e439f3ddf968b22fe525bcbbcbe8bcc9eae2b1d19d47fcfca7faee73f5a",
+      "bytes": 9400
+    },
+    "paper/literature/SOURCE_INDEX.md": {
+      "sha256": "aafc099dc47ae249b77f82c8633a6c89b135e319fb4b168ee9d8eb83adb97f2b",
+      "bytes": 16267
+    },
+    "paper/literature/citation_ledger.md": {
+      "sha256": "4446bddb69459f9f052095b21da824e4d44dd06b2fbf5225a9af317f16503033",
+      "bytes": 29990
+    },
+    "paper/analysis/storyline/numeric_ledger.json": {
+      "sha256": "89280e14244134c97bece7db9c820973760c88b0b9ea6de7220a8ba8f078c891",
+      "bytes": 13766
+    },
+    "paper/manuscript/main.pdf": {
+      "sha256": "9e262fbb37dafa9b1a62fc966bd0be0d14e4711a243a2c02b2f7532b9f5d3983",
+      "bytes": 382925
+    },
+    "paper/manuscript/main.tex": {
+      "sha256": "e91eafcc91b5e1a61729f109ad1a68de5ff8362c5c9281f9882ef067c0957eb4",
+      "bytes": 45001
+    },
+    "paper/manuscript/bace_overleaf.zip": {
+      "sha256": "c4e17563c4a8f2ff82721a4af91a82979e9c0c6abc0892ad96f2a1206d5d6840",
+      "bytes": 2911716
+    },
+    "paper/manuscript/README.md": {
+      "sha256": "79181a8ecccefb18382c6ffeb7fb96c88c7a68acf64519b5f3ee6d39bec4969b",
+      "bytes": 6448
+    },
+    "paper/analysis/latex_draft/migration.json": {
+      "sha256": "8fef2a1a0fe5746637b10ee28391d6bb7b947920e0f49db3fe6e44ea4b02e39a",
+      "bytes": 8503
+    },
+    "paper/manuscript/figures/fig1_study_design.pdf": {
+      "sha256": "55ff99bac6a46d6bef8611788d0708cce2fa46bec8818ab0c8c0b6fe6e4ed2bf",
+      "bytes": 31121
+    },
+    "paper/analysis/fig1/legend.md": {
+      "sha256": "3dccdd937b8150180bf300d3d26d4aa03223649504e33a40b4567c58867752b9",
+      "bytes": 1970
+    },
+    "paper/analysis/fig1/FIGURE_CONTRACT.md": {
+      "sha256": "c205bcd61d97cd2edecba7bbe778fdaee69c396b22930bd40895cee51e749963",
+      "bytes": 4090
+    },
+    "paper/analysis/fig1/source_data.csv": {
+      "sha256": "cdb78075ba2dfde5c2da98bf4cdf7d8bf96433e01636e6b120531758a656773b",
+      "bytes": 2835
+    },
+    "paper/manuscript/figures/fig2_support.pdf": {
+      "sha256": "5dd96a9d7a367b2bc3da31191cd826b3932af761ff4087cc28bc14f2d69723ce",
+      "bytes": 28950
+    },
+    "paper/analysis/fig2/legend.md": {
+      "sha256": "029dc364aca362e545644696b17fbbf12d1c16ea74f97b32ba2f3305410b0e1c",
+      "bytes": 3124
+    },
+    "paper/analysis/fig2/FIGURE_CONTRACT.md": {
+      "sha256": "b07da77054c354b3c1dcd24cd68abb4c5571dee40eee10a1a75288c90ece5839",
+      "bytes": 3916
+    },
+    "paper/analysis/fig2/disclosures.csv": {
+      "sha256": "d69732b0fcedb224bd8bfdd4fd4cbae18df0c19bd14bf70aa28cf379d2cf6f22",
+      "bytes": 358668
+    },
+    "paper/analysis/fig2/claim_composition.csv": {
+      "sha256": "00c0a9ff8facd2d28ebd076cf08d17a2608b22db51ac2b9206f616941d47b52c",
+      "bytes": 426
+    },
+    "paper/analysis/fig2/task_estimates.csv": {
+      "sha256": "c779744af7dd99e44d263899de61e85927be2d11e0005d7960b9c52f52cdc327",
+      "bytes": 3075
+    },
+    "paper/manuscript/figures/fig3_diagnoses_cases.pdf": {
+      "sha256": "7b1bd11eeb2ca34914a252a517a246db80ee8ba3d3b2e1e68f24e24c90fd81ee",
+      "bytes": 31845
+    },
+    "paper/analysis/fig3/legend.md": {
+      "sha256": "0a2a1c2816e83c3ada46a002bfbd25e3145904c44d4bb2a0115a6b0ffad41f44",
+      "bytes": 3455
+    },
+    "paper/analysis/fig3/FIGURE_CONTRACT.md": {
+      "sha256": "e54802a04d797dd6fa541db51ebd52c12361a880d1107b62c7785ce6633a8485",
+      "bytes": 4523
+    },
+    "paper/analysis/fig3/diagnosis_composition.csv": {
+      "sha256": "3baafd21cd42e36eead479773472393218499b94fec728ce073d20114c536d4e",
+      "bytes": 1595
+    },
+    "paper/analysis/fig3/case_evidence.json": {
+      "sha256": "33216f271f5e45ce425afc36a15049fb9769c67820ea625272ccfbe8732f4ec2",
+      "bytes": 195726
+    },
+    "paper/analysis/fig3/original_source_checks.json": {
+      "sha256": "aa932df3a11612a0d7f1be5a280430997132cee32d3446f1ee68e155ef9c3dee",
+      "bytes": 1826
+    },
+    "paper/manuscript/figures/fig4_native_comparison.pdf": {
+      "sha256": "e0d4576cb2c0e57764154928cc70702da166f5f58690afe10e2a9feb5c147e4d",
+      "bytes": 37768
+    },
+    "paper/analysis/fig4/legend.md": {
+      "sha256": "b9dfdeb84f4d51a0c328af174706a51480ee92c3b1be90d3f3ebe4e77847e453",
+      "bytes": 3114
+    },
+    "paper/analysis/fig4/FIGURE_CONTRACT.md": {
+      "sha256": "487a5b06a9ad51b5eddc982804e7fae10c4dcf5acebf3aeb6cac43df7ccf89a4",
+      "bytes": 4308
+    },
+    "paper/analysis/fig4/paired_disclosures.csv": {
+      "sha256": "f91398352719b8d5ab675c86ae5a3dbf8c335afbd85d5402543a3837be0947db",
+      "bytes": 469160
+    },
+    "paper/analysis/fig4/paired_differences.csv": {
+      "sha256": "fe73c6dfbad0345926125b065c02bdc164fd19a9b2f00f56a939cb33057be4ae",
+      "bytes": 964
+    },
+    "paper/analysis/fig4/ecdf_coordinates.csv": {
+      "sha256": "165ac49548ccc860197ad23ca312c8876a0cdce461afd1aeefe43693c65ab9a0",
+      "bytes": 143334
+    },
+    "paper/analysis/introduction_draft/README.md": {
+      "sha256": "f4d971d3aac91e69968eb4980dcb2500b627ae8730fe1bb7c3917563ff705cb1",
+      "bytes": 4293
+    },
+    "paper/analysis/introduction_draft/citation_occurrences.json": {
+      "sha256": "7e3e3449103f438f9b48a2ebb19aab72adb4f8b2de2cb95532219c1423fce1eb",
+      "bytes": 22465
+    },
+    "paper/analysis/introduction_draft/numeric_ledger.json": {
+      "sha256": "34a061b7c508679e86a98029c6b842d1dd2b9a62095935026a557976dfc6d397",
+      "bytes": 4543
+    },
+    "BACE/README.md": {
+      "sha256": "150bcf917c90fdb760b6bb728ad0e67a52d2f4f7ea322b33de56fc0b62e05221",
+      "bytes": 17364
+    },
+    "BACE/analysis/README.md": {
+      "sha256": "04a42aa37256273532ec1c32ac34ebed25481e99ea1318142ac21f328e90249f",
+      "bytes": 5578
+    },
+    "docs/main/introduction/introduction_logic_chain_and_evidence.md": {
+      "sha256": "5f6050fdbb1e60d1c62be7a1d05d6009a22260a0ae2db736f80a4630863286b5",
+      "bytes": 53786
+    },
+    "paper/analysis/storyline/validation_status.json": {
+      "sha256": "2794177f73d2ee180a6ba86cd6648cd67965a044947e9fdef9f9464d5347e5bd",
+      "bytes": 3681
+    }
+  },
+  "prior_manifest_checks": [
+    {
+      "manifest": "paper/analysis/storyline/provenance.json",
+      "unchanged_input_count": 44
+    },
+    {
+      "manifest": "paper/analysis/disagreement_cases/bundle_provenance.json",
+      "unchanged_input_count": 48
+    }
+  ],
+  "paragraphs": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14"
+  ],
+  "numeric_text_checks": {
+    "R01": [
+      "30 companies",
+      "1,800",
+      "1,798",
+      "12 tasks"
+    ],
+    "R03": [
+      "55.4%",
+      "53.9–56.8",
+      "55.1%",
+      "94,955",
+      "34,430",
+      "17,879",
+      "42,646",
+      "36.3%",
+      "18.8%",
+      "44.9%"
+    ],
+    "R04": [
+      "43.9%",
+      "62.5%",
+      "149",
+      "150"
+    ],
+    "R05": [
+      "1.9 percentage points",
+      "58.0 percentage points"
+    ],
+    "R06": [
+      "31,335",
+      "42,646",
+      "73.5%",
+      "19,130",
+      "12,205"
+    ],
+    "R09": [
+      "55.4%",
+      "90.2%",
+      "90.7%",
+      "−34.9",
+      "−35.3",
+      "−36.2 to −33.5",
+      "−36.5 to −34.1"
+    ],
+    "R10": [
+      "52",
+      "40",
+      "42"
+    ]
+  },
+  "example_checks": {
+    "R11": {
+      "name": "sca_incidents_workers",
+      "source_status": "SOURCE_REPORTED",
+      "selection": {
+        "name": "sca_incidents_workers",
+        "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents",
+        "dc_id": "dc_94969d707006865673f9d8456fa98a4f",
+        "ragchecker_index": 25,
+        "ragas_index": 31,
+        "key_cards": [
+          "Evidence 23",
+          "Evidence 26"
+        ]
+      },
+      "source_qualifiers_preserved": true
+    },
+    "R12": {
+      "name": "continental_coverage",
+      "source_status": "SOURCE_REPORTED",
+      "selection": {
+        "name": "continental_coverage",
+        "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__continental__2021__s1_4_workforce_actions_resources",
+        "dc_id": "dc_36a636280cb20a73d7f616d90a887cfe",
+        "ragchecker_index": 44,
+        "ragas_index": 38,
+        "key_cards": [
+          "Evidence 21",
+          "Evidence 27"
+        ]
+      },
+      "source_qualifiers_preserved": true
+    },
+    "R13": {
+      "name": "banco_bpm_actual_as_target",
+      "source_status": "SOURCE_REPORTED",
+      "selection": {
+        "name": "banco_bpm_actual_as_target",
+        "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+        "dc_id": "dc_9481ed6b85983e7179efe1939f81b94f",
+        "ragchecker_index": 21,
+        "ragas_index": 22,
+        "key_cards": [
+          "Evidence 19"
+        ],
+        "candidate_qualifiers_preserved": false,
+        "original_pdf": "data/raw/reports_pdf/1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+        "original_pdf_page": 15
+      },
+      "source_qualifiers_preserved": false
+    }
+  },
+  "broken_local_links": [],
+  "manuscript_word_count": 1250,
+  "word_count_rule": "Whitespace-delimited prose tokens between manuscript markers, excluding headings and HTML comments.",
+  "outputs": {
+    "paper/08_results_draft.md": "b2378d35e9ea0874511513fe4e9c90b6bca1ac308d327f4f73a40fcfd416009e",
+    "paper/09_methods_evidence_outline.md": "aca9d4391f4d52736cf6dc83360d0dd252c6f6bd8f8359e0252c4e55c340eb57",
+    "paper/10_methods_draft.md": "8f5e1a55556ab024bc0fb894f5286360354b17fa79f789a5c6f4f9b33c17a20f",
+    "paper/README.md": "661ad0d8611fe7ab6cc0c63268c0f225ddcc71a456d745a168893b9877a7537e",
+    "paper/analysis/results_draft/verified_numbers.json": "b2eda96297a3fdcbfab609a71fb71aee9afca8342bc4a5749baab2a7fbcc9f69",
+    "paper/analysis/results_draft/citation_occurrences.json": "93a87e799a27c84469e60ea4cf30564e4817d4295e615e046488c3d97326849a"
+  },
+  "limitations": "Artifact and arithmetic verification only. Interval inference was not rerun; no model calls, experiment changes or independent human adjudication."
+}

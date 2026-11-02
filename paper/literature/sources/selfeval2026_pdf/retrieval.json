@@ -1,0 +1,11 @@
+{
+  "id": "selfeval2026_pdf",
+  "url": "https://www.epj-conferences.org/articles/epjconf/pdf/2026/26/epjconf_iemphys-26_01014.pdf",
+  "checked_date": "2026-09-29",
+  "retrieved_at_utc": "2026-09-29T20:18:29.427155+00:00",
+  "final_url": "https://www.epj-conferences.org/articles/epjconf/pdf/2026/26/epjconf_iemphys-26_01014.pdf",
+  "http_status": 403,
+  "content_type": "text/html;charset=utf-8",
+  "sha256": "d5f2603e17cdc40be0d5959565d98a907e0da2d9145d927770c6d4cd4bf8b210",
+  "error": "403 Client Error: Forbidden for url: https://www.epj-conferences.org/articles/epjconf/pdf/2026/26/epjconf_iemphys-26_01014.pdf"
+}

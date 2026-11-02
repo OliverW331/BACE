@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bace Nature Reviewer"
+  short_description: "Verified BACE writing workflow with evidence checks"
+  default_prompt: "Use $bace-nature-reviewer for the relevant BACE paper task and record unresolved evidence."
+policy:
+  allow_implicit_invocation: true

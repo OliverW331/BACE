@@ -1,0 +1,1362 @@
+[
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__s1_14_health_safety_metrics",
+    "dc_id": "dc_eaa4bb800d6c4bbaf695e3bd885b37d3",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 8,
+    "record_sha256": "dd78eb1d9a219b3949c0626e3f4f6ecee74131aca78bd8ee5649e64e07a56547"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0053be6d790be71f62d69dfde299af62",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 521,
+    "record_sha256": "eaa676d400711bee10f20ab9ecaa034396910a2fa5ef9f1e2665821926c9abec"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_020b5950c22bfab41203c9f3f5d5b61e",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 524,
+    "record_sha256": "110b8771709b4b338b6d171a5df49a49fc044227864eed1cdf605f1ace84ca39"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_03e39997509c7839900ed16ccd295e74",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 528,
+    "record_sha256": "08cf20bbfbc8fa0768aaf0a327a83592937876ceb35b285955f50c19d829a569"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0c2c58e3a79186ca9a5ae96646305e42",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 530,
+    "record_sha256": "2308e7ac153e78a3f18d10f6a7464f96571feda0899609bcfd6c8c0ceef83066"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0c98dc7d435e1e546399f97a5698be0c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 531,
+    "record_sha256": "922054e3bb4342a7771ee3bbba5282ba88e43697b67d6aa37b0d4f9c3414946a"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_01953e2eadefd5983b2e2c1116fc63e4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 532,
+    "record_sha256": "72970f566984ee4e4ab4216e308cedabc1e860722d0f7137e5ae84aab7de8661"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1701f2985934b8e25c177c42c1fc45e1",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 533,
+    "record_sha256": "53339c72655de6bfba7a50585101004c462f1ffa806b51a96286a2d18a0954ea"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1546d85ee4585d4f1d4895d69e957b0d",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 534,
+    "record_sha256": "f9bb9fade34e6d1c2bc55b42741eb7712a81f150c88fc6ad6d438b327a0bef98"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1f1c9e17e4a3748881829d838c3c5309",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 535,
+    "record_sha256": "bc45f166e1ac3ca18ca885375724f525fd12138d466adab0a22ee4ba6016bb3b"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_2702889f63f9164977005b2116db44bf",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 536,
+    "record_sha256": "8c30db90ee8123ce7d69be968f888c62ae2d9e7e4dc837715332b8a097c3beac"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_04342b2e96fd804ec1cd71b4547b945a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 539,
+    "record_sha256": "9a0b3a48f74b1dcdde9d611cf9032f888ca87ddada4f07c021207cc7f359e087"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_13d758b27da99eebf9c700287f60f9a6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 540,
+    "record_sha256": "a7767db62ddc98dd7ef4e3213795509c507e46d3933f401a5c092b5080e07b52"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_534f2910cdeee92addab104193aaffd8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 542,
+    "record_sha256": "cdbe328075b1678f5465e6cd73dfb442fe235f8ddd993d1ce41c7233ad121b59"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_562c9ae4b58a3875004d0654b8971fd4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 544,
+    "record_sha256": "720a195c05cabd03a49418d09a89f0b34ccae9dd7a0b6dc90e65f1e2b97e25f6"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_4d18c04f722c2080116610e1eab3f167",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 545,
+    "record_sha256": "d23b99f8bbd405c7f1e4ff3cba3170475db28035bf52c7c7e52dd197616f863f"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_546a64fa7b139a438aca4b8e4d08011c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 546,
+    "record_sha256": "472114a37f759cb00776f18713213fc20ea064424c20e421da0ab2569391a630"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5f3cf398a455e52812919fa33fe65f10",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 547,
+    "record_sha256": "7d5620e0b04680c1cafbbcf2b95840a68d52c8a460a110063fd0b342c61dc8a2"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_603e67b01e589d2745f1c774ec9739ff",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 549,
+    "record_sha256": "8ba2d253c8f3fe8968495e93196735707abbf501d60ed7adece6311fefdb2d15"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_4f6ca7a9741de7d2cf32846d322b0142",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 551,
+    "record_sha256": "ccdb42a9c13e95a969cb0559fc021b2b39b1ea570aec6f34b9f2ac187390c889"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_74a28fdaf7cba9ce462b0eca1283be56",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 552,
+    "record_sha256": "f7da131fb7e8fe30ee4e77ccb93f4bc9cf18459ca6c592cd9fca0785324f530f"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5d2887ba6bc29c9b555ad711c6033196",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 553,
+    "record_sha256": "fda120ea7cd54ac32ec1f479ff558d0f8b917558e611969db69b1dcf6df27244"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_76c2ff1a26e34187bb17297c00f5030a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 555,
+    "record_sha256": "34ef6a51da08697ab1af9205a3b7930d3e20a90043621ec0939dad4d0be1d1b1"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_13bfff07abaa554415b50ae5abeb2641",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 556,
+    "record_sha256": "84b29983f0cc53cec0e92be01bd2acc6c7944ca409dfe279e1483af3c5bb30ac"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_86594cfec1703112da074af09dcf4499",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 557,
+    "record_sha256": "e0cad417de74d9699cef65d91c2950470d8aa82693731fa7d2d32c1449c3807c"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_347d3d2d2953059da40f67e051fb254e",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 558,
+    "record_sha256": "be70ecd6c389e4e5a93b497bb0455ceb672020ebe10173b5d73610d675c25971"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_665fa93b1d6e397dc7343d1b5084abad",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 559,
+    "record_sha256": "56e555ab943c4c138a9b7b47efc1f8888254fd2cf5f40603cdc530eb6401591a"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_8b490b78f58568d33c8638b55ced4e9b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 560,
+    "record_sha256": "6841c0edaa046ce1c3ff6504fc640b719a2b7421b9b3394f910d87a24c059f8c"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_8d19e439ea5a7afbfa9493679bdd69d8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 561,
+    "record_sha256": "209983f3dc9e9938d46d69d66f5c8ca1fd95069ed2fd8917ccf74977b04fbe7b"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1eb63c491d7ba6e7c3776167a42c7207",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 562,
+    "record_sha256": "5c938a37fba8ebc65f09b93c014c607870a71275030db36cb6046e04fe700740"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_719e82ea9fad2b9c6e2e23f46e544f5b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 563,
+    "record_sha256": "e9819bc8ebe67a521d7ffd406eefba5d32091261d4ee80aad64c518a89b326d4"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_7c545b7768f5121b112735ae51eec1d4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 566,
+    "record_sha256": "e0d5393a23a20178e7e0c953b8714eef4470424c9392ee0835572fe384f8530e"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d2fc71b7ee2f7f1690ee83ab163e9826",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 567,
+    "record_sha256": "268d385d431be3fbaffb70014fa223f3b71688feae171079ddb552bb581e3fcb"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_ca63e0a84ff449eeda85ec17392bbcf8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 568,
+    "record_sha256": "463f12bd7a635beb02296c5a8d4909cccb8e9fdd4df6c2b99320b5c845b56942"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d4f9a853b4c263dfe59f39cdf9802881",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 569,
+    "record_sha256": "90f4a17e1d039fc83b5844552f67d1bbb43d116eac4bf62bc6137d11a3fe06e2"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_dc21bd5f7482dc7b2f9a3faa6fc3e764",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 570,
+    "record_sha256": "bb0b8d6f1634b4f2503f1ca09fdf11ab082bdabb9dc49059eaaa98a5d650cb3c"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_c5f194e5be65cc5a217622f86a0f9faf",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 571,
+    "record_sha256": "3c7119ce71a01500d5641bc413e6309797eac25939c59c6f66bb0ca81c0eb1e1"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_7f5bcf6a6231c239b016b00e033eb5f3",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 572,
+    "record_sha256": "944e0ea80ef2da89bfb1ca4bcf263f60240301db736a6f0e998aeb7ee20b117e"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0941873594f0cc692312b6134be86955",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 574,
+    "record_sha256": "da16bbd454281980e48cd1ae3aa404788056684c9396f9f3e41fd9daa28151f6"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_750fde79b5b725fb0a75b924838ecd29",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 575,
+    "record_sha256": "7dc5f004c529d146a0e32245e42ccddb59335d4e854bc4aef9409688c33da3b6"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fd9fd2e879fe9dddfa1708709af1cc1a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 576,
+    "record_sha256": "84bada5d1d994ddacad476045ccc753be7fe1df167eee77f297f9d615463668e"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_cc9fa4e6afe9a0058354eef4f5e99b1c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 577,
+    "record_sha256": "342d7e27c1780b1a2bf1210d2f9bcd1c3aa140b90a13e5958bafe37242df8706"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_a585ea88c86ea47cb3d469258873f16f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 578,
+    "record_sha256": "9dc722558d6120d3d25093933436c3e6a4e3c1cef436d4b6586d78a76469ca8b"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fbcb46b53cb5876fa1dcd6f36dbc2bf6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 579,
+    "record_sha256": "f151be622453e8f040ce1846cbba78195a8bd45ba8989cca56f3ce6a6497f220"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5983c74c5561e0a06e213307cbc3524b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 583,
+    "record_sha256": "5c80b98949bdebd94167369c4e02eaeafa992fa2cdad2a3d52ee22e928b45d88"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_697564f41620f4793ff80315d87e0872",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 585,
+    "record_sha256": "20fc00270672a33c4033c932ab656e27d649d6e02503d70d611cf490062bb951"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_cb90ae79b2cfbbdc58ddbc8e95c8734f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 586,
+    "record_sha256": "576838ba6b58913cca63b8710102630c2594c46a9f53cda719429ed35f706f4f"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_84141916c69fc6ffbe64ba1bc5ff0a35",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 587,
+    "record_sha256": "80a7ecdd2d01f1d79cbf3349b7ba5f0013ad9d48550ab211ecfcb482e66597a4"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d406847f41e2a4e0a7df5dd8d479d9c6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 589,
+    "record_sha256": "288d7800b1687835641ba9b0acda2b104c26225ad6aacd5132696603faaa6889"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_f8564872ad53d3db5d88f56695eef4fb",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 596,
+    "record_sha256": "be666ce90f81a20323674238f6235bdf28118f2e8cee58c96d9a25875c6826ea"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_b6886f48bc0d1bfb67167e34e940c946",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 597,
+    "record_sha256": "76a2bf027a4255ff002773298dabe8ea034f8c648d36b81c09b9b85f1545eca6"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_a6d67ddeb111e8000e2eef25e80bf0ca",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 600,
+    "record_sha256": "8dd7828d1a495e1a01d42571b862c1981a29863503fe91c5567ed47234723425"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fdc536c33e4b2a51b384256edb535cc5",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 607,
+    "record_sha256": "450ab1af509863f40069605a177ea8611f232774a7d83776dd372aca5b529ca6"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_21a3d0d398806925b70a8cd9a0b21f8f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 613,
+    "record_sha256": "0432dcdd057ce93951eb4168cefc72f57a157d18583dc579caab8208981a1929"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_2663b300c754f806771be8032463e31a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 631,
+    "record_sha256": "2c657bffd32cebc999bda93846026f70d789be467a4e3b1f6471df3054ae5034"
+  },
+  {
+    "condition": "raw_cards",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_f80f770f02fc1853f73bc2453dbe1b19",
+    "source_path": "BACE/results/evidence_chain_v1/runs/raw_cards/calls.jsonl",
+    "source_line": 637,
+    "record_sha256": "5bc1fbd227878b2c94a9d809fa3e63f3e6200abd7b85b275666d5cc673125ec2"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__s1_14_health_safety_metrics",
+    "dc_id": "dc_eaa4bb800d6c4bbaf695e3bd885b37d3",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 5,
+    "record_sha256": "7d81f2567d1030773fd0ffe6eada22830b06bab1200ba9bdc14fcf8c715b25e4"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_020b5950c22bfab41203c9f3f5d5b61e",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 521,
+    "record_sha256": "d8374482c46d2f427d5f3690f4db94eaf19193bedaf045d561c8821320f0ee04"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_04342b2e96fd804ec1cd71b4547b945a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 527,
+    "record_sha256": "daca24c1a4c8c1098e60a53f9bb5435e65a2641fe6726c4670295bba8882f8ac"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_13bfff07abaa554415b50ae5abeb2641",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 529,
+    "record_sha256": "ef513937220050708638ab93143269f24cee3310291c34407f3bc1720e48dfe2"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0c2c58e3a79186ca9a5ae96646305e42",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 531,
+    "record_sha256": "7f0c2f6684f45c78895e0c538cfe321972d4e74783fab2472c935ef27f0f8992"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1701f2985934b8e25c177c42c1fc45e1",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 534,
+    "record_sha256": "1ea314a081d944894c14449a9a3056b80a631eceda99b66e05f13431b18ccef5"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1546d85ee4585d4f1d4895d69e957b0d",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 535,
+    "record_sha256": "f8d473162201fc44c57f8cdf5481425b4f2533790f0790f782e537f02c6c4c17"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_2663b300c754f806771be8032463e31a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 537,
+    "record_sha256": "b779ff8113791845d67db1ce6a7d9956c03ba165e417c1e3d96195669524fd7a"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_01953e2eadefd5983b2e2c1116fc63e4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 538,
+    "record_sha256": "cca26bbfe656b48c8884834c1d8aeebf9e0086f7beb0d7c523f6f2fe70431da0"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_13d758b27da99eebf9c700287f60f9a6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 540,
+    "record_sha256": "e5777d6c5ab454149402c0aa63e9be09124390eedcd8cd6918768eaa354eaa51"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_4f6ca7a9741de7d2cf32846d322b0142",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 541,
+    "record_sha256": "774c5765e69236749a8eb1a6883e34bb32d617aec195a7a8dd0b8821c0a7976a"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1f1c9e17e4a3748881829d838c3c5309",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 542,
+    "record_sha256": "3f634392f438bfc7e12afb48032ce5140a887a8991a9856f9420d700608b1dee"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_534f2910cdeee92addab104193aaffd8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 543,
+    "record_sha256": "f7bbe30b61112c5fc2dc198bedb6e82ec8f65ce2addc230668fc0456084a8c46"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0c98dc7d435e1e546399f97a5698be0c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 544,
+    "record_sha256": "b410cc040b1350c5d4e2727c1e94d590596c21d6f07431730d75417b2e0b63f6"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_562c9ae4b58a3875004d0654b8971fd4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 545,
+    "record_sha256": "046e909e99ca5b8474ea4055cf3a082c42d29be6fabaa02beb5568bcfcdfe91d"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_4d18c04f722c2080116610e1eab3f167",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 546,
+    "record_sha256": "b4c918e77f7a280d35b60588da1e955cc4cbe1c58d17d96fe234f6d989ffcda2"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5983c74c5561e0a06e213307cbc3524b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 547,
+    "record_sha256": "4fab8b3fa297dafca239304e5473a587e5e330d8cbde2c002b92fed8909beaa3"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5d2887ba6bc29c9b555ad711c6033196",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 548,
+    "record_sha256": "a87897dda2827f11af55ad212fefdae549d327580ed9bb1fb958e6e30e662157"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_546a64fa7b139a438aca4b8e4d08011c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 549,
+    "record_sha256": "05d8ed8679bd4ed31c7d40d53df32452ef4f820772a2539784d0d23f01c604bc"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_603e67b01e589d2745f1c774ec9739ff",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 551,
+    "record_sha256": "df9e837c674a40c5d204ff85fe7c2757c94cf2cbc8bbf6c6eaf76da3ef661e7f"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_665fa93b1d6e397dc7343d1b5084abad",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 552,
+    "record_sha256": "cfb3ec051f1c7b0e9918aad84a0f2813a8a02b8396c81027ac7a29b5e92f365f"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_697564f41620f4793ff80315d87e0872",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 553,
+    "record_sha256": "947248d65d33c8ff8fb738960e51e6a287df2a0467f475f2771f235e30f91ecb"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1eb63c491d7ba6e7c3776167a42c7207",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 554,
+    "record_sha256": "6fbe88cbeb1f0595b315fafd00af17e8931f8ff04ee7845fa47a0274561f6428"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_21a3d0d398806925b70a8cd9a0b21f8f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 556,
+    "record_sha256": "0d5c9e198e57dea543b4fe2b67e300ec13fd36e3516d8d20adc8f43c03638e5b"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5f3cf398a455e52812919fa33fe65f10",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 557,
+    "record_sha256": "bf45bf1c6ec18990844314564ce041d40bef7175534915ebe6fbc6ccb370a07f"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_347d3d2d2953059da40f67e051fb254e",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 558,
+    "record_sha256": "495c0faf12770dd8ea9cfb3897ce3589cb774361dbe302dab2ddc072554eab2d"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_7c545b7768f5121b112735ae51eec1d4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 559,
+    "record_sha256": "e81744fdd564d37394ec4e00885827a0fab2d139521bd62813d95dd0f5f700ae"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_750fde79b5b725fb0a75b924838ecd29",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 560,
+    "record_sha256": "2d3322d5fd9c639f3409fe92b2f3f72a913d170e40c64bc9f4be19cd17d601eb"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_84141916c69fc6ffbe64ba1bc5ff0a35",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 561,
+    "record_sha256": "d0074d97f49b5e0805239beb60e719fcf184789db8df0c2a520fea95ccdd6b23"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_86594cfec1703112da074af09dcf4499",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 562,
+    "record_sha256": "0b31f6bbef35f4bc34a0f0ae690eaa508929b002a464dbbe7444ad6883b1148f"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_719e82ea9fad2b9c6e2e23f46e544f5b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 563,
+    "record_sha256": "258d58192127ffe878548250086cecd1d51e38b5d156649139dc0e24f7bb2a74"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_8b490b78f58568d33c8638b55ced4e9b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 564,
+    "record_sha256": "cd022b2501ea77d8d09363cee170e10bd20feba2d1d5d634703874951a12ba40"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_2702889f63f9164977005b2116db44bf",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 565,
+    "record_sha256": "6349773a9cbf692c47925ad1566ddd3a6b7fc841a815f9c8b6c64a317def023e"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_a585ea88c86ea47cb3d469258873f16f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 566,
+    "record_sha256": "e77b4f5adeeee7f0f510f1784007e05978b8ec64ac9d5aac3cf97b9b53bf7395"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_3285ac47d0c2c10b5b5fc5139c8fd06a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 567,
+    "record_sha256": "a3e8fc0f9b1d80509e5825f22b17e9b64302baf880262da53779f9ce999578f0"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0941873594f0cc692312b6134be86955",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 568,
+    "record_sha256": "3e9b8629cf6b1e444b86c29ea97c9ec4363d327e1d5472fdf6eb0aa0ccdaee54"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_ca63e0a84ff449eeda85ec17392bbcf8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 569,
+    "record_sha256": "d70306da0062ad6e9677470dec474dba23a81a5d018bddee56c571a884a1cad8"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_cb90ae79b2cfbbdc58ddbc8e95c8734f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 570,
+    "record_sha256": "ab53a2b5a7e0030022d6770dc4abb934bbbca17df1375403ece490a9864a4fb2"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_03e39997509c7839900ed16ccd295e74",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 571,
+    "record_sha256": "53262d49fea289bea0013865b42dcad757c9a63a2479e40aaeb2355da8e8c2cd"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_b6886f48bc0d1bfb67167e34e940c946",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 573,
+    "record_sha256": "86a399d74df3c48b4538f99783fcd61f4d421f1bc4da838f85b02ac35825fe94"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_76c2ff1a26e34187bb17297c00f5030a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 574,
+    "record_sha256": "c807f5eebffb90a0851da8da76b1b0c556dc80f3ff2bd587f5c0eaef76ecf88a"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d406847f41e2a4e0a7df5dd8d479d9c6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 576,
+    "record_sha256": "09263f484eb46544b55d79641f11afa769fee14db68d5103a158824c37c8dd05"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fbcb46b53cb5876fa1dcd6f36dbc2bf6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 577,
+    "record_sha256": "3fbb934e2ca9f496453347a7e3ec9c60bfdfe2f21e201d8c1953faaa24e0c3d7"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d4f9a853b4c263dfe59f39cdf9802881",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 578,
+    "record_sha256": "2f5dd3c318ee432a2c11ac66c73d42b09e1fdfd8107790ebbb1b4ef16be37b51"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_f80f770f02fc1853f73bc2453dbe1b19",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 579,
+    "record_sha256": "bc535fa27397131bc05d6f5b279c7a58f71921e80e20b49ae086cdbab39d8420"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fdc536c33e4b2a51b384256edb535cc5",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 582,
+    "record_sha256": "5e386c1fd3c3722cefc6219aa9de92804032b1f72659f9bb54b1371a576090d9"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fd9fd2e879fe9dddfa1708709af1cc1a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 583,
+    "record_sha256": "d4a92171b1fb8be12acb2c16a41d871b167897493e5afd0441708aa5fc8c2e0b"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_74a28fdaf7cba9ce462b0eca1283be56",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 586,
+    "record_sha256": "99d9dd3f8f5308bb39bb9cd560babb0fb777300344b531da3f5f0eae845ac43e"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_dc21bd5f7482dc7b2f9a3faa6fc3e764",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 588,
+    "record_sha256": "fee0719c68968cc03daf4b0c806e73f95532070fb982c16f905000f2057cd301"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_a6d67ddeb111e8000e2eef25e80bf0ca",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 589,
+    "record_sha256": "56527f7a6663e73858b185949922b771c21d7c477a050273e0ebb3f8161b1655"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_c5f194e5be65cc5a217622f86a0f9faf",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 593,
+    "record_sha256": "214f35627112c1d07c5db95e6ee5bd5e2951c061118c184afb6d3223baaa6e07"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_8d19e439ea5a7afbfa9493679bdd69d8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 594,
+    "record_sha256": "c8f778b1c82ae6cf01c1846d77d7f443b84944da4e830c76fedb5487c80d2ee6"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_7f5bcf6a6231c239b016b00e033eb5f3",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 600,
+    "record_sha256": "9925c51087df80ca148ee0bafad71b93c26728a4808863f139fb559ccdd96b35"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_f8564872ad53d3db5d88f56695eef4fb",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 605,
+    "record_sha256": "8674c954c5412489900e3193f9d05ab4b5306259c87ac3e73f1766b34b07fd0e"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d2fc71b7ee2f7f1690ee83ab163e9826",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 607,
+    "record_sha256": "a35fdda597eaa1fe58ab5f26061ffc1b070c405c37b7c41232c932420df8b618"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0053be6d790be71f62d69dfde299af62",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 613,
+    "record_sha256": "07e450088ceaab9ccc91c35c3d3a97856b9a875782dbaec9d2d9d977fff0d842"
+  },
+  {
+    "condition": "all_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_cc9fa4e6afe9a0058354eef4f5e99b1c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/all_ec/calls.jsonl",
+    "source_line": 618,
+    "record_sha256": "d95891ed7415aec7782cb18bf8c9bda14b21687d8916851350763aafed6e1588"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2022__s1_14_health_safety_metrics",
+    "dc_id": "dc_eaa4bb800d6c4bbaf695e3bd885b37d3",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 4,
+    "record_sha256": "afc444f636a244a3d1f18dfc8677ecdc0803ad7b31b80e85c9a9e660fdb30f62"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0053be6d790be71f62d69dfde299af62",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 526,
+    "record_sha256": "66a09d28e5217d4a99bb7427d2a485a47b97c6fba339b682cdcdbe8ff1b70ea9"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_01953e2eadefd5983b2e2c1116fc63e4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 528,
+    "record_sha256": "0e37d3e94267a278bba3826f7f709c28723e6a990e6ced3646604a3e9e9b4965"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_03e39997509c7839900ed16ccd295e74",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 530,
+    "record_sha256": "2544a64d50cd5db29b5058dd9f68439936967df32bb8c9c91a31ee8092a7c410"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0c2c58e3a79186ca9a5ae96646305e42",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 531,
+    "record_sha256": "4e37d642ca5b999a749ef82a75ca3c24368b3b9f408936aeffb1999d078b54ac"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_13bfff07abaa554415b50ae5abeb2641",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 534,
+    "record_sha256": "11dea8f8b6277c699133969cf72ee5d10c47240948df4944c54e2a79317bb079"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1546d85ee4585d4f1d4895d69e957b0d",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 535,
+    "record_sha256": "9205e871e4b64756c4fc56c769bb23040014739ba1894686ef793518054a15b6"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1eb63c491d7ba6e7c3776167a42c7207",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 536,
+    "record_sha256": "f48bb56d31ea5101dc5ce43a9d48568da5b4adeacd5ca28a581d29b7280aab6b"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_13d758b27da99eebf9c700287f60f9a6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 537,
+    "record_sha256": "7f096a1c52b0e458ea1099e1fb57c2edca2b92c2badd245874e4e8a799eff225"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_21a3d0d398806925b70a8cd9a0b21f8f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 539,
+    "record_sha256": "a372a8341795ecf365faef4a49b27835f9d2ac1ffc1dac6580f09f6005934d91"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_2663b300c754f806771be8032463e31a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 540,
+    "record_sha256": "6ac7068db1c8c6262b6e016e5ad2f59c4f1b83d24af2bca221f2d877dd22c2ae"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1f1c9e17e4a3748881829d838c3c5309",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 543,
+    "record_sha256": "3ccf4d635f3709e3057d5c280daf8e027b250017367a4198aefaf528cbb45984"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0941873594f0cc692312b6134be86955",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 544,
+    "record_sha256": "8c2c0f88fd630f869d0cf3520de3066dfbe489bf25b38b527aac30c90edd8c23"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_4f6ca7a9741de7d2cf32846d322b0142",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 545,
+    "record_sha256": "41269831c8c7f0e5bcdc86eb2285ca5ffd6525d98fa24899621d214b849cc539"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_534f2910cdeee92addab104193aaffd8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 546,
+    "record_sha256": "6f6fb1002d9f0a92828ef51da4254c7aa6cb65723fbe9f0ce9f1459cda168875"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_1701f2985934b8e25c177c42c1fc45e1",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 547,
+    "record_sha256": "0973405ccfd6c3ef6dc3cb62dd070bfe94edfb2552076e15f03af7028b668e53"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_546a64fa7b139a438aca4b8e4d08011c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 548,
+    "record_sha256": "71dc52cdf3ae87d3488213f7612e77a6021e5bb86e37ac5f3cdf9613f37554ee"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_562c9ae4b58a3875004d0654b8971fd4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 549,
+    "record_sha256": "7f6493fb4b3174b888b5a4da17e2d8f78233898bc1eab91a29c3ca9039a30620"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5983c74c5561e0a06e213307cbc3524b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 550,
+    "record_sha256": "4e77e1a9fd85478871ff33ca370d0a67046aa4ecdedc756f6c264b49b503483d"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_347d3d2d2953059da40f67e051fb254e",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 551,
+    "record_sha256": "ae7f67a312fc4d3365ff9ee7ae783f57e66aa9c728b5e18be16feb820a18831e"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_719e82ea9fad2b9c6e2e23f46e544f5b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 552,
+    "record_sha256": "958fa67b92617d93ca3eb1904483f66fa723658bec3f2bbeed2da5e0f3fb2217"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_020b5950c22bfab41203c9f3f5d5b61e",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 553,
+    "record_sha256": "7807f8140b0586263d3cc9a1afaffb2871c52c7b1d8d4c7b9c60a61fe31f057f"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_74a28fdaf7cba9ce462b0eca1283be56",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 554,
+    "record_sha256": "a64a937fed4778060c2c782368ec6fab62bbb60eed900a9037cd24ad588339dd"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_750fde79b5b725fb0a75b924838ecd29",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 555,
+    "record_sha256": "7bf7c409bb474ee7bfddb54ab38842624bf7b732769351e81b2a9c11983ae4a0"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_04342b2e96fd804ec1cd71b4547b945a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 556,
+    "record_sha256": "1aa6c081bc1f45e0278fa7b75aab0319bc77424e18a98c411a34df3f4c833e4d"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_7f5bcf6a6231c239b016b00e033eb5f3",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 557,
+    "record_sha256": "8e40fdd2ab575c38632ad483c09d15f5d9acb3ea2e5a5dfbce6a2adc54172839"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_84141916c69fc6ffbe64ba1bc5ff0a35",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 559,
+    "record_sha256": "7cd55aecd6b9289ee2e4178b8fabfbbedb0b43d457e94fff2a6e0df7fee99185"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_86594cfec1703112da074af09dcf4499",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 560,
+    "record_sha256": "d3f61de5ba3476a7df82bc8e8bab750d9313884de530950cb27ea9183c6ea954"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_8b490b78f58568d33c8638b55ced4e9b",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 562,
+    "record_sha256": "8a30f217e1a7c0b23a55afe28f9169b56f6ac295d428237fec64a7999ec36aaf"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_8d19e439ea5a7afbfa9493679bdd69d8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 563,
+    "record_sha256": "42cbc3d58ef2a63121c3e662c33a5c00383b58f22c3a337ea96b3e5f2a44d255"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5d2887ba6bc29c9b555ad711c6033196",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 564,
+    "record_sha256": "89b2f0a7519e5e1c2599008a18d7373d583a99990309360dd1dee982119af5d9"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_5f3cf398a455e52812919fa33fe65f10",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 565,
+    "record_sha256": "4f3f47a5c8f85e03ec79262ec9a6c424beb489c7cc11920bb3c192e12f5b8682"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_c5f194e5be65cc5a217622f86a0f9faf",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 566,
+    "record_sha256": "47c9a093c3566fe508b8f570de0f762261973764d32ebb7bc3299d90b1104d3b"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_a585ea88c86ea47cb3d469258873f16f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 567,
+    "record_sha256": "29fcc62cd61991218687c8dfd9514316530d2594b13e21ae81f9b309a990edb7"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_ca63e0a84ff449eeda85ec17392bbcf8",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 568,
+    "record_sha256": "ff98cb8676a4b7881980a30d5c07de6d82754eb89dec2595d92b2b1eb6ff72d2"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_a6d67ddeb111e8000e2eef25e80bf0ca",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 570,
+    "record_sha256": "f45d0380bba956b417ffe45129b2d269ae7f07002f416ca228aeb227b7977d73"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_76c2ff1a26e34187bb17297c00f5030a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 571,
+    "record_sha256": "d6d4c3e43722c8f8898e72ff804bfaa4ef5a96220f7b0b1d46fe6d446ebed4b1"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d4f9a853b4c263dfe59f39cdf9802881",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 573,
+    "record_sha256": "8f9c345c5156bcaef1f488133af17214b087f4065200beefe917c5bbbc2069b2"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_f8564872ad53d3db5d88f56695eef4fb",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 574,
+    "record_sha256": "b753bbf5f41888ab41ccd57febbf39be1a0cfd335145ea8b492f6b14eb39b6d4"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_3285ac47d0c2c10b5b5fc5139c8fd06a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 575,
+    "record_sha256": "7f7119450688ff73769e35d76f83ab7487a6d643a7962bb2aa3a4e37b235e096"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_4d18c04f722c2080116610e1eab3f167",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 576,
+    "record_sha256": "343624be5332bef423bea790ff83db2f2bd8ede2f36b5b6315c948991fdec1d8"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_cb90ae79b2cfbbdc58ddbc8e95c8734f",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 577,
+    "record_sha256": "4605373fe7a2562a708e96da6eb5e024b3d9f33433ff703e886ebe6b526d6a6f"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d2fc71b7ee2f7f1690ee83ab163e9826",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 578,
+    "record_sha256": "5b8bf53c55e7afe01f12ed5255e418760de1684fb463395bca8114b3c9f98192"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_2702889f63f9164977005b2116db44bf",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 579,
+    "record_sha256": "196549f424e867f0f309a2d132e0df804c8a71895332cce14ebb32066e7c1b27"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fdc536c33e4b2a51b384256edb535cc5",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 580,
+    "record_sha256": "818e10d121158ad1da628b223c60420cf5c03380dffa993a3ef6f29ddc136a98"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_7c545b7768f5121b112735ae51eec1d4",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 581,
+    "record_sha256": "a1fb8b826e6bc6c3cec02f91177b5689dfc0b3579d32e831bc90f56393c8ab51"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_665fa93b1d6e397dc7343d1b5084abad",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 582,
+    "record_sha256": "01bd04cebfead5376b5a5994003c4716c0e195ecb6e3090855e269e28fdd89da"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_b6886f48bc0d1bfb67167e34e940c946",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 584,
+    "record_sha256": "873e225ffcaae12b7066fbe67f4f4f528240f3fa35cdd55194b3b1660dac3b0d"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_cc9fa4e6afe9a0058354eef4f5e99b1c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 588,
+    "record_sha256": "96f1e01c5b6ced48a8c479cf7bf73fcd2e61f96e9a4ec70f01e2f52712730ab0"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_603e67b01e589d2745f1c774ec9739ff",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 590,
+    "record_sha256": "4c9a81e2e44418b39eb79193bac09ed9f7a217803487525bdea3918d3a62ebdc"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_0c98dc7d435e1e546399f97a5698be0c",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 593,
+    "record_sha256": "60b714fd5b0d97b89ac9a494f483948449a65e0517a45d8e865b19825b10927e"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fbcb46b53cb5876fa1dcd6f36dbc2bf6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 597,
+    "record_sha256": "825a884e384739edfa4927db99602d99303a036d824968d7138a8e2445956b42"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_fd9fd2e879fe9dddfa1708709af1cc1a",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 602,
+    "record_sha256": "a0df2b1f8c95879af34e3144c5183dee707cc354ab73d771f3e328de4bcc792e"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_f80f770f02fc1853f73bc2453dbe1b19",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 609,
+    "record_sha256": "4cc9c34cbb5b7feec03faf94af2743ad67dee482e686f307bc81810ae9b22f69"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_d406847f41e2a4e0a7df5dd8d479d9c6",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 627,
+    "record_sha256": "8b33891c4fcb48830e221cbc5c9897ef53204aecddfd365e4a5a79028b4ff21f"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_dc21bd5f7482dc7b2f9a3faa6fc3e764",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 630,
+    "record_sha256": "44bc9c944129b9a7250836eda6aeb5686b96fb3abd0fef929f2738f96ce8401a"
+  },
+  {
+    "condition": "candidate_ec",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+    "dc_id": "dc_697564f41620f4793ff80315d87e0872",
+    "source_path": "BACE/results/evidence_chain_v1/runs/candidate_ec/calls.jsonl",
+    "source_line": 631,
+    "record_sha256": "d0b58851581623c93d21e0e2a05c91d9e27f86c7b5511c6573867149d8572a22"
+  }
+]

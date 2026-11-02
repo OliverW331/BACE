@@ -1,0 +1,1023 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T21:44:34Z",
+      "timestamp": 1787003074014,
+      "version": "build-2736575974"
+    },
+    "reference-count": 91,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2026-07-07T00:00:00Z",
+          "timestamp": 1783382400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2026-07-07T00:00:00Z",
+          "timestamp": 1783382400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001659",
+        "name": "Deutsche Forschungsgemeinschaft",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "403041268"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "403041268"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001659",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001711",
+        "name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "197485"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "197485"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001711",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Commun"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Companies play a crucial role in achieving global sustainability goals, yet evidence on their progress across environmental, social, and governance (ESG) dimensions remains limited. We develop a machine learning framework to systematically extract ESG indicators from corporate reports. Applying this approach to annual and sustainability reports of 600 large European firms (2014–2023), we construct a dataset of 2.9 million ESG observations across environmental, social, and governance topics. We assess ESG transparency based on disclosures aligned with the European Sustainability Reporting Standards (ESRS) and evaluate ESG performance using extracted numerical indicators. Results reveal a pronounced transparency gap: firms in the top ESG rating decile disclose 22% more indicators than those in the bottom decile, although this gap narrows over time. Performance trends are uneven: while most social indicators remain largely stagnant, except for gains in gender equality, environmental indicators show some improvement. Reported scope 3 emissions increase sharply, largely reflecting improved disclosure. Our open-source framework enables systematic tracking of corporate ESG efforts.</jats:p>",
+    "DOI": "10.1038/s41467-026-75160-z",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2026-07-07T15:05:00Z",
+      "timestamp": 1783436700000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Assessing corporate sustainability with large language models: evidence from Europe"
+    ],
+    "prefix": "10.1038",
+    "volume": "17",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-4492-4346",
+        "authenticated-orcid": false,
+        "given": "Kerstin",
+        "family": "Forster",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-3599-5066",
+        "authenticated-orcid": false,
+        "given": "Lucas",
+        "family": "Keil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-8739-2872",
+        "authenticated-orcid": false,
+        "given": "Victor",
+        "family": "Wagner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maximilian A.",
+        "family": "Müller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Thorsten",
+        "family": "Sellhorn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7856-8729",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Feuerriegel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          7
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "75160_CR1",
+        "unstructured": "Carbon Disclosure Project. The Carbon Majors database: launch report. https://carbonmajors.org/site/data/000/027/Carbon_Majors_Launch_Report.pdf (2024)."
+      },
+      {
+        "key": "75160_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "279",
+        "DOI": "10.1038/s41558-024-02236-3",
+        "volume": "15",
+        "author": "X Jiang",
+        "year": "2025",
+        "unstructured": "Jiang, X., Kim, S. & Lu, S. Limited accountability and awareness of corporate emissions target outcomes. Nat. Clim. Change 15, 279–286 (2025).",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "key": "75160_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-43116-2",
+        "volume": "14",
+        "author": "S Cenci",
+        "year": "2023",
+        "unstructured": "Cenci, S., Burato, M., Rei, M. & Zollo, M. The alignment of companies’ sustainability behavior and emissions with global climate targets. Nat. Commun. 14, 7831 (2023).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "75160_CR4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-31143-4",
+        "volume": "13",
+        "author": "S Rekker",
+        "year": "2022",
+        "unstructured": "Rekker, S., Ives, M. C., Wade, B., Webb, L. & Greig, C. Measuring corporate Paris compliance using a strict science-based approach. Nat. Commun. 13, 4441 (2022).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "75160_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "609",
+        "DOI": "10.1146/annurev-environ-120120-052845",
+        "volume": "47",
+        "author": "H Österblom",
+        "year": "2022",
+        "unstructured": "Österblom, H., Bebbington, J., Blasiak, R., Sobkowiak, M. & Folke, C. Transnational corporations, biosphere stewardship, and sustainable futures. Annu. Rev. Environ. Resour. 47, 609–635 (2022).",
+        "journal-title": "Annu. Rev. Environ. Resour."
+      },
+      {
+        "key": "75160_CR6",
+        "unstructured": "Climate Action 100+. Climate Action 100+. https://www.climateaction100.org/ (2025)."
+      },
+      {
+        "key": "75160_CR7",
+        "unstructured": "The Climate Pledge. The Climate Pledge. https://www.theclimatepledge.com/ (2025)."
+      },
+      {
+        "key": "75160_CR8",
+        "unstructured": "Science Based Targets Initiative. Ambitious corporate climate action. https://sciencebasedtargets.org/ (2025)."
+      },
+      {
+        "key": "75160_CR9",
+        "unstructured": "Eurostat. Gender pay gap statistics https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Gender_pay_gap_statistics (2025)."
+      },
+      {
+        "key": "75160_CR10",
+        "unstructured": "McKinsey & Company. Diversity matters even more: the case for holistic impact. https://www.mckinsey.com/featured-insights/diversity-and-inclusion/diversity-matters-even-more-the-case-for-holistic-impact#/ (2023)."
+      },
+      {
+        "key": "75160_CR11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-025-05664-8",
+        "volume": "12",
+        "author": "J Beck",
+        "year": "2025",
+        "unstructured": "Beck, J. et al. Addressing data gaps in sustainability reporting: a benchmark dataset for greenhouse gas emission extraction. Sci. Data 12, 1497 (2025).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "75160_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "101640",
+        "DOI": "10.1016/j.jacceco.2023.101640",
+        "volume": "76",
+        "author": "S Cohen",
+        "year": "2023",
+        "unstructured": "Cohen, S., Kadach, I. & Ormazabal, G. Institutional investors, climate disclosure, and carbon emissions. J. Account. Econ. 76, 101640 (2023).",
+        "journal-title": "J. Account. Econ."
+      },
+      {
+        "key": "75160_CR13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-26349-x",
+        "volume": "12",
+        "author": "L Klaaßen",
+        "year": "2021",
+        "unstructured": "Klaaßen, L. & Stoll, C. Harmonizing corporate carbon footprints. Nat. Commun. 12, 6149 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "75160_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "42",
+        "DOI": "10.1038/s43247-024-01200-5",
+        "volume": "5",
+        "author": "R Mastrandrea",
+        "year": "2024",
+        "unstructured": "Mastrandrea, R., ter Burg, R., Shan, Y., Hubacek, K. & Ruzzenenti, F. Assessments of the environmental performance of global companies need to account for company size. Commun. Earth Environ. 5, 42 (2024).",
+        "journal-title": "Commun. Earth Environ."
+      },
+      {
+        "key": "75160_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "105129",
+        "DOI": "10.1016/j.eneco.2021.105129",
+        "volume": "95",
+        "author": "Q Nguyen",
+        "year": "2021",
+        "unstructured": "Nguyen, Q., Diaz-Rainey, I. & Kuruppuarachchi, D. Predicting corporate carbon footprints for climate finance risk analyses: a machine learning approach. Energy Econ. 95, 105129 (2021).",
+        "journal-title": "Energy Econ."
+      },
+      {
+        "key": "75160_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1096",
+        "DOI": "10.1038/s41558-020-0895-9",
+        "volume": "10",
+        "author": "Z Zhang",
+        "year": "2020",
+        "unstructured": "Zhang, Z. et al. Embodied carbon emissions in the supply chains of multinational enterprises. Nat. Clim. Change 10, 1096–1101 (2020).",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "key": "75160_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arslan, M., Munawar, S. & Sibilla, M. Sustainable energy decision-making with an RAG-LLM system. In 2024 International Conference on Decision Aid Sciences and Applications (2024).",
+        "DOI": "10.1109/DASA63652.2024.10836639"
+      },
+      {
+        "key": "75160_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ardic, O., Ozturk, M. U., Demirtas, I. & Arslan, S. Information extraction from sustainability reports in Turkish through RAG approach. In 2024 32nd Signal Processing and Communications Applications Conference (2024).",
+        "DOI": "10.1109/SIU61531.2024.10600994"
+      },
+      {
+        "key": "75160_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, J.-Y. et al. EcoSmartGuide: language learning model and retrieval-augmented generation-based platform for streamlined environmental, social, and governance information access and report generation. In 2024 IEEE 6th Eurasia Conference on Biomedical Engineering, Healthcare and Sustainability, 343–347 (2024).",
+        "DOI": "10.1109/ECBIOS61468.2024.10885500"
+      },
+      {
+        "key": "75160_CR20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epjds/s13688-024-00481-2",
+        "volume": "13",
+        "author": "M Bronzini",
+        "year": "2024",
+        "unstructured": "Bronzini, M., Nicolini, C., Lepri, B., Passerini, A. & Staiano, J. Glitter or gold? deriving structured insights from sustainability reports via large language models. EPJ Data Sci. 13, 41 (2024).",
+        "journal-title": "EPJ Data Sci."
+      },
+      {
+        "key": "75160_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "021010",
+        "DOI": "10.1088/2515-7620/ad9e88",
+        "volume": "7",
+        "author": "C Colesanti Senni",
+        "year": "2025",
+        "unstructured": "Colesanti Senni, C., Schimanski, T., Bingler, J., Ni, J. & Leippold, M. Using AI to assess corporate climate transition disclosures. Environ. Res. Commun. 7, 021010 (2025).",
+        "journal-title": "Environ. Res. Commun."
+      },
+      {
+        "key": "75160_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "144572",
+        "DOI": "10.1016/j.jclepro.2024.144572",
+        "volume": "489",
+        "author": "Y Zou",
+        "year": "2025",
+        "unstructured": "Zou, Y. et al. ESGReveal: an LLM-based approach for extracting structured data from ESG reports. J. Clean. Prod. 489, 144572 (2025).",
+        "journal-title": "J. Clean. Prod."
+      },
+      {
+        "key": "75160_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ni, J. et al. CHATREPORT: democratizing sustainability disclosure analysis through LLM-based tools. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 21–51 (Association for Computational Linguistics, Singapore, 2023).",
+        "DOI": "10.18653/v1/2023.emnlp-demo.3"
+      },
+      {
+        "key": "75160_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schimanski, T., Ni, J., Martín, R. S., Ranger, N. & Leippold, M. ClimRetrieve: a benchmarking dataset for information retrieval from corporate climate disclosures. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 17509–17524 (Association for Computational Linguistics, Miami, Florida, USA, 2024).",
+        "DOI": "10.18653/v1/2024.emnlp-main.969"
+      },
+      {
+        "key": "75160_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "107191",
+        "DOI": "10.1016/j.jbankfin.2024.107191",
+        "volume": "164",
+        "author": "JA Bingler",
+        "year": "2024",
+        "unstructured": "Bingler, J. A., Kraus, M., Leippold, M. & Webersinke, N. How cheap talk in climate disclosures relates to climate initiatives, corporate emissions, and reputation risk. J. Bank. Financ. 164, 107191 (2024).",
+        "journal-title": "J. Bank. Financ."
+      },
+      {
+        "key": "75160_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schimanski, T., Bingler, J., Kraus, M., Hyslop, C. & Leippold, M. ClimateBERT-NetZero: detecting and assessing net zero and reduction targets. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, 15745–15756 (Association for Computational Linguistics, Singapore, 2023).",
+        "DOI": "10.18653/v1/2023.emnlp-main.975"
+      },
+      {
+        "key": "75160_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "765",
+        "DOI": "10.1111/1911-3846.12825",
+        "volume": "40",
+        "author": "K Bochkay",
+        "year": "2023",
+        "unstructured": "Bochkay, K., Brown, S. V., Leone, A. J. & Tucker, J. W. Textual analysis in accounting: What’s next? Contemp. Account. Res. 40, 765–805 (2023).",
+        "journal-title": "Contemp. Account. Res."
+      },
+      {
+        "key": "75160_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1187",
+        "DOI": "10.1111/1475-679X.12123",
+        "volume": "54",
+        "author": "T Loughran",
+        "year": "2016",
+        "unstructured": "Loughran, T. & McDonald, B. Textual analysis in accounting and finance: a survey. J. Account. Res. 54, 1187–1230 (2016).",
+        "journal-title": "J. Account. Res."
+      },
+      {
+        "key": "75160_CR29",
+        "unstructured": "KPMG & Google Cloud. Closing the disconnect in ESG data. https://assets.kpmg.com/content/dam/kpmg/xx/pdf/2021/10/closing-the-disconnect-in-esg-data.pdf (2021)."
+      },
+      {
+        "key": "75160_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1410",
+        "DOI": "10.1126/science.1233480",
+        "volume": "340",
+        "author": "D Weil",
+        "year": "2013",
+        "unstructured": "Weil, D., Graham, M. & Fung, A. Targeting transparency. Science 340, 1410–1411 (2013).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "75160_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.1007/s41464-018-0065-z",
+        "volume": "71",
+        "author": "K Hombach",
+        "year": "2019",
+        "unstructured": "Hombach, K. & Sellhorn, T. Shaping corporate actions through targeted transparency regulation: a framework and review of extant evidence. Schmalenbach Bus. Rev. 71, 137–168 (2019).",
+        "journal-title": "Schmalenbach Bus. Rev."
+      },
+      {
+        "key": "75160_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "284",
+        "DOI": "10.1016/j.jacceco.2017.08.001",
+        "volume": "64",
+        "author": "HB Christensen",
+        "year": "2017",
+        "unstructured": "Christensen, H. B., Floyd, E., Liu, L. Y. & Maffett, M. The real effects of mandated information on social responsibility in financial reports: evidence from mine-safety records. J. Account. Econ. 64, 284–304 (2017).",
+        "journal-title": "J. Account. Econ."
+      },
+      {
+        "key": "75160_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bonetti, P., Leuz, C. & Michelon, G. Internalizing externalities through public pressure: transparency regulation for fracking and water quality. https://ssrn.com/abstract=4959265 (2024).",
+        "DOI": "10.3386/w30842"
+      },
+      {
+        "key": "75160_CR34",
+        "unstructured": "European Parliament and the Council of the European Union. Directive (EU) 2022/2464 of the European Parliament and of the Council of 14 December 2022 amending Regulation (EU) No 537/2014, Directive 2004/109/EC, Directive 2006/43/EC and Directive 2013/34/EU, as regards corporate sustainability reporting (text with EEA relevance). Official Journal of the European Union L322, 15–80 (2022)."
+      },
+      {
+        "key": "75160_CR35",
+        "unstructured": "European Financial Reporting Advisory Group (EFRAG). ESRS XBRL taxonomy. https://www.efrag.org/en/projects/esrs-xbrl-taxonomy/concluded (2024)."
+      },
+      {
+        "key": "75160_CR36",
+        "unstructured": "Organisation for Economic Co-operation and Development. OECD review on aligning finance with climate goals. https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/10/oecd-review-on-aligning-finance-with-climate-goals_646508f2/b9b7ce49-en.pdf (2024)."
+      },
+      {
+        "key": "75160_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "837",
+        "DOI": "10.1126/science.add6815",
+        "volume": "381",
+        "author": "M Greenstone",
+        "year": "2023",
+        "unstructured": "Greenstone, M., Leuz, C. & Breuer, P. Mandatory disclosure would reveal corporate carbon damages. Science 381, 837–840 (2023).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "75160_CR38",
+        "unstructured": "MSCI Inc. ESG ratings. https://www.msci.com/data-and-analytics/sustainability-solutions/esg-ratings (2025)."
+      },
+      {
+        "key": "75160_CR39",
+        "unstructured": "London Stock Exchange Group. Environmental, social and governance scores from LSEG. https://www.lseg.com/content/dam/data-analytics/en_us/documents/methodology/lseg-esg-scores-methodology.pdf (2024)."
+      },
+      {
+        "key": "75160_CR40",
+        "unstructured": "European Commission. Corporate sustainability due diligence. https://commission.europa.eu/business-economy-euro/doing-business-eu/sustainability-due-diligence-responsible-business/corporate-sustainability-due-diligence_en (2024)."
+      },
+      {
+        "key": "75160_CR41",
+        "unstructured": "European Commission. Zero pollution action plan. https://environment.ec.europa.eu/strategy/zero-pollution-action-plan_en (2021)."
+      },
+      {
+        "key": "75160_CR42",
+        "unstructured": "GHG Protocol. Corporate Value Chain (Scope 3) Accounting and Reporting Standard. https://ghgprotocol.org/corporate-value-chain-scope-3-standard (2011)."
+      },
+      {
+        "key": "75160_CR43",
+        "unstructured": "London Stock Exchange Group. Worldscope Fundamentals. https://www.lseg.com/en/data-analytics/financial-data/company-data/fundamentals-data/worldscope-fundamentals (2025)."
+      },
+      {
+        "key": "75160_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "7",
+        "DOI": "10.1038/s44168-024-00196-0",
+        "volume": "4",
+        "author": "M Callaghan",
+        "year": "2025",
+        "unstructured": "Callaghan, M. et al. Machine learning map of climate policy literature reveals disparities between scientific attention, policy density, and emissions. npj Clim. Action 4, 7 (2025).",
+        "journal-title": "npj Clim. Action"
+      },
+      {
+        "key": "75160_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "966",
+        "DOI": "10.1038/s41558-021-01168-6",
+        "volume": "11",
+        "author": "M Callaghan",
+        "year": "2021",
+        "unstructured": "Callaghan, M. et al. Machine-learning-based evidence and attribution mapping of 100,000 climate impact studies. Nat. Clim. Change 11, 966–972 (2021).",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "key": "75160_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gehricke, S., Leippold, M., Schimanski, T. & Delgado Fajardo, C. To disclose, or not to disclose: evaluating the effectiveness of mandatory climate-related disclosure. SSRN Electronic J. https://ssrn.com/abstract=5246456 (2025).",
+        "DOI": "10.2139/ssrn.5246456"
+      },
+      {
+        "key": "75160_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "104979",
+        "DOI": "10.1016/j.frl.2024.104979",
+        "volume": "61",
+        "author": "T Schimanski",
+        "year": "2024",
+        "unstructured": "Schimanski, T. et al. Bridging the gap in ESG measurement: using NLP to quantify environmental, social, and governance communication. Financ. Res. Lett. 61, 104979 (2024).",
+        "journal-title": "Financ. Res. Lett."
+      },
+      {
+        "key": "75160_CR48",
+        "unstructured": "Toetzke, M., Probst, B., Feuerriegel, S., Anadon, L. D. & Hoffmann, V. H. Analyzing the dynamics of innovation networks in climate technologies using large language models. https://ssrn.com/abstract=4810933 (2024)."
+      },
+      {
+        "key": "75160_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "897",
+        "DOI": "10.1038/s41558-022-01482-7",
+        "volume": "12",
+        "author": "M Toetzke",
+        "year": "2022",
+        "unstructured": "Toetzke, M., Stünzi, A. & Egli, F. Consistent and replicable estimation of bilateral climate finance. Nat. Clim. Change 12, 897–900 (2022).",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "key": "75160_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "533",
+        "DOI": "10.1038/s41893-022-00874-z",
+        "volume": "5",
+        "author": "M Toetzke",
+        "year": "2022",
+        "unstructured": "Toetzke, M., Banholzer, N. & Feuerriegel, S. Monitoring global development aid with machine learning. Nat. Sustainability 5, 533–541 (2022).",
+        "journal-title": "Nat. Sustainability"
+      },
+      {
+        "key": "75160_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1941",
+        "DOI": "10.1111/1475-679X.12575",
+        "volume": "62",
+        "author": "Y Lin",
+        "year": "2024",
+        "unstructured": "Lin, Y., Shen, R., Wang, J. & Yu, Y. J. Global evolution of environmental and social disclosure in annual reports. J. Account. Res. 62, 1941–1988 (2024).",
+        "journal-title": "J. Account. Res."
+      },
+      {
+        "key": "75160_CR52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ioannou, I. & Serafeim, G. The consequences of mandatory corporate sustainability reporting. In McWilliams, A., Rupp, D. E., Siegel, D. S., Stahl, G. K. & Waldman, D. A. (eds.) The Oxford Handbook of Corporate Social Responsibility: Psychological and Organizational Perspectives (Oxford University Press, 2019).",
+        "DOI": "10.1093/oxfordhb/9780198802280.013.20"
+      },
+      {
+        "key": "75160_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "240",
+        "DOI": "10.1016/j.jacceco.2014.08.004",
+        "volume": "58",
+        "author": "A Ali",
+        "year": "2014",
+        "unstructured": "Ali, A., Klasa, S. & Yeung, E. Industry concentration and corporate disclosure policy. J. Account. Econ. 58, 240–264 (2014).",
+        "journal-title": "J. Account. Econ."
+      },
+      {
+        "key": "75160_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.2308/TAR-2019-0506",
+        "volume": "97",
+        "author": "DM Christensen",
+        "year": "2022",
+        "unstructured": "Christensen, D. M., Serafeim, G. & Sikochi, A. Why is corporate virtue in the eye of the beholder? the case of ESG ratings.  Account. Rev. 97, 147–175 (2022).",
+        "journal-title": "Account. Rev."
+      },
+      {
+        "key": "75160_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "3021",
+        "DOI": "10.1007/s11142-025-09882-8",
+        "volume": "30",
+        "author": "K Bochkay",
+        "year": "2025",
+        "unstructured": "Bochkay, K., Hales, J. & Serafeim, G. Disclosure standards and communication norms: evidence of voluntary sustainability standards as a coordinating device for capital markets. Rev. Account. Stud. 30, 3021–3064 (2025).",
+        "journal-title": "Rev. Account. Stud."
+      },
+      {
+        "key": "75160_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "1315",
+        "DOI": "10.1093/rof/rfac033",
+        "volume": "26",
+        "author": "F Berg",
+        "year": "2022",
+        "unstructured": "Berg, F., Kölbel, J. F. & Rigobon, R. Aggregate confusion: the divergence of ESG ratings. Rev. Financ. 26, 1315–1344 (2022).",
+        "journal-title": "Rev. Financ."
+      },
+      {
+        "key": "75160_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berg, F., Fabisik, K. & Sautner, Z. Is history repeating itself? The (un) predictable past of ESG ratings. https://ssrn.com/abstract=3722087 (2021).",
+        "DOI": "10.2139/ssrn.3722087"
+      },
+      {
+        "key": "75160_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "2617",
+        "DOI": "10.1093/rfs/hhad002",
+        "volume": "36",
+        "author": "E Ilhan",
+        "year": "2023",
+        "unstructured": "Ilhan, E., Krueger, P., Sautner, Z. & Starks, L. T. Climate risk disclosure and institutional investors.  Rev. Financial Stud. 36, 2617–2650 (2023).",
+        "journal-title": "Rev. Financial Stud."
+      },
+      {
+        "key": "75160_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "303",
+        "DOI": "10.1016/j.aos.2007.05.003",
+        "volume": "33",
+        "author": "PM Clarkson",
+        "year": "2008",
+        "unstructured": "Clarkson, P. M., Li, Y., Richardson, G. D. & Vasvari, F. P. Revisiting the relation between environmental performance and environmental disclosure: an empirical analysis. Account., Organ. Soc. 33, 303–327 (2008).",
+        "journal-title": "Account., Organ. Soc."
+      },
+      {
+        "key": "75160_CR60",
+        "unstructured": "London Stock Exchange Group. ESG data. https://www.lseg.com/en/data-analytics/financial-data/company-data/esg-data (2025)."
+      },
+      {
+        "key": "75160_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "3499",
+        "DOI": "10.1111/jofi.13498",
+        "volume": "80",
+        "author": "F Derrien",
+        "year": "2025",
+        "unstructured": "Derrien, F., Krueger, P., Landier, A. & Yao, T. ESG news, future cash flows, and firm value.  J. Financ. 80, 3499–3554 (2025).",
+        "journal-title": "J. Financ."
+      },
+      {
+        "key": "75160_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "118",
+        "DOI": "10.1007/s43546-024-00714-6",
+        "volume": "4",
+        "author": "P Tamasiga",
+        "year": "2024",
+        "unstructured": "Tamasiga, P., Onyeaka, H., Bakwena, M. & Ouassou, E. H. Beyond compliance: evaluating the role of environmental, social and governance disclosures in enhancing firm value and performance. SN Bus. Econ. 4, 118 (2024).",
+        "journal-title": "SN Bus. Econ."
+      },
+      {
+        "key": "75160_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "1151",
+        "DOI": "10.1093/rof/rfae010",
+        "volume": "28",
+        "author": "A Garel",
+        "year": "2024",
+        "unstructured": "Garel, A., Romec, A., Sautner, Z. & Wagner, A. F. Do investors care about biodiversity? Rev. Financ. 28, 1151–1186 (2024).",
+        "journal-title": "Rev. Financ."
+      },
+      {
+        "key": "75160_CR64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bourveau, T., Chowdhury, M., Le, A. & Rouen, E. Human capital disclosures. SSRN Electronic Journal. https://ssrn.com/abstract=4138543 (2022).",
+        "DOI": "10.2139/ssrn.4138543"
+      },
+      {
+        "key": "75160_CR65",
+        "unstructured": "Taskforce on Nature-related Financial Disclosures. Recommendations of the taskforce on nature-related financial disclosures. https://tnfd.global/wp-content/uploads/2023/08/Recommendations-of-the-Taskforce-on-Nature-related-Financial-Disclosures.pdf (2023)."
+      },
+      {
+        "key": "75160_CR66",
+        "unstructured": "European Parliament and the Council of the European Union. Regulation (EU) 2021/1119 of the European Parliament and of the Council of 30 June 2021 establishing the framework for achieving climate neutrality and amending Regulations (EC) No 401/2009 and (EU) 2018/1999 (\"European Climate Law”). Official Journal of the European Union L243, 1-17 (2021)."
+      },
+      {
+        "key": "75160_CR67",
+        "unstructured": "STOXX Ltd. STOXX Europe 600. https://stoxx.com/index/sxxp/ (2025)."
+      },
+      {
+        "key": "75160_CR68",
+        "unstructured": "Sustainability Accounting Standards Board. Find your industry. https://sasb.ifrs.org/find-your-industry/ (2025)."
+      },
+      {
+        "key": "75160_CR69",
+        "unstructured": "Lewis, P. et al. Retrieval-augmented generation for knowledge-intensive NLP tasks. In Advances in Neural Information Processing Systems, 33, 9459–9474 (Curran Associates, Inc, 2020)."
+      },
+      {
+        "key": "75160_CR70",
+        "unstructured": "Artifex Software. PyMuPDF. https://github.com/pymupdf/PyMuPDF (2025)."
+      },
+      {
+        "key": "75160_CR71",
+        "unstructured": "LangChain. How to recursively split text by characters. https://python.langchain.com/docs/how_to/recursive_text_splitter/ (2025)."
+      },
+      {
+        "key": "75160_CR72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X. et al. Searching for best practices in retrieval-augmented generation. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 17716-17736 (Association for Computational Linguistics, Miami, Florida, USA, 2024).",
+        "DOI": "10.18653/v1/2024.emnlp-main.981"
+      },
+      {
+        "key": "75160_CR73",
+        "unstructured": "Hugging Face. all-MiniLM-L12-v2. https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2 (2021)."
+      },
+      {
+        "key": "75160_CR74",
+        "unstructured": "Ozyurt, Y., Feuerriegel, S. & Zhang, C. Document-level in-context few-shot relation extraction via pre-trained language models. https://arxiv.org/abs/2310.11085 (2024)."
+      },
+      {
+        "key": "75160_CR75",
+        "unstructured": "Wang, W. et al. MINILM: deep self-attention distillation for task-agnostic compression of pre-trained transformers. In Proceedings of the 34th International Conference on Neural Information Processing Systems (2020)."
+      },
+      {
+        "key": "75160_CR76",
+        "unstructured": "Douze, M. et al. The Faiss library. https://arxiv.org/abs/2401.08281 (2024)."
+      },
+      {
+        "key": "75160_CR77",
+        "unstructured": "Li, S., Stenzel, L., Eickhoff, C. & Bahrainian, S. A. Enhancing retrieval-augmented generation: a study of best practices. In Proceedings of the 31st International Conference on Computational Linguistics, 6705–6717 (Association for Computational Linguistics, 2025)."
+      },
+      {
+        "key": "75160_CR78",
+        "unstructured": "Ginart, A., Kodali, N. & Emmons, J. Introducing LlamaRank: a state-of-the-art reranker for trusted AI. https://www.salesforce.com/blog/llamarank/ (2024)."
+      },
+      {
+        "key": "75160_CR79",
+        "unstructured": "Grattafiori, A. et al. The Llama 3 herd of models. https://arxiv.org/abs/2407.21783 (2024)."
+      },
+      {
+        "key": "75160_CR80",
+        "doi-asserted-by": "publisher",
+        "first-page": "96",
+        "DOI": "10.1038/s44159-024-00392-z",
+        "volume": "4",
+        "author": "S Feuerriegel",
+        "year": "2025",
+        "unstructured": "Feuerriegel, S. et al. Using natural language processing to analyse text data in behavioural science. Nat. Rev. Psychol. 4, 96–111 (2025).",
+        "journal-title": "Nat. Rev. Psychol."
+      },
+      {
+        "key": "75160_CR81",
+        "doi-asserted-by": "publisher",
+        "first-page": "611",
+        "DOI": "10.1038/s41562-024-01847-2",
+        "volume": "8",
+        "author": "Z Lin",
+        "year": "2024",
+        "unstructured": "Lin, Z. How to write effective prompts for large language models. Nat. Hum. Behav. 8, 611–615 (2024).",
+        "journal-title": "Nat. Hum. Behav."
+      },
+      {
+        "key": "75160_CR82",
+        "doi-asserted-by": "publisher",
+        "first-page": "2629",
+        "DOI": "10.1007/s10439-023-03272-4",
+        "volume": "51",
+        "author": "L Giray",
+        "year": "2023",
+        "unstructured": "Giray, L. Prompt engineering with ChatGPT: a guide for academic writers. Ann. Biomed. Eng. 51, 2629–2633 (2023).",
+        "journal-title": "Ann. Biomed. Eng."
+      },
+      {
+        "key": "75160_CR83",
+        "unstructured": "Meta AI. Llama-3.1-70B-Instruct. https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct (2024)."
+      },
+      {
+        "key": "75160_CR84",
+        "doi-asserted-by": "publisher",
+        "first-page": "908",
+        "DOI": "10.1038/s43588-023-00540-0",
+        "volume": "3",
+        "author": "YR Shrestha",
+        "year": "2023",
+        "unstructured": "Shrestha, Y. R., von Krogh, G. & Feuerriegel, S. Building open-source AI. Nat. Comput. Sci. 3, 908–911 (2023).",
+        "journal-title": "Nat. Comput. Sci."
+      },
+      {
+        "key": "75160_CR85",
+        "unstructured": "Together AI. Together AI https://www.together.ai/ (2025)."
+      },
+      {
+        "key": "75160_CR86",
+        "unstructured": "Feuerriegel, S. et al. A reporting checklist for large language models in behavioural science. Nature Human Behaviour (2026)."
+      },
+      {
+        "key": "75160_CR87",
+        "unstructured": "Grecco, H. E. Pint: makes units easy. https://github.com/hgrecco/pint (2024)."
+      },
+      {
+        "key": "75160_CR88",
+        "unstructured": "Board of Governors of the Federal Reserve System. G.5/H.10 foreign exchange rates. https://www.federalreserve.gov/datadownload/Choose.aspx?rel=H10 (2025)."
+      },
+      {
+        "key": "75160_CR89",
+        "doi-asserted-by": "publisher",
+        "first-page": "155",
+        "DOI": "10.1016/j.jcm.2016.02.012",
+        "volume": "15",
+        "author": "TK Koo",
+        "year": "2016",
+        "unstructured": "Koo, T. K. & Li, M. Y. A guideline of selecting and reporting intraclass correlation coefficients for reliability research. J. Chiropr. Med. 15, 155–163 (2016).",
+        "journal-title": "J. Chiropr. Med."
+      },
+      {
+        "key": "75160_CR90",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Forster, K. et al. Assessing corporate sustainability with large language models: Evidence from Europe. GitHub repository archived at Zenodo. https://doi.org/10.5281/zenodo.20273197 (2026).",
+        "DOI": "10.5281/zenodo.20273197"
+      },
+      {
+        "key": "75160_CR91",
+        "unstructured": "World Health Organization. Timeline: WHO’s COVID-19 response. https://www.who.int/emergencies/diseases/novel-coronavirus-2019/interactive-timeline#! (2022)."
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-026-75160-z",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-026-75160-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-026-75160-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2026-07-08T04:06:57Z",
+      "timestamp": 1783483617000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41467-026-75160-z"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          7
+        ]
+      ]
+    },
+    "references-count": 91,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "75160"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-026-75160-z",
+    "relation": {},
+    "ISSN": [
+      "2041-1723"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-1723",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "10 September 2025",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "19 June 2026",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "7 July 2026",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "T.S. serves as a paid supervisory board member of Deloitte Germany. Deloitte Germany, like other consulting and assurance firms, may have clients potentially affected by ESG reporting regulation. This position is unrelated to the design, execution, or analysis of the present study, and all interpretations and conclusions are solely those of the authors. All other authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "5940"
+  }
+}

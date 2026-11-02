@@ -1,0 +1,16 @@
+{
+  "10.18653/v1/2024.eacl-demo.16": "ragas2024",
+  "10.52202/079017-0692": "ragchecker2024",
+  "10.18653/v1/2023.emnlp-main.741": "factscore2023",
+  "10.18653/v1/2023.emnlp-main.398": "alce2023",
+  "10.18653/v1/2024.findings-emnlp.552": "veriscore2024",
+  "10.18653/v1/2025.acl-long.348": "claimify2025",
+  "10.18653/v1/2025.emnlp-main.1205": "dndscore2025",
+  "10.18653/v1/2023.emnlp-demo.3": "chatreport2023",
+  "10.18653/v1/2025.findings-naacl.66": "susgen2025",
+  "10.1007/s11227-025-07604-0": "esghrag2025",
+  "10.1609/aaai.v40i46.41281": "esgbench2026",
+  "10.1038/s41467-026-75160-z": "europe2026",
+  "10.18653/v1/2024.naacl-long.20": "ares2024",
+  "10.18653/v1/2024.acl-long.585": "ragtruth2024"
+}

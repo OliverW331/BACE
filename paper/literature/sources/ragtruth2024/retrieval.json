@@ -1,0 +1,146 @@
+{
+  "id": "ragtruth2024",
+  "url": "https://aclanthology.org/2024.acl-long.585/",
+  "checked_date": "2026-09-29",
+  "retrieved_at_utc": "2026-09-29T20:16:19.842854+00:00",
+  "final_url": "https://aclanthology.org/2024.acl-long.585/",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "730040efa211cec56fdbe6243859f5038b529373a06b9abf5df675b25497bc9e",
+  "metadata": {
+    "": [
+      ""
+    ],
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models"
+    ],
+    "citation_author": [
+      "Cheng Niu",
+      "Yuanhao Wu",
+      "Juno Zhu",
+      "Siliang Xu",
+      "KaShun Shum",
+      "Randy Zhong",
+      "Juntong Song",
+      "Tong Zhang"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    ],
+    "citation_publication_date": [
+      "2024/8"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2024.acl-long.585.pdf"
+    ],
+    "citation_firstpage": [
+      "10862"
+    ],
+    "citation_lastpage": [
+      "10878"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2024.acl-long.585"
+    ],
+    "og:title": [
+      "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2024.acl-long.585.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2024.acl-long.585/"
+    ],
+    "og:description": [
+      "Cheng Niu, Yuanhao Wu, Juno Zhu, Siliang Xu, KaShun Shum, Randy Zhong, Juntong Song, Tong Zhang. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024."
+    ]
+  },
+  "links": [
+    "https://aclanthology.org/",
+    "#",
+    "/posts/",
+    "/faq/news/",
+    "/faq/related-work/",
+    "/faq/copyright/",
+    "/info/credits/",
+    "/faq/volunteer/",
+    "/info/development/",
+    "/faq/feedback/",
+    "#",
+    "/people/",
+    "/faq/bib/",
+    "/faq/linking/",
+    "/faq/api/",
+    "/faq/",
+    "/info/ids/",
+    "/info/names/",
+    "/info/orcid/",
+    "/faq/doi/",
+    "/info/verification/",
+    "#",
+    "/info/contrib/",
+    "/info/corrections/",
+    "/info/author-pages/",
+    "/faq/attachments/",
+    "https://github.com/acl-org/acl-anthology/",
+    "https://aclanthology.org/2024.acl-long.585.pdf",
+    "/people/cheng-niu/unverified/",
+    "/people/yuanhao-wu/unverified/",
+    "/people/juno-zhu/unverified/",
+    "/people/siliang-xu/unverified/",
+    "/people/kashun-shum/",
+    "/people/randy-zhong/unverified/",
+    "/people/juntong-song/unverified/",
+    "/people/tong-zhang/unverified/",
+    "https://aclanthology.org/info/corrections/",
+    "#",
+    "#",
+    "/volumes/2024.acl-long/",
+    "/people/lun-wei-ku/",
+    "/people/andre-f-t-martins/",
+    "/people/vivek-srikumar/",
+    "/venues/acl/",
+    "https://aclanthology.org/2024.acl-long.585/",
+    "https://doi.org/10.18653/v1/2024.acl-long.585",
+    "https://aclanthology.org/2024.acl-long.585/",
+    "https://aclanthology.org/2024.acl-long.585/",
+    "https://aclanthology.org/2024.acl-long.585.pdf",
+    "https://aclanthology.org/2024.acl-long.585.pdf",
+    "#",
+    "https://www.semanticscholar.org/search?+q=RAGTruth%3A+A+Hallucination+Corpus+for+Developing+Trustworthy+Retrieval-Augmented+Language+Models",
+    "#",
+    "#citeBibtex",
+    "#citeMods",
+    "#citeEndnote",
+    "#citeMarkdown",
+    "https://aclanthology.org/2024.acl-long.585/",
+    "https://aclanthology.org/2024.acl-long.585/",
+    "http://creativecommons.org/licenses/by/4.0/",
+    "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "/info/credits/",
+    "https://github.com/acl-org/acl-anthology/tree/c434bba397f5a4eaf21bdc680e689d9ce7eb5d08"
+  ],
+  "pdf_request_url": "https://aclanthology.org/2024.acl-long.585.pdf",
+  "pdf_url": "https://aclanthology.org/2024.acl-long.585.pdf",
+  "pdf_http_status": 200,
+  "pdf_sha256": "17afb377ca5ea8cf672efa9a95fca5889713e94c6fd0355f89f8e01651ddfd4d",
+  "pdf_pages": 17,
+  "text_sha256": "f4bc3b29e1a7325f26fdc8aa3c09d3da9aa0fc292ca2fbb580f3356ead9f887f",
+  "fulltext_extracted": true
+}

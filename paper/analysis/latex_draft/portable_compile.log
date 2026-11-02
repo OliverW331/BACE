@@ -1,0 +1,574 @@
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 27 Dec. 2024. Version 4.86a.
+Latexmk: making output directory 'build'
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -file-line-error -recorder -output-directory="build"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/TeX Live for SUSE Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo))
+(/usr/share/texmf/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/base/inputenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf/tex/generic/iftex/iftex.sty)))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texmf/tex/latex/microtype/microtype.sty
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texmf/tex/latex/microtype/microtype.cfg))
+(/usr/share/texmf/tex/latex/natbib/natbib.sty)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texmf/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texmf/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texmf/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texmf/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texmf/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf/tex/latex/refcount/refcount.sty)
+(/usr/share/texmf/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texmf/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texmf/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texmf/tex/latex/hyperref/puenc.def)
+(/usr/share/texmf/tex/latex/url/url.sty)
+(/usr/share/texmf/tex/generic/bitset/bitset.sty
+(/usr/share/texmf/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texmf/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+(/usr/share/texmf/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texmf/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texmf/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texmf/tex/latex/l3backend/l3backend-pdftex.def) (build/main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+
+Package natbib Warning: Citation `esrs2023' on page 1 undefined on input line 4
+1.
+
+
+Package natbib Warning: Citation `chatreport2023' on page 1 undefined on input 
+line 44.
+
+
+Package natbib Warning: Citation `susgen2025' on page 1 undefined on input line
+ 44.
+
+
+Package natbib Warning: Citation `factscore2023' on page 1 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `ragas2024' on page 1 undefined on input line 
+50.
+
+
+Package natbib Warning: Citation `ragchecker2024' on page 1 undefined on input 
+line 50.
+
+
+Package natbib Warning: Citation `veriscore2024' on page 1 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `claimify2025' on page 1 undefined on input li
+ne 50.
+
+
+Package natbib Warning: Citation `alce2023' on page 1 undefined on input line 5
+0.
+
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}]
+
+Package natbib Warning: Citation `chatreport2023' on page 2 undefined on input 
+line 53.
+
+
+Package natbib Warning: Citation `esgbench2026' on page 2 undefined on input li
+ne 53.
+
+
+LaTeX Warning: Reference `fig:1' on page 2 undefined on input line 65.
+
+
+LaTeX Warning: Reference `fig:1' on page 2 undefined on input line 68.
+
+
+[2]
+
+LaTeX Warning: Reference `fig:2' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Reference `fig:2' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Reference `fig:2' on page 3 undefined on input line 76.
+
+
+LaTeX Warning: Reference `fig:3' on page 3 undefined on input line 84.
+
+
+LaTeX Warning: Reference `fig:3' on page 3 undefined on input line 87.
+
+
+LaTeX Warning: Reference `fig:3' on page 3 undefined on input line 90.
+
+
+[3]
+
+LaTeX Warning: Reference `fig:4' on page 4 undefined on input line 95.
+
+
+LaTeX Warning: Reference `fig:4' on page 4 undefined on input line 95.
+
+
+LaTeX Warning: Reference `fig:4' on page 4 undefined on input line 98.
+
+
+[4{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[5]
+[6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}]
+[7]
+
+Package natbib Warning: Citation `ragchecker2024' on page 8 undefined on input 
+line 193.
+
+
+Package natbib Warning: Citation `ragas2024' on page 8 undefined on input line 
+193.
+
+
+[8{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+[9]
+No file main.bbl.
+
+[10]
+[11]
+[12 <./figures/fig1_study_design.pdf>]
+[13 <./figures/fig2_support.pdf>]
+[14 <./figures/fig3_diagnoses_cases.pdf>]
+[15 <./figures/fig4_native_comparison.pdf>]
+
+Package natbib Warning: There were undefined citations.
+
+(build/main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmsy10.pfb>
+Output written on build/main.pdf (15 pages, 344662 bytes).
+Transcript written on build/main.log.
+Latexmk: Getting log file 'build/main.log'
+Latexmk: Examining 'build/main.fls'
+Latexmk: Examining 'build/main.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'build/main.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex build/main'...
+Rule 'bibtex build/main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex build/main' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex build/main'
+------------
+====== ENV{BIBINPUTS} changed to '/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb:build:/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb/build:'
+Latexmk: Change directory to 'build/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb:build:/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb/build:'
+  BSTINPUTS='/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb:'.
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025/TeX Live for SUSE Linux)
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: references.bib
+Latexmk: Change directory back to '/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  build/main.aux
+  build/main.bbl
+  build/main.out
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -file-line-error -recorder -output-directory="build"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/TeX Live for SUSE Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo))
+(/usr/share/texmf/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/base/inputenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf/tex/generic/iftex/iftex.sty)))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texmf/tex/latex/microtype/microtype.sty
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texmf/tex/latex/microtype/microtype.cfg))
+(/usr/share/texmf/tex/latex/natbib/natbib.sty)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texmf/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texmf/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texmf/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texmf/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texmf/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf/tex/latex/refcount/refcount.sty)
+(/usr/share/texmf/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texmf/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texmf/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texmf/tex/latex/hyperref/puenc.def)
+(/usr/share/texmf/tex/latex/url/url.sty)
+(/usr/share/texmf/tex/generic/bitset/bitset.sty
+(/usr/share/texmf/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texmf/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+(/usr/share/texmf/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texmf/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texmf/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texmf/tex/latex/l3backend/l3backend-pdftex.def) (build/main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf/tex/latex/microtype/mt-cmr.cfg) (build/main.out)
+(build/main.out) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+
+Package natbib Warning: Citation `esrs2023' on page 1 undefined on input line 4
+1.
+
+
+Package natbib Warning: Citation `chatreport2023' on page 1 undefined on input 
+line 44.
+
+
+Package natbib Warning: Citation `susgen2025' on page 1 undefined on input line
+ 44.
+
+
+Package natbib Warning: Citation `factscore2023' on page 1 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `ragas2024' on page 1 undefined on input line 
+50.
+
+
+Package natbib Warning: Citation `ragchecker2024' on page 1 undefined on input 
+line 50.
+
+
+Package natbib Warning: Citation `veriscore2024' on page 1 undefined on input l
+ine 50.
+
+
+Package natbib Warning: Citation `claimify2025' on page 1 undefined on input li
+ne 50.
+
+
+Package natbib Warning: Citation `alce2023' on page 1 undefined on input line 5
+0.
+
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}]
+
+Package natbib Warning: Citation `chatreport2023' on page 2 undefined on input 
+line 53.
+
+
+Package natbib Warning: Citation `esgbench2026' on page 2 undefined on input li
+ne 53.
+
+
+[2]
+[3]
+[4{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[5]
+[6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}]
+[7]
+
+Package natbib Warning: Citation `ragchecker2024' on page 8 undefined on input 
+line 193.
+
+
+Package natbib Warning: Citation `ragas2024' on page 8 undefined on input line 
+193.
+
+
+[8{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+[9] (build/main.bbl
+[10] (/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+[11])
+[12]
+[13 <./figures/fig1_study_design.pdf>]
+[14 <./figures/fig2_support.pdf>]
+[15 <./figures/fig3_diagnoses_cases.pdf>]
+[16 <./figures/fig4_native_comparison.pdf>]
+
+Package natbib Warning: There were undefined citations.
+
+(build/main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on build/main.pdf (16 pages, 398780 bytes).
+Transcript written on build/main.log.
+Latexmk: Getting log file 'build/main.log'
+Latexmk: Examining 'build/main.fls'
+Latexmk: Examining 'build/main.log'
+Latexmk: Found input bbl file 'build/main.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'build/main.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex build/main'...
+Rule 'bibtex build/main':  Reasons for rerun
+Changed files or newly in use/created:
+  build/main.aux
+
+------------
+Run number 2 of rule 'bibtex build/main'
+------------
+====== ENV{BIBINPUTS} changed to '/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb:build:/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb/build:'
+Latexmk: Change directory to 'build/'.
+To assist finding of files in document directory, I set
+  BIBINPUTS='/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb:build:/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb/build:'
+  BSTINPUTS='/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb:'.
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025/TeX Live for SUSE Linux)
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: references.bib
+Latexmk: Change directory back to '/home/muwang/master_thesis/paper/analysis/latex_draft/tmp/overleaf-check-f86x2xcb'
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  build/main.aux
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -file-line-error -recorder -output-directory="build"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/TeX Live for SUSE Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size11.clo))
+(/usr/share/texmf/tex/latex/base/fontenc.sty)
+(/usr/share/texmf/tex/latex/base/inputenc.sty)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty)
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf/tex/generic/iftex/iftex.sty)))
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texmf/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texmf/tex/latex/microtype/microtype.sty
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texmf/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texmf/tex/latex/microtype/microtype.cfg))
+(/usr/share/texmf/tex/latex/natbib/natbib.sty)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texmf/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texmf/tex/generic/pdfescape/pdfescape.sty
+(/usr/share/texmf/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texmf/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texmf/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/share/texmf/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf/tex/latex/refcount/refcount.sty)
+(/usr/share/texmf/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/share/texmf/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/share/texmf/tex/generic/stringenc/stringenc.sty)
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texmf/tex/latex/hyperref/puenc.def)
+(/usr/share/texmf/tex/latex/url/url.sty)
+(/usr/share/texmf/tex/generic/bitset/bitset.sty
+(/usr/share/texmf/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texmf/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+(/usr/share/texmf/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texmf/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texmf/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+(/usr/share/texmf/tex/latex/l3backend/l3backend-pdftex.def) (build/main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texmf/tex/latex/microtype/mt-cmr.cfg) (build/main.out)
+(build/main.out) (/usr/share/texmf/tex/latex/lm/ot1lmr.fd)
+(/usr/share/texmf/tex/latex/lm/omllmm.fd)
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd)
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd)
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}]
+[2]
+[3]
+[4{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[5]
+[6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}]
+[7]
+[8{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+[9] (build/main.bbl
+[10] (/usr/share/texmf/tex/latex/lm/t1lmtt.fd)
+[11])
+[12]
+[13 <./figures/fig1_study_design.pdf>]
+[14 <./figures/fig2_support.pdf>]
+[15 <./figures/fig3_diagnoses_cases.pdf>]
+[16 <./figures/fig4_native_comparison.pdf>] (build/main.aux) )</usr/share/texmf
+/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx1
+2.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on build/main.pdf (16 pages, 382925 bytes).
+Transcript written on build/main.log.
+Latexmk: Getting log file 'build/main.log'
+Latexmk: Examining 'build/main.fls'
+Latexmk: Examining 'build/main.log'
+Latexmk: Found input bbl file 'build/main.bbl'
+Latexmk: Log file says output to 'build/main.pdf'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: All targets (build/main.pdf) are up-to-date
+
+Latexmk: Missing bbl file 'build/main.bbl' in following:
+ No file main.bbl.

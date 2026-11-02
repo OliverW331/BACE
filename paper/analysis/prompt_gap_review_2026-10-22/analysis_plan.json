@@ -1,0 +1,9 @@
+{
+  "status": "Post-experiment descriptive analysis of saved outputs",
+  "primary": "Native score minus each BACE-condition support rate, paired by disclosure; positive means the native score is higher.",
+  "aggregation": "Equal weight per complete disclosure; report claim-pooled BACE rates separately.",
+  "sample": "Whole-disclosure complete cases in the saved three-condition prompt experiment; retain zero-candidate claims.",
+  "secondary": "Remove original-BACE factual_boundary_distortion claims from each BACE condition's numerator and denominator. Native inventories remain unchanged.",
+  "selection": "Reuse the existing R01-R18 examples for longitudinal comparison, without reselecting on new outcomes.",
+  "inference": "No new intervals or tests; saved company-cluster intervals for prompt effects are separately attributed. These are descriptive score gaps, not accuracy gaps or causal allocations."
+}

@@ -1,0 +1,17 @@
+{
+  "source_files_checked": 18155,
+  "mismatches": [],
+  "snapshot_table_hash_checks": {
+    "metrics": true,
+    "claims": true,
+    "external_claims": true,
+    "selection": true,
+    "coverage": true,
+    "visible": true,
+    "canonical_counts": true,
+    "length_counts": true,
+    "packages": true
+  },
+  "builder_hash_matches": true,
+  "scope": "Consumed source and stage files listed by the saved snapshot, not all model histories or source PDF semantic accuracy."
+}

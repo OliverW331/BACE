@@ -1,0 +1,1776 @@
+{
+  "selection": {
+    "name": "banco_bpm_actual_as_target",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+    "dc_id": "dc_9481ed6b85983e7179efe1939f81b94f",
+    "ragchecker_index": 21,
+    "ragas_index": 22,
+    "key_cards": [
+      "Evidence 19"
+    ],
+    "candidate_qualifiers_preserved": false,
+    "original_pdf": "data/raw/reports_pdf/1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+    "original_pdf_page": 15
+  },
+  "source_paths": {
+    "generation_input": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/inputs/generation_cases.jsonl",
+    "response": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/generation/generated_disclosures.jsonl",
+    "dc": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/dedup/dc_claims.jsonl",
+    "ec": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/dedup/ec_claims.jsonl",
+    "candidates": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/candidates/dc_candidate_ecs.jsonl",
+    "support": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/support/dc_support_sets.jsonl",
+    "diagnosis": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/bace/diagnosis/dc_unsupported_diagnoses.jsonl",
+    "ragchecker": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/evaluation/ragchecker/results.jsonl",
+    "ragas": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources/evaluation/ragas/results.jsonl"
+  },
+  "generated_text": "### E1-3 – Actions and resources in relation to climate policies\n\nIn the 2023 reporting year, Banco BPM’s climate actions addressed both the direct environmental impacts of its operations and the indirect impacts associated with financing activities. The Group’s approach is supported by guidelines for managing environmental and energy matters and combating climate change, with responsibilities and activities assigned to the parties involved and management risks mitigated through ongoing monitoring.\n\nFor its own operations, the principal decarbonisation levers comprise the procurement of electricity from renewable sources, energy-efficiency initiatives and systematic monitoring of energy consumption. Banco BPM has historically sourced 100% of its electricity consumption from renewable sources. Operational measures also include monitoring the condition and regulatory compliance of properties, reducing material consumption, using recycled materials, separate waste collection and material recovery, and centralised management of paper and toner consumption. ESG criteria are also integrated into supplier selection. In response to the energy crisis, the Group implemented extraordinary energy-efficiency measures and completed an offsetting project covering approximately 8,000 tonnes of CO₂ equivalent in 2022, contributing to progress under the 2021–2024 Strategic Plan.\n\nThe Strategic Plan established carbon neutrality during the plan horizon and envisaged a reduction in total net direct and indirect Scope 1 and Scope 2 emissions from 17.5 thousand to 7.4 thousand tonnes of CO₂ equivalent. Reported 2023 target metrics include a 55% target relative to total greenhouse gas emissions in the base year, 40% for Scope 3 emissions, 30% for location-based Scope 2 emissions and 100% for market-based Scope 2 emissions. The reported target coverage for total greenhouse gas emissions is 100%.\n\nActions addressing financed and portfolio-related impacts include mapping the credit portfolio for environmental risks, integrating climate-related and environmental risks into lending and risk assessment, and conducting portfolio transparency exercises, climate stress tests and scenario analyses. Physical-risk assessments and analyses consistent with the EU Taxonomy have been incorporated into credit processes, while climate risk has begun to be integrated into the ICAAP. The Group also assesses transition risk in proprietary portfolios; in 2023, 18.4% of assets were reported as being exposed to material transition risk before climate-mitigation actions.\n\nBanco BPM supports the transition through green financing products and capital-market instruments. By the end of 2022, Green, Social and Sustainability bond issues totalled €2.05 billion, supported by a framework aligned with ICMA principles. Product initiatives have included green mortgages and financing for energy requalification. The Group’s participation in the TCFD further supports climate-risk governance and disclosure. No separate quantified 2023 climate-related CapEx or OpEx allocation is provided in the available reporting evidence.",
+  "original_generated_quotations": [
+    "In response to the energy crisis, the Group implemented extraordinary energy-efficiency measures and completed an offsetting project covering approximately 8,000 tonnes of CO₂ equivalent in 2022, contributing to progress under the 2021–2024 Strategic Plan.",
+    "The Strategic Plan established carbon neutrality during the plan horizon and envisaged a reduction in total net direct and indirect Scope 1 and Scope 2 emissions from 17.5 thousand to 7.4 thousand tonnes of CO₂ equivalent."
+  ],
+  "disclosure_claim": {
+    "schema_version": "deduplicated_dc_claim_v1",
+    "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+    "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+    "generated_disclosure_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources__main_v1",
+    "dc_id": "dc_9481ed6b85983e7179efe1939f81b94f",
+    "dc_text": "Banco BPM’s 2021–2024 Strategic Plan envisaged a reduction in total net direct and indirect Scope 1 and Scope 2 emissions from 17.5 thousand to 7.4 thousand tonnes of CO₂ equivalent during the 2021–2024 plan horizon.",
+    "dc_occurrence_ids": [
+      "dco_b5bab3da2cd148dec30907a09ec402e4"
+    ],
+    "dc_provenance": [
+      {
+        "dc_occurrence_id": "dco_b5bab3da2cd148dec30907a09ec402e4",
+        "claim_text": "Banco BPM’s 2021–2024 Strategic Plan envisaged a reduction in total net direct and indirect Scope 1 and Scope 2 emissions from 17.5 thousand to 7.4 thousand tonnes of CO₂ equivalent during the 2021–2024 plan horizon.",
+        "generation_output_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources__main_v1",
+        "generated_text_hash": "21ad12c2c1447c1d1684b9fa87654001591979d4d747eadd3b66afe3f51e4699",
+        "source_spans": [
+          {
+            "quote_index": 0,
+            "quote": "In response to the energy crisis, the Group implemented extraordinary energy-efficiency measures and completed an offsetting project covering approximately 8,000 tonnes of CO₂ equivalent in 2022, contributing to progress under the 2021–2024 Strategic Plan.",
+            "start": 1127,
+            "end": 1383,
+            "match_count": 1,
+            "candidate_spans": [
+              {
+                "start": 1127,
+                "end": 1383
+              }
+            ],
+            "match_status": "exact_unique"
+          },
+          {
+            "quote_index": 1,
+            "quote": "The Strategic Plan established carbon neutrality during the plan horizon and envisaged a reduction in total net direct and indirect Scope 1 and Scope 2 emissions from 17.5 thousand to 7.4 thousand tonnes of CO₂ equivalent.",
+            "start": 1385,
+            "end": 1607,
+            "match_count": 1,
+            "candidate_spans": [
+              {
+                "start": 1385,
+                "end": 1607
+              }
+            ],
+            "match_status": "exact_unique"
+          }
+        ],
+        "source_quotes": [
+          "In response to the energy crisis, the Group implemented extraordinary energy-efficiency measures and completed an offsetting project covering approximately 8,000 tonnes of CO₂ equivalent in 2022, contributing to progress under the 2021–2024 Strategic Plan.",
+          "The Strategic Plan established carbon neutrality during the plan horizon and envisaged a reduction in total net direct and indirect Scope 1 and Scope 2 emissions from 17.5 thousand to 7.4 thousand tonnes of CO₂ equivalent."
+        ],
+        "grounding_status": "exact_unique",
+        "context_resolutions": [],
+        "unresolved_context": []
+      }
+    ],
+    "candidate_ec_ids": [],
+    "supporting_ec_ids": [],
+    "support_structure": null,
+    "support_verdict": null,
+    "unsupported_tags": [],
+    "rationale": null,
+    "semantic_dedup": {
+      "call_id": "dcdup_e78f9708f7a9f74f785ec9859186d98f",
+      "merge_type": "singleton",
+      "canonical_unit_id": "dcu_bd44590a166a6e9390d3a68dbd1596f5",
+      "canonical_occurrence_id": "dco_b5bab3da2cd148dec30907a09ec402e4",
+      "member_unit_ids": [
+        "dcu_bd44590a166a6e9390d3a68dbd1596f5"
+      ],
+      "member_occurrence_ids": [
+        "dco_b5bab3da2cd148dec30907a09ec402e4"
+      ]
+    }
+  },
+  "bace_support": {
+    "dc_claim_id": "dc_9481ed6b85983e7179efe1939f81b94f",
+    "support_sets": []
+  },
+  "bace_diagnosis": {
+    "dc_claim_id": "dc_9481ed6b85983e7179efe1939f81b94f",
+    "unsupported_label": "inferential_inflation",
+    "rationale": "The evidence establishes that reducing emissions was planned and that total net Scope 1 and Scope 2 emissions were a key plan metric, but it does not establish the claimed reduction from 17.5 thousand to 7.4 thousand tonnes."
+  },
+  "bace_candidate_ecs": [
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_09c743730d3deea128789ad7dfe9c4aa",
+      "ec_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to Scope 3 greenhouse gas emissions under ESRS E1-4 at 40.0 percent.",
+      "evidence_card_ids": [
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::0d76f65f-53a4-498a-9e93-42053bfc83bc"
+      ],
+      "ec_occurrence_ids": [
+        "eco_e162bbeee2e1e381031c2d64947ffa6e"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_e162bbeee2e1e381031c2d64947ffa6e",
+          "claim_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to Scope 3 greenhouse gas emissions under ESRS E1-4 at 40.0 percent.",
+          "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::0d76f65f-53a4-498a-9e93-42053bfc83bc",
+          "prompt_label": "Evidence 25",
+          "retrieval_text_hash": "cad0440c5844f061b568618384d9864baf23da9145d78a35759b4ecb4cb62f8f",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Banco BPM. Reporting year: 2023.",
+              "start": 0,
+              "end": 41,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 41
+                }
+              ],
+              "match_status": "exact_unique"
+            },
+            {
+              "quote_index": 1,
+              "quote": "Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 40.0 percent.",
+              "start": 107,
+              "end": 204,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 107,
+                  "end": 204
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Banco BPM. Reporting year: 2023.",
+            "Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 40.0 percent."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::0d76f65f-53a4-498a-9e93-42053bfc83bc",
+            "prompt_label": "Evidence 25",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2023,
+            "source_label": "Corporate Sustainability Tracker | Source year 2023",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Percentage of target related to Scope 3 Greenhouse gas emissions",
+            "value_text": "40.0",
+            "unit": "percent",
+            "retrieval_text_hash": "cad0440c5844f061b568618384d9864baf23da9145d78a35759b4ecb4cb62f8f",
+            "prompt_rank_from_retrieval": 25
+          },
+          "unresolved_context": [
+            "The target deadline and whether the percentage is measured relative to a base year are not stated."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_5fc41ae425ae75fd19c4ade1c0987863",
+        "canonical_occurrence_id": "eco_e162bbeee2e1e381031c2d64947ffa6e",
+        "member_unit_ids": [
+          "ecu_5fc41ae425ae75fd19c4ade1c0987863"
+        ],
+        "member_occurrence_ids": [
+          "eco_e162bbeee2e1e381031c2d64947ffa6e"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_2c1d0743c185a132e2e469143b78d1ae",
+      "ec_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to total greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 55.0 percent.",
+      "evidence_card_ids": [
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c61236e6-c3a5-4ba6-9803-b7cc07d63211"
+      ],
+      "ec_occurrence_ids": [
+        "eco_992455dda072647307d67e44f26b84e3"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_992455dda072647307d67e44f26b84e3",
+          "claim_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to total greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 55.0 percent.",
+          "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c61236e6-c3a5-4ba6-9803-b7cc07d63211",
+          "prompt_label": "Evidence 24",
+          "retrieval_text_hash": "7fe73e80492b16c74c609ec5e78df52c6930f5f3dd23b0100f50b5029a0919cf",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Banco BPM. Reporting year: 2023.",
+              "start": 0,
+              "end": 41,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 41
+                }
+              ],
+              "match_status": "exact_unique"
+            },
+            {
+              "quote_index": 1,
+              "quote": "Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 55.0 percent.",
+              "start": 107,
+              "end": 233,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 107,
+                  "end": 233
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Banco BPM. Reporting year: 2023.",
+            "Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 55.0 percent."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c61236e6-c3a5-4ba6-9803-b7cc07d63211",
+            "prompt_label": "Evidence 24",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2023,
+            "source_label": "Corporate Sustainability Tracker | Source year 2023",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Percentage of target related to total Greenhouse gas emissions (as of emissions of base year)",
+            "value_text": "55.0",
+            "unit": "percent",
+            "retrieval_text_hash": "7fe73e80492b16c74c609ec5e78df52c6930f5f3dd23b0100f50b5029a0919cf",
+            "prompt_rank_from_retrieval": 24
+          },
+          "unresolved_context": [
+            "The base year and target deadline are not stated."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_62ea551729a4cb0d4c1623008457acff",
+        "canonical_occurrence_id": "eco_992455dda072647307d67e44f26b84e3",
+        "member_unit_ids": [
+          "ecu_62ea551729a4cb0d4c1623008457acff"
+        ],
+        "member_occurrence_ids": [
+          "eco_992455dda072647307d67e44f26b84e3"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_3abde36cd61cc5abfff38b7d130405ce",
+      "ec_text": "According to Banco BPM's 2021 sustainability report, Banco BPM planned to reduce its CO eq 2 emissions.",
+      "evidence_card_ids": [
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p018::t02::r0001"
+      ],
+      "ec_occurrence_ids": [
+        "eco_4a29a9945057f6ae2c283d973f3e5046"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_4a29a9945057f6ae2c283d973f3e5046",
+          "claim_text": "According to Banco BPM's 2021 sustainability report, Banco BPM planned to reduce its CO eq 2 emissions.",
+          "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p018::t02::r0001",
+          "prompt_label": "Evidence 20",
+          "retrieval_text_hash": "758c8cb518114c92610ce0e00bcd8c2a7f395cad58b1ce58c4ae575b8caea562",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Reducing our CO eq 2 emissions",
+              "start": 1232,
+              "end": 1262,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 1232,
+                  "end": 1262
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Reducing our CO eq 2 emissions"
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p018::t02::r0001",
+            "prompt_label": "Evidence 20",
+            "evidence_type": "pdf_table_row",
+            "source_type": "pdf",
+            "source_year": 2021,
+            "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf | Page 18",
+            "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf",
+            "document_type": "sustainability_report",
+            "page_start": 18,
+            "page_end": 18,
+            "metric": null,
+            "value_text": null,
+            "unit": null,
+            "retrieval_text_hash": "758c8cb518114c92610ce0e00bcd8c2a7f395cad58b1ce58c4ae575b8caea562",
+            "prompt_rank_from_retrieval": 20
+          },
+          "unresolved_context": [
+            "The unit or chemical notation appears in the damaged literal form \"CO eq 2\"."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_0b5d7d264612407bec4236a158410876",
+        "canonical_occurrence_id": "eco_4a29a9945057f6ae2c283d973f3e5046",
+        "member_unit_ids": [
+          "ecu_0b5d7d264612407bec4236a158410876"
+        ],
+        "member_occurrence_ids": [
+          "eco_4a29a9945057f6ae2c283d973f3e5046"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_40b6ee1303dd63f930698a5aa1dd5673",
+      "ec_text": "According to Banco BPM's 2022 sustainability report, carbon neutrality during the plan horizon was an objective of Banco BPM's 2021–2024 Strategic Plan.",
+      "evidence_card_ids": [
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004"
+      ],
+      "ec_occurrence_ids": [
+        "eco_6ec2e83c12e984f0d3c9cb7930c0c520"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_6ec2e83c12e984f0d3c9cb7930c0c520",
+          "claim_text": "According to Banco BPM's 2022 sustainability report, carbon neutrality during the plan horizon was an objective of Banco BPM's 2021–2024 Strategic Plan.",
+          "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004",
+          "prompt_label": "Evidence 19",
+          "retrieval_text_hash": "ba765b047b309301a180f66eb27968bec79e57bd6bfa34aa1b8add906c155413",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "unnamed_column_2 = CARBON NEUTRALITY DURING THE PLAN HORIZON",
+              "start": 229,
+              "end": 289,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 229,
+                  "end": 289
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "unnamed_column_2 = CARBON NEUTRALITY DURING THE PLAN HORIZON"
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004",
+            "prompt_label": "Evidence 19",
+            "evidence_type": "pdf_table_row",
+            "source_type": "pdf",
+            "source_year": 2022,
+            "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 15",
+            "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+            "document_type": "sustainability_report",
+            "page_start": 15,
+            "page_end": 15,
+            "metric": null,
+            "value_text": null,
+            "unit": null,
+            "retrieval_text_hash": "ba765b047b309301a180f66eb27968bec79e57bd6bfa34aa1b8add906c155413",
+            "prompt_rank_from_retrieval": 19
+          },
+          "unresolved_context": []
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_92c9a0a9c74fb32e2f7567e037779525",
+        "canonical_occurrence_id": "eco_6ec2e83c12e984f0d3c9cb7930c0c520",
+        "member_unit_ids": [
+          "ecu_92c9a0a9c74fb32e2f7567e037779525"
+        ],
+        "member_occurrence_ids": [
+          "eco_6ec2e83c12e984f0d3c9cb7930c0c520"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_5fb31aa80a92249f01bdd91e44a07c57",
+      "ec_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to market-based Scope 2 greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 100.0 percent.",
+      "evidence_card_ids": [
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c59434cd-ca5d-4dc5-801b-ec5339e67b64"
+      ],
+      "ec_occurrence_ids": [
+        "eco_1a329ffb50fb21104fe0b9746aceeab1"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_1a329ffb50fb21104fe0b9746aceeab1",
+          "claim_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to market-based Scope 2 greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 100.0 percent.",
+          "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c59434cd-ca5d-4dc5-801b-ec5339e67b64",
+          "prompt_label": "Evidence 30",
+          "retrieval_text_hash": "b5fed97fb8363387850f9953dd8ea930c87ea350de71ac56189527f9115bba3b",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Banco BPM. Reporting year: 2023.",
+              "start": 0,
+              "end": 41,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 41
+                }
+              ],
+              "match_status": "exact_unique"
+            },
+            {
+              "quote_index": 1,
+              "quote": "Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 100.0 percent.",
+              "start": 107,
+              "end": 249,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 107,
+                  "end": 249
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Banco BPM. Reporting year: 2023.",
+            "Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 100.0 percent."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c59434cd-ca5d-4dc5-801b-ec5339e67b64",
+            "prompt_label": "Evidence 30",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2023,
+            "source_label": "Corporate Sustainability Tracker | Source year 2023",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year)",
+            "value_text": "100.0",
+            "unit": "percent",
+            "retrieval_text_hash": "b5fed97fb8363387850f9953dd8ea930c87ea350de71ac56189527f9115bba3b",
+            "prompt_rank_from_retrieval": 30
+          },
+          "unresolved_context": [
+            "The base year and target deadline are not stated."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_94d1c0ccd413b654365dcb0cee7c1543",
+        "canonical_occurrence_id": "eco_1a329ffb50fb21104fe0b9746aceeab1",
+        "member_unit_ids": [
+          "ecu_94d1c0ccd413b654365dcb0cee7c1543"
+        ],
+        "member_occurrence_ids": [
+          "eco_1a329ffb50fb21104fe0b9746aceeab1"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_a597bc1f205e51cf928c8c05ca60d401",
+      "ec_text": "According to Banco BPM's 2022 sustainability report, in completing the Offsetting Project, Banco BPM compensated approximately 8,000 tonnes of CO2 equivalent.",
+      "evidence_card_ids": [
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p017::t02::r0004"
+      ],
+      "ec_occurrence_ids": [
+        "eco_a6caea8dc1fb31618b30cecb83bc36f2"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_a6caea8dc1fb31618b30cecb83bc36f2",
+          "claim_text": "According to Banco BPM's 2022 sustainability report, in completing the Offsetting Project, Banco BPM compensated approximately 8,000 tonnes of CO2 equivalent.",
+          "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p017::t02::r0004",
+          "prompt_label": "Evidence 17",
+          "retrieval_text_hash": "a7078745d5da81a2c9463a4b2828393360cfab9a6d6a82dcd61b31c0bc90418e",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Completed the Offsetting Project, compensating ~8,000 t CO eq 2",
+              "start": 1816,
+              "end": 1879,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 1816,
+                  "end": 1879
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Completed the Offsetting Project, compensating ~8,000 t CO eq 2"
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p017::t02::r0004",
+            "prompt_label": "Evidence 17",
+            "evidence_type": "pdf_table_row",
+            "source_type": "pdf",
+            "source_year": 2022,
+            "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 17",
+            "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+            "document_type": "sustainability_report",
+            "page_start": 17,
+            "page_end": 17,
+            "metric": null,
+            "value_text": null,
+            "unit": null,
+            "retrieval_text_hash": "a7078745d5da81a2c9463a4b2828393360cfab9a6d6a82dcd61b31c0bc90418e",
+            "prompt_rank_from_retrieval": 17
+          },
+          "unresolved_context": [
+            "The source's chemical notation is damaged but corresponds to the literal form \"t CO eq 2\"."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_3489afde487050c7dc1d8e454e270caf",
+        "canonical_occurrence_id": "eco_a6caea8dc1fb31618b30cecb83bc36f2",
+        "member_unit_ids": [
+          "ecu_3489afde487050c7dc1d8e454e270caf"
+        ],
+        "member_occurrence_ids": [
+          "eco_a6caea8dc1fb31618b30cecb83bc36f2"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_bc41bfeb41de018a2eb6a6134b05b289",
+      "ec_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to location-based Scope 2 greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 30.0 percent.",
+      "evidence_card_ids": [
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c42e16f4-8e08-44cd-be58-4eca46248f12"
+      ],
+      "ec_occurrence_ids": [
+        "eco_d8be20256d1bd015665fe5dc7d51d1d9"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_d8be20256d1bd015665fe5dc7d51d1d9",
+          "claim_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to location-based Scope 2 greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 30.0 percent.",
+          "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c42e16f4-8e08-44cd-be58-4eca46248f12",
+          "prompt_label": "Evidence 26",
+          "retrieval_text_hash": "0414b5f11ec9c7b0522f792cb44290445a527ae62ba23faf3da27132133ad8c1",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Banco BPM. Reporting year: 2023.",
+              "start": 0,
+              "end": 41,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 41
+                }
+              ],
+              "match_status": "exact_unique"
+            },
+            {
+              "quote_index": 1,
+              "quote": "Indicator: Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 30.0 percent.",
+              "start": 107,
+              "end": 250,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 107,
+                  "end": 250
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Banco BPM. Reporting year: 2023.",
+            "Indicator: Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 30.0 percent."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c42e16f4-8e08-44cd-be58-4eca46248f12",
+            "prompt_label": "Evidence 26",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2023,
+            "source_label": "Corporate Sustainability Tracker | Source year 2023",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year)",
+            "value_text": "30.0",
+            "unit": "percent",
+            "retrieval_text_hash": "0414b5f11ec9c7b0522f792cb44290445a527ae62ba23faf3da27132133ad8c1",
+            "prompt_rank_from_retrieval": 26
+          },
+          "unresolved_context": [
+            "The base year and target deadline are not stated."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_85375dffc6b16103a65c17873d758b50",
+        "canonical_occurrence_id": "eco_d8be20256d1bd015665fe5dc7d51d1d9",
+        "member_unit_ids": [
+          "ecu_85375dffc6b16103a65c17873d758b50"
+        ],
+        "member_occurrence_ids": [
+          "eco_d8be20256d1bd015665fe5dc7d51d1d9"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_bd6b004833d6e52eb477eb9deb730a53",
+      "ec_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to total greenhouse gas emissions under ESRS E1-4 at 100.0 percent.",
+      "evidence_card_ids": [
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::b124adbc-8e56-491d-91fb-e1d75b7e0b61"
+      ],
+      "ec_occurrence_ids": [
+        "eco_ff7279d63aaf13867c453d69a7743aa8"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_ff7279d63aaf13867c453d69a7743aa8",
+          "claim_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to total greenhouse gas emissions under ESRS E1-4 at 100.0 percent.",
+          "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::b124adbc-8e56-491d-91fb-e1d75b7e0b61",
+          "prompt_label": "Evidence 28",
+          "retrieval_text_hash": "285b0c243bb46da549163e887dbcc2ded12ed37c67edae4155e26b03a08fe969",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Banco BPM. Reporting year: 2023.",
+              "start": 0,
+              "end": 41,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 41
+                }
+              ],
+              "match_status": "exact_unique"
+            },
+            {
+              "quote_index": 1,
+              "quote": "Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 100.0 percent.",
+              "start": 107,
+              "end": 203,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 107,
+                  "end": 203
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Banco BPM. Reporting year: 2023.",
+            "Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 100.0 percent."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::b124adbc-8e56-491d-91fb-e1d75b7e0b61",
+            "prompt_label": "Evidence 28",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2023,
+            "source_label": "Corporate Sustainability Tracker | Source year 2023",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Percentage of target related to total Greenhouse gas emissions",
+            "value_text": "100.0",
+            "unit": "percent",
+            "retrieval_text_hash": "285b0c243bb46da549163e887dbcc2ded12ed37c67edae4155e26b03a08fe969",
+            "prompt_rank_from_retrieval": 28
+          },
+          "unresolved_context": [
+            "The target deadline and whether the percentage is measured relative to a base year are not stated."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_d84bc6395a19010e759b87a2c4e9d5e8",
+        "canonical_occurrence_id": "eco_ff7279d63aaf13867c453d69a7743aa8",
+        "member_unit_ids": [
+          "ecu_d84bc6395a19010e759b87a2c4e9d5e8"
+        ],
+        "member_occurrence_ids": [
+          "eco_ff7279d63aaf13867c453d69a7743aa8"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_cd9d666033bb5775da4b4d9151ea0601",
+      "ec_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to Scope 3 greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 40.0 percent.",
+      "evidence_card_ids": [
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::96842347-e9d9-45eb-96ce-2c4396afa8fc"
+      ],
+      "ec_occurrence_ids": [
+        "eco_8cdd508a57f14055c38f3dc13158f843"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_8cdd508a57f14055c38f3dc13158f843",
+          "claim_text": "For reporting year 2023, the Corporate Sustainability Tracker reported Banco BPM's percentage of target related to Scope 3 greenhouse gas emissions as of base-year emissions under ESRS E1-4 at 40.0 percent.",
+          "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::96842347-e9d9-45eb-96ce-2c4396afa8fc",
+          "prompt_label": "Evidence 27",
+          "retrieval_text_hash": "3f9a9fbc38f46725e6ab9acc8175b25d977afe147a7cf5e39eb9afc80b8fe8a0",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "Company: Banco BPM. Reporting year: 2023.",
+              "start": 0,
+              "end": 41,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 0,
+                  "end": 41
+                }
+              ],
+              "match_status": "exact_unique"
+            },
+            {
+              "quote_index": 1,
+              "quote": "Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 40.0 percent.",
+              "start": 107,
+              "end": 235,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 107,
+                  "end": 235
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "Company: Banco BPM. Reporting year: 2023.",
+            "Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 40.0 percent."
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::96842347-e9d9-45eb-96ce-2c4396afa8fc",
+            "prompt_label": "Evidence 27",
+            "evidence_type": "csv_metric",
+            "source_type": "csv",
+            "source_year": 2023,
+            "source_label": "Corporate Sustainability Tracker | Source year 2023",
+            "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+            "document_type": null,
+            "page_start": null,
+            "page_end": null,
+            "metric": "Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year)",
+            "value_text": "40.0",
+            "unit": "percent",
+            "retrieval_text_hash": "3f9a9fbc38f46725e6ab9acc8175b25d977afe147a7cf5e39eb9afc80b8fe8a0",
+            "prompt_rank_from_retrieval": 27
+          },
+          "unresolved_context": [
+            "The base year and target deadline are not stated."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_477e05003859e3154521eddc198b08bb",
+        "canonical_occurrence_id": "eco_8cdd508a57f14055c38f3dc13158f843",
+        "member_unit_ids": [
+          "ecu_477e05003859e3154521eddc198b08bb"
+        ],
+        "member_occurrence_ids": [
+          "eco_8cdd508a57f14055c38f3dc13158f843"
+        ]
+      }
+    },
+    {
+      "schema_version": "deduplicated_ec_claim_v1",
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2023__e1_3_actions_resources",
+      "case_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc__ty2023__E1-3_actions_resources__W2__sanity",
+      "ec_id": "ec_db0bc9cdc5eab289387cffda3959c6bc",
+      "ec_text": "According to Banco BPM's 2022 sustainability report, total net direct and indirect Scope 1 and Scope 2 emissions, expressed in the damaged literal unit \"T-CO equivalent) 2\", were a key objective metric of the 2021–2024 Strategic Plan.",
+      "evidence_card_ids": [
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004"
+      ],
+      "ec_occurrence_ids": [
+        "eco_0afad44fb7ed2fd915bbce8f24ab77ec"
+      ],
+      "ec_provenance": [
+        {
+          "ec_occurrence_id": "eco_0afad44fb7ed2fd915bbce8f24ab77ec",
+          "claim_text": "According to Banco BPM's 2022 sustainability report, total net direct and indirect Scope 1 and Scope 2 emissions, expressed in the damaged literal unit \"T-CO equivalent) 2\", were a key objective metric of the 2021–2024 Strategic Plan.",
+          "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004",
+          "prompt_label": "Evidence 19",
+          "retrieval_text_hash": "ba765b047b309301a180f66eb27968bec79e57bd6bfa34aa1b8add906c155413",
+          "source_spans": [
+            {
+              "quote_index": 0,
+              "quote": "KEY OBJECTIVES OF THE 2021-2024 STRATEGIC PLAN = Total net direct & indirect emissions (Scope 1 & 2 T-CO equivalent) 2",
+              "start": 83,
+              "end": 201,
+              "match_count": 1,
+              "candidate_spans": [
+                {
+                  "start": 83,
+                  "end": 201
+                }
+              ],
+              "match_status": "exact_unique"
+            }
+          ],
+          "source_quotes": [
+            "KEY OBJECTIVES OF THE 2021-2024 STRATEGIC PLAN = Total net direct & indirect emissions (Scope 1 & 2 T-CO equivalent) 2"
+          ],
+          "grounding_status": "exact_unique",
+          "context_resolutions": [],
+          "evidence_provenance": {
+            "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004",
+            "prompt_label": "Evidence 19",
+            "evidence_type": "pdf_table_row",
+            "source_type": "pdf",
+            "source_year": 2022,
+            "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 15",
+            "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+            "document_type": "sustainability_report",
+            "page_start": 15,
+            "page_end": 15,
+            "metric": null,
+            "value_text": null,
+            "unit": null,
+            "retrieval_text_hash": "ba765b047b309301a180f66eb27968bec79e57bd6bfa34aa1b8add906c155413",
+            "prompt_rank_from_retrieval": 19
+          },
+          "unresolved_context": [
+            "The unit is damaged in the source, and the table does not identify whether this metric is a baseline, target or outcome."
+          ]
+        }
+      ],
+      "supported_dc_ids": [],
+      "semantic_dedup": {
+        "call_id": "ecdup_a0319129bc44f1353295c370022c8e1f",
+        "merge_type": "singleton",
+        "canonical_unit_id": "ecu_22c9cb5634ef3e77ecf70b3129f85608",
+        "canonical_occurrence_id": "eco_0afad44fb7ed2fd915bbce8f24ab77ec",
+        "member_unit_ids": [
+          "ecu_22c9cb5634ef3e77ecf70b3129f85608"
+        ],
+        "member_occurrence_ids": [
+          "eco_0afad44fb7ed2fd915bbce8f24ab77ec"
+        ]
+      }
+    }
+  ],
+  "native_claims": {
+    "ragchecker": {
+      "claim_index": 21,
+      "claim": [
+        "Banco BPM's 2021–2024 Strategic Plan",
+        "set total net Scope 1 and Scope 2 emissions target at",
+        "7.4 thousand tonnes of CO₂ equivalent"
+      ],
+      "supported": true,
+      "evidence_verdicts": {
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::c0477": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p146::c0720": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2019::p092::c0384": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p143::c0699": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p163::c0924": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::annual_report::2022::p383::c1727": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p146::c0810": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::annual_report::2021::p357::c1629": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p135::c0644": "Neutral",
+        "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p146::c0812": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::t02::r0002": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::t02::r0003": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::t02::r0001": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2019::p102::t01::r0007": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p119::t01::r0001": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2019::p092::t01::r0001": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p017::t02::r0004": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p148::t01::r0001": "Neutral",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004": "Entailment",
+        "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p018::t02::r0001": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2020::261d76ae-ddd1-4210-b6bb-0eae2b88d19c": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2021::1ecd4ed5-7b87-4d3a-ad33-57267113f656": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2021::261d76ae-ddd1-4210-b6bb-0eae2b88d19c": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c61236e6-c3a5-4ba6-9803-b7cc07d63211": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::0d76f65f-53a4-498a-9e93-42053bfc83bc": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c42e16f4-8e08-44cd-be58-4eca46248f12": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::96842347-e9d9-45eb-96ce-2c4396afa8fc": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::b124adbc-8e56-491d-91fb-e1d75b7e0b61": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::07462ff9-b4bf-4fc3-918a-2ae6989566e1": "Neutral",
+        "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c59434cd-ca5d-4dc5-801b-ec5339e67b64": "Neutral"
+      }
+    },
+    "ragas": {
+      "claim_index": 22,
+      "claim": "The Strategic Plan envisaged a reduction in total net direct and indirect Scope 1 and Scope 2 emissions from 17.5 thousand tonnes to 7.4 thousand tonnes of CO₂ equivalent.",
+      "supported": true,
+      "reason": "The Strategic Plan table associates total net direct and indirect Scope 1 and Scope 2 emissions with figures of 17.5 thousand and 7.4 thousand tonnes of CO₂ equivalent."
+    }
+  },
+  "key_evidence_cards": [
+    {
+      "prompt_label": "Evidence 19",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 15",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 15,
+      "page_end": 15,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 175,
+      "prompt_rank_from_retrieval": 19,
+      "final_rrf_score": 0.008463052424405083,
+      "bm25_best_rank": null,
+      "dense_best_rank": 95,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2022, page 15, table. Table row: KEY OBJECTIVES OF THE 2021-2024 STRATEGIC PLAN = Total net direct & indirect emissions (Scope 1 & 2 T-CO equivalent) 2; unnamed_column_1 = 17.5K; unnamed_column_2 = CARBON NEUTRALITY DURING THE PLAN HORIZON; unnamed_column_4 = 7.4K. Table extraction requires manual review.",
+      "retrieval_text_hash": "ba765b047b309301a180f66eb27968bec79e57bd6bfa34aa1b8add906c155413",
+      "shown_in_prompt": true
+    }
+  ],
+  "full_prompt_evidence": [
+    {
+      "prompt_label": "Evidence 1",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::c0477",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2020,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf | Page 103",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 103,
+      "page_end": 103,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 43,
+      "prompt_rank_from_retrieval": 1,
+      "final_rrf_score": 0.017966484047695776,
+      "bm25_best_rank": 4,
+      "dense_best_rank": null,
+      "retrieval_text": "Guidelines regarding the management of environmental and energy issues and the fight against climate change Procurement of electricity from renewable sources Energy efficiency initiatives and monitoring of energy consumption USE OF NON-RENEWABLE NATURAL RESOURCES, ENERGY INEFFICIENCY AND FAILURE TO RECYCLE",
+      "retrieval_text_hash": "6f686448b4392ce5b0381baa6fcbd8f8a4620f6c670577b82334ee541e139694",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 2",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p146::c0720",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2021,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf | Page 146",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 146,
+      "page_end": 146,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 58,
+      "prompt_rank_from_retrieval": 2,
+      "final_rrf_score": 0.015811730097444382,
+      "bm25_best_rank": 7,
+      "dense_best_rank": null,
+      "retrieval_text": "Energy efficiency initiatives and monitoring of energy consumption • identification of the responsibilities and activities of each party involved; Use of recycled materials USE OF NON-RENEWABLE NATURAL RESOURCES, ENERGY INEFFICIENCY AND FAILURE TO RECYCLE • mitigation of management risks through constant monitoring;",
+      "retrieval_text_hash": "378a12069eaa7d0bbd026d40576b37886e17fe5d9c5f325d431239065e5dc9bb",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 3",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2019::p092::c0384",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2019,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2019_SR.pdf | Page 92",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2019_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 92,
+      "page_end": 92,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 70,
+      "prompt_rank_from_retrieval": 3,
+      "final_rrf_score": 0.014926189174412248,
+      "bm25_best_rank": 5,
+      "dense_best_rank": null,
+      "retrieval_text": "- guarantee, where necessary, of direct sale or sale by specialised agencies. MANAGEMENT METHODS/POLICIES ADOPTED MAIN RISKS Procurement of energy from renewable sources Energy efficiency initiatives and monitoring of energy consumption Use of recycled materials USE OF NON-RENEWABLE NATURAL RESOURCES, ENERGY INEFFICIENCY AND FAILURE TO RECYCLE",
+      "retrieval_text_hash": "9d24fa9b1493c44675b9354f8db39df13d2627e45232c5f8ecf00c10fcd25903",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 4",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p143::c0699",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2021,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf | Page 143",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 143,
+      "page_end": 143,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 71,
+      "prompt_rank_from_retrieval": 4,
+      "final_rrf_score": 0.014908130707448564,
+      "bm25_best_rank": 12,
+      "dense_best_rank": null,
+      "retrieval_text": "100% Consumption of electricity from renewable sources Consumption from district heating systems 26,622 25,918 2.7% Consumption of natural gas for building heating systems** 52,988 52,496 -0.9% Overall energy consumption is in line with the previous year. Reductions due to energy efficiency measures and the closure of 300 branches have resulted in a not insignificant reduction in consumption of around 2.7% by 2021.",
+      "retrieval_text_hash": "9ed138e446ea4daba64a4fec357dca28ea05bea39f7da97afccbd9c2fee94065",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 5",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p163::c0924",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 163",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 163,
+      "page_end": 163,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 77,
+      "prompt_rank_from_retrieval": 5,
+      "final_rrf_score": 0.014185814185814187,
+      "bm25_best_rank": 15,
+      "dense_best_rank": null,
+      "retrieval_text": "USE OF NON-RENEWABLE NATURAL RESOURCES, ENERGY INEFFICIENCY • Energy efficiency initiatives and monitoring of energy consumption • Use of recycled materials • identification of the responsibilities and activities of each party involved; • mitigation of management risks through constant monitoring; • Separate waste collection and recovery of material",
+      "retrieval_text_hash": "8ad8a21d82754f65b40863d7c7e991bc3e102bd1a94b80466df54e157b173b48",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 6",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::annual_report::2022::p383::c1727",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_AR.pdf | Page 383",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_AR.pdf",
+      "document_type": "annual_report",
+      "page_start": 383,
+      "page_end": 383,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 103,
+      "prompt_rank_from_retrieval": 6,
+      "final_rrf_score": 0.012430032812198417,
+      "bm25_best_rank": 29,
+      "dense_best_rank": null,
+      "retrieval_text": "1119 of 30 June 2021), which sets out a binding objective of climate neutrality in the European Union by 2050 and an intermediate target for reduction of greenhouse gas emissions by at least 55% by 2030 with respect to the levels recorded in 1990. In addition to all of the other projects undertaken as regards the analysis, management and mitigation of the risks relating to climate change, Banco BPM’s decision to join the Task Force on Climate-Related Financial Disclosures (TCFD) further confirms the Group’s awareness of playing a prominent role in action taken against climate change. For further details on the management and mitigation of climate and environmental risks, please refer to the Group's specific disclosure documentation: 2022 Non-Financial Statement, and 2022 Annual Pillar 3 Disclosure. Recent development concerning the ECB The European Central Bank has a prominent role in guiding the players in the banking and credit sector towards the disclosure of risks related to climate change.",
+      "retrieval_text_hash": "0d2911152fefc4ac18d64f2d486dba3c14b6db3a639d9129f5c2cff25ebc99b1",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 7",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p146::c0810",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 146",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 146,
+      "page_end": 146,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 108,
+      "prompt_rank_from_retrieval": 7,
+      "final_rrf_score": 0.012037037037037037,
+      "bm25_best_rank": 19,
+      "dense_best_rank": null,
+      "retrieval_text": "3 HIGH Industrial activities with high water consumption intensity (Not assigned by the current methodology) Activities with potential polluting impact but mitigated by countermeasures Activities with potential negative impacts on biodiversity, mainly related to high emission intensity and no evidence of mitigation actions",
+      "retrieval_text_hash": "61e066c477676c2b41043e2ad571e7562a44df31fe3e4ac027eb3faa81f4be29",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 8",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::annual_report::2021::p357::c1629",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2021,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_AR.pdf | Page 357",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_AR.pdf",
+      "document_type": "annual_report",
+      "page_start": 357,
+      "page_end": 357,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 117,
+      "prompt_rank_from_retrieval": 8,
+      "final_rrf_score": 0.011659831203606412,
+      "bm25_best_rank": 35,
+      "dense_best_rank": null,
+      "retrieval_text": "1119 of 30 June 2021), which sets out a binding objective of climate neutrality in the European Union by 2050 and an intermediate target for reduction of greenhouse gas emissions by at least 55% by 2030 with respect to the levels recorded in 1990. In addition to all of the other projects undertaken as regards the analysis, management and mitigation of the risks relating to climate change, Banco BPM’s decision to join the Task Force on Climate-Related Financial Disclosures (TCFD) further confirms the Group’s awareness of playing a prominent role in action taken against climate change. For further details on the management and mitigation of climate and environmental risks, please refer to the 2021 Non-Financial Statement. Recent development concerning the ECB The European Central Bank (ECB) has a prominent role in guiding the players in the banking and credit sector towards the disclosure of risks related to climate change.",
+      "retrieval_text_hash": "89784c3e8164aceca8e2704b8e4f863b826f4dfc5f9f83dabcfc49d8ced8cdaf",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 9",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p135::c0644",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2021,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf | Page 135",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 135,
+      "page_end": 135,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 118,
+      "prompt_rank_from_retrieval": 9,
+      "final_rrf_score": 0.011611219830397913,
+      "bm25_best_rank": 23,
+      "dense_best_rank": null,
+      "retrieval_text": "In accordance with regulatory recommendations, guidelines and requirements for the first reporting period (1 January 2022 to 31 December 2023), we disclose the proportion of eligible exposures in our banking book (mandatory disclosure). With this in mind, the Group has based the identification of eligible economic activities, and therefore the related exposures, on the Technical Delegated Acts, which to date only cover the first two objectives: Climate Change Mitigation and Climate Change Adaptation.",
+      "retrieval_text_hash": "ffe6ce660fbca7d02993d93bef271c437ed8a13676d93e473bdbd7f4f1ce86eb",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 10",
+      "evidence_id": "pdf_narrative::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p146::c0812",
+      "evidence_type": "narrative",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 146",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 146,
+      "page_end": 146,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 124,
+      "prompt_rank_from_retrieval": 10,
+      "final_rrf_score": 0.011349342481417952,
+      "bm25_best_rank": 16,
+      "dense_best_rank": null,
+      "retrieval_text": "17 The variables analysed are directly related to the last four objectives defined by the EU taxonomy: - the sustainable use and protection of water and marine resources; - the transition to a circular economy; - the prevention and reduction of pollution; - the protection and restoration of biodiversity and ecosystems. We should emphasise that the first two objectives (climate change mitigation and climate change adaptation) are respectively related to transition risk and physical risk analysed in the previous paragraphs.",
+      "retrieval_text_hash": "4a0dac2795baa43f0aac1efa7845abb58f5b348204b4628dd0192a7fafec0798",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 11",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::t02::r0002",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2020,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf | Page 103",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 103,
+      "page_end": 103,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 6,
+      "prompt_rank_from_retrieval": 11,
+      "final_rrf_score": 0.029910714285714284,
+      "bm25_best_rank": 12,
+      "dense_best_rank": 9,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2020, page 103, table. Table row: Guidelines regarding the management of environmental and energy issues and the fight against climate change Procurement of electricity from renewable sources Energy efficiency initiatives and monitoring of energy consumption Use of recycled materials Separate waste collection and recovery of material Centralised management of paper and toner consumption = Development of the Green, Social and Sustainable Bond Framework, according to ICMA principles, needed to raise financial resources, through the bond market, to be allocated to sustainable initiatives. Release of products and services for energy requalification and reduction of seismic risk (110% Superbonus) Development of the offering of green mortgages, to be released in 2021.",
+      "retrieval_text_hash": "714bb22197baa1a0ee9223515be98f35e5ea05fcc26579af5745c79cf7bce19c",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 12",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::t02::r0003",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2020,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf | Page 103",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 103,
+      "page_end": 103,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 12,
+      "prompt_rank_from_retrieval": 12,
+      "final_rrf_score": 0.02719970792259949,
+      "bm25_best_rank": 17,
+      "dense_best_rank": 2,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2020, page 103, table. Table row: Guidelines regarding the management of environmental and energy issues and the fight against climate change Procurement of electricity from renewable sources Energy efficiency initiatives and monitoring of energy consumption Use of recycled materials Separate waste collection and recovery of material Centralised management of paper and toner consumption = Launch of credit portfolio mapping, relating to environmental risks, in order to enact ad hoc policies and interventions.",
+      "retrieval_text_hash": "8cde0ea6af37c1acd77d56747bf69c8a215153f3b93e0c651838425c66d46754",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 13",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p103::t02::r0001",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2020,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf | Page 103",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 103,
+      "page_end": 103,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 29,
+      "prompt_rank_from_retrieval": 13,
+      "final_rrf_score": 0.022817460317460316,
+      "bm25_best_rank": 20,
+      "dense_best_rank": 8,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2020, page 103, table. Table row: Guidelines regarding the management of environmental and energy issues and the fight against climate change Procurement of electricity from renewable sources Energy efficiency initiatives and monitoring of energy consumption Use of recycled materials Separate waste collection and recovery of material Centralised management of paper and toner consumption = Monitoring of conditions of properties and measures to bring them into compliance with regulations.",
+      "retrieval_text_hash": "8477f7d68a1b926f06ab8245acad43de57d475f7596956d1479dd90f4c3cf226",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 14",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2019::p102::t01::r0007",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2019,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2019_SR.pdf | Page 102",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2019_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 102,
+      "page_end": 102,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 35,
+      "prompt_rank_from_retrieval": 14,
+      "final_rrf_score": 0.02116935483870968,
+      "bm25_best_rank": 103,
+      "dense_best_rank": 13,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2019, page 102, table. Table row: MATERIAL TOPIC = Environmental mitigation; DEFINITION AND RELEVANCE = Relating to direct impacts, all measures taken to reduce the consumption of the resources employed in business activities as well as the main harmful emissions. As regards indirect impacts, funding of energy efficiency initiatives and projects and assessment of environmental risk in the credit process.; GRI Standard Disclosure = GRI 302: Energy 2016 GRI 305: Emissions 2016 GRI 301: Materials 2016; INTERNAL IMPACTS = Banco BPM Group; EXTERNAL IMPACTS = Community.",
+      "retrieval_text_hash": "766803c61ffeca985603b652a0c4c68696f58edb2ff1eee5fb0afc428be76448",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 15",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2020::p119::t01::r0001",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2020,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf | Page 119",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2020_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 119,
+      "page_end": 119,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 36,
+      "prompt_rank_from_retrieval": 15,
+      "final_rrf_score": 0.020892687559354226,
+      "bm25_best_rank": 124,
+      "dense_best_rank": 4,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2020, page 119, table. Table row: MATERIAL TOPIC = Climate change and protection of the environment; DEFINITION AND RELEVANCE = This refers, on one hand, to all actions intended to reduce the consumption of resources used in company activities as well as harmful emissions and therefore as a whole it refers to the reduction of direct impacts on the climate and the environment, and on the other hand to the financing of initiatives and projects for the transition towards a sustainable economy (indirect impacts).; GRI Standard Disclosure = GRI 302: 2016 Energy GRI 305: 2016 Emissions GRI 301: 2016 Materials; INTERNAL IMPACTS = Banco BPM Group; EXTERNAL IMPACTS = Community.",
+      "retrieval_text_hash": "99fcc221622b09ceb949a5cbe4aca118e947730118a89e63b04d13926686693b",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 16",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2019::p092::t01::r0001",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2019,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2019_SR.pdf | Page 92",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2019_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 92,
+      "page_end": 92,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 94,
+      "prompt_rank_from_retrieval": 16,
+      "final_rrf_score": 0.012974591425125796,
+      "bm25_best_rank": 13,
+      "dense_best_rank": null,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2019, page 92, table. Table row: unnamed_column_0 = USE OF NON-RENEWABLE NATURAL RESOURCES, ENERGY INEFFICIENCY AND FAILURE TO RECYCLE; unnamed_column_2 = Procurement of energy from renewable sources Energy efficiency initiatives and monitoring of energy consumption Use of recycled materials Separate waste collection and recovery of material. Table extraction requires manual review.",
+      "retrieval_text_hash": "2197b549e3272b7f315d04376c9baf0ff1d7305559bac1ffb1d9407e8415742c",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 17",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p017::t02::r0004",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 17",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 17,
+      "page_end": 17,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 136,
+      "prompt_rank_from_retrieval": 17,
+      "final_rrf_score": 0.01032542336890163,
+      "bm25_best_rank": null,
+      "dense_best_rank": 46,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2022, page 17, table. Table row: unnamed_column_0 = STNEMEVEIHCA; ESG MACRO-AREAS 2021-2024 STRATEGIC PLAN = • Expanded ESG • ESG awareness initiatives Ambassador implemented: perimeter: 75 at the ▪ activation of a Master’s end of 2022 programme for training of ESG • Revised and Ambassadors during the plan years; enriched Code of Ethics ▪ training initiatives dedicated to the ‘Environmental, Social and Governance’ dimensions for the entire corporate population • Increased number of women in managerial positions • Defined and internally shared the Respect Pact, approved by management, concerning the commitment to respect every single person in the company and all diversity; unnamed_column_2 = • Including physical risk assessments and analyses consistent with the EU taxonomy in the context of credit • ESG risks considered in the methodology and monitoring of reputational risk • First integration of climate risk into the ICAAP • First ‘Climate Risk Stress Test’ exercise carried out by the ECB; unnamed_column_3 = • New Chirografario • Published our first Green, Corporate product Social and Sustainability launched (with Objective Bonds Report Sustainability) • ’Green’ bond issues totalling • Defined a reference €2.05 billion function for the sales • Guidelines on integrating network to support the sustainability risks in the ESG commercial offer provision of investment services • Improved diagnostics updated (tools and • Integrated sustainability factors in methodologies) to measuring client preferences, in identify business the provision of investment opportunities services • Carried out training on ESG advisory, solutions and products; unnamed_column_4 = • Extraordinary energy efficiency measures adopted in response to the energy crisis • Completed the Offsetting Project, compensating ~8,000 t CO eq 2; unnamed_column_5 = • Strengthened climate disclosure • Strengthened stakeholder engagement in the materiality definition process. Table extraction requires manual review.",
+      "retrieval_text_hash": "a7078745d5da81a2c9463a4b2828393360cfab9a6d6a82dcd61b31c0bc90418e",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 18",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p148::t01::r0001",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 148",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 148,
+      "page_end": 148,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 169,
+      "prompt_rank_from_retrieval": 18,
+      "final_rrf_score": 0.008702473910822447,
+      "bm25_best_rank": 181,
+      "dense_best_rank": 144,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2022, page 148, table. Table row: MARKET RISK = OPERATIONAL RISK; The potential impacts of climate change on market risk are assessed concerning the potential reduction in the value of instruments in the ownership portfolios against costs/investments incurred by the issuing companies and related to the energy transition. In particular, we conducted specific materiality analyses of the exposure of the proprietary portfolio (trading and banking book) to climate-related risk factors, through an assessment that examined both its composition (bonds, equities and derivatives) and the concentration and distribution of issuers with respect to the most sensitive sectors. The assessment’s results show that almost all of the financial instruments within the scope considered (99%) are marginally impacted by climate and environmental risks*. Banco BPM also conducts an estimate of the transition risk on the fair value of equity and bond positions included in the trading portfolio. Full integration of ESG factors into the economic capital assessments (trading and banking book) for capital adequacy assessment (ICAAP) is planned for the year 2023. = The potential impacts of climatic and environmental factors on operational risk are assessed concerning the occurrence of events (e.g., floods, droughts, fires, etc.) that could cause an increase in operational risks themselves, with a focus not only on the effects on business continuity and damage to the Group’s real estate and artistic heritage but also on potential losses caused by legal action18. We then analyse the potential exposure to such risk factors, through the historical reporting of events and prospective analyses. During the course of the year, we carried out a dedicated assessment of potential exposures related to physical risk and conduct risk (a subcategory of operational risk) through analytical risk self-assessment scenarios; the assessments showed limited impacts. These impacts were also considered in determining second-pillar risks in the periodic capital adequacy assessment exercises (ICAAP)..",
+      "retrieval_text_hash": "32f0f6de3c898321230c18db7f6b901e64a5d886caae2d4a53b926e63d638292",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 19",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2022::p015::t02::r0004",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2022,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf | Page 15",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 15,
+      "page_end": 15,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 175,
+      "prompt_rank_from_retrieval": 19,
+      "final_rrf_score": 0.008463052424405083,
+      "bm25_best_rank": null,
+      "dense_best_rank": 95,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2022, page 15, table. Table row: KEY OBJECTIVES OF THE 2021-2024 STRATEGIC PLAN = Total net direct & indirect emissions (Scope 1 & 2 T-CO equivalent) 2; unnamed_column_1 = 17.5K; unnamed_column_2 = CARBON NEUTRALITY DURING THE PLAN HORIZON; unnamed_column_4 = 7.4K. Table extraction requires manual review.",
+      "retrieval_text_hash": "ba765b047b309301a180f66eb27968bec79e57bd6bfa34aa1b8add906c155413",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 20",
+      "evidence_id": "pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2021::p018::t02::r0001",
+      "evidence_type": "pdf_table_row",
+      "source_type": "pdf",
+      "source_year": 2021,
+      "source_label": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf | Page 18",
+      "source_file": "1f87c1c3-4366-472a-a793-ac759c4c93cc_2021_SR.pdf",
+      "document_type": "sustainability_report",
+      "page_start": 18,
+      "page_end": 18,
+      "metric": null,
+      "value_text": null,
+      "unit": null,
+      "retrieval_rank": 193,
+      "prompt_rank_from_retrieval": 20,
+      "final_rrf_score": 0.007656272873664178,
+      "bm25_best_rank": null,
+      "dense_best_rank": 123,
+      "retrieval_text": "Company: Banco BPM. Source: sustainability report 2021, page 18, table. Table row: PEOPLE STRATEGY = GOVERNANCE PEOPLE • Review of internal • Promotion of ESG policies Diversity & • Expansion of ESG Inclusion (D&I) KPI integration in issues management • Increasing female remuneration presence in policies management roles • Appointment of • Extension of ESG ESG Ambassadors training plans in the various corpo- rate departments; RISK & CREDIT = RISK & CREDIT • Integration of climate- related and environmental risks in risk assessment and lending • Development of portfolio transparency exercises to measure climate-related risks in key sectors and geographies • Conducting specific climate risk stress tests and scenario analyses which also consider the Paris Agreement; BUSINESS = CUSTOMERS: CUSTOMERS: WEALTH BUSINESS MANAGEMENT • Supporting the green • Development of ESG transition process investment product • Developing customer offerings and appropriate engagement skills on disclosure to customers ESG issues • Integration of ESG considerations into product selection and advisory activities • Reporting to customers on the effects of their investments on sustainability risks and objectives; ENVIRONMENT = ENVIRONMENT • Reducing our CO eq 2 emissions • Reducing material consumption • Integration of ESG criteria in supplier selection; COMMUNITY = STAKEHOLDER ENGAGEMENT & MEASUREMENT • Analysis and selection of international sustainability initiatives in line with the Group's values, policies and objectives • Definition of metrics for measuring the indirect impacts of our funding • Development of disclosure in line with industry best practices.",
+      "retrieval_text_hash": "758c8cb518114c92610ce0e00bcd8c2a7f395cad58b1ce58c4ae575b8caea562",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 21",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2020::261d76ae-ddd1-4210-b6bb-0eae2b88d19c",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2020,
+      "source_label": "Corporate Sustainability Tracker | Source year 2020",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Financial resources allocated to action plan (OpEx) ESRS E1 Climate change",
+      "value_text": "570500000.0",
+      "unit": "USD",
+      "retrieval_rank": 1,
+      "prompt_rank_from_retrieval": 21,
+      "final_rrf_score": 0.03278688524590164,
+      "bm25_best_rank": 1,
+      "dense_best_rank": 1,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2020. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 570500000.0 USD.",
+      "retrieval_text_hash": "a95e37fa67507dab7bddfab6f47c0544e04c3d00f0ebc6de0dd16806c224fd52",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 22",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2021::1ecd4ed5-7b87-4d3a-ad33-57267113f656",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2021,
+      "source_label": "Corporate Sustainability Tracker | Source year 2021",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Financial resources allocated to action plan (CapEx) ESRS E1 Climate change",
+      "value_text": "5915000000.0",
+      "unit": "USD",
+      "retrieval_rank": 2,
+      "prompt_rank_from_retrieval": 22,
+      "final_rrf_score": 0.03200204813108039,
+      "bm25_best_rank": 3,
+      "dense_best_rank": 2,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (CapEx) ESRS E1 Climate change. Value: 5915000000.0 USD.",
+      "retrieval_text_hash": "78c0b3f13a5e5c4e5da27a4d2dad7d966c14ba8f94b8e82feffe9c2141fbb217",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 23",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2021::261d76ae-ddd1-4210-b6bb-0eae2b88d19c",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2021,
+      "source_label": "Corporate Sustainability Tracker | Source year 2021",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Financial resources allocated to action plan (OpEx) ESRS E1 Climate change",
+      "value_text": "1064700000.0",
+      "unit": "USD",
+      "retrieval_rank": 3,
+      "prompt_rank_from_retrieval": 23,
+      "final_rrf_score": 0.03200204813108039,
+      "bm25_best_rank": 2,
+      "dense_best_rank": 3,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2021. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-1. Indicator: Financial resources allocated to action plan (OpEx) ESRS E1 Climate change. Value: 1064700000.0 USD.",
+      "retrieval_text_hash": "329df6edf0592d4b032f2ad6f1b56806fb4248c5e3f9ac026f886804afe30a41",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 24",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c61236e6-c3a5-4ba6-9803-b7cc07d63211",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2023,
+      "source_label": "Corporate Sustainability Tracker | Source year 2023",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Percentage of target related to total Greenhouse gas emissions (as of emissions of base year)",
+      "value_text": "55.0",
+      "unit": "percent",
+      "retrieval_rank": 4,
+      "prompt_rank_from_retrieval": 24,
+      "final_rrf_score": 0.031009615384615385,
+      "bm25_best_rank": 9,
+      "dense_best_rank": 6,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions (as of emissions of base year). Value: 55.0 percent.",
+      "retrieval_text_hash": "7fe73e80492b16c74c609ec5e78df52c6930f5f3dd23b0100f50b5029a0919cf",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 25",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::0d76f65f-53a4-498a-9e93-42053bfc83bc",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2023,
+      "source_label": "Corporate Sustainability Tracker | Source year 2023",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Percentage of target related to Scope 3 Greenhouse gas emissions",
+      "value_text": "40.0",
+      "unit": "percent",
+      "retrieval_rank": 5,
+      "prompt_rank_from_retrieval": 25,
+      "final_rrf_score": 0.03007688828584351,
+      "bm25_best_rank": 6,
+      "dense_best_rank": 13,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions. Value: 40.0 percent.",
+      "retrieval_text_hash": "cad0440c5844f061b568618384d9864baf23da9145d78a35759b4ecb4cb62f8f",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 26",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c42e16f4-8e08-44cd-be58-4eca46248f12",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2023,
+      "source_label": "Corporate Sustainability Tracker | Source year 2023",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year)",
+      "value_text": "30.0",
+      "unit": "percent",
+      "retrieval_rank": 7,
+      "prompt_rank_from_retrieval": 26,
+      "final_rrf_score": 0.029877369007803793,
+      "bm25_best_rank": 10,
+      "dense_best_rank": 7,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to location-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 30.0 percent.",
+      "retrieval_text_hash": "0414b5f11ec9c7b0522f792cb44290445a527ae62ba23faf3da27132133ad8c1",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 27",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::96842347-e9d9-45eb-96ce-2c4396afa8fc",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2023,
+      "source_label": "Corporate Sustainability Tracker | Source year 2023",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year)",
+      "value_text": "40.0",
+      "unit": "percent",
+      "retrieval_rank": 8,
+      "prompt_rank_from_retrieval": 27,
+      "final_rrf_score": 0.029418126757516764,
+      "bm25_best_rank": 8,
+      "dense_best_rank": 11,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to Scope 3 Greenhouse gas emissions (as of emissions of base year). Value: 40.0 percent.",
+      "retrieval_text_hash": "3f9a9fbc38f46725e6ab9acc8175b25d977afe147a7cf5e39eb9afc80b8fe8a0",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 28",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::b124adbc-8e56-491d-91fb-e1d75b7e0b61",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2023,
+      "source_label": "Corporate Sustainability Tracker | Source year 2023",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Percentage of target related to total Greenhouse gas emissions",
+      "value_text": "100.0",
+      "unit": "percent",
+      "retrieval_rank": 9,
+      "prompt_rank_from_retrieval": 28,
+      "final_rrf_score": 0.028991596638655463,
+      "bm25_best_rank": 7,
+      "dense_best_rank": 12,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to total Greenhouse gas emissions. Value: 100.0 percent.",
+      "retrieval_text_hash": "285b0c243bb46da549163e887dbcc2ded12ed37c67edae4155e26b03a08fe969",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 29",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::07462ff9-b4bf-4fc3-918a-2ae6989566e1",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2023,
+      "source_label": "Corporate Sustainability Tracker | Source year 2023",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Percentage of assets at material transition risk before considering climate mitigation actions",
+      "value_text": "18.4",
+      "unit": "percent",
+      "retrieval_rank": 10,
+      "prompt_rank_from_retrieval": 29,
+      "final_rrf_score": 0.028404512489927477,
+      "bm25_best_rank": 4,
+      "dense_best_rank": 10,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-9. Indicator: Percentage of assets at material transition risk before considering climate mitigation actions. Value: 18.4 percent.",
+      "retrieval_text_hash": "2b5304b56cfcc165f78594321a0e1d629929e3c0287f8a09162f4581738e0d85",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 30",
+      "evidence_id": "csv::1f87c1c3-4366-472a-a793-ac759c4c93cc::2023::c59434cd-ca5d-4dc5-801b-ec5339e67b64",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2023,
+      "source_label": "Corporate Sustainability Tracker | Source year 2023",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year)",
+      "value_text": "100.0",
+      "unit": "percent",
+      "retrieval_rank": 11,
+      "prompt_rank_from_retrieval": 30,
+      "final_rrf_score": 0.027783137179239824,
+      "bm25_best_rank": 11,
+      "dense_best_rank": 14,
+      "retrieval_text": "Company: Banco BPM. Reporting year: 2023. ESG topic: env. ESRS standard: E1. Disclosure requirement: E1-4. Indicator: Percentage of target related to market-based Scope 2 Greenhouse gas emissions (as of emissions of base year). Value: 100.0 percent.",
+      "retrieval_text_hash": "b5fed97fb8363387850f9953dd8ea930c87ea350de71ac56189527f9115bba3b",
+      "shown_in_prompt": true
+    }
+  ],
+  "verified_input_hashes": {
+    "prompt_hash": "4a91ef18eb56dae41d100fa90691c41fa9a4a6d259c890c2a1f36a1770d167f0",
+    "response_hash": "21ad12c2c1447c1d1684b9fa87654001591979d4d747eadd3b66afe3f51e4699",
+    "context_hash": "a2a144836f0391beb61bfc8c0ca2a86b923b3311e22664c227f3089938e8294a"
+  },
+  "checks": {
+    "native_labels_verified": true,
+    "common_prompt_visible_context_verified": true,
+    "generated_quotations_exact": true,
+    "key_source_cards_present_in_bace_candidates": true
+  },
+  "source_inspection": {
+    "key_source_qualifiers_present_in_bace_candidates": false,
+    "status": "Interpretive review recorded in the reports, not established by this script."
+  },
+  "original_pdf_audit": {
+    "source": "data/raw/reports_pdf/1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+    "page": 15,
+    "text_artifact": "paper/analysis/disagreement_cases/banco_bpm_2022_p15.txt",
+    "image_artifact": "paper/analysis/disagreement_cases/banco_bpm_2022_p15.png",
+    "text_command": [
+      "pdftotext",
+      "-f",
+      "15",
+      "-l",
+      "15",
+      "-layout",
+      "/home/muwang/master_thesis/data/raw/reports_pdf/1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "-"
+    ],
+    "render_command": [
+      "pdftoppm",
+      "-f",
+      "15",
+      "-l",
+      "15",
+      "-scale-to",
+      "2200",
+      "-singlefile",
+      "-png",
+      "/home/muwang/master_thesis/data/raw/reports_pdf/1f87c1c3-4366-472a-a793-ac759c4c93cc_2022_SR.pdf",
+      "/home/muwang/master_thesis/paper/analysis/disagreement_cases/banco_bpm_2022_p15"
+    ],
+    "scope": "Original-page audit only. The page image and restored column headers were not provided to the evaluators."
+  },
+  "source_csv_record_indices": []
+}

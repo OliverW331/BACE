@@ -1,0 +1,14 @@
+[
+  {"id":"s01","backend":"crossref","query":"RAGChecker","limit":5},
+  {"id":"s02","backend":"crossref","query":"RefChecker","limit":5},
+  {"id":"s03","backend":"crossref","query":"Claimify","limit":5},
+  {"id":"s04","backend":"openalex","query":"\"sustainability\" \"RAG\"","limit":20},
+  {"id":"s05","backend":"openalex","query":"\"ESG\" \"hallucination\"","limit":15},
+  {"id":"s06","backend":"openalex","query":"\"sustainability reporting\" \"evaluation\" \"language\"","limit":15},
+  {"id":"s07","backend":"crossref","query":"ESGH-RAG","limit":5},
+  {"id":"s08","backend":"crossref","query":"EcoSmartGuide","limit":5},
+  {"id":"s09","backend":"openalex","query":"\"claim\" \"decontextualization\" \"factuality\"","limit":15},
+  {"id":"s10","backend":"crossref","query":"sustainability disclosure hallucination evaluation","limit":15},
+  {"id":"s11","backend":"openalex","query":"\"ESRS\" \"faithfulness\"","limit":15},
+  {"id":"s12","backend":"openalex","query":"\"Claimify\"","limit":5}
+]

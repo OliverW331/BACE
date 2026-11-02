@@ -1,0 +1,335 @@
+{
+  "status": "SOURCE_REPORTED_SPECIFICATION_VERIFIED",
+  "access_date": "2026-11-02",
+  "run": "main_v1",
+  "interpretation": "Prompt/config definitions, not independent output-validity measurements",
+  "stages": [
+    {
+      "stage": "Direct extraction",
+      "report_use": "5.2: admission, atomicity, source roles and context",
+      "config_path": "BACE/config/evaluation/configs/generation_claim_extraction_config_v8.json",
+      "config_sha256": "5a397e4a187bf168293c9c9e34bbf7063b7d9d72a66333d4f238a0d90e16b806",
+      "config_schema_version": "generation_claim_extraction_config_v1",
+      "parameters": {
+        "output_validation": {
+          "mode": "schema_only"
+        }
+      },
+      "references": [
+        {
+          "kind": "prompts",
+          "role": "ec",
+          "path": "BACE/config/evaluation/prompts/generation_ec_claim_extraction_prompt_v8.txt",
+          "sha256": "c16eb19e8f739e6f54d8169e844a84e06112813f7cb9f25ceccb7647f9084d22",
+          "version": "generation_ec_claim_extraction_prompt_v8",
+          "version_origin": "Declared configuration version",
+          "locator": "DEFINITION; PROCEDURE; OUTPUT; EVIDENCE/DISCLOSURE RULES"
+        },
+        {
+          "kind": "prompts",
+          "role": "dc",
+          "path": "BACE/config/evaluation/prompts/generation_dc_claim_extraction_prompt_v8.txt",
+          "sha256": "9b09bd62e05a77e4182c2e070f34531561a5aa8be77eb10020c93a5d5cd92f0f",
+          "version": "generation_dc_claim_extraction_prompt_v8",
+          "version_origin": "Declared configuration version",
+          "locator": "DEFINITION; PROCEDURE; OUTPUT; EVIDENCE/DISCLOSURE RULES"
+        },
+        {
+          "kind": "response_schemas",
+          "role": "ec",
+          "path": "BACE/config/evaluation/schemas/generation_ec_claim_extraction_response_schema_v3.json",
+          "sha256": "a449d177529e986ae4ac49f6c96b4facb62f06ff0c78b0d742541c4f8905dc65",
+          "version": "generation_ec_claim_extraction_response_v3",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        },
+        {
+          "kind": "response_schemas",
+          "role": "dc",
+          "path": "BACE/config/evaluation/schemas/generation_dc_claim_extraction_response_schema_v3.json",
+          "sha256": "eae6fee8b733ae9b94272fdba875a54a53e9f549a1525d03ff65f27523bc1621",
+          "version": "generation_dc_claim_extraction_response_v3",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        }
+      ]
+    },
+    {
+      "stage": "Identified-patch review",
+      "report_use": "5.2: source-faithful repair and addressed edits",
+      "config_path": "BACE/config/evaluation/configs/generation_claim_patch_review_config_v4.json",
+      "config_sha256": "bb38606e69589e29dbec91db00b74a7fbdcb3debcd98297395b9d004efe27212",
+      "config_schema_version": "generation_claim_extraction_config_v1",
+      "parameters": {
+        "output_validation": {
+          "mode": "schema_only"
+        }
+      },
+      "references": [
+        {
+          "kind": "prompts",
+          "role": "ec",
+          "path": "BACE/config/evaluation/prompts/generation_ec_claim_patch_review_prompt_v4.txt",
+          "sha256": "f1ec61f6416d4a30a32bda4a91371a8c68aa064417493d0373c66612d6185ba5",
+          "version": "generation_ec_claim_patch_review_prompt_v4",
+          "version_origin": "Declared configuration version",
+          "locator": "BACE OPERATIONAL DEFINITION; WORK SEQUENCE; EDIT OUTPUT CONTRACT"
+        },
+        {
+          "kind": "prompts",
+          "role": "dc",
+          "path": "BACE/config/evaluation/prompts/generation_dc_claim_patch_review_prompt_v4.txt",
+          "sha256": "1d51a196f1561a1e82fbb8a3c900f2c9af743293ca1097ace40f0dd9cc22ad87",
+          "version": "generation_dc_claim_patch_review_prompt_v4",
+          "version_origin": "Declared configuration version",
+          "locator": "BACE OPERATIONAL DEFINITION; WORK SEQUENCE; EDIT OUTPUT CONTRACT"
+        },
+        {
+          "kind": "response_schemas",
+          "role": "ec",
+          "path": "BACE/config/evaluation/schemas/generation_ec_claim_patch_review_response_schema_v2.json",
+          "sha256": "3dedca659fa3d4584ac8ec3ef28f002348374b5d5c36b73ce6664e844168cb10",
+          "version": "generation_ec_claim_patch_review_response_v2",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        },
+        {
+          "kind": "response_schemas",
+          "role": "dc",
+          "path": "BACE/config/evaluation/schemas/generation_dc_claim_patch_review_response_schema_v2.json",
+          "sha256": "ffa91b17443e45e6f7177057dfd1d4f8c1f59fbd70daa46c00dba86f45587cf5",
+          "version": "generation_dc_claim_patch_review_response_v2",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        },
+        {
+          "kind": "operational_definition",
+          "role": "shared",
+          "path": "BACE/config/evaluation/prompts/generation_claim_definition_v2.txt",
+          "sha256": "ab7bb9937aca9b0237ab954c8f31021542a9d2062d3b5e974e30273b3e818acf",
+          "version": "generation_claim_definition_v2",
+          "version_origin": "Filename identifier; no separate declared version",
+          "locator": "ADMISSION; ATOMICITY; FIDELITY"
+        }
+      ]
+    },
+    {
+      "stage": "Atomicity review",
+      "report_use": "5.2: constrained splitting",
+      "config_path": "BACE/config/evaluation/configs/generation_claim_atomicity_review_config_v2.json",
+      "config_sha256": "aca5effface93b850af28dff37e7e2d8a08d17c9132680d5e10e6c56e5167e2b",
+      "config_schema_version": "generation_claim_extraction_config_v1",
+      "parameters": {
+        "output_validation": {
+          "mode": "schema_only"
+        }
+      },
+      "references": [
+        {
+          "kind": "prompts",
+          "role": "ec",
+          "path": "BACE/config/evaluation/prompts/generation_ec_claim_atomicity_review_prompt_v2.txt",
+          "sha256": "423fbf4624cdb2c999ac303837e4dd46d858d8a017a14c2a027d10922c71d9c6",
+          "version": "generation_ec_claim_atomicity_review_prompt_v2",
+          "version_origin": "Declared configuration version",
+          "locator": "TASK: CONSERVATIVE SPLITTING OF ALREADY ADMITTED CLAIMS; For each existing claim; OUTPUT"
+        },
+        {
+          "kind": "prompts",
+          "role": "dc",
+          "path": "BACE/config/evaluation/prompts/generation_dc_claim_atomicity_review_prompt_v2.txt",
+          "sha256": "e6d02cd6bd331287153b483816809f4e79ebb206494cdf32c34a1ee29f8f41d2",
+          "version": "generation_dc_claim_atomicity_review_prompt_v2",
+          "version_origin": "Declared configuration version",
+          "locator": "TASK: CONSERVATIVE SPLITTING OF ALREADY ADMITTED CLAIMS; For each existing claim; OUTPUT"
+        },
+        {
+          "kind": "response_schemas",
+          "role": "ec",
+          "path": "BACE/config/evaluation/schemas/generation_ec_claim_atomicity_review_response_schema_v1.json",
+          "sha256": "181d1a2aeaf2adb3efa7254a8b0e4690c97a17dfaa4199b59aa679680d46ed0d",
+          "version": "generation_ec_claim_atomicity_review_response_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        },
+        {
+          "kind": "response_schemas",
+          "role": "dc",
+          "path": "BACE/config/evaluation/schemas/generation_dc_claim_atomicity_review_response_schema_v1.json",
+          "sha256": "59631481063ed67846d202f7646b11660d5368a60bc3b2123b0d3aa7a78c6b01",
+          "version": "generation_dc_claim_atomicity_review_response_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        },
+        {
+          "kind": "operational_definition",
+          "role": "shared",
+          "path": "BACE/config/evaluation/prompts/generation_claim_definition_v2.txt",
+          "sha256": "ab7bb9937aca9b0237ab954c8f31021542a9d2062d3b5e974e30273b3e818acf",
+          "version": "generation_claim_definition_v2",
+          "version_origin": "Filename identifier; no separate declared version",
+          "locator": "ADMISSION; ATOMICITY; FIDELITY"
+        }
+      ]
+    },
+    {
+      "stage": "Semantic deduplication",
+      "report_use": "5.2: mutual entailment, canonical text and counting",
+      "config_path": "BACE/config/evaluation/configs/generation_claim_semantic_dedup_config.json",
+      "config_sha256": "c0f7ef2357b51c26a29385462cbf901a8413ead7598a136f30d4ae38daa7b9c3",
+      "config_schema_version": "generation_claim_semantic_dedup_config_v1",
+      "parameters": {
+        "deduplication": {
+          "exact_normalization": "unicode_nfkc_casefold_whitespace_v1",
+          "semantic_equivalence": "mutual_entailment_same_truth_conditions_v1",
+          "max_claim_units_per_case_and_kind": 400
+        }
+      },
+      "references": [
+        {
+          "kind": "prompt",
+          "role": "shared",
+          "path": "BACE/config/evaluation/prompts/generation_claim_semantic_dedup_prompt_v1.txt",
+          "sha256": "b8cf89420645eebbd2b33da73af33b5f736f71ad46e212a520d67eafcf7c886e",
+          "version": "generation_claim_semantic_dedup_prompt_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Semantic-equivalence criterion; Partition contract"
+        },
+        {
+          "kind": "response_schema",
+          "role": "shared",
+          "path": "BACE/config/evaluation/schemas/generation_claim_semantic_dedup_response_schema_v1.json",
+          "sha256": "d88d88577996dde1aeabc2da5e83a816c381085b6cb9c21d9c1ea0f557686201",
+          "version": "generation_claim_semantic_dedup_response_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        }
+      ]
+    },
+    {
+      "stage": "Candidate selection",
+      "report_use": "5.3: material relevance and capacity limits",
+      "config_path": "BACE/config/evaluation/configs/generation_claim_candidate_selection_config.json",
+      "config_sha256": "f9b2f8429756ef16b68d8b8804442bdc6c2ce5eb82b85149c4af2c486d27e3fa",
+      "config_schema_version": "generation_claim_candidate_selection_config_v1",
+      "parameters": {
+        "selection": {
+          "temporary_id_min_width": 3,
+          "max_evidence_claims_per_case": 500
+        }
+      },
+      "references": [
+        {
+          "kind": "prompt",
+          "role": "shared",
+          "path": "BACE/config/evaluation/prompts/generation_claim_candidate_selection_prompt_v1.txt",
+          "sha256": "82ac020bf83280a66716eec93b7cd61b6e9b39fff2d37e9ad654e807dab63e08",
+          "version": "generation_claim_candidate_selection_prompt_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Candidate criterion; Recall and selectivity; Evidence boundary; Output contract"
+        },
+        {
+          "kind": "response_schema",
+          "role": "shared",
+          "path": "BACE/config/evaluation/schemas/generation_claim_candidate_selection_response_schema_v1.json",
+          "sha256": "6439ba6f454cf2d33f66ce2e505448b53b8dee4bfcb13f33976c0072b6ba2aa5",
+          "version": "generation_claim_candidate_selection_response_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        }
+      ]
+    },
+    {
+      "stage": "Support assessment",
+      "report_use": "5.4: complete entailment, support types and minimal sets",
+      "config_path": "BACE/config/evaluation/configs/generation_claim_support_config.json",
+      "config_sha256": "7bd879bbca0c4ba08bdeb7aceb8db0dd69731fd189dd8f875c0de5d32ef5bb92",
+      "config_schema_version": "generation_claim_support_config_v1",
+      "parameters": {
+        "assessment": {
+          "temporary_id_min_width": 3,
+          "max_candidate_claims_per_dc": 500
+        }
+      },
+      "references": [
+        {
+          "kind": "prompt",
+          "role": "shared",
+          "path": "BACE/config/evaluation/prompts/generation_claim_support_prompt_v1.txt",
+          "sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543",
+          "version": "generation_claim_support_prompt_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Support assessment; Support type; Minimality; Output contract"
+        },
+        {
+          "kind": "response_schema",
+          "role": "shared",
+          "path": "BACE/config/evaluation/schemas/generation_claim_support_response_schema_v1.json",
+          "sha256": "a3b455f8d7bbd9fba4231b04d8494038a3dfb582dbe9ac76dd135e54a0ecb930",
+          "version": "generation_claim_support_response_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        }
+      ]
+    },
+    {
+      "stage": "Unsupported diagnosis",
+      "report_use": "5.5: six ordered, exclusive diagnoses",
+      "config_path": "BACE/config/evaluation/configs/generation_claim_unsupported_diagnosis_config.json",
+      "config_sha256": "1a542a8943c26df412ae93df17baaadcadffeb45dfa9d47ee6f121eaebd6bda7",
+      "config_schema_version": "generation_claim_unsupported_diagnosis_config_v1",
+      "parameters": {
+        "diagnosis": {
+          "temporary_id_min_width": 3,
+          "max_candidate_claims_per_dc": 500
+        }
+      },
+      "references": [
+        {
+          "kind": "prompt",
+          "role": "shared",
+          "path": "BACE/config/evaluation/prompts/generation_claim_unsupported_diagnosis_prompt_v1.txt",
+          "sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8",
+          "version": "generation_claim_unsupported_diagnosis_prompt_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Exclusive classification; Rationale; Output contract"
+        },
+        {
+          "kind": "response_schema",
+          "role": "shared",
+          "path": "BACE/config/evaluation/schemas/generation_claim_unsupported_diagnosis_response_schema_v1.json",
+          "sha256": "0f65691949117c2dba149becef600450eeec775ff33af319cd1d7cee89d65a27",
+          "version": "generation_claim_unsupported_diagnosis_response_v1",
+          "version_origin": "Declared configuration version",
+          "locator": "Entire schema"
+        }
+      ]
+    }
+  ],
+  "runtime_sources": [
+    {
+      "path": "BACE/script/evaluation/run_generation_claim_semantic_dedup.py",
+      "sha256": "98b337f02a1b108708ead163ced05266cdf66532dc93da0ef1aa11637b0c859e",
+      "locator": "make_exact_units; build_jobs",
+      "report_use": "5.2-5.4 and Appendix C: capacity guards and deterministic empty-candidate result"
+    },
+    {
+      "path": "BACE/script/evaluation/run_generation_claim_candidate_selection.py",
+      "sha256": "ddc7afe0eb5aaa4d65bf162edbe16a8b4b1da271f7ef3cd18b940d4fe10fd2c5",
+      "locator": "build_jobs",
+      "report_use": "5.2-5.4 and Appendix C: capacity guards and deterministic empty-candidate result"
+    },
+    {
+      "path": "BACE/script/evaluation/run_generation_claim_support_assessment.py",
+      "sha256": "7e576e8db511d7058fb75f19403a6878b4354758b6838a516e0bbbf24fa97933",
+      "locator": "build_jobs; execute_job",
+      "report_use": "5.2-5.4 and Appendix C: capacity guards and deterministic empty-candidate result"
+    },
+    {
+      "path": "BACE/script/evaluation/run_generation_claim_unsupported_diagnosis.py",
+      "sha256": "a290b3f6fa64b2b5197f1b204519f5d0ad3abaeddc2f369e6b467c5414cefb7f",
+      "locator": "build_jobs",
+      "report_use": "5.2-5.4 and Appendix C: capacity guards and deterministic empty-candidate result"
+    }
+  ]
+}

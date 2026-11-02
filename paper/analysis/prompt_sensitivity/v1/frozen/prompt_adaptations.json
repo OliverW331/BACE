@@ -1,0 +1,56 @@
+{
+  "access_date": "2026-10-01",
+  "versions": {
+    "ragas": "0.4.3",
+    "ragchecker": "0.1.9",
+    "refchecker": "0.2.13"
+  },
+  "source_files": {
+    "ragas_source.py": {
+      "path": "BACE/.venv/lib/python3.11/site-packages/ragas/metrics/collections/faithfulness/util.py",
+      "sha256": "255ebb3305934a3c5769ecfd395d5825050a62b3f03f09b5e18647c3f651776d"
+    },
+    "refchecker_source.py": {
+      "path": "BACE/.venv/lib/python3.11/site-packages/refchecker/checker/checker_prompts.py",
+      "sha256": "7d8780305263ff4937bba4241bd548f940f1928a41ff93aa4d8c3ca3602d78aa"
+    }
+  },
+  "ragas_locator": "NLIStatementPrompt.instruction and examples, lines 80–132",
+  "ragchecker_locator": "JOINT_CHECKING_PROMPT_Q, lines 1–33",
+  "unchanged": [
+    "task",
+    "input scope",
+    "output contract",
+    "minimality",
+    "schema",
+    "input contents/order/IDs",
+    "parser",
+    "model request parameters"
+  ],
+  "ragas_style": {
+    "retained_criterion": "can be directly inferred based on the context",
+    "adapted": [
+      "single fixed BACE DC instead of native statement list",
+      "candidate ECs instead of original joined evidence cards",
+      "all minimal EC support sets instead of verdict/reason",
+      "native few-shot examples omitted",
+      "shared direct/inferred labels added"
+    ]
+  },
+  "ragchecker_style": {
+    "retained_criterion": "ANY reference support -> Entailment; else Contradiction or Neutral; no own knowledge",
+    "adapted": [
+      "BACE proposition instead of native triplet list",
+      "company/year metadata instead of original query",
+      "EC combinations allowed to retain BACE multi-EC support-set task",
+      "Entailment -> support sets; Contradiction/Neutral -> empty",
+      "no output label list; shared direct/inferred labels added"
+    ]
+  },
+  "removed_original_criteria": [
+    "explicit quantification/scope-preservation wording",
+    "ban on substantive recharacterization",
+    "inferred support must follow necessarily"
+  ],
+  "interpretation": "Instruction and criterion sensitivity, not synonym substitution or native reruns."
+}

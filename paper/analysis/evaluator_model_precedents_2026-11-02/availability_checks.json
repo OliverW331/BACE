@@ -1,0 +1,20 @@
+{
+  "access_date": "2026-11-02",
+  "authentication": "none",
+  "method": "GET official Hugging Face model metadata; HEAD one listed weight URL when metadata succeeds",
+  "limitations": "No weight bytes downloaded, no runtime execution, no BACE compatibility or quality test. HEAD 200 verifies access to the tested URL only.",
+  "records": [
+    {"model_id": "Qwen/Qwen3-30B-A3B-Instruct-2507", "revision": "0d7cf23991f47feeb3a57ecb4c9cee8ea4a17bfe", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "model-00001-of-00016.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "Qwen/Qwen3-14B", "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "model-00001-of-00008.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "Qwen/Qwen2.5-32B-Instruct", "revision": "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "model-00001-of-00017.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "Qwen/Qwen2.5-72B-Instruct", "revision": "495f39366efef23836d0cfae4fbe635880d2be31", "gated": false, "private": false, "license_metadata": "other", "license_source_resolution": "Model card and LICENSE identify the custom Qwen license", "tested_weight_path": "model-00001-of-00037.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "Qwen/Qwen2.5-7B-Instruct", "revision": "a09a35458c702b33eeacc393d103063234e8bc28", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "model-00001-of-00004.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "meta-llama/Llama-3.3-70B-Instruct", "revision": "6f6073b423013f6a7d4d9f39144961bfbfbc386b", "gated": "manual", "private": false, "license_metadata": "llama3.3", "tested_weight_path": "model-00001-of-00030.safetensors", "anonymous_weight_head_status": 401},
+    {"model_id": "openai/gpt-oss-20b", "revision": "6cee5e81ee83917806bbde320786a8fb61efebee", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "metal/model.bin", "anonymous_weight_head_status": 200},
+    {"model_id": "openai/gpt-oss-120b", "revision": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "metal/model.bin", "anonymous_weight_head_status": 200},
+    {"model_id": "google/gemma-4-31B-it", "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "model-00001-of-00002.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "Qwen/Qwen3.8-27B", "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0", "gated": false, "private": false, "license_metadata": "apache-2.0", "tested_weight_path": "model-00001-of-00018.safetensors", "anonymous_weight_head_status": 200},
+    {"model_id": "PatronusAI/Llama-3-Lynx-8B-Instruct", "metadata_status": 401, "access_status": "UNVERIFIED_CURRENT_ACCESS", "error": "HTTPError: HTTP Error 401: Unauthorized"},
+    {"model_id": "lytang/MiniCheck-Flan-T5-Large", "revision": "96eafd01cee2d16cf81aaa2fb226b14f422a37b3", "gated": false, "private": false, "license_metadata": "mit", "tested_weight_path": "pytorch_model.bin", "anonymous_weight_head_status": 200}
+  ]
+}

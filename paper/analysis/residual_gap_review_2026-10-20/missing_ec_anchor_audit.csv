@@ -1,0 +1,8 @@
+review_id,prompt_label,evidence_id,linked_final_ec_count,target_candidate_count,interpretation
+R04,Evidence 5,pdf_narrative::4a868d73-3310-4e93-a8dc-a6b88b252509::sustainability_report::2019::p159::c0901,0,1,Verified absence from final EC provenance; does not alone establish a target false rejection.
+R07,Evidence 19,pdf_table_row::1f87c1c3-4366-472a-a793-ac759c4c93cc::sustainability_report::2019::p092::t01::r0002,0,0,Verified absence from final EC provenance; does not alone establish a target false rejection.
+R08,Evidence 4,pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2017::p162::c1013,0,0,Verified absence from final EC provenance; does not alone establish a target false rejection.
+R08,Evidence 6,pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2018::p177::c1147,0,0,Verified absence from final EC provenance; does not alone establish a target false rejection.
+R08,Evidence 7,pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::sustainability_report::2018::p177::c1147,0,0,Verified absence from final EC provenance; does not alone establish a target false rejection.
+R08,Evidence 10,pdf_narrative::2e1f7005-6454-4596-8e28-87214e82b95e::annual_report::2019::p201::c1333,0,0,Verified absence from final EC provenance; does not alone establish a target false rejection.
+R09,Evidence 4,pdf_narrative::060107a1-5462-4b5b-adf7-ca200f3bb587::sustainability_report::2019::p020::c0122,0,0,Verified absence from final EC provenance; does not alone establish a target false rejection.

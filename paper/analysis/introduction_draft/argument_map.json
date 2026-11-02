@@ -1,0 +1,43 @@
+{
+  "framing": "Disclosure evidence credibility and factual boundaries; BACE supplies the operational method and empirical comparison.",
+  "paragraphs": {
+    "I01": {
+      "function": "Reporting purpose and evidentiary motivation",
+      "evidence": "Original 2023 ESRS; final two sentences are the study rationale."
+    },
+    "I02": {
+      "function": "AI-assisted analysis and drafting as the study setting",
+      "evidence": "ChatReport and SusGen; last two sentences state the study motivation, not adoption prevalence."
+    },
+    "I03": {
+      "function": "Define factual boundaries through conceptual examples",
+      "evidence": "docs/generation_evaluation.md, Sections 3, 5 and 7; examples are logical illustrations, not sampled findings."
+    },
+    "I04": {
+      "function": "Acknowledge prior atomic support, context preservation and joint evidence",
+      "evidence": "Occurrence-level original-source ledger; no exclusive-priority claim."
+    },
+    "I05": {
+      "function": "Domain precedents and a narrower measurement question",
+      "evidence": "ChatReport and ESG-Bench; question and inspectability rationale are author synthesis."
+    },
+    "I06": {
+      "function": "Aim, operational method, empirical scope and contribution limits",
+      "evidence": "Results R01–R14; Methods M01–M25; numeric ledger; method definition; completed validation is not asserted."
+    }
+  },
+  "research_question_mapping": {
+    "RQ1": "I06 support patterns → Results R01–R05",
+    "RQ2": "I06 automated diagnoses and inspected cases → Results R06–R08",
+    "RQ3": "I06 native evaluator comparison → Results R09–R14",
+    "RQ4": "Not claimed as completed; independent human validation remains outstanding."
+  },
+  "qualifications": [
+    "Retrospective organizing questions, not preregistered hypotheses.",
+    "Source-relative support is not external truth, legal compliance or downstream sustainability performance.",
+    "Native score differences are not an accuracy ranking.",
+    "Targeted literature comparison does not establish exclusive novelty.",
+    "Two inaccessible close comparisons remain documented in the dated gap review; not used as positive evidence."
+  ],
+  "background_L1_resolution": "The Introduction wording is supported directly by the original 2023 ESRS. Christensen et al. remains an unused lead and was not verified in this step. Earlier foundation/gap documents retain their dated pending status; this record supersedes that status for the actual Introduction wording."
+}

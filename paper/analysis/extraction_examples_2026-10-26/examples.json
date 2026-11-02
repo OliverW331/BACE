@@ -1,0 +1,2355 @@
+{
+  "schema_version": "bace_saved_extraction_examples_v1",
+  "access_date": "2026-10-26",
+  "run": "main_v1",
+  "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+  "scope": "One complete EC source record and the complete DC disclosure, before semantic deduplication",
+  "boundary": "Saved model outputs, not a new extraction, external truth verification or adjudicated gold labels",
+  "checks": [
+    "ec: direct -> integrated: draft, IDs, call lineage and patch replay match",
+    "ec: integrated -> atomic: draft, IDs, call lineage and patch replay match",
+    "dc: direct -> integrated: draft, IDs, call lineage and patch replay match",
+    "dc: integrated -> atomic: draft, IDs, call lineage and patch replay match",
+    "All selected-stage claim and exclusion quotations occur literally in their supplied source",
+    "Selected final EC inventory matches saved occurrence rows in order"
+  ],
+  "provenance": {
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/direct/ec_extraction_calls.jsonl": {
+      "sha256": "c25550a4644ad4f994539894cd66f8e9a0b7d5c2294485643180bf05be0a3ed0",
+      "line": 1,
+      "call_id": "ecx_9b99a3b322ebafa07882b14cc9d85770",
+      "call_status": "success"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/integrated/ec_extraction_calls.jsonl": {
+      "sha256": "d69d89af7dc6d8aa591236cac3097f9a3aa64645437c667e1d1ea1281ed0816b",
+      "line": 1,
+      "call_id": "ecx_b4743bb31893f47d70d39b749cf750ca",
+      "call_status": "success"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/atomic/ec_extraction_calls.jsonl": {
+      "sha256": "98ff61c44296c0481eb1b1812945b5d4cb7ccd86fc1f09d26eb8a3c0f0514af6",
+      "line": 1,
+      "call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+      "call_status": "success"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/direct/dc_extraction_calls.jsonl": {
+      "sha256": "6fe270ef13c04058cc19c98951d19d8234526790b84279f308f9008bb3e00f56",
+      "line": 1,
+      "call_id": "dcx_f4b390936597e76ee577940a2bf9e24f",
+      "call_status": "success"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/integrated/dc_extraction_calls.jsonl": {
+      "sha256": "9a3740abe17dd5a5624285a3e8be47b62b60fa00863423674cfec13c621592bd",
+      "line": 1,
+      "call_id": "dcx_feef5b2a519c4109777fd5d31faa2ac9",
+      "call_status": "success"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/atomic/dc_extraction_calls.jsonl": {
+      "sha256": "b169dfe06b71ddafdd483e5eeb7147bda83e35c9fa95e83a5fd9d0c797b2067a",
+      "line": 1,
+      "call_id": "dcx_0f0b6c8e6100e4b567d34065ce65ca6c",
+      "call_status": "success"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/direct/claim_extraction_run_manifest.json": {
+      "sha256": "ab0d7fde262bbcac68bf7d5f7eb510133c6a8fcaf331de69577cf4b3d8cbfcdc"
+    },
+    "BACE/config/evaluation/prompts/generation_ec_claim_extraction_prompt_v8.txt": {
+      "sha256": "c16eb19e8f739e6f54d8169e844a84e06112813f7cb9f25ceccb7647f9084d22",
+      "prompt_version": "generation_ec_claim_extraction_prompt_v8"
+    },
+    "BACE/config/evaluation/prompts/generation_dc_claim_extraction_prompt_v8.txt": {
+      "sha256": "9b09bd62e05a77e4182c2e070f34531561a5aa8be77eb10020c93a5d5cd92f0f",
+      "prompt_version": "generation_dc_claim_extraction_prompt_v8"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/integrated/claim_extraction_run_manifest.json": {
+      "sha256": "71188480c269cbe7f955e90791b83baafb7d786c5d53f4b02c53338c7a8e5435"
+    },
+    "BACE/config/evaluation/prompts/generation_ec_claim_patch_review_prompt_v4.txt": {
+      "sha256": "f1ec61f6416d4a30a32bda4a91371a8c68aa064417493d0373c66612d6185ba5",
+      "prompt_version": "generation_ec_claim_patch_review_prompt_v4"
+    },
+    "BACE/config/evaluation/prompts/generation_dc_claim_patch_review_prompt_v4.txt": {
+      "sha256": "1d51a196f1561a1e82fbb8a3c900f2c9af743293ca1097ace40f0dd9cc22ad87",
+      "prompt_version": "generation_dc_claim_patch_review_prompt_v4"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/atomic/claim_extraction_run_manifest.json": {
+      "sha256": "c0a36972fb9af247bfb41c816f5aa2d5adb4cc1012362b2ea44c5fffc9b5d29a"
+    },
+    "BACE/config/evaluation/prompts/generation_ec_claim_atomicity_review_prompt_v2.txt": {
+      "sha256": "423fbf4624cdb2c999ac303837e4dd46d858d8a017a14c2a027d10922c71d9c6",
+      "prompt_version": "generation_ec_claim_atomicity_review_prompt_v2"
+    },
+    "BACE/config/evaluation/prompts/generation_dc_claim_atomicity_review_prompt_v2.txt": {
+      "sha256": "e6d02cd6bd331287153b483816809f4e79ebb206494cdf32c34a1ee29f8f41d2",
+      "prompt_version": "generation_dc_claim_atomicity_review_prompt_v2"
+    },
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets/extraction/atomic/ec_claim_occurrences.jsonl": {
+      "sha256": "4eea4b0ef578b9f2ce92b95c5520da265417d7dbbe44a100b3de5803ef81ed9c"
+    }
+  },
+  "examples": {
+    "ec": {
+      "source_text": "> \u0007achieve Net Zero emissions by 2050 for the Air France – KLM Group. The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team confirming that they are in line with a well-below 2°C objective, as determined by the Paris Agreement signed in 2015.",
+      "context_metadata": {
+        "company_name": "Air France-KLM",
+        "target_reporting_year": 2023,
+        "task_title": "E1-4 Climate-related targets"
+      },
+      "stages": {
+        "direct": {
+          "call_id": "ecx_9b99a3b322ebafa07882b14cc9d85770",
+          "draft_call_id": null,
+          "prompt": {
+            "path": "/home/muwang/master_thesis/BACE/config/evaluation/prompts/generation_ec_claim_extraction_prompt_v8.txt",
+            "file": "../prompts/generation_ec_claim_extraction_prompt_v8.txt",
+            "version": "generation_ec_claim_extraction_prompt_v8",
+            "sha256": "c16eb19e8f739e6f54d8169e844a84e06112813f7cb9f25ceccb7647f9084d22"
+          },
+          "inventory": {
+            "prompt_label": "Evidence 6",
+            "claims": [
+              {
+                "claim_text": "According to the 2022 report, the Air France-KLM Group has a target to achieve net zero emissions by 2050.",
+                "source_quotes": [
+                  "achieve Net Zero emissions by 2050 for the Air France – KLM Group."
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the Air France-KLM Group submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, Air France submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, KLM submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the SBTi Target Validation Team approved in November 2022 the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM, confirming that they were in line with a well-below 2°C objective as determined by the Paris Agreement.",
+                "source_quotes": [
+                  "which have been approved in November 2022 by the SBTi’s Target Validation Team confirming that they are in line with a well-below 2°C objective, as determined by the Paris Agreement signed in 2015."
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the Paris Agreement was signed in 2015.",
+                "source_quotes": [
+                  "the Paris Agreement signed in 2015."
+                ],
+                "unresolved_context": []
+              }
+            ],
+            "unextracted_spans": []
+          },
+          "patch": null
+        },
+        "integrated": {
+          "call_id": "ecx_b4743bb31893f47d70d39b749cf750ca",
+          "draft_call_id": "ecx_9b99a3b322ebafa07882b14cc9d85770",
+          "prompt": {
+            "path": "/home/muwang/master_thesis/BACE/config/evaluation/prompts/generation_ec_claim_patch_review_prompt_v4.txt",
+            "file": "../prompts/generation_ec_claim_patch_review_prompt_v4.txt",
+            "version": "generation_ec_claim_patch_review_prompt_v4",
+            "sha256": "f1ec61f6416d4a30a32bda4a91371a8c68aa064417493d0373c66612d6185ba5"
+          },
+          "inventory": {
+            "prompt_label": "Evidence 6",
+            "claims": [
+              {
+                "claim_text": "According to the 2022 report, Net Zero emissions are to be achieved by 2050 for the Air France-KLM Group.",
+                "source_quotes": [
+                  "achieve Net Zero emissions by 2050 for the Air France – KLM Group."
+                ],
+                "unresolved_context": [
+                  "The supplied text is an infinitive fragment and does not include the governing language that would clarify the precise status or actor of this objective."
+                ]
+              },
+              {
+                "claim_text": "According to the 2022 report, the Air France-KLM Group submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, Air France submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, KLM submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the SBTi Target Validation Team approved in November 2022 the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM, confirming that they were in line with a well-below 2°C objective as determined by the Paris Agreement.",
+                "source_quotes": [
+                  "which have been approved in November 2022 by the SBTi’s Target Validation Team confirming that they are in line with a well-below 2°C objective, as determined by the Paris Agreement signed in 2015."
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the Paris Agreement was signed in 2015.",
+                "source_quotes": [
+                  "the Paris Agreement signed in 2015."
+                ],
+                "unresolved_context": []
+              }
+            ],
+            "unextracted_spans": []
+          },
+          "patch": {
+            "prompt_label": "Evidence 6",
+            "edits": [
+              {
+                "claims": [
+                  {
+                    "claim_text": "According to the 2022 report, Net Zero emissions are to be achieved by 2050 for the Air France-KLM Group.",
+                    "source_quotes": [
+                      "achieve Net Zero emissions by 2050 for the Air France – KLM Group."
+                    ],
+                    "unresolved_context": [
+                      "The supplied text is an infinitive fragment and does not include the governing language that would clarify the precise status or actor of this objective."
+                    ]
+                  }
+                ],
+                "reason": "The draft inferred that the Group possesses a target, although the supplied fragment only states the intended Net Zero outcome and deadline for the Group.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_23136cf7c6db3a9c",
+                    "expected_claim_text": "According to the 2022 report, the Air France-KLM Group has a target to achieve net zero emissions by 2050."
+                  }
+                ]
+              }
+            ],
+            "additions": [],
+            "exclusion_update": null
+          }
+        },
+        "atomic": {
+          "call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+          "draft_call_id": "ecx_b4743bb31893f47d70d39b749cf750ca",
+          "prompt": {
+            "path": "/home/muwang/master_thesis/BACE/config/evaluation/prompts/generation_ec_claim_atomicity_review_prompt_v2.txt",
+            "file": "../prompts/generation_ec_claim_atomicity_review_prompt_v2.txt",
+            "version": "generation_ec_claim_atomicity_review_prompt_v2",
+            "sha256": "423fbf4624cdb2c999ac303837e4dd46d858d8a017a14c2a027d10922c71d9c6"
+          },
+          "inventory": {
+            "prompt_label": "Evidence 6",
+            "claims": [
+              {
+                "claim_text": "According to the 2022 report, Net Zero emissions are to be achieved by 2050 for the Air France-KLM Group.",
+                "source_quotes": [
+                  "achieve Net Zero emissions by 2050 for the Air France – KLM Group."
+                ],
+                "unresolved_context": [
+                  "The supplied text is an infinitive fragment and does not include the governing language that would clarify the precise status or actor of this objective."
+                ]
+              },
+              {
+                "claim_text": "According to the 2022 report, the Air France-KLM Group submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, Air France submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, KLM submitted its CO2 emissions reduction targets to the SBTi.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the SBTi Target Validation Team approved in November 2022 the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team"
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the SBTi Target Validation Team confirmed that the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM were in line with a well-below 2°C objective as determined by the Paris Agreement.",
+                "source_quotes": [
+                  "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team confirming that they are in line with a well-below 2°C objective, as determined by the Paris Agreement signed in 2015."
+                ],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "According to the 2022 report, the Paris Agreement was signed in 2015.",
+                "source_quotes": [
+                  "the Paris Agreement signed in 2015."
+                ],
+                "unresolved_context": []
+              }
+            ],
+            "unextracted_spans": []
+          },
+          "patch": {
+            "prompt_label": "Evidence 6",
+            "edits": [
+              {
+                "claims": [
+                  {
+                    "claim_text": "According to the 2022 report, the SBTi Target Validation Team approved in November 2022 the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM.",
+                    "source_quotes": [
+                      "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team"
+                    ],
+                    "unresolved_context": []
+                  },
+                  {
+                    "claim_text": "According to the 2022 report, the SBTi Target Validation Team confirmed that the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM were in line with a well-below 2°C objective as determined by the Paris Agreement.",
+                    "source_quotes": [
+                      "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team confirming that they are in line with a well-below 2°C objective, as determined by the Paris Agreement signed in 2015."
+                    ],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The parent combines the Target Validation Team's approval of the submitted targets with its confirmation that those targets align with the stated temperature objective.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_e0b19ce8e8fc8fbb",
+                    "expected_claim_text": "According to the 2022 report, the SBTi Target Validation Team approved in November 2022 the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM, confirming that they were in line with a well-below 2°C objective as determined by the Paris Agreement."
+                  }
+                ]
+              }
+            ],
+            "additions": [],
+            "exclusion_update": null
+          }
+        }
+      },
+      "prompt_label": "Evidence 6",
+      "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+      "evidence_provenance": {
+        "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+        "prompt_label": "Evidence 6",
+        "evidence_type": "narrative",
+        "source_type": "pdf",
+        "source_year": 2022,
+        "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+        "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+        "document_type": "annual_report",
+        "page_start": 243,
+        "page_end": 243,
+        "metric": null,
+        "value_text": null,
+        "unit": null,
+        "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+        "prompt_rank_from_retrieval": 6
+      },
+      "final_occurrences": [
+        {
+          "line": 34,
+          "record": {
+            "schema_version": "ec_claim_occurrence_v1",
+            "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+            "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2023__E1-4_targets__W2__sanity",
+            "ec_occurrence_id": "eco_02aecced98d9a0ee69f789ac7d25db3a",
+            "extraction_call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+            "claim_text": "According to the 2022 report, Net Zero emissions are to be achieved by 2050 for the Air France-KLM Group.",
+            "context_resolutions": [],
+            "unresolved_context": [
+              "The supplied text is an infinitive fragment and does not include the governing language that would clarify the precise status or actor of this objective."
+            ],
+            "source_quotes": [
+              "achieve Net Zero emissions by 2050 for the Air France – KLM Group."
+            ],
+            "grounding_status": "exact_unique",
+            "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+            "prompt_label": "Evidence 6",
+            "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "achieve Net Zero emissions by 2050 for the Air France – KLM Group.",
+                "start": 3,
+                "end": 69,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 3,
+                    "end": 69
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+              "prompt_label": "Evidence 6",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2022,
+              "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+              "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 243,
+              "page_end": 243,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+              "prompt_rank_from_retrieval": 6
+            }
+          }
+        },
+        {
+          "line": 35,
+          "record": {
+            "schema_version": "ec_claim_occurrence_v1",
+            "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+            "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2023__E1-4_targets__W2__sanity",
+            "ec_occurrence_id": "eco_6b0c986e73678e3c54208eb80d3823d8",
+            "extraction_call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+            "claim_text": "According to the 2022 report, the Air France-KLM Group submitted its CO2 emissions reduction targets to the SBTi.",
+            "context_resolutions": [],
+            "unresolved_context": [],
+            "source_quotes": [
+              "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+            ],
+            "grounding_status": "exact_unique",
+            "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+            "prompt_label": "Evidence 6",
+            "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi",
+                "start": 70,
+                "end": 176,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 70,
+                    "end": 176
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+              "prompt_label": "Evidence 6",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2022,
+              "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+              "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 243,
+              "page_end": 243,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+              "prompt_rank_from_retrieval": 6
+            }
+          }
+        },
+        {
+          "line": 36,
+          "record": {
+            "schema_version": "ec_claim_occurrence_v1",
+            "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+            "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2023__E1-4_targets__W2__sanity",
+            "ec_occurrence_id": "eco_fcaf694742464b4487f0c96d6b906013",
+            "extraction_call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+            "claim_text": "According to the 2022 report, Air France submitted its CO2 emissions reduction targets to the SBTi.",
+            "context_resolutions": [],
+            "unresolved_context": [],
+            "source_quotes": [
+              "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+            ],
+            "grounding_status": "exact_unique",
+            "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+            "prompt_label": "Evidence 6",
+            "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi",
+                "start": 70,
+                "end": 176,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 70,
+                    "end": 176
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+              "prompt_label": "Evidence 6",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2022,
+              "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+              "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 243,
+              "page_end": 243,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+              "prompt_rank_from_retrieval": 6
+            }
+          }
+        },
+        {
+          "line": 37,
+          "record": {
+            "schema_version": "ec_claim_occurrence_v1",
+            "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+            "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2023__E1-4_targets__W2__sanity",
+            "ec_occurrence_id": "eco_d453d875f79f28ddec0efaedeadf5bb8",
+            "extraction_call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+            "claim_text": "According to the 2022 report, KLM submitted its CO2 emissions reduction targets to the SBTi.",
+            "context_resolutions": [],
+            "unresolved_context": [],
+            "source_quotes": [
+              "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi"
+            ],
+            "grounding_status": "exact_unique",
+            "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+            "prompt_label": "Evidence 6",
+            "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi",
+                "start": 70,
+                "end": 176,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 70,
+                    "end": 176
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+              "prompt_label": "Evidence 6",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2022,
+              "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+              "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 243,
+              "page_end": 243,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+              "prompt_rank_from_retrieval": 6
+            }
+          }
+        },
+        {
+          "line": 38,
+          "record": {
+            "schema_version": "ec_claim_occurrence_v1",
+            "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+            "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2023__E1-4_targets__W2__sanity",
+            "ec_occurrence_id": "eco_8fec322ee49858f2ca0ca14f9414c9e4",
+            "extraction_call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+            "claim_text": "According to the 2022 report, the SBTi Target Validation Team approved in November 2022 the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM.",
+            "context_resolutions": [],
+            "unresolved_context": [],
+            "source_quotes": [
+              "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team"
+            ],
+            "grounding_status": "exact_unique",
+            "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+            "prompt_label": "Evidence 6",
+            "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team",
+                "start": 70,
+                "end": 255,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 70,
+                    "end": 255
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+              "prompt_label": "Evidence 6",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2022,
+              "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+              "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 243,
+              "page_end": 243,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+              "prompt_rank_from_retrieval": 6
+            }
+          }
+        },
+        {
+          "line": 39,
+          "record": {
+            "schema_version": "ec_claim_occurrence_v1",
+            "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+            "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2023__E1-4_targets__W2__sanity",
+            "ec_occurrence_id": "eco_b7180351e0b83c362ad400ee339166ca",
+            "extraction_call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+            "claim_text": "According to the 2022 report, the SBTi Target Validation Team confirmed that the CO2 emissions reduction targets submitted by the Air France-KLM Group, Air France and KLM were in line with a well-below 2°C objective as determined by the Paris Agreement.",
+            "context_resolutions": [],
+            "unresolved_context": [],
+            "source_quotes": [
+              "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team confirming that they are in line with a well-below 2°C objective, as determined by the Paris Agreement signed in 2015."
+            ],
+            "grounding_status": "exact_unique",
+            "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+            "prompt_label": "Evidence 6",
+            "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "The Air France – KLM Group, Air France and KLM submitted their CO₂ emissions reduction targets to the SBTi which have been approved in November 2022 by the SBTi’s Target Validation Team confirming that they are in line with a well-below 2°C objective, as determined by the Paris Agreement signed in 2015.",
+                "start": 70,
+                "end": 374,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 70,
+                    "end": 374
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+              "prompt_label": "Evidence 6",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2022,
+              "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+              "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 243,
+              "page_end": 243,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+              "prompt_rank_from_retrieval": 6
+            }
+          }
+        },
+        {
+          "line": 40,
+          "record": {
+            "schema_version": "ec_claim_occurrence_v1",
+            "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__air_france_klm__2023__e1_4_targets",
+            "case_id": "28367af8-ef59-4ce7-a851-2c0535aea0ce__ty2023__E1-4_targets__W2__sanity",
+            "ec_occurrence_id": "eco_9ffd895b20a5763572e5511c216c2485",
+            "extraction_call_id": "ecx_7a76c0cc8b29bcaf8922e64c00cfe5e3",
+            "claim_text": "According to the 2022 report, the Paris Agreement was signed in 2015.",
+            "context_resolutions": [],
+            "unresolved_context": [],
+            "source_quotes": [
+              "the Paris Agreement signed in 2015."
+            ],
+            "grounding_status": "exact_unique",
+            "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+            "prompt_label": "Evidence 6",
+            "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+            "source_spans": [
+              {
+                "quote_index": 0,
+                "quote": "the Paris Agreement signed in 2015.",
+                "start": 339,
+                "end": 374,
+                "match_count": 1,
+                "candidate_spans": [
+                  {
+                    "start": 339,
+                    "end": 374
+                  }
+                ],
+                "match_status": "exact_unique"
+              }
+            ],
+            "evidence_provenance": {
+              "evidence_id": "pdf_narrative::28367af8-ef59-4ce7-a851-2c0535aea0ce::annual_report::2022::p243::c2069",
+              "prompt_label": "Evidence 6",
+              "evidence_type": "narrative",
+              "source_type": "pdf",
+              "source_year": 2022,
+              "source_label": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf | Page 243",
+              "source_file": "28367af8-ef59-4ce7-a851-2c0535aea0ce_2022_AR.pdf",
+              "document_type": "annual_report",
+              "page_start": 243,
+              "page_end": 243,
+              "metric": null,
+              "value_text": null,
+              "unit": null,
+              "retrieval_text_hash": "fa7517f0ca11dc1b08f152878df35902282587737c5bde05061f1ce54aaa1751",
+              "prompt_rank_from_retrieval": 6
+            }
+          }
+        }
+      ]
+    },
+    "dc": {
+      "source_text": "### E1-4 – Climate-related targets\n\nAir France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities. The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year. The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.\n\nThe target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM. The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi). In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement. This external validation provides the principal scientific reference for the target’s level of ambition and methodology.\n\nIn addition to its 2030 target, Air France–KLM has set an objective of achieving net-zero emissions by 2050. The Group had also committed to establishing additional CO₂-reduction targets for 2035. No quantified 2035 target is included in the information reported here.\n\nFor 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions. The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent. This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK.\n\nThe boundary and methodology applied to climate metrics should be considered when interpreting performance. In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances. Consequently, comparisons between those reporting bases are not meaningful. Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator.",
+      "context_metadata": {
+        "company_name": "Air France-KLM",
+        "target_reporting_year": "2023"
+      },
+      "stages": {
+        "direct": {
+          "call_id": "dcx_f4b390936597e76ee577940a2bf9e24f",
+          "draft_call_id": null,
+          "prompt": {
+            "path": "/home/muwang/master_thesis/BACE/config/evaluation/prompts/generation_dc_claim_extraction_prompt_v8.txt",
+            "file": "../prompts/generation_dc_claim_extraction_prompt_v8.txt",
+            "version": "generation_dc_claim_extraction_prompt_v8",
+            "sha256": "9b09bd62e05a77e4182c2e070f34531561a5aa8be77eb10020c93a5d5cd92f0f"
+          },
+          "inventory": {
+            "claims": [
+              {
+                "claim_text": "Air France–KLM has established climate targets.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related impacts.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related risks.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related opportunities.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The Scope 1 component is covered by Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The Scope 3 component is covered by Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is expressed in grams of CO₂ equivalent per revenue tonne-kilometre.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target measures emissions intensity relative to transport activity.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target applies to the Air France–KLM Group.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target is supported by a corresponding target for Air France.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target is supported by a corresponding target for KLM.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group submitted its emissions-reduction target to the Science Based Targets initiative.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France submitted its emissions-reduction target to the Science Based Targets initiative.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "KLM submitted its emissions-reduction target to the Science Based Targets initiative.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France–KLM Group's emissions-reduction target.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France's emissions-reduction target.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved KLM's emissions-reduction target.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France–KLM Group's emissions-reduction target is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France's emissions-reduction target is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that KLM's emissions-reduction target is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the level of ambition of Air France–KLM Group's principal medium-term emissions-reduction target.",
+                "source_quotes": [
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                  "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the methodology of Air France–KLM Group's principal medium-term emissions-reduction target.",
+                "source_quotes": [
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                  "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In addition to its 2030 target, Air France–KLM has set an objective of achieving net-zero emissions by 2050.",
+                "source_quotes": [
+                  "In addition to its 2030 target, Air France–KLM has set an objective of achieving net-zero emissions by 2050."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group had committed to establishing additional CO₂-reduction targets for 2035.",
+                "source_quotes": [
+                  "The Group had also committed to establishing additional CO₂-reduction targets for 2035."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "No quantified Air France–KLM Group target for 2035 is included in the information reported in the disclosure.",
+                "source_quotes": [
+                  "No quantified 2035 target is included in the information reported here."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an E1-4 scope-related target indicator of 10% for Scope 1 greenhouse gas emissions, measured with reference to emissions from an unspecified base year.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": [
+                  "The base year for the 2023 Scope 1 target indicator is not specified."
+                ]
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an E1-4 scope-related target indicator of 20% for Scope 3 greenhouse gas emissions, measured with reference to emissions from an unspecified base year.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": [
+                  "The base year for the 2023 Scope 3 target indicator is not specified."
+                ]
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an absolute total greenhouse gas emissions reduction of 800,000 tonnes of CO₂ equivalent.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions.",
+                  "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's reported absolute total greenhouse gas emissions reduction metric of 800,000 tonnes of CO₂ equivalent for 2023 is distinct from its principal Science Based Targets initiative-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per revenue tonne-kilometre.",
+                "source_quotes": [
+                  "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent.",
+                  "This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The boundary applied to Air France–KLM's climate metrics should be considered when interpreting performance.",
+                "source_quotes": [
+                  "The boundary and methodology applied to climate metrics should be considered when interpreting performance."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The methodology applied to Air France–KLM's climate metrics should be considered when interpreting performance.",
+                "source_quotes": [
+                  "The boundary and methodology applied to climate metrics should be considered when interpreting performance."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances, and consequently comparisons between those reporting bases are not meaningful.",
+                "source_quotes": [
+                  "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                  "Consequently, comparisons between those reporting bases are not meaningful."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's 2030 target should therefore be assessed using the defined 2019 baseline.",
+                "source_quotes": [
+                  "Consequently, comparisons between those reporting bases are not meaningful.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's 2030 target should therefore be assessed using the well-to-wake Scope 1 and Scope 3 jet-fuel boundary.",
+                "source_quotes": [
+                  "Consequently, comparisons between those reporting bases are not meaningful.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's 2030 target should therefore be assessed using the revenue tonne-kilometre intensity denominator.",
+                "source_quotes": [
+                  "Consequently, comparisons between those reporting bases are not meaningful.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              }
+            ],
+            "no_claim_reason": null,
+            "unextracted_spans": [
+              {
+                "source_quotes": [
+                  "### E1-4 – Climate-related targets"
+                ],
+                "reason": "document_structure",
+                "explanation": "This is a section heading rather than a substantive proposition."
+              }
+            ]
+          },
+          "patch": null
+        },
+        "integrated": {
+          "call_id": "dcx_feef5b2a519c4109777fd5d31faa2ac9",
+          "draft_call_id": "dcx_f4b390936597e76ee577940a2bf9e24f",
+          "prompt": {
+            "path": "/home/muwang/master_thesis/BACE/config/evaluation/prompts/generation_dc_claim_patch_review_prompt_v4.txt",
+            "file": "../prompts/generation_dc_claim_patch_review_prompt_v4.txt",
+            "version": "generation_dc_claim_patch_review_prompt_v4",
+            "sha256": "1d51a196f1561a1e82fbb8a3c900f2c9af743293ca1097ace40f0dd9cc22ad87"
+          },
+          "inventory": {
+            "claims": [
+              {
+                "claim_text": "Air France–KLM has established climate targets.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related impacts.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related risks.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related opportunities.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The Scope 1 component is covered by Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The Scope 3 component is covered by Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is expressed in grams of CO₂ equivalent per revenue tonne-kilometre.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year measures emissions intensity relative to transport activity.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year applies to the Air France–KLM Group.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France has a corresponding target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "KLM has a corresponding target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group submitted to the Science Based Targets initiative its principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France submitted to the Science Based Targets initiative its corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "KLM submitted to the Science Based Targets initiative its corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved KLM's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that KLM's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the level of ambition of Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                  "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the methodology of Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                  "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In addition to its principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year, Air France–KLM has set an objective of achieving net-zero emissions by 2050.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "In addition to its 2030 target, Air France–KLM has set an objective of achieving net-zero emissions by 2050."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group had committed to establishing additional CO₂-reduction targets for 2035.",
+                "source_quotes": [
+                  "The Group had also committed to establishing additional CO₂-reduction targets for 2035."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "No quantified Air France–KLM Group target for 2035 is included in the information reported in the disclosure.",
+                "source_quotes": [
+                  "No quantified 2035 target is included in the information reported here."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an E1-4 scope-related target indicator of 10% for Scope 1 greenhouse gas emissions, measured with reference to emissions from an unspecified base year.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": [
+                  "The base year for the 2023 Scope 1 target indicator is not specified."
+                ]
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an E1-4 scope-related target indicator of 20% for Scope 3 greenhouse gas emissions, measured with reference to emissions from an unspecified base year.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": [
+                  "The base year for the 2023 Scope 3 target indicator is not specified."
+                ]
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an absolute total greenhouse gas emissions reduction of 800,000 tonnes of CO₂ equivalent.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions.",
+                  "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's reported absolute total greenhouse gas emissions reduction metric of 800,000 tonnes of CO₂ equivalent for 2023 is distinct from its Science Based Targets initiative-validated principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year, which is an emissions-intensity target.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent.",
+                  "This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The boundary applied to Air France–KLM's climate metrics should be considered when interpreting performance.",
+                "source_quotes": [
+                  "The boundary and methodology applied to climate metrics should be considered when interpreting performance."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The methodology applied to Air France–KLM's climate metrics should be considered when interpreting performance.",
+                "source_quotes": [
+                  "The boundary and methodology applied to climate metrics should be considered when interpreting performance."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                "source_quotes": [
+                  "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Because the scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances, comparisons between those reporting bases are not meaningful.",
+                "source_quotes": [
+                  "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                  "Consequently, comparisons between those reporting bases are not meaningful."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the defined 2019 baseline.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the well-to-wake Scope 1 and Scope 3 jet-fuel boundary.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the revenue tonne-kilometre intensity denominator.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              }
+            ],
+            "unextracted_spans": [
+              {
+                "source_quotes": [
+                  "### E1-4 – Climate-related targets"
+                ],
+                "reason": "document_structure",
+                "explanation": "This is a section heading rather than a substantive proposition."
+              }
+            ],
+            "no_claim_reason": null
+          },
+          "patch": {
+            "edits": [
+              {
+                "claims": [
+                  {
+                    "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year measures emissions intensity relative to transport activity.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The target reference must retain its full material identity, including scope, magnitude, baseline and deadline.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_9f79c446b8c252d1",
+                    "expected_claim_text": "Air France–KLM Group's principal medium-term target measures emissions intensity relative to transport activity."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year applies to the Air France–KLM Group.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The applicable target must be fully identified.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_078ddb5e991120c0",
+                    "expected_claim_text": "Air France–KLM Group's principal medium-term target applies to the Air France–KLM Group."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Air France has a corresponding target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The corresponding Air France target must identify the fully specified Group target it supports.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_461a23236ffaca72",
+                    "expected_claim_text": "Air France–KLM Group's principal medium-term target is supported by a corresponding target for Air France."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "KLM has a corresponding target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The corresponding KLM target must identify the fully specified Group target it supports.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_b42e27df5afac841",
+                    "expected_claim_text": "Air France–KLM Group's principal medium-term target is supported by a corresponding target for KLM."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Air France–KLM Group submitted to the Science Based Targets initiative its principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The submitted Group target must retain its complete identity.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_4e5206e1287b1717",
+                    "expected_claim_text": "Air France–KLM Group submitted its emissions-reduction target to the Science Based Targets initiative."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Air France submitted to the Science Based Targets initiative its corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                      "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The submitted Air France target must be tied to the fully identified target to which it corresponds.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_348a1cf7b667771b",
+                    "expected_claim_text": "Air France submitted its emissions-reduction target to the Science Based Targets initiative."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "KLM submitted to the Science Based Targets initiative its corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                      "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The submitted KLM target must be tied to the fully identified target to which it corresponds.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_591b08ff545e7ba2",
+                    "expected_claim_text": "KLM submitted its emissions-reduction target to the Science Based Targets initiative."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The approved Group target must retain its complete identity.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_5f5154b4e27494b5",
+                    "expected_claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France–KLM Group's emissions-reduction target."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                      "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The approved Air France target must be tied to the fully identified target to which it corresponds.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_3d6d49cfa65d95e0",
+                    "expected_claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France's emissions-reduction target."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved KLM's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                      "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The approved KLM target must be tied to the fully identified target to which it corresponds.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_094ba151d2638988",
+                    "expected_claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved KLM's emissions-reduction target."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The alignment confirmation must identify the complete Group target.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_0eb7639535c88241",
+                    "expected_claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France–KLM Group's emissions-reduction target is aligned with a well-below 2°C pathway under the Paris Agreement."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                    "source_quotes": [
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The alignment confirmation must identify the Air France target through its stated correspondence to the complete Group target.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_9667e07a9ef05151",
+                    "expected_claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France's emissions-reduction target is aligned with a well-below 2°C pathway under the Paris Agreement."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that KLM's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                    "source_quotes": [
+                      "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The alignment confirmation must identify the KLM target through its stated correspondence to the complete Group target.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_51edc6ecb4ae676a",
+                    "expected_claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that KLM's emissions-reduction target is aligned with a well-below 2°C pathway under the Paris Agreement."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the level of ambition of Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                      "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The target whose ambition is referenced must retain its complete identity.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_b2ba12defade98e2",
+                    "expected_claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the level of ambition of Air France–KLM Group's principal medium-term emissions-reduction target."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the methodology of Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                      "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The target whose methodology is referenced must retain its complete identity.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_ddd1f49d478e382c",
+                    "expected_claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the methodology of Air France–KLM Group's principal medium-term emissions-reduction target."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "In addition to its principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year, Air France–KLM has set an objective of achieving net-zero emissions by 2050.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "In addition to its 2030 target, Air France–KLM has set an objective of achieving net-zero emissions by 2050."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The referenced 2030 target must be fully resolved while preserving its relation to the additional 2050 objective.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_0770b2652b7fc01f",
+                    "expected_claim_text": "In addition to its 2030 target, Air France–KLM has set an objective of achieving net-zero emissions by 2050."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Air France–KLM Group's reported absolute total greenhouse gas emissions reduction metric of 800,000 tonnes of CO₂ equivalent for 2023 is distinct from its Science Based Targets initiative-validated principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year, which is an emissions-intensity target.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent.",
+                      "This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The comparison must preserve the complete identity of the SBTi-validated target.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_9503073164a77c0f",
+                    "expected_claim_text": "Air France–KLM Group's reported absolute total greenhouse gas emissions reduction metric of 800,000 tonnes of CO₂ equivalent for 2023 is distinct from its principal Science Based Targets initiative-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per revenue tonne-kilometre."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "The scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                    "source_quotes": [
+                      "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  },
+                  {
+                    "claim_text": "Because the scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances, comparisons between those reporting bases are not meaningful.",
+                    "source_quotes": [
+                      "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                      "Consequently, comparisons between those reporting bases are not meaningful."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The source separately asserts the scope difference and its consequence; the underlying fact and causal relationship should both be retained atomically.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_d69af9434e0fcaaa",
+                    "expected_claim_text": "The scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances, and consequently comparisons between those reporting bases are not meaningful."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the defined 2019 baseline.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The progress-assessment claim must fully identify the 2030 target.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_5d76044a83b49595",
+                    "expected_claim_text": "Progress against Air France–KLM Group's 2030 target should therefore be assessed using the defined 2019 baseline."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the well-to-wake Scope 1 and Scope 3 jet-fuel boundary.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The progress-assessment claim must fully identify the 2030 target.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_d4cf4e5b023fce02",
+                    "expected_claim_text": "Progress against Air France–KLM Group's 2030 target should therefore be assessed using the well-to-wake Scope 1 and Scope 3 jet-fuel boundary."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the revenue tonne-kilometre intensity denominator.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The progress-assessment claim must fully identify the 2030 target.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_0d448945e982a272",
+                    "expected_claim_text": "Progress against Air France–KLM Group's 2030 target should therefore be assessed using the revenue tonne-kilometre intensity denominator."
+                  }
+                ]
+              }
+            ],
+            "additions": [],
+            "no_claim_reason": null,
+            "exclusion_update": null
+          }
+        },
+        "atomic": {
+          "call_id": "dcx_0f0b6c8e6100e4b567d34065ce65ca6c",
+          "draft_call_id": "dcx_feef5b2a519c4109777fd5d31faa2ac9",
+          "prompt": {
+            "path": "/home/muwang/master_thesis/BACE/config/evaluation/prompts/generation_dc_claim_atomicity_review_prompt_v2.txt",
+            "file": "../prompts/generation_dc_claim_atomicity_review_prompt_v2.txt",
+            "version": "generation_dc_claim_atomicity_review_prompt_v2",
+            "sha256": "e6d02cd6bd331287153b483816809f4e79ebb206494cdf32c34a1ee29f8f41d2"
+          },
+          "inventory": {
+            "claims": [
+              {
+                "claim_text": "Air France–KLM has established climate targets.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related impacts.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related risks.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM's climate targets are intended to support the management of its climate-related opportunities.",
+                "source_quotes": [
+                  "Air France–KLM has established climate targets to support the management of its climate-related impacts, risks and opportunities."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The Scope 1 component is covered by Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The Scope 3 component is covered by Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is expressed in grams of CO₂ equivalent per revenue tonne-kilometre.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year measures emissions intensity relative to transport activity.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year applies to the Air France–KLM Group.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France has a corresponding target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "KLM has a corresponding target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group submitted to the Science Based Targets initiative its principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France submitted to the Science Based Targets initiative its corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "KLM submitted to the Science Based Targets initiative its corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi)."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved Air France's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team approved KLM's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "The Group, Air France and KLM submitted their emissions-reduction targets to the Science Based Targets initiative (SBTi).",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that Air France's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In November 2022, the Science Based Targets initiative Target Validation Team confirmed that KLM's corresponding emissions-reduction target supporting Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is aligned with a well-below 2°C pathway under the Paris Agreement.",
+                "source_quotes": [
+                  "The target applies to the Air France–KLM Group and is supported by corresponding targets for Air France and KLM.",
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the level of ambition of Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                  "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The external validation by the Science Based Targets initiative provides the principal scientific reference for the methodology of Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "In November 2022, the SBTi Target Validation Team approved these targets and confirmed that they are aligned with a well-below 2°C pathway under the Paris Agreement.",
+                  "This external validation provides the principal scientific reference for the target’s level of ambition and methodology."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "In addition to its principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year, Air France–KLM has set an objective of achieving net-zero emissions by 2050.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "In addition to its 2030 target, Air France–KLM has set an objective of achieving net-zero emissions by 2050."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group had committed to establishing additional CO₂-reduction targets for 2035.",
+                "source_quotes": [
+                  "The Group had also committed to establishing additional CO₂-reduction targets for 2035."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "No quantified Air France–KLM Group target for 2035 is included in the information reported in the disclosure.",
+                "source_quotes": [
+                  "No quantified 2035 target is included in the information reported here."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an E1-4 scope-related target indicator of 10% for Scope 1 greenhouse gas emissions, measured with reference to emissions from an unspecified base year.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": [
+                  "The base year for the 2023 Scope 1 target indicator is not specified."
+                ]
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an E1-4 scope-related target indicator of 20% for Scope 3 greenhouse gas emissions, measured with reference to emissions from an unspecified base year.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": [
+                  "The base year for the 2023 Scope 3 target indicator is not specified."
+                ]
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an absolute total greenhouse gas emissions reduction of 800,000 tonnes of CO₂ equivalent.",
+                "source_quotes": [
+                  "For 2023, the Group reported E1-4 scope-related target indicators of 10% for Scope 1 greenhouse gas emissions and 20% for Scope 3 greenhouse gas emissions, measured with reference to base-year emissions.",
+                  "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "For 2023, Air France–KLM Group reported an absolute total greenhouse gas emissions reduction of 800,000 tonnes of CO₂ equivalent.",
+                "source_quotes": [
+                  "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's Science Based Targets initiative-validated principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is an emissions-intensity target based on well-to-wake jet-fuel emissions per revenue tonne-kilometre.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Air France–KLM Group's reported absolute total greenhouse gas emissions reduction metric of 800,000 tonnes of CO₂ equivalent for 2023 is distinct from its Science Based Targets initiative-validated principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                  "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent.",
+                  "This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The boundary applied to Air France–KLM's climate metrics should be considered when interpreting performance.",
+                "source_quotes": [
+                  "The boundary and methodology applied to climate metrics should be considered when interpreting performance."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The methodology applied to Air France–KLM's climate metrics should be considered when interpreting performance.",
+                "source_quotes": [
+                  "The boundary and methodology applied to climate metrics should be considered when interpreting performance."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                "source_quotes": [
+                  "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "The scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                "source_quotes": [
+                  "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Because the scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances, comparisons between those reporting bases are not meaningful.",
+                "source_quotes": [
+                  "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                  "Consequently, comparisons between those reporting bases are not meaningful."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the defined 2019 baseline.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the well-to-wake Scope 1 and Scope 3 jet-fuel boundary.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              },
+              {
+                "claim_text": "Progress against Air France–KLM Group's principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year should be assessed using the revenue tonne-kilometre intensity denominator.",
+                "source_quotes": [
+                  "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                  "Progress against the 2030 target should therefore be assessed using the defined 2019 baseline, the well-to-wake Scope 1 and Scope 3 jet-fuel boundary, and the RTK intensity denominator."
+                ],
+                "context_resolutions": [],
+                "unresolved_context": []
+              }
+            ],
+            "unextracted_spans": [
+              {
+                "source_quotes": [
+                  "### E1-4 – Climate-related targets"
+                ],
+                "reason": "document_structure",
+                "explanation": "This is a section heading rather than a substantive proposition."
+              }
+            ],
+            "no_claim_reason": null
+          },
+          "patch": {
+            "edits": [
+              {
+                "claims": [
+                  {
+                    "claim_text": "For 2023, Air France–KLM Group reported an absolute total greenhouse gas emissions reduction of 800,000 tonnes of CO₂ equivalent.",
+                    "source_quotes": [
+                      "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  },
+                  {
+                    "claim_text": "Air France–KLM Group's Science Based Targets initiative-validated principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year is an emissions-intensity target based on well-to-wake jet-fuel emissions per revenue tonne-kilometre.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  },
+                  {
+                    "claim_text": "Air France–KLM Group's reported absolute total greenhouse gas emissions reduction metric of 800,000 tonnes of CO₂ equivalent for 2023 is distinct from its Science Based Targets initiative-validated principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year.",
+                    "source_quotes": [
+                      "The Group’s principal medium-term target is to reduce well-to-wake greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre (RTK) by 2030, compared with a 2019 base year.",
+                      "The target covers Scope 1 and Scope 3 jet-fuel emissions and is expressed in grams of CO₂ equivalent per RTK, thereby measuring emissions intensity relative to transport activity.",
+                      "The reported absolute value of total greenhouse gas emissions reduction was 800,000 tonnes of CO₂ equivalent.",
+                      "This absolute reduction metric is distinct from the Group’s principal SBTi-validated target, which is an emissions-intensity target based on well-to-wake jet-fuel emissions per RTK."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The parent combines the explicitly reported absolute reduction, the classification of the SBTi-validated target as an emissions-intensity target, and the asserted distinction between the two metrics. The split preserves both underlying facts and their relationship.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_6500c79a141db3e8",
+                    "expected_claim_text": "Air France–KLM Group's reported absolute total greenhouse gas emissions reduction metric of 800,000 tonnes of CO₂ equivalent for 2023 is distinct from its Science Based Targets initiative-validated principal medium-term target to reduce well-to-wake Scope 1 and Scope 3 greenhouse gas emissions from jet fuel by 30% per revenue tonne-kilometre by 2030 compared with a 2019 base year, which is an emissions-intensity target."
+                  }
+                ]
+              },
+              {
+                "claims": [
+                  {
+                    "claim_text": "The scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                    "source_quotes": [
+                      "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  },
+                  {
+                    "claim_text": "Because the scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances, comparisons between those reporting bases are not meaningful.",
+                    "source_quotes": [
+                      "In particular, the scope of CO₂-equivalent emissions reported in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances.",
+                      "Consequently, comparisons between those reporting bases are not meaningful."
+                    ],
+                    "context_resolutions": [],
+                    "unresolved_context": []
+                  }
+                ],
+                "reason": "The parent contains both an explicitly asserted difference between reporting scopes and the causal conclusion that comparisons between those bases are not meaningful. The split retains the underlying fact and the full causal relationship.",
+                "replaces": [
+                  {
+                    "claim_id": "claim_2e6cb069ffc288d4",
+                    "expected_claim_text": "Because the scope of CO₂-equivalent emissions reported by Air France–KLM in the Extra-Financial Performance Statement differs from the scope used under the EU Emissions Trading System for greenhouse gas emission allowances, comparisons between those reporting bases are not meaningful."
+                  }
+                ]
+              }
+            ],
+            "additions": [],
+            "no_claim_reason": null,
+            "exclusion_update": null
+          }
+        }
+      }
+    }
+  }
+}

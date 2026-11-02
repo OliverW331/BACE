@@ -1,0 +1,30 @@
+[
+  {
+    "key": "ragchecker2024",
+    "field": "author",
+    "before": "Jiayang, Cheng",
+    "after": "{Cheng Jiayang}",
+    "basis": "The printed original spells Cheng Jiayang. Retain the literal full name rather than imposing a family-name split; author position is unchanged."
+  },
+  {
+    "key": "factscore2023",
+    "field": "author",
+    "before": "Koh, Pang",
+    "after": "Koh, Pang Wei",
+    "basis": "Original PDF page 1 spells Pang Wei Koh; publisher/DOI metadata omits Wei. Author position is unchanged."
+  },
+  {
+    "key": "dndscore2025",
+    "field": "pages",
+    "before": "23620--23637",
+    "after": "23609--23626",
+    "basis": "ACL publisher citation_firstpage/citation_lastpage and the printed page numbers in the original PDF agree; DOI metadata differs."
+  },
+  {
+    "key": "susgen2025",
+    "field": "author",
+    "before": "Hejia, Huang; Wei Jie, Yeo",
+    "after": "Huang, Hejia; {Yeo Wei Jie}",
+    "basis": "Original PDF page 1 spells Hejia Huang and Yeo Wei Jie. The latter is retained as a literal full name to avoid imposing an unverified family-name split; author order is unchanged."
+  }
+]

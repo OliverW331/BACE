@@ -1,0 +1,932 @@
+{
+  "status": "COMPUTED_VERIFIED",
+  "analysis_status": "Post-experiment exploratory descriptive reanalysis; no model runs, new human labels or hypothesis tests.",
+  "cohort": {
+    "planned": 1800,
+    "bace_complete": 1798,
+    "companies": 30,
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tasks": [
+      "E1-1",
+      "E1-3",
+      "E1-4",
+      "E1-6",
+      "G1-1",
+      "G1-2",
+      "G1-3",
+      "G1-4",
+      "S1-1",
+      "S1-14",
+      "S1-4",
+      "S1-5"
+    ],
+    "missing": [
+      {
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets",
+        "company_name": "Banco BPM",
+        "year": 2019.0,
+        "task": "S1-5",
+        "state_status": "partial"
+      },
+      {
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies",
+        "company_name": "Investec",
+        "year": 2023.0,
+        "task": "S1-1",
+        "state_status": "partial"
+      }
+    ]
+  },
+  "bootstrap": {
+    "seed": 20261029,
+    "draws": 5000,
+    "rng": "Python random.Random (Mersenne Twister)",
+    "unit": "Company; retain all matched observed records in each sampled company",
+    "interval": "95% percentile; linear interpolation at (n-1)*p",
+    "scope": "Sampling variability conditional on saved cohort; not model randomness, annotation error, missing-case uncertainty or population-representative inference",
+    "multiplicity": "No hypothesis tests or corrected testing family; selected contrasts are exploratory, not confirmatory."
+  },
+  "claims": {
+    "all_dc": 94955,
+    "supported": 52309,
+    "unsupported": 42646,
+    "label_counts": {
+      "non_disclosure_statement": 6378,
+      "direct": 34430,
+      "evidence_conflation": 12205,
+      "inferred": 17879,
+      "factual_boundary_distortion": 19130,
+      "unsupported_novelty": 1698,
+      "inferential_inflation": 3193,
+      "contradiction": 42
+    },
+    "pooled_support": 0.5508819967352957
+  },
+  "rates": {
+    "bace": {
+      "mean": 0.5537546371346639,
+      "low": 0.5392260385547821,
+      "high": 0.5687282257061399,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "ragchecker": {
+      "mean": 0.902355564781211,
+      "low": 0.8953242108041017,
+      "high": 0.9096931067598968,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "ragas": {
+      "mean": 0.9065974089675372,
+      "low": 0.8996188236532434,
+      "high": 0.9132159991274342,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "non_disclosure_sensitivity": {
+      "mean": 0.5972471919481566,
+      "low": 0.582331502672753,
+      "high": 0.6127564837673108,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "zero_candidate_upper_bound": {
+      "mean": 0.5742434015014095,
+      "low": 0.5607102570831972,
+      "high": 0.5889710086945847,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  },
+  "distribution": {
+    "median": 0.5562587904360057,
+    "q25": 0.4523809523809524,
+    "q75": 0.6589523281596452,
+    "minimum": 0.06666666666666667,
+    "maximum": 0.9342105263157895,
+    "below_half_cases": 634,
+    "at_least_80pct_cases": 89,
+    "fully_supported_cases": 0,
+    "zero_support_cases": 0
+  },
+  "tasks": [
+    {
+      "task": "E1-1",
+      "mean": 0.5653902739558061,
+      "low": 0.5391738970243872,
+      "high": 0.5927185483004261,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "E1-3",
+      "mean": 0.531544001589556,
+      "low": 0.5034621973151555,
+      "high": 0.5593783593151939,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "E1-4",
+      "mean": 0.6113967078468557,
+      "low": 0.5733553364071546,
+      "high": 0.6498638647222675,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "E1-6",
+      "mean": 0.6077965555462206,
+      "low": 0.5797242265695378,
+      "high": 0.6363768285980368,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-1",
+      "mean": 0.6251475132986812,
+      "low": 0.5937639825193584,
+      "high": 0.6579142904900309,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-2",
+      "mean": 0.5746772138535369,
+      "low": 0.5378444020416822,
+      "high": 0.6128542004530032,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-3",
+      "mean": 0.5529767969479699,
+      "low": 0.5216926478173766,
+      "high": 0.5843415943100041,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-4",
+      "mean": 0.5543297312165884,
+      "low": 0.5239473976581034,
+      "high": 0.5833332264891984,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-1",
+      "mean": 0.5255254241513383,
+      "low": 0.49227499225387555,
+      "high": 0.5589427231900783,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-14",
+      "mean": 0.5342838023785368,
+      "low": 0.5046595751352928,
+      "high": 0.5649845151672774,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-4",
+      "mean": 0.5223708432767249,
+      "low": 0.4972747133938775,
+      "high": 0.5466167798818569,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-5",
+      "mean": 0.43866129787251595,
+      "low": 0.4112170703646428,
+      "high": 0.4661501965243418,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  ],
+  "years": [
+    {
+      "year": 2019.0,
+      "mean": 0.5311464254609266,
+      "low": 0.5090596848185478,
+      "high": 0.552608959738537,
+      "companies": 30,
+      "observations": 359,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2020.0,
+      "mean": 0.5606008301133312,
+      "low": 0.5380163224820013,
+      "high": 0.5839763728647592,
+      "companies": 30,
+      "observations": 360,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2021.0,
+      "mean": 0.5427541154885803,
+      "low": 0.5232114638333369,
+      "high": 0.5637192375716049,
+      "companies": 30,
+      "observations": 360,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2022.0,
+      "mean": 0.560148710361354,
+      "low": 0.5423198028745362,
+      "high": 0.5785880072551804,
+      "companies": 30,
+      "observations": 360,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2023.0,
+      "mean": 0.5741168654063439,
+      "low": 0.5527361968366323,
+      "high": 0.5939745381249687,
+      "companies": 30,
+      "observations": 359,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  ],
+  "domains": [
+    {
+      "standard": "E1",
+      "mean": 0.5790318847346096,
+      "low": 0.5551264414218506,
+      "high": 0.6026445370644917,
+      "companies": 30,
+      "observations": 600,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "standard": "G1",
+      "mean": 0.576782813829194,
+      "low": 0.5531427955256484,
+      "high": 0.6012077685532718,
+      "companies": 30,
+      "observations": 600,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "standard": "S1",
+      "mean": 0.5052876562371965,
+      "low": 0.4895212980769299,
+      "high": 0.5203901670756138,
+      "companies": 30,
+      "observations": 598,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  ],
+  "paired_contrasts": {
+    "G1-1_minus_S1-5": {
+      "mean": 0.1869066685355524,
+      "low": 0.13885038621146,
+      "high": 0.23597506078074498,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 27,
+      "negative_company_means": 3
+    },
+    "G1-1_minus_S1-5_non_disclosure_sensitivity": {
+      "mean": 0.13116788126956305,
+      "low": 0.0856523944326516,
+      "high": 0.17782629443232773,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 26,
+      "negative_company_means": 4
+    },
+    "E1-4_minus_S1-5": {
+      "mean": 0.1734830388860637,
+      "low": 0.1307943909694692,
+      "high": 0.2190547185776652,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 28,
+      "negative_company_means": 2
+    },
+    "E1-4_minus_S1-5_non_disclosure_sensitivity": {
+      "mean": 0.15518789291863788,
+      "low": 0.11411262607915305,
+      "high": 0.19666915051777792,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 28,
+      "negative_company_means": 2
+    },
+    "E1-6_minus_S1-5": {
+      "mean": 0.1683673001792348,
+      "low": 0.13742036168807803,
+      "high": 0.19945377525294242,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 29,
+      "negative_company_means": 1
+    },
+    "E1-6_minus_S1-5_non_disclosure_sensitivity": {
+      "mean": 0.21229903351783636,
+      "low": 0.1715882327126548,
+      "high": 0.25431859853462113,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 29,
+      "negative_company_means": 1
+    },
+    "E1_minus_S1": {
+      "mean": 0.07480293131022148,
+      "low": 0.05104254412594862,
+      "high": 0.09962487910814155,
+      "companies": 30,
+      "observations": 148,
+      "positive_company_means": 26,
+      "negative_company_means": 4
+    },
+    "G1_minus_S1": {
+      "mean": 0.07334260905332458,
+      "low": 0.048467363637383694,
+      "high": 0.0992139938903482,
+      "companies": 30,
+      "observations": 148,
+      "positive_company_means": 24,
+      "negative_company_means": 6
+    },
+    "2023_minus_2019": {
+      "mean": 0.04301346094441071,
+      "low": 0.016832250750547874,
+      "high": 0.06877000110881787,
+      "companies": 30,
+      "observations": 358,
+      "positive_company_means": 20,
+      "negative_company_means": 10
+    }
+  },
+  "native_minus_bace": {
+    "ragchecker": {
+      "mean": 0.3486009276465471,
+      "low": 0.33443587765942207,
+      "high": 0.36221692016230667,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    "ragas": {
+      "mean": 0.35284277183287327,
+      "low": 0.34056034632548704,
+      "high": 0.3650292119915625,
+      "companies": 30,
+      "observations": 1798,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  },
+  "diagnoses": [
+    {
+      "label": "non_disclosure_statement",
+      "claims": 6378,
+      "percent_unsupported": 14.955681658303241,
+      "percent_all_dc": 6.716865883839714,
+      "disclosures_with_label": 1157
+    },
+    {
+      "label": "evidence_conflation",
+      "claims": 12205,
+      "percent_unsupported": 28.61933123856868,
+      "percent_all_dc": 12.853456900637143,
+      "disclosures_with_label": 1735
+    },
+    {
+      "label": "factual_boundary_distortion",
+      "claims": 19130,
+      "percent_unsupported": 44.857665431693476,
+      "percent_all_dc": 20.146385129798325,
+      "disclosures_with_label": 1772
+    },
+    {
+      "label": "unsupported_novelty",
+      "claims": 1698,
+      "percent_unsupported": 3.9816160952961592,
+      "percent_all_dc": 1.7882154704860196,
+      "disclosures_with_label": 551
+    },
+    {
+      "label": "inferential_inflation",
+      "claims": 3193,
+      "percent_unsupported": 7.487220372367866,
+      "percent_all_dc": 3.3626454636406717,
+      "disclosures_with_label": 1246
+    },
+    {
+      "label": "contradiction",
+      "claims": 42,
+      "percent_unsupported": 0.09848520377057637,
+      "percent_all_dc": 0.04423147806855879,
+      "disclosures_with_label": 36
+    }
+  ],
+  "sensitivity": {
+    "non_disclosure_removed": 6378,
+    "unchanged_supported_numerator": 52309,
+    "remaining_dc": 88577,
+    "pooled_support": 0.5905483364756088,
+    "macro_increase_pp": 4.349255481349267,
+    "zero_candidate_dc": 1911,
+    "zero_candidate_cases": 600,
+    "zero_candidate_fraction_unsupported": 0.04481076771561225,
+    "zero_candidate_max_macro_increase_pp": 2.0488764366745627,
+    "limit": "Removal changes the estimand. Relabeling every zero-candidate DC is a hypothetical arithmetic upper bound for that subset only. Scenarios overlap and cannot be added."
+  },
+  "literal_alignment": {
+    "ragchecker": {
+      "pairs": 0,
+      "cases": 0,
+      "bace_dc_coverage": 0.0,
+      "native_ambiguous_rows_excluded": 0,
+      "joint_verdict_counts": {},
+      "bace_unsupported_native_supported_by_label": {},
+      "bace_support_rate": null,
+      "native_support_rate": null,
+      "limit": "Unique literal overlap is selected and not representative; same text does not make evidence interfaces or judgment procedures equal."
+    },
+    "ragas": {
+      "pairs": 5709,
+      "cases": 1454,
+      "bace_dc_coverage": 0.060123216260333845,
+      "native_ambiguous_rows_excluded": 6,
+      "joint_verdict_counts": {
+        "bace_0_native_1": 2010,
+        "bace_1_native_1": 3354,
+        "bace_0_native_0": 315,
+        "bace_1_native_0": 30
+      },
+      "bace_unsupported_native_supported_by_label": {
+        "factual_boundary_distortion": 1419,
+        "inferential_inflation": 156,
+        "evidence_conflation": 283,
+        "non_disclosure_statement": 52,
+        "unsupported_novelty": 100
+      },
+      "bace_support_rate": 0.5927482921702575,
+      "native_support_rate": 0.9395691014188124,
+      "limit": "Unique literal overlap is selected and not representative; same text does not make evidence interfaces or judgment procedures equal."
+    }
+  },
+  "evidence_use": {
+    "case_level_ec": 224611.0,
+    "case_level_used_ec": 71187.0,
+    "macro_eccr": 0.34341482922035954,
+    "median_eccr": 0.3230769230769231,
+    "pooled_eccr": 0.3169346113948115,
+    "inferred_fraction_supported": 0.3417958668680342,
+    "multi_ec_required_dc": 13710.0,
+    "limit": "ECs are case-level deduplicated inventories. Unused ECs may be redundant, irrelevant or outside task scope; ECCR is not recall or completeness."
+  },
+  "spearman_descriptive": {
+    "ragchecker": 0.28948461181294705,
+    "ragas": 0.32783955042518836,
+    "bace_vs_word_count": 0.017804565821121016,
+    "bace_vs_ec_count": 0.08003386812263133
+  },
+  "leave_one_company_out": {
+    "bace_support_rate_all_dc": {
+      "minimum": 0.5501711523817271,
+      "maximum": 0.5564481014471961
+    },
+    "bace_support_rate_excluding_non_disclosure_sensitivity": {
+      "minimum": 0.5937005336162843,
+      "maximum": 0.5997278878676128
+    }
+  },
+  "human_review": [
+    {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx",
+      "sample_rows": 600,
+      "support_labels": 0,
+      "diagnosis_labels": 0,
+      "sha256": "7d6bf6fec6285bba2179457bf29b31058f7007b65024b85dcdd47660894344c5"
+    },
+    {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx",
+      "sample_rows": 600,
+      "support_labels": 0,
+      "diagnosis_labels": 0,
+      "sha256": "0f161380f1777042ccd35cf09ef01b15c8baa17b9210ec92ea1d33c9fdce499b"
+    }
+  ],
+  "secondary_saved_artifacts": {
+    "ec_metadata_audit": {
+      "status": "SOURCE_REPORTED",
+      "file": "paper/analysis/ec_metadata_audit_2026-10-26/summary.json",
+      "note": "Saved forensic census, not an intervention or corrected score; flagged references are not adjudicated errors."
+    },
+    "prompt_sensitivity": {
+      "status": "SOURCE_REPORTED",
+      "file": "paper/analysis/prompt_gap_review_2026-10-22/results.json",
+      "note": "Separate saved follow-up experiment on 1,796 paired disclosures, not the 1,798-case primary run; not rerun in this audit."
+    }
+  },
+  "native_inventories": {
+    "bace": {
+      "median_claims": 52.0,
+      "total_claims": 94955,
+      "pooled_support": 0.5508819967352957
+    },
+    "ragchecker": {
+      "median_claims": 40.0,
+      "total_claims": 72633,
+      "pooled_support": 0.9077691958200818
+    },
+    "ragas": {
+      "median_claims": 42.0,
+      "total_claims": 76123,
+      "pooled_support": 0.9066510778608305
+    }
+  },
+  "tasks_non_disclosure_sensitivity": [
+    {
+      "task": "E1-1",
+      "mean": 0.6004832472715816,
+      "low": 0.5734716548258993,
+      "high": 0.627309218942752,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "E1-3",
+      "mean": 0.5489378352301197,
+      "low": 0.521121553376944,
+      "high": 0.5759906881392005,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "E1-4",
+      "mean": 0.652260240535951,
+      "low": 0.6191866171866118,
+      "high": 0.6861797614965833,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "E1-6",
+      "mean": 0.7100659090150258,
+      "low": 0.67833464218043,
+      "high": 0.7423381871733599,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-1",
+      "mean": 0.627634233265612,
+      "low": 0.5965224605036996,
+      "high": 0.6602905772694897,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-2",
+      "mean": 0.5976049387498786,
+      "low": 0.5626013815499106,
+      "high": 0.6328346939006887,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-3",
+      "mean": 0.5825073700233252,
+      "low": 0.5530621258506474,
+      "high": 0.6117942842256866,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "G1-4",
+      "mean": 0.6445349310068188,
+      "low": 0.6136720911612954,
+      "high": 0.6752308639127368,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-1",
+      "mean": 0.5326073461642459,
+      "low": 0.49971070649775856,
+      "high": 0.5661996674785689,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-14",
+      "mean": 0.6381708695210984,
+      "low": 0.6100776286367305,
+      "high": 0.6671176985328869,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-4",
+      "mean": 0.5341559978048291,
+      "low": 0.5087279110305479,
+      "high": 0.5584178243532354,
+      "companies": 30,
+      "observations": 150,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "task": "S1-5",
+      "mean": 0.49690349450118726,
+      "low": 0.4675645103733843,
+      "high": 0.5250903096689538,
+      "companies": 30,
+      "observations": 149,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  ],
+  "years_non_disclosure_sensitivity": [
+    {
+      "year": 2019.0,
+      "mean": 0.5897591845373659,
+      "low": 0.5685001779591877,
+      "high": 0.6096635215796679,
+      "companies": 30,
+      "observations": 359,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2020.0,
+      "mean": 0.607827461301705,
+      "low": 0.5870608325092156,
+      "high": 0.6300781020818368,
+      "companies": 30,
+      "observations": 360,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2021.0,
+      "mean": 0.5832015642048437,
+      "low": 0.5630831209536634,
+      "high": 0.604980280847821,
+      "companies": 30,
+      "observations": 360,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2022.0,
+      "mean": 0.5949029432656368,
+      "low": 0.5761067991701204,
+      "high": 0.6132413725145219,
+      "companies": 30,
+      "observations": 360,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    },
+    {
+      "year": 2023.0,
+      "mean": 0.6105609891807368,
+      "low": 0.5888884686844044,
+      "high": 0.6308384410743897,
+      "companies": 30,
+      "observations": 359,
+      "positive_company_means": 30,
+      "negative_company_means": 0
+    }
+  ],
+  "task_label_composition": [
+    {
+      "task": "E1-1",
+      "disclosures": 150,
+      "all_dc": 7119.0,
+      "direct_percent_all_dc": 33.45975558364939,
+      "inferred_percent_all_dc": 22.938614974013205,
+      "non_disclosure_statement_percent_all_dc": 6.377300182609917,
+      "contradiction_percent_all_dc": 0.04214075010535188,
+      "evidence_conflation_percent_all_dc": 16.898440792246102,
+      "factual_boundary_distortion_percent_all_dc": 13.90644753476612,
+      "inferential_inflation_percent_all_dc": 4.551201011378002,
+      "unsupported_novelty_percent_all_dc": 1.8260991712319146
+    },
+    {
+      "task": "E1-3",
+      "disclosures": 150,
+      "all_dc": 7404.0,
+      "direct_percent_all_dc": 33.198271204754185,
+      "inferred_percent_all_dc": 19.63803349540789,
+      "non_disclosure_statement_percent_all_dc": 3.3225283630470015,
+      "contradiction_percent_all_dc": 0.04051863857374392,
+      "evidence_conflation_percent_all_dc": 15.410588870880606,
+      "factual_boundary_distortion_percent_all_dc": 21.82603997839006,
+      "inferential_inflation_percent_all_dc": 4.159913560237709,
+      "unsupported_novelty_percent_all_dc": 2.404105888708806
+    },
+    {
+      "task": "E1-4",
+      "disclosures": 150,
+      "all_dc": 6330.0,
+      "direct_percent_all_dc": 37.50394944707741,
+      "inferred_percent_all_dc": 22.98578199052133,
+      "non_disclosure_statement_percent_all_dc": 7.0774091627172195,
+      "contradiction_percent_all_dc": 0.11058451816745656,
+      "evidence_conflation_percent_all_dc": 12.290679304897314,
+      "factual_boundary_distortion_percent_all_dc": 14.39178515007899,
+      "inferential_inflation_percent_all_dc": 4.470774091627172,
+      "unsupported_novelty_percent_all_dc": 1.169036334913112
+    },
+    {
+      "task": "E1-6",
+      "disclosures": 150,
+      "all_dc": 6065.0,
+      "direct_percent_all_dc": 37.180544105523495,
+      "inferred_percent_all_dc": 23.13272877164056,
+      "non_disclosure_statement_percent_all_dc": 13.998351195383346,
+      "contradiction_percent_all_dc": 0.23083264633140974,
+      "evidence_conflation_percent_all_dc": 6.95795548227535,
+      "factual_boundary_distortion_percent_all_dc": 15.28441879637263,
+      "inferential_inflation_percent_all_dc": 2.2093981863149215,
+      "unsupported_novelty_percent_all_dc": 1.0057708161582852
+    },
+    {
+      "task": "G1-1",
+      "disclosures": 150,
+      "all_dc": 9917.0,
+      "direct_percent_all_dc": 45.19511949178179,
+      "inferred_percent_all_dc": 17.152364626399113,
+      "non_disclosure_statement_percent_all_dc": 0.4235151759604719,
+      "contradiction_percent_all_dc": 0.010083694665725522,
+      "evidence_conflation_percent_all_dc": 12.211354240193607,
+      "factual_boundary_distortion_percent_all_dc": 20.994252294040535,
+      "inferential_inflation_percent_all_dc": 1.8856509024906727,
+      "unsupported_novelty_percent_all_dc": 2.127659574468085
+    },
+    {
+      "task": "G1-2",
+      "disclosures": 150,
+      "all_dc": 8679.0,
+      "direct_percent_all_dc": 38.518262472635094,
+      "inferred_percent_all_dc": 19.195759880170527,
+      "non_disclosure_statement_percent_all_dc": 4.032722663901371,
+      "contradiction_percent_all_dc": 0.04608825901601567,
+      "evidence_conflation_percent_all_dc": 12.835580135960365,
+      "factual_boundary_distortion_percent_all_dc": 22.191496716211546,
+      "inferential_inflation_percent_all_dc": 1.9011406844106464,
+      "unsupported_novelty_percent_all_dc": 1.2789491876944348
+    },
+    {
+      "task": "G1-3",
+      "disclosures": 150,
+      "all_dc": 8652.0,
+      "direct_percent_all_dc": 38.384188626907076,
+      "inferred_percent_all_dc": 17.244567730004622,
+      "non_disclosure_statement_percent_all_dc": 5.097087378640777,
+      "contradiction_percent_all_dc": 0.04623208506703652,
+      "evidence_conflation_percent_all_dc": 12.817845584835876,
+      "factual_boundary_distortion_percent_all_dc": 22.942672214516875,
+      "inferential_inflation_percent_all_dc": 2.473416551086454,
+      "unsupported_novelty_percent_all_dc": 0.9939898289412853
+    },
+    {
+      "task": "G1-4",
+      "disclosures": 150,
+      "all_dc": 7776.0,
+      "direct_percent_all_dc": 38.181584362139915,
+      "inferred_percent_all_dc": 17.37397119341564,
+      "non_disclosure_statement_percent_all_dc": 14.184670781893004,
+      "contradiction_percent_all_dc": 0.01286008230452675,
+      "evidence_conflation_percent_all_dc": 8.706275720164609,
+      "factual_boundary_distortion_percent_all_dc": 18.287037037037038,
+      "inferential_inflation_percent_all_dc": 2.3919753086419755,
+      "unsupported_novelty_percent_all_dc": 0.8616255144032922
+    },
+    {
+      "task": "S1-1",
+      "disclosures": 149,
+      "all_dc": 8912.0,
+      "direct_percent_all_dc": 36.44524236983842,
+      "inferred_percent_all_dc": 16.135547576301615,
+      "non_disclosure_statement_percent_all_dc": 1.3128366247755834,
+      "contradiction_percent_all_dc": 0.011220825852782765,
+      "evidence_conflation_percent_all_dc": 15.731597845601437,
+      "factual_boundary_distortion_percent_all_dc": 24.39407540394973,
+      "inferential_inflation_percent_all_dc": 3.433572710951526,
+      "unsupported_novelty_percent_all_dc": 2.535906642728905
+    },
+    {
+      "task": "S1-14",
+      "disclosures": 150,
+      "all_dc": 7015.0,
+      "direct_percent_all_dc": 35.794725588025656,
+      "inferred_percent_all_dc": 17.263007840342123,
+      "non_disclosure_statement_percent_all_dc": 16.350677120456165,
+      "contradiction_percent_all_dc": 0.05702066999287242,
+      "evidence_conflation_percent_all_dc": 7.512473271560941,
+      "factual_boundary_distortion_percent_all_dc": 18.973627940128296,
+      "inferential_inflation_percent_all_dc": 2.18104062722737,
+      "unsupported_novelty_percent_all_dc": 1.8674269422665717
+    },
+    {
+      "task": "S1-4",
+      "disclosures": 150,
+      "all_dc": 8894.0,
+      "direct_percent_all_dc": 32.34765010119182,
+      "inferred_percent_all_dc": 19.51877670339555,
+      "non_disclosure_statement_percent_all_dc": 2.1250281088374186,
+      "contradiction_percent_all_dc": 0.0,
+      "evidence_conflation_percent_all_dc": 14.616595457611874,
+      "factual_boundary_distortion_percent_all_dc": 24.061164830222623,
+      "inferential_inflation_percent_all_dc": 5.295704969642456,
+      "unsupported_novelty_percent_all_dc": 2.0350798290982683
+    },
+    {
+      "task": "S1-5",
+      "disclosures": 149,
+      "all_dc": 8192.0,
+      "direct_percent_all_dc": 26.9775390625,
+      "inferred_percent_all_dc": 16.34521484375,
+      "non_disclosure_statement_percent_all_dc": 12.109375,
+      "contradiction_percent_all_dc": 0.0,
+      "evidence_conflation_percent_all_dc": 16.12548828125,
+      "factual_boundary_distortion_percent_all_dc": 19.8486328125,
+      "inferential_inflation_percent_all_dc": 5.6396484375,
+      "unsupported_novelty_percent_all_dc": 2.9541015625
+    }
+  ]
+}

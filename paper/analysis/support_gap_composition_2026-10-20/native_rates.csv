@@ -1,0 +1,4 @@
+framework,disclosures,native_claims,native_supported,disclosure_macro_support_percent,native_macro_gap_vs_bace_pp
+bace,1798,94955,52309,55.37546371346639,0.0
+ragas,1798,76123,69017,90.65974089675372,35.28427718328733
+ragchecker,1798,72633,65934,90.2355564781211,34.86009276465471

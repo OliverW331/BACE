@@ -1,0 +1,85 @@
+[
+  {
+    "location": "I06",
+    "printed_value": "1,798",
+    "value": 1798,
+    "status": "COMPUTED_VERIFIED",
+    "result_file": "paper/analysis/methods_draft/verified_method_facts.json",
+    "result_locator": "cohort.completed",
+    "source_calculation": "paper/analysis/methods_draft/verify_methods.py; paper/analysis/results_draft/verify_draft.py",
+    "upstream_provenance": "paper/analysis/methods_draft/provenance.json",
+    "cohort": "One fixed workflow; complete BACE assessments with both native comparator scores. Two planned cases remain incomplete.",
+    "unit": "disclosures",
+    "aggregation": "Counts or set of distinct design values; no rounding or imputation. Planned = 30 × 5 × 12; completed = paired = 1,798.",
+    "denominator": "Design scope, not a rate; planned and completed counts distinguished."
+  },
+  {
+    "location": "I06",
+    "printed_value": "1,800",
+    "value": 1800,
+    "status": "COMPUTED_VERIFIED",
+    "result_file": "paper/analysis/methods_draft/verified_method_facts.json",
+    "result_locator": "cohort.planned",
+    "source_calculation": "paper/analysis/methods_draft/verify_methods.py; paper/analysis/results_draft/verify_draft.py",
+    "upstream_provenance": "paper/analysis/methods_draft/provenance.json",
+    "cohort": "One fixed workflow; complete BACE assessments with both native comparator scores. Two planned cases remain incomplete.",
+    "unit": "company-year-task design cells",
+    "aggregation": "Counts or set of distinct design values; no rounding or imputation. Planned = 30 × 5 × 12; completed = paired = 1,798.",
+    "denominator": "Design scope, not a rate; planned and completed counts distinguished."
+  },
+  {
+    "location": "I06",
+    "printed_value": "30",
+    "value": 30,
+    "status": "COMPUTED_VERIFIED",
+    "result_file": "paper/analysis/methods_draft/verified_method_facts.json",
+    "result_locator": "cohort.companies",
+    "source_calculation": "paper/analysis/methods_draft/verify_methods.py; paper/analysis/results_draft/verify_draft.py",
+    "upstream_provenance": "paper/analysis/methods_draft/provenance.json",
+    "cohort": "One fixed workflow; complete BACE assessments with both native comparator scores. Two planned cases remain incomplete.",
+    "unit": "unique companies",
+    "aggregation": "Counts or set of distinct design values; no rounding or imputation. Planned = 30 × 5 × 12; completed = paired = 1,798.",
+    "denominator": "Design scope, not a rate; planned and completed counts distinguished."
+  },
+  {
+    "location": "I06",
+    "printed_value": "2019--2023",
+    "value": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "status": "COMPUTED_VERIFIED",
+    "result_file": "paper/analysis/methods_draft/verified_method_facts.json",
+    "result_locator": "cohort.years",
+    "source_calculation": "paper/analysis/methods_draft/verify_methods.py; paper/analysis/results_draft/verify_draft.py",
+    "upstream_provenance": "paper/analysis/methods_draft/provenance.json",
+    "cohort": "One fixed workflow; complete BACE assessments with both native comparator scores. Two planned cases remain incomplete.",
+    "unit": "reporting years",
+    "aggregation": "Counts or set of distinct design values; no rounding or imputation. Planned = 30 × 5 × 12; completed = paired = 1,798.",
+    "denominator": "Design scope, not a rate; planned and completed counts distinguished."
+  },
+  {
+    "location": "I06",
+    "printed_value": "12",
+    "value": 12,
+    "status": "COMPUTED_VERIFIED",
+    "result_file": "paper/analysis/methods_draft/verified_method_facts.json",
+    "result_locator": "cohort.tasks",
+    "source_calculation": "paper/analysis/methods_draft/verify_methods.py; paper/analysis/results_draft/verify_draft.py",
+    "upstream_provenance": "paper/analysis/methods_draft/provenance.json",
+    "cohort": "One fixed workflow; complete BACE assessments with both native comparator scores. Two planned cases remain incomplete.",
+    "unit": "distinct reporting tasks",
+    "aggregation": "Counts or set of distinct design values; no rounding or imputation. Planned = 30 × 5 × 12; completed = paired = 1,798.",
+    "denominator": "Design scope, not a rate; planned and completed counts distinguished."
+  },
+  {
+    "location": "I01 and I06",
+    "printed_value": "2023 ESRS edition",
+    "status": "SOURCE_REPORTED",
+    "source": "paper/literature/sources/esrs2023/original.pdf, p. 1; BACE/config/tasks.json",
+    "meaning": "Edition identifier, not current legal applicability or a measured quantity."
+  }
+]

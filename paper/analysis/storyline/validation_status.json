@@ -1,0 +1,88 @@
+{
+  "manifest_status": "prepared_not_annotated",
+  "workbooks": {
+    "A": {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx",
+      "sample_rows": 600,
+      "unique_ids": 600,
+      "support_cells_filled": 0,
+      "diagnosis_cells_filled": 0
+    },
+    "B": {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx",
+      "sample_rows": 600,
+      "unique_ids": 600,
+      "support_cells_filled": 0,
+      "diagnosis_cells_filled": 0
+    }
+  },
+  "same_sample_inputs": true,
+  "study_design": {
+    "seed": "bace-human-validation-v1-20260924",
+    "primary_n": 400,
+    "supplement_n": 200,
+    "primary_method": "Proportional allocation by automated support label using largest remainders; seeded SHA-256 ranking without replacement within each stratum.",
+    "supplement_method": "Given the primary sample, repeatedly allocate one slot to the least represented automated diagnosis, tie-breaking in frozen diagnosis order. Cap total contradiction units at 40 to retain calibration-eligible units. Uniform seeded ranking within the remaining diagnosis pool.",
+    "presentation_order": "Independent seeded SHA-256 ranking across all 600 selected units; group membership is private.",
+    "support_population": {
+      "Supported": 34430,
+      "Supported by inference": 17879,
+      "Unsupported": 42646
+    },
+    "primary_support_quotas": {
+      "Supported": 145,
+      "Supported by inference": 75,
+      "Unsupported": 180
+    },
+    "diagnosis_population": {
+      "non_disclosure_statement": 6378,
+      "factual_boundary_distortion": 19130,
+      "evidence_conflation": 12205,
+      "unsupported_novelty": 1698,
+      "inferential_inflation": 3193,
+      "contradiction": 42
+    },
+    "primary_diagnosis_counts": {
+      "non_disclosure_statement": 30,
+      "factual_boundary_distortion": 71,
+      "unsupported_novelty": 7,
+      "evidence_conflation": 55,
+      "inferential_inflation": 17
+    },
+    "supplement_diagnosis_quotas": {
+      "non_disclosure_statement": 38,
+      "contradiction": 40,
+      "evidence_conflation": 12,
+      "factual_boundary_distortion": 0,
+      "inferential_inflation": 50,
+      "unsupported_novelty": 60
+    },
+    "remaining_diagnosis_populations": {
+      "non_disclosure_statement": 6348,
+      "contradiction": 42,
+      "evidence_conflation": 12150,
+      "factual_boundary_distortion": 19059,
+      "inferential_inflation": 3176,
+      "unsupported_novelty": 1691
+    },
+    "diagnosis_total_caps": {
+      "non_disclosure_statement": 6378,
+      "contradiction": 40,
+      "evidence_conflation": 12205,
+      "factual_boundary_distortion": 19130,
+      "inferential_inflation": 3193,
+      "unsupported_novelty": 1698
+    },
+    "calibration": "Not conducted or generated. Future calibration must use units outside these 600; at least two automated contradictions remain available.",
+    "estimand": "Primary: claim-level agreement within the completed frozen BACE DC inventory, conditional on original candidate EC inputs.",
+    "analysis_rule": "Use the 400 primary units and their stratum weights for overall estimates. Supplement inclusion probabilities are conditional on the realized primary sample; do not treat all 600 as an unweighted representative sample or these probabilities as unconditional union probabilities."
+  },
+  "scope": "Only local formal workbook copies inspected; annotations elsewhere are not inferred absent.",
+  "top_level_files": [
+    "README.md",
+    "human_validation_600_reviewer_A.xlsx",
+    "human_validation_600_reviewer_B.xlsx",
+    "human_validation_600_with_main_results.xlsx",
+    "unsupported_diagnosis_validation_500.xlsx"
+  ]
+}

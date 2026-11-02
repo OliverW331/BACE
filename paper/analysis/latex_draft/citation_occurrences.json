@@ -1,0 +1,50 @@
+[
+  {
+    "id": "M16-ragchecker2024",
+    "document": "paper/manuscript/main.tex",
+    "location": "M16; migrated unchanged from Methods draft; citation key preserved",
+    "citation_key": "ragchecker2024",
+    "claim": "RAGChecker evaluates claim-level entailment and defines faithfulness through support in retrieved context.",
+    "source_version": "NeurIPS 2024 proceedings full text",
+    "canonical_identifier": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/27245589131d17368cccdfa990cbf16e-Abstract-Datasets_and_Benchmarks_Track.html",
+    "fulltext_path": "paper/literature/sources/ragchecker2024/fulltext.txt",
+    "retrieval_record": "paper/literature/sources/ragchecker2024/retrieval.json",
+    "locator": "Sections 3.2 and 3.3.3, PDF pages 4–5; Appendix B.3, Faithfulness formula",
+    "verified_excerpt_fragments": [
+      "a text-to-claim extractor that decomposes a given text T",
+      "This metric is faithfulness, as it describes how faithful the generator is to the provided context"
+    ],
+    "original_retrieval_date": "2026-09-29",
+    "local_fulltext_review_date": "2026-10-01",
+    "status": "VERIFIED_FULL_TEXT_FOR_STATED_CLAIM",
+    "limits": "Does not establish the package versions, Azure settings, empirical scores or behavior of every current implementation. Those require the saved experiment configuration and code.",
+    "access_note": "Original full text retrieved on the recorded retrieval date; cached original-source passage reviewed locally for this occurrence. No new publisher access is implied.",
+    "previous_document": "paper/10_methods_draft.md",
+    "migration_date": "2026-10-01"
+  },
+  {
+    "id": "M16-ragas2024",
+    "document": "paper/manuscript/main.tex",
+    "location": "M16; migrated unchanged from Methods draft; citation key preserved",
+    "citation_key": "ragas2024",
+    "claim": "RAGAS assesses faithfulness by extracting response statements and checking their support in the supplied context.",
+    "source_version": "EACL 2024 System Demonstrations proceedings full text",
+    "canonical_identifier": "10.18653/v1/2024.eacl-demo.16",
+    "source_url": "https://aclanthology.org/2024.eacl-demo.16/",
+    "fulltext_path": "paper/literature/sources/ragas2024/fulltext.txt",
+    "retrieval_record": "paper/literature/sources/ragas2024/retrieval.json",
+    "locator": "Section 3, Faithfulness, printed page 152 / PDF page 3; statement-extraction and support-verification prompts and supported-statement fraction",
+    "verified_excerpt_fragments": [
+      "To estimate faithfulness, we first use an LLM",
+      "to extract a set of statements",
+      "are supported by the information present"
+    ],
+    "original_retrieval_date": "2026-09-29",
+    "local_fulltext_review_date": "2026-10-01",
+    "status": "VERIFIED_FULL_TEXT_FOR_STATED_CLAIM",
+    "limits": "The paper's original model and prompt implementation are not equated with RAGAS 0.4.3 in this experiment. Use the saved native wrapper and configuration for implemented settings.",
+    "access_note": "Original full text retrieved on the recorded retrieval date; cached original-source passage reviewed locally for this occurrence. No new publisher access is implied.",
+    "previous_document": "paper/10_methods_draft.md",
+    "migration_date": "2026-10-01"
+  }
+]

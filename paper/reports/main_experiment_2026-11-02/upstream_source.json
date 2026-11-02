@@ -1,0 +1,12 @@
+{
+  "status": "SOURCE_REPORTED",
+  "access_date": "2026-11-02",
+  "repository": "forsterkerstin/corporate-sustainability-tracker",
+  "commit": "3d8ccb1d0f0e6f212924b372f2da8510ee457d3b",
+  "source_url": "https://raw.githubusercontent.com/forsterkerstin/corporate-sustainability-tracker/3d8ccb1d0f0e6f212924b372f2da8510ee457d3b/README.md",
+  "local_file": "upstream_README.md",
+  "sha256": "4eec34d29b3ac85e62be48c5a0ee251a4af3f95981dc7aeb854cddd858af3c4e",
+  "locator": "Workflow overview; Download the dataset",
+  "support": "Upstream extraction, processed metric CSV layout and unit harmonization",
+  "limit": "Does not verify byte-level equivalence of every local input to the remote dataset release"
+}

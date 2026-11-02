@@ -1,0 +1,2104 @@
+{
+  "access_date": "2026-10-26",
+  "completed_at_utc": "2026-10-26T09:47:55.239674+00:00",
+  "scope": "All saved main_v1 EC/DC extraction, integrated/atomic review, dedup, candidate, support and diagnosis call records; all available corresponding manifests and generation instructions.",
+  "case_counts_by_family": {
+    "E1": 600,
+    "G1": 600,
+    "S1": 600
+  },
+  "available_manifests": [
+    {
+      "family": "E1",
+      "stage": "atomic",
+      "count": 600
+    },
+    {
+      "family": "E1",
+      "stage": "candidates",
+      "count": 600
+    },
+    {
+      "family": "E1",
+      "stage": "dedup",
+      "count": 600
+    },
+    {
+      "family": "E1",
+      "stage": "diagnosis",
+      "count": 600
+    },
+    {
+      "family": "E1",
+      "stage": "direct",
+      "count": 600
+    },
+    {
+      "family": "E1",
+      "stage": "generation",
+      "count": 600
+    },
+    {
+      "family": "E1",
+      "stage": "integrated",
+      "count": 600
+    },
+    {
+      "family": "E1",
+      "stage": "support",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "atomic",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "candidates",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "dedup",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "diagnosis",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "direct",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "generation",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "integrated",
+      "count": 600
+    },
+    {
+      "family": "G1",
+      "stage": "support",
+      "count": 600
+    },
+    {
+      "family": "S1",
+      "stage": "atomic",
+      "count": 598
+    },
+    {
+      "family": "S1",
+      "stage": "candidates",
+      "count": 598
+    },
+    {
+      "family": "S1",
+      "stage": "dedup",
+      "count": 598
+    },
+    {
+      "family": "S1",
+      "stage": "diagnosis",
+      "count": 598
+    },
+    {
+      "family": "S1",
+      "stage": "direct",
+      "count": 600
+    },
+    {
+      "family": "S1",
+      "stage": "generation",
+      "count": 600
+    },
+    {
+      "family": "S1",
+      "stage": "integrated",
+      "count": 599
+    },
+    {
+      "family": "S1",
+      "stage": "support",
+      "count": 598
+    }
+  ],
+  "generation_instruction_checks": {
+    "E1_checked": 600,
+    "G1_checked": 600,
+    "S1_checked": 600
+  },
+  "generation_instruction_failures": [],
+  "declared_prompt_hash_failures": [],
+  "call_contract_comparison": [
+    {
+      "stage": "atomic_dc",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 600,
+        "G1": 600,
+        "S1": 598
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 603,
+        "G1": 600,
+        "S1": 602
+      }
+    },
+    {
+      "stage": "candidates",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 26929,
+        "G1": 35027,
+        "S1": 33015
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 600,
+        "G1": 600,
+        "S1": 598
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 601,
+        "G1": 600,
+        "S1": 599
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 11504,
+        "G1": 14699,
+        "S1": 16443
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 600,
+        "G1": 600,
+        "S1": 605
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 600,
+        "G1": 601,
+        "S1": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 600,
+        "G1": 600,
+        "S1": 607
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 612,
+        "G1": 622,
+        "S1": 629
+      }
+    },
+    {
+      "stage": "support",
+      "identical_signature_sets_across_families": true,
+      "signature_counts_by_family": {
+        "E1": 1,
+        "G1": 1,
+        "S1": 1
+      },
+      "saved_records_by_family": {
+        "E1": 26918,
+        "G1": 35024,
+        "S1": 33014
+      }
+    }
+  ],
+  "call_contract_groups": [
+    {
+      "stage": "atomic_dc",
+      "family": "E1",
+      "variants": {
+        "a54654eacd3632dfc4ed5d240ca9ae592f1c56a0cf2254e9f43f52ccd4343f8b": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "G1",
+      "variants": {
+        "a54654eacd3632dfc4ed5d240ca9ae592f1c56a0cf2254e9f43f52ccd4343f8b": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "S1",
+      "variants": {
+        "a54654eacd3632dfc4ed5d240ca9ae592f1c56a0cf2254e9f43f52ccd4343f8b": 598
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "E1",
+      "variants": {
+        "e1e51f435dfbe4aecd3898458fe1d00ee3611643db256c2755e5fe102eba01d3": 603
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "G1",
+      "variants": {
+        "e1e51f435dfbe4aecd3898458fe1d00ee3611643db256c2755e5fe102eba01d3": 600
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "S1",
+      "variants": {
+        "e1e51f435dfbe4aecd3898458fe1d00ee3611643db256c2755e5fe102eba01d3": 602
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "E1",
+      "variants": {
+        "26a2807e8ba78093a1bf10820a2a07befd90b8d1bb64ad86c9758a07da76bdef": 26929
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "G1",
+      "variants": {
+        "26a2807e8ba78093a1bf10820a2a07befd90b8d1bb64ad86c9758a07da76bdef": 35027
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "S1",
+      "variants": {
+        "26a2807e8ba78093a1bf10820a2a07befd90b8d1bb64ad86c9758a07da76bdef": 33015
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "E1",
+      "variants": {
+        "a440a4e619eb3962c95e9ab2c8feee5840922dbd10cf93e4b832e0026f97339a": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "G1",
+      "variants": {
+        "a440a4e619eb3962c95e9ab2c8feee5840922dbd10cf93e4b832e0026f97339a": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "S1",
+      "variants": {
+        "a440a4e619eb3962c95e9ab2c8feee5840922dbd10cf93e4b832e0026f97339a": 598
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "E1",
+      "variants": {
+        "a440a4e619eb3962c95e9ab2c8feee5840922dbd10cf93e4b832e0026f97339a": 601
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "G1",
+      "variants": {
+        "a440a4e619eb3962c95e9ab2c8feee5840922dbd10cf93e4b832e0026f97339a": 600
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "S1",
+      "variants": {
+        "a440a4e619eb3962c95e9ab2c8feee5840922dbd10cf93e4b832e0026f97339a": 599
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "E1",
+      "variants": {
+        "348f179effe1c96e823ca6d3310c77cbe63d9d0ce1c9ceaf24f2475e2d405961": 11504
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "G1",
+      "variants": {
+        "348f179effe1c96e823ca6d3310c77cbe63d9d0ce1c9ceaf24f2475e2d405961": 14699
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "S1",
+      "variants": {
+        "348f179effe1c96e823ca6d3310c77cbe63d9d0ce1c9ceaf24f2475e2d405961": 16443
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "E1",
+      "variants": {
+        "2254834a133e347207ee8f4e51ec715b830b2e4c1284a144586e832b9e6d15f6": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "G1",
+      "variants": {
+        "2254834a133e347207ee8f4e51ec715b830b2e4c1284a144586e832b9e6d15f6": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "S1",
+      "variants": {
+        "2254834a133e347207ee8f4e51ec715b830b2e4c1284a144586e832b9e6d15f6": 605
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "E1",
+      "variants": {
+        "716fc74aeb63b20b91e72c14204401912279c64a0434c5a9e48652b0c15e83e2": 600
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "G1",
+      "variants": {
+        "716fc74aeb63b20b91e72c14204401912279c64a0434c5a9e48652b0c15e83e2": 601
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "S1",
+      "variants": {
+        "716fc74aeb63b20b91e72c14204401912279c64a0434c5a9e48652b0c15e83e2": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "E1",
+      "variants": {
+        "6d1bf0566e65e223175dcda6c9b8cbdc82ba0285578f43a7a1d5387c51221255": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "G1",
+      "variants": {
+        "6d1bf0566e65e223175dcda6c9b8cbdc82ba0285578f43a7a1d5387c51221255": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "S1",
+      "variants": {
+        "6d1bf0566e65e223175dcda6c9b8cbdc82ba0285578f43a7a1d5387c51221255": 607
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "E1",
+      "variants": {
+        "8ee214f84d5800092f65a2c81c5499e8850a71d3a0ca1bf4a9ee9cd4e6741d0f": 612
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "G1",
+      "variants": {
+        "8ee214f84d5800092f65a2c81c5499e8850a71d3a0ca1bf4a9ee9cd4e6741d0f": 622
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "S1",
+      "variants": {
+        "8ee214f84d5800092f65a2c81c5499e8850a71d3a0ca1bf4a9ee9cd4e6741d0f": 629
+      }
+    },
+    {
+      "stage": "support",
+      "family": "E1",
+      "variants": {
+        "a417c33a5f407d842931b15db2f626b87537f248fe29d6eb6bbfd308b5f8d920": 26918
+      }
+    },
+    {
+      "stage": "support",
+      "family": "G1",
+      "variants": {
+        "a417c33a5f407d842931b15db2f626b87537f248fe29d6eb6bbfd308b5f8d920": 35024
+      }
+    },
+    {
+      "stage": "support",
+      "family": "S1",
+      "variants": {
+        "a417c33a5f407d842931b15db2f626b87537f248fe29d6eb6bbfd308b5f8d920": 33014
+      }
+    }
+  ],
+  "manifest_contract_groups": [
+    {
+      "stage": "atomic",
+      "family": "E1",
+      "variants": {
+        "6fde6c37d802327193e74fbff47d5d1ce535390b9c349030aff806e86345a0ad": 600
+      }
+    },
+    {
+      "stage": "atomic",
+      "family": "G1",
+      "variants": {
+        "6fde6c37d802327193e74fbff47d5d1ce535390b9c349030aff806e86345a0ad": 600
+      }
+    },
+    {
+      "stage": "atomic",
+      "family": "S1",
+      "variants": {
+        "6fde6c37d802327193e74fbff47d5d1ce535390b9c349030aff806e86345a0ad": 598
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "E1",
+      "variants": {
+        "71e323670a0511bfcab652a427dc0deedeefb9511dad19744d9f07a105f27826": 600
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "G1",
+      "variants": {
+        "71e323670a0511bfcab652a427dc0deedeefb9511dad19744d9f07a105f27826": 600
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "S1",
+      "variants": {
+        "71e323670a0511bfcab652a427dc0deedeefb9511dad19744d9f07a105f27826": 598
+      }
+    },
+    {
+      "stage": "dedup",
+      "family": "E1",
+      "variants": {
+        "a60749768f889aae0eb17c9cb0136113de226763b5446cb1f44937edd9e23e04": 600
+      }
+    },
+    {
+      "stage": "dedup",
+      "family": "G1",
+      "variants": {
+        "a60749768f889aae0eb17c9cb0136113de226763b5446cb1f44937edd9e23e04": 600
+      }
+    },
+    {
+      "stage": "dedup",
+      "family": "S1",
+      "variants": {
+        "a60749768f889aae0eb17c9cb0136113de226763b5446cb1f44937edd9e23e04": 598
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "E1",
+      "variants": {
+        "3a000cb683afb9ea0c30550ee7a937f0999f3a48ece7ebe081f0fafb3d6f9b0c": 600
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "G1",
+      "variants": {
+        "3a000cb683afb9ea0c30550ee7a937f0999f3a48ece7ebe081f0fafb3d6f9b0c": 600
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "S1",
+      "variants": {
+        "3a000cb683afb9ea0c30550ee7a937f0999f3a48ece7ebe081f0fafb3d6f9b0c": 598
+      }
+    },
+    {
+      "stage": "direct",
+      "family": "E1",
+      "variants": {
+        "b7862cd7e197109c09a21eef322f2537af24005fb2ff32d6809c0f5d7d9a1a5f": 600
+      }
+    },
+    {
+      "stage": "direct",
+      "family": "G1",
+      "variants": {
+        "b7862cd7e197109c09a21eef322f2537af24005fb2ff32d6809c0f5d7d9a1a5f": 600
+      }
+    },
+    {
+      "stage": "direct",
+      "family": "S1",
+      "variants": {
+        "b7862cd7e197109c09a21eef322f2537af24005fb2ff32d6809c0f5d7d9a1a5f": 600
+      }
+    },
+    {
+      "stage": "generation",
+      "family": "E1",
+      "variants": {
+        "a52c4e10f9e7f04fa822a844ae5075fd6d0f379c4188e8cac63aba0c723ce74d": 600
+      }
+    },
+    {
+      "stage": "generation",
+      "family": "G1",
+      "variants": {
+        "a52c4e10f9e7f04fa822a844ae5075fd6d0f379c4188e8cac63aba0c723ce74d": 600
+      }
+    },
+    {
+      "stage": "generation",
+      "family": "S1",
+      "variants": {
+        "a52c4e10f9e7f04fa822a844ae5075fd6d0f379c4188e8cac63aba0c723ce74d": 600
+      }
+    },
+    {
+      "stage": "integrated",
+      "family": "E1",
+      "variants": {
+        "d79be9a0621784a2106cf5e04cde94576bb12f854d833a36abc9a6b149b10918": 600
+      }
+    },
+    {
+      "stage": "integrated",
+      "family": "G1",
+      "variants": {
+        "d79be9a0621784a2106cf5e04cde94576bb12f854d833a36abc9a6b149b10918": 600
+      }
+    },
+    {
+      "stage": "integrated",
+      "family": "S1",
+      "variants": {
+        "d79be9a0621784a2106cf5e04cde94576bb12f854d833a36abc9a6b149b10918": 599
+      }
+    },
+    {
+      "stage": "support",
+      "family": "E1",
+      "variants": {
+        "34d2e5d567b0be317a597dc8d22d96f3509b0a4ad2daba66cfe992f5f4dbb930": 600
+      }
+    },
+    {
+      "stage": "support",
+      "family": "G1",
+      "variants": {
+        "34d2e5d567b0be317a597dc8d22d96f3509b0a4ad2daba66cfe992f5f4dbb930": 600
+      }
+    },
+    {
+      "stage": "support",
+      "family": "S1",
+      "variants": {
+        "34d2e5d567b0be317a597dc8d22d96f3509b0a4ad2daba66cfe992f5f4dbb930": 598
+      }
+    }
+  ],
+  "dynamic_input_shapes": [
+    {
+      "stage": "atomic_dc",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\",\"draft_claim_index\",\"draft_extraction\"]}": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\",\"draft_claim_index\",\"draft_extraction\"]}": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\",\"draft_claim_index\",\"draft_extraction\"]}": 598
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"draft_claim_index\",\"draft_extraction\",\"evidence_section\"]}": 603
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"draft_claim_index\",\"draft_extraction\",\"evidence_section\"]}": 600
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"draft_claim_index\",\"draft_extraction\",\"evidence_section\"]}": 602
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"dc_claim\",\"ec_claims\"]}": 26929
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"dc_claim\",\"ec_claims\"]}": 35027
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"dc_claim\",\"ec_claims\"]}": 33015
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"claim_units\"]}": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"claim_units\"]}": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"claim_units\"]}": 598
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"claim_units\"]}": 601
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"claim_units\"]}": 600
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[],\"keys\":[\"claim_units\"]}": 599
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"dc_claim\",\"ec_claims\"]}": 11504
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"dc_claim\",\"ec_claims\"]}": 14699
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"dc_claim\",\"ec_claims\"]}": 16443
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\"]}": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\"]}": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\"]}": 605
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"evidence_section\"]}": 600
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"evidence_section\"]}": 601
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"evidence_section\"]}": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\",\"draft_claim_index\",\"draft_extraction\"]}": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\",\"draft_claim_index\",\"draft_extraction\"]}": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"disclosure_text\",\"draft_claim_index\",\"draft_extraction\"]}": 607
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"draft_claim_index\",\"draft_extraction\",\"evidence_section\"]}": 612
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"draft_claim_index\",\"draft_extraction\",\"evidence_section\"]}": 622
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\",\"task_title\"],\"keys\":[\"context_metadata\",\"draft_claim_index\",\"draft_extraction\",\"evidence_section\"]}": 629
+      }
+    },
+    {
+      "stage": "support",
+      "family": "E1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"dc_claim\",\"ec_claims\"]}": 26918
+      }
+    },
+    {
+      "stage": "support",
+      "family": "G1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"dc_claim\",\"ec_claims\"]}": 35024
+      }
+    },
+    {
+      "stage": "support",
+      "family": "S1",
+      "variants": {
+        "{\"context_metadata_keys\":[\"company_name\",\"target_reporting_year\"],\"keys\":[\"context_metadata\",\"dc_claim\",\"ec_claims\"]}": 33014
+      }
+    }
+  ],
+  "call_statuses": [
+    {
+      "stage": "atomic_dc",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 598
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 3
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 598,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 4
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 26918,
+        "{\"model_called\":true,\"output_valid\":false,\"status\":\"invalid_output\"}": 11
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 35024,
+        "{\"model_called\":true,\"output_valid\":false,\"status\":\"invalid_output\"}": 3
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 33013,
+        "{\"model_called\":true,\"output_valid\":false,\"status\":\"invalid_output\"}": 2
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 598
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 600,
+        "{\"model_called\":true,\"output_valid\":false,\"status\":\"invalid_output\"}": 1
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 598,
+        "{\"model_called\":true,\"output_valid\":false,\"status\":\"invalid_output\"}": 1
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 11504
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 14699
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 16443
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 599,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 6
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 1
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 598,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 9
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 12
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 600,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 22
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":null,\"output_valid\":true,\"status\":\"success\"}": 599,
+        "{\"model_called\":null,\"output_valid\":false,\"status\":\"invalid_output\"}": 30
+      }
+    },
+    {
+      "stage": "support",
+      "family": "E1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 26426,
+        "{\"model_called\":false,\"output_valid\":true,\"status\":\"success\"}": 492
+      }
+    },
+    {
+      "stage": "support",
+      "family": "G1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 34346,
+        "{\"model_called\":false,\"output_valid\":true,\"status\":\"success\"}": 678
+      }
+    },
+    {
+      "stage": "support",
+      "family": "S1",
+      "variants": {
+        "{\"model_called\":true,\"output_valid\":true,\"status\":\"success\"}": 32272,
+        "{\"model_called\":false,\"output_valid\":true,\"status\":\"success\"}": 741,
+        "{\"model_called\":true,\"output_valid\":false,\"status\":\"invalid_output\"}": 1
+      }
+    }
+  ],
+  "output_processing_modes": [
+    {
+      "stage": "atomic_dc",
+      "family": "E1",
+      "variants": {
+        "schema_only_identified_patch": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "G1",
+      "variants": {
+        "schema_only_identified_patch": 600
+      }
+    },
+    {
+      "stage": "atomic_dc",
+      "family": "S1",
+      "variants": {
+        "schema_only_identified_patch": 598
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "E1",
+      "variants": {
+        "schema_only_identified_patch": 603
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "G1",
+      "variants": {
+        "schema_only_identified_patch": 600
+      }
+    },
+    {
+      "stage": "atomic_ec",
+      "family": "S1",
+      "variants": {
+        "schema_only_identified_patch": 602
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "E1",
+      "variants": {
+        "not_recorded": 26929
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "G1",
+      "variants": {
+        "not_recorded": 35027
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "S1",
+      "variants": {
+        "not_recorded": 33015
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "E1",
+      "variants": {
+        "not_recorded": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "G1",
+      "variants": {
+        "not_recorded": 600
+      }
+    },
+    {
+      "stage": "dedup_dc",
+      "family": "S1",
+      "variants": {
+        "not_recorded": 598
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "E1",
+      "variants": {
+        "not_recorded": 601
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "G1",
+      "variants": {
+        "not_recorded": 600
+      }
+    },
+    {
+      "stage": "dedup_ec",
+      "family": "S1",
+      "variants": {
+        "not_recorded": 599
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "E1",
+      "variants": {
+        "not_recorded": 11504
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "G1",
+      "variants": {
+        "not_recorded": 14699
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "S1",
+      "variants": {
+        "not_recorded": 16443
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "E1",
+      "variants": {
+        "schema_only": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "G1",
+      "variants": {
+        "schema_only": 600
+      }
+    },
+    {
+      "stage": "direct_dc",
+      "family": "S1",
+      "variants": {
+        "schema_only": 605
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "E1",
+      "variants": {
+        "schema_only": 600
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "G1",
+      "variants": {
+        "schema_only": 601
+      }
+    },
+    {
+      "stage": "direct_ec",
+      "family": "S1",
+      "variants": {
+        "schema_only": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "E1",
+      "variants": {
+        "schema_only_identified_patch": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "G1",
+      "variants": {
+        "schema_only_identified_patch": 600
+      }
+    },
+    {
+      "stage": "integrated_dc",
+      "family": "S1",
+      "variants": {
+        "schema_only_identified_patch": 607
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "E1",
+      "variants": {
+        "schema_only_identified_patch": 612
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "G1",
+      "variants": {
+        "schema_only_identified_patch": 622
+      }
+    },
+    {
+      "stage": "integrated_ec",
+      "family": "S1",
+      "variants": {
+        "schema_only_identified_patch": 629
+      }
+    },
+    {
+      "stage": "support",
+      "family": "E1",
+      "variants": {
+        "not_recorded": 26918
+      }
+    },
+    {
+      "stage": "support",
+      "family": "G1",
+      "variants": {
+        "not_recorded": 35024
+      }
+    },
+    {
+      "stage": "support",
+      "family": "S1",
+      "variants": {
+        "not_recorded": 33014
+      }
+    }
+  ],
+  "script_code_identities": [
+    {
+      "stage": "atomic",
+      "family": "E1",
+      "variants": {
+        "{\"script/evaluation/audit_identified_claim_extraction.py\":\"8f850f3f1de052408d61238734ba280d6fa2b6cb5f8527c5ce89bf7c53851951\",\"script/evaluation/claim_extraction_patches.py\":\"735d06534285624087b78f7996efe7a9da7c06e098188415d591e86ac8c1d07a\",\"script/evaluation/claim_refinement_lineage.py\":\"88c1684a4c92366cc1181fb1e70202818593779f79607f49f63252f92543fe6b\",\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/identified_claim_patches.py\":\"a28f852657cb00fcd5816564e832c1ed5fa86c45f011bb7af50682e7f39c18a0\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\",\"script/evaluation/run_staged_claim_refinement.py\":\"d80367ca7c18c9c95c973b4970412bff91f9131c0c45a1f6a392685370cdff53\"}": 600
+      }
+    },
+    {
+      "stage": "atomic",
+      "family": "G1",
+      "variants": {
+        "{\"script/evaluation/audit_identified_claim_extraction.py\":\"8f850f3f1de052408d61238734ba280d6fa2b6cb5f8527c5ce89bf7c53851951\",\"script/evaluation/claim_extraction_patches.py\":\"735d06534285624087b78f7996efe7a9da7c06e098188415d591e86ac8c1d07a\",\"script/evaluation/claim_refinement_lineage.py\":\"88c1684a4c92366cc1181fb1e70202818593779f79607f49f63252f92543fe6b\",\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/identified_claim_patches.py\":\"a28f852657cb00fcd5816564e832c1ed5fa86c45f011bb7af50682e7f39c18a0\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\",\"script/evaluation/run_staged_claim_refinement.py\":\"d80367ca7c18c9c95c973b4970412bff91f9131c0c45a1f6a392685370cdff53\"}": 600
+      }
+    },
+    {
+      "stage": "atomic",
+      "family": "S1",
+      "variants": {
+        "{\"script/evaluation/audit_identified_claim_extraction.py\":\"8f850f3f1de052408d61238734ba280d6fa2b6cb5f8527c5ce89bf7c53851951\",\"script/evaluation/claim_extraction_patches.py\":\"735d06534285624087b78f7996efe7a9da7c06e098188415d591e86ac8c1d07a\",\"script/evaluation/claim_refinement_lineage.py\":\"88c1684a4c92366cc1181fb1e70202818593779f79607f49f63252f92543fe6b\",\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/identified_claim_patches.py\":\"a28f852657cb00fcd5816564e832c1ed5fa86c45f011bb7af50682e7f39c18a0\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\",\"script/evaluation/run_staged_claim_refinement.py\":\"d80367ca7c18c9c95c973b4970412bff91f9131c0c45a1f6a392685370cdff53\"}": 598
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "E1",
+      "variants": {
+        "run_generation_claim_candidate_selection_v1": 600
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "G1",
+      "variants": {
+        "run_generation_claim_candidate_selection_v1": 600
+      }
+    },
+    {
+      "stage": "candidates",
+      "family": "S1",
+      "variants": {
+        "run_generation_claim_candidate_selection_v1": 598
+      }
+    },
+    {
+      "stage": "dedup",
+      "family": "E1",
+      "variants": {
+        "run_generation_claim_semantic_dedup_v1": 600
+      }
+    },
+    {
+      "stage": "dedup",
+      "family": "G1",
+      "variants": {
+        "run_generation_claim_semantic_dedup_v1": 600
+      }
+    },
+    {
+      "stage": "dedup",
+      "family": "S1",
+      "variants": {
+        "run_generation_claim_semantic_dedup_v1": 598
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "E1",
+      "variants": {
+        "run_generation_claim_unsupported_diagnosis_v1": 600
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "G1",
+      "variants": {
+        "run_generation_claim_unsupported_diagnosis_v1": 600
+      }
+    },
+    {
+      "stage": "diagnosis",
+      "family": "S1",
+      "variants": {
+        "run_generation_claim_unsupported_diagnosis_v1": 598
+      }
+    },
+    {
+      "stage": "direct",
+      "family": "E1",
+      "variants": {
+        "{\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/run_extraction_repair.py\":\"280ae26e54375893a1066da50f6df620e76121dcbfd8c3c265a54666504c8e71\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\"}": 600
+      }
+    },
+    {
+      "stage": "direct",
+      "family": "G1",
+      "variants": {
+        "{\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/run_extraction_repair.py\":\"280ae26e54375893a1066da50f6df620e76121dcbfd8c3c265a54666504c8e71\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\"}": 600
+      }
+    },
+    {
+      "stage": "direct",
+      "family": "S1",
+      "variants": {
+        "{\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/run_extraction_repair.py\":\"280ae26e54375893a1066da50f6df620e76121dcbfd8c3c265a54666504c8e71\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\"}": 600
+      }
+    },
+    {
+      "stage": "generation",
+      "family": "E1",
+      "variants": {
+        "run_w2_generation_v1.1": 600
+      }
+    },
+    {
+      "stage": "generation",
+      "family": "G1",
+      "variants": {
+        "run_w2_generation_v1.1": 600
+      }
+    },
+    {
+      "stage": "generation",
+      "family": "S1",
+      "variants": {
+        "run_w2_generation_v1.1": 600
+      }
+    },
+    {
+      "stage": "integrated",
+      "family": "E1",
+      "variants": {
+        "{\"script/evaluation/audit_identified_claim_extraction.py\":\"8f850f3f1de052408d61238734ba280d6fa2b6cb5f8527c5ce89bf7c53851951\",\"script/evaluation/claim_extraction_patches.py\":\"735d06534285624087b78f7996efe7a9da7c06e098188415d591e86ac8c1d07a\",\"script/evaluation/claim_refinement_lineage.py\":\"88c1684a4c92366cc1181fb1e70202818593779f79607f49f63252f92543fe6b\",\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/identified_claim_patches.py\":\"a28f852657cb00fcd5816564e832c1ed5fa86c45f011bb7af50682e7f39c18a0\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\",\"script/evaluation/run_staged_claim_refinement.py\":\"d80367ca7c18c9c95c973b4970412bff91f9131c0c45a1f6a392685370cdff53\"}": 600
+      }
+    },
+    {
+      "stage": "integrated",
+      "family": "G1",
+      "variants": {
+        "{\"script/evaluation/audit_identified_claim_extraction.py\":\"8f850f3f1de052408d61238734ba280d6fa2b6cb5f8527c5ce89bf7c53851951\",\"script/evaluation/claim_extraction_patches.py\":\"735d06534285624087b78f7996efe7a9da7c06e098188415d591e86ac8c1d07a\",\"script/evaluation/claim_refinement_lineage.py\":\"88c1684a4c92366cc1181fb1e70202818593779f79607f49f63252f92543fe6b\",\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/identified_claim_patches.py\":\"a28f852657cb00fcd5816564e832c1ed5fa86c45f011bb7af50682e7f39c18a0\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\",\"script/evaluation/run_staged_claim_refinement.py\":\"d80367ca7c18c9c95c973b4970412bff91f9131c0c45a1f6a392685370cdff53\"}": 600
+      }
+    },
+    {
+      "stage": "integrated",
+      "family": "S1",
+      "variants": {
+        "{\"script/evaluation/audit_identified_claim_extraction.py\":\"8f850f3f1de052408d61238734ba280d6fa2b6cb5f8527c5ce89bf7c53851951\",\"script/evaluation/claim_extraction_patches.py\":\"735d06534285624087b78f7996efe7a9da7c06e098188415d591e86ac8c1d07a\",\"script/evaluation/claim_refinement_lineage.py\":\"88c1684a4c92366cc1181fb1e70202818593779f79607f49f63252f92543fe6b\",\"script/evaluation/experiment_lineage.py\":\"8182be4bbb8537051cb492bc656df6a57a3dca47857093de71dce8e55777c79d\",\"script/evaluation/generation_claims.py\":\"861d5d241e9d7d84a825be292c9428c5dfe74196679c94f8f4093487e5f9f44d\",\"script/evaluation/identified_claim_patches.py\":\"a28f852657cb00fcd5816564e832c1ed5fa86c45f011bb7af50682e7f39c18a0\",\"script/evaluation/run_generation_claim_extraction.py\":\"bf2e784eeed5ca2e572bdfcb09b6ef9d3d3eb812b88b504abac032744112757c\",\"script/evaluation/run_staged_claim_refinement.py\":\"d80367ca7c18c9c95c973b4970412bff91f9131c0c45a1f6a392685370cdff53\"}": 599
+      }
+    },
+    {
+      "stage": "support",
+      "family": "E1",
+      "variants": {
+        "run_generation_claim_support_assessment_v1_1": 600
+      }
+    },
+    {
+      "stage": "support",
+      "family": "G1",
+      "variants": {
+        "run_generation_claim_support_assessment_v1_1": 600
+      }
+    },
+    {
+      "stage": "support",
+      "family": "S1",
+      "variants": {
+        "run_generation_claim_support_assessment_v1_1": 598
+      }
+    }
+  ],
+  "contract_signatures": {
+    "a52c4e10f9e7f04fa822a844ae5075fd6d0f379c4188e8cac63aba0c723ce74d": {
+      "model": {
+        "provider": "azure_openai",
+        "model": "gpt-5.6-sol",
+        "deployment_name": "gpt-5.6-sol-generation",
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "reasoning_effort": "medium",
+        "text_verbosity": null,
+        "api_interface": "responses",
+        "request_timeout": 600.0,
+        "openai_max_retries": 2
+      },
+      "prompt_policy": {
+        "prompt_source": "generation_cases.jsonl::generation_prompt",
+        "prompt_reassembled_in_this_script": false,
+        "prompt_hash_used": true,
+        "prompt_hash_verified_before_generation": true,
+        "evidence_id_in_prompt": false,
+        "citation_required": false
+      }
+    },
+    "b7862cd7e197109c09a21eef322f2537af24005fb2ff32d6809c0f5d7d9a1a5f": {
+      "model": {
+        "model_key": "azure_gpt_5_6_sol",
+        "model_id": "gpt-5.6-sol",
+        "model_version": "2026-07-09",
+        "deployment_name": "gpt-5.6-sol-claim-extraction",
+        "provider": "azure_openai",
+        "api_style": "responses",
+        "request_parameters": {
+          "reasoning": {
+            "effort": "medium"
+          },
+          "store": false
+        }
+      },
+      "prompts": {
+        "ec": {
+          "version": "generation_ec_claim_extraction_prompt_v8",
+          "sha256": "c16eb19e8f739e6f54d8169e844a84e06112813f7cb9f25ceccb7647f9084d22"
+        },
+        "dc": {
+          "version": "generation_dc_claim_extraction_prompt_v8",
+          "sha256": "9b09bd62e05a77e4182c2e070f34531561a5aa8be77eb10020c93a5d5cd92f0f"
+        }
+      },
+      "schemas": {
+        "ec": {
+          "version": "generation_ec_claim_extraction_response_v3",
+          "sha256": "a449d177529e986ae4ac49f6c96b4facb62f06ff0c78b0d742541c4f8905dc65"
+        },
+        "dc": {
+          "version": "generation_dc_claim_extraction_response_v3",
+          "sha256": "eae6fee8b733ae9b94272fdba875a54a53e9f549a1525d03ff65f27523bc1621"
+        }
+      },
+      "config_sha256": "5a397e4a187bf168293c9c9e34bbf7063b7d9d72a66333d4f238a0d90e16b806",
+      "output_processing_mode": "schema_only",
+      "report_attribution_mode": null,
+      "review_focus": null
+    },
+    "d79be9a0621784a2106cf5e04cde94576bb12f854d833a36abc9a6b149b10918": {
+      "model": {
+        "model_key": "azure_gpt_5_6_sol",
+        "model_id": "gpt-5.6-sol",
+        "model_version": "2026-07-09",
+        "deployment_name": "gpt-5.6-sol-claim-extraction",
+        "provider": "azure_openai",
+        "api_style": "responses",
+        "request_parameters": {
+          "reasoning": {
+            "effort": "medium"
+          },
+          "store": false
+        }
+      },
+      "prompts": {
+        "ec": {
+          "version": "generation_ec_claim_patch_review_prompt_v4",
+          "sha256": "f1ec61f6416d4a30a32bda4a91371a8c68aa064417493d0373c66612d6185ba5"
+        },
+        "dc": {
+          "version": "generation_dc_claim_patch_review_prompt_v4",
+          "sha256": "1d51a196f1561a1e82fbb8a3c900f2c9af743293ca1097ace40f0dd9cc22ad87"
+        }
+      },
+      "schemas": {
+        "ec": {
+          "version": "generation_ec_claim_patch_review_response_v2",
+          "sha256": "3dedca659fa3d4584ac8ec3ef28f002348374b5d5c36b73ce6664e844168cb10"
+        },
+        "dc": {
+          "version": "generation_dc_claim_patch_review_response_v2",
+          "sha256": "ffa91b17443e45e6f7177057dfd1d4f8c1f59fbd70daa46c00dba86f45587cf5"
+        }
+      },
+      "config_sha256": "bb38606e69589e29dbec91db00b74a7fbdcb3debcd98297395b9d004efe27212",
+      "output_processing_mode": "schema_only_identified_patch",
+      "report_attribution_mode": "draft_preserved",
+      "review_focus": null
+    },
+    "6fde6c37d802327193e74fbff47d5d1ce535390b9c349030aff806e86345a0ad": {
+      "model": {
+        "model_key": "azure_gpt_5_6_sol",
+        "model_id": "gpt-5.6-sol",
+        "model_version": "2026-07-09",
+        "deployment_name": "gpt-5.6-sol-claim-extraction",
+        "provider": "azure_openai",
+        "api_style": "responses",
+        "request_parameters": {
+          "reasoning": {
+            "effort": "medium"
+          },
+          "store": false
+        }
+      },
+      "prompts": {
+        "ec": {
+          "version": "generation_ec_claim_atomicity_review_prompt_v2",
+          "sha256": "423fbf4624cdb2c999ac303837e4dd46d858d8a017a14c2a027d10922c71d9c6"
+        },
+        "dc": {
+          "version": "generation_dc_claim_atomicity_review_prompt_v2",
+          "sha256": "e6d02cd6bd331287153b483816809f4e79ebb206494cdf32c34a1ee29f8f41d2"
+        }
+      },
+      "schemas": {
+        "ec": {
+          "version": "generation_ec_claim_atomicity_review_response_v1",
+          "sha256": "181d1a2aeaf2adb3efa7254a8b0e4690c97a17dfaa4199b59aa679680d46ed0d"
+        },
+        "dc": {
+          "version": "generation_dc_claim_atomicity_review_response_v1",
+          "sha256": "59631481063ed67846d202f7646b11660d5368a60bc3b2123b0d3aa7a78c6b01"
+        }
+      },
+      "config_sha256": "aca5effface93b850af28dff37e7e2d8a08d17c9132680d5e10e6c56e5167e2b",
+      "output_processing_mode": "schema_only_identified_patch",
+      "report_attribution_mode": "draft_preserved",
+      "review_focus": null
+    },
+    "a60749768f889aae0eb17c9cb0136113de226763b5446cb1f44937edd9e23e04": {
+      "config_sha256": "c0f7ef2357b51c26a29385462cbf901a8413ead7598a136f30d4ae38daa7b9c3",
+      "prompt_sha256": "b8cf89420645eebbd2b33da73af33b5f736f71ad46e212a520d67eafcf7c886e",
+      "schema_sha256": "d88d88577996dde1aeabc2da5e83a816c381085b6cb9c21d9c1ea0f557686201",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-semantic-dedup",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "71e323670a0511bfcab652a427dc0deedeefb9511dad19744d9f07a105f27826": {
+      "config_sha256": "f9b2f8429756ef16b68d8b8804442bdc6c2ce5eb82b85149c4af2c486d27e3fa",
+      "prompt_sha256": "82ac020bf83280a66716eec93b7cd61b6e9b39fff2d37e9ad654e807dab63e08",
+      "schema_sha256": "6439ba6f454cf2d33f66ce2e505448b53b8dee4bfcb13f33976c0072b6ba2aa5",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-candidate",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "34d2e5d567b0be317a597dc8d22d96f3509b0a4ad2daba66cfe992f5f4dbb930": {
+      "config_sha256": "7bd879bbca0c4ba08bdeb7aceb8db0dd69731fd189dd8f875c0de5d32ef5bb92",
+      "prompt_sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543",
+      "schema_sha256": "a3b455f8d7bbd9fba4231b04d8494038a3dfb582dbe9ac76dd135e54a0ecb930",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-support-assessment",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "3a000cb683afb9ea0c30550ee7a937f0999f3a48ece7ebe081f0fafb3d6f9b0c": {
+      "config_sha256": "1a542a8943c26df412ae93df17baaadcadffeb45dfa9d47ee6f121eaebd6bda7",
+      "prompt_sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8",
+      "schema_sha256": "0f65691949117c2dba149becef600450eeec775ff33af319cd1d7cee89d65a27",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-diagnosis",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "716fc74aeb63b20b91e72c14204401912279c64a0434c5a9e48652b0c15e83e2": {
+      "prompt_version": "generation_ec_claim_extraction_prompt_v8",
+      "prompt_sha256": "c16eb19e8f739e6f54d8169e844a84e06112813f7cb9f25ceccb7647f9084d22",
+      "schema_version": "generation_ec_claim_extraction_response_v3",
+      "schema_sha256": "a449d177529e986ae4ac49f6c96b4facb62f06ff0c78b0d742541c4f8905dc65",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-extraction",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "2254834a133e347207ee8f4e51ec715b830b2e4c1284a144586e832b9e6d15f6": {
+      "prompt_version": "generation_dc_claim_extraction_prompt_v8",
+      "prompt_sha256": "9b09bd62e05a77e4182c2e070f34531561a5aa8be77eb10020c93a5d5cd92f0f",
+      "schema_version": "generation_dc_claim_extraction_response_v3",
+      "schema_sha256": "eae6fee8b733ae9b94272fdba875a54a53e9f549a1525d03ff65f27523bc1621",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-extraction",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "8ee214f84d5800092f65a2c81c5499e8850a71d3a0ca1bf4a9ee9cd4e6741d0f": {
+      "prompt_version": "generation_ec_claim_patch_review_prompt_v4",
+      "prompt_sha256": "f1ec61f6416d4a30a32bda4a91371a8c68aa064417493d0373c66612d6185ba5",
+      "schema_version": "generation_ec_claim_patch_review_response_v2",
+      "schema_sha256": "3dedca659fa3d4584ac8ec3ef28f002348374b5d5c36b73ce6664e844168cb10",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-extraction",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "6d1bf0566e65e223175dcda6c9b8cbdc82ba0285578f43a7a1d5387c51221255": {
+      "prompt_version": "generation_dc_claim_patch_review_prompt_v4",
+      "prompt_sha256": "1d51a196f1561a1e82fbb8a3c900f2c9af743293ca1097ace40f0dd9cc22ad87",
+      "schema_version": "generation_dc_claim_patch_review_response_v2",
+      "schema_sha256": "ffa91b17443e45e6f7177057dfd1d4f8c1f59fbd70daa46c00dba86f45587cf5",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-extraction",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "e1e51f435dfbe4aecd3898458fe1d00ee3611643db256c2755e5fe102eba01d3": {
+      "prompt_version": "generation_ec_claim_atomicity_review_prompt_v2",
+      "prompt_sha256": "423fbf4624cdb2c999ac303837e4dd46d858d8a017a14c2a027d10922c71d9c6",
+      "schema_version": "generation_ec_claim_atomicity_review_response_v1",
+      "schema_sha256": "181d1a2aeaf2adb3efa7254a8b0e4690c97a17dfaa4199b59aa679680d46ed0d",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-extraction",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "a54654eacd3632dfc4ed5d240ca9ae592f1c56a0cf2254e9f43f52ccd4343f8b": {
+      "prompt_version": "generation_dc_claim_atomicity_review_prompt_v2",
+      "prompt_sha256": "e6d02cd6bd331287153b483816809f4e79ebb206494cdf32c34a1ee29f8f41d2",
+      "schema_version": "generation_dc_claim_atomicity_review_response_v1",
+      "schema_sha256": "59631481063ed67846d202f7646b11660d5368a60bc3b2123b0d3aa7a78c6b01",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-extraction",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "a440a4e619eb3962c95e9ab2c8feee5840922dbd10cf93e4b832e0026f97339a": {
+      "prompt_version": "generation_claim_semantic_dedup_prompt_v1",
+      "prompt_sha256": "b8cf89420645eebbd2b33da73af33b5f736f71ad46e212a520d67eafcf7c886e",
+      "schema_version": "generation_claim_semantic_dedup_response_v1",
+      "schema_sha256": "d88d88577996dde1aeabc2da5e83a816c381085b6cb9c21d9c1ea0f557686201",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-semantic-dedup",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "26a2807e8ba78093a1bf10820a2a07befd90b8d1bb64ad86c9758a07da76bdef": {
+      "prompt_version": "generation_claim_candidate_selection_prompt_v1",
+      "prompt_sha256": "82ac020bf83280a66716eec93b7cd61b6e9b39fff2d37e9ad654e807dab63e08",
+      "schema_version": "generation_claim_candidate_selection_response_v1",
+      "schema_sha256": "6439ba6f454cf2d33f66ce2e505448b53b8dee4bfcb13f33976c0072b6ba2aa5",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-candidate",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "a417c33a5f407d842931b15db2f626b87537f248fe29d6eb6bbfd308b5f8d920": {
+      "prompt_version": "generation_claim_support_prompt_v1",
+      "prompt_sha256": "b7d26c36a206d90c5061158adea51964f203298a35608afb4c74153dd23a7543",
+      "schema_version": "generation_claim_support_response_v1",
+      "schema_sha256": "a3b455f8d7bbd9fba4231b04d8494038a3dfb582dbe9ac76dd135e54a0ecb930",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-support-assessment",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    },
+    "348f179effe1c96e823ca6d3310c77cbe63d9d0ce1c9ceaf24f2475e2d405961": {
+      "prompt_version": "generation_claim_unsupported_diagnosis_prompt_v1",
+      "prompt_sha256": "b5d8530dac763fb0503a2984efc12c5f7d173745f33b5c6ec28ac4663fcc6ff8",
+      "schema_version": "generation_claim_unsupported_diagnosis_response_v1",
+      "schema_sha256": "0f65691949117c2dba149becef600450eeec775ff33af319cd1d7cee89d65a27",
+      "model_key": "azure_gpt_5_6_sol",
+      "model_id": "gpt-5.6-sol",
+      "model_version": "2026-07-09",
+      "deployment_name": "gpt-5.6-sol-claim-diagnosis",
+      "request_parameters": {
+        "reasoning": {
+          "effort": "medium"
+        },
+        "store": false
+      }
+    }
+  },
+  "direct_ec_empty_source_screen": [
+    {
+      "family": "E1",
+      "evidence_type": "csv_metric",
+      "successful_call_card_presentations": 6000
+    },
+    {
+      "family": "E1",
+      "evidence_type": "narrative",
+      "successful_call_card_presentations": 5728,
+      "zero_claim_presentations": 448,
+      "zero_claim_reason_document_structure": 365,
+      "zero_claim_reason_missing_proposition": 110,
+      "zero_claim_reason_extraction_metadata": 4
+    },
+    {
+      "family": "E1",
+      "evidence_type": "pdf_table_row",
+      "successful_call_card_presentations": 5319,
+      "zero_claim_presentations": 1696,
+      "zero_claim_reason_missing_proposition": 889,
+      "zero_claim_reason_extraction_metadata": 1032,
+      "zero_claim_reason_document_structure": 685
+    },
+    {
+      "family": "G1",
+      "evidence_type": "csv_metric",
+      "successful_call_card_presentations": 6000
+    },
+    {
+      "family": "G1",
+      "evidence_type": "narrative",
+      "successful_call_card_presentations": 6000,
+      "zero_claim_presentations": 467,
+      "zero_claim_reason_missing_proposition": 92,
+      "zero_claim_reason_document_structure": 405,
+      "zero_claim_reason_extraction_metadata": 2
+    },
+    {
+      "family": "G1",
+      "evidence_type": "pdf_table_row",
+      "successful_call_card_presentations": 5715,
+      "zero_claim_presentations": 1991,
+      "zero_claim_reason_extraction_metadata": 1217,
+      "zero_claim_reason_missing_proposition": 808,
+      "zero_claim_reason_document_structure": 993
+    },
+    {
+      "family": "S1",
+      "evidence_type": "csv_metric",
+      "successful_call_card_presentations": 6000
+    },
+    {
+      "family": "S1",
+      "evidence_type": "narrative",
+      "successful_call_card_presentations": 5862,
+      "zero_claim_presentations": 753,
+      "zero_claim_reason_document_structure": 651,
+      "zero_claim_reason_missing_proposition": 138,
+      "zero_claim_reason_extraction_metadata": 8
+    },
+    {
+      "family": "S1",
+      "evidence_type": "pdf_table_row",
+      "successful_call_card_presentations": 5182,
+      "zero_claim_presentations": 1603,
+      "zero_claim_reason_missing_proposition": 492,
+      "zero_claim_reason_extraction_metadata": 1044,
+      "zero_claim_reason_document_structure": 966
+    }
+  ],
+  "archive_same_filename_comparison": [
+    {
+      "prompt": "generation_claim_candidate_selection_prompt_v1.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_claim_definition_v2.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_claim_semantic_dedup_prompt_v1.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_claim_support_prompt_v1.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_claim_unsupported_diagnosis_prompt_v1.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_dc_claim_atomicity_review_prompt_v2.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_dc_claim_extraction_prompt_v8.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_dc_claim_patch_review_prompt_v4.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_ec_claim_atomicity_review_prompt_v2.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_ec_claim_extraction_prompt_v8.txt",
+      "same_as_archived_same_filename": true
+    },
+    {
+      "prompt": "generation_ec_claim_patch_review_prompt_v4.txt",
+      "same_as_archived_same_filename": true
+    }
+  ],
+  "generation_instruction_same_as_archive": true,
+  "missing_files": [
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/extraction/atomic/claim_extraction_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/dedup/semantic_dedup_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/candidates/claim_candidate_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/support/claim_support_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/diagnosis/claim_unsupported_diagnosis_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/extraction/atomic/ec_extraction_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/extraction/atomic/dc_extraction_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/dedup/semantic_dedup_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/candidates/claim_candidate_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/support/claim_support_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets/bace/diagnosis/claim_unsupported_diagnosis_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/integrated/claim_extraction_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/atomic/claim_extraction_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/dedup/semantic_dedup_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/candidates/claim_candidate_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/support/claim_support_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/diagnosis/claim_unsupported_diagnosis_run_manifest.json",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/integrated/ec_extraction_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/integrated/dc_extraction_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/atomic/ec_extraction_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/extraction/atomic/dc_extraction_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/dedup/semantic_dedup_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/candidates/claim_candidate_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/support/claim_support_calls.jsonl",
+    "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies/bace/diagnosis/claim_unsupported_diagnosis_calls.jsonl"
+  ],
+  "receipt_checks": {
+    "matched": 32369,
+    "no_completed_receipt": 6
+  },
+  "receipt_mismatches": [],
+  "limitations": [
+    "Prompt identity parity does not establish equal extraction quality across domains.",
+    "A zero-claim source is not automatically an extraction error.",
+    "Saved call records include retries and deterministic skips; they are not independent experimental observations.",
+    "Same-named archived prompts are file comparisons, not proof of which historical run used them."
+  ]
+}

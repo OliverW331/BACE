@@ -1,0 +1,1169 @@
+{
+  "R08": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2021__g1_2_supplier_relationships",
+      "dc_id": "dc_125fc634ef1f34e734b79f4e46047112",
+      "company_id": "2e1f7005-6454-4596-8e28-87214e82b95e",
+      "company_name": "ASML",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "11fbb689e8990e9a23e01caa6b7d7bbdf75673f84b1637bebb8b2c54cc15170f",
+      "candidate_count": "0",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "11fbb689e8990e9a23e01caa6b7d7bbdf75673f84b1637bebb8b2c54cc15170f",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "11fbb689e8990e9a23e01caa6b7d7bbdf75673f84b1637bebb8b2c54cc15170f",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": false,
+        "call_status": "success",
+        "call_id": "support_6dcbd932b3cd4cfdf601d230503ebfa5",
+        "input_hash": "11fbb689e8990e9a23e01caa6b7d7bbdf75673f84b1637bebb8b2c54cc15170f",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 61157,
+        "raw_record_sha256": "0925c4f8e9a432c76101e7ba2a9445a868c2b4a33b82a434d2c280450a4fec16",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": false,
+        "call_status": "success",
+        "call_id": "support_8cd92c1c5ebf64161390449ba9e76981",
+        "input_hash": "11fbb689e8990e9a23e01caa6b7d7bbdf75673f84b1637bebb8b2c54cc15170f",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 61162,
+        "raw_record_sha256": "e32af4b40a2fe6245cad80ae61df123ddfaff665356313af8bd5ba30195f7f48",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R07": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2020__e1_1_transition_plan",
+      "dc_id": "dc_27f8e104178d0c4026872cf6bd485e3d",
+      "company_id": "1f87c1c3-4366-472a-a793-ac759c4c93cc",
+      "company_name": "Banco BPM",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "4adfe84235e985b49e97b7956028ba5492b5db31c090b4a67cf4388283a1c9eb",
+      "candidate_count": "0",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "4adfe84235e985b49e97b7956028ba5492b5db31c090b4a67cf4388283a1c9eb",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "4adfe84235e985b49e97b7956028ba5492b5db31c090b4a67cf4388283a1c9eb",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": false,
+        "call_status": "success",
+        "call_id": "support_6f1f3496eefcdbbf78ca6ddb581e86a8",
+        "input_hash": "4adfe84235e985b49e97b7956028ba5492b5db31c090b4a67cf4388283a1c9eb",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 82639,
+        "raw_record_sha256": "df92cdb31cdb026adb5a5e045cc449a3d96e166ddec7331fde664451a4e0003d",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": false,
+        "call_status": "success",
+        "call_id": "support_d183612c13f632054951b484f07a908d",
+        "input_hash": "4adfe84235e985b49e97b7956028ba5492b5db31c090b4a67cf4388283a1c9eb",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 82638,
+        "raw_record_sha256": "19edc6f30720775c5c6625c34f1298955a5f84c1ddb0b973a5710324a5dbec76",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R12": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2023__s1_4_workforce_actions_resources",
+      "dc_id": "dc_1febaef622642797b9d9a095c13a31b7",
+      "company_id": "160ddcaf-bc43-4489-9fbc-a9dd41a0eefd",
+      "company_name": "Deutsche Bank",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "e3e81b3a6f3bb35abb64b35a64a3c96cfc9c861c3c2643480d77b20168b300d4",
+      "candidate_count": "2",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "e3e81b3a6f3bb35abb64b35a64a3c96cfc9c861c3c2643480d77b20168b300d4",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "e3e81b3a6f3bb35abb64b35a64a3c96cfc9c861c3c2643480d77b20168b300d4",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_c4c012d3f5e323df0bafabc679c2a348",
+        "input_hash": "e3e81b3a6f3bb35abb64b35a64a3c96cfc9c861c3c2643480d77b20168b300d4",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 94930,
+        "raw_record_sha256": "ae7b7cde427e6eb9cc0c834ab7d7f5e715bfce559b5810126654ab2855846b7f",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_9c345984df10c3de0ffd675b94acd824",
+        "input_hash": "e3e81b3a6f3bb35abb64b35a64a3c96cfc9c861c3c2643480d77b20168b300d4",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 94887,
+        "raw_record_sha256": "5d942d0936d7765d85f955d329fdb3c0e464e4d9598b09e2ce8e90032833a4e2",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R09": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2023__s1_5_workforce_targets",
+      "dc_id": "dc_bb2d461bb6c4c38254b666647a5cb534",
+      "company_id": "060107a1-5462-4b5b-adf7-ca200f3bb587",
+      "company_name": "Evonik Industries",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "36e99c22725cb64275a8916b2672b2880040400ced0bd1567667de51e9d5bef1",
+      "candidate_count": "0",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "36e99c22725cb64275a8916b2672b2880040400ced0bd1567667de51e9d5bef1",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "36e99c22725cb64275a8916b2672b2880040400ced0bd1567667de51e9d5bef1",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": false,
+        "call_status": "success",
+        "call_id": "support_9face2d12e3503d9ace4b22e15a13698",
+        "input_hash": "36e99c22725cb64275a8916b2672b2880040400ced0bd1567667de51e9d5bef1",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 48206,
+        "raw_record_sha256": "70c400f140d78930319b8fb1a1685be53996370bd27646802aa81d77ffe8bfc9",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": false,
+        "call_status": "success",
+        "call_id": "support_3e07727f467131ebd66223ececd612d1",
+        "input_hash": "36e99c22725cb64275a8916b2672b2880040400ced0bd1567667de51e9d5bef1",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 48207,
+        "raw_record_sha256": "9e0a04eecabec33da85056e987e6298f01b1c8654371038142e391914e267082",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R11": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2023__s1_5_workforce_targets",
+      "dc_id": "dc_de62275a9c52bb0dc4193ddc4b360c74",
+      "company_id": "060107a1-5462-4b5b-adf7-ca200f3bb587",
+      "company_name": "Evonik Industries",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "7afdb1f65f9b32d280f7fd3ebff9d66f3e0211caef98185341dbf3f25d96c7fd",
+      "candidate_count": "2",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_b68a4e6d2158cc99caf0d5ef329fde03\", \"ec_c1fb3e06970f8d31501e89bebe1aa63e\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "7afdb1f65f9b32d280f7fd3ebff9d66f3e0211caef98185341dbf3f25d96c7fd",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_b68a4e6d2158cc99caf0d5ef329fde03\", \"ec_c1fb3e06970f8d31501e89bebe1aa63e\"], \"support_type\": \"inferred\"}]",
+      "ragchecker_style_input_hash": "7afdb1f65f9b32d280f7fd3ebff9d66f3e0211caef98185341dbf3f25d96c7fd",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_b68a4e6d2158cc99caf0d5ef329fde03",
+              "ec_c1fb3e06970f8d31501e89bebe1aa63e"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_fe3c1d36c64ae3c7f97b2aa6913867b0",
+        "input_hash": "7afdb1f65f9b32d280f7fd3ebff9d66f3e0211caef98185341dbf3f25d96c7fd",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 48263,
+        "raw_record_sha256": "153c8e6460ee6a23670ff5f79f020a50dd7757f17a5367a0bc794087697cc131",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_b68a4e6d2158cc99caf0d5ef329fde03",
+              "ec_c1fb3e06970f8d31501e89bebe1aa63e"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_48334f00875a6dbe694b8d25fe82768c",
+        "input_hash": "7afdb1f65f9b32d280f7fd3ebff9d66f3e0211caef98185341dbf3f25d96c7fd",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 48239,
+        "raw_record_sha256": "31c53c339f2417b26a8e4bdf212c506ecdc6ae54fad46a1d80a95801a15bab48",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R06": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__hera__2021__s1_4_workforce_actions_resources",
+      "dc_id": "dc_ef9dc63a77b9a5eda7d447106a2a814f",
+      "company_id": "6521dc58-2739-4d47-a83a-d514404e7925",
+      "company_name": "Hera",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "8da595a141a284dd0e6108144c3ceae75a610ce0d7047dfa6c12a91df9b2b25c",
+      "candidate_count": "1",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "8da595a141a284dd0e6108144c3ceae75a610ce0d7047dfa6c12a91df9b2b25c",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "8da595a141a284dd0e6108144c3ceae75a610ce0d7047dfa6c12a91df9b2b25c",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_0f7e280e3af96bbc567adb7019ae297b",
+        "input_hash": "8da595a141a284dd0e6108144c3ceae75a610ce0d7047dfa6c12a91df9b2b25c",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 89442,
+        "raw_record_sha256": "e5d2bc80385c838a3c8b0e19b943603e20a2105d6ee6b2550f9d844a57c27f79",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_3ba888ce16ad0c72f683d398364710a3",
+        "input_hash": "8da595a141a284dd0e6108144c3ceae75a610ce0d7047dfa6c12a91df9b2b25c",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 89510,
+        "raw_record_sha256": "86100dbd4e79a45f8bb562397ef66b200664e51cc3335a995b2238bd15537e96",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R01": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__inter_conti_nenta_l_hot_els_g_roup__2020__e1_3_actions_resources",
+      "dc_id": "dc_a7bdc586d3ee85ff9598fc8432869501",
+      "company_id": "1c9f89ce-105a-405a-a38b-1db78ab203ba",
+      "company_name": "Inter­­conti­­nenta­­l Hot­­els G­­roup",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "6584ac1ebd396590abbdfc327bff411745132c5a2a9e73b5b5f64e38dda25da8",
+      "candidate_count": "4",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "6584ac1ebd396590abbdfc327bff411745132c5a2a9e73b5b5f64e38dda25da8",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "6584ac1ebd396590abbdfc327bff411745132c5a2a9e73b5b5f64e38dda25da8",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_f7e5b71b3a183764874fb95c0acfc33e",
+        "input_hash": "6584ac1ebd396590abbdfc327bff411745132c5a2a9e73b5b5f64e38dda25da8",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 7201,
+        "raw_record_sha256": "f22dcad1d234a9d761268361fc1ace36277d04f545a6c7e856169c6a7f5daec4",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_f0368983ecb88514e31edca108ff183f",
+        "input_hash": "6584ac1ebd396590abbdfc327bff411745132c5a2a9e73b5b5f64e38dda25da8",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 7263,
+        "raw_record_sha256": "31eacbcfb2093b3b7ccbadde9c8f94d9ac7d83a5d8dce42dbe402d4f5e0f47ac",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R05": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__intesa_sanpaolo__2019__e1_4_targets",
+      "dc_id": "dc_70ca9726c300c7fceb14f04863f6b693",
+      "company_id": "3890ac68-498c-4d93-b22b-bf829c471ee5",
+      "company_name": "Intesa Sanpaolo",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "71378b46882af4e0d31e22943ff61ac2ff750f087796fbb36670f025c29777d8",
+      "candidate_count": "4",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_2281cb82d84f1bb468aecc35e4aca797\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "71378b46882af4e0d31e22943ff61ac2ff750f087796fbb36670f025c29777d8",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_2281cb82d84f1bb468aecc35e4aca797\"], \"support_type\": \"inferred\"}]",
+      "ragchecker_style_input_hash": "71378b46882af4e0d31e22943ff61ac2ff750f087796fbb36670f025c29777d8",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_2281cb82d84f1bb468aecc35e4aca797"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_7d224b8323dac78ee5d09359ca846af6",
+        "input_hash": "71378b46882af4e0d31e22943ff61ac2ff750f087796fbb36670f025c29777d8",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 73175,
+        "raw_record_sha256": "1860dfe12677b618447a4a9a5893ae9e43dc03f93d20ceb4198c5726541974e0",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_2281cb82d84f1bb468aecc35e4aca797"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_2130d12dfcc14b39c14cc51917bce504",
+        "input_hash": "71378b46882af4e0d31e22943ff61ac2ff750f087796fbb36670f025c29777d8",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 73343,
+        "raw_record_sha256": "8ede4eafbb5193f9835bfbd86cd09d64f2c822bd91a6d73454da25971d05ced7",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R10": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__mowi__2021__g1_2_supplier_relationships",
+      "dc_id": "dc_43b6892be06abb3edd55372817afb9ca",
+      "company_id": "124b2a53-7ae3-46a9-bc2e-4ef4be0e6021",
+      "company_name": "Mowi",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "ea4c4126718e1acec4a43f8022b482ec8d2c3a76679f3906b0c2caad4023c7c1",
+      "candidate_count": "4",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "ea4c4126718e1acec4a43f8022b482ec8d2c3a76679f3906b0c2caad4023c7c1",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "ea4c4126718e1acec4a43f8022b482ec8d2c3a76679f3906b0c2caad4023c7c1",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_1ebaae34688cfa2904c0163008ddae47",
+        "input_hash": "ea4c4126718e1acec4a43f8022b482ec8d2c3a76679f3906b0c2caad4023c7c1",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 24389,
+        "raw_record_sha256": "03258431220b505651d7fd6baf6913b71210988928b546c4050fa7110df50ac8",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_f0f0a60c4b643b4c7e80d22a3f182f0e",
+        "input_hash": "ea4c4126718e1acec4a43f8022b482ec8d2c3a76679f3906b0c2caad4023c7c1",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 24451,
+        "raw_record_sha256": "a97f2c3d923c835d177870a5fdd6936c539672c41b5df368bfd809b1e5057b64",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R16": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2019__e1_3_actions_resources",
+      "dc_id": "dc_41bce97d69a83f7bc2319f48581c7abe",
+      "company_id": "705e28db-ed3c-4a4b-9940-a9109e2b3626",
+      "company_name": "Nestle",
+      "original": "True",
+      "original_sets": "[{\"ec_claim_ids\": [\"ec_f73ba878eb839eaeae0edf13534dffa3\"], \"support_type\": \"inferred\"}]",
+      "input_hash": "163d213e3cca9be86179c80f5577888bd905f16580872702f77fa0610a28a174",
+      "candidate_count": "5",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_81a984e0a5b07b060ec20e076b5ee567\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_ca59bccd5a69fae9e9a977ac0b91fe93\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_f73ba878eb839eaeae0edf13534dffa3\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "163d213e3cca9be86179c80f5577888bd905f16580872702f77fa0610a28a174",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_81a984e0a5b07b060ec20e076b5ee567\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_ca59bccd5a69fae9e9a977ac0b91fe93\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_f73ba878eb839eaeae0edf13534dffa3\"], \"support_type\": \"inferred\"}]",
+      "ragchecker_style_input_hash": "163d213e3cca9be86179c80f5577888bd905f16580872702f77fa0610a28a174",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_81a984e0a5b07b060ec20e076b5ee567"
+            ],
+            "support_type": "inferred"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_ca59bccd5a69fae9e9a977ac0b91fe93"
+            ],
+            "support_type": "inferred"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_f73ba878eb839eaeae0edf13534dffa3"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_fe0bc3f25684d911d81bbe7b3450ba2c",
+        "input_hash": "163d213e3cca9be86179c80f5577888bd905f16580872702f77fa0610a28a174",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 70558,
+        "raw_record_sha256": "3db9582193286c6fd331d64afce723aa6a94c932f1d596c9452738feeedccdb5",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_81a984e0a5b07b060ec20e076b5ee567"
+            ],
+            "support_type": "inferred"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_ca59bccd5a69fae9e9a977ac0b91fe93"
+            ],
+            "support_type": "inferred"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_f73ba878eb839eaeae0edf13534dffa3"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_fd7e6a65b3842aa006e797cf5717bfe6",
+        "input_hash": "163d213e3cca9be86179c80f5577888bd905f16580872702f77fa0610a28a174",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 70560,
+        "raw_record_sha256": "775ebf8bf64e1b3700fe22963acaec8d6766549447318402c91a2020e84c08d7",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R14": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2020__s1_4_workforce_actions_resources",
+      "dc_id": "dc_6670075215adb35f4d49469f2eb466bf",
+      "company_id": "705e28db-ed3c-4a4b-9940-a9109e2b3626",
+      "company_name": "Nestle",
+      "original": "True",
+      "original_sets": "[{\"ec_claim_ids\": [\"ec_448ca83b0591d019a69a1a840105fb71\"], \"support_type\": \"inferred\"}]",
+      "input_hash": "959c48d4a2ee42c24f2d2de716116efc7c83d15b3c752123f757999e4e9a0e6e",
+      "candidate_count": "6",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_448ca83b0591d019a69a1a840105fb71\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "959c48d4a2ee42c24f2d2de716116efc7c83d15b3c752123f757999e4e9a0e6e",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_448ca83b0591d019a69a1a840105fb71\"], \"support_type\": \"inferred\"}]",
+      "ragchecker_style_input_hash": "959c48d4a2ee42c24f2d2de716116efc7c83d15b3c752123f757999e4e9a0e6e",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_448ca83b0591d019a69a1a840105fb71"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_5a77f5f67dcfae212587e8fd3498d634",
+        "input_hash": "959c48d4a2ee42c24f2d2de716116efc7c83d15b3c752123f757999e4e9a0e6e",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 6059,
+        "raw_record_sha256": "7cf73f8d88b350249d08f1ba8f8a078d3f86d575eef71c5e869be1c61021a4ee",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_448ca83b0591d019a69a1a840105fb71"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_1202978cc0e35792dc6cc8ad49c86900",
+        "input_hash": "959c48d4a2ee42c24f2d2de716116efc7c83d15b3c752123f757999e4e9a0e6e",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 5969,
+        "raw_record_sha256": "d2f025c19158e2c4dea74e8bfd0b33dc0165593a76477300a64986ef82bbfeb5",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R04": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__omv__2023__g1_2_supplier_relationships",
+      "dc_id": "dc_c34e88b73a00b1cf0682594cb512f84d",
+      "company_id": "4a868d73-3310-4e93-a8dc-a6b88b252509",
+      "company_name": "OMV",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "d5059d2b18331ca9cc922383d342ce792391885a07ae07b71d5a70d2b5336d25",
+      "candidate_count": "1",
+      "repeat_selected": "False",
+      "ragas_style": "False",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[]",
+      "ragas_style_input_hash": "d5059d2b18331ca9cc922383d342ce792391885a07ae07b71d5a70d2b5336d25",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "d5059d2b18331ca9cc922383d342ce792391885a07ae07b71d5a70d2b5336d25",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_0514b9e49e7f11a33abd0dffb732a15b",
+        "input_hash": "d5059d2b18331ca9cc922383d342ce792391885a07ae07b71d5a70d2b5336d25",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 36808,
+        "raw_record_sha256": "76e632b9acb9fce50f2dd3db9e6281ba657a1340fc7115866d50b55c9f7de2cf",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_b68134e061652adb7439a19b59fbcb2a",
+        "input_hash": "d5059d2b18331ca9cc922383d342ce792391885a07ae07b71d5a70d2b5336d25",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 36653,
+        "raw_record_sha256": "ac7934084c5a7c5daf78c18d38656f98ce4721f45f2d1ffbad8759b825f6ce88",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R13": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__ses__2021__e1_3_actions_resources",
+      "dc_id": "dc_7ad7d4629fbe2bef7a5778e18c5a2a85",
+      "company_id": "762dd49a-f497-4f37-9c75-1f8fdcb27ff5",
+      "company_name": "SES",
+      "original": "True",
+      "original_sets": "[{\"ec_claim_ids\": [\"ec_f12396a7ca839fef71f2d36f513a6f5e\"], \"support_type\": \"inferred\"}]",
+      "input_hash": "dffd17f9811c846d773f37d1d630ed377439c8b1ab03dc3fc87fe3cc9298c1c4",
+      "candidate_count": "1",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_f12396a7ca839fef71f2d36f513a6f5e\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "dffd17f9811c846d773f37d1d630ed377439c8b1ab03dc3fc87fe3cc9298c1c4",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_f12396a7ca839fef71f2d36f513a6f5e\"], \"support_type\": \"inferred\"}]",
+      "ragchecker_style_input_hash": "dffd17f9811c846d773f37d1d630ed377439c8b1ab03dc3fc87fe3cc9298c1c4",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_f12396a7ca839fef71f2d36f513a6f5e"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_4083a6e4dcb786de61ae4b7cd1fc1c5f",
+        "input_hash": "dffd17f9811c846d773f37d1d630ed377439c8b1ab03dc3fc87fe3cc9298c1c4",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 57823,
+        "raw_record_sha256": "c2b77321f8cab32ca54a1626aa9e9daaed8423990535e4ba56a4bfcf2d8055d9",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_f12396a7ca839fef71f2d36f513a6f5e"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_42d1f60121b65053c3761db856109d1c",
+        "input_hash": "dffd17f9811c846d773f37d1d630ed377439c8b1ab03dc3fc87fe3cc9298c1c4",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 57850,
+        "raw_record_sha256": "fcd296379aacf42a342b39c964ef3bcee2a2157a09d6fb2b14243583854dc38b",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R03": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2019__e1_4_targets",
+      "dc_id": "dc_117fd42404d38806845829fc746d412c",
+      "company_id": "6859e756-04f6-402d-8461-fd987e24e458",
+      "company_name": "Subsea 7",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "2b57483b9574b4ae4d37bcfc31716deaddd7795b300d20e7ae808ee245b169ab",
+      "candidate_count": "13",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_97d70a4da2bdf2ccc1f168e6fae22a73\", \"ec_98fe774f82584cbcc54a2998228e8c24\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_98fe774f82584cbcc54a2998228e8c24\", \"ec_d853ff4a197efc17dc6a90f40d6c456b\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "2b57483b9574b4ae4d37bcfc31716deaddd7795b300d20e7ae808ee245b169ab",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "2b57483b9574b4ae4d37bcfc31716deaddd7795b300d20e7ae808ee245b169ab",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_97d70a4da2bdf2ccc1f168e6fae22a73",
+              "ec_98fe774f82584cbcc54a2998228e8c24"
+            ],
+            "support_type": "inferred"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_98fe774f82584cbcc54a2998228e8c24",
+              "ec_d853ff4a197efc17dc6a90f40d6c456b"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_1c7ce7f5b124a00c39ea7ec78b52b8a9",
+        "input_hash": "2b57483b9574b4ae4d37bcfc31716deaddd7795b300d20e7ae808ee245b169ab",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 91414,
+        "raw_record_sha256": "6464579d58c614371a735450a78b6bacead71644a685478839c3aa4b66a2899a",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_29f3156ec5249b56573937a5a1f7de27",
+        "input_hash": "2b57483b9574b4ae4d37bcfc31716deaddd7795b300d20e7ae808ee245b169ab",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 91421,
+        "raw_record_sha256": "70bf15ad4e3133d9c30d6f5c237ec6a1dc0a0db6ae0fd6b453727aad1595d1a3",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R15": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan",
+      "dc_id": "dc_8b490b78f58568d33c8638b55ced4e9b",
+      "company_id": "6859e756-04f6-402d-8461-fd987e24e458",
+      "company_name": "Subsea 7",
+      "original": "True",
+      "original_sets": "[{\"ec_claim_ids\": [\"ec_41d8ea3175ea930c172c9250c6541d3c\", \"ec_4db2166abe42ad1458edc5bd58e5e444\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_4db2166abe42ad1458edc5bd58e5e444\", \"ec_b1cfa1e956d68c53ece95510fa9119f6\"], \"support_type\": \"inferred\"}]",
+      "input_hash": "b7e97ffc2e0e62c6de4176a27cf0e223f40c40f12b28c59cd43e6919e533c970",
+      "candidate_count": "5",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_4db2166abe42ad1458edc5bd58e5e444\", \"ec_b1cfa1e956d68c53ece95510fa9119f6\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "b7e97ffc2e0e62c6de4176a27cf0e223f40c40f12b28c59cd43e6919e533c970",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_41d8ea3175ea930c172c9250c6541d3c\", \"ec_4db2166abe42ad1458edc5bd58e5e444\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_4db2166abe42ad1458edc5bd58e5e444\", \"ec_b1cfa1e956d68c53ece95510fa9119f6\"], \"support_type\": \"inferred\"}]",
+      "ragchecker_style_input_hash": "b7e97ffc2e0e62c6de4176a27cf0e223f40c40f12b28c59cd43e6919e533c970",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_4db2166abe42ad1458edc5bd58e5e444",
+              "ec_b1cfa1e956d68c53ece95510fa9119f6"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_5eeafecb4fafa6f14992809dd81371cc",
+        "input_hash": "b7e97ffc2e0e62c6de4176a27cf0e223f40c40f12b28c59cd43e6919e533c970",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 75608,
+        "raw_record_sha256": "946b7bb25ed1a98bb700058ca4e08da80e2961f244a2b5e0aecc30d0665d6714",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_41d8ea3175ea930c172c9250c6541d3c",
+              "ec_4db2166abe42ad1458edc5bd58e5e444"
+            ],
+            "support_type": "inferred"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_4db2166abe42ad1458edc5bd58e5e444",
+              "ec_b1cfa1e956d68c53ece95510fa9119f6"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_d2e571a39ac8adfbddfcb75db20fdaf5",
+        "input_hash": "b7e97ffc2e0e62c6de4176a27cf0e223f40c40f12b28c59cd43e6919e533c970",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 75631,
+        "raw_record_sha256": "172e7059b5369caa3b63d916f2cd6e7d5bb749da797b33fb4bc334a4c1e8ce60",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R18": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__g1_3_anti_corruption_controls",
+      "dc_id": "dc_8345a27991a1621557d78ba929e71970",
+      "company_id": "6859e756-04f6-402d-8461-fd987e24e458",
+      "company_name": "Subsea 7",
+      "original": "True",
+      "original_sets": "[{\"ec_claim_ids\": [\"ec_37e2c8c135c2b0d3ebd71a14f245c6b9\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_a5d1a75e15582bf294881a8bc15d7538\"], \"support_type\": \"direct\"}]",
+      "input_hash": "a8060b4171ccf7dcf5e9c279a685efe7356081d083e66a0960c1f07490a1ee49",
+      "candidate_count": "2",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_37e2c8c135c2b0d3ebd71a14f245c6b9\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_a5d1a75e15582bf294881a8bc15d7538\"], \"support_type\": \"direct\"}]",
+      "ragas_style_input_hash": "a8060b4171ccf7dcf5e9c279a685efe7356081d083e66a0960c1f07490a1ee49",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_37e2c8c135c2b0d3ebd71a14f245c6b9\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_a5d1a75e15582bf294881a8bc15d7538\"], \"support_type\": \"direct\"}]",
+      "ragchecker_style_input_hash": "a8060b4171ccf7dcf5e9c279a685efe7356081d083e66a0960c1f07490a1ee49",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+            ],
+            "support_type": "direct"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_a5d1a75e15582bf294881a8bc15d7538"
+            ],
+            "support_type": "direct"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_35ebedd967aad151c53a7953fbfac2cd",
+        "input_hash": "a8060b4171ccf7dcf5e9c279a685efe7356081d083e66a0960c1f07490a1ee49",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 59012,
+        "raw_record_sha256": "a88a39e43e4e0eb8ccffbfcf961db7017c38cb1ad25cfe34e570abf9be67f232",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+            ],
+            "support_type": "direct"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_a5d1a75e15582bf294881a8bc15d7538"
+            ],
+            "support_type": "direct"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_922ba2c9edfbb11a4193a5a0003f2881",
+        "input_hash": "a8060b4171ccf7dcf5e9c279a685efe7356081d083e66a0960c1f07490a1ee49",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 58979,
+        "raw_record_sha256": "56e41e414a725a468fbfe56e0e93c8503f1659225014051e5d2314d10eb7d76e",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R02": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2021__g1_3_anti_corruption_controls",
+      "dc_id": "dc_54b7121cdabe67190b449a2f574ef58e",
+      "company_id": "349f9233-ad87-4341-9a65-d9ecfdce8318",
+      "company_name": "Svenska Cellulosa",
+      "original": "False",
+      "original_sets": "[]",
+      "input_hash": "c591eef12f39f18cd56c89092c7519174171cadcf78fcd3b9a41fd0f41a9bb22",
+      "candidate_count": "11",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_028b9d4806bc7e40cd008bc781b2d6d0\", \"ec_073d50942f73b2a212b31b40806f3e44\"], \"support_type\": \"inferred\"}, {\"ec_claim_ids\": [\"ec_073d50942f73b2a212b31b40806f3e44\", \"ec_5a02a1e08252b271f0ee216cac18618b\"], \"support_type\": \"inferred\"}]",
+      "ragas_style_input_hash": "c591eef12f39f18cd56c89092c7519174171cadcf78fcd3b9a41fd0f41a9bb22",
+      "ragchecker_style": "False",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[]",
+      "ragchecker_style_input_hash": "c591eef12f39f18cd56c89092c7519174171cadcf78fcd3b9a41fd0f41a9bb22",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_028b9d4806bc7e40cd008bc781b2d6d0",
+              "ec_073d50942f73b2a212b31b40806f3e44"
+            ],
+            "support_type": "inferred"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_073d50942f73b2a212b31b40806f3e44",
+              "ec_5a02a1e08252b271f0ee216cac18618b"
+            ],
+            "support_type": "inferred"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_6cd4a0daa3bcad88be09219f6278471a",
+        "input_hash": "c591eef12f39f18cd56c89092c7519174171cadcf78fcd3b9a41fd0f41a9bb22",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 52698,
+        "raw_record_sha256": "baa7a437ccd67c9bcea526a059ac5ff19468086b3495470d4fee640aaa8378f0",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": false,
+        "support_sets": [],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_6c6e45a1774269e2fab63ae94392e30e",
+        "input_hash": "c591eef12f39f18cd56c89092c7519174171cadcf78fcd3b9a41fd0f41a9bb22",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 52677,
+        "raw_record_sha256": "2377b6b040511dc235ad6cbad9b6b1a8439669777483050ea77c46dcc15bec4e",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  },
+  "R17": {
+    "paired_claim": {
+      "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2020__e1_6_ghg_emissions",
+      "dc_id": "dc_c4c17238c7483002b9edd2327dcff874",
+      "company_id": "30d40e80-a663-49f5-85bf-9c41d11314ba",
+      "company_name": "Wärtsilä",
+      "original": "True",
+      "original_sets": "[{\"ec_claim_ids\": [\"ec_0b73907b02e8a617c3c6f392f06ed4a9\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_b7a89a1d1cdc1483cde586143343f33b\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_ecb226fa5d7c0297118b51a6286e14da\"], \"support_type\": \"direct\"}]",
+      "input_hash": "73c5125fb587042a9fa550f417c7df6f6018c7daae9969a52fbab8c3ff260807",
+      "candidate_count": "29",
+      "repeat_selected": "False",
+      "ragas_style": "True",
+      "ragas_style_status": "success",
+      "ragas_style_sets": "[{\"ec_claim_ids\": [\"ec_0b73907b02e8a617c3c6f392f06ed4a9\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_b7a89a1d1cdc1483cde586143343f33b\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_ecb226fa5d7c0297118b51a6286e14da\"], \"support_type\": \"direct\"}]",
+      "ragas_style_input_hash": "73c5125fb587042a9fa550f417c7df6f6018c7daae9969a52fbab8c3ff260807",
+      "ragchecker_style": "True",
+      "ragchecker_style_status": "success",
+      "ragchecker_style_sets": "[{\"ec_claim_ids\": [\"ec_0b73907b02e8a617c3c6f392f06ed4a9\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_b7a89a1d1cdc1483cde586143343f33b\"], \"support_type\": \"direct\"}, {\"ec_claim_ids\": [\"ec_ecb226fa5d7c0297118b51a6286e14da\"], \"support_type\": \"direct\"}]",
+      "ragchecker_style_input_hash": "73c5125fb587042a9fa550f417c7df6f6018c7daae9969a52fbab8c3ff260807",
+      "original_repeat": "",
+      "original_repeat_status": "",
+      "original_repeat_sets": "",
+      "original_repeat_input_hash": ""
+    },
+    "prompt_variants": {
+      "ragas_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_0b73907b02e8a617c3c6f392f06ed4a9"
+            ],
+            "support_type": "direct"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_b7a89a1d1cdc1483cde586143343f33b"
+            ],
+            "support_type": "direct"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_ecb226fa5d7c0297118b51a6286e14da"
+            ],
+            "support_type": "direct"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_d645b887aabab3fc0f33302104d669f0",
+        "input_hash": "73c5125fb587042a9fa550f417c7df6f6018c7daae9969a52fbab8c3ff260807",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragas_style/calls.jsonl",
+        "source_line": 21006,
+        "raw_record_sha256": "def85f1b72b05209f37195c7875b3e1400f90faaf16cb8368b181619357a7980",
+        "rationale": null,
+        "diagnosis": null
+      },
+      "ragchecker_style": {
+        "supported": true,
+        "support_sets": [
+          {
+            "ec_claim_ids": [
+              "ec_0b73907b02e8a617c3c6f392f06ed4a9"
+            ],
+            "support_type": "direct"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_b7a89a1d1cdc1483cde586143343f33b"
+            ],
+            "support_type": "direct"
+          },
+          {
+            "ec_claim_ids": [
+              "ec_ecb226fa5d7c0297118b51a6286e14da"
+            ],
+            "support_type": "direct"
+          }
+        ],
+        "model_called": true,
+        "call_status": "success",
+        "call_id": "support_7029c16c4b859ba5790a9ec1af06fb77",
+        "input_hash": "73c5125fb587042a9fa550f417c7df6f6018c7daae9969a52fbab8c3ff260807",
+        "source_path": "BACE/results/prompt_sensitivity_v1/runs/ragchecker_style/calls.jsonl",
+        "source_line": 21007,
+        "raw_record_sha256": "9c56791d4ae68fabd812d080d482a42c0b8b8da3cf201da3c500c91bc25d8435",
+        "rationale": null,
+        "diagnosis": null
+      }
+    }
+  }
+}

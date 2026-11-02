@@ -1,0 +1,139 @@
+{
+  "id": "dndscore2025",
+  "url": "https://aclanthology.org/2025.emnlp-main.1205/",
+  "checked_date": "2026-09-29",
+  "retrieved_at_utc": "2026-09-29T20:16:57.764967+00:00",
+  "final_url": "https://aclanthology.org/2025.emnlp-main.1205/",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "3bce71c8603a4a540d90e45809f822b1b3cc46a40823bd1c021b41b68807c587",
+  "metadata": {
+    "": [
+      ""
+    ],
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "DnDScore: Decontextualization and Decomposition for Factuality Verification in Long-Form Text Generation"
+    ],
+    "citation_author": [
+      "Miriam Wanner",
+      "Benjamin Van Durme",
+      "Mark Dredze"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "citation_publication_date": [
+      "2025/11"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2025.emnlp-main.1205.pdf"
+    ],
+    "citation_firstpage": [
+      "23609"
+    ],
+    "citation_lastpage": [
+      "23626"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2025.emnlp-main.1205"
+    ],
+    "og:title": [
+      "DnDScore: Decontextualization and Decomposition for Factuality Verification in Long-Form Text Generation"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2025.emnlp-main.1205.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2025.emnlp-main.1205/"
+    ],
+    "og:description": [
+      "Miriam Wanner, Benjamin Van Durme, Mark Dredze. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. 2025."
+    ]
+  },
+  "links": [
+    "https://aclanthology.org/",
+    "#",
+    "/posts/",
+    "/faq/news/",
+    "/faq/related-work/",
+    "/faq/copyright/",
+    "/info/credits/",
+    "/faq/volunteer/",
+    "/info/development/",
+    "/faq/feedback/",
+    "#",
+    "/people/",
+    "/faq/bib/",
+    "/faq/linking/",
+    "/faq/api/",
+    "/faq/",
+    "/info/ids/",
+    "/info/names/",
+    "/info/orcid/",
+    "/faq/doi/",
+    "/info/verification/",
+    "#",
+    "/info/contrib/",
+    "/info/corrections/",
+    "/info/author-pages/",
+    "/faq/attachments/",
+    "https://github.com/acl-org/acl-anthology/",
+    "https://aclanthology.org/2025.emnlp-main.1205.pdf",
+    "/people/miriam-wanner/",
+    "/people/benjamin-van-durme/",
+    "/people/mark-dredze/",
+    "https://aclanthology.org/info/corrections/",
+    "#",
+    "#",
+    "/volumes/2025.emnlp-main/",
+    "/people/christos-christodoulopoulos/",
+    "/people/tanmoy-chakraborty/",
+    "/people/carolyn-rose/",
+    "/people/violet-peng/unverified/",
+    "/venues/emnlp/",
+    "https://aclanthology.org/2025.emnlp-main.1205/",
+    "https://doi.org/10.18653/v1/2025.emnlp-main.1205",
+    "https://aclanthology.org/2025.emnlp-main.1205/",
+    "https://aclanthology.org/2025.emnlp-main.1205/",
+    "https://aclanthology.org/2025.emnlp-main.1205.pdf",
+    "https://aclanthology.org/attachments/2025.emnlp-main.1205.checklist.pdf",
+    "https://aclanthology.org/2025.emnlp-main.1205.pdf",
+    "#",
+    "https://www.semanticscholar.org/search?+q=DnDScore%3A+Decontextualization+and+Decomposition+for+Factuality+Verification+in+Long-Form+Text+Generation",
+    "https://aclanthology.org/attachments/2025.emnlp-main.1205.checklist.pdf",
+    "#",
+    "#citeBibtex",
+    "#citeMods",
+    "#citeEndnote",
+    "#citeMarkdown",
+    "https://aclanthology.org/2025.emnlp-main.1205/",
+    "https://aclanthology.org/2025.emnlp-main.1205/",
+    "http://creativecommons.org/licenses/by/4.0/",
+    "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "/info/credits/",
+    "https://github.com/acl-org/acl-anthology/tree/c434bba397f5a4eaf21bdc680e689d9ce7eb5d08"
+  ],
+  "pdf_request_url": "https://aclanthology.org/2025.emnlp-main.1205.pdf",
+  "pdf_url": "https://aclanthology.org/2025.emnlp-main.1205.pdf",
+  "pdf_http_status": 200,
+  "pdf_sha256": "2aad30e63913086cf036c23db1f3382164e2671162b5956c5df974f617658f16",
+  "pdf_pages": 18,
+  "text_sha256": "7afed7e17baa86f6cd4e20a81a098eb43538c77db03d81f3d56d3c20e2a25a7e",
+  "fulltext_extracted": true
+}

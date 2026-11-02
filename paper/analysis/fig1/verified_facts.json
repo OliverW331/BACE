@@ -1,0 +1,38 @@
+{
+  "companies": 30,
+  "years": 5,
+  "tasks": 12,
+  "planned": 1800,
+  "analysed": 1798,
+  "excluded": 2,
+  "year_values": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "pdf_window": [
+    -4,
+    -1
+  ],
+  "csv_window": [
+    -4,
+    0
+  ],
+  "per_type": 10,
+  "maximum_cards": 30,
+  "human_n": 600,
+  "reviewers": 2,
+  "workbook_status": {
+    "A": {
+      "sample_rows": 600,
+      "filled_label_cells": 0
+    },
+    "B": {
+      "sample_rows": 600,
+      "filled_label_cells": 0
+    }
+  },
+  "diagnoses": 6
+}

@@ -1,0 +1,137 @@
+{
+  "reviewed_at_utc": "2026-10-20T19:10:08.862760+00:00",
+  "selection": {
+    "name": "sca_incidents_workers",
+    "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents",
+    "dc_id": "dc_94969d707006865673f9d8456fa98a4f",
+    "ragchecker_index": 25,
+    "ragas_index": 31,
+    "key_cards": [
+      "Evidence 23",
+      "Evidence 26"
+    ]
+  },
+  "source_paths": {
+    "generation_input": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/inputs/generation_cases.jsonl",
+    "response": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/generation/generated_disclosures.jsonl",
+    "dc": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/dedup/dc_claims.jsonl",
+    "ec": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/dedup/ec_claims.jsonl",
+    "candidates": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/candidates/dc_candidate_ecs.jsonl",
+    "support": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/support/dc_support_sets.jsonl",
+    "diagnosis": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/bace/diagnosis/dc_unsupported_diagnoses.jsonl",
+    "ragchecker": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/evaluation/ragchecker/results.jsonl",
+    "ragas": "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2022__g1_4_corruption_bribery_incidents/evaluation/ragas/results.jsonl"
+  },
+  "disclosure_claim": "In connection with SCA’s five confirmed incidents of corruption or bribery reported in 2022, five of SCA’s own workers were dismissed or subjected to disciplinary measures.",
+  "bace_support": {
+    "dc_claim_id": "dc_94969d707006865673f9d8456fa98a4f",
+    "support_sets": []
+  },
+  "bace_diagnosis": {
+    "dc_claim_id": "dc_94969d707006865673f9d8456fa98a4f",
+    "unsupported_label": "factual_boundary_distortion",
+    "rationale": "The evidence establishes five confirmed incidents and five incidents involving dismissal or discipline of workers, but it converts an incident count into an unsupported count of five workers."
+  },
+  "key_evidence_cards": [
+    {
+      "prompt_label": "Evidence 23",
+      "evidence_id": "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2022::da409069-8783-4aa9-ae11-6e310c8c2808",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2022,
+      "source_label": "Corporate Sustainability Tracker | Source year 2022",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Number of confirmed incidents in which own workers were dismissed or disciplined for corruption or bribery-related incidents",
+      "value_text": "5.0",
+      "unit": null,
+      "retrieval_rank": 3,
+      "prompt_rank_from_retrieval": 23,
+      "final_rrf_score": 0.0467592121191551,
+      "bm25_best_rank": 1,
+      "dense_best_rank": 2,
+      "retrieval_text": "Company: Svenska Cellulosa. Reporting year: 2022. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-4. Indicator: Number of confirmed incidents in which own workers were dismissed or disciplined for corruption or bribery-related incidents. Value: 5.0.",
+      "retrieval_text_hash": "c27e762b18aa93ac83b0733ec62af7082a4912dc2e0c72e5d4d03c1b87f4f387",
+      "shown_in_prompt": true
+    },
+    {
+      "prompt_label": "Evidence 26",
+      "evidence_id": "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2022::79721786-0de7-4a9f-b933-d7cfe2def60b",
+      "evidence_type": "csv_metric",
+      "source_type": "csv",
+      "source_year": 2022,
+      "source_label": "Corporate Sustainability Tracker | Source year 2022",
+      "source_file": "../data/processed/results/esg_indicators_postprocessed.csv",
+      "document_type": null,
+      "page_start": null,
+      "page_end": null,
+      "metric": "Number of confirmed incidents of corruption or bribery",
+      "value_text": "5.0",
+      "unit": null,
+      "retrieval_rank": 6,
+      "prompt_rank_from_retrieval": 26,
+      "final_rrf_score": 0.045811569380467584,
+      "bm25_best_rank": 2,
+      "dense_best_rank": 4,
+      "retrieval_text": "Company: Svenska Cellulosa. Reporting year: 2022. ESG topic: gov. ESRS standard: G1. Disclosure requirement: G1-4. Indicator: Number of confirmed incidents of corruption or bribery. Value: 5.0.",
+      "retrieval_text_hash": "8974f3f18a1f23eb84ab6846a1d8344e518d09b54487ec351ae1c00e127090bb",
+      "shown_in_prompt": true
+    }
+  ],
+  "native_claims": {
+    "ragchecker": {
+      "claim_index": 25,
+      "claim": [
+        "SCA",
+        "dismissed or subjected to disciplinary measures in connection with 2022 corruption or bribery incidents",
+        "5 own workers"
+      ],
+      "supported": true,
+      "evidence_verdicts": {
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2019::p143::c0911": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2020::p147::c0987": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2021::p145::c1004": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::sustainability_report::2020::p147::c0987": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::sustainability_report::2021::p145::c1004": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2018::p129::c0897": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2019::p143::c0912": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2020::p147::c0982": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2021::p145::c0998": "Neutral",
+        "pdf_narrative::349f9233-ad87-4341-9a65-d9ecfdce8318::sustainability_report::2020::p147::c0982": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2020::p141::t01::r0001": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2021::p064::t01::r0006": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::sustainability_report::2020::p141::t01::r0001": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2019::p141::t01::r0006": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2021::p173::t01::r0003": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::sustainability_report::2021::p064::t01::r0006": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2018::p127::t01::r0006": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::annual_report::2020::p173::t01::r0003": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::sustainability_report::2021::p173::t01::r0003": "Neutral",
+        "pdf_table_row::349f9233-ad87-4341-9a65-d9ecfdce8318::sustainability_report::2020::p163::t01::r0023": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2020::1cc13e84-3376-4bf5-92a3-560e550e4132": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2018::1cc13e84-3376-4bf5-92a3-560e550e4132": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2022::da409069-8783-4aa9-ae11-6e310c8c2808": "Entailment",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2019::1cc13e84-3376-4bf5-92a3-560e550e4132": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2019::79721786-0de7-4a9f-b933-d7cfe2def60b": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2022::79721786-0de7-4a9f-b933-d7cfe2def60b": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2021::1cc13e84-3376-4bf5-92a3-560e550e4132": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2022::ea1575d8-e86d-4b86-8489-1c3322beadc5": "Neutral",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2020::da409069-8783-4aa9-ae11-6e310c8c2808": "Contradiction",
+        "csv::349f9233-ad87-4341-9a65-d9ecfdce8318::2018::79721786-0de7-4a9f-b933-d7cfe2def60b": "Neutral"
+      }
+    },
+    "ragas": {
+      "claim_index": 31,
+      "claim": "SCA dismissed or subjected five SCA workers to disciplinary measures in connection with the confirmed incidents of corruption or bribery in 2022.",
+      "supported": true,
+      "reason": "The 2022 metric reports five confirmed incidents in which SCA's own workers were dismissed or disciplined for corruption- or bribery-related incidents."
+    }
+  },
+  "interpretation": "The cited indicator counts incidents involving dismissal/discipline, not distinct workers. Five incidents do not establish five workers. Both comparators accepted worker-count assertions; BACE rejected its corresponding assertion. This demonstrates a source-relative unit mismatch in the inspected record, not external truth or an adjudicated error-rate estimate.",
+  "included_in_surface_matched_counts": {
+    "ragas": false,
+    "ragchecker": false
+  }
+}

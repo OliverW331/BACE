@@ -1,0 +1,156 @@
+{
+  "cohort": {
+    "planned_cases": 1800,
+    "completed_bace_cases": 1798,
+    "paired_cases": 1798,
+    "companies": 30,
+    "reporting_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tasks": [
+      "E1-1",
+      "E1-3",
+      "E1-4",
+      "E1-6",
+      "G1-1",
+      "G1-2",
+      "G1-3",
+      "G1-4",
+      "S1-1",
+      "S1-14",
+      "S1-4",
+      "S1-5"
+    ],
+    "run_status": "incomplete",
+    "excluded_cases": [
+      {
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2019__s1_5_workforce_targets",
+        "error": "Incomplete branches: bace"
+      },
+      {
+        "generation_case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2023__s1_1_workforce_policies",
+        "error": "Incomplete branches: bace"
+      }
+    ],
+    "exclusions": "Incomplete BACE branches; excluded from BACE summaries and paired comparisons, never scored as zero."
+  },
+  "support": {
+    "macro_mean_pct": 55.37546371346639,
+    "macro_saved_95_interval_pct": [
+      53.91879278525853,
+      56.84094432533995
+    ],
+    "all_dc": 94955,
+    "counts": {
+      "Direct": 34430,
+      "Inferred": 17879,
+      "Unsupported": 42646
+    },
+    "percent_all_dc": {
+      "Direct": 36.25928071191617,
+      "Inferred": 18.828918961613397,
+      "Unsupported": 44.911800326470434
+    },
+    "pooled_support_pct": 55.088199673529566
+  },
+  "diagnosis": {
+    "all_labels": [
+      {
+        "label": "non_disclosure_statement",
+        "count": "6378",
+        "disclosures": "1157",
+        "percent_all_dc": "6.716865883839714",
+        "percent_unsupported": "14.955681658303241",
+        "percent_disclosures": "64.34927697441601"
+      },
+      {
+        "label": "contradiction",
+        "count": "42",
+        "disclosures": "36",
+        "percent_all_dc": "0.04423147806855879",
+        "percent_unsupported": "0.09848520377057637",
+        "percent_disclosures": "2.0022246941045605"
+      },
+      {
+        "label": "evidence_conflation",
+        "count": "12205",
+        "disclosures": "1735",
+        "percent_all_dc": "12.853456900637143",
+        "percent_unsupported": "28.61933123856868",
+        "percent_disclosures": "96.49610678531702"
+      },
+      {
+        "label": "factual_boundary_distortion",
+        "count": "19130",
+        "disclosures": "1772",
+        "percent_all_dc": "20.146385129798325",
+        "percent_unsupported": "44.857665431693476",
+        "percent_disclosures": "98.5539488320356"
+      },
+      {
+        "label": "inferential_inflation",
+        "count": "3193",
+        "disclosures": "1246",
+        "percent_all_dc": "3.3626454636406717",
+        "percent_unsupported": "7.487220372367866",
+        "percent_disclosures": "69.2992213570634"
+      },
+      {
+        "label": "unsupported_novelty",
+        "count": "1698",
+        "disclosures": "551",
+        "percent_all_dc": "1.7882154704860196",
+        "percent_unsupported": "3.9816160952961592",
+        "percent_disclosures": "30.64516129032258"
+      }
+    ],
+    "boundary_and_conflation_count": 31335,
+    "unsupported_denominator": 42646,
+    "boundary_and_conflation_pct": 73.47699667026215
+  },
+  "task_range": {
+    "lowest": {
+      "task": "S1-5",
+      "mean": "0.43866129787251595",
+      "low": "0.41343185627364215",
+      "high": "0.46484365847491327",
+      "companies": "30",
+      "disclosures": "149",
+      "draws": "2000"
+    },
+    "highest": {
+      "task": "G1-1",
+      "mean": "0.6251475132986812",
+      "low": "0.5936013760636214",
+      "high": "0.6582079665357372",
+      "companies": "30",
+      "disclosures": "150",
+      "draws": "2000"
+    }
+  },
+  "native_claim_medians": {
+    "bace_dc_count": 52.0,
+    "ragchecker_claim_count": 40.0,
+    "ragas_claim_count": 42.0
+  },
+  "validation": {
+    "A": {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_A.xlsx",
+      "sample_rows": 600,
+      "unique_ids": 600,
+      "support_cells_filled": 0,
+      "diagnosis_cells_filled": 0
+    },
+    "B": {
+      "file": "BACE/analysis/validation/human_validation_600_reviewer_B.xlsx",
+      "sample_rows": 600,
+      "unique_ids": 600,
+      "support_cells_filled": 0,
+      "diagnosis_cells_filled": 0
+    }
+  }
+}

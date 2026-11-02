@@ -1,0 +1,9 @@
+framework,bace_diagnosis,positive_disagreements,all_non_boundary_positive_disagreements,share_percent
+ragas,inferential_inflation,156,591,26.395939086294415
+ragas,unsupported_novelty,100,591,16.920473773265652
+ragas,evidence_conflation,283,591,47.88494077834179
+ragas,non_disclosure_statement,52,591,8.798646362098138
+ragchecker,unsupported_novelty,15,108,13.88888888888889
+ragchecker,evidence_conflation,56,108,51.851851851851855
+ragchecker,inferential_inflation,34,108,31.48148148148148
+ragchecker,non_disclosure_statement,3,108,2.7777777777777777

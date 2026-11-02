@@ -1,0 +1,1420 @@
+[
+  {
+    "created_at_utc": "2026-10-22T14:00:47.039968+00:00",
+    "workbook": "BACE_18_Case_Reader.xlsx",
+    "workbook_sha256": "226d4edfd3c404fbe66b8ea7351b40200ed66c61ad14ec07299a3e06bda4d4b1",
+    "previous_workbook_sha256": "c3ae7f56d590be416c21d2868b7f22bad956cbff460a9bd88c004f59c4f16fa8",
+    "builder": "paper/analysis/reader_layout_2026-10-22/build_minimal_readers.py",
+    "script_sha256": "68873d7e4ba959264c5abeed3112fe35b898a636b44e4bb15868fd815238ef85",
+    "reading_order": [
+      "Disclosure and claim",
+      "Evidence and key ECs",
+      "Saved results"
+    ],
+    "selection": "Editorial selection of exact passages and key candidate ECs. This is not the complete input. One actual support set is displayed per supported condition; all its EC texts are shown.",
+    "input_sha256": {
+      "paper/analysis/residual_gap_review_2026-10-20/selection_provenance.json": "7fb2fada2f36b186ba4083d86b907006c67d0aea6b441a0a203df5634f6a33e3",
+      "BACE/analysis/outputs/snapshot/sources.json": "28da4a703ae608d11811bcba5edda5fd63bf8c657cbf77d206e7b86f7e4b2c9a",
+      "paper/analysis/prompt_gap_review_2026-10-22/provenance.json": "5e7db0b621bbd79de9e0e64fee5d8e291d376f3d21beeb22da84baade129e821",
+      "paper/analysis/prompt_gap_review_2026-10-22/selected_prompt_results.json": "75ab06aae5269d50e4f772d2c1da044c206fb1e81947d1a6edaed476606fdf4d",
+      "paper/analysis/prompt_gap_review_2026-10-22/results.json": "7fa989eba227acdb5b5e758c9b1b31091e5335523baae906d27b764435c1d6b2",
+      "paper/analysis/residual_gap_review_2026-10-20/source_passages.csv": "f3ab487745b8187ed63abef12d4a10644b7866de16f1f5e4152f464ffe10942c",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R01.json": "4db5f8fe749832c713a9239414b5ea7c5a417910c09409571a981a996f0c71ba",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__inter_conti_nenta_l_hot_els_g_roup__2020__e1_3_actions_resources/evaluation/ragas/results.jsonl": "1897e72648b66c2e57c7718afd2c113dce7d076e68c5aae26d682be533314e59",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__inter_conti_nenta_l_hot_els_g_roup__2020__e1_3_actions_resources/evaluation/ragchecker/results.jsonl": "d3725374fde8440c78b25704f15ce56f312d5d32ef31691d06d3740efe704c9a",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R02.json": "40c8de5d058da0a043eab6e3c12daa113950058a21a305037dbf9d461166c133",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2021__g1_3_anti_corruption_controls/evaluation/ragas/results.jsonl": "623c587713ed4902f8b248d58aa5c54c11b77e947c1045aa43e276e83fd947b8",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2021__g1_3_anti_corruption_controls/evaluation/ragchecker/results.jsonl": "a17e112bbf415d0ac18340795260360c8cf356bde9413297a75e5c0191a52c60",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R03.json": "761de2a8d37bb754bd5eb47feb0e10108dbdfc9dd16da8863dfa585eb66c2e38",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2019__e1_4_targets/evaluation/ragas/results.jsonl": "a5e99744c114aa8dbfe00d6def37cfb8ce9b98a8c9893fc1aae9967555412b6b",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2019__e1_4_targets/evaluation/ragchecker/results.jsonl": "cdeda49d1062915e2da466ed8aba9680956f9d6a07bf730deba3a4f3a6ba2aba",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R04.json": "e4bc914aa4ae34d322fa1674e0d61899792a0e110f0f762868a903498af21862",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__omv__2023__g1_2_supplier_relationships/evaluation/ragas/results.jsonl": "8770fb536cd56ec0baf5ce1b59ca0f49876ec2af56ddf5fca7681a8af52eea56",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__omv__2023__g1_2_supplier_relationships/evaluation/ragchecker/results.jsonl": "4e2ec40ee173c36126c410f7df3a7f4545aa0c64b441fed07201f6e75cc0b828",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R05.json": "c6c95ddbc14cb291ca07d3fda741087aced7a8dafc27fb74b7098a1402e1e80d",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__intesa_sanpaolo__2019__e1_4_targets/evaluation/ragas/results.jsonl": "59d341f8de1e8ed6162181f06558238411a4aa4755aca838efbea3017391cb4b",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__intesa_sanpaolo__2019__e1_4_targets/evaluation/ragchecker/results.jsonl": "9c9963d7949fecff0cb1cce3dc0d72dd47ef3ee8b73c119a1ac433faf6ceb6bc",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R06.json": "e1eac6436d24e2149e8dca7cfab965aed7efc4f30d69dc451450bab7de8a2227",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__hera__2021__s1_4_workforce_actions_resources/evaluation/ragas/results.jsonl": "c861f602d4b8e61b7ce5f965ab98d946640c14ae7a07740d4a7ecdbef2ce6d7c",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__hera__2021__s1_4_workforce_actions_resources/evaluation/ragchecker/results.jsonl": "fbf8ffffbc352f1cc953536bf3b61dd8f1bbc7eb74b0c54053ed7f7f67723d93",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R07.json": "293421bc2baa55243ce0c0b9557027f97e34ad9b0e0c714e0c28e3ea82211778",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2020__e1_1_transition_plan/evaluation/ragas/results.jsonl": "a6c733b4d8d923b3710ff1a4d43a9c9567d644e08831eac6071fa0278dbe697a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2020__e1_1_transition_plan/evaluation/ragchecker/results.jsonl": "6e21edf0d462d33409e86f8bde09becd03268646e184fefd6a4bb2d5f2270d91",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R08.json": "8a84a81248be2c5204920c5cc7145c37dccaf5e399c96a306c60338ac6664d88",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2021__g1_2_supplier_relationships/evaluation/ragas/results.jsonl": "11a2b200303c1cbb8460da6df708285d3d5d336c6a7bd14cac91570e98bbec3a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2021__g1_2_supplier_relationships/evaluation/ragchecker/results.jsonl": "320f35ca1a3a798320d6065fac83774d9c3bca1d138d144b57439c0af6cc32c4",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R09.json": "e7c325cf5552e470ce51681b80e4fa7d7fad1a18197751ac84fef32702f2f1e3",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2023__s1_5_workforce_targets/evaluation/ragas/results.jsonl": "e229de517f08577c62d2b95a644138d2e04125e022c76e4616076856d4ac57a1",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2023__s1_5_workforce_targets/evaluation/ragchecker/results.jsonl": "49144f5418530362cac32821e60790b35ac5a9d57709b12c28dce11866c82c05",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R10.json": "135725ee1925f377cb0d05e775de5be92d80f561ceae47d94f5a60b9ad8243c6",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__mowi__2021__g1_2_supplier_relationships/evaluation/ragas/results.jsonl": "badc377ee97e746fdd978b94795278790155f8a7d4d276cfa0419bf328160887",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__mowi__2021__g1_2_supplier_relationships/evaluation/ragchecker/results.jsonl": "6442a32e1f88455618e86821641c0a74455545d228f784178ccbe22145175280",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R11.json": "849190dd251eb9e8b2ca08edf513d813b08043bf107dfdb44106e0a8a0f51616",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R12.json": "cf253d44223f4558a1d117a61a292068c4ce1a66de2ab822db0dbc70ac5a6e37",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2023__s1_4_workforce_actions_resources/evaluation/ragas/results.jsonl": "4258f36119a8d015a9ac8ce615757c72315ea4d18507d4dfee90e20c19c508ff",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2023__s1_4_workforce_actions_resources/evaluation/ragchecker/results.jsonl": "81a7ff689efac67730b92fbbf71262ef4351a251639159dcc90d2517b35f40d2",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R13.json": "a751fda7571ef8609e28de95b5d819116cbac465db3bbaa59c57db4f7e558025",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__ses__2021__e1_3_actions_resources/evaluation/ragas/results.jsonl": "28f7043aab6b90a9dca8dd138eddad83270a5dddad096793824a01d9eadc2f4e",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__ses__2021__e1_3_actions_resources/evaluation/ragchecker/results.jsonl": "4923fb9cba7e30583e4f6024fe6370a9799969eabc257f81e800f8f14c5f0595",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R14.json": "ce07036f5a4fc676cd2fe4b97ae0aa7a3500e5d111aa67e5fec5d40a8b20e364",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2020__s1_4_workforce_actions_resources/evaluation/ragas/results.jsonl": "ebb2add78a3564ce4250704c7a3f461e81d688e6bd0c7d341da676270190035a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2020__s1_4_workforce_actions_resources/evaluation/ragchecker/results.jsonl": "fbeb2f60bf56800caf6c5011fb36b9dffa36bdc5a6bd35981f20ff0136b3e640",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R15.json": "520f1a328df39e147f91d0a38869fd3ebaabf7860dd68144518efccdf17305bf",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan/evaluation/ragas/results.jsonl": "6adf409b093876ee7ff24f4a9d44454c40aff107bdde8b387a5a1909af97f2e4",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan/evaluation/ragchecker/results.jsonl": "2f37da2ee0b0f7bca17869f7c8f5dfc6090151f3c55832097a72bb54e50bea7a",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R16.json": "62ad2c84962bbe5157fa4c05a36d20705ea35bac43a42dcb82b876f80c56679a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2019__e1_3_actions_resources/evaluation/ragas/results.jsonl": "761eb65042ef8e20548e570497b23c458e5a6c706705d401ee4887130af2cdfd",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2019__e1_3_actions_resources/evaluation/ragchecker/results.jsonl": "e73e7ed558bed3aa96e3b31fbba9568c77e162d5a8643d460201497698e4975d",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R17.json": "9140702e9cb18264bcba6a7ff3f23f8f69d5e206184df5c6fb28593b1876c483",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2020__e1_6_ghg_emissions/evaluation/ragas/results.jsonl": "0e5f6be9e036641af060d59376a060d05b6979f94ec3b118cd3de7ed9bc789b5",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2020__e1_6_ghg_emissions/evaluation/ragchecker/results.jsonl": "ac7f86f4bee29f6b0fbf302b06a90cdf2b9df5d741923107ab13ea9c34e0da42",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R18.json": "feeac76fac8e708875dfe9e9366a2980e72013d93262ffb268c5f5f7f45d2505",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__g1_3_anti_corruption_controls/evaluation/ragas/results.jsonl": "72151fd9ce4e3c41ba22a64ac40e7bb7469058b3d194fbbc632593ecced27070",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__g1_3_anti_corruption_controls/evaluation/ragchecker/results.jsonl": "146862db09e823a25f4b761b0f0bbfe2c2fc859d339f129d4b12f98dd74c8fbe"
+    },
+    "verified_source_cells": 159,
+    "verified_internal_links": 36,
+    "cases": [
+      {
+        "review_id": "R01",
+        "shown_ec_ids": [
+          "ec_baf83542d35c4c4ac5a29198a5381037",
+          "ec_c8932e1024bf8b1dfd5114bbc540ee9a",
+          "ec_9b7643ff5edf7e2c2e604d2c348049ab"
+        ],
+        "total_candidate_ecs": 4,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "evidence_conflation",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 14,
+        "last_row": 18,
+        "row_heights_total_pt": 561.5
+      },
+      {
+        "review_id": "R02",
+        "shown_ec_ids": [
+          "ec_2f174305add25561128fb3cc2adaf120",
+          "ec_028b9d4806bc7e40cd008bc781b2d6d0",
+          "ec_073d50942f73b2a212b31b40806f3e44"
+        ],
+        "total_candidate_ecs": 11,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "evidence_conflation",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 15,
+        "last_row": 19,
+        "row_heights_total_pt": 568.5
+      },
+      {
+        "review_id": "R03",
+        "shown_ec_ids": [
+          "ec_d853ff4a197efc17dc6a90f40d6c456b",
+          "ec_5fb955c4ff6c869f27dbd09e51ebc280",
+          "ec_98fe774f82584cbcc54a2998228e8c24"
+        ],
+        "total_candidate_ecs": 13,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "evidence_conflation",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 16,
+        "row_heights_total_pt": 497.0
+      },
+      {
+        "review_id": "R04",
+        "shown_ec_ids": [
+          "ec_0dad29aff963f685f6c084e94770eee8"
+        ],
+        "total_candidate_ecs": 1,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "inferential_inflation",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 425.5
+      },
+      {
+        "review_id": "R05",
+        "shown_ec_ids": [
+          "ec_a2f772ccff8637c4c8c01221eeb3b741",
+          "ec_2281cb82d84f1bb468aecc35e4aca797"
+        ],
+        "total_candidate_ecs": 4,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "inferential_inflation",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 16,
+        "row_heights_total_pt": 476.5
+      },
+      {
+        "review_id": "R06",
+        "shown_ec_ids": [
+          "ec_fc8a6267a0bc29cb0b7819aba2175f68"
+        ],
+        "total_candidate_ecs": 1,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "inferential_inflation",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 398.5
+      },
+      {
+        "review_id": "R07",
+        "shown_ec_ids": [],
+        "total_candidate_ecs": 0,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "unsupported_novelty",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 388.5
+      },
+      {
+        "review_id": "R08",
+        "shown_ec_ids": [],
+        "total_candidate_ecs": 0,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "unsupported_novelty",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 402.0
+      },
+      {
+        "review_id": "R09",
+        "shown_ec_ids": [],
+        "total_candidate_ecs": 0,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "unsupported_novelty",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 402.0
+      },
+      {
+        "review_id": "R10",
+        "shown_ec_ids": [
+          "ec_7dbca1d956203726185e9feb9fc2a5d2"
+        ],
+        "total_candidate_ecs": 4,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "non_disclosure_statement",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 13,
+        "last_row": 17,
+        "row_heights_total_pt": 510.5
+      },
+      {
+        "review_id": "R11",
+        "shown_ec_ids": [
+          "ec_c1fb3e06970f8d31501e89bebe1aa63e",
+          "ec_b68a4e6d2158cc99caf0d5ef329fde03"
+        ],
+        "total_candidate_ecs": 2,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "non_disclosure_statement",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 16,
+        "row_heights_total_pt": 453.0
+      },
+      {
+        "review_id": "R12",
+        "shown_ec_ids": [
+          "ec_2e823f35c50984a0c4725e2d27872e8a"
+        ],
+        "total_candidate_ecs": 2,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": "non_disclosure_statement",
+            "status": "recorded"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 435.5
+      },
+      {
+        "review_id": "R13",
+        "shown_ec_ids": [
+          "ec_f12396a7ca839fef71f2d36f513a6f5e"
+        ],
+        "total_candidate_ecs": 1,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_f12396a7ca839fef71f2d36f513a6f5e"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 412.0
+      },
+      {
+        "review_id": "R14",
+        "shown_ec_ids": [
+          "ec_448ca83b0591d019a69a1a840105fb71"
+        ],
+        "total_candidate_ecs": 6,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_448ca83b0591d019a69a1a840105fb71"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 439.0
+      },
+      {
+        "review_id": "R15",
+        "shown_ec_ids": [
+          "ec_b1cfa1e956d68c53ece95510fa9119f6",
+          "ec_4db2166abe42ad1458edc5bd58e5e444",
+          "ec_36d8f4d342caa53b949a0a0b47ef9792"
+        ],
+        "total_candidate_ecs": 5,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_4db2166abe42ad1458edc5bd58e5e444",
+              "ec_b1cfa1e956d68c53ece95510fa9119f6"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 14,
+        "last_row": 18,
+        "row_heights_total_pt": 538.0
+      },
+      {
+        "review_id": "R16",
+        "shown_ec_ids": [
+          "ec_f73ba878eb839eaeae0edf13534dffa3"
+        ],
+        "total_candidate_ecs": 5,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_f73ba878eb839eaeae0edf13534dffa3"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 16,
+        "row_heights_total_pt": 443.0
+      },
+      {
+        "review_id": "R17",
+        "shown_ec_ids": [
+          "ec_b7a89a1d1cdc1483cde586143343f33b"
+        ],
+        "total_candidate_ecs": 29,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_b7a89a1d1cdc1483cde586143343f33b"
+            ],
+            "support_type": "direct"
+          }
+        },
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 379.5
+      },
+      {
+        "review_id": "R18",
+        "shown_ec_ids": [
+          "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+        ],
+        "total_candidate_ecs": 2,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+            ],
+            "support_type": "direct"
+          }
+        },
+        "unsupported_types": {
+          "BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 379.5
+      }
+    ],
+    "model_calls": 0,
+    "new_judgments": 0,
+    "reproduction_command": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python paper/analysis/reader_layout_2026-10-22/build_minimal_readers.py"
+  },
+  {
+    "created_at_utc": "2026-10-22T14:00:47.162679+00:00",
+    "workbook": "BACE_Prompt_Comparison_18_Cases.xlsx",
+    "workbook_sha256": "df5e6ddf1709dd3196b72e0fede20f62c2335a16d6ba6ac7992fddc46dd1ed3f",
+    "previous_workbook_sha256": "ff3681994a02f713e31152f881f649d90192c760b6cf628ba6c0c94bda71f356",
+    "builder": "paper/analysis/reader_layout_2026-10-22/build_minimal_readers.py",
+    "script_sha256": "68873d7e4ba959264c5abeed3112fe35b898a636b44e4bb15868fd815238ef85",
+    "reading_order": [
+      "Disclosure and claim",
+      "Evidence and key ECs",
+      "Saved results"
+    ],
+    "selection": "Editorial selection of exact passages and key candidate ECs. This is not the complete input. One actual support set is displayed per supported condition; all its EC texts are shown.",
+    "input_sha256": {
+      "paper/analysis/residual_gap_review_2026-10-20/selection_provenance.json": "7fb2fada2f36b186ba4083d86b907006c67d0aea6b441a0a203df5634f6a33e3",
+      "BACE/analysis/outputs/snapshot/sources.json": "28da4a703ae608d11811bcba5edda5fd63bf8c657cbf77d206e7b86f7e4b2c9a",
+      "paper/analysis/prompt_gap_review_2026-10-22/provenance.json": "5e7db0b621bbd79de9e0e64fee5d8e291d376f3d21beeb22da84baade129e821",
+      "paper/analysis/prompt_gap_review_2026-10-22/selected_prompt_results.json": "75ab06aae5269d50e4f772d2c1da044c206fb1e81947d1a6edaed476606fdf4d",
+      "paper/analysis/prompt_gap_review_2026-10-22/results.json": "7fa989eba227acdb5b5e758c9b1b31091e5335523baae906d27b764435c1d6b2",
+      "paper/analysis/residual_gap_review_2026-10-20/source_passages.csv": "f3ab487745b8187ed63abef12d4a10644b7866de16f1f5e4152f464ffe10942c",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R01.json": "4db5f8fe749832c713a9239414b5ea7c5a417910c09409571a981a996f0c71ba",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__inter_conti_nenta_l_hot_els_g_roup__2020__e1_3_actions_resources/evaluation/ragas/results.jsonl": "1897e72648b66c2e57c7718afd2c113dce7d076e68c5aae26d682be533314e59",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__inter_conti_nenta_l_hot_els_g_roup__2020__e1_3_actions_resources/evaluation/ragchecker/results.jsonl": "d3725374fde8440c78b25704f15ce56f312d5d32ef31691d06d3740efe704c9a",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R02.json": "40c8de5d058da0a043eab6e3c12daa113950058a21a305037dbf9d461166c133",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2021__g1_3_anti_corruption_controls/evaluation/ragas/results.jsonl": "623c587713ed4902f8b248d58aa5c54c11b77e947c1045aa43e276e83fd947b8",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__svenska_cellulosa__2021__g1_3_anti_corruption_controls/evaluation/ragchecker/results.jsonl": "a17e112bbf415d0ac18340795260360c8cf356bde9413297a75e5c0191a52c60",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R03.json": "761de2a8d37bb754bd5eb47feb0e10108dbdfc9dd16da8863dfa585eb66c2e38",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2019__e1_4_targets/evaluation/ragas/results.jsonl": "a5e99744c114aa8dbfe00d6def37cfb8ce9b98a8c9893fc1aae9967555412b6b",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2019__e1_4_targets/evaluation/ragchecker/results.jsonl": "cdeda49d1062915e2da466ed8aba9680956f9d6a07bf730deba3a4f3a6ba2aba",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R04.json": "e4bc914aa4ae34d322fa1674e0d61899792a0e110f0f762868a903498af21862",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__omv__2023__g1_2_supplier_relationships/evaluation/ragas/results.jsonl": "8770fb536cd56ec0baf5ce1b59ca0f49876ec2af56ddf5fca7681a8af52eea56",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__omv__2023__g1_2_supplier_relationships/evaluation/ragchecker/results.jsonl": "4e2ec40ee173c36126c410f7df3a7f4545aa0c64b441fed07201f6e75cc0b828",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R05.json": "c6c95ddbc14cb291ca07d3fda741087aced7a8dafc27fb74b7098a1402e1e80d",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__intesa_sanpaolo__2019__e1_4_targets/evaluation/ragas/results.jsonl": "59d341f8de1e8ed6162181f06558238411a4aa4755aca838efbea3017391cb4b",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__intesa_sanpaolo__2019__e1_4_targets/evaluation/ragchecker/results.jsonl": "9c9963d7949fecff0cb1cce3dc0d72dd47ef3ee8b73c119a1ac433faf6ceb6bc",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R06.json": "e1eac6436d24e2149e8dca7cfab965aed7efc4f30d69dc451450bab7de8a2227",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__hera__2021__s1_4_workforce_actions_resources/evaluation/ragas/results.jsonl": "c861f602d4b8e61b7ce5f965ab98d946640c14ae7a07740d4a7ecdbef2ce6d7c",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__hera__2021__s1_4_workforce_actions_resources/evaluation/ragchecker/results.jsonl": "fbf8ffffbc352f1cc953536bf3b61dd8f1bbc7eb74b0c54053ed7f7f67723d93",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R07.json": "293421bc2baa55243ce0c0b9557027f97e34ad9b0e0c714e0c28e3ea82211778",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2020__e1_1_transition_plan/evaluation/ragas/results.jsonl": "a6c733b4d8d923b3710ff1a4d43a9c9567d644e08831eac6071fa0278dbe697a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2020__e1_1_transition_plan/evaluation/ragchecker/results.jsonl": "6e21edf0d462d33409e86f8bde09becd03268646e184fefd6a4bb2d5f2270d91",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R08.json": "8a84a81248be2c5204920c5cc7145c37dccaf5e399c96a306c60338ac6664d88",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2021__g1_2_supplier_relationships/evaluation/ragas/results.jsonl": "11a2b200303c1cbb8460da6df708285d3d5d336c6a7bd14cac91570e98bbec3a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__asml__2021__g1_2_supplier_relationships/evaluation/ragchecker/results.jsonl": "320f35ca1a3a798320d6065fac83774d9c3bca1d138d144b57439c0af6cc32c4",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R09.json": "e7c325cf5552e470ce51681b80e4fa7d7fad1a18197751ac84fef32702f2f1e3",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2023__s1_5_workforce_targets/evaluation/ragas/results.jsonl": "e229de517f08577c62d2b95a644138d2e04125e022c76e4616076856d4ac57a1",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__evonik_industries__2023__s1_5_workforce_targets/evaluation/ragchecker/results.jsonl": "49144f5418530362cac32821e60790b35ac5a9d57709b12c28dce11866c82c05",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R10.json": "135725ee1925f377cb0d05e775de5be92d80f561ceae47d94f5a60b9ad8243c6",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__mowi__2021__g1_2_supplier_relationships/evaluation/ragas/results.jsonl": "badc377ee97e746fdd978b94795278790155f8a7d4d276cfa0419bf328160887",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__mowi__2021__g1_2_supplier_relationships/evaluation/ragchecker/results.jsonl": "6442a32e1f88455618e86821641c0a74455545d228f784178ccbe22145175280",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R11.json": "849190dd251eb9e8b2ca08edf513d813b08043bf107dfdb44106e0a8a0f51616",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R12.json": "cf253d44223f4558a1d117a61a292068c4ce1a66de2ab822db0dbc70ac5a6e37",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2023__s1_4_workforce_actions_resources/evaluation/ragas/results.jsonl": "4258f36119a8d015a9ac8ce615757c72315ea4d18507d4dfee90e20c19c508ff",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__deutsche_bank__2023__s1_4_workforce_actions_resources/evaluation/ragchecker/results.jsonl": "81a7ff689efac67730b92fbbf71262ef4351a251639159dcc90d2517b35f40d2",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R13.json": "a751fda7571ef8609e28de95b5d819116cbac465db3bbaa59c57db4f7e558025",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__ses__2021__e1_3_actions_resources/evaluation/ragas/results.jsonl": "28f7043aab6b90a9dca8dd138eddad83270a5dddad096793824a01d9eadc2f4e",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__ses__2021__e1_3_actions_resources/evaluation/ragchecker/results.jsonl": "4923fb9cba7e30583e4f6024fe6370a9799969eabc257f81e800f8f14c5f0595",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R14.json": "ce07036f5a4fc676cd2fe4b97ae0aa7a3500e5d111aa67e5fec5d40a8b20e364",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2020__s1_4_workforce_actions_resources/evaluation/ragas/results.jsonl": "ebb2add78a3564ce4250704c7a3f461e81d688e6bd0c7d341da676270190035a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2020__s1_4_workforce_actions_resources/evaluation/ragchecker/results.jsonl": "fbeb2f60bf56800caf6c5011fb36b9dffa36bdc5a6bd35981f20ff0136b3e640",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R15.json": "520f1a328df39e147f91d0a38869fd3ebaabf7860dd68144518efccdf17305bf",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan/evaluation/ragas/results.jsonl": "6adf409b093876ee7ff24f4a9d44454c40aff107bdde8b387a5a1909af97f2e4",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__e1_1_transition_plan/evaluation/ragchecker/results.jsonl": "2f37da2ee0b0f7bca17869f7c8f5dfc6090151f3c55832097a72bb54e50bea7a",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R16.json": "62ad2c84962bbe5157fa4c05a36d20705ea35bac43a42dcb82b876f80c56679a",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2019__e1_3_actions_resources/evaluation/ragas/results.jsonl": "761eb65042ef8e20548e570497b23c458e5a6c706705d401ee4887130af2cdfd",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__nestle__2019__e1_3_actions_resources/evaluation/ragchecker/results.jsonl": "e73e7ed558bed3aa96e3b31fbba9568c77e162d5a8643d460201497698e4975d",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R17.json": "9140702e9cb18264bcba6a7ff3f23f8f69d5e206184df5c6fb28593b1876c483",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2020__e1_6_ghg_emissions/evaluation/ragas/results.jsonl": "0e5f6be9e036641af060d59376a060d05b6979f94ec3b118cd3de7ed9bc789b5",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__w_rtsil__2020__e1_6_ghg_emissions/evaluation/ragchecker/results.jsonl": "ac7f86f4bee29f6b0fbf302b06a90cdf2b9df5d741923107ab13ea9c34e0da42",
+      "paper/analysis/residual_gap_review_2026-10-20/packets/R18.json": "feeac76fac8e708875dfe9e9366a2980e72013d93262ffb268c5f5f7f45d2505",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__g1_3_anti_corruption_controls/evaluation/ragas/results.jsonl": "72151fd9ce4e3c41ba22a64ac40e7bb7469058b3d194fbbc632593ecced27070",
+      "BACE/results/main_v1/cases/w2__text_embedding_3_large__stratified_by_evidence_type_n10__subsea_7__2020__g1_3_anti_corruption_controls/evaluation/ragchecker/results.jsonl": "146862db09e823a25f4b761b0f0bbfe2c2fc859d339f129d4b12f98dd74c8fbe"
+    },
+    "verified_source_cells": 199,
+    "verified_internal_links": 36,
+    "cases": [
+      {
+        "review_id": "R01",
+        "shown_ec_ids": [
+          "ec_baf83542d35c4c4ac5a29198a5381037",
+          "ec_c8932e1024bf8b1dfd5114bbc540ee9a",
+          "ec_9b7643ff5edf7e2c2e604d2c348049ab"
+        ],
+        "total_candidate_ecs": 4,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "evidence_conflation",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 14,
+        "last_row": 18,
+        "row_heights_total_pt": 575.0
+      },
+      {
+        "review_id": "R02",
+        "shown_ec_ids": [
+          "ec_2f174305add25561128fb3cc2adaf120",
+          "ec_028b9d4806bc7e40cd008bc781b2d6d0",
+          "ec_073d50942f73b2a212b31b40806f3e44"
+        ],
+        "total_candidate_ecs": 11,
+        "example_support_sets": {
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_028b9d4806bc7e40cd008bc781b2d6d0",
+              "ec_073d50942f73b2a212b31b40806f3e44"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "evidence_conflation",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 15,
+        "last_row": 20,
+        "row_heights_total_pt": 616.0
+      },
+      {
+        "review_id": "R03",
+        "shown_ec_ids": [
+          "ec_d853ff4a197efc17dc6a90f40d6c456b",
+          "ec_5fb955c4ff6c869f27dbd09e51ebc280",
+          "ec_98fe774f82584cbcc54a2998228e8c24"
+        ],
+        "total_candidate_ecs": 13,
+        "example_support_sets": {
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_98fe774f82584cbcc54a2998228e8c24",
+              "ec_d853ff4a197efc17dc6a90f40d6c456b"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "evidence_conflation",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 17,
+        "row_heights_total_pt": 544.5
+      },
+      {
+        "review_id": "R04",
+        "shown_ec_ids": [
+          "ec_0dad29aff963f685f6c084e94770eee8"
+        ],
+        "total_candidate_ecs": 1,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "inferential_inflation",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 439.0
+      },
+      {
+        "review_id": "R05",
+        "shown_ec_ids": [
+          "ec_a2f772ccff8637c4c8c01221eeb3b741",
+          "ec_2281cb82d84f1bb468aecc35e4aca797"
+        ],
+        "total_candidate_ecs": 4,
+        "example_support_sets": {
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_2281cb82d84f1bb468aecc35e4aca797"
+            ],
+            "support_type": "inferred"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_2281cb82d84f1bb468aecc35e4aca797"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "inferential_inflation",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 17,
+        "row_heights_total_pt": 524.0
+      },
+      {
+        "review_id": "R06",
+        "shown_ec_ids": [
+          "ec_fc8a6267a0bc29cb0b7819aba2175f68"
+        ],
+        "total_candidate_ecs": 1,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "inferential_inflation",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 412.0
+      },
+      {
+        "review_id": "R07",
+        "shown_ec_ids": [],
+        "total_candidate_ecs": 0,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "unsupported_novelty",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 402.0
+      },
+      {
+        "review_id": "R08",
+        "shown_ec_ids": [],
+        "total_candidate_ecs": 0,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "unsupported_novelty",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 415.5
+      },
+      {
+        "review_id": "R09",
+        "shown_ec_ids": [],
+        "total_candidate_ecs": 0,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "unsupported_novelty",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 415.5
+      },
+      {
+        "review_id": "R10",
+        "shown_ec_ids": [
+          "ec_7dbca1d956203726185e9feb9fc2a5d2"
+        ],
+        "total_candidate_ecs": 4,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "non_disclosure_statement",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 13,
+        "last_row": 17,
+        "row_heights_total_pt": 524.0
+      },
+      {
+        "review_id": "R11",
+        "shown_ec_ids": [
+          "ec_c1fb3e06970f8d31501e89bebe1aa63e",
+          "ec_b68a4e6d2158cc99caf0d5ef329fde03"
+        ],
+        "total_candidate_ecs": 2,
+        "example_support_sets": {
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_b68a4e6d2158cc99caf0d5ef329fde03",
+              "ec_c1fb3e06970f8d31501e89bebe1aa63e"
+            ],
+            "support_type": "inferred"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_b68a4e6d2158cc99caf0d5ef329fde03",
+              "ec_c1fb3e06970f8d31501e89bebe1aa63e"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "non_disclosure_statement",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 17,
+        "row_heights_total_pt": 500.5
+      },
+      {
+        "review_id": "R12",
+        "shown_ec_ids": [
+          "ec_2e823f35c50984a0c4725e2d27872e8a"
+        ],
+        "total_candidate_ecs": 2,
+        "example_support_sets": {},
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": "non_disclosure_statement",
+            "status": "recorded"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 449.0
+      },
+      {
+        "review_id": "R13",
+        "shown_ec_ids": [
+          "ec_f12396a7ca839fef71f2d36f513a6f5e"
+        ],
+        "total_candidate_ecs": 1,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_f12396a7ca839fef71f2d36f513a6f5e"
+            ],
+            "support_type": "inferred"
+          },
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_f12396a7ca839fef71f2d36f513a6f5e"
+            ],
+            "support_type": "inferred"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_f12396a7ca839fef71f2d36f513a6f5e"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 439.0
+      },
+      {
+        "review_id": "R14",
+        "shown_ec_ids": [
+          "ec_448ca83b0591d019a69a1a840105fb71"
+        ],
+        "total_candidate_ecs": 6,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_448ca83b0591d019a69a1a840105fb71"
+            ],
+            "support_type": "inferred"
+          },
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_448ca83b0591d019a69a1a840105fb71"
+            ],
+            "support_type": "inferred"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_448ca83b0591d019a69a1a840105fb71"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_recorded"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 466.0
+      },
+      {
+        "review_id": "R15",
+        "shown_ec_ids": [
+          "ec_b1cfa1e956d68c53ece95510fa9119f6",
+          "ec_4db2166abe42ad1458edc5bd58e5e444",
+          "ec_36d8f4d342caa53b949a0a0b47ef9792"
+        ],
+        "total_candidate_ecs": 5,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_4db2166abe42ad1458edc5bd58e5e444",
+              "ec_b1cfa1e956d68c53ece95510fa9119f6"
+            ],
+            "support_type": "inferred"
+          },
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_4db2166abe42ad1458edc5bd58e5e444",
+              "ec_b1cfa1e956d68c53ece95510fa9119f6"
+            ],
+            "support_type": "inferred"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_4db2166abe42ad1458edc5bd58e5e444",
+              "ec_b1cfa1e956d68c53ece95510fa9119f6"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 14,
+        "last_row": 18,
+        "row_heights_total_pt": 551.5
+      },
+      {
+        "review_id": "R16",
+        "shown_ec_ids": [
+          "ec_f73ba878eb839eaeae0edf13534dffa3"
+        ],
+        "total_candidate_ecs": 5,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_f73ba878eb839eaeae0edf13534dffa3"
+            ],
+            "support_type": "inferred"
+          },
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_f73ba878eb839eaeae0edf13534dffa3"
+            ],
+            "support_type": "inferred"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_f73ba878eb839eaeae0edf13534dffa3"
+            ],
+            "support_type": "inferred"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_recorded"
+          }
+        },
+        "result_section_row": 12,
+        "last_row": 16,
+        "row_heights_total_pt": 456.5
+      },
+      {
+        "review_id": "R17",
+        "shown_ec_ids": [
+          "ec_b7a89a1d1cdc1483cde586143343f33b"
+        ],
+        "total_candidate_ecs": 29,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_b7a89a1d1cdc1483cde586143343f33b"
+            ],
+            "support_type": "direct"
+          },
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_b7a89a1d1cdc1483cde586143343f33b"
+            ],
+            "support_type": "direct"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_b7a89a1d1cdc1483cde586143343f33b"
+            ],
+            "support_type": "direct"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 393.0
+      },
+      {
+        "review_id": "R18",
+        "shown_ec_ids": [
+          "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+        ],
+        "total_candidate_ecs": 2,
+        "example_support_sets": {
+          "original": {
+            "ec_claim_ids": [
+              "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+            ],
+            "support_type": "direct"
+          },
+          "ragas_style": {
+            "ec_claim_ids": [
+              "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+            ],
+            "support_type": "direct"
+          },
+          "ragchecker_style": {
+            "ec_claim_ids": [
+              "ec_37e2c8c135c2b0d3ebd71a14f245c6b9"
+            ],
+            "support_type": "direct"
+          }
+        },
+        "unsupported_types": {
+          "Original BACE": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker-style": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGAS native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          },
+          "RAGChecker native": {
+            "saved_label": null,
+            "status": "not_applicable"
+          }
+        },
+        "result_section_row": 10,
+        "last_row": 14,
+        "row_heights_total_pt": 393.0
+      }
+    ],
+    "model_calls": 0,
+    "new_judgments": 0,
+    "reproduction_command": "/home/muwang/.local/share/bace-writing-skills/venv/bin/python paper/analysis/reader_layout_2026-10-22/build_minimal_readers.py"
+  }
+]

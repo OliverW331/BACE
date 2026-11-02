@@ -1,0 +1,150 @@
+{
+  "id": "factscore2023",
+  "url": "https://aclanthology.org/2023.emnlp-main.741/",
+  "checked_date": "2026-09-29",
+  "retrieved_at_utc": "2026-09-29T20:16:18.067347+00:00",
+  "final_url": "https://aclanthology.org/2023.emnlp-main.741/",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "3bce1067adc4e1dc11513fde5b5c3b733b7d73e96aa08473c51bbd1668ddc1b5",
+  "metadata": {
+    "": [
+      ""
+    ],
+    "viewport": [
+      "width=device-width,initial-scale=1,shrink-to-fit=no"
+    ],
+    "generator": [
+      "Hugo 0.160.0"
+    ],
+    "citation_title": [
+      "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation"
+    ],
+    "citation_author": [
+      "Sewon Min",
+      "Kalpesh Krishna",
+      "Xinxi Lyu",
+      "Mike Lewis",
+      "Wen-tau Yih",
+      "Pang Koh",
+      "Mohit Iyyer",
+      "Luke Zettlemoyer",
+      "Hannaneh Hajishirzi"
+    ],
+    "citation_conference_title": [
+      "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "citation_publication_date": [
+      "2023/12"
+    ],
+    "citation_pdf_url": [
+      "https://aclanthology.org/2023.emnlp-main.741.pdf"
+    ],
+    "citation_firstpage": [
+      "12076"
+    ],
+    "citation_lastpage": [
+      "12100"
+    ],
+    "citation_doi": [
+      "10.18653/v1/2023.emnlp-main.741"
+    ],
+    "og:title": [
+      "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation"
+    ],
+    "og:image": [
+      "https://aclanthology.org/thumb/2023.emnlp-main.741.jpg"
+    ],
+    "og:image:alt": [
+      "First page of paper PDF."
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:site_name": [
+      "ACL Anthology"
+    ],
+    "og:url": [
+      "https://aclanthology.org/2023.emnlp-main.741/"
+    ],
+    "og:description": [
+      "Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023."
+    ]
+  },
+  "links": [
+    "https://aclanthology.org/",
+    "#",
+    "/posts/",
+    "/faq/news/",
+    "/faq/related-work/",
+    "/faq/copyright/",
+    "/info/credits/",
+    "/faq/volunteer/",
+    "/info/development/",
+    "/faq/feedback/",
+    "#",
+    "/people/",
+    "/faq/bib/",
+    "/faq/linking/",
+    "/faq/api/",
+    "/faq/",
+    "/info/ids/",
+    "/info/names/",
+    "/info/orcid/",
+    "/faq/doi/",
+    "/info/verification/",
+    "#",
+    "/info/contrib/",
+    "/info/corrections/",
+    "/info/author-pages/",
+    "/faq/attachments/",
+    "https://github.com/acl-org/acl-anthology/",
+    "https://aclanthology.org/2023.emnlp-main.741.pdf",
+    "/people/sewon-min/unverified/",
+    "/people/kalpesh-krishna/unverified/",
+    "/people/xinxi-lyu/unverified/",
+    "/people/mike-lewis/unverified/",
+    "/people/wen-tau-yih/",
+    "/people/pang-koh/unverified/",
+    "/people/mohit-iyyer/",
+    "/people/luke-zettlemoyer/",
+    "/people/hannaneh-hajishirzi/unverified/",
+    "https://aclanthology.org/info/corrections/",
+    "#",
+    "#",
+    "/volumes/2023.emnlp-main/",
+    "/people/houda-bouamor/unverified/",
+    "/people/juan-pino/unverified/",
+    "/people/kalika-bali/",
+    "/venues/emnlp/",
+    "https://aclanthology.org/2023.emnlp-main.741/",
+    "https://doi.org/10.18653/v1/2023.emnlp-main.741",
+    "https://aclanthology.org/2023.emnlp-main.741/",
+    "https://aclanthology.org/2023.emnlp-main.741/",
+    "https://aclanthology.org/2023.emnlp-main.741.pdf",
+    "https://aclanthology.org/2023.emnlp-main.741.mp4",
+    "https://aclanthology.org/2023.emnlp-main.741.pdf",
+    "#",
+    "https://www.semanticscholar.org/search?+q=FActScore%3A+Fine-grained+Atomic+Evaluation+of+Factual+Precision+in+Long+Form+Text+Generation",
+    "https://aclanthology.org/2023.emnlp-main.741.mp4",
+    "#",
+    "#citeBibtex",
+    "#citeMods",
+    "#citeEndnote",
+    "#citeMarkdown",
+    "https://aclanthology.org/2023.emnlp-main.741/",
+    "https://aclanthology.org/2023.emnlp-main.741/",
+    "http://creativecommons.org/licenses/by/4.0/",
+    "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "https://creativecommons.org/licenses/by/4.0/",
+    "/info/credits/",
+    "https://github.com/acl-org/acl-anthology/tree/c434bba397f5a4eaf21bdc680e689d9ce7eb5d08"
+  ],
+  "pdf_request_url": "https://aclanthology.org/2023.emnlp-main.741.pdf",
+  "pdf_url": "https://aclanthology.org/2023.emnlp-main.741.pdf",
+  "pdf_http_status": 200,
+  "pdf_sha256": "8486fe22a15aaf3fe2e1d7043d169000600205dde9c601c9fd31c0dd6f7380e9",
+  "pdf_pages": 25,
+  "text_sha256": "bfe836ae9bc39941708a70cbcab6fb95d8c7d48a96745ab7297b7ccdf33ebe10",
+  "fulltext_extracted": true
+}

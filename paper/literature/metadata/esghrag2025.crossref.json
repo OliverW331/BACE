@@ -1,0 +1,382 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2026-04-22T01:10:53Z",
+      "timestamp": 1776820253808,
+      "version": "3.51.2"
+    },
+    "reference-count": 17,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2025-07-02T00:00:00Z",
+          "timestamp": 1751414400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              2
+            ]
+          ],
+          "date-time": "2025-07-02T00:00:00Z",
+          "timestamp": 1751414400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Supercomput"
+    ],
+    "DOI": "10.1007/s11227-025-07604-0",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2025-07-02T19:22:34Z",
+      "timestamp": 1751484154000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "An innovative ESGH-RAG module with ChatGPT-4o for automatic ESG-report generation"
+    ],
+    "prefix": "10.1007",
+    "volume": "81",
+    "author": [
+      {
+        "given": "Jhing-Fa",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wen-Yuan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shih-Pang",
+        "family": "Tseng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "7604_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu J-W, Lin LH-M, Tsai RT-H (2024) Enhancing ESG reporting analysis: leveraging GPT and resampling methods for improved multi-label classification. pp 415–418. IEEE",
+        "DOI": "10.1109/ICEIB61477.2024.10602711"
+      },
+      {
+        "key": "7604_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao Y, Cao H, Zhao X, Ou Z (2024) An empirical study of retrieval augmented generation with chain-of-thought, 436–440. IEEE",
+        "DOI": "10.1109/ISCSLP63861.2024.10800207"
+      },
+      {
+        "key": "7604_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sashida M, Izumi K, Sakaji H (2023) Extraction SDGs-related sentences from sustainability reports using BERT and ChatGPT. pp 742–745. IEEE",
+        "DOI": "10.1109/IIAI-AAI59060.2023.00158"
+      },
+      {
+        "key": "7604_CR4",
+        "first-page": "9459",
+        "volume": "33",
+        "author": "P Lewis",
+        "year": "2020",
+        "unstructured": "Lewis P, Perez E, Piktus A, Petroni F, Karpukhin V, Goyal N, Küttler H, Lewis M, Yih W-T, Rocktäschel T et al (2020) Retrieval-augmented generation for knowledge-intensive nlp tasks. Adv Neural Inf Process Syst 33:9459–9474",
+        "journal-title": "Adv Neural Inf Process Syst"
+      },
+      {
+        "key": "7604_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Joshi P, Gupta A, Kumar P, Sisodia M (2024) Robust multi model rag pipeline for documents containing text, table & images, 993–999. IEEE",
+        "DOI": "10.1109/ICAAIC60222.2024.10574972"
+      },
+      {
+        "key": "7604_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bezerra YF, Weigang L (2025) Llmquoter: enhancing rag capabilities through efficient quote extraction from large contexts. arXiv preprint arXiv:2501.05554",
+        "DOI": "10.5220/0013358700003890"
+      },
+      {
+        "key": "7604_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sawarkar K, Mangal A, Solanki SR (2024) Blended rag: improving rag (retriever-augmented generation) accuracy with semantic search and hybrid query-based retrievers. arXiv preprint arXiv:2404.07220",
+        "DOI": "10.1109/MIPR62202.2024.00031"
+      },
+      {
+        "key": "7604_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Omrani P, Hosseini A, Hooshanfar K, Ebrahimian Z, Toosi R, Akhaee MA (2024) Hybrid retrieval-augmented generation approach for LLMs query response enhancement. pp 22–26. IEEE",
+        "DOI": "10.1109/ICWR61162.2024.10533345"
+      },
+      {
+        "key": "7604_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin LH-M, Ting F-K, Chang T-J, Wu J-W, Tsai RT-H (2024) Gpt4esg: streamlining environment, society, and governance analysis with custom ai models. pp 442–446. IEEE",
+        "DOI": "10.1109/ICEIB61477.2024.10602567"
+      },
+      {
+        "issue": "2",
+        "key": "7604_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "83",
+        "DOI": "10.2308/JETA-2022-054",
+        "volume": "21",
+        "author": "N Li",
+        "year": "2024",
+        "unstructured": "Li N, Kim M, Dai J, Vasarhelyi MA (2024) Using artificial intelligence in ESG assurance. J Emerg Technol Account 21(2):83–99",
+        "journal-title": "J Emerg Technol Account"
+      },
+      {
+        "issue": "1",
+        "key": "7604_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "301",
+        "DOI": "10.62051/IJGEM.v3n1.36",
+        "volume": "3",
+        "author": "S Chen",
+        "year": "2024",
+        "unstructured": "Chen S (2024) The influence of artificial intelligence and digital technology on ESG reporting quality. Int J Global Econ Manag 3(1):301–310",
+        "journal-title": "Int J Global Econ Manag"
+      },
+      {
+        "key": "7604_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sulkowski AJ (2024) AI, ESG, and law: potential, limitations, and strategies concerning artificial intelligence in sustainability reporting",
+        "DOI": "10.2139/ssrn.4972787"
+      },
+      {
+        "key": "7604_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kulkarni A, Joseph S, Patil K (2023) Role of artificial intelligence in sustainability reporting by leveraging ESG theory into action. pp 795–800. IEEE",
+        "DOI": "10.1109/InCACCT57535.2023.10141584"
+      },
+      {
+        "issue": "1",
+        "key": "7604_CR14",
+        "first-page": "96",
+        "volume": "15",
+        "author": "C De Villiers",
+        "year": "2024",
+        "unstructured": "De Villiers C, Dimes R, Molinari M (2024) How will ai text generation and processing impact sustainability reporting? Critical analysis, a conceptual framework and avenues for future research. Sustain Account Manag Policy J 15(1):96–118",
+        "journal-title": "Sustain Account Manag Policy J"
+      },
+      {
+        "key": "7604_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ehrhardt A, Nguyen MT (2021) Automated ESG report analysis by joint entity and relation extraction. pp 325–340. Springer",
+        "DOI": "10.1007/978-3-030-93733-1_23"
+      },
+      {
+        "key": "7604_CR16",
+        "unstructured": "Global Reporting Initiative: Global Reporting Initiative Standards (2021) Global Reporting Initiative. https://www.globalreporting.org/standards/"
+      },
+      {
+        "key": "7604_CR17",
+        "unstructured": "Corporation TSE (2025) ESG digital platform—sustainable report generation function. https://esggenplus.twse.com.tw/inquiry/info/individual"
+      }
+    ],
+    "container-title": [
+      "The Journal of Supercomputing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11227-025-07604-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s11227-025-07604-0/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s11227-025-07604-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2025-07-02T19:22:37Z",
+      "timestamp": 1751484157000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s11227-025-07604-0"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ]
+    },
+    "references-count": 17,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "7604"
+    ],
+    "URL": "https://doi.org/10.1007/s11227-025-07604-0",
+    "relation": {},
+    "ISSN": [
+      "1573-0484"
+    ],
+    "issn-type": [
+      {
+        "value": "1573-0484",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "21 June 2025",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "2 July 2025",
+        "order": 2,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare that they have no Conflict of interest.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ],
+    "article-number": "1103"
+  }
+}

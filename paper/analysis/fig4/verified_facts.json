@@ -1,0 +1,87 @@
+{
+  "planned": 1800,
+  "completed": 1798,
+  "companies": 30,
+  "incomplete": 2,
+  "method_summaries": [
+    {
+      "method": "BACE",
+      "disclosures": 1798,
+      "companies": 30,
+      "mean_score_percent": 55.37546371346639,
+      "median_claim_count": 52.0,
+      "minimum_claim_count": 26,
+      "maximum_claim_count": 98,
+      "status": "COMPUTED_VERIFIED",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "score_column": "bace_support_rate_all_dc",
+      "count_column": "bace_dc_count",
+      "aggregation": "Arithmetic mean of native disclosure scores; median native claim count on the identical completed cohort"
+    },
+    {
+      "method": "RAGChecker",
+      "disclosures": 1798,
+      "companies": 30,
+      "mean_score_percent": 90.2355564781211,
+      "median_claim_count": 40.0,
+      "minimum_claim_count": 19,
+      "maximum_claim_count": 75,
+      "status": "COMPUTED_VERIFIED",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "score_column": "ragchecker_faithfulness",
+      "count_column": "ragchecker_claim_count",
+      "aggregation": "Arithmetic mean of native disclosure scores; median native claim count on the identical completed cohort"
+    },
+    {
+      "method": "RAGAS",
+      "disclosures": 1798,
+      "companies": 30,
+      "mean_score_percent": 90.65974089675373,
+      "median_claim_count": 42.0,
+      "minimum_claim_count": 23,
+      "maximum_claim_count": 71,
+      "status": "COMPUTED_VERIFIED",
+      "source": "BACE/analysis/outputs/snapshot/metrics.csv",
+      "score_column": "ragas_faithfulness",
+      "count_column": "ragas_claim_count",
+      "aggregation": "Arithmetic mean of native disclosure scores; median native claim count on the identical completed cohort"
+    }
+  ],
+  "paired_differences": [
+    {
+      "comparator": "RAGChecker",
+      "contrast": "BACE \u2212 RAGChecker",
+      "mean_pp": -34.86009276465471,
+      "low_pp": -36.168802786909374,
+      "high_pp": -33.45631766582438,
+      "disclosures": 1798,
+      "companies": 30,
+      "bootstrap_draws": 2000,
+      "seed": 20260921,
+      "mean_status": "COMPUTED_VERIFIED",
+      "interval_status": "SOURCE_REPORTED",
+      "interval_source": "BACE/analysis/outputs/figures/03/03_native_comparison__paired_differences.csv",
+      "aggregation": "Within-disclosure native score subtraction followed by equal-weight disclosure mean",
+      "uncertainty": "Saved 95% percentile company-cluster bootstrap; all disclosures retained within each sampled company"
+    },
+    {
+      "comparator": "RAGAS",
+      "contrast": "BACE \u2212 RAGAS",
+      "mean_pp": -35.28427718328732,
+      "low_pp": -36.504949096202346,
+      "high_pp": -34.054828320744186,
+      "disclosures": 1798,
+      "companies": 30,
+      "bootstrap_draws": 2000,
+      "seed": 20260921,
+      "mean_status": "COMPUTED_VERIFIED",
+      "interval_status": "SOURCE_REPORTED",
+      "interval_source": "BACE/analysis/outputs/figures/03/03_native_comparison__paired_differences.csv",
+      "aggregation": "Within-disclosure native score subtraction followed by equal-weight disclosure mean",
+      "uncertainty": "Saved 95% percentile company-cluster bootstrap; all disclosures retained within each sampled company"
+    }
+  ],
+  "cohort": "Identical completed disclosures across all three panels; no comparator-only additions",
+  "ecdf": "Exact right-continuous empirical cumulative distributions with tied values counted together; all observations represented",
+  "uncertainty": "Saved paired 95% company-cluster percentile intervals; 2000 draws; seed 20260921; no bootstrap rerun or hypothesis test"
+}

@@ -1,0 +1,68 @@
+You are an evidence-support annotator.
+
+## Task
+
+Determine whether one atomic target claim is supported by a set of atomic
+evidence claims.
+
+Do not assess whether the evidence claims themselves are true.
+
+## Input scope
+
+The input contains:
+
+- `context_metadata`: the shared context of the generation case, containing
+  `company_name` and `target_reporting_year`;
+- `dc_claim`: one atomic target claim with `dc_claim_id` and `dc_text`;
+- `ec_claims`: a set of atomic evidence claims from the same generation case,
+  where each item has `ec_claim_id` and `ec_text`.
+
+Identifiers are opaque. Use them only to reference claims and copy them exactly.
+
+## Output contract
+
+Return:
+
+- `dc_claim_id`: copied exactly from the input;
+- `support_sets`: an array of minimal sufficient support sets;
+- for each support set:
+  - `ec_claim_ids`: the evidence-claim identifiers in that set;
+  - `support_type`: `direct` or `inferred`.
+
+Do not return verdicts, confidence scores, rationales, or additional fields.
+
+Return only the structured response required by the supplied JSON Schema.
+
+## Support assessment
+
+Your task is to judge the faithfulness of the target claim based on the given
+context. Treat the supplied evidence claims collectively as the evidence
+context, interpreted using the shared context metadata.
+
+The target claim is supported if it can be directly inferred based on the
+evidence context, and unsupported if it cannot be directly inferred based on
+the evidence context. One evidence claim or a combination may provide support.
+
+Express this assessment through support_sets rather than a binary verdict.
+
+## Support type
+
+For each support set, use `direct` when its evidence explicitly states the
+target proposition, allowing linguistic reformulation without a substantive
+reasoning step. Use `inferred` when deriving the target proposition from the
+evidence requires a reasoning step.
+
+Support-set size does not determine support type.
+
+## Minimality
+
+Each returned support set must be minimal:
+
+- the complete set supports the target claim;
+- every member makes a necessary contribution;
+- removing any member makes the set insufficient.
+
+Return every distinct minimal sufficient support set.
+
+If no evidence claim or combination of evidence claims is sufficient to support
+the complete target claim, return an empty `support_sets` array.

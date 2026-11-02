@@ -1,0 +1,30 @@
+# Preserve analysis code, numerical tables, manifests and evidence ledgers.
+# Raw per-case inputs are local copies of frozen experiment artifacts.
+/analysis/prompt_sensitivity/v1/inputs/
+
+# Retrieved third-party full texts remain local; retain retrieval records.
+/literature/sources/*/*
+!/literature/sources/*/retrieval.json
+/literature/searches/
+/literature/previews/
+
+# Compiled manuscript copies and portable source bundles are reproducible.
+/manuscript/main.pdf
+/manuscript/bace_overleaf.zip
+
+# Page renders and reading exports are local QA/build products.
+/analysis/*/manuscript_previews/
+/analysis/*/source_previews/
+/analysis/latex_draft/previews/
+/reports/*/build/
+/reports/*/review/
+/reports/*/qa/*.png
+/reports/*/qa/*.pdf
+/reports/*/qa/*.txt
+
+# Complete review packets and spreadsheet reading copies remain local.
+/analysis/residual_gap_review_2026-10-20/packets/
+/analysis/*/excel_reader/**/*.xlsx
+/analysis/*/excel_reader/**/*.pdf
+/analysis/*/excel_reader/**/*.png
+/analysis/reader_layout_2026-10-22/*.xlsx

@@ -1,0 +1,60 @@
+panel,role,text,source
+a,Combined share,73.5% boundary distortion + conflation,verified_facts.json: combined_percent
+a,Denominator,"42,646 unsupported claims",verified_facts.json: unsupported_dc
+a,Column heading,Share,Editorial label or bounded interpretation; see FIGURE_CONTRACT.md
+a,Column heading,Count,Editorial label or bounded interpretation; see FIGURE_CONTRACT.md
+a,Diagnosis label,Non-disclosure statement,diagnosis_composition.csv: non_disclosure_statement
+a,Diagnosis share,15.0%,diagnosis_composition.csv: non_disclosure_statement
+a,Diagnosis count,"6,378",diagnosis_composition.csv: non_disclosure_statement
+a,Diagnosis label,Contradiction,diagnosis_composition.csv: contradiction
+a,Diagnosis share,0.1%,diagnosis_composition.csv: contradiction
+a,Diagnosis count,42,diagnosis_composition.csv: contradiction
+a,Diagnosis label,Evidence conflation,diagnosis_composition.csv: evidence_conflation
+a,Diagnosis share,28.6%,diagnosis_composition.csv: evidence_conflation
+a,Diagnosis count,"12,205",diagnosis_composition.csv: evidence_conflation
+a,Diagnosis label,Factual boundary distortion,diagnosis_composition.csv: factual_boundary_distortion
+a,Diagnosis share,44.9%,diagnosis_composition.csv: factual_boundary_distortion
+a,Diagnosis count,"19,130",diagnosis_composition.csv: factual_boundary_distortion
+a,Diagnosis label,Inferential inflation,diagnosis_composition.csv: inferential_inflation
+a,Diagnosis share,7.5%,diagnosis_composition.csv: inferential_inflation
+a,Diagnosis count,"3,193",diagnosis_composition.csv: inferential_inflation
+a,Diagnosis label,Unsupported novelty,diagnosis_composition.csv: unsupported_novelty
+a,Diagnosis share,4.0%,diagnosis_composition.csv: unsupported_novelty
+a,Diagnosis count,"1,698",diagnosis_composition.csv: unsupported_novelty
+b,Evidence stage,Supplied evidence · source year 2019,case_evidence.json: wartsila.supplied_card
+b,Supplied evidence quotation,"“Wärtsilä uses an online solution for supply
+chain risk identification, assessment, and
+monitoring.”",case_evidence.json: wartsila.display_card_excerpt
+b,Source locator,"Annual Report 2019, p. 132 · Evidence 7",original_source_checks.json: wartsila
+b,Disclosure stage,Extracted disclosure claim · target 2022,case_evidence.json: wartsila.target_year
+b,DC quotation,"“Wärtsilä uses an online solution for
+supply-chain risk identification.”",case_evidence.json: wartsila.dc_text
+b,Task,G1-2 · Supplier relationships,case_evidence.json: wartsila.task
+b,Disputed boundary,"Temporal
+carry-forward",Editorial label or bounded interpretation; see FIGURE_CONTRACT.md
+b,Recorded automatic diagnosis,BACE diagnosis: Factual boundary distortion,case_evidence.json: wartsila.diagnosis
+b,Interpretation limit,Historical evidence does not establish discontinuation of the practice.,case_evidence.json: wartsila.interpretation_limit
+c,Disclosure stage,Extracted DC (target 2019):,case_evidence.json: asml.target_year
+c,DC quotation,“ASML's Scope 1 footprint has historically been defined as emissions from purchased CO₂.”,case_evidence.json: asml.dc_text
+c,Original-source stage,Original glossary rows · typeset transcription,Editorial label or bounded interpretation; see FIGURE_CONTRACT.md
+c,Source locator,"ASML Integrated Report 2018, p. 209 (PDF p. 216)",original_source_checks.json: asml
+c,EC stage,Selected candidate evidence claim,Editorial label or bounded interpretation; see FIGURE_CONTRACT.md
+c,EC provenance,Extracted from the flattened supplied card,case_evidence.json: asml.selected_ec_id
+c,Original glossary term,"CO₂ footprint –
+direct scope 1",original_source_checks.json: asml.glossary_rows
+c,Original glossary description,"Consists of the combustion of natural gas and
+purchased CO₂",original_source_checks.json: asml.glossary_rows
+c,Original glossary term,"CO₂ footprint –
+indirect scope 2",original_source_checks.json: asml.glossary_rows
+c,Original glossary description,"Calculated by multiplying electricity
+consumptions of the manufacturing locations by
+the local conversion factors",original_source_checks.json: asml.glossary_rows
+c,Selected EC quotation,"“According to ASML's 2018 annual report,
+ASML's direct Scope 1 CO₂ footprint is
+calculated by multiplying electricity
+consumption at its manufacturing locations by
+local conversion factors.”",case_evidence.json: asml.selected_ec_text
+c,Source transformation,"Text
+extraction",Editorial label or bounded interpretation; see FIGURE_CONTRACT.md
+c,Recorded diagnosis and source check,BACE: Contradiction. Source check: electricity belongs to Scope 2.,case_evidence.json: asml.diagnosis; original_source_checks.json: asml.glossary_rows
+c,Interpretation limit,The source challenges the rationale; it does not validate the full disclosure.,case_evidence.json: asml.interpretation_limit

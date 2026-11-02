@@ -1,0 +1,9 @@
+framework,bace_supported,external_supported,pairs,share_of_matched_pairs_percent
+ragas,True,True,3354,58.74934314240673
+ragas,True,False,30,0.5254860746190226
+ragas,False,True,2010,35.207566999474516
+ragas,False,False,315,5.517603783499737
+ragchecker,True,True,775,58.84586180713743
+ragchecker,True,False,8,0.6074411541381929
+ragchecker,False,True,500,37.96507213363705
+ragchecker,False,False,34,2.5816249050873195

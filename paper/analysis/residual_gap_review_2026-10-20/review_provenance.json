@@ -1,0 +1,40 @@
+{
+  "completed_at_utc": "2026-10-20T19:25:27.360092+00:00",
+  "script_sha256": "1b79dc92f2dc12353b3014c6535d1b490829b19bbfda1e6effb6a542b520acb4",
+  "review_assessments_sha256": "e23a3ae49bb9b4d271f8475e8c69cc052bb094474d2e6b59756fc480f78a68be",
+  "selection_provenance_sha256": "7fb2fada2f36b186ba4083d86b907006c67d0aea6b441a0a203df5634f6a33e3",
+  "boundary_sensitivity_input": {
+    "path": "paper/analysis/support_gap_composition_2026-10-20/boundary_sensitivity/results.json",
+    "sha256": "b097ed07327aebc74a751bd1ad55d0e64500a4da10ca593de259118a7e716998"
+  },
+  "verification": "All packet hashes, 18 unique review IDs, exact supplied-card quotes, missing final-EC provenance and review outcome arithmetic.",
+  "command": "python paper/analysis/residual_gap_review_2026-10-20/finalize_review.py",
+  "output_sha256": {
+    "review_ledger.csv": "1e2fc25f140ef305bd417604ca81423e5dd0dea386d3f9d8446fa0a86f9f5be7",
+    "source_passages.csv": "f3ab487745b8187ed63abef12d4a10644b7866de16f1f5e4152f464ffe10942c",
+    "missing_ec_anchor_audit.csv": "589fa511491a3a6a2c57d53074b04ca097b431e792f5e25a166c1b934e697fce",
+    "remaining_disagreement_composition.csv": "4d4bd92de6451e0ee9b7421e2f5659efd1ae7cc3535650c647ce8331d19133e2",
+    "results.json": "3fa57aae008ec0a752ea7471a356083fbd46624efe5a4bb1484dea86715ca6aa",
+    "REPORT.md": "ba4a03e308035d6d1478328d495b26b1d2cbb203b26faa1d4696b4973cedcd42"
+  },
+  "per_case_report_sha256": {
+    "R01.md": "6e638a9170117d90f66bc1bf74b6f328fa3c7a51016f84e9c59dd60721e01799",
+    "R02.md": "d7c4e53b52314e42b2cb1bae51daa09fb252bcc4a336f9ebf786da836490122a",
+    "R03.md": "bc2021059a5b080a9f4ab6020013f616886725f6cddbb463e4335c6d948024a6",
+    "R04.md": "6ec8d211e0bda26614299b945ae3e18de56697cf3390aa9297dd93de5a14736f",
+    "R05.md": "f4856df7dea5396316704567633aefd6593ebf52cbf09ac50371154f0f902c90",
+    "R06.md": "6c7044f3bee201ca026440ecd3324e79ac9ab3b6fcb21b0e857dbcff97e3b200",
+    "R07.md": "18e4bff8287dbb1fb31f7c55dba4c3c89c7977ab4787c2ee45c474d0f21aca1f",
+    "R08.md": "3bf266cb4c16ad732ce2c8bb4355b6c73e1ea61937328863607d101a579346ee",
+    "R09.md": "4070b7ec16348dabc6d6dfb6f932e5ab3cdaca95f8de1b620d3e9f57ac2061e2",
+    "R10.md": "9c208ea0da23a7b07021305e5c8405f6e64eb7b0c08ab55d6a2f950afd193d9f",
+    "R11.md": "a3aef4e82d3188612a6cf117bf295bb7e2f4017f62c47d92aa3aa4096b9e9e3a",
+    "R12.md": "ba03891bd45742e391c83dc009e2d5338fb860de89126a26e354a4766d97cb39",
+    "R13.md": "8a889266d2a54774fdd6fb7374439dd1c2be4b448dd09389012b1fa33fafff53",
+    "R14.md": "f501031ffcb9a140be783532731937cad1c9bbccf03070b525ae1241bc179c54",
+    "R15.md": "ad695432bc4bfe580f587a56f464ec23887d1b6cade435d6afb5d1a763b72a54",
+    "R16.md": "941a38fcff825fb2cb68cb1d794a3b4b3adec90cd2dbc3effd916a8dcf33f8ce",
+    "R17.md": "561e178914144894684d2f2e6a8e3b53cbe5868423aa6e318c36683949ce901d",
+    "R18.md": "72e749415254014fc3dd6a2e4786f8c16e41ff91b9528a0765e5c9f37a60f1e6"
+  }
+}

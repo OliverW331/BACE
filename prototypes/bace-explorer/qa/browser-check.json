@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "edgeCount": 25,
+  "desktopOverflow": false,
+  "narrowOverflow": false,
+  "errors": [],
+  "geometry": [
+    {
+      "class": "graph-board",
+      "rect": {
+        "x": 31,
+        "y": 111,
+        "width": 1633,
+        "height": 535,
+        "top": 111,
+        "right": 1664,
+        "bottom": 646,
+        "left": 31
+      }
+    },
+    {
+      "class": "graph-column disclosure-column",
+      "rect": {
+        "x": 55,
+        "y": 111,
+        "width": 431.515625,
+        "height": 519,
+        "top": 111,
+        "right": 486.515625,
+        "bottom": 630,
+        "left": 55
+      }
+    },
+    {
+      "class": "disclosure-paper",
+      "rect": {
+        "x": 55,
+        "y": 177,
+        "width": 431.515625,
+        "height": 310.75,
+        "top": 177,
+        "right": 486.515625,
+        "bottom": 487.75,
+        "left": 55
+      }
+    },
+    {
+      "class": "graph-column dc-column",
+      "rect": {
+        "x": 605.15625,
+        "y": 111,
+        "width": 217.234375,
+        "height": 519,
+        "top": 111,
+        "right": 822.390625,
+        "bottom": 630,
+        "left": 605.15625
+      }
+    },
+    {
+      "class": "graph-column ec-column",
+      "rect": {
+        "x": 941.03125,
+        "y": 111,
+        "width": 217.25,
+        "height": 519,
+        "top": 111,
+        "right": 1158.28125,
+        "bottom": 630,
+        "left": 941.03125
+      }
+    },
+    {
+      "class": "graph-column evidence-column",
+      "rect": {
+        "x": 1276.921875,
+        "y": 111,
+        "width": 363.0625,
+        "height": 519,
+        "top": 111,
+        "right": 1639.984375,
+        "bottom": 630,
+        "left": 1276.921875
+      }
+    }
+  ],
+  "checks": [
+    "Verbatim original source and paragraph structure",
+    "Inline passage-to-DC selection",
+    "Expanded reading and selection preservation",
+    "Narrow reader and source passage scrolling",
+    "Transient hover and pinned-state restoration",
+    "View details at a shorter viewport",
+    "DC-to-EC highlighting",
+    "Source-to-DC reverse highlighting",
+    "Exact support-set focus",
+    "Unused EC remains reachable",
+    "Diagnosis shown at DC level",
+    "Empty-candidate DC is reachable",
+    "Support-only filter",
+    "Reset",
+    "Escape",
+    "Zoom and fit"
+  ]
+}

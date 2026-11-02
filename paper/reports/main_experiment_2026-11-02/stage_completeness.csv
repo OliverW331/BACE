@@ -1,0 +1,11 @@
+stage,completed,planned
+stage_generation,1800,1800
+stage_direct,1799,1800
+stage_integrated,1798,1800
+stage_atomic,1798,1800
+stage_dedup,1798,1800
+stage_candidates,1798,1800
+stage_support,1798,1800
+stage_diagnosis,1798,1800
+stage_ragchecker,1800,1800
+stage_ragas,1800,1800

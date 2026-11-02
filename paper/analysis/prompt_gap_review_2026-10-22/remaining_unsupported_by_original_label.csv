@@ -1,0 +1,17 @@
+condition,original_bace_label,claims,denominator,share
+ragas_style,contradiction,31,35672,0.0008690289302534201
+ragas_style,direct,4135,35672,0.11591724601928684
+ragas_style,evidence_conflation,6422,35672,0.18002915451895043
+ragas_style,factual_boundary_distortion,14902,35672,0.4177506167302086
+ragas_style,inferential_inflation,1804,35672,0.050571877102489345
+ragas_style,inferred,1368,35672,0.03834940569634447
+ragas_style,non_disclosure_statement,5313,35672,0.1489403453689168
+ragas_style,unsupported_novelty,1697,35672,0.04757232563355012
+ragchecker_style,contradiction,33,38195,0.0008639874329100667
+ragchecker_style,direct,4335,38195,0.11349653095954967
+ragchecker_style,evidence_conflation,7349,38195,0.1924073831653358
+ragchecker_style,factual_boundary_distortion,15354,38195,0.40198978923942924
+ragchecker_style,inferential_inflation,2003,38195,0.05244141903390496
+ragchecker_style,inferred,1628,38195,0.04262338002356329
+ragchecker_style,non_disclosure_statement,5796,38195,0.15174761094384082
+ragchecker_style,unsupported_novelty,1697,38195,0.04442989920146616

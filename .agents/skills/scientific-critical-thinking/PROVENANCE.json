@@ -1,0 +1,30 @@
+{
+  "name": "scientific-critical-thinking",
+  "upstream_path": "skills/scientific-critical-thinking",
+  "source": "K-Dense-AI/scientific-agent-skills",
+  "commit": "065b734670d7d990627dbc06a05b5a99be33f1f1",
+  "commit_date": "2026-09-28T09:31:55Z",
+  "retrieval_date": "2026-09-29",
+  "upstream_skill_sha256": "b77ba9ed1872d85d804125a339e2038984052e7aaf3616813ab79f5ad91c0558",
+  "archive_sha256": "ebdf3e0bd0ccf9b639a7bafc36dd1e3107183de330b4724b0edb46604eda3228",
+  "license": "MIT",
+  "installed_path": "/home/muwang/master_thesis/.agents/skills/scientific-critical-thinking",
+  "invocation": "$scientific-critical-thinking",
+  "mode": "reviewed English instruction adaptation",
+  "included_upstream_helpers": [],
+  "status": "VERIFIED_PROJECT_ADAPTER",
+  "installed_files_sha256": {
+    "SKILL.md": "5947c8d3d4902b00676fbbd3246a1f15228af5f5b47cd0b9f27a36c02d0dc506",
+    "LICENSE.md": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1",
+    "agents/openai.yaml": "1782f54e6352fa4d31aa15b45571fc969fdf809262e5b6d7eb93e744e6becc50"
+  },
+  "modified_upstream_helpers": [],
+  "verification": {
+    "codex_discovery": true,
+    "schema_validation": true,
+    "bounded_instruction_invocation": true,
+    "behavioral_test_context": "six paired synthetic workflows in one separate evaluation context",
+    "full_upstream_runtime_installed": false,
+    "scientific_results_validated": false
+  }
+}
