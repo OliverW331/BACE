@@ -1,0 +1,5233 @@
+type,characters,count
+CSV metric,233,521
+CSV metric,220,338
+CSV metric,227,541
+CSV metric,184,343
+CSV metric,186,471
+CSV metric,254,241
+CSV metric,168,178
+CSV metric,261,194
+CSV metric,258,263
+CSV metric,225,416
+CSV metric,246,506
+CSV metric,172,241
+CSV metric,182,228
+CSV metric,230,587
+CSV metric,228,488
+CSV metric,243,451
+CSV metric,200,493
+CSV metric,242,518
+CSV metric,170,258
+CSV metric,188,455
+CSV metric,199,532
+CSV metric,151,32
+CSV metric,313,33
+CSV metric,231,643
+CSV metric,191,427
+CSV metric,185,438
+CSV metric,241,585
+CSV metric,187,514
+CSV metric,244,567
+CSV metric,250,308
+CSV metric,175,215
+CSV metric,224,390
+CSV metric,257,360
+CSV metric,210,539
+CSV metric,208,548
+CSV metric,167,184
+CSV metric,195,402
+CSV metric,203,416
+CSV metric,197,640
+CSV metric,205,519
+CSV metric,189,520
+CSV metric,164,130
+CSV metric,239,414
+CSV metric,240,480
+CSV metric,207,466
+CSV metric,221,404
+CSV metric,202,457
+CSV metric,183,320
+CSV metric,206,391
+CSV metric,176,254
+CSV metric,209,533
+CSV metric,255,343
+CSV metric,160,143
+CSV metric,317,30
+CSV metric,198,683
+CSV metric,248,367
+CSV metric,267,158
+CSV metric,219,371
+CSV metric,213,402
+CSV metric,194,435
+CSV metric,260,278
+CSV metric,153,31
+CSV metric,201,464
+CSV metric,180,260
+CSV metric,232,619
+CSV metric,157,59
+CSV metric,369,6
+CSV metric,229,549
+CSV metric,256,262
+CSV metric,148,7
+CSV metric,217,371
+CSV metric,158,69
+CSV metric,159,118
+CSV metric,305,45
+CSV metric,238,427
+CSV metric,190,478
+CSV metric,262,202
+CSV metric,174,227
+CSV metric,247,451
+CSV metric,181,299
+CSV metric,259,184
+CSV metric,177,278
+CSV metric,253,256
+CSV metric,149,51
+CSV metric,196,459
+CSV metric,293,71
+CSV metric,179,262
+CSV metric,223,324
+CSV metric,266,204
+CSV metric,204,491
+CSV metric,166,243
+CSV metric,237,451
+CSV metric,308,43
+CSV metric,192,404
+CSV metric,211,483
+CSV metric,165,164
+CSV metric,290,33
+CSV metric,215,380
+CSV metric,306,51
+CSV metric,245,443
+CSV metric,303,29
+CSV metric,222,376
+CSV metric,252,287
+CSV metric,173,133
+CSV metric,156,79
+CSV metric,234,569
+CSV metric,193,556
+CSV metric,284,42
+CSV metric,169,197
+CSV metric,273,101
+CSV metric,277,72
+CSV metric,281,83
+CSV metric,216,285
+CSV metric,269,191
+CSV metric,226,392
+CSV metric,327,9
+CSV metric,236,409
+CSV metric,379,16
+CSV metric,218,312
+CSV metric,294,40
+CSV metric,271,91
+CSV metric,285,48
+CSV metric,212,428
+CSV metric,251,257
+CSV metric,323,21
+CSV metric,299,39
+CSV metric,249,348
+CSV metric,214,356
+CSV metric,270,94
+CSV metric,178,243
+CSV metric,274,69
+CSV metric,235,452
+CSV metric,263,189
+CSV metric,295,46
+CSV metric,319,23
+CSV metric,276,88
+CSV metric,278,88
+CSV metric,282,41
+CSV metric,163,125
+CSV metric,315,59
+CSV metric,279,59
+CSV metric,275,36
+CSV metric,268,137
+CSV metric,171,225
+CSV metric,162,119
+CSV metric,296,47
+CSV metric,272,121
+CSV metric,304,49
+CSV metric,283,47
+CSV metric,280,31
+CSV metric,292,78
+CSV metric,311,59
+CSV metric,310,42
+CSV metric,300,35
+CSV metric,353,5
+CSV metric,161,129
+CSV metric,297,56
+CSV metric,322,15
+CSV metric,320,19
+CSV metric,325,8
+CSV metric,309,50
+CSV metric,332,6
+CSV metric,321,20
+CSV metric,318,35
+CSV metric,291,55
+CSV metric,314,43
+CSV metric,264,170
+CSV metric,330,4
+CSV metric,265,180
+CSV metric,307,39
+CSV metric,155,79
+CSV metric,145,32
+CSV metric,150,53
+CSV metric,367,16
+CSV metric,286,25
+CSV metric,316,42
+CSV metric,154,66
+CSV metric,152,25
+CSV metric,147,9
+CSV metric,302,27
+CSV metric,388,1
+CSV metric,324,10
+CSV metric,288,34
+CSV metric,312,31
+CSV metric,372,16
+CSV metric,384,6
+CSV metric,301,23
+CSV metric,298,39
+CSV metric,371,26
+CSV metric,289,33
+CSV metric,346,4
+CSV metric,334,1
+CSV metric,342,3
+CSV metric,333,4
+CSV metric,354,4
+CSV metric,328,5
+CSV metric,347,1
+CSV metric,345,8
+CSV metric,343,2
+CSV metric,329,4
+CSV metric,338,3
+CSV metric,331,3
+CSV metric,339,7
+CSV metric,326,5
+CSV metric,340,4
+CSV metric,352,1
+CSV metric,287,28
+CSV metric,389,2
+CSV metric,377,5
+CSV metric,350,2
+CSV metric,146,13
+CSV metric,370,14
+CSV metric,383,14
+CSV metric,380,12
+CSV metric,366,16
+CSV metric,368,5
+CSV metric,378,20
+CSV metric,390,1
+CSV metric,374,4
+CSV metric,373,5
+CSV metric,365,4
+CSV metric,144,1
+CSV metric,143,2
+CSV metric,341,4
+PDF narrative,289,2210
+PDF narrative,270,1897
+PDF narrative,327,1747
+PDF narrative,315,1899
+PDF narrative,301,2179
+PDF narrative,287,2183
+PDF narrative,266,1778
+PDF narrative,341,1440
+PDF narrative,373,1153
+PDF narrative,291,2259
+PDF narrative,324,1718
+PDF narrative,241,845
+PDF narrative,420,808
+PDF narrative,276,2092
+PDF narrative,260,1619
+PDF narrative,407,900
+PDF narrative,331,1600
+PDF narrative,475,624
+PDF narrative,416,807
+PDF narrative,588,391
+PDF narrative,250,1235
+PDF narrative,271,1963
+PDF narrative,549,454
+PDF narrative,906,95
+PDF narrative,506,543
+PDF narrative,361,1222
+PDF narrative,352,1456
+PDF narrative,383,1085
+PDF narrative,472,662
+PDF narrative,350,1338
+PDF narrative,363,1112
+PDF narrative,362,1281
+PDF narrative,343,1540
+PDF narrative,298,2169
+PDF narrative,318,1887
+PDF narrative,353,1330
+PDF narrative,360,1202
+PDF narrative,330,1697
+PDF narrative,365,1139
+PDF narrative,371,1140
+PDF narrative,303,2181
+PDF narrative,531,448
+PDF narrative,336,1529
+PDF narrative,593,346
+PDF narrative,705,237
+PDF narrative,872,118
+PDF narrative,574,432
+PDF narrative,607,372
+PDF narrative,414,792
+PDF narrative,458,700
+PDF narrative,568,413
+PDF narrative,398,885
+PDF narrative,541,441
+PDF narrative,580,398
+PDF narrative,537,465
+PDF narrative,483,548
+PDF narrative,789,175
+PDF narrative,618,358
+PDF narrative,405,850
+PDF narrative,633,324
+PDF narrative,524,511
+PDF narrative,242,903
+PDF narrative,556,409
+PDF narrative,623,307
+PDF narrative,377,1047
+PDF narrative,830,136
+PDF narrative,539,471
+PDF narrative,515,506
+PDF narrative,575,438
+PDF narrative,768,167
+PDF narrative,415,816
+PDF narrative,320,1757
+PDF narrative,866,112
+PDF narrative,454,670
+PDF narrative,314,1935
+PDF narrative,447,705
+PDF narrative,565,427
+PDF narrative,694,216
+PDF narrative,665,258
+PDF narrative,248,1179
+PDF narrative,445,770
+PDF narrative,432,760
+PDF narrative,382,1041
+PDF narrative,500,544
+PDF narrative,370,1019
+PDF narrative,285,2204
+PDF narrative,308,2055
+PDF narrative,258,1529
+PDF narrative,646,314
+PDF narrative,412,838
+PDF narrative,544,442
+PDF narrative,577,394
+PDF narrative,388,1020
+PDF narrative,638,301
+PDF narrative,278,2192
+PDF narrative,399,829
+PDF narrative,295,2222
+PDF narrative,393,904
+PDF narrative,288,2159
+PDF narrative,514,505
+PDF narrative,317,1967
+PDF narrative,359,1133
+PDF narrative,884,109
+PDF narrative,1018,60
+PDF narrative,418,847
+PDF narrative,429,754
+PDF narrative,503,576
+PDF narrative,508,559
+PDF narrative,666,298
+PDF narrative,307,1972
+PDF narrative,861,114
+PDF narrative,832,130
+PDF narrative,612,352
+PDF narrative,482,606
+PDF narrative,220,295
+PDF narrative,709,230
+PDF narrative,1356,46
+PDF narrative,728,256
+PDF narrative,597,330
+PDF narrative,827,141
+PDF narrative,1333,50
+PDF narrative,710,214
+PDF narrative,397,911
+PDF narrative,268,1874
+PDF narrative,247,1098
+PDF narrative,267,1843
+PDF narrative,366,1126
+PDF narrative,299,2160
+PDF narrative,421,806
+PDF narrative,332,1564
+PDF narrative,557,444
+PDF narrative,809,165
+PDF narrative,338,1527
+PDF narrative,386,1009
+PDF narrative,311,1995
+PDF narrative,476,584
+PDF narrative,670,270
+PDF narrative,548,414
+PDF narrative,644,349
+PDF narrative,488,562
+PDF narrative,878,122
+PDF narrative,450,679
+PDF narrative,282,2077
+PDF narrative,349,1439
+PDF narrative,510,511
+PDF narrative,323,1764
+PDF narrative,219,312
+PDF narrative,792,168
+PDF narrative,605,361
+PDF narrative,819,154
+PDF narrative,642,307
+PDF narrative,1518,60
+PDF narrative,667,263
+PDF narrative,322,1854
+PDF narrative,246,1057
+PDF narrative,281,2152
+PDF narrative,160,41
+PDF narrative,831,144
+PDF narrative,558,474
+PDF narrative,628,288
+PDF narrative,744,206
+PDF narrative,751,214
+PDF narrative,959,87
+PDF narrative,650,291
+PDF narrative,469,664
+PDF narrative,372,1130
+PDF narrative,339,1505
+PDF narrative,1362,48
+PDF narrative,505,553
+PDF narrative,369,1115
+PDF narrative,376,1016
+PDF narrative,342,1504
+PDF narrative,280,2244
+PDF narrative,473,579
+PDF narrative,491,561
+PDF narrative,553,431
+PDF narrative,1122,49
+PDF narrative,474,614
+PDF narrative,719,226
+PDF narrative,1081,58
+PDF narrative,465,624
+PDF narrative,275,2063
+PDF narrative,319,1846
+PDF narrative,609,326
+PDF narrative,527,544
+PDF narrative,310,1991
+PDF narrative,470,596
+PDF narrative,955,74
+PDF narrative,486,622
+PDF narrative,1030,78
+PDF narrative,1418,69
+PDF narrative,945,90
+PDF narrative,525,475
+PDF narrative,1024,89
+PDF narrative,1053,77
+PDF narrative,695,235
+PDF narrative,567,425
+PDF narrative,504,536
+PDF narrative,684,213
+PDF narrative,1146,56
+PDF narrative,803,158
+PDF narrative,599,366
+PDF narrative,1135,40
+PDF narrative,780,151
+PDF narrative,279,2144
+PDF narrative,431,750
+PDF narrative,869,123
+PDF narrative,410,841
+PDF narrative,1026,82
+PDF narrative,842,136
+PDF narrative,755,165
+PDF narrative,596,375
+PDF narrative,433,763
+PDF narrative,1165,50
+PDF narrative,977,83
+PDF narrative,839,139
+PDF narrative,374,1123
+PDF narrative,516,508
+PDF narrative,344,1414
+PDF narrative,312,1894
+PDF narrative,690,236
+PDF narrative,511,521
+PDF narrative,395,827
+PDF narrative,425,776
+PDF narrative,545,451
+PDF narrative,290,2116
+PDF narrative,406,973
+PDF narrative,627,315
+PDF narrative,963,86
+PDF narrative,259,1484
+PDF narrative,354,1295
+PDF narrative,758,158
+PDF narrative,876,109
+PDF narrative,351,1315
+PDF narrative,573,395
+PDF narrative,237,683
+PDF narrative,1027,63
+PDF narrative,345,1405
+PDF narrative,522,501
+PDF narrative,517,532
+PDF narrative,302,2042
+PDF narrative,297,2189
+PDF narrative,402,926
+PDF narrative,679,291
+PDF narrative,264,1774
+PDF narrative,442,724
+PDF narrative,348,1460
+PDF narrative,204,198
+PDF narrative,251,1194
+PDF narrative,478,610
+PDF narrative,273,1959
+PDF narrative,591,388
+PDF narrative,584,331
+PDF narrative,265,1795
+PDF narrative,619,335
+PDF narrative,262,1619
+PDF narrative,232,569
+PDF narrative,340,1509
+PDF narrative,637,296
+PDF narrative,1282,38
+PDF narrative,227,465
+PDF narrative,428,761
+PDF narrative,394,966
+PDF narrative,648,270
+PDF narrative,422,833
+PDF narrative,245,1039
+PDF narrative,192,140
+PDF narrative,296,2163
+PDF narrative,601,374
+PDF narrative,1274,55
+PDF narrative,731,215
+PDF narrative,523,494
+PDF narrative,441,684
+PDF narrative,438,780
+PDF narrative,306,2122
+PDF narrative,238,717
+PDF narrative,540,443
+PDF narrative,651,271
+PDF narrative,829,129
+PDF narrative,750,201
+PDF narrative,462,686
+PDF narrative,521,512
+PDF narrative,449,710
+PDF narrative,846,136
+PDF narrative,964,94
+PDF narrative,409,814
+PDF narrative,236,659
+PDF narrative,796,173
+PDF narrative,256,1412
+PDF narrative,604,328
+PDF narrative,613,342
+PDF narrative,255,1299
+PDF narrative,313,2008
+PDF narrative,284,2208
+PDF narrative,460,601
+PDF narrative,1073,55
+PDF narrative,392,969
+PDF narrative,940,100
+PDF narrative,451,728
+PDF narrative,493,585
+PDF narrative,396,1004
+PDF narrative,1008,76
+PDF narrative,513,604
+PDF narrative,518,499
+PDF narrative,436,715
+PDF narrative,569,380
+PDF narrative,466,602
+PDF narrative,424,791
+PDF narrative,740,199
+PDF narrative,937,79
+PDF narrative,554,441
+PDF narrative,427,792
+PDF narrative,401,871
+PDF narrative,512,539
+PDF narrative,457,660
+PDF narrative,844,141
+PDF narrative,530,491
+PDF narrative,337,1459
+PDF narrative,1028,66
+PDF narrative,347,1432
+PDF narrative,863,122
+PDF narrative,384,1073
+PDF narrative,620,316
+PDF narrative,1078,56
+PDF narrative,1172,39
+PDF narrative,1009,90
+PDF narrative,724,209
+PDF narrative,770,173
+PDF narrative,658,274
+PDF narrative,566,463
+PDF narrative,439,720
+PDF narrative,534,475
+PDF narrative,274,2030
+PDF narrative,781,171
+PDF narrative,243,871
+PDF narrative,309,2113
+PDF narrative,292,2125
+PDF narrative,498,612
+PDF narrative,335,1602
+PDF narrative,1861,1
+PDF narrative,358,1179
+PDF narrative,400,915
+PDF narrative,435,756
+PDF narrative,741,213
+PDF narrative,897,111
+PDF narrative,1004,72
+PDF narrative,956,102
+PDF narrative,487,601
+PDF narrative,838,125
+PDF narrative,1176,61
+PDF narrative,378,1060
+PDF narrative,463,635
+PDF narrative,1083,80
+PDF narrative,532,472
+PDF narrative,456,659
+PDF narrative,333,1623
+PDF narrative,720,237
+PDF narrative,244,944
+PDF narrative,551,467
+PDF narrative,269,1827
+PDF narrative,624,334
+PDF narrative,942,85
+PDF narrative,455,723
+PDF narrative,701,230
+PDF narrative,561,455
+PDF narrative,687,231
+PDF narrative,589,377
+PDF narrative,261,1741
+PDF narrative,461,655
+PDF narrative,300,2188
+PDF narrative,254,1336
+PDF narrative,1124,75
+PDF narrative,727,209
+PDF narrative,484,590
+PDF narrative,992,75
+PDF narrative,783,162
+PDF narrative,417,855
+PDF narrative,978,84
+PDF narrative,1322,47
+PDF narrative,1367,50
+PDF narrative,391,961
+PDF narrative,622,391
+PDF narrative,381,999
+PDF narrative,404,886
+PDF narrative,355,1256
+PDF narrative,286,2067
+PDF narrative,555,421
+PDF narrative,263,1745
+PDF narrative,328,1674
+PDF narrative,711,221
+PDF narrative,459,687
+PDF narrative,257,1327
+PDF narrative,321,1833
+PDF narrative,368,1108
+PDF narrative,252,1377
+PDF narrative,293,2194
+PDF narrative,305,2042
+PDF narrative,529,466
+PDF narrative,757,188
+PDF narrative,325,1734
+PDF narrative,966,95
+PDF narrative,272,2017
+PDF narrative,552,454
+PDF narrative,576,416
+PDF narrative,702,236
+PDF narrative,536,459
+PDF narrative,390,979
+PDF narrative,329,1692
+PDF narrative,240,748
+PDF narrative,880,117
+PDF narrative,1301,54
+PDF narrative,233,587
+PDF narrative,572,414
+PDF narrative,776,178
+PDF narrative,403,944
+PDF narrative,380,1067
+PDF narrative,446,718
+PDF narrative,836,145
+PDF narrative,856,126
+PDF narrative,662,266
+PDF narrative,546,492
+PDF narrative,499,576
+PDF narrative,700,257
+PDF narrative,798,156
+PDF narrative,379,1025
+PDF narrative,283,2126
+PDF narrative,316,1783
+PDF narrative,183,111
+PDF narrative,193,99
+PDF narrative,817,161
+PDF narrative,989,69
+PDF narrative,304,2063
+PDF narrative,277,2151
+PDF narrative,632,319
+PDF narrative,334,1616
+PDF narrative,357,1244
+PDF narrative,481,641
+PDF narrative,444,696
+PDF narrative,526,479
+PDF narrative,346,1432
+PDF narrative,216,259
+PDF narrative,519,482
+PDF narrative,610,345
+PDF narrative,583,379
+PDF narrative,698,244
+PDF narrative,199,148
+PDF narrative,367,1110
+PDF narrative,453,621
+PDF narrative,688,284
+PDF narrative,689,272
+PDF narrative,815,147
+PDF narrative,231,554
+PDF narrative,578,362
+PDF narrative,440,744
+PDF narrative,717,244
+PDF narrative,385,973
+PDF narrative,448,686
+PDF narrative,1629,43
+PDF narrative,682,263
+PDF narrative,434,755
+PDF narrative,74,44
+PDF narrative,234,626
+PDF narrative,714,221
+PDF narrative,635,313
+PDF narrative,603,363
+PDF narrative,685,257
+PDF narrative,1208,49
+PDF narrative,745,222
+PDF narrative,495,618
+PDF narrative,726,211
+PDF narrative,886,109
+PDF narrative,419,842
+PDF narrative,598,374
+PDF narrative,659,297
+PDF narrative,564,396
+PDF narrative,1039,65
+PDF narrative,490,600
+PDF narrative,752,188
+PDF narrative,614,380
+PDF narrative,1261,42
+PDF narrative,1539,55
+PDF narrative,932,121
+PDF narrative,999,81
+PDF narrative,507,537
+PDF narrative,891,117
+PDF narrative,621,327
+PDF narrative,788,154
+PDF narrative,579,383
+PDF narrative,683,231
+PDF narrative,661,266
+PDF narrative,749,177
+PDF narrative,833,192
+PDF narrative,663,295
+PDF narrative,887,126
+PDF narrative,636,305
+PDF narrative,586,379
+PDF narrative,520,500
+PDF narrative,617,345
+PDF narrative,375,1060
+PDF narrative,464,661
+PDF narrative,692,251
+PDF narrative,326,1675
+PDF narrative,600,366
+PDF narrative,615,372
+PDF narrative,389,931
+PDF narrative,816,167
+PDF narrative,645,294
+PDF narrative,681,281
+PDF narrative,387,948
+PDF narrative,660,281
+PDF narrative,571,401
+PDF narrative,1439,68
+PDF narrative,879,113
+PDF narrative,840,162
+PDF narrative,834,131
+PDF narrative,854,118
+PDF narrative,413,857
+PDF narrative,931,109
+PDF narrative,759,198
+PDF narrative,793,130
+PDF narrative,602,357
+PDF narrative,680,258
+PDF narrative,408,839
+PDF narrative,851,138
+PDF narrative,1469,65
+PDF narrative,656,304
+PDF narrative,479,589
+PDF narrative,411,874
+PDF narrative,791,130
+PDF narrative,629,328
+PDF narrative,818,163
+PDF narrative,986,91
+PDF narrative,1102,74
+PDF narrative,1311,54
+PDF narrative,497,558
+PDF narrative,674,266
+PDF narrative,739,202
+PDF narrative,1161,40
+PDF narrative,737,219
+PDF narrative,608,372
+PDF narrative,790,168
+PDF narrative,862,119
+PDF narrative,492,579
+PDF narrative,1015,92
+PDF narrative,1156,52
+PDF narrative,654,291
+PDF narrative,1248,33
+PDF narrative,756,199
+PDF narrative,782,172
+PDF narrative,364,1190
+PDF narrative,211,206
+PDF narrative,253,1247
+PDF narrative,249,1164
+PDF narrative,733,202
+PDF narrative,489,580
+PDF narrative,807,161
+PDF narrative,1152,52
+PDF narrative,501,543
+PDF narrative,1215,41
+PDF narrative,912,110
+PDF narrative,563,412
+PDF narrative,224,404
+PDF narrative,559,404
+PDF narrative,691,252
+PDF narrative,835,127
+PDF narrative,718,237
+PDF narrative,423,815
+PDF narrative,496,594
+PDF narrative,779,154
+PDF narrative,430,787
+PDF narrative,1007,80
+PDF narrative,467,660
+PDF narrative,939,85
+PDF narrative,742,183
+PDF narrative,634,334
+PDF narrative,587,404
+PDF narrative,655,311
+PDF narrative,799,153
+PDF narrative,647,310
+PDF narrative,729,226
+PDF narrative,716,228
+PDF narrative,509,514
+PDF narrative,673,256
+PDF narrative,713,239
+PDF narrative,678,257
+PDF narrative,437,752
+PDF narrative,1387,47
+PDF narrative,294,2147
+PDF narrative,1072,55
+PDF narrative,1023,63
+PDF narrative,930,92
+PDF narrative,426,793
+PDF narrative,825,164
+PDF narrative,1253,42
+PDF narrative,477,608
+PDF narrative,859,111
+PDF narrative,468,647
+PDF narrative,686,219
+PDF narrative,1225,38
+PDF narrative,1037,66
+PDF narrative,1221,33
+PDF narrative,1043,64
+PDF narrative,570,378
+PDF narrative,585,392
+PDF narrative,1132,65
+PDF narrative,1114,66
+PDF narrative,1181,43
+PDF narrative,699,264
+PDF narrative,671,244
+PDF narrative,502,548
+PDF narrative,934,74
+PDF narrative,874,122
+PDF narrative,708,232
+PDF narrative,356,1295
+PDF narrative,616,327
+PDF narrative,712,230
+PDF narrative,480,629
+PDF narrative,669,263
+PDF narrative,1032,56
+PDF narrative,901,126
+PDF narrative,547,458
+PDF narrative,590,364
+PDF narrative,194,144
+PDF narrative,1216,46
+PDF narrative,722,235
+PDF narrative,951,80
+PDF narrative,625,348
+PDF narrative,582,423
+PDF narrative,452,652
+PDF narrative,1111,50
+PDF narrative,606,348
+PDF narrative,814,175
+PDF narrative,1586,79
+PDF narrative,631,304
+PDF narrative,485,608
+PDF narrative,824,158
+PDF narrative,765,178
+PDF narrative,804,183
+PDF narrative,196,108
+PDF narrative,226,467
+PDF narrative,707,254
+PDF narrative,766,214
+PDF narrative,735,223
+PDF narrative,1038,44
+PDF narrative,630,308
+PDF narrative,746,226
+PDF narrative,543,451
+PDF narrative,649,298
+PDF narrative,653,270
+PDF narrative,550,467
+PDF narrative,748,195
+PDF narrative,980,91
+PDF narrative,1040,74
+PDF narrative,769,192
+PDF narrative,786,173
+PDF narrative,562,415
+PDF narrative,592,335
+PDF narrative,533,476
+PDF narrative,494,565
+PDF narrative,1056,65
+PDF narrative,535,557
+PDF narrative,907,112
+PDF narrative,828,144
+PDF narrative,983,74
+PDF narrative,1019,76
+PDF narrative,207,194
+PDF narrative,164,60
+PDF narrative,652,265
+PDF narrative,761,180
+PDF narrative,865,97
+PDF narrative,664,266
+PDF narrative,706,242
+PDF narrative,960,84
+PDF narrative,725,236
+PDF narrative,703,260
+PDF narrative,471,557
+PDF narrative,677,264
+PDF narrative,1071,61
+PDF narrative,910,99
+PDF narrative,867,114
+PDF narrative,965,88
+PDF narrative,443,704
+PDF narrative,760,160
+PDF narrative,1355,47
+PDF narrative,1272,51
+PDF narrative,1057,62
+PDF narrative,169,65
+PDF narrative,1184,44
+PDF narrative,210,177
+PDF narrative,230,507
+PDF narrative,217,272
+PDF narrative,1252,53
+PDF narrative,1299,45
+PDF narrative,528,487
+PDF narrative,918,120
+PDF narrative,958,96
+PDF narrative,736,219
+PDF narrative,643,283
+PDF narrative,1196,52
+PDF narrative,626,291
+PDF narrative,774,190
+PDF narrative,734,215
+PDF narrative,892,120
+PDF narrative,1128,49
+PDF narrative,235,674
+PDF narrative,870,126
+PDF narrative,860,128
+PDF narrative,764,190
+PDF narrative,841,151
+PDF narrative,611,337
+PDF narrative,806,158
+PDF narrative,1045,74
+PDF narrative,239,771
+PDF narrative,191,100
+PDF narrative,1046,57
+PDF narrative,696,249
+PDF narrative,542,463
+PDF narrative,205,156
+PDF narrative,560,410
+PDF narrative,777,159
+PDF narrative,979,68
+PDF narrative,823,143
+PDF narrative,2051,1
+PDF narrative,1266,46
+PDF narrative,1195,53
+PDF narrative,166,60
+PDF narrative,943,82
+PDF narrative,885,125
+PDF narrative,948,81
+PDF narrative,732,189
+PDF narrative,229,511
+PDF narrative,811,141
+PDF narrative,763,193
+PDF narrative,1096,56
+PDF narrative,640,338
+PDF narrative,738,276
+PDF narrative,595,334
+PDF narrative,913,112
+PDF narrative,1061,54
+PDF narrative,1328,45
+PDF narrative,1733,4
+PDF narrative,715,222
+PDF narrative,218,332
+PDF narrative,785,159
+PDF narrative,730,196
+PDF narrative,1106,55
+PDF narrative,225,382
+PDF narrative,894,116
+PDF narrative,985,92
+PDF narrative,773,195
+PDF narrative,1011,74
+PDF narrative,805,158
+PDF narrative,188,93
+PDF narrative,172,52
+PDF narrative,213,216
+PDF narrative,1275,42
+PDF narrative,538,451
+PDF narrative,975,81
+PDF narrative,222,346
+PDF narrative,1178,54
+PDF narrative,919,121
+PDF narrative,1116,54
+PDF narrative,1155,49
+PDF narrative,1117,61
+PDF narrative,808,178
+PDF narrative,1145,54
+PDF narrative,1099,54
+PDF narrative,1238,37
+PDF narrative,1407,52
+PDF narrative,935,92
+PDF narrative,936,95
+PDF narrative,967,93
+PDF narrative,883,117
+PDF narrative,1048,54
+PDF narrative,668,269
+PDF narrative,875,119
+PDF narrative,215,256
+PDF narrative,1127,55
+PDF narrative,954,83
+PDF narrative,767,208
+PDF narrative,1136,53
+PDF narrative,1465,64
+PDF narrative,775,169
+PDF narrative,1267,39
+PDF narrative,962,86
+PDF narrative,1212,37
+PDF narrative,2367,1
+PDF narrative,704,233
+PDF narrative,672,228
+PDF narrative,899,117
+PDF narrative,871,116
+PDF narrative,228,454
+PDF narrative,921,124
+PDF narrative,873,118
+PDF narrative,1169,35
+PDF narrative,1198,57
+PDF narrative,821,165
+PDF narrative,949,102
+PDF narrative,581,416
+PDF narrative,889,129
+PDF narrative,837,120
+PDF narrative,200,138
+PDF narrative,993,85
+PDF narrative,754,225
+PDF narrative,928,104
+PDF narrative,1092,58
+PDF narrative,1097,53
+PDF narrative,1003,96
+PDF narrative,826,162
+PDF narrative,1235,49
+PDF narrative,675,268
+PDF narrative,848,143
+PDF narrative,800,106
+PDF narrative,853,108
+PDF narrative,1302,40
+PDF narrative,855,144
+PDF narrative,1555,61
+PDF narrative,1130,64
+PDF narrative,971,75
+PDF narrative,221,308
+PDF narrative,927,87
+PDF narrative,1180,38
+PDF narrative,1089,54
+PDF narrative,778,203
+PDF narrative,1544,69
+PDF narrative,1158,42
+PDF narrative,902,100
+PDF narrative,1352,37
+PDF narrative,1404,61
+PDF narrative,1082,68
+PDF narrative,888,129
+PDF narrative,1055,59
+PDF narrative,950,81
+PDF narrative,984,87
+PDF narrative,641,334
+PDF narrative,981,81
+PDF narrative,1324,58
+PDF narrative,145,58
+PDF narrative,1453,59
+PDF narrative,1133,65
+PDF narrative,657,302
+PDF narrative,721,218
+PDF narrative,1300,63
+PDF narrative,753,185
+PDF narrative,594,385
+PDF narrative,1090,59
+PDF narrative,976,95
+PDF narrative,852,132
+PDF narrative,896,91
+PDF narrative,801,161
+PDF narrative,900,111
+PDF narrative,2054,2
+PDF narrative,1084,65
+PDF narrative,71,24
+PDF narrative,2372,3
+PDF narrative,154,43
+PDF narrative,693,269
+PDF narrative,203,160
+PDF narrative,747,193
+PDF narrative,795,183
+PDF narrative,923,125
+PDF narrative,1058,89
+PDF narrative,1243,30
+PDF narrative,1157,51
+PDF narrative,201,155
+PDF narrative,1209,44
+PDF narrative,1442,59
+PDF narrative,223,355
+PDF narrative,1279,43
+PDF narrative,771,159
+PDF narrative,1150,49
+PDF narrative,1162,39
+PDF narrative,850,139
+PDF narrative,1401,53
+PDF narrative,1079,68
+PDF narrative,858,129
+PDF narrative,1364,55
+PDF narrative,1075,60
+PDF narrative,787,165
+PDF narrative,676,269
+PDF narrative,1426,61
+PDF narrative,938,96
+PDF narrative,813,148
+PDF narrative,915,109
+PDF narrative,895,120
+PDF narrative,916,111
+PDF narrative,847,135
+PDF narrative,1120,59
+PDF narrative,1080,71
+PDF narrative,723,221
+PDF narrative,822,154
+PDF narrative,762,188
+PDF narrative,697,239
+PDF narrative,911,98
+PDF narrative,1492,75
+PDF narrative,1201,56
+PDF narrative,92,29
+PDF narrative,2476,1
+PDF narrative,639,288
+PDF narrative,868,117
+PDF narrative,812,163
+PDF narrative,1068,63
+PDF narrative,998,65
+PDF narrative,784,148
+PDF narrative,1000,91
+PDF narrative,1036,62
+PDF narrative,1191,50
+PDF narrative,173,62
+PDF narrative,849,125
+PDF narrative,946,73
+PDF narrative,1228,45
+PDF narrative,898,95
+PDF narrative,797,159
+PDF narrative,1504,65
+PDF narrative,171,61
+PDF narrative,1605,46
+PDF narrative,877,123
+PDF narrative,1214,53
+PDF narrative,1335,42
+PDF narrative,1359,51
+PDF narrative,982,82
+PDF narrative,810,156
+PDF narrative,743,177
+PDF narrative,1276,47
+PDF narrative,1242,42
+PDF narrative,903,114
+PDF narrative,1182,65
+PDF narrative,991,85
+PDF narrative,1400,69
+PDF narrative,1177,45
+PDF narrative,1153,54
+PDF narrative,1549,69
+PDF narrative,1260,54
+PDF narrative,77,32
+PDF narrative,845,138
+PDF narrative,184,78
+PDF narrative,1002,84
+PDF narrative,105,27
+PDF narrative,124,278
+PDF narrative,881,102
+PDF narrative,820,133
+PDF narrative,214,224
+PDF narrative,185,80
+PDF narrative,209,210
+PDF narrative,1054,75
+PDF narrative,1360,42
+PDF narrative,1041,67
+PDF narrative,1264,61
+PDF narrative,1166,47
+PDF narrative,1619,46
+PDF narrative,179,59
+PDF narrative,1603,48
+PDF narrative,1104,46
+PDF narrative,941,118
+PDF narrative,1353,44
+PDF narrative,1016,54
+PDF narrative,1076,71
+PDF narrative,922,74
+PDF narrative,772,169
+PDF narrative,970,129
+PDF narrative,1123,37
+PDF narrative,968,87
+PDF narrative,1085,48
+PDF narrative,212,227
+PDF narrative,1540,80
+PDF narrative,924,116
+PDF narrative,93,22
+PDF narrative,1211,54
+PDF narrative,1014,78
+PDF narrative,1093,55
+PDF narrative,914,112
+PDF narrative,1542,66
+PDF narrative,1005,66
+PDF narrative,143,93
+PDF narrative,1537,62
+PDF narrative,1522,82
+PDF narrative,1610,48
+PDF narrative,91,33
+PDF narrative,1675,27
+PDF narrative,1463,59
+PDF narrative,1526,78
+PDF narrative,1571,65
+PDF narrative,1422,51
+PDF narrative,1524,63
+PDF narrative,1597,48
+PDF narrative,1493,77
+PDF narrative,1491,72
+PDF narrative,1455,71
+PDF narrative,1444,57
+PDF narrative,1519,62
+PDF narrative,1506,73
+PDF narrative,1572,52
+PDF narrative,1568,56
+PDF narrative,1512,72
+PDF narrative,1690,26
+PDF narrative,125,44
+PDF narrative,1445,62
+PDF narrative,1477,69
+PDF narrative,1516,59
+PDF narrative,1567,50
+PDF narrative,1321,53
+PDF narrative,1573,60
+PDF narrative,134,46
+PDF narrative,122,46
+PDF narrative,1277,43
+PDF narrative,1347,50
+PDF narrative,87,20
+PDF narrative,1534,68
+PDF narrative,1538,68
+PDF narrative,1489,62
+PDF narrative,1447,71
+PDF narrative,1197,41
+PDF narrative,1486,63
+PDF narrative,1066,68
+PDF narrative,1025,66
+PDF narrative,1508,56
+PDF narrative,81,371
+PDF narrative,1520,81
+PDF narrative,1411,58
+PDF narrative,1502,71
+PDF narrative,1525,74
+PDF narrative,1557,75
+PDF narrative,54,28
+PDF narrative,1414,66
+PDF narrative,1655,42
+PDF narrative,1345,40
+PDF narrative,1498,71
+PDF narrative,111,37
+PDF narrative,72,16
+PDF narrative,1496,68
+PDF narrative,1409,47
+PDF narrative,1591,43
+PDF narrative,1806,6
+PDF narrative,1470,53
+PDF narrative,162,51
+PDF narrative,136,35
+PDF narrative,1527,77
+PDF narrative,1665,24
+PDF narrative,1105,52
+PDF narrative,1723,20
+PDF narrative,1667,35
+PDF narrative,1569,59
+PDF narrative,68,13
+PDF narrative,1705,26
+PDF narrative,109,22
+PDF narrative,1583,67
+PDF narrative,1354,58
+PDF narrative,1674,27
+PDF narrative,1012,74
+PDF narrative,1218,47
+PDF narrative,1289,51
+PDF narrative,1098,58
+PDF narrative,1326,30
+PDF narrative,1545,75
+PDF narrative,1316,50
+PDF narrative,1381,46
+PDF narrative,1336,40
+PDF narrative,117,28
+PDF narrative,1307,39
+PDF narrative,969,76
+PDF narrative,961,100
+PDF narrative,1060,68
+PDF narrative,1305,54
+PDF narrative,98,22
+PDF narrative,1628,35
+PDF narrative,1738,12
+PDF narrative,1683,28
+PDF narrative,1334,34
+PDF narrative,51,31
+PDF narrative,1620,51
+PDF narrative,1471,58
+PDF narrative,1566,63
+PDF narrative,1168,45
+PDF narrative,1551,68
+PDF narrative,1529,53
+PDF narrative,1577,45
+PDF narrative,1478,74
+PDF narrative,1375,47
+PDF narrative,1626,46
+PDF narrative,1600,57
+PDF narrative,1357,66
+PDF narrative,1584,42
+PDF narrative,1556,61
+PDF narrative,1361,37
+PDF narrative,1306,46
+PDF narrative,2110,2
+PDF narrative,1547,60
+PDF narrative,1592,64
+PDF narrative,1234,48
+PDF narrative,1517,75
+PDF narrative,1499,57
+PDF narrative,82,40
+PDF narrative,1393,42
+PDF narrative,1202,50
+PDF narrative,1398,66
+PDF narrative,94,17
+PDF narrative,1543,65
+PDF narrative,1220,55
+PDF narrative,106,39
+PDF narrative,1704,18
+PDF narrative,1505,72
+PDF narrative,1295,52
+PDF narrative,1142,52
+PDF narrative,1292,50
+PDF narrative,1468,66
+PDF narrative,1602,48
+PDF narrative,1759,10
+PDF narrative,908,117
+PDF narrative,1013,92
+PDF narrative,1657,33
+PDF narrative,1193,49
+PDF narrative,1697,27
+PDF narrative,1244,44
+PDF narrative,170,38
+PDF narrative,181,83
+PDF narrative,1313,39
+PDF narrative,1642,36
+PDF narrative,1171,44
+PDF narrative,1405,52
+PDF narrative,1020,66
+PDF narrative,1412,45
+PDF narrative,1044,63
+PDF narrative,131,28
+PDF narrative,1314,50
+PDF narrative,1625,44
+PDF narrative,1632,47
+PDF narrative,1006,71
+PDF narrative,933,66
+PDF narrative,2317,1
+PDF narrative,1618,61
+PDF narrative,1283,55
+PDF narrative,150,40
+PDF narrative,1703,22
+PDF narrative,1593,39
+PDF narrative,1325,44
+PDF narrative,926,103
+PDF narrative,1523,64
+PDF narrative,1415,63
+PDF narrative,1396,62
+PDF narrative,1552,70
+PDF narrative,1433,54
+PDF narrative,1611,50
+PDF narrative,1363,61
+PDF narrative,1239,52
+PDF narrative,1371,50
+PDF narrative,1559,44
+PDF narrative,1194,42
+PDF narrative,1513,81
+PDF narrative,1438,69
+PDF narrative,1167,40
+PDF narrative,1379,55
+PDF narrative,1481,74
+PDF narrative,1222,53
+PDF narrative,99,110
+PDF narrative,1443,60
+PDF narrative,1368,51
+PDF narrative,89,19
+PDF narrative,1607,54
+PDF narrative,1113,57
+PDF narrative,1501,76
+PDF narrative,197,132
+PDF narrative,1395,54
+PDF narrative,186,86
+PDF narrative,1580,56
+PDF narrative,1263,48
+PDF narrative,97,39
+PDF narrative,1533,72
+PDF narrative,1652,39
+PDF narrative,1563,58
+PDF narrative,1668,28
+PDF narrative,1637,29
+PDF narrative,1330,38
+PDF narrative,1609,46
+PDF narrative,1452,60
+PDF narrative,1662,30
+PDF narrative,1270,38
+PDF narrative,1589,53
+PDF narrative,1441,63
+PDF narrative,1139,41
+PDF narrative,56,21
+PDF narrative,1631,40
+PDF narrative,1284,37
+PDF narrative,1144,57
+PDF narrative,157,47
+PDF narrative,1617,48
+PDF narrative,151,51
+PDF narrative,1249,41
+PDF narrative,857,152
+PDF narrative,917,98
+PDF narrative,802,160
+PDF narrative,1064,59
+PDF narrative,1599,63
+PDF narrative,1715,13
+PDF narrative,1062,48
+PDF narrative,957,80
+PDF narrative,1021,70
+PDF narrative,1031,61
+PDF narrative,1515,63
+PDF narrative,1388,55
+PDF narrative,1488,64
+PDF narrative,1384,50
+PDF narrative,1385,65
+PDF narrative,50,20
+PDF narrative,2425,1
+PDF narrative,1391,46
+PDF narrative,1108,60
+PDF narrative,2070,1
+PDF narrative,952,93
+PDF narrative,1565,64
+PDF narrative,2446,1
+PDF narrative,198,120
+PDF narrative,1623,44
+PDF narrative,1562,79
+PDF narrative,1564,45
+PDF narrative,1436,60
+PDF narrative,103,28
+PDF narrative,1475,55
+PDF narrative,1175,60
+PDF narrative,995,70
+PDF narrative,1696,22
+PDF narrative,1495,69
+PDF narrative,1304,44
+PDF narrative,1034,70
+PDF narrative,1575,54
+PDF narrative,64,20
+PDF narrative,1510,60
+PDF narrative,70,23
+PDF narrative,1473,78
+PDF narrative,997,64
+PDF narrative,182,75
+PDF narrative,1507,68
+PDF narrative,1140,36
+PDF narrative,1095,48
+PDF narrative,1647,33
+PDF narrative,1370,52
+PDF narrative,1309,33
+PDF narrative,1378,51
+PDF narrative,1341,41
+PDF narrative,1474,57
+PDF narrative,208,166
+PDF narrative,1570,69
+PDF narrative,1687,20
+PDF narrative,1297,48
+PDF narrative,1446,81
+PDF narrative,1460,70
+PDF narrative,1613,50
+PDF narrative,1624,47
+PDF narrative,1581,51
+PDF narrative,1588,52
+PDF narrative,1535,67
+PDF narrative,1022,71
+PDF narrative,1429,56
+PDF narrative,1578,48
+PDF narrative,1185,26
+PDF narrative,1213,74
+PDF narrative,1052,65
+PDF narrative,1065,68
+PDF narrative,1029,72
+PDF narrative,1137,63
+PDF narrative,929,99
+PDF narrative,83,53
+PDF narrative,59,37
+PDF narrative,142,130
+PDF narrative,1779,6
+PDF narrative,168,60
+PDF narrative,1394,53
+PDF narrative,1435,61
+PDF narrative,1205,35
+PDF narrative,138,58
+PDF narrative,1397,59
+PDF narrative,79,30
+PDF narrative,1067,72
+PDF narrative,206,153
+PDF narrative,1467,59
+PDF narrative,1558,64
+PDF narrative,1374,42
+PDF narrative,1399,57
+PDF narrative,1217,42
+PDF narrative,1528,60
+PDF narrative,1286,50
+PDF narrative,1595,58
+PDF narrative,1639,37
+PDF narrative,1553,67
+PDF narrative,149,31
+PDF narrative,1186,38
+PDF narrative,1203,35
+PDF narrative,1257,56
+PDF narrative,1536,63
+PDF narrative,990,135
+PDF narrative,1530,74
+PDF narrative,1585,63
+PDF narrative,1434,53
+PDF narrative,1550,65
+PDF narrative,1548,87
+PDF narrative,1608,50
+PDF narrative,1373,52
+PDF narrative,1479,78
+PDF narrative,1457,58
+PDF narrative,843,113
+PDF narrative,890,119
+PDF narrative,1273,30
+PDF narrative,794,148
+PDF narrative,155,83
+PDF narrative,893,97
+PDF narrative,1129,62
+PDF narrative,1109,52
+PDF narrative,1112,56
+PDF narrative,904,97
+PDF narrative,1449,60
+PDF narrative,1047,55
+PDF narrative,1437,72
+PDF narrative,1427,49
+PDF narrative,153,40
+PDF narrative,1681,23
+PDF narrative,1451,69
+PDF narrative,1650,44
+PDF narrative,1707,25
+PDF narrative,119,42
+PDF narrative,1532,78
+PDF narrative,85,79
+PDF narrative,1115,48
+PDF narrative,1431,62
+PDF narrative,1323,54
+PDF narrative,1702,17
+PDF narrative,107,22
+PDF narrative,1440,50
+PDF narrative,1086,44
+PDF narrative,63,29
+PDF narrative,159,49
+PDF narrative,1708,16
+PDF narrative,1659,32
+PDF narrative,1419,59
+PDF narrative,202,193
+PDF narrative,121,44
+PDF narrative,1219,37
+PDF narrative,1616,52
+PDF narrative,1454,72
+PDF narrative,1509,51
+PDF narrative,1494,56
+PDF narrative,1483,62
+PDF narrative,1308,35
+PDF narrative,1590,46
+PDF narrative,1604,53
+PDF narrative,1641,39
+PDF narrative,1392,45
+PDF narrative,1430,76
+PDF narrative,909,106
+PDF narrative,1344,63
+PDF narrative,1256,40
+PDF narrative,974,92
+PDF narrative,1063,66
+PDF narrative,1338,45
+PDF narrative,1258,38
+PDF narrative,1339,48
+PDF narrative,1521,75
+PDF narrative,1010,74
+PDF narrative,1154,56
+PDF narrative,1119,62
+PDF narrative,1245,44
+PDF narrative,1458,75
+PDF narrative,62,13
+PDF narrative,2347,1
+PDF narrative,2511,1
+PDF narrative,2991,1
+PDF narrative,920,105
+PDF narrative,1107,50
+PDF narrative,1472,58
+PDF narrative,2031,1
+PDF narrative,2952,1
+PDF narrative,1383,47
+PDF narrative,189,109
+PDF narrative,1070,43
+PDF narrative,1424,56
+PDF narrative,864,112
+PDF narrative,953,69
+PDF narrative,156,33
+PDF narrative,1428,62
+PDF narrative,1206,55
+PDF narrative,1706,31
+PDF narrative,1673,19
+PDF narrative,75,22
+PDF narrative,1712,28
+PDF narrative,1271,27
+PDF narrative,1713,17
+PDF narrative,1408,53
+PDF narrative,947,103
+PDF narrative,1420,76
+PDF narrative,1100,50
+PDF narrative,1351,39
+PDF narrative,1410,61
+PDF narrative,88,14
+PDF narrative,1466,60
+PDF narrative,973,76
+PDF narrative,1480,61
+PDF narrative,1660,32
+PDF narrative,1199,46
+PDF narrative,1187,52
+PDF narrative,1579,76
+PDF narrative,1461,56
+PDF narrative,1546,70
+PDF narrative,1126,60
+PDF narrative,144,97
+PDF narrative,1342,44
+PDF narrative,1131,49
+PDF narrative,1615,46
+PDF narrative,1643,42
+PDF narrative,1088,58
+PDF narrative,148,31
+PDF narrative,133,29
+PDF narrative,1601,45
+PDF narrative,1561,68
+PDF narrative,1402,55
+PDF narrative,1511,60
+PDF narrative,1425,67
+PDF narrative,1554,78
+PDF narrative,1416,65
+PDF narrative,1514,60
+PDF narrative,1500,68
+PDF narrative,1143,45
+PDF narrative,1017,76
+PDF narrative,972,79
+PDF narrative,1476,55
+PDF narrative,1671,21
+PDF narrative,1059,64
+PDF narrative,1487,80
+PDF narrative,987,86
+PDF narrative,1688,18
+PDF narrative,1141,36
+PDF narrative,128,29
+PDF narrative,101,29
+PDF narrative,180,62
+PDF narrative,1151,39
+PDF narrative,1077,67
+PDF narrative,1358,50
+PDF narrative,1255,40
+PDF narrative,195,125
+PDF narrative,1230,55
+PDF narrative,1188,47
+PDF narrative,187,92
+PDF narrative,925,88
+PDF narrative,1280,33
+PDF narrative,167,52
+PDF narrative,1432,74
+PDF narrative,1627,39
+PDF narrative,1118,50
+PDF narrative,1229,46
+PDF narrative,65,16
+PDF narrative,190,112
+PDF narrative,1183,55
+PDF narrative,1223,43
+PDF narrative,1291,38
+PDF narrative,1459,64
+PDF narrative,1596,44
+PDF narrative,1294,41
+PDF narrative,1207,48
+PDF narrative,1035,62
+PDF narrative,944,91
+PDF narrative,1346,43
+PDF narrative,1661,26
+PDF narrative,1269,39
+PDF narrative,1251,35
+PDF narrative,1621,46
+PDF narrative,1259,38
+PDF narrative,86,22
+PDF narrative,994,78
+PDF narrative,1091,69
+PDF narrative,1622,36
+PDF narrative,1337,49
+PDF narrative,1541,70
+PDF narrative,1574,52
+PDF narrative,1290,40
+PDF narrative,1160,56
+PDF narrative,996,68
+PDF narrative,1365,53
+PDF narrative,1462,68
+PDF narrative,1190,33
+PDF narrative,1050,69
+PDF narrative,1069,56
+PDF narrative,988,75
+PDF narrative,1682,18
+PDF narrative,1377,65
+PDF narrative,1250,41
+PDF narrative,152,64
+PDF narrative,1170,48
+PDF narrative,1147,45
+PDF narrative,1134,48
+PDF narrative,1730,13
+PDF narrative,1174,45
+PDF narrative,1327,31
+PDF narrative,1240,55
+PDF narrative,1285,37
+PDF narrative,127,46
+PDF narrative,1772,6
+PDF narrative,1236,24
+PDF narrative,1042,52
+PDF narrative,1482,69
+PDF narrative,1448,62
+PDF narrative,1809,5
+PDF narrative,1366,41
+PDF narrative,1382,54
+PDF narrative,1423,76
+PDF narrative,1296,40
+PDF narrative,1331,56
+PDF narrative,53,17
+PDF narrative,61,20
+PDF narrative,1403,73
+PDF narrative,905,112
+PDF narrative,116,157
+PDF narrative,1794,4
+PDF narrative,1094,54
+PDF narrative,882,120
+PDF narrative,1001,81
+PDF narrative,1101,57
+PDF narrative,1298,55
+PDF narrative,1074,40
+PDF narrative,1173,33
+PDF narrative,1678,22
+PDF narrative,137,212
+PDF narrative,1842,3
+PDF narrative,1320,46
+PDF narrative,1233,45
+PDF narrative,118,26
+PDF narrative,1800,2
+PDF narrative,1754,10
+PDF narrative,1246,44
+PDF narrative,1490,66
+PDF narrative,1815,2
+PDF narrative,1262,47
+PDF narrative,1254,41
+PDF narrative,1159,46
+PDF narrative,1110,41
+PDF narrative,1149,56
+PDF narrative,1464,59
+PDF narrative,1087,56
+PDF narrative,1241,39
+PDF narrative,1797,3
+PDF narrative,2441,1
+PDF narrative,1630,51
+PDF narrative,176,60
+PDF narrative,130,14
+PDF narrative,1582,62
+PDF narrative,1775,10
+PDF narrative,126,35
+PDF narrative,1329,43
+PDF narrative,1121,53
+PDF narrative,1288,34
+PDF narrative,1380,49
+PDF narrative,1774,8
+PDF narrative,1051,62
+PDF narrative,1760,16
+PDF narrative,1698,26
+PDF narrative,1310,53
+PDF narrative,1200,37
+PDF narrative,129,47
+PDF narrative,2137,1
+PDF narrative,1138,49
+PDF narrative,120,40
+PDF narrative,2166,1
+PDF narrative,2426,1
+PDF narrative,1179,43
+PDF narrative,1672,32
+PDF narrative,1232,45
+PDF narrative,1710,18
+PDF narrative,1049,63
+PDF narrative,1227,34
+PDF narrative,1651,31
+PDF narrative,1777,7
+PDF narrative,1103,41
+PDF narrative,1192,37
+PDF narrative,1247,43
+PDF narrative,2151,1
+PDF narrative,42,2
+PDF narrative,1318,41
+PDF narrative,1237,43
+PDF narrative,1224,37
+PDF narrative,1721,12
+PDF narrative,1265,36
+PDF narrative,2996,1
+PDF narrative,102,35
+PDF narrative,1598,66
+PDF narrative,1204,44
+PDF narrative,58,28
+PDF narrative,1870,4
+PDF narrative,1771,7
+PDF narrative,1210,36
+PDF narrative,1033,65
+PDF narrative,1656,35
+PDF narrative,2235,4
+PDF narrative,1450,64
+PDF narrative,80,14
+PDF narrative,141,620
+PDF narrative,1866,2
+PDF narrative,108,29
+PDF narrative,1644,27
+PDF narrative,76,17
+PDF narrative,1315,53
+PDF narrative,1189,55
+PDF narrative,1148,39
+PDF narrative,1910,3
+PDF narrative,1810,1
+PDF narrative,1695,25
+PDF narrative,1226,47
+PDF narrative,1287,65
+PDF narrative,1843,3
+PDF narrative,1503,61
+PDF narrative,2234,2
+PDF narrative,1406,64
+PDF narrative,1340,47
+PDF narrative,1917,1
+PDF narrative,1781,4
+PDF narrative,1163,64
+PDF narrative,1278,45
+PDF narrative,2060,2
+PDF narrative,1728,13
+PDF narrative,2368,1
+PDF narrative,1332,49
+PDF narrative,2047,1
+PDF narrative,1369,38
+PDF narrative,1829,2
+PDF narrative,1372,63
+PDF narrative,2155,2
+PDF narrative,1691,21
+PDF narrative,1948,3
+PDF narrative,1808,6
+PDF narrative,1303,46
+PDF narrative,1938,1
+PDF narrative,1892,2
+PDF narrative,1928,2
+PDF narrative,1125,61
+PDF narrative,1376,47
+PDF narrative,1745,12
+PDF narrative,1735,11
+PDF narrative,1576,54
+PDF narrative,1863,5
+PDF narrative,1686,24
+PDF narrative,1858,2
+PDF narrative,114,29
+PDF narrative,2376,2
+PDF narrative,2381,1
+PDF narrative,1497,78
+PDF narrative,1456,59
+PDF narrative,1417,55
+PDF narrative,1638,32
+PDF narrative,1684,36
+PDF narrative,104,20
+PDF narrative,1874,2
+PDF narrative,1164,41
+PDF narrative,1820,9
+PDF narrative,1699,15
+PDF narrative,1231,29
+PDF narrative,1281,46
+PDF narrative,1807,6
+PDF narrative,1716,14
+PDF narrative,158,66
+PDF narrative,1747,9
+PDF narrative,1769,6
+PDF narrative,1801,5
+PDF narrative,1857,5
+PDF narrative,1560,63
+PDF narrative,1813,4
+PDF narrative,1878,2
+PDF narrative,1765,7
+PDF narrative,1854,1
+PDF narrative,1748,7
+PDF narrative,1312,48
+PDF narrative,1853,9
+PDF narrative,1755,7
+PDF narrative,1907,2
+PDF narrative,2090,1
+PDF narrative,1727,9
+PDF narrative,1922,1
+PDF narrative,2100,1
+PDF narrative,2129,1
+PDF narrative,1782,10
+PDF narrative,113,19
+PDF narrative,1743,14
+PDF narrative,163,64
+PDF narrative,147,30
+PDF narrative,1421,59
+PDF narrative,46,1
+PDF narrative,52,14
+PDF narrative,139,53
+PDF narrative,1855,1
+PDF narrative,1959,1
+PDF narrative,1635,46
+PDF narrative,1669,29
+PDF narrative,1531,82
+PDF narrative,135,29
+PDF narrative,165,55
+PDF narrative,1350,51
+PDF narrative,1606,53
+PDF narrative,1763,12
+PDF narrative,7,4
+PDF narrative,2383,1
+PDF narrative,1485,68
+PDF narrative,1293,43
+PDF narrative,132,32
+PDF narrative,1658,34
+PDF narrative,1348,46
+PDF narrative,1865,4
+PDF narrative,2541,1
+PDF narrative,4095,1
+PDF narrative,1268,35
+PDF narrative,1793,7
+PDF narrative,1689,26
+PDF narrative,1776,9
+PDF narrative,1349,38
+PDF narrative,28,2
+PDF narrative,2119,1
+PDF narrative,23,2
+PDF narrative,2035,1
+PDF narrative,90,18
+PDF narrative,66,18
+PDF narrative,1795,3
+PDF narrative,1750,10
+PDF narrative,1955,1
+PDF narrative,1648,23
+PDF narrative,1919,1
+PDF narrative,1819,3
+PDF narrative,1680,20
+PDF narrative,1896,2
+PDF narrative,1885,3
+PDF narrative,1751,7
+PDF narrative,1636,40
+PDF narrative,1742,11
+PDF narrative,1634,30
+PDF narrative,1881,1
+PDF narrative,1670,29
+PDF narrative,2272,2
+PDF narrative,2238,1
+PDF narrative,1787,4
+PDF narrative,1741,12
+PDF narrative,100,58
+PDF narrative,1734,10
+PDF narrative,1676,30
+PDF narrative,67,18
+PDF narrative,1640,41
+PDF narrative,69,36
+PDF narrative,1796,4
+PDF narrative,78,9
+PDF narrative,1685,21
+PDF narrative,1783,7
+PDF narrative,1746,13
+PDF narrative,146,79
+PDF narrative,31,3
+PDF narrative,1614,45
+PDF narrative,1749,8
+PDF narrative,95,21
+PDF narrative,177,72
+PDF narrative,1700,16
+PDF narrative,1887,3
+PDF narrative,34,1
+PDF narrative,1740,15
+PDF narrative,1947,1
+PDF narrative,1722,8
+PDF narrative,2039,1
+PDF narrative,2013,2
+PDF narrative,2740,1
+PDF narrative,55,21
+PDF narrative,2457,1
+PDF narrative,2522,1
+PDF narrative,1646,24
+PDF narrative,1645,38
+PDF narrative,1389,67
+PDF narrative,1785,9
+PDF narrative,1945,1
+PDF narrative,1724,7
+PDF narrative,1694,15
+PDF narrative,9,2
+PDF narrative,175,59
+PDF narrative,174,59
+PDF narrative,178,73
+PDF narrative,1317,33
+PDF narrative,1791,3
+PDF narrative,161,41
+PDF narrative,1960,1
+PDF narrative,1923,1
+PDF narrative,2710,1
+PDF narrative,2422,1
+PDF narrative,2365,1
+PDF narrative,1390,62
+PDF narrative,1633,30
+PDF narrative,2026,2
+PDF narrative,36,6
+PDF narrative,1737,13
+PDF narrative,1758,10
+PDF narrative,1666,25
+PDF narrative,1818,6
+PDF narrative,25,2
+PDF narrative,73,65
+PDF narrative,6,1
+PDF narrative,1343,50
+PDF narrative,1594,48
+PDF narrative,1717,12
+PDF narrative,1888,2
+PDF narrative,2298,3
+PDF narrative,2402,1
+PDF narrative,2170,2
+PDF narrative,1731,7
+PDF narrative,1649,45
+PDF narrative,115,24
+PDF narrative,1653,37
+PDF narrative,1587,58
+PDF narrative,1944,1
+PDF narrative,1802,3
+PDF narrative,1780,9
+PDF narrative,1790,2
+PDF narrative,1744,12
+PDF narrative,1701,19
+PDF narrative,1804,3
+PDF narrative,1850,3
+PDF narrative,2484,1
+PDF narrative,1982,2
+PDF narrative,1778,4
+PDF narrative,2130,2
+PDF narrative,2181,1
+PDF narrative,2412,2
+PDF narrative,2267,2
+PDF narrative,1935,1
+PDF narrative,1319,42
+PDF narrative,1732,16
+PDF narrative,84,11
+PDF narrative,1729,11
+PDF narrative,5,1
+PDF narrative,1784,3
+PDF narrative,1844,4
+PDF narrative,22,1
+PDF narrative,1764,5
+PDF narrative,1719,12
+PDF narrative,1845,2
+PDF narrative,1711,19
+PDF narrative,1803,3
+PDF narrative,1971,1
+PDF narrative,2017,1
+PDF narrative,2384,1
+PDF narrative,1915,2
+PDF narrative,57,15
+PDF narrative,1826,4
+PDF narrative,1950,2
+PDF narrative,1386,47
+PDF narrative,1718,12
+PDF narrative,1805,4
+PDF narrative,1788,5
+PDF narrative,1902,1
+PDF narrative,1901,2
+PDF narrative,1761,4
+PDF narrative,1817,2
+PDF narrative,4632,1
+PDF narrative,1773,4
+PDF narrative,1799,4
+PDF narrative,2020,2
+PDF narrative,2156,2
+PDF narrative,1664,31
+PDF narrative,33,2
+PDF narrative,2374,2
+PDF narrative,2335,1
+PDF narrative,2160,2
+PDF narrative,1822,3
+PDF narrative,30,1
+PDF narrative,1612,45
+PDF narrative,1849,1
+PDF narrative,2205,1
+PDF narrative,1753,4
+PDF narrative,110,31
+PDF narrative,1830,2
+PDF narrative,1946,2
+PDF narrative,1841,3
+PDF narrative,2278,1
+PDF narrative,2487,2
+PDF narrative,1484,65
+PDF narrative,140,112
+PDF narrative,1677,28
+PDF narrative,1939,3
+PDF narrative,1413,60
+PDF narrative,2373,1
+PDF narrative,1859,6
+PDF narrative,1663,29
+PDF narrative,1911,2
+PDF narrative,1827,3
+PDF narrative,1933,2
+PDF narrative,1770,7
+PDF narrative,1654,33
+PDF narrative,1726,12
+PDF narrative,60,11
+PDF narrative,1864,1
+PDF narrative,1752,8
+PDF narrative,1720,12
+PDF narrative,14,1
+PDF narrative,1692,19
+PDF narrative,2405,1
+PDF narrative,2016,1
+PDF narrative,27,1
+PDF narrative,1709,18
+PDF narrative,2003,1
+PDF narrative,1894,2
+PDF narrative,2418,1
+PDF narrative,2842,1
+PDF narrative,1838,1
+PDF narrative,1828,3
+PDF narrative,1679,25
+PDF narrative,1824,6
+PDF narrative,1921,1
+PDF narrative,1725,12
+PDF narrative,96,12
+PDF narrative,2781,1
+PDF narrative,3096,2
+PDF narrative,1739,10
+PDF narrative,1868,1
+PDF narrative,2305,1
+PDF narrative,1756,7
+PDF narrative,1964,2
+PDF narrative,4015,1
+PDF narrative,3074,1
+PDF narrative,1714,12
+PDF narrative,1877,1
+PDF narrative,1786,5
+PDF narrative,1767,4
+PDF narrative,1762,5
+PDF narrative,2097,3
+PDF narrative,2072,2
+PDF narrative,4432,1
+PDF narrative,2847,1
+PDF narrative,24,1
+PDF narrative,1970,1
+PDF narrative,29,2
+PDF narrative,45,1
+PDF narrative,1862,1
+PDF narrative,1875,2
+PDF narrative,1757,8
+PDF narrative,1766,10
+PDF narrative,15,1
+PDF narrative,1903,1
+PDF narrative,2186,1
+PDF narrative,1851,3
+PDF narrative,2311,1
+PDF narrative,2056,2
+PDF narrative,123,28
+PDF narrative,3409,1
+PDF narrative,2302,1
+PDF narrative,2334,1
+PDF narrative,1834,6
+PDF narrative,1994,4
+PDF narrative,1927,2
+PDF narrative,2143,1
+PDF narrative,2115,2
+PDF narrative,2348,1
+PDF narrative,3961,1
+PDF narrative,112,400
+PDF narrative,1693,16
+PDF narrative,1789,5
+PDF narrative,2240,1
+PDF narrative,2817,2
+PDF narrative,2009,1
+PDF narrative,2284,1
+PDF narrative,3973,1
+PDF narrative,1904,2
+PDF narrative,1852,1
+PDF narrative,3620,1
+PDF narrative,2004,1
+PDF narrative,2406,1
+PDF narrative,2088,2
+PDF narrative,1811,3
+PDF narrative,2138,1
+PDF narrative,2176,1
+PDF narrative,1821,2
+PDF narrative,2236,1
+PDF narrative,2093,1
+PDF narrative,2816,1
+PDF narrative,1833,1
+PDF narrative,1736,6
+PDF narrative,4637,1
+PDF narrative,2329,1
+PDF narrative,2788,1
+PDF narrative,1962,2
+PDF narrative,2221,1
+PDF narrative,3849,1
+PDF narrative,1812,4
+PDF narrative,2162,1
+PDF narrative,3586,2
+PDF narrative,3946,1
+PDF narrative,1836,1
+PDF narrative,2797,2
+PDF narrative,2075,2
+PDF narrative,4524,1
+PDF narrative,2808,2
+PDF narrative,3659,1
+PDF narrative,17,2
+PDF narrative,1832,3
+PDF narrative,1768,5
+PDF narrative,3488,1
+PDF narrative,1985,1
+PDF narrative,2041,1
+PDF narrative,2226,2
+PDF narrative,2617,1
+PDF narrative,4860,2
+PDF narrative,2975,1
+PDF narrative,1943,1
+PDF narrative,2116,1
+PDF narrative,1924,1
+PDF narrative,1816,2
+PDF narrative,3152,1
+PDF narrative,2621,1
+PDF narrative,1999,1
+PDF narrative,1981,1
+PDF narrative,2038,2
+PDF narrative,3317,1
+PDF narrative,3402,1
+PDF narrative,3997,1
+PDF narrative,2014,1
+PDF narrative,4750,1
+PDF narrative,2333,1
+PDF narrative,4692,1
+PDF narrative,1920,4
+PDF narrative,2152,1
+PDF narrative,1912,2
+PDF narrative,35,1
+PDF narrative,3159,1
+PDF narrative,43,2
+PDF narrative,2251,2
+PDF narrative,2078,1
+PDF narrative,2123,1
+PDF narrative,2196,1
+PDF narrative,1908,2
+PDF narrative,44,2
+PDF narrative,1792,4
+PDF narrative,47,2
+PDF narrative,1918,2
+PDF narrative,48,2
+PDF narrative,2362,1
+PDF narrative,2199,1
+PDF narrative,2534,1
+PDF narrative,1980,2
+PDF narrative,2112,1
+PDF narrative,1990,1
+PDF narrative,2161,1
+PDF narrative,1972,1
+PDF narrative,2044,1
+PDF narrative,2743,1
+PDF narrative,1872,2
+PDF narrative,2338,1
+PDF narrative,1989,1
+PDF narrative,4030,1
+PDF narrative,3354,1
+PDF narrative,26,1
+PDF narrative,2691,1
+PDF narrative,2275,1
+PDF narrative,1961,2
+PDF narrative,32,1
+PDF narrative,2420,1
+PDF narrative,2356,2
+PDF narrative,41,1
+PDF narrative,1895,3
+PDF narrative,2285,1
+PDF narrative,2789,1
+PDF narrative,1840,3
+PDF narrative,2380,1
+PDF narrative,2021,1
+PDF narrative,1951,1
+PDF narrative,1893,1
+PDF narrative,1867,1
+PDF narrative,1974,1
+PDF narrative,2059,1
+PDF narrative,2092,1
+PDF narrative,2322,1
+PDF narrative,2239,1
+PDF narrative,2197,1
+PDF narrative,2866,1
+PDF narrative,4658,1
+PDF narrative,2084,1
+PDF narrative,3271,1
+PDF narrative,2682,1
+PDF narrative,3463,1
+PDF narrative,2390,1
+PDF narrative,1839,1
+PDF narrative,1958,1
+PDF narrative,8,2
+PDF narrative,1882,1
+PDF narrative,1837,1
+PDF narrative,39,1
+PDF narrative,1825,1
+PDF narrative,1876,1
+PDF narrative,2045,1
+PDF narrative,2087,1
+PDF narrative,1897,1
+PDF narrative,1940,1
+PDF narrative,2073,1
+PDF narrative,1941,1
+PDF narrative,2002,1
+PDF narrative,2062,1
+PDF narrative,2179,1
+PDF narrative,1992,1
+PDF narrative,3,1
+PDF narrative,1889,1
+PDF narrative,2202,2
+PDF narrative,2921,1
+PDF narrative,1831,1
+PDF narrative,2332,3
+PDF narrative,5191,2
+PDF narrative,2646,2
+PDF narrative,1905,2
+PDF narrative,2080,2
+PDF narrative,2271,1
+PDF narrative,1976,1
+PDF narrative,2274,1
+PDF narrative,2049,1
+PDF narrative,3457,1
+PDF narrative,4288,1
+PDF narrative,5300,1
+PDF narrative,4142,1
+PDF narrative,3422,1
+PDF narrative,2597,1
+PDF narrative,3097,1
+PDF narrative,3281,1
+PDF narrative,3983,1
+PDF narrative,2135,1
+PDF narrative,3294,1
+PDF narrative,2440,1
+PDF narrative,3388,1
+PDF narrative,4719,1
+PDF narrative,1954,1
+PDF narrative,3491,1
+PDF narrative,4992,1
+PDF narrative,3497,1
+PDF narrative,3979,1
+PDF narrative,3191,1
+PDF narrative,2714,1
+PDF narrative,1869,1
+PDF narrative,1823,1
+PDF narrative,1936,1
+PDF table row,131,1377
+PDF table row,132,1570
+PDF table row,149,2366
+PDF table row,144,2640
+PDF table row,188,1527
+PDF table row,143,2021
+PDF table row,182,1660
+PDF table row,232,961
+PDF table row,267,777
+PDF table row,86,3044
+PDF table row,598,17
+PDF table row,441,88
+PDF table row,452,80
+PDF table row,257,873
+PDF table row,498,39
+PDF table row,1003,8
+PDF table row,3682,1
+PDF table row,2014,2
+PDF table row,1729,2
+PDF table row,1336,2
+PDF table row,1102,3
+PDF table row,1227,12
+PDF table row,1051,4
+PDF table row,1183,5
+PDF table row,759,12
+PDF table row,3053,1
+PDF table row,1029,3
+PDF table row,504,42
+PDF table row,1537,3
+PDF table row,492,49
+PDF table row,1147,4
+PDF table row,193,1350
+PDF table row,955,6
+PDF table row,205,1254
+PDF table row,992,5
+PDF table row,1241,4
+PDF table row,617,18
+PDF table row,471,53
+PDF table row,2032,5
+PDF table row,3366,1
+PDF table row,664,20
+PDF table row,910,4
+PDF table row,1078,6
+PDF table row,136,1920
+PDF table row,219,1083
+PDF table row,233,868
+PDF table row,170,1728
+PDF table row,153,2584
+PDF table row,165,1711
+PDF table row,162,2018
+PDF table row,154,2232
+PDF table row,150,2610
+PDF table row,151,2371
+PDF table row,155,1875
+PDF table row,172,2178
+PDF table row,147,2686
+PDF table row,157,2071
+PDF table row,146,3368
+PDF table row,145,2622
+PDF table row,156,1638
+PDF table row,364,189
+PDF table row,424,71
+PDF table row,557,29
+PDF table row,600,27
+PDF table row,403,115
+PDF table row,1787,1
+PDF table row,907,8
+PDF table row,507,31
+PDF table row,1359,2
+PDF table row,344,295
+PDF table row,279,608
+PDF table row,526,38
+PDF table row,564,21
+PDF table row,328,360
+PDF table row,228,977
+PDF table row,321,419
+PDF table row,286,561
+PDF table row,238,881
+PDF table row,227,905
+PDF table row,593,22
+PDF table row,1379,3
+PDF table row,158,1761
+PDF table row,292,484
+PDF table row,895,12
+PDF table row,337,397
+PDF table row,434,105
+PDF table row,340,300
+PDF table row,487,39
+PDF table row,531,31
+PDF table row,513,91
+PDF table row,566,36
+PDF table row,515,38
+PDF table row,89,3303
+PDF table row,3655,1
+PDF table row,2747,1
+PDF table row,459,71
+PDF table row,525,46
+PDF table row,430,110
+PDF table row,305,542
+PDF table row,385,183
+PDF table row,481,44
+PDF table row,401,117
+PDF table row,284,532
+PDF table row,246,918
+PDF table row,456,64
+PDF table row,548,35
+PDF table row,289,507
+PDF table row,345,246
+PDF table row,666,11
+PDF table row,540,30
+PDF table row,887,5
+PDF table row,167,1546
+PDF table row,171,1929
+PDF table row,116,1404
+PDF table row,184,1380
+PDF table row,106,1896
+PDF table row,121,713
+PDF table row,111,1059
+PDF table row,189,1376
+PDF table row,152,2456
+PDF table row,207,1124
+PDF table row,186,1713
+PDF table row,245,885
+PDF table row,1766,5
+PDF table row,185,1449
+PDF table row,1098,8
+PDF table row,243,922
+PDF table row,1596,2
+PDF table row,194,1315
+PDF table row,187,1388
+PDF table row,323,441
+PDF table row,173,2192
+PDF table row,204,1299
+PDF table row,745,12
+PDF table row,421,113
+PDF table row,129,1044
+PDF table row,133,2088
+PDF table row,164,2077
+PDF table row,124,852
+PDF table row,139,2234
+PDF table row,123,730
+PDF table row,134,1778
+PDF table row,1391,3
+PDF table row,159,1723
+PDF table row,2031,3
+PDF table row,650,10
+PDF table row,435,81
+PDF table row,174,2249
+PDF table row,662,13
+PDF table row,684,13
+PDF table row,1165,4
+PDF table row,1288,3
+PDF table row,130,1129
+PDF table row,125,758
+PDF table row,141,2181
+PDF table row,120,1078
+PDF table row,126,813
+PDF table row,4098,1
+PDF table row,3201,1
+PDF table row,726,18
+PDF table row,140,2113
+PDF table row,102,3192
+PDF table row,96,4816
+PDF table row,98,4173
+PDF table row,1663,3
+PDF table row,177,1659
+PDF table row,178,1719
+PDF table row,94,5438
+PDF table row,800,11
+PDF table row,994,3
+PDF table row,873,7
+PDF table row,852,6
+PDF table row,113,1197
+PDF table row,105,2515
+PDF table row,109,1185
+PDF table row,148,2839
+PDF table row,1329,3
+PDF table row,608,25
+PDF table row,439,84
+PDF table row,1070,8
+PDF table row,115,1334
+PDF table row,119,1220
+PDF table row,117,962
+PDF table row,103,2843
+PDF table row,92,4571
+PDF table row,93,5584
+PDF table row,274,682
+PDF table row,99,2984
+PDF table row,556,31
+PDF table row,738,13
+PDF table row,395,172
+PDF table row,176,1787
+PDF table row,166,1861
+PDF table row,169,1880
+PDF table row,183,1559
+PDF table row,266,774
+PDF table row,783,11
+PDF table row,763,13
+PDF table row,544,31
+PDF table row,736,14
+PDF table row,163,1872
+PDF table row,168,1778
+PDF table row,101,3098
+PDF table row,499,39
+PDF table row,466,47
+PDF table row,410,95
+PDF table row,346,257
+PDF table row,269,758
+PDF table row,312,470
+PDF table row,350,201
+PDF table row,278,653
+PDF table row,1253,3
+PDF table row,1788,2
+PDF table row,1793,1
+PDF table row,2511,2
+PDF table row,2135,1
+PDF table row,2265,1
+PDF table row,1826,3
+PDF table row,490,60
+PDF table row,440,71
+PDF table row,428,103
+PDF table row,469,48
+PDF table row,306,498
+PDF table row,342,279
+PDF table row,458,58
+PDF table row,203,1377
+PDF table row,786,8
+PDF table row,357,257
+PDF table row,225,937
+PDF table row,181,1625
+PDF table row,197,1354
+PDF table row,229,934
+PDF table row,833,7
+PDF table row,1110,4
+PDF table row,100,2626
+PDF table row,336,376
+PDF table row,582,25
+PDF table row,230,867
+PDF table row,142,2466
+PDF table row,202,1376
+PDF table row,175,1738
+PDF table row,486,50
+PDF table row,259,905
+PDF table row,1714,4
+PDF table row,1251,8
+PDF table row,1612,5
+PDF table row,3888,1
+PDF table row,304,479
+PDF table row,210,1249
+PDF table row,191,1232
+PDF table row,1446,5
+PDF table row,949,14
+PDF table row,1015,6
+PDF table row,1026,1
+PDF table row,1035,2
+PDF table row,1008,4
+PDF table row,942,5
+PDF table row,938,3
+PDF table row,307,510
+PDF table row,1352,3
+PDF table row,190,1519
+PDF table row,914,11
+PDF table row,946,8
+PDF table row,218,1170
+PDF table row,253,816
+PDF table row,331,362
+PDF table row,392,152
+PDF table row,298,555
+PDF table row,295,610
+PDF table row,520,40
+PDF table row,448,77
+PDF table row,352,221
+PDF table row,824,9
+PDF table row,214,1283
+PDF table row,196,1354
+PDF table row,206,1196
+PDF table row,179,1688
+PDF table row,290,623
+PDF table row,199,1261
+PDF table row,347,251
+PDF table row,976,8
+PDF table row,495,29
+PDF table row,843,8
+PDF table row,592,24
+PDF table row,543,32
+PDF table row,2942,3
+PDF table row,2789,2
+PDF table row,2384,3
+PDF table row,2223,4
+PDF table row,2405,2
+PDF table row,1842,4
+PDF table row,814,12
+PDF table row,518,38
+PDF table row,529,33
+PDF table row,807,15
+PDF table row,198,1355
+PDF table row,107,1697
+PDF table row,939,8
+PDF table row,95,5125
+PDF table row,97,4637
+PDF table row,112,927
+PDF table row,108,1379
+PDF table row,104,2612
+PDF table row,877,7
+PDF table row,723,11
+PDF table row,491,54
+PDF table row,844,10
+PDF table row,676,18
+PDF table row,562,24
+PDF table row,815,19
+PDF table row,519,39
+PDF table row,135,2513
+PDF table row,122,763
+PDF table row,127,907
+PDF table row,138,1958
+PDF table row,88,3007
+PDF table row,804,7
+PDF table row,91,4752
+PDF table row,902,3
+PDF table row,1221,2
+PDF table row,217,1059
+PDF table row,192,1401
+PDF table row,200,1279
+PDF table row,195,1260
+PDF table row,180,1675
+PDF table row,161,1897
+PDF table row,160,1856
+PDF table row,4577,1
+PDF table row,265,706
+PDF table row,254,858
+PDF table row,236,930
+PDF table row,234,903
+PDF table row,288,562
+PDF table row,272,616
+PDF table row,252,873
+PDF table row,211,1249
+PDF table row,231,950
+PDF table row,87,3052
+PDF table row,128,782
+PDF table row,256,900
+PDF table row,244,985
+PDF table row,293,520
+PDF table row,296,561
+PDF table row,309,413
+PDF table row,262,766
+PDF table row,280,612
+PDF table row,248,951
+PDF table row,251,931
+PDF table row,281,590
+PDF table row,294,595
+PDF table row,308,477
+PDF table row,418,98
+PDF table row,222,1051
+PDF table row,216,1150
+PDF table row,235,956
+PDF table row,220,1120
+PDF table row,242,969
+PDF table row,241,957
+PDF table row,201,1326
+PDF table row,310,456
+PDF table row,277,647
+PDF table row,283,617
+PDF table row,287,546
+PDF table row,208,1164
+PDF table row,224,1089
+PDF table row,215,1287
+PDF table row,263,803
+PDF table row,297,515
+PDF table row,273,676
+PDF table row,209,1193
+PDF table row,317,457
+PDF table row,330,373
+PDF table row,333,635
+PDF table row,4585,1
+PDF table row,261,817
+PDF table row,260,814
+PDF table row,239,967
+PDF table row,264,821
+PDF table row,301,526
+PDF table row,270,659
+PDF table row,302,533
+PDF table row,316,405
+PDF table row,226,962
+PDF table row,426,117
+PDF table row,237,972
+PDF table row,250,933
+PDF table row,212,1302
+PDF table row,213,1183
+PDF table row,249,966
+PDF table row,318,424
+PDF table row,285,585
+PDF table row,315,429
+PDF table row,291,516
+PDF table row,314,458
+PDF table row,223,1022
+PDF table row,271,675
+PDF table row,325,374
+PDF table row,338,367
+PDF table row,341,295
+PDF table row,578,23
+PDF table row,524,46
+PDF table row,707,10
+PDF table row,862,4
+PDF table row,691,14
+PDF table row,579,29
+PDF table row,619,12
+PDF table row,623,13
+PDF table row,558,36
+PDF table row,613,10
+PDF table row,90,4346
+PDF table row,365,205
+PDF table row,678,10
+PDF table row,324,358
+PDF table row,137,2292
+PDF table row,282,605
+PDF table row,221,983
+PDF table row,258,893
+PDF table row,374,158
+PDF table row,377,159
+PDF table row,381,181
+PDF table row,399,143
+PDF table row,268,730
+PDF table row,240,950
+PDF table row,319,345
+PDF table row,586,19
+PDF table row,532,29
+PDF table row,565,21
+PDF table row,715,10
+PDF table row,870,6
+PDF table row,447,88
+PDF table row,699,13
+PDF table row,528,30
+PDF table row,587,24
+PDF table row,627,13
+PDF table row,631,12
+PDF table row,489,51
+PDF table row,621,13
+PDF table row,373,153
+PDF table row,686,10
+PDF table row,247,905
+PDF table row,339,295
+PDF table row,313,458
+PDF table row,332,411
+PDF table row,382,162
+PDF table row,389,142
+PDF table row,407,105
+PDF table row,276,645
+PDF table row,299,525
+PDF table row,355,209
+PDF table row,329,393
+PDF table row,326,355
+PDF table row,275,618
+PDF table row,327,357
+PDF table row,320,361
+PDF table row,348,233
+PDF table row,343,258
+PDF table row,255,824
+PDF table row,368,174
+PDF table row,549,30
+PDF table row,425,93
+PDF table row,375,168
+PDF table row,404,114
+PDF table row,396,129
+PDF table row,417,100
+PDF table row,442,79
+PDF table row,311,412
+PDF table row,334,392
+PDF table row,322,432
+PDF table row,462,68
+PDF table row,444,76
+PDF table row,535,22
+PDF table row,473,64
+PDF table row,414,112
+PDF table row,363,184
+PDF table row,366,235
+PDF table row,356,238
+PDF table row,300,478
+PDF table row,303,546
+PDF table row,941,9
+PDF table row,390,154
+PDF table row,460,48
+PDF table row,552,33
+PDF table row,472,59
+PDF table row,384,170
+PDF table row,461,69
+PDF table row,386,149
+PDF table row,411,111
+PDF table row,551,24
+PDF table row,351,233
+PDF table row,353,236
+PDF table row,400,154
+PDF table row,360,225
+PDF table row,358,206
+PDF table row,376,157
+PDF table row,114,1160
+PDF table row,728,11
+PDF table row,1296,5
+PDF table row,110,1112
+PDF table row,747,21
+PDF table row,604,11
+PDF table row,480,43
+PDF table row,628,15
+PDF table row,764,12
+PDF table row,436,113
+PDF table row,387,154
+PDF table row,378,167
+PDF table row,362,188
+PDF table row,380,168
+PDF table row,372,177
+PDF table row,438,82
+PDF table row,443,76
+PDF table row,406,145
+PDF table row,437,113
+PDF table row,420,112
+PDF table row,354,239
+PDF table row,391,139
+PDF table row,349,242
+PDF table row,335,441
+PDF table row,359,199
+PDF table row,523,36
+PDF table row,512,40
+PDF table row,494,45
+PDF table row,545,19
+PDF table row,1482,5
+PDF table row,1550,4
+PDF table row,3941,1
+PDF table row,1533,3
+PDF table row,3305,1
+PDF table row,1570,3
+PDF table row,1564,6
+PDF table row,1560,4
+PDF table row,2035,3
+PDF table row,1556,7
+PDF table row,1679,5
+PDF table row,1684,2
+PDF table row,1569,7
+PDF table row,1680,3
+PDF table row,1501,4
+PDF table row,1669,2
+PDF table row,1485,6
+PDF table row,1502,3
+PDF table row,1678,3
+PDF table row,1675,2
+PDF table row,1506,2
+PDF table row,1725,3
+PDF table row,1661,1
+PDF table row,1488,1
+PDF table row,1683,3
+PDF table row,1572,5
+PDF table row,514,35
+PDF table row,510,37
+PDF table row,716,19
+PDF table row,1053,5
+PDF table row,1056,7
+PDF table row,1182,3
+PDF table row,838,5
+PDF table row,672,21
+PDF table row,971,5
+PDF table row,668,13
+PDF table row,569,40
+PDF table row,497,41
+PDF table row,445,85
+PDF table row,433,115
+PDF table row,511,40
+PDF table row,509,54
+PDF table row,118,1210
+PDF table row,554,32
+PDF table row,479,51
+PDF table row,501,29
+PDF table row,476,46
+PDF table row,583,21
+PDF table row,482,34
+PDF table row,361,161
+PDF table row,530,36
+PDF table row,84,4063
+PDF table row,82,3152
+PDF table row,85,3873
+PDF table row,83,4695
+PDF table row,81,3061
+PDF table row,855,12
+PDF table row,1188,6
+PDF table row,1085,6
+PDF table row,1023,4
+PDF table row,1248,5
+PDF table row,80,1526
+PDF table row,464,55
+PDF table row,412,120
+PDF table row,453,108
+PDF table row,413,100
+PDF table row,78,93
+PDF table row,367,178
+PDF table row,655,15
+PDF table row,10365,1
+PDF table row,1004,3
+PDF table row,1264,7
+PDF table row,3038,1
+PDF table row,1883,4
+PDF table row,767,6
+PDF table row,1875,4
+PDF table row,1217,4
+PDF table row,1547,5
+PDF table row,2308,2
+PDF table row,2145,3
+PDF table row,6150,1
+PDF table row,4114,1
+PDF table row,2995,2
+PDF table row,6035,1
+PDF table row,3148,3
+PDF table row,4515,2
+PDF table row,7240,1
+PDF table row,2833,1
+PDF table row,2834,4
+PDF table row,5181,1
+PDF table row,2455,1
+PDF table row,3091,2
+PDF table row,7485,1
+PDF table row,4502,1
+PDF table row,3728,2
+PDF table row,7595,1
+PDF table row,3975,1
+PDF table row,2827,3
+PDF table row,6769,1
+PDF table row,4050,2
+PDF table row,4404,2
+PDF table row,8852,1
+PDF table row,4556,1
+PDF table row,4085,2
+PDF table row,7698,1
+PDF table row,3721,1
+PDF table row,3465,2
+PDF table row,5586,1
+PDF table row,2229,4
+PDF table row,1489,4
+PDF table row,2356,2
+PDF table row,1400,8
+PDF table row,2865,1
+PDF table row,1574,3
+PDF table row,2270,3
+PDF table row,4765,1
+PDF table row,2604,2
+PDF table row,1897,3
+PDF table row,5182,1
+PDF table row,3393,1
+PDF table row,2683,2
+PDF table row,4517,1
+PDF table row,1942,3
+PDF table row,2011,3
+PDF table row,3313,2
+PDF table row,1411,8
+PDF table row,2047,3
+PDF table row,3895,1
+PDF table row,1956,1
+PDF table row,2536,3
+PDF table row,5166,1
+PDF table row,2739,2
+PDF table row,1933,6
+PDF table row,3189,1
+PDF table row,1364,6
+PDF table row,1873,3
+PDF table row,3658,1
+PDF table row,1895,1
+PDF table row,2419,3
+PDF table row,8082,1
+PDF table row,5772,1
+PDF table row,2325,4
+PDF table row,3844,2
+PDF table row,1628,5
+PDF table row,2116,6
+PDF table row,4452,1
+PDF table row,2445,1
+PDF table row,2118,2
+PDF table row,3897,1
+PDF table row,1889,4
+PDF table row,2019,5
+PDF table row,6214,1
+PDF table row,4305,1
+PDF table row,3052,2
+PDF table row,4933,1
+PDF table row,1990,1
+PDF table row,1529,4
+PDF table row,3703,2
+PDF table row,2284,2
+PDF table row,1518,2
+PDF table row,2651,1
+PDF table row,1242,2
+PDF table row,2070,3
+PDF table row,3625,1
+PDF table row,1664,2
+PDF table row,3532,2
+PDF table row,7034,1
+PDF table row,3611,1
+PDF table row,2450,3
+PDF table row,4741,1
+PDF table row,2401,1
+PDF table row,2023,5
+PDF table row,5223,1
+PDF table row,3309,1
+PDF table row,3736,2
+PDF table row,5829,1
+PDF table row,2202,3
+PDF table row,2006,3
+PDF table row,3627,1
+PDF table row,1731,4
+PDF table row,3131,2
+PDF table row,5542,1
+PDF table row,2520,2
+PDF table row,3232,2
+PDF table row,6349,1
+PDF table row,3226,1
+PDF table row,1275,2
+PDF table row,2660,1
+PDF table row,1495,2
+PDF table row,2220,3
+PDF table row,5084,1
+PDF table row,2974,1
+PDF table row,3055,2
+PDF table row,6109,1
+PDF table row,3163,1
+PDF table row,3018,3
+PDF table row,5202,1
+PDF table row,2294,2
+PDF table row,2351,2
+PDF table row,4802,1
+PDF table row,2561,1
+PDF table row,1980,3
+PDF table row,3151,2
+PDF table row,1281,3
+PDF table row,3360,1
+PDF table row,1988,4
+PDF table row,2668,3
+PDF table row,4216,2
+PDF table row,1658,2
+PDF table row,3205,3
+PDF table row,4857,1
+PDF table row,1762,2
+PDF table row,3674,2
+PDF table row,3906,1
+PDF table row,371,144
+PDF table row,370,191
+PDF table row,383,144
+PDF table row,388,144
+PDF table row,379,149
+PDF table row,79,597
+PDF table row,77,12
+PDF table row,772,8
+PDF table row,1500,3
+PDF table row,1092,5
+PDF table row,1111,1
+PDF table row,394,153
+PDF table row,961,4
+PDF table row,935,8
+PDF table row,1073,10
+PDF table row,2875,2
+PDF table row,450,85
+PDF table row,588,12
+PDF table row,577,31
+PDF table row,1452,3
+PDF table row,3154,1
+PDF table row,3203,2
+PDF table row,484,72
+PDF table row,555,28
+PDF table row,1839,1
+PDF table row,2346,2
+PDF table row,1438,2
+PDF table row,2322,2
+PDF table row,1631,8
+PDF table row,1461,3
+PDF table row,1659,4
+PDF table row,1458,4
+PDF table row,1958,1
+PDF table row,1837,2
+PDF table row,2375,2
+PDF table row,2352,1
+PDF table row,2106,4
+PDF table row,1525,4
+PDF table row,1667,3
+PDF table row,1476,3
+PDF table row,713,15
+PDF table row,1145,6
+PDF table row,1840,1
+PDF table row,2522,1
+PDF table row,1159,5
+PDF table row,2167,2
+PDF table row,1721,3
+PDF table row,1843,1
+PDF table row,1636,5
+PDF table row,1406,6
+PDF table row,1019,6
+PDF table row,2818,1
+PDF table row,2200,2
+PDF table row,561,33
+PDF table row,1068,4
+PDF table row,2963,1
+PDF table row,5383,1
+PDF table row,2534,2
+PDF table row,1884,4
+PDF table row,2612,1
+PDF table row,1828,3
+PDF table row,2138,1
+PDF table row,1463,1
+PDF table row,2218,4
+PDF table row,1420,5
+PDF table row,616,14
+PDF table row,620,16
+PDF table row,696,20
+PDF table row,393,137
+PDF table row,640,23
+PDF table row,546,29
+PDF table row,369,171
+PDF table row,629,13
+PDF table row,408,91
+PDF table row,527,29
+PDF table row,571,32
+PDF table row,656,10
+PDF table row,429,82
+PDF table row,567,23
+PDF table row,451,69
+PDF table row,1949,1
+PDF table row,1167,4
+PDF table row,1095,7
+PDF table row,402,119
+PDF table row,517,42
+PDF table row,536,35
+PDF table row,496,40
+PDF table row,636,12
+PDF table row,765,11
+PDF table row,1727,2
+PDF table row,1419,5
+PDF table row,1544,3
+PDF table row,1543,3
+PDF table row,1160,2
+PDF table row,612,19
+PDF table row,465,69
+PDF table row,606,14
+PDF table row,505,43
+PDF table row,533,27
+PDF table row,805,12
+PDF table row,1081,9
+PDF table row,790,9
+PDF table row,475,53
+PDF table row,2196,1
+PDF table row,1266,3
+PDF table row,2102,2
+PDF table row,1000,5
+PDF table row,2998,2
+PDF table row,1539,2
+PDF table row,419,89
+PDF table row,1920,1
+PDF table row,1390,6
+PDF table row,1994,2
+PDF table row,649,10
+PDF table row,689,12
+PDF table row,698,14
+PDF table row,742,13
+PDF table row,816,10
+PDF table row,626,15
+PDF table row,670,17
+PDF table row,1389,6
+PDF table row,832,4
+PDF table row,1823,4
+PDF table row,679,15
+PDF table row,740,19
+PDF table row,793,15
+PDF table row,727,15
+PDF table row,645,13
+PDF table row,839,10
+PDF table row,703,18
+PDF table row,398,126
+PDF table row,409,110
+PDF table row,397,119
+PDF table row,614,17
+PDF table row,1404,3
+PDF table row,806,10
+PDF table row,922,8
+PDF table row,918,9
+PDF table row,959,11
+PDF table row,760,12
+PDF table row,995,4
+PDF table row,906,9
+PDF table row,779,7
+PDF table row,682,14
+PDF table row,405,134
+PDF table row,542,20
+PDF table row,422,99
+PDF table row,632,11
+PDF table row,589,17
+PDF table row,622,22
+PDF table row,539,39
+PDF table row,570,19
+PDF table row,647,10
+PDF table row,1372,2
+PDF table row,1344,5
+PDF table row,2084,2
+PDF table row,842,8
+PDF table row,835,8
+PDF table row,1719,2
+PDF table row,1473,5
+PDF table row,2717,1
+PDF table row,2790,2
+PDF table row,2791,2
+PDF table row,4086,2
+PDF table row,2082,1
+PDF table row,2164,2
+PDF table row,2169,3
+PDF table row,2119,4
+PDF table row,3903,1
+PDF table row,415,95
+PDF table row,792,9
+PDF table row,550,21
+PDF table row,553,25
+PDF table row,685,16
+PDF table row,1252,5
+PDF table row,457,76
+PDF table row,599,14
+PDF table row,416,88
+PDF table row,478,63
+PDF table row,625,14
+PDF table row,534,32
+PDF table row,446,86
+PDF table row,468,39
+PDF table row,573,21
+PDF table row,602,18
+PDF table row,449,75
+PDF table row,467,74
+PDF table row,925,7
+PDF table row,455,91
+PDF table row,538,19
+PDF table row,681,14
+PDF table row,618,16
+PDF table row,624,14
+PDF table row,568,43
+PDF table row,603,17
+PDF table row,580,25
+PDF table row,1386,4
+PDF table row,506,29
+PDF table row,560,44
+PDF table row,547,29
+PDF table row,502,37
+PDF table row,1374,4
+PDF table row,427,106
+PDF table row,1048,4
+PDF table row,1117,6
+PDF table row,841,6
+PDF table row,423,88
+PDF table row,431,80
+PDF table row,432,100
+PDF table row,823,8
+PDF table row,591,22
+PDF table row,644,13
+PDF table row,474,78
+PDF table row,819,12
+PDF table row,503,33
+PDF table row,2278,1
+PDF table row,522,42
+PDF table row,735,8
+PDF table row,1818,3
+PDF table row,886,5
+PDF table row,572,23
+PDF table row,559,37
+PDF table row,821,16
+PDF table row,711,10
+PDF table row,866,6
+PDF table row,470,49
+PDF table row,500,38
+PDF table row,597,13
+PDF table row,1633,6
+PDF table row,732,9
+PDF table row,801,9
+PDF table row,694,18
+PDF table row,454,116
+PDF table row,638,16
+PDF table row,665,16
+PDF table row,648,7
+PDF table row,658,11
+PDF table row,643,7
+PDF table row,725,21
+PDF table row,646,18
+PDF table row,493,52
+PDF table row,1007,4
+PDF table row,1001,3
+PDF table row,781,11
+PDF table row,751,6
+PDF table row,1116,5
+PDF table row,605,25
+PDF table row,917,4
+PDF table row,585,28
+PDF table row,709,7
+PDF table row,575,20
+PDF table row,607,12
+PDF table row,854,16
+PDF table row,673,8
+PDF table row,734,13
+PDF table row,657,8
+PDF table row,797,9
+PDF table row,463,69
+PDF table row,840,4
+PDF table row,660,16
+PDF table row,609,17
+PDF table row,652,7
+PDF table row,720,15
+PDF table row,774,13
+PDF table row,757,16
+PDF table row,634,11
+PDF table row,755,14
+PDF table row,488,54
+PDF table row,485,31
+PDF table row,477,48
+PDF table row,856,11
+PDF table row,1067,7
+PDF table row,1124,1
+PDF table row,1097,4
+PDF table row,611,19
+PDF table row,775,9
+PDF table row,2191,1
+PDF table row,1592,3
+PDF table row,813,15
+PDF table row,766,10
+PDF table row,879,10
+PDF table row,1126,7
+PDF table row,882,5
+PDF table row,889,9
+PDF table row,1083,2
+PDF table row,987,8
+PDF table row,584,20
+PDF table row,940,6
+PDF table row,796,12
+PDF table row,746,10
+PDF table row,521,32
+PDF table row,574,27
+PDF table row,663,13
+PDF table row,770,11
+PDF table row,702,14
+PDF table row,654,9
+PDF table row,1403,3
+PDF table row,773,15
+PDF table row,659,13
+PDF table row,756,10
+PDF table row,1224,6
+PDF table row,1027,5
+PDF table row,913,8
+PDF table row,928,8
+PDF table row,743,8
+PDF table row,893,15
+PDF table row,683,10
+PDF table row,576,24
+PDF table row,858,5
+PDF table row,788,12
+PDF table row,610,10
+PDF table row,537,27
+PDF table row,827,6
+PDF table row,669,15
+PDF table row,782,9
+PDF table row,875,6
+PDF table row,483,48
+PDF table row,865,7
+PDF table row,864,6
+PDF table row,1143,5
+PDF table row,927,4
+PDF table row,541,30
+PDF table row,822,16
+PDF table row,563,42
+PDF table row,719,14
+PDF table row,674,15
+PDF table row,831,7
+PDF table row,993,2
+PDF table row,688,17
+PDF table row,880,7
+PDF table row,871,10
+PDF table row,799,8
+PDF table row,1743,3
+PDF table row,744,9
+PDF table row,962,3
+PDF table row,1662,3
+PDF table row,667,10
+PDF table row,677,22
+PDF table row,926,8
+PDF table row,892,10
+PDF table row,931,4
+PDF table row,869,5
+PDF table row,966,8
+PDF table row,1025,5
+PDF table row,2051,2
+PDF table row,771,6
+PDF table row,590,17
+PDF table row,849,3
+PDF table row,784,9
+PDF table row,671,10
+PDF table row,2129,1
+PDF table row,1546,7
+PDF table row,1302,4
+PDF table row,1022,8
+PDF table row,777,12
+PDF table row,516,31
+PDF table row,739,16
+PDF table row,1615,2
+PDF table row,1789,2
+PDF table row,1723,2
+PDF table row,1968,3
+PDF table row,1709,3
+PDF table row,1670,7
+PDF table row,1036,9
+PDF table row,1090,6
+PDF table row,1002,5
+PDF table row,700,12
+PDF table row,1174,3
+PDF table row,795,6
+PDF table row,753,6
+PDF table row,808,8
+PDF table row,898,8
+PDF table row,812,9
+PDF table row,749,19
+PDF table row,809,8
+PDF table row,661,11
+PDF table row,896,3
+PDF table row,741,18
+PDF table row,937,8
+PDF table row,780,13
+PDF table row,794,21
+PDF table row,818,18
+PDF table row,778,8
+PDF table row,594,31
+PDF table row,729,12
+PDF table row,758,9
+PDF table row,897,17
+PDF table row,811,7
+PDF table row,834,11
+PDF table row,748,13
+PDF table row,820,8
+PDF table row,803,9
+PDF table row,936,14
+PDF table row,888,8
+PDF table row,731,10
+PDF table row,817,11
+PDF table row,615,14
+PDF table row,1416,4
+PDF table row,2262,1
+PDF table row,2839,2
+PDF table row,653,14
+PDF table row,1424,4
+PDF table row,508,36
+PDF table row,704,10
+PDF table row,633,10
+PDF table row,1805,2
+PDF table row,1063,8
+PDF table row,1292,3
+PDF table row,798,5
+PDF table row,693,8
+PDF table row,710,17
+PDF table row,872,7
+PDF table row,601,21
+PDF table row,596,18
+PDF table row,830,10
+PDF table row,1088,3
+PDF table row,1435,6
+PDF table row,2063,3
+PDF table row,1940,1
+PDF table row,868,3
+PDF table row,1286,6
+PDF table row,1310,4
+PDF table row,810,9
+PDF table row,695,16
+PDF table row,2495,1
+PDF table row,3945,1
+PDF table row,1237,4
+PDF table row,1084,7
+PDF table row,595,18
+PDF table row,900,11
+PDF table row,1373,3
+PDF table row,2584,2
+PDF table row,2246,1
+PDF table row,2327,2
+PDF table row,2253,3
+PDF table row,1018,3
+PDF table row,1491,3
+PDF table row,1854,4
+PDF table row,861,9
+PDF table row,1156,6
+PDF table row,1222,6
+PDF table row,1037,9
+PDF table row,915,3
+PDF table row,1377,2
+PDF table row,1278,3
+PDF table row,1432,2
+PDF table row,1410,2
+PDF table row,2060,2
+PDF table row,3570,1
+PDF table row,3304,1
+PDF table row,1512,2
+PDF table row,2301,1
+PDF table row,2083,2
+PDF table row,2057,1
+PDF table row,2221,1
+PDF table row,1492,3
+PDF table row,1742,4
+PDF table row,1164,4
+PDF table row,1230,6
+PDF table row,1045,9
+PDF table row,923,7
+PDF table row,1385,4
+PDF table row,1175,4
+PDF table row,1440,3
+PDF table row,1418,4
+PDF table row,1892,2
+PDF table row,2068,3
+PDF table row,3578,1
+PDF table row,3312,1
+PDF table row,1520,3
+PDF table row,2309,1
+PDF table row,2091,3
+PDF table row,2065,1
+PDF table row,1750,2
+PDF table row,1150,4
+PDF table row,1256,4
+PDF table row,1031,8
+PDF table row,1109,4
+PDF table row,2117,3
+PDF table row,1405,6
+PDF table row,1548,4
+PDF table row,1335,4
+PDF table row,714,18
+PDF table row,1082,5
+PDF table row,1219,6
+PDF table row,1038,6
+PDF table row,1137,4
+PDF table row,1046,7
+PDF table row,1151,5
+PDF table row,1814,5
+PDF table row,1158,4
+PDF table row,1039,6
+PDF table row,2125,2
+PDF table row,1413,4
+PDF table row,1343,3
+PDF table row,722,12
+PDF table row,1030,6
+PDF table row,1191,3
+PDF table row,1054,4
+PDF table row,1100,10
+PDF table row,1822,2
+PDF table row,1522,10
+PDF table row,890,9
+PDF table row,1153,6
+PDF table row,878,7
+PDF table row,2085,5
+PDF table row,787,6
+PDF table row,750,9
+PDF table row,718,15
+PDF table row,885,7
+PDF table row,690,19
+PDF table row,1530,3
+PDF table row,1161,3
+PDF table row,712,19
+PDF table row,3213,5
+PDF table row,2093,1
+PDF table row,730,13
+PDF table row,697,10
+PDF table row,680,10
+PDF table row,857,6
+PDF table row,3271,1
+PDF table row,1494,5
+PDF table row,1378,7
+PDF table row,1020,7
+PDF table row,901,2
+PDF table row,1687,3
+PDF table row,1066,8
+PDF table row,721,12
+PDF table row,762,7
+PDF table row,1123,5
+PDF table row,692,18
+PDF table row,1075,6
+PDF table row,724,7
+PDF table row,1524,5
+PDF table row,884,8
+PDF table row,1480,3
+PDF table row,1791,2
+PDF table row,1195,2
+PDF table row,1946,2
+PDF table row,1055,4
+PDF table row,908,11
+PDF table row,1096,4
+PDF table row,637,11
+PDF table row,1685,2
+PDF table row,1509,3
+PDF table row,998,4
+PDF table row,953,3
+PDF table row,933,12
+PDF table row,2175,1
+PDF table row,932,4
+PDF table row,837,11
+PDF table row,1168,4
+PDF table row,1819,2
+PDF table row,1824,1
+PDF table row,1122,5
+PDF table row,867,3
+PDF table row,1014,5
+PDF table row,1686,2
+PDF table row,894,7
+PDF table row,1120,3
+PDF table row,785,7
+PDF table row,828,7
+PDF table row,979,3
+PDF table row,999,5
+PDF table row,789,7
+PDF table row,1179,1
+PDF table row,1106,1
+PDF table row,1058,7
+PDF table row,630,12
+PDF table row,761,10
+PDF table row,641,10
+PDF table row,5042,1
+PDF table row,3931,1
+PDF table row,5114,1
+PDF table row,3452,1
+PDF table row,1436,8
+PDF table row,1024,7
+PDF table row,1338,2
+PDF table row,1941,2
+PDF table row,1130,5
+PDF table row,1832,4
+PDF table row,2337,2
+PDF table row,1617,3
+PDF table row,1555,4
+PDF table row,1799,2
+PDF table row,2127,4
+PDF table row,2378,4
+PDF table row,1689,3
+PDF table row,826,6
+PDF table row,1425,5
+PDF table row,977,4
+PDF table row,848,7
+PDF table row,1125,6
+PDF table row,1093,3
+PDF table row,675,14
+PDF table row,973,5
+PDF table row,969,5
+PDF table row,1062,1
+PDF table row,1061,7
+PDF table row,791,7
+PDF table row,950,6
+PDF table row,701,15
+PDF table row,934,8
+PDF table row,2249,2
+PDF table row,850,4
+PDF table row,1213,2
+PDF table row,1629,5
+PDF table row,1185,4
+PDF table row,1072,3
+PDF table row,776,12
+PDF table row,642,5
+PDF table row,1496,2
+PDF table row,1128,7
+PDF table row,1215,3
+PDF table row,1203,4
+PDF table row,1467,3
+PDF table row,1589,2
+PDF table row,1154,4
+PDF table row,982,2
+PDF table row,2158,3
+PDF table row,1370,5
+PDF table row,3192,1
+PDF table row,3119,1
+PDF table row,3730,2
+PDF table row,2241,2
+PDF table row,2131,1
+PDF table row,2624,1
+PDF table row,1921,2
+PDF table row,2161,2
+PDF table row,4917,1
+PDF table row,2453,1
+PDF table row,2487,2
+PDF table row,2080,4
+PDF table row,921,5
+PDF table row,705,14
+PDF table row,2379,1
+PDF table row,1747,3
+PDF table row,1261,3
+PDF table row,1033,6
+PDF table row,4327,1
+PDF table row,2880,1
+PDF table row,2556,1
+PDF table row,1557,1
+PDF table row,3389,1
+PDF table row,1421,4
+PDF table row,2703,1
+PDF table row,1059,6
+PDF table row,1632,3
+PDF table row,1108,3
+PDF table row,2589,2
+PDF table row,863,8
+PDF table row,717,15
+PDF table row,1121,4
+PDF table row,874,2
+PDF table row,1620,2
+PDF table row,2620,1
+PDF table row,1752,1
+PDF table row,1005,8
+PDF table row,1199,4
+PDF table row,1999,1
+PDF table row,737,13
+PDF table row,3168,2
+PDF table row,1830,1
+PDF table row,1652,1
+PDF table row,2285,1
+PDF table row,3294,1
+PDF table row,2804,1
+PDF table row,2274,2
+PDF table row,1353,3
+PDF table row,2013,1
+PDF table row,1653,1
+PDF table row,1732,3
+PDF table row,1337,4
+PDF table row,1349,2
+PDF table row,1616,3
+PDF table row,1783,3
+PDF table row,1896,4
+PDF table row,1578,6
+PDF table row,1238,4
+PDF table row,1235,9
+PDF table row,909,6
+PDF table row,1260,5
+PDF table row,825,9
+PDF table row,1737,3
+PDF table row,651,9
+PDF table row,1774,3
+PDF table row,1622,3
+PDF table row,1011,7
+PDF table row,706,21
+PDF table row,1021,9
+PDF table row,802,6
+PDF table row,911,8
+PDF table row,1781,3
+PDF table row,2603,2
+PDF table row,1739,1
+PDF table row,2439,1
+PDF table row,1239,3
+PDF table row,1351,4
+PDF table row,1694,2
+PDF table row,2174,1
+PDF table row,1950,3
+PDF table row,2079,2
+PDF table row,1625,2
+PDF table row,1465,1
+PDF table row,1744,3
+PDF table row,1071,6
+PDF table row,984,4
+PDF table row,2209,2
+PDF table row,1032,6
+PDF table row,1146,3
+PDF table row,1319,4
+PDF table row,1057,7
+PDF table row,1186,4
+PDF table row,1132,3
+PDF table row,960,5
+PDF table row,1291,6
+PDF table row,876,7
+PDF table row,991,7
+PDF table row,943,10
+PDF table row,903,6
+PDF table row,1044,3
+PDF table row,829,10
+PDF table row,1499,2
+PDF table row,1304,3
+PDF table row,989,2
+PDF table row,881,5
+PDF table row,768,6
+PDF table row,1040,11
+PDF table row,1006,12
+PDF table row,1013,4
+PDF table row,1327,2
+PDF table row,1065,7
+PDF table row,1194,3
+PDF table row,1140,3
+PDF table row,968,9
+PDF table row,1299,3
+PDF table row,883,7
+PDF table row,951,7
+PDF table row,954,6
+PDF table row,1052,8
+PDF table row,1507,1
+PDF table row,1101,5
+PDF table row,1312,6
+PDF table row,997,6
+PDF table row,1301,4
+PDF table row,2112,4
+PDF table row,1486,5
+PDF table row,1397,4
+PDF table row,2197,1
+PDF table row,1712,2
+PDF table row,1800,2
+PDF table row,1701,3
+PDF table row,846,7
+PDF table row,1091,3
+PDF table row,1190,5
+PDF table row,1708,6
+PDF table row,1571,8
+PDF table row,1514,6
+PDF table row,1619,5
+PDF table row,1345,2
+PDF table row,1428,2
+PDF table row,1398,5
+PDF table row,1414,6
+PDF table row,1696,2
+PDF table row,1367,5
+PDF table row,1393,3
+PDF table row,1601,5
+PDF table row,1566,5
+PDF table row,1451,3
+PDF table row,1220,2
+PDF table row,1197,5
+PDF table row,1382,4
+PDF table row,1273,2
+PDF table row,1513,3
+PDF table row,1582,4
+PDF table row,1409,1
+PDF table row,1575,6
+PDF table row,1309,7
+PDF table row,2120,2
+PDF table row,1016,3
+PDF table row,2205,4
+PDF table row,1720,1
+PDF table row,1808,3
+PDF table row,1099,7
+PDF table row,1198,6
+PDF table row,1716,2
+PDF table row,1554,3
+PDF table row,1579,3
+PDF table row,2027,4
+PDF table row,1627,6
+PDF table row,1166,2
+PDF table row,1422,2
+PDF table row,1481,6
+PDF table row,1704,3
+PDF table row,1375,3
+PDF table row,1401,2
+PDF table row,1609,7
+PDF table row,1459,4
+PDF table row,1228,10
+PDF table row,1205,12
+PDF table row,1360,4
+PDF table row,1521,3
+PDF table row,1735,1
+PDF table row,1590,4
+PDF table row,1417,1
+PDF table row,1583,2
+PDF table row,1283,2
+PDF table row,1326,6
+PDF table row,1817,2
+PDF table row,1060,8
+PDF table row,1069,1
+PDF table row,1407,4
+PDF table row,1176,3
+PDF table row,1141,1
+PDF table row,1152,3
+PDF table row,1585,2
+PDF table row,1552,3
+PDF table row,2045,3
+PDF table row,1477,5
+PDF table row,1388,4
+PDF table row,1445,1
+PDF table row,1565,3
+PDF table row,1328,3
+PDF table row,1246,2
+PDF table row,1365,1
+PDF table row,1200,5
+PDF table row,1540,5
+PDF table row,1746,1
+PDF table row,1427,1
+PDF table row,1690,1
+PDF table row,1334,4
+PDF table row,1089,3
+PDF table row,1825,2
+PDF table row,769,12
+PDF table row,1077,7
+PDF table row,1415,3
+PDF table row,1184,6
+PDF table row,1149,3
+PDF table row,1134,2
+PDF table row,1593,2
+PDF table row,1469,5
+PDF table row,1517,4
+PDF table row,2053,2
+PDF table row,1532,6
+PDF table row,1247,5
+PDF table row,1460,2
+PDF table row,1317,3
+PDF table row,1586,2
+PDF table row,1396,3
+PDF table row,1453,6
+PDF table row,1573,4
+PDF table row,1254,2
+PDF table row,1208,3
+PDF table row,1243,5
+PDF table row,1412,3
+PDF table row,1503,1
+PDF table row,1630,6
+PDF table row,1754,2
+PDF table row,1598,3
+PDF table row,1698,3
+PDF table row,1285,5
+PDF table row,964,5
+PDF table row,1634,6
+PDF table row,1858,1
+PDF table row,1777,4
+PDF table row,1610,1
+PDF table row,1922,4
+PDF table row,1812,1
+PDF table row,1740,3
+PDF table row,1666,4
+PDF table row,2109,3
+PDF table row,1277,4
+PDF table row,1136,4
+PDF table row,1276,4
+PDF table row,1202,6
+PDF table row,1441,4
+PDF table row,1293,3
+PDF table row,972,5
+PDF table row,2055,1
+PDF table row,1644,1
+PDF table row,1688,4
+PDF table row,1642,2
+PDF table row,1866,5
+PDF table row,1785,1
+PDF table row,1618,1
+PDF table row,1930,3
+PDF table row,1820,3
+PDF table row,1748,4
+PDF table row,1674,5
+PDF table row,1012,4
+PDF table row,1144,5
+PDF table row,1284,6
+PDF table row,1245,2
+PDF table row,1210,3
+PDF table row,1131,5
+PDF table row,1325,4
+PDF table row,1449,3
+PDF table row,1129,3
+PDF table row,1192,3
+PDF table row,1262,3
+PDF table row,1741,3
+PDF table row,958,6
+PDF table row,708,8
+PDF table row,919,5
+PDF table row,1135,4
+PDF table row,1079,7
+PDF table row,967,4
+PDF table row,1450,2
+PDF table row,1392,3
+PDF table row,1888,1
+PDF table row,1259,4
+PDF table row,1316,4
+PDF table row,1538,4
+PDF table row,1358,3
+PDF table row,1211,4
+PDF table row,1408,4
+PDF table row,1270,3
+PDF table row,1749,3
+PDF table row,1010,5
+PDF table row,1087,4
+PDF table row,975,6
+PDF table row,1267,4
+PDF table row,944,2
+PDF table row,1324,3
+PDF table row,1225,4
+PDF table row,1366,3
+PDF table row,920,4
+PDF table row,1882,3
+PDF table row,1163,2
+PDF table row,2782,1
+PDF table row,2042,2
+PDF table row,853,5
+PDF table row,952,6
+PDF table row,2481,1
+PDF table row,1443,2
+PDF table row,2276,4
+PDF table row,1890,1
+PDF table row,1171,2
+PDF table row,2050,3
+PDF table row,970,6
+PDF table row,1047,6
+PDF table row,1233,3
+PDF table row,687,14
+PDF table row,2489,3
+PDF table row,2040,2
+PDF table row,1877,4
+PDF table row,956,8
+PDF table row,1290,5
+PDF table row,924,5
+PDF table row,1223,6
+PDF table row,851,5
+PDF table row,2483,2
+PDF table row,1444,1
+PDF table row,2645,1
+PDF table row,3170,1
+PDF table row,2768,1
+PDF table row,1944,2
+PDF table row,1881,2
+PDF table row,2650,2
+PDF table row,3233,1
+PDF table row,3190,1
+PDF table row,2770,1
+PDF table row,986,3
+PDF table row,1318,5
+PDF table row,1671,1
+PDF table row,912,6
+PDF table row,1315,4
+PDF table row,1697,4
+PDF table row,1753,2
+PDF table row,859,8
+PDF table row,2029,3
+PDF table row,1341,3
+PDF table row,1274,2
+PDF table row,3108,1
+PDF table row,3051,1
+PDF table row,3248,1
+PDF table row,2360,2
+PDF table row,3704,1
+PDF table row,2189,3
+PDF table row,6180,1
+PDF table row,2588,1
+PDF table row,2900,1
+PDF table row,3289,1
+PDF table row,2339,3
+PDF table row,2213,2
+PDF table row,1841,4
+PDF table row,1597,4
+PDF table row,1899,2
+PDF table row,2512,2
+PDF table row,2883,1
+PDF table row,2159,1
+PDF table row,1676,1
+PDF table row,2113,2
+PDF table row,3944,1
+PDF table row,3967,1
+PDF table row,2140,4
+PDF table row,4141,1
+PDF table row,3143,1
+PDF table row,2427,1
+PDF table row,4137,2
+PDF table row,2730,2
+PDF table row,1937,2
+PDF table row,1672,1
+PDF table row,1803,6
+PDF table row,3747,1
+PDF table row,2373,3
+PDF table row,4459,1
+PDF table row,3872,3
+PDF table row,2740,2
+PDF table row,3008,1
+PDF table row,2705,3
+PDF table row,2130,1
+PDF table row,1951,1
+PDF table row,1730,2
+PDF table row,3979,1
+PDF table row,4170,1
+PDF table row,891,7
+PDF table row,1641,4
+PDF table row,1361,2
+PDF table row,1363,3
+PDF table row,1430,5
+PDF table row,1423,3
+PDF table row,904,3
+PDF table row,981,3
+PDF table row,985,3
+PDF table row,1042,1
+PDF table row,860,3
+PDF table row,752,7
+PDF table row,1107,3
+PDF table row,1115,2
+PDF table row,1169,3
+PDF table row,1356,2
+PDF table row,1114,1
+PDF table row,1234,9
+PDF table row,581,9
+PDF table row,3630,1
+PDF table row,1733,2
+PDF table row,1064,2
+PDF table row,1354,1
+PDF table row,1442,3
+PDF table row,1448,2
+PDF table row,1009,8
+PDF table row,3529,1
+PDF table row,2377,2
+PDF table row,1581,5
+PDF table row,1969,1
+PDF table row,1915,2
+PDF table row,2324,1
+PDF table row,2454,2
+PDF table row,2403,1
+PDF table row,1845,2
+PDF table row,1871,2
+PDF table row,1553,4
+PDF table row,3009,2
+PDF table row,1637,6
+PDF table row,929,5
+PDF table row,1209,3
+PDF table row,1201,3
+PDF table row,930,4
+PDF table row,1043,9
+PDF table row,1437,3
+PDF table row,1497,3
+PDF table row,1604,1
+PDF table row,1751,4
+PDF table row,1693,1
+PDF table row,1649,2
+PDF table row,1080,3
+PDF table row,1258,4
+PDF table row,1757,3
+PDF table row,3093,1
+PDF table row,1646,4
+PDF table row,1638,1
+PDF table row,639,13
+PDF table row,899,8
+PDF table row,1433,3
+PDF table row,1894,2
+PDF table row,2030,2
+PDF table row,2012,3
+PDF table row,1885,3
+PDF table row,2840,1
+PDF table row,1177,7
+PDF table row,1355,5
+PDF table row,1320,4
+PDF table row,3110,1
+PDF table row,1606,5
+PDF table row,1827,3
+PDF table row,3003,1
+PDF table row,2610,1
+PDF table row,1851,2
+PDF table row,2628,1
+PDF table row,1187,2
+PDF table row,1904,3
+PDF table row,1034,6
+PDF table row,1903,3
+PDF table row,2348,2
+PDF table row,1568,4
+PDF table row,1870,1
+PDF table row,1170,3
+PDF table row,1657,2
+PDF table row,2177,2
+PDF table row,1104,5
+PDF table row,1965,1
+PDF table row,1350,2
+PDF table row,978,3
+PDF table row,1975,2
+PDF table row,1479,3
+PDF table row,635,6
+PDF table row,5322,1
+PDF table row,1792,1
+PDF table row,947,3
+PDF table row,1874,1
+PDF table row,5330,2
+PDF table row,2176,3
+PDF table row,2154,1
+PDF table row,4805,1
+PDF table row,1926,1
+PDF table row,1380,3
+PDF table row,1148,3
+PDF table row,1086,3
+PDF table row,1289,5
+PDF table row,2941,2
+PDF table row,1869,1
+PDF table row,2255,2
+PDF table row,3688,1
+PDF table row,1862,3
+PDF table row,2370,1
+PDF table row,1981,3
+PDF table row,2539,2
+PDF table row,2211,1
+PDF table row,1801,1
+PDF table row,1964,3
+PDF table row,4143,1
+PDF table row,1976,1
+PDF table row,2491,1
+PDF table row,1977,1
+PDF table row,2387,3
+PDF table row,3817,1
+PDF table row,2208,2
+PDF table row,3921,1
+PDF table row,2009,5
+PDF table row,2143,1
+PDF table row,2151,1
+PDF table row,2479,1
+PDF table row,2168,2
+PDF table row,1272,2
+PDF table row,2071,3
+PDF table row,1232,4
+PDF table row,1782,3
+PDF table row,1280,5
+PDF table row,5090,1
+PDF table row,1768,1
+PDF table row,1076,3
+PDF table row,2609,1
+PDF table row,1383,3
+PDF table row,845,8
+PDF table row,754,4
+PDF table row,1103,2
+PDF table row,1189,2
+PDF table row,847,6
+PDF table row,996,3
+PDF table row,1802,2
+PDF table row,2398,1
+PDF table row,1973,2
+PDF table row,1855,2
+PDF table row,1759,1
+PDF table row,2171,2
+PDF table row,2555,1
+PDF table row,1231,4
+PDF table row,1368,4
+PDF table row,1330,3
+PDF table row,1206,3
+PDF table row,2443,2
+PDF table row,2814,1
+PDF table row,1605,2
+PDF table row,3234,2
+PDF table row,980,4
+PDF table row,1307,4
+PDF table row,1181,5
+PDF table row,2499,1
+PDF table row,2904,1
+PDF table row,1786,2
+PDF table row,2779,1
+PDF table row,2052,1
+PDF table row,1462,2
+PDF table row,2573,2
+PDF table row,2478,1
+PDF table row,2800,1
+PDF table row,2136,1
+PDF table row,3604,2
+PDF table row,1769,3
+PDF table row,1954,1
+PDF table row,1795,1
+PDF table row,1773,2
+PDF table row,1526,3
+PDF table row,1900,3
+PDF table row,1810,2
+PDF table row,2069,2
+PDF table row,1844,1
+PDF table row,2617,2
+PDF table row,2247,1
+PDF table row,2469,1
+PDF table row,3410,1
+PDF table row,2275,1
+PDF table row,2722,3
+PDF table row,2092,1
+PDF table row,2230,1
+PDF table row,2448,1
+PDF table row,2606,2
+PDF table row,2659,1
+PDF table row,2952,2
+PDF table row,2475,1
+PDF table row,3432,1
+PDF table row,3492,2
+PDF table row,2338,3
+PDF table row,2157,2
+PDF table row,2457,3
+PDF table row,2146,1
+PDF table row,2601,1
+PDF table row,2648,1
+PDF table row,2413,1
+PDF table row,2008,4
+PDF table row,2488,1
+PDF table row,2819,1
+PDF table row,2746,3
+PDF table row,1384,3
+PDF table row,1624,4
+PDF table row,1178,5
+PDF table row,2766,2
+PDF table row,2969,1
+PDF table row,2224,1
+PDF table row,2420,1
+PDF table row,2264,2
+PDF table row,2386,1
+PDF table row,2086,2
+PDF table row,974,3
+PDF table row,1639,5
+PDF table row,2981,1
+PDF table row,1758,4
+PDF table row,1599,5
+PDF table row,1527,6
+PDF table row,2228,2
+PDF table row,1584,1
+PDF table row,2240,1
+PDF table row,2521,1
+PDF table row,1847,2
+PDF table row,1387,4
+PDF table row,1623,4
+PDF table row,1648,4
+PDF table row,2428,2
+PDF table row,2187,3
+PDF table row,2362,1
+PDF table row,2195,2
+PDF table row,2695,2
+PDF table row,2788,2
+PDF table row,990,3
+PDF table row,2412,1
+PDF table row,3005,2
+PDF table row,2038,1
+PDF table row,2020,2
+PDF table row,2366,1
+PDF table row,2716,1
+PDF table row,1591,2
+PDF table row,2076,1
+PDF table row,2061,2
+PDF table row,1478,2
+PDF table row,2231,2
+PDF table row,4004,3
+PDF table row,1381,2
+PDF table row,2334,1
+PDF table row,1626,3
+PDF table row,4081,1
+PDF table row,2096,1
+PDF table row,1394,2
+PDF table row,1809,1
+PDF table row,2497,2
+PDF table row,2920,1
+PDF table row,1118,1
+PDF table row,2842,1
+PDF table row,2623,1
+PDF table row,1017,3
+PDF table row,2850,1
+PDF table row,2631,2
+PDF table row,1755,1
+PDF table row,1269,4
+PDF table row,2037,2
+PDF table row,2688,1
+PDF table row,1834,2
+PDF table row,1240,4
+PDF table row,1279,4
+PDF table row,2329,2
+PDF table row,1347,1
+PDF table row,2909,2
+PDF table row,1763,1
+PDF table row,2039,2
+PDF table row,1797,1
+PDF table row,1333,6
+PDF table row,2696,1
+PDF table row,2017,2
+PDF table row,1399,5
+PDF table row,1282,3
+PDF table row,1831,1
+PDF table row,1138,2
+PDF table row,1647,2
+PDF table row,1287,3
+PDF table row,1796,4
+PDF table row,2917,1
+PDF table row,1772,4
+PDF table row,1952,1
+PDF table row,2350,2
+PDF table row,2738,3
+PDF table row,1811,1
+PDF table row,1984,1
+PDF table row,2001,1
+PDF table row,2010,2
+PDF table row,2090,1
+PDF table row,1695,3
+PDF table row,1112,2
+PDF table row,1780,3
+PDF table row,1960,1
+PDF table row,2358,1
+PDF table row,1992,1
+PDF table row,2018,1
+PDF table row,1656,4
+PDF table row,2098,1
+PDF table row,1703,5
+PDF table row,1395,2
+PDF table row,2847,1
+PDF table row,1298,1
+PDF table row,3109,2
+PDF table row,1305,6
+PDF table row,1133,7
+PDF table row,1910,2
+PDF table row,7123,1
+PDF table row,3022,2
+PDF table row,2049,4
+PDF table row,1216,5
+PDF table row,988,4
+PDF table row,1431,3
+PDF table row,1218,4
+PDF table row,2382,2
+PDF table row,2155,1
+PDF table row,3048,1
+PDF table row,2081,2
+PDF table row,3573,1
+PDF table row,1668,3
+PDF table row,1339,2
+PDF table row,1028,3
+PDF table row,1970,1
+PDF table row,2694,1
+PDF table row,1297,2
+PDF table row,1074,4
+PDF table row,2317,1
+PDF table row,2181,3
+PDF table row,1549,2
+PDF table row,3288,2
+PDF table row,2254,1
+PDF table row,2966,1
+PDF table row,1813,2
+PDF table row,2892,1
+PDF table row,1932,2
+PDF table row,2508,2
+PDF table row,1945,1
+PDF table row,905,5
+PDF table row,2531,1
+PDF table row,1265,1
+PDF table row,2414,1
+PDF table row,1707,4
+PDF table row,1300,2
+PDF table row,1323,1
+PDF table row,1295,3
+PDF table row,1313,3
+PDF table row,1303,4
+PDF table row,1314,1
+PDF table row,1294,2
+PDF table row,1909,2
+PDF table row,1989,1
+PDF table row,2172,1
+PDF table row,2056,3
+PDF table row,1229,2
+PDF table row,2261,1
+PDF table row,1929,4
+PDF table row,2150,2
+PDF table row,1306,5
+PDF table row,1775,2
+PDF table row,2727,1
+PDF table row,3257,1
+PDF table row,3223,8
+PDF table row,3216,2
+PDF table row,3207,1
+PDF table row,3219,1
+PDF table row,3217,1
+PDF table row,3204,1
+PDF table row,3197,1
+PDF table row,3228,1
+PDF table row,3215,3
+PDF table row,3208,1
+PDF table row,3230,1
+PDF table row,3227,2
+PDF table row,3178,1
+PDF table row,1879,2
+PDF table row,1846,3
+PDF table row,2836,2
+PDF table row,2831,2
+PDF table row,2775,1
+PDF table row,2914,1
+PDF table row,3996,1
+PDF table row,1212,4
+PDF table row,1155,1
+PDF table row,1490,2
+PDF table row,2166,2
+PDF table row,1505,2
+PDF table row,2391,1
+PDF table row,2380,2
+PDF table row,2374,3
+PDF table row,2372,1
+PDF table row,1635,3
+PDF table row,1836,1
+PDF table row,963,4
+PDF table row,2667,1
+PDF table row,2216,3
+PDF table row,1498,1
+PDF table row,1860,3
+PDF table row,1859,2
+PDF table row,1852,2
+PDF table row,1867,3
+PDF table row,2642,1
+PDF table row,1614,4
+PDF table row,1595,4
+PDF table row,1594,4
+PDF table row,1726,2
+PDF table row,1715,2
+PDF table row,2946,1
+PDF table row,1699,3
+PDF table row,983,3
+PDF table row,2452,1
+PDF table row,1924,1
+PDF table row,2074,1
+PDF table row,2073,2
+PDF table row,2005,1
+PDF table row,2033,3
+PDF table row,2077,2
+PDF table row,1991,3
+PDF table row,1985,3
+PDF table row,2024,2
+PDF table row,2016,2
+PDF table row,2025,1
+PDF table row,2003,2
+PDF table row,1993,3
+PDF table row,2044,2
+PDF table row,2100,2
+PDF table row,2046,4
+PDF table row,3094,1
+PDF table row,3069,1
+PDF table row,3042,5
+PDF table row,3065,2
+PDF table row,3019,2
+PDF table row,3058,1
+PDF table row,3080,1
+PDF table row,4601,1
+PDF table row,1376,4
+PDF table row,2564,1
+PDF table row,965,1
+PDF table row,945,2
+PDF table row,948,3
+PDF table row,1466,2
+PDF table row,1464,1
+PDF table row,1471,3
+PDF table row,1475,1
+PDF table row,1484,3
+PDF table row,1891,4
+PDF table row,2907,1
+PDF table row,2506,1
+PDF table row,2465,1
+PDF table row,2303,2
+PDF table row,1321,1
+PDF table row,1602,3
+PDF table row,3398,1
+PDF table row,2226,1
+PDF table row,2149,3
+PDF table row,2185,1
+PDF table row,2123,2
+PDF table row,3218,1
+PDF table row,2597,1
+PDF table row,4402,1
+PDF table row,733,5
+PDF table row,1928,1
+PDF table row,2424,1
+PDF table row,1249,2
+PDF table row,1236,1
+PDF table row,1456,1
+PDF table row,1173,4
+PDF table row,2134,1
+PDF table row,1094,1
+PDF table row,2599,1
+PDF table row,1542,2
+PDF table row,2578,1
+PDF table row,2808,1
+PDF table row,2729,1
+PDF table row,2365,2
+PDF table row,2333,1
+PDF table row,3021,2
+PDF table row,3012,1
+PDF table row,3011,1
+PDF table row,3049,2
+PDF table row,1706,2
+PDF table row,1713,3
+PDF table row,1717,2
+PDF table row,2895,1
+PDF table row,1681,1
+PDF table row,1563,2
+PDF table row,1561,4
+PDF table row,1562,4
+PDF table row,2451,3
+PDF table row,2133,1
+PDF table row,1724,4
+PDF table row,2411,1
+PDF table row,2976,1
+PDF table row,1611,1
+PDF table row,1655,1
+PDF table row,1541,2
+PDF table row,1559,4
+PDF table row,1613,2
+PDF table row,1608,3
+PDF table row,1580,1
+PDF table row,1603,2
+PDF table row,3252,1
+PDF table row,3177,1
+PDF table row,3238,1
+PDF table row,3267,1
+PDF table row,4354,2
+PDF table row,1567,3
+PDF table row,2753,1
+PDF table row,2349,3
+PDF table row,4737,1
+PDF table row,5016,1
+PDF table row,1621,3
+PDF table row,1651,2
+PDF table row,1643,3
+PDF table row,1640,4
+PDF table row,2110,3
+PDF table row,2263,1
+PDF table row,916,3
+PDF table row,4230,1
+PDF table row,3929,1
+PDF table row,4321,1
+PDF table row,2198,2
+PDF table row,2780,1
+PDF table row,2105,1
+PDF table row,1127,5
+PDF table row,1271,5
+PDF table row,1172,4
+PDF table row,2776,2
+PDF table row,3591,1
+PDF table row,4671,1
+PDF table row,3323,1
+PDF table row,4454,2
+PDF table row,5085,1
+PDF table row,4288,1
+PDF table row,1607,1
+PDF table row,1429,4
+PDF table row,2087,2
+PDF table row,2762,1
+PDF table row,2661,3
+PDF table row,2728,2
+PDF table row,2724,2
+PDF table row,2704,1
+PDF table row,2708,2
+PDF table row,2664,1
+PDF table row,2725,1
+PDF table row,2718,2
+PDF table row,2709,1
+PDF table row,2702,2
+PDF table row,2733,2
+PDF table row,2720,4
+PDF table row,2714,2
+PDF table row,2735,1
+PDF table row,2732,2
+PDF table row,2692,2
+PDF table row,2245,1
+PDF table row,2214,1
+PDF table row,2232,1
+PDF table row,2237,1
+PDF table row,2121,2
+PDF table row,2173,1
+PDF table row,2281,1
+PDF table row,957,2
+PDF table row,2128,1
+PDF table row,2180,1
+PDF table row,3812,1
+PDF table row,2972,1
+PDF table row,3808,1
+PDF table row,3431,1
+PDF table row,4125,1
+PDF table row,2007,1
+PDF table row,1784,1
+PDF table row,4527,2
+PDF table row,1322,1
+PDF table row,1311,3
+PDF table row,1308,2
+PDF table row,4324,1
+PDF table row,2950,3
+PDF table row,2958,1
+PDF table row,2953,2
+PDF table row,2945,2
+PDF table row,2951,3
+PDF table row,1180,3
+PDF table row,2170,1
+PDF table row,3169,1
+PDF table row,3792,1
+PDF table row,2605,2
+PDF table row,2326,2
+PDF table row,1558,2
+PDF table row,4053,1
+PDF table row,1534,2
+PDF table row,2654,3
+PDF table row,2887,2
+PDF table row,2750,2
+PDF table row,2712,2
+PDF table row,2763,1
+PDF table row,2679,1
+PDF table row,3354,1
+PDF table row,1263,3
+PDF table row,3708,1
+PDF table row,3723,2
+PDF table row,3716,2
+PDF table row,3755,1
+PDF table row,3698,1
+PDF table row,3692,1
+PDF table row,2519,2
+PDF table row,3471,1
+PDF table row,3801,1
+PDF table row,1700,2
+PDF table row,1760,2
+PDF table row,1710,3
+PDF table row,1705,2
+PDF table row,1711,2
+PDF table row,1722,1
+PDF table row,1718,3
+PDF table row,1332,2
+PDF table row,1515,3
+PDF table row,1848,2
+PDF table row,1816,2
+PDF table row,1806,1
+PDF table row,1815,2
+PDF table row,1790,1
+PDF table row,4522,1
+PDF table row,4562,1
+PDF table row,4560,1
+PDF table row,4558,1
+PDF table row,4533,1
+PDF table row,4531,2
+PDF table row,2043,1
+PDF table row,2048,3
+PDF table row,2028,1
+PDF table row,2980,3
+PDF table row,1545,1
+PDF table row,1535,1
+PDF table row,2072,1
+PDF table row,2619,1
+PDF table row,3250,1
+PDF table row,3939,1
+PDF table row,4234,1
+PDF table row,2563,1
+PDF table row,3416,1
+PDF table row,3376,1
+PDF table row,1974,2
+PDF table row,2152,2
+PDF table row,2075,1
+PDF table row,2153,1
+PDF table row,4710,1
+PDF table row,4303,1
+PDF table row,2064,1
+PDF table row,2715,2
+PDF table row,2867,2
+PDF table row,1049,7
+PDF table row,1936,4
+PDF table row,1119,2
+PDF table row,2287,2
+PDF table row,1523,2
+PDF table row,4110,1
+PDF table row,4503,1
+PDF table row,2949,1
+PDF table row,4087,1
+PDF table row,2973,1
+PDF table row,2937,2
+PDF table row,2935,2
+PDF table row,2943,4
+PDF table row,2938,1
+PDF table row,2930,1
+PDF table row,2936,2
+PDF table row,1978,2
+PDF table row,1872,2
+PDF table row,1878,2
+PDF table row,4233,1
+PDF table row,3159,1
+PDF table row,3606,1
+PDF table row,2266,1
+PDF table row,3251,1
+PDF table row,3840,1
+PDF table row,1927,1
+PDF table row,3277,1
+PDF table row,2566,1
+PDF table row,4468,1
+PDF table row,1864,1
+PDF table row,3554,1
+PDF table row,2760,1
+PDF table row,3851,2
+PDF table row,3854,1
+PDF table row,3816,1
+PDF table row,3867,1
+PDF table row,3344,1
+PDF table row,2837,1
+PDF table row,4429,1
+PDF table row,1196,1
+PDF table row,4237,2
+PDF table row,3340,1
+PDF table row,2353,1
+PDF table row,2302,2
+PDF table row,2291,1
+PDF table row,2332,2
+PDF table row,2292,1
+PDF table row,3490,1
+PDF table row,2459,3
+PDF table row,2494,1
+PDF table row,2477,1
+PDF table row,2460,2
+PDF table row,2456,1
+PDF table row,2485,1
+PDF table row,2503,1
+PDF table row,2461,1
+PDF table row,2381,2
+PDF table row,2178,1
+PDF table row,2163,1
+PDF table row,2336,1
+PDF table row,2258,1
+PDF table row,2193,2
+PDF table row,2252,1
+PDF table row,2225,1
+PDF table row,2203,1
+PDF table row,2280,1
+PDF table row,2248,1
+PDF table row,2183,1
+PDF table row,2318,1
+PDF table row,1268,2
+PDF table row,1600,2
+PDF table row,2316,1
+PDF table row,2099,3
+PDF table row,2147,1
+PDF table row,2124,2
+PDF table row,2107,1
+PDF table row,2104,1
+PDF table row,4448,1
+PDF table row,4376,1
+PDF table row,4416,1
+PDF table row,4414,2
+PDF table row,4389,1
+PDF table row,4387,1
+PDF table row,4410,2
+PDF table row,4385,1
+PDF table row,1673,2
+PDF table row,1998,1
+PDF table row,1979,1
+PDF table row,2004,3
+PDF table row,1997,1
+PDF table row,1987,1
+PDF table row,1971,1
+PDF table row,1982,1
+PDF table row,2830,1
+PDF table row,1340,2
+PDF table row,3355,2
+PDF table row,3158,1
+PDF table row,3584,2
+PDF table row,2034,1
+PDF table row,4485,1
+PDF table row,1369,1
+PDF table row,2062,2
+PDF table row,1935,2
+PDF table row,4198,1
+PDF table row,2868,1
+PDF table row,4044,1
+PDF table row,2944,1
+PDF table row,3459,1
+PDF table row,1957,1
+PDF table row,3166,1
+PDF table row,3613,1
+PDF table row,2470,1
+PDF table row,1255,1
+PDF table row,1250,4
+PDF table row,1226,3
+PDF table row,1934,1
+PDF table row,3284,1
+PDF table row,4475,1
+PDF table row,1905,2
+PDF table row,1911,1
+PDF table row,1901,1
+PDF table row,1906,1
+PDF table row,1925,1
+PDF table row,1893,4
+PDF table row,1916,1
+PDF table row,4095,1
+PDF table row,2433,1
+PDF table row,4075,1
+PDF table row,1041,1
+PDF table row,4160,1
+PDF table row,1193,2
+PDF table row,2677,1
+PDF table row,3693,1
+PDF table row,3377,1
+PDF table row,2996,1
+PDF table row,2103,2
+PDF table row,2754,1
+PDF table row,3462,2
+PDF table row,2114,1
+PDF table row,2036,1
+PDF table row,3444,1
+PDF table row,4307,1
+PDF table row,1677,3
+PDF table row,1857,1
+PDF table row,2399,1
+PDF table row,4139,1
+PDF table row,3320,1
+PDF table row,4274,1
+PDF table row,2893,1
+PDF table row,1105,1
+PDF table row,4374,1
+PDF table row,2295,1
+PDF table row,2219,2
+PDF table row,4984,1
+PDF table row,2095,1
+PDF table row,2924,1
+PDF table row,1876,1
+PDF table row,1853,1
+PDF table row,2431,1
+PDF table row,1765,1
+PDF table row,1692,1
+PDF table row,2902,1
+PDF table row,2238,2
+PDF table row,2581,1
+PDF table row,4739,1
+PDF table row,2393,1
+PDF table row,4513,1
+PDF table row,3974,1
+PDF table row,2899,1
+PDF table row,3403,1
+PDF table row,4796,1
+PDF table row,1778,2
+PDF table row,1833,2
+PDF table row,1983,1
+PDF table row,1955,1
+PDF table row,1939,1
+PDF table row,1995,1
+PDF table row,2783,2
+PDF table row,2781,1
+PDF table row,2758,3
+PDF table row,2734,1
+PDF table row,2741,1
+PDF table row,2731,1
+PDF table row,2743,1
+PDF table row,1434,2
+PDF table row,3155,1
+PDF table row,2761,1
+PDF table row,1257,2
+PDF table row,2101,1
+PDF table row,1865,1
+PDF table row,1204,1
+PDF table row,2931,1
+PDF table row,2388,1
+PDF table row,2438,1
+PDF table row,1702,1
+PDF table row,3144,1
+PDF table row,1508,2
+PDF table row,1348,1
+PDF table row,3089,1
+PDF table row,3881,1
+PDF table row,2844,1
+PDF table row,3734,1
+PDF table row,2250,1
+PDF table row,2560,1
+PDF table row,2402,1
+PDF table row,2586,1
+PDF table row,2607,1
+PDF table row,2422,1
+PDF table row,2482,1
+PDF table row,3147,1
+PDF table row,2593,1
+PDF table row,1736,2
+PDF table row,2440,1
+PDF table row,3706,1
+PDF table row,1804,1
+PDF table row,2194,1
+PDF table row,3006,1
+PDF table row,3014,1
+PDF table row,3140,1
+PDF table row,2277,1
+PDF table row,3368,1
+PDF table row,2959,1
+PDF table row,2179,1
+PDF table row,2407,1
+PDF table row,1531,1
+PDF table row,2501,1
+PDF table row,4428,2
+PDF table row,6585,2
+PDF table row,3545,2
+PDF table row,3887,2
+PDF table row,5270,2
+PDF table row,4685,2
+PDF table row,4872,2
+PDF table row,4337,2
+PDF table row,2233,1
+PDF table row,2801,1
+PDF table row,2756,1
+PDF table row,3073,1
+PDF table row,3805,1
+PDF table row,3535,1
+PDF table row,2826,1
+PDF table row,1510,1
+PDF table row,2144,1
+PDF table row,2568,1
+PDF table row,2894,1
+PDF table row,1157,2
+PDF table row,2002,1
+PDF table row,2449,1
+PDF table row,3436,1
+PDF table row,2201,1
+PDF table row,5136,1
+PDF table row,2269,1
+PDF table row,3732,1
+PDF table row,3841,1
+PDF table row,5073,1
+PDF table row,5055,1
+PDF table row,2207,1
+PDF table row,1919,1
+PDF table row,2858,1
+PDF table row,3310,1
+PDF table row,4782,1
+PDF table row,4024,2
+PDF table row,3160,1
+PDF table row,4813,2
+PDF table row,2596,1
+PDF table row,1645,1
+PDF table row,1050,2
+PDF table row,3556,1
+PDF table row,1972,1
+PDF table row,3726,1
+PDF table row,2115,1
+PDF table row,3977,1
+PDF table row,6146,1
+PDF table row,3028,1
+PDF table row,4036,1
+PDF table row,4968,1
+PDF table row,2279,1
+PDF table row,2184,1
+PDF table row,3878,1
+PDF table row,4094,1
+PDF table row,3381,1
+PDF table row,4131,1
+PDF table row,4442,1
+PDF table row,2630,1
+PDF table row,3876,1
+PDF table row,3350,1
+PDF table row,4220,1
+PDF table row,4702,2
+PDF table row,4082,1
+PDF table row,2550,1
+PDF table row,4178,1
+PDF table row,2591,1
+PDF table row,2467,1
+PDF table row,1665,1
+PDF table row,4357,1
+PDF table row,3826,1
+PDF table row,4120,1
+PDF table row,2551,1
+PDF table row,3013,1
+PDF table row,3290,1
+PDF table row,3749,1
+PDF table row,2476,1
+PDF table row,2666,1
+PDF table row,3175,2
+PDF table row,1519,2
+PDF table row,4258,1
+PDF table row,3339,1
+PDF table row,5227,1
+PDF table row,2985,1
+PDF table row,3332,1
+PDF table row,1207,1
+PDF table row,3401,1
+PDF table row,2525,2
+PDF table row,3856,1
+PDF table row,3188,1
+PDF table row,3810,1
+PDF table row,3551,1
+PDF table row,3325,1
+PDF table row,3390,1
+PDF table row,4128,1
+PDF table row,3120,1
+PDF table row,3949,1
+PDF table row,2838,2
+PDF table row,4071,1
+PDF table row,2990,1
+PDF table row,1536,1
+PDF table row,2527,1
+PDF table row,2548,1
+PDF table row,3174,1
+PDF table row,2141,2
+PDF table row,2396,1
+PDF table row,2409,1
+PDF table row,2160,1
+PDF table row,4214,1
+PDF table row,4623,2
+PDF table row,5363,1
+PDF table row,2657,1
+PDF table row,1139,1
+PDF table row,1371,1
+PDF table row,1244,1
+PDF table row,1943,1
+PDF table row,3670,1
+PDF table row,5996,1
+PDF table row,10692,1
+PDF table row,3989,1
+PDF table row,2500,1
+PDF table row,5483,1
+PDF table row,2616,1
+PDF table row,11105,1
+PDF table row,4761,1
+PDF table row,7393,1
+PDF table row,5333,1
+PDF table row,5351,1
+PDF table row,3673,1
+PDF table row,4315,1
+PDF table row,4425,1
+PDF table row,5511,1
+PDF table row,6255,1
+PDF table row,3553,1
+PDF table row,3790,1
+PDF table row,5563,1
+PDF table row,8385,1
+PDF table row,3761,1
+PDF table row,5611,1
+PDF table row,6821,1
+PDF table row,5144,1
+PDF table row,4005,1
+PDF table row,3034,1
+PDF table row,8587,1
+PDF table row,2408,1
+PDF table row,5771,1
+PDF table row,6599,1
+PDF table row,4132,1
+PDF table row,5163,1
+PDF table row,2707,1
+PDF table row,7627,1
+PDF table row,4936,1
+PDF table row,6923,1
+PDF table row,3935,1
+PDF table row,11779,1
+PDF table row,6659,1
+PDF table row,12745,1
+PDF table row,6712,1
+PDF table row,11999,1
+PDF table row,5566,1
+PDF table row,2315,1
+PDF table row,8889,1
+PDF table row,3589,1
+PDF table row,5317,1
+PDF table row,4500,1
+PDF table row,2652,1
+PDF table row,4611,1
+PDF table row,2861,1
+PDF table row,1470,2
+PDF table row,6159,1
+PDF table row,4150,1
+PDF table row,4963,1
+PDF table row,4891,1
+PDF table row,5199,1
+PDF table row,3858,1
+PDF table row,4031,1
+PDF table row,4090,1
+PDF table row,6586,1
+PDF table row,6786,1
+PDF table row,6553,1
+PDF table row,3619,1
+PDF table row,2542,1
+PDF table row,2492,1
+PDF table row,2289,1
+PDF table row,1402,1
+PDF table row,2458,2
+PDF table row,836,2
+PDF table row,2513,1
+PDF table row,1682,1
+PDF table row,3601,1
+PDF table row,2323,1
+PDF table row,3926,1
+PDF table row,3497,1
+PDF table row,3587,1
+PDF table row,5732,1
+PDF table row,3653,1
+PDF table row,3764,1
+PDF table row,3079,1
+PDF table row,5364,1
+PDF table row,4964,1
+PDF table row,3318,1
+PDF table row,4767,1
+PDF table row,2340,1
+PDF table row,3849,1
+PDF table row,1691,1
+PDF table row,1776,1
+PDF table row,1913,1
+PDF table row,1357,1
+PDF table row,1214,1
+PDF table row,3425,1
+PDF table row,2199,1
+PDF table row,2385,1
+PDF table row,2257,1
+PDF table row,1779,1
+PDF table row,1967,1
+PDF table row,3341,1
+PDF table row,2259,1
+PDF table row,2097,1
+PDF table row,2282,1
+PDF table row,5352,1
+PDF table row,7194,1
+PDF table row,2313,1
+PDF table row,1587,1
+PDF table row,1142,1
+PDF table row,4476,1
+PDF table row,6540,1
+PDF table row,3946,1
+PDF table row,3794,1
+PDF table row,5102,1
+PDF table row,3829,1
+PDF table row,2357,1
+PDF table row,4424,1
+PDF table row,4586,1
+PDF table row,5547,1
+PDF table row,5470,1
+PDF table row,5327,1
+PDF table row,3387,1
+PDF table row,4261,1
+PDF table row,4932,1
+PDF table row,4745,1
+PDF table row,8083,1
+PDF table row,7100,1
+PDF table row,7339,1

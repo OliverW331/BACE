@@ -1,9 +1,0 @@
-{
-  "introduction": 617,
-  "results": 1248,
-  "methods": 2670,
-  "drafted_main_text": 1865,
-  "main_text_guideline": 3500,
-  "remaining_before_discussion": 1635,
-  "rule": "Regex prose-word estimate, excluding paragraph IDs, headings, citation/reference commands and displayed/inline math. Hyphenated words and year ranges count as one. Not a publisher word count; Discussion is pending."
-}

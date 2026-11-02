@@ -1,0 +1,13 @@
+{
+  "figure": "02_example_factual_boundary_distortion",
+  "question": "What changes when an accurately quoted historical activity is expressed as current practice?",
+  "pattern": "The visible 2019 text explicitly describes Wärtsilä’s online supply-chain risk solution and more than 2,000 suppliers. The generated sentence uses present-tense “uses” in a 2022 disclosure; the extracted DC focuses on the online solution. The rationale accepts the 2019 activity but questions whether it is established for 2022.",
+  "meaning": "Most substantive wording matches; the three-year temporal carry-forward is the disputed boundary. The source’s “have been, and continue to be” wording expresses continuity at the time of the 2019 report, which explains why reuse may sound plausible while still leaving a target-year evidence gap.",
+  "limits": "Lack of a 2022 confirmation does not show that the activity stopped. Neither a historical exact match nor an automatic boundary label settles the real-world 2022 practice. This is a temporal-support illustration, not a company performance finding.",
+  "panels": 1,
+  "caption": "**Automatic label: Factual boundary distortion.** 19,113 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 330. [Full case and source references](outputs/examples/02_factual_boundary_distortion.json).",
+  "source_sha256": {
+    "data": "9d3e05ecfa34c9d4d222908447873102455fea3f937236007134081d6d275a97"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

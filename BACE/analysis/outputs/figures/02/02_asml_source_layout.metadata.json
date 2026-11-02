@@ -1,0 +1,19 @@
+{
+  "figure": "02_asml_source_layout",
+  "caption": "**Read the source:** ASML Integrated Report 2018, PDF page 216 (printed page 209), glossary crop. Scope 1 and Scope 2 occupy separate rows. **Observed:** the automatic contradiction rationale assigns the electricity definition to Scope 1, contrary to the original row association. This reveals a source-representation/extraction problem; it does not estimate the frequency of such problems.",
+  "width_mm": 183.0,
+  "height_mm": 55.0,
+  "png_dpi": 600,
+  "data_files": [
+    "02_asml_source_layout__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "8765eb7051a39d055c08a98118aa14de421d07d0c39f832af873dd9669816b2c",
+    "svg": "365d71532ff54e4816db47ffd6e7eabb2d3ac7fde70bc773dfde2978096840b0",
+    "png": "73c834f473885a9eb2b1f4cb06d7baedff97231347670db5d345d0e6c6be5349"
+  }
+}

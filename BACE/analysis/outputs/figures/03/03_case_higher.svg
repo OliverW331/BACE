@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="338.173228pt" viewBox="0 0 518.740157 338.173228" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-22T00:37:48.660755</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 338.173228 
+L 518.740157 338.173228 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="39.896073" transform="rotate(-0 20.749606 39.896073)">Common generated disclosure · first 700 characters</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 57.957228)">### E1-6 – Gross Scope 1, Scope 2, Scope 3 and total GHG emissions  In 2021, Banco BPM measured</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 68.082228)">greenhouse gas (GHG) emissions associated with its own operations and other indirect activities. Scope 2</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 78.207228)">emissions were reported for the consolidated accounting group under the financial-control approach; the</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 88.244337)">figures for own operations and the consolidated accounting group were identical.  | GHG emissions | 2021</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 98.369337)">(tCO₂e) | |---|---:| | Scope 1 emissions covered by the internal carbon pricing scheme | 12,360 | |</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 108.494337)">Scope 2 – location-based | 35,103 | | Scope 2 – market-based | 4,638 | | Scope 3 – other indirect</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 118.619337)">emissions category | 14,598 | | **Total Scope 1, Scope 2 and Scope 3 – location-based** | **</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="155.833081" transform="rotate(-0 20.749606 155.833081)">Native scores and denominators</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="174.238181" transform="rotate(-0 20.749606 174.238181)">BACE: 71.4%, 28 claims; RAGChecker: 50.0%, 24 claims; RAGAS: 93.1%, 29 claims</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="208.840955" transform="rotate(-0 20.749606 208.840955)">BACE claim inventory</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="227.246055" transform="rotate(-0 20.749606 227.246055)">direct: 10; inferred: 10; non disclosure statement: 6; evidence conflation: 2</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="261.848829" transform="rotate(-0 20.749606 261.848829)">Interpretation boundary</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 279.909984)">The score direction is a native-output difference. It does not establish which evaluator is correct.</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 290.034984)">Inspect claim segmentation, visible evidence, source-year boundaries and judgement together.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="21.817323" transform="rotate(-0 20.749606 21.817323)">Banco BPM · 2021 · E1-6</text>
+   </g>
+  </g>
+ </g>
+</svg>

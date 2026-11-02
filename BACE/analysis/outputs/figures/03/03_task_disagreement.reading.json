@@ -1,0 +1,13 @@
+{
+  "figure": "03_task_disagreement",
+  "question": "Is the global score offset spread across all tasks, and do both comparators show the same task profile?",
+  "pattern": "All 24 task-by-comparator mean gaps are negative: against RAGChecker, from -43.6 points (S1-5) to -22.2 (E1-6); against RAGAS, from -42.4 points (S1-5) to -30.2 (E1-1). All displayed upper interval bounds also remain below zero. The largest separation between the two comparator gaps occurs at E1-6: -22.2 versus -32.4 points, a 10.2-point difference.",
+  "meaning": "The overall offset is distributed across tasks rather than arising from one isolated row. The different gap sizes, especially for E1-6, show that similar global comparator means can conceal task-specific differences in segmentation or evidence judgement.",
+  "limits": "The intervals describe within-task paired gaps under company resampling. Their position is not an evaluator-accuracy test, and no multiplicity-adjusted comparison of tasks is claimed. The same companies appear in all rows; task evidence, generated claims and native inventories all vary together.",
+  "panels": 1,
+  "caption": "**Read the figure:** each point is a within-task paired macro difference, with the same 2,000-draw company bootstrap procedure. All task rows are shown, including reduced denominators from the incomplete BACE cases. No multiple-comparison significance claim is made.",
+  "source_sha256": {
+    "data": "5d2a1ac81d80bc2ff271a2887601e6b0d20f43867bec9e29878bd5f4475331cf"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

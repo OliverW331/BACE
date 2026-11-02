@@ -1,0 +1,19 @@
+{
+  "figure": "02_pipeline_checks",
+  "caption": "**Read the figure:** each point is a label-specific proportion among unsupported DCs. A literal quote must occur contiguously in the generated response. **Boundary:** noncontiguous table quotations can fail that check without being invented; neither indicator is an error-rate estimate.",
+  "width_mm": 183.0,
+  "height_mm": 102.0,
+  "png_dpi": 600,
+  "data_files": [
+    "02_pipeline_checks__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "30438e355da2963bc428559169907f445b029fd3ff6a63b07cb45a54f827797e",
+    "svg": "923563141a3c96fb4edf406f0c4dfa0a483427371643cf48da802d4430f9adbc",
+    "png": "09c647d558d80a04d5782a10c7976e56154c2991952ca4f0f2d78fa6728bd0e5"
+  }
+}

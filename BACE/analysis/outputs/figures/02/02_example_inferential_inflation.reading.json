@@ -1,0 +1,13 @@
+{
+  "figure": "02_example_inferential_inflation",
+  "question": "How much of the Pennon disagreement rests on strengthening an obligation word?",
+  "pattern": "The generated disclosure and DC use “require”, while the 2018 visible passage says “We expect them to” uphold standards and protect human rights. The excerpt also interleaves water-service and management text from neighbouring table columns. The rationale identifies the change from expectation to requirement.",
+  "meaning": "The pattern is a shift in modal strength, rather than a new supplier or a different human-rights topic. That distinction matters because an expectation can be weaker than a binding obligation. The interleaved text also shows why the excerpt must be read as an extracted representation with layout limitations.",
+  "limits": "Other visible cards discuss supplier codes and strict procurement policies; they may affect the reading of the complete obligation. This excerpt alone does not establish the legal force of Pennon’s policy or independently verify the inflation label.",
+  "panels": 1,
+  "caption": "**Automatic label: Inferential inflation.** 3,192 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 1362 and ends at 2082. [Full case and source references](outputs/examples/02_inferential_inflation.json).",
+  "source_sha256": {
+    "data": "a08db82c3f47fc7691282d41d687680825b54c587a3bedaa9d54cced75b6714a"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

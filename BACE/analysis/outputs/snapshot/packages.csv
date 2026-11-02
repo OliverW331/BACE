@@ -1,0 +1,451 @@
+company_id,company_name,year,type,cards
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2019,CSV metric,367
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2019,PDF narrative,2805
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2019,PDF table row,413
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2020,CSV metric,361
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2020,PDF narrative,2959
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2020,PDF table row,105
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2021,CSV metric,398
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2021,PDF narrative,3284
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2021,PDF table row,172
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2022,CSV metric,440
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2022,PDF narrative,3750
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2022,PDF table row,266
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2023,CSV metric,494
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2023,PDF narrative,4140
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2023,PDF table row,273
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2019,CSV metric,1133
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2019,PDF narrative,7342
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2019,PDF table row,7054
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2020,CSV metric,1157
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2020,PDF narrative,7554
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2020,PDF table row,6773
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2021,CSV metric,1219
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2021,PDF narrative,7757
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2021,PDF table row,7311
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2022,CSV metric,1268
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2022,PDF narrative,8312
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2022,PDF table row,7671
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2023,CSV metric,1326
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2023,PDF narrative,9027
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2023,PDF table row,7932
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2019,CSV metric,791
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2019,PDF narrative,12735
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2019,PDF table row,13081
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2020,CSV metric,842
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2020,PDF narrative,13341
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2020,PDF table row,14351
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2021,CSV metric,900
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2021,PDF narrative,14053
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2021,PDF table row,15015
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2022,CSV metric,970
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2022,PDF narrative,12869
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2022,PDF table row,13351
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2023,CSV metric,1036
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2023,PDF narrative,11409
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2023,PDF table row,11759
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2019,CSV metric,493
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2019,PDF narrative,4404
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2019,PDF table row,259
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2020,CSV metric,512
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2020,PDF narrative,4775
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2020,PDF table row,412
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2021,CSV metric,546
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2021,PDF narrative,5170
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2021,PDF table row,530
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2022,CSV metric,571
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2022,PDF narrative,5617
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2022,PDF table row,554
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2023,CSV metric,577
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2023,PDF narrative,6345
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2023,PDF table row,577
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2019,CSV metric,647
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2019,PDF narrative,12552
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2019,PDF table row,810
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2020,CSV metric,593
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2020,PDF narrative,12618
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2020,PDF table row,456
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2021,CSV metric,611
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2021,PDF narrative,12814
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2021,PDF table row,3054
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2022,CSV metric,605
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2022,PDF narrative,13764
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2022,PDF table row,7090
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2023,CSV metric,740
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2023,PDF narrative,14893
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2023,PDF table row,11959
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2019,CSV metric,763
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2019,PDF narrative,8126
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2019,PDF table row,8818
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2020,CSV metric,799
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2020,PDF narrative,9631
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2020,PDF table row,9527
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2021,CSV metric,841
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2021,PDF narrative,12885
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2021,PDF table row,11698
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2022,CSV metric,862
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2022,PDF narrative,16218
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2022,PDF table row,12532
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2023,CSV metric,895
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2023,PDF narrative,16962
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2023,PDF table row,11302
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2019,CSV metric,606
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2019,PDF narrative,7756
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2019,PDF table row,1067
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2020,CSV metric,632
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2020,PDF narrative,8702
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2020,PDF table row,1451
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2021,CSV metric,690
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2021,PDF narrative,9312
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2021,PDF table row,1781
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2022,CSV metric,739
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2022,PDF narrative,10144
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2022,PDF table row,2176
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2023,CSV metric,779
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2023,PDF narrative,10922
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2023,PDF table row,2455
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2019,CSV metric,772
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2019,PDF narrative,11497
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2019,PDF table row,13880
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2020,CSV metric,885
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2020,PDF narrative,12503
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2020,PDF table row,11978
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2021,CSV metric,932
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2021,PDF narrative,10842
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2021,PDF table row,11886
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2022,CSV metric,983
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2022,PDF narrative,11663
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2022,PDF table row,13087
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2023,CSV metric,1032
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2023,PDF narrative,12644
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2023,PDF table row,12919
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2019,CSV metric,460
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2019,PDF narrative,5070
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2019,PDF table row,7140
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2020,CSV metric,514
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2020,PDF narrative,4707
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2020,PDF table row,5393
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2021,CSV metric,567
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2021,PDF narrative,4567
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2021,PDF table row,4193
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2022,CSV metric,650
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2022,PDF narrative,4211
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2022,PDF table row,3304
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2023,CSV metric,771
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2023,PDF narrative,4638
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2023,PDF table row,4503
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2019,CSV metric,783
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2019,PDF narrative,10344
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2019,PDF table row,4877
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2020,CSV metric,800
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2020,PDF narrative,10768
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2020,PDF table row,4883
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2021,CSV metric,794
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2021,PDF narrative,11486
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2021,PDF table row,4932
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2022,CSV metric,810
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2022,PDF narrative,12278
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2022,PDF table row,4987
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2023,CSV metric,792
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2023,PDF narrative,13353
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2023,PDF table row,5312
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2019,CSV metric,660
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2019,PDF narrative,5755
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2019,PDF table row,87
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2020,CSV metric,812
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2020,PDF narrative,7886
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2020,PDF table row,137
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2021,CSV metric,953
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2021,PDF narrative,10634
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2021,PDF table row,2243
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2022,CSV metric,1019
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2022,PDF narrative,11238
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2022,PDF table row,2495
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2023,CSV metric,1073
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2023,PDF narrative,10645
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2023,PDF table row,4189
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2019,CSV metric,1076
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2019,PDF narrative,6119
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2019,PDF table row,9624
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2020,CSV metric,1079
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2020,PDF narrative,6746
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2020,PDF table row,10118
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2021,CSV metric,1090
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2021,PDF narrative,7189
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2021,PDF table row,9420
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2022,CSV metric,1122
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2022,PDF narrative,7051
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2022,PDF table row,9538
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2023,CSV metric,1126
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2023,PDF narrative,6850
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2023,PDF table row,9256
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2019,CSV metric,979
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2019,PDF narrative,6613
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2019,PDF table row,7513
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2020,CSV metric,1002
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2020,PDF narrative,6247
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2020,PDF table row,6881
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2021,CSV metric,1021
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2021,PDF narrative,7172
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2021,PDF table row,7440
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2022,CSV metric,1058
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2022,PDF narrative,7472
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2022,PDF table row,7518
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2023,CSV metric,1109
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2023,PDF narrative,9236
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2023,PDF table row,9062
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2019,CSV metric,410
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2019,PDF narrative,4729
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2019,PDF table row,5605
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2020,CSV metric,489
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2020,PDF narrative,4958
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2020,PDF table row,5816
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2021,CSV metric,587
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2021,PDF narrative,5338
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2021,PDF table row,6209
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2022,CSV metric,710
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2022,PDF narrative,6002
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2022,PDF table row,6533
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2023,CSV metric,845
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2023,PDF narrative,6534
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2023,PDF table row,6722
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2019,CSV metric,1147
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2019,PDF narrative,18621
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2019,PDF table row,15038
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2020,CSV metric,1131
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2020,PDF narrative,20945
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2020,PDF table row,23025
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2021,CSV metric,1101
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2021,PDF narrative,23075
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2021,PDF table row,30893
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2022,CSV metric,987
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2022,PDF narrative,25183
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2022,PDF table row,38804
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2023,CSV metric,971
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2023,PDF narrative,25043
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2023,PDF table row,38013
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2019,CSV metric,855
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2019,PDF narrative,7565
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2019,PDF table row,9531
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2020,CSV metric,815
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2020,PDF narrative,7813
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2020,PDF table row,9452
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2021,CSV metric,813
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2021,PDF narrative,8396
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2021,PDF table row,9493
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2022,CSV metric,818
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2022,PDF narrative,9286
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2022,PDF table row,9800
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2023,CSV metric,850
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2023,PDF narrative,9951
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2023,PDF table row,10186
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2019,CSV metric,987
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2019,PDF narrative,6406
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2019,PDF table row,5309
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2020,CSV metric,997
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2020,PDF narrative,7286
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2020,PDF table row,6672
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2021,CSV metric,998
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2021,PDF narrative,7991
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2021,PDF table row,7699
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2022,CSV metric,1034
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2022,PDF narrative,8880
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2022,PDF table row,8696
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2023,CSV metric,1062
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2023,PDF narrative,9701
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2023,PDF table row,9125
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2019,CSV metric,855
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2019,PDF narrative,6614
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2019,PDF table row,7831
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2020,CSV metric,867
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2020,PDF narrative,7299
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2020,PDF table row,8292
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2021,CSV metric,906
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2021,PDF narrative,7561
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2021,PDF table row,8088
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2022,CSV metric,948
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2022,PDF narrative,7691
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2022,PDF table row,8035
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2023,CSV metric,1053
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2023,PDF narrative,7833
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2023,PDF table row,7843
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2019,CSV metric,528
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2019,PDF narrative,5372
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2019,PDF table row,1466
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2020,CSV metric,529
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2020,PDF narrative,5708
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2020,PDF table row,2552
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2021,CSV metric,614
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2021,PDF narrative,6099
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2021,PDF table row,3916
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2022,CSV metric,734
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2022,PDF narrative,6732
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2022,PDF table row,5468
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2023,CSV metric,786
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2023,PDF narrative,7770
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2023,PDF table row,6702
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2019,CSV metric,829
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2019,PDF narrative,4415
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2019,PDF table row,4465
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2020,CSV metric,877
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2020,PDF narrative,4659
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2020,PDF table row,7981
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2021,CSV metric,947
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2021,PDF narrative,5278
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2021,PDF table row,7076
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2022,CSV metric,1033
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2022,PDF narrative,6984
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2022,PDF table row,6273
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2023,CSV metric,1120
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2023,PDF narrative,8626
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2023,PDF table row,5314
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2019,CSV metric,1110
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2019,PDF narrative,12211
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2019,PDF table row,17685
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2020,CSV metric,1183
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2020,PDF narrative,12556
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2020,PDF table row,17295
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2021,CSV metric,1230
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2021,PDF narrative,12668
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2021,PDF table row,16336
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2022,CSV metric,1250
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2022,PDF narrative,13067
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2022,PDF table row,13546
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2023,CSV metric,1248
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2023,PDF narrative,13625
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2023,PDF table row,10351
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2019,CSV metric,405
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2019,PDF narrative,3445
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2019,PDF table row,101
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2020,CSV metric,412
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2020,PDF narrative,3881
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2020,PDF table row,172
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2021,CSV metric,533
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2021,PDF narrative,4356
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2021,PDF table row,288
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2022,CSV metric,604
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2022,PDF narrative,4788
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2022,PDF table row,386
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2023,CSV metric,595
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2023,PDF narrative,5270
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2023,PDF table row,574
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2019,CSV metric,1031
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2019,PDF narrative,11779
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2019,PDF table row,7505
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2020,CSV metric,1074
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2020,PDF narrative,12446
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2020,PDF table row,7207
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2021,CSV metric,1096
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2021,PDF narrative,12720
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2021,PDF table row,6742
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2022,CSV metric,1107
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2022,PDF narrative,12496
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2022,PDF table row,5919
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2023,CSV metric,1081
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2023,PDF narrative,12099
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2023,PDF table row,4971
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2019,CSV metric,830
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2019,PDF narrative,4819
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2019,PDF table row,5268
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2020,CSV metric,816
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2020,PDF narrative,4714
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2020,PDF table row,5628
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2021,CSV metric,829
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2021,PDF narrative,5284
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2021,PDF table row,4384
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2022,CSV metric,834
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2022,PDF narrative,7793
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2022,PDF table row,4008
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2023,CSV metric,836
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2023,PDF narrative,8949
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2023,PDF table row,5109
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2019,CSV metric,606
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2019,PDF narrative,2431
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2019,PDF table row,81
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2020,CSV metric,701
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2020,PDF narrative,2637
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2020,PDF table row,149
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2021,CSV metric,709
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2021,PDF narrative,2999
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2021,PDF table row,268
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2022,CSV metric,749
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2022,PDF narrative,3379
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2022,PDF table row,396
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2023,CSV metric,775
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2023,PDF narrative,3572
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2023,PDF table row,526
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2019,CSV metric,459
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2019,PDF narrative,7934
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2019,PDF table row,9654
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2020,CSV metric,475
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2020,PDF narrative,8238
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2020,PDF table row,9450
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2021,CSV metric,506
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2021,PDF narrative,7889
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2021,PDF table row,9410
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2022,CSV metric,486
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2022,PDF narrative,7361
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2022,PDF table row,8051
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2023,CSV metric,582
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2023,PDF narrative,8499
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2023,PDF table row,7469
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2019,CSV metric,344
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2019,PDF narrative,2198
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2019,PDF table row,1209
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2020,CSV metric,349
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2020,PDF narrative,2451
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2020,PDF table row,1195
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2021,CSV metric,450
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2021,PDF narrative,2774
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2021,PDF table row,1110
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2022,CSV metric,563
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2022,PDF narrative,3197
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2022,PDF table row,976
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2023,CSV metric,678
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2023,PDF narrative,3715
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2023,PDF table row,917
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2019,CSV metric,685
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2019,PDF narrative,4393
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2019,PDF table row,3051
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2020,CSV metric,750
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2020,PDF narrative,4339
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2020,PDF table row,3050
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2021,CSV metric,789
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2021,PDF narrative,4425
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2021,PDF table row,2425
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2022,CSV metric,825
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2022,PDF narrative,5833
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2022,PDF table row,2633
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2023,CSV metric,862
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2023,PDF narrative,7881
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2023,PDF table row,3115
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2019,CSV metric,590
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2019,PDF narrative,4358
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2019,PDF table row,41
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2020,CSV metric,612
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2020,PDF narrative,4566
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2020,PDF table row,1450
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2021,CSV metric,643
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2021,PDF narrative,4996
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2021,PDF table row,2769
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2022,CSV metric,659
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2022,PDF narrative,5564
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2022,PDF table row,4103
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2023,CSV metric,655
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2023,PDF narrative,6069
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2023,PDF table row,5484
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2019,CSV metric,741
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2019,PDF narrative,4694
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2019,PDF table row,2322
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2020,CSV metric,797
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2020,PDF narrative,4899
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2020,PDF table row,2905
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2021,CSV metric,847
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2021,PDF narrative,5228
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2021,PDF table row,3526
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2022,CSV metric,846
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2022,PDF narrative,7498
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2022,PDF table row,5392
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2023,CSV metric,874
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2023,PDF narrative,8248
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2023,PDF table row,5366

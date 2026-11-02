@@ -1,0 +1,13 @@
+{
+  "figure": "02_example_contradiction",
+  "question": "Is the ASML contradiction between the generated claim and the source, or between two readings of extracted text?",
+  "pattern": "The top block says historical Scope 1 includes natural gas and purchased CO₂; the DC retains the purchased-CO₂ component. The source block runs glossary terms and definitions together. The automatic rationale then attributes electricity-conversion factors to Scope 1. The apparent conflict turns on which glossary label belongs to which definition.",
+  "meaning": "The plate exposes a source-association question that a flat text reading cannot reliably resolve. The original-page crop later in this notebook resolves it in favour of the gas/purchased-CO₂ Scope 1 row. Accordingly, this example challenges the automatic contradiction rationale rather than supplying a clean generation error.",
+  "limits": "The original layout must be checked to establish the row relationship; proximity in the flattened text is insufficient. This one inspected case cannot estimate the error rate of the 42 automatically labelled contradiction DCs.",
+  "panels": 1,
+  "caption": "**Automatic label: Contradiction.** 42 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 357. [Full case and source references](outputs/examples/02_contradiction.json).",
+  "source_sha256": {
+    "data": "ce5bb9fac13ab846028987c71adb8b07f4105f53f3a555b462948cc5faab13e6"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

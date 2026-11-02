@@ -1,0 +1,19 @@
+{
+  "figure": "03_judgement_source_coverage",
+  "caption": "**Read the plate:** native claims and reasons are quoted without semantic rewriting; the source texts come from the same frozen prompt. Full case material is available in the companion case bundle.",
+  "width_mm": 183.0,
+  "height_mm": 112.7,
+  "png_dpi": 600,
+  "data_files": [
+    "03_judgement_source_coverage__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "21196544caf30aa858ad5fb4cca72d2759c546b116db1d515326f0d5003ba08b",
+    "svg": "761458d27d815a46acdc25fddc4d9a3e26553c96d883bd5b348858a06145d1e3",
+    "png": "4c02ea98523e7df6b41af0f9df08d1280b8bc483e2f093ea89f6d0b575fb46d9"
+  }
+}

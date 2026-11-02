@@ -1,0 +1,13 @@
+{
+  "figure": "03_judgement_combined_evidence",
+  "question": "Within the higher-BACE Banco BPM case, why does comparing several cards change the support path?",
+  "pattern": "The visible data contain two matching pairs: own-operations and consolidated-group location-based Scope 2 values are each 35,103 tCO₂e, and their market-based values are each 4,638 tCO₂e. BACE accepts the equality statement with one inferred four-EC set; RAGChecker marks its equality claim unsupported after neutral decisions on individual contexts; RAGAS explicitly accepts the cross-value comparison.",
+  "meaning": "The equality relation is obtained by comparing records rather than merely repeating one scalar value. The text blocks therefore connect two pairs of equal numbers to different evidence-combination paths. This gives a mechanism for this particular disagreement without assuming that a higher score is preferable.",
+  "limits": "Matching extracted values establishes equality within these visible records, not independently verified emissions or equivalence of every organisational boundary. The example is deliberately explanatory and cannot measure how frequently each evaluator succeeds at combining evidence.",
+  "panels": 1,
+  "caption": "**Read the plate:** native claims and reasons are quoted without semantic rewriting; the source texts come from the same frozen prompt. Full case material is available in the companion case bundle.",
+  "source_sha256": {
+    "data": "cb4c986be368b9b3e26d66c74b2c2203d75ebe506cc3d07261b6f057e4783a7d"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

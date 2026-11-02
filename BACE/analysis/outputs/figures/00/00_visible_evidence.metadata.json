@@ -1,0 +1,19 @@
+{
+  "figure": "00_visible_evidence",
+  "caption": "**Read the figure:** frequencies cover all planned disclosures, including zero-card strata. Retrieval selects up to 10 cards of each type using BM25/dense retrieval and reciprocal-rank fusion; unused slots are not redistributed. **Boundary:** the generator sees these selected cards, not the entire canonical library or source reports.",
+  "width_mm": 183.0,
+  "height_mm": 82.0,
+  "png_dpi": 600,
+  "data_files": [
+    "00_visible_evidence__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "85075f0e607ed5fbfd0199a9da73542185a5052a640277483b0d46349a834c84",
+    "svg": "c3a498942ac2caeead766e58abb3bfbd0a08fc5a79d334909f6d8478917b5284",
+    "png": "0a22ad7bad5c5cc765f0bc802bd05ff03e3b462532a6ed0440047140fdc65f88"
+  }
+}

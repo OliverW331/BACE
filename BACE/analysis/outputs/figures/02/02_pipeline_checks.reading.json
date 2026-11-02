@@ -1,0 +1,13 @@
+{
+  "figure": "02_pipeline_checks",
+  "question": "Before reading cases, do candidate availability and quote localisation reveal different diagnostic paths?",
+  "pattern": "The blue markers separate into two nonzero rows and four at zero. Unsupported novelty has 926/1698 DCs without candidates (54.5%), compared with 985/6378 non-disclosure DCs (15.4%). All orange markers sit near zero: only 33/42,646 unsupported DCs lack a contiguous generated-text quote; the largest within-label fraction is 0.14%.",
+  "meaning": "Candidate absence is concentrated in particular categories, whereas literal quote localisation succeeds almost everywhere. This makes candidate/extraction inspection relevant to novelty cases, but the near-zero orange markers only say that a quoted span can be found in the generated response. They do not validate its meaning or its evidence support.",
+  "limits": "The 0–100% axis visually compresses tiny quote-localisation differences. A candidate can exist and still be irrelevant, and an empty candidate list can result from information loss earlier in the pipeline. The label and candidate route belong to the same automated process, so their association is not independent validation.",
+  "panels": 1,
+  "caption": "**Read the figure:** each point is a label-specific proportion among unsupported DCs. A literal quote must occur contiguously in the generated response. **Boundary:** noncontiguous table quotations can fail that check without being invented; neither indicator is an error-rate estimate.",
+  "source_sha256": {
+    "data": "760042fc78d9f06cf899a8789bb87d09d32d9280e6d88b557677558a6b836bf2"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

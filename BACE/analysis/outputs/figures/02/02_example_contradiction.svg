@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="328.818898pt" viewBox="0 0 518.740157 328.818898" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-22T00:37:27.710637</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 328.818898 
+L 518.740157 328.818898 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="38.96064" transform="rotate(-0 20.749606 38.96064)">Generated disclosure · verbatim</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 57.021795)">ASML’s Scope 1 footprint has historically been defined as emissions from the combustion of natural gas</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 67.146795)">and purchased CO₂.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="102.456703" transform="rotate(-0 20.749606 102.456703)">Extracted DC</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="120.517858" transform="rotate(-0 20.749606 120.517858)">ASML's Scope 1 footprint has historically been defined as emissions from purchased CO₂.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="155.464577" transform="rotate(-0 20.749606 155.464577)">Visible evidence · Evidence 2 · source year 2018</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 173.525732)">CFO Chief Financial Officer Code Dutch Corporate Governance Code Code of Conduct Code of ethics and</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 183.650732)">conduct Company ASML Holding N.V. CO2 Carbon Dioxide Consists of the combustion of natural gas and</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 193.775732)">purchased CO2 CO2 footprint - direct scope 1 Calculated by multiplying electricity consumptions of the</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 203.900732)">manufacturing locations by the local conversion factors</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="239.937018" transform="rotate(-0 20.749606 239.937018)">Automatic diagnostic rationale</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 257.998173)">The evidence states that ASML calculated its direct Scope 1 CO₂ footprint from manufacturing-site</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 268.123173)">electricity consumption using local conversion factors, which is incompatible with defining it as</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 278.248173)">emissions from purchased CO₂.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="20.88189" transform="rotate(-0 20.749606 20.88189)">ASML · 2019 · E1-6</text>
+   </g>
+  </g>
+ </g>
+</svg>

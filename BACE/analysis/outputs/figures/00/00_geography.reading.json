@@ -1,0 +1,13 @@
+{
+  "figure": "00_geography",
+  "question": "After selection, where are the companies registered, and is geographical coverage evenly spread?",
+  "pattern": "The map covers 12 European register countries. The darkest countries are United Kingdom (7) and Germany (5); together they account for 12/30 companies (40.0%). 3 countries contribute only one company each. The concentration is in selected company counts, not in country land area.",
+  "meaning": "This uneven coverage identifies where the sample has more observations and where a country-specific reading would depend on a single company. The country field locates the register entry; multinational operations can extend far beyond it.",
+  "limits": "Colour represents counts, not companies per capita, market share or environmental impact. Large polygons draw more visual attention without receiving greater statistical weight. Uncoloured countries have no selected companies; they do not have zero ESG activity.",
+  "panels": 1,
+  "caption": "**Read the figure:** colour encodes selected company counts; zero means no selected company. All selected register countries lie in the displayed European extent. Natural Earth v5.1.2, public domain; cylindrical longitude/latitude display with aspect adjusted at 53°N. **Boundary:** this is register geography, not operational exposure; boundaries are contextual.",
+  "source_sha256": {
+    "data": "4bf74f92915cc4c2bb6b062d140cb4ba6447f028e14ae2e872e7ae7a6bba2a3c"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

@@ -1,0 +1,23 @@
+{
+  "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__investec__2021__g1_4_corruption_bribery_incidents",
+  "dc_id": "dc_ac42ae6401085c4c4b25ea9a5a8a6b3f",
+  "reading": "The full visible source explicitly mentions suppliers in the risk definition. BACE judged an extracted EC/candidate representation, while RAGChecker judged card-level contexts. This evidence challenges the absence-of-anchor rationale; it does not establish full 2021 temporal validity or global comparator superiority.",
+  "blocks": [
+    [
+      "BACE DC · unsupported novelty",
+      "Investec's financial crime and integrity risk may arise from the conduct of suppliers."
+    ],
+    [
+      "BACE rationale",
+      "No evidence claim provides an anchor for the proposition that supplier conduct may give rise to Investec's financial crime and integrity risk."
+    ],
+    [
+      "RAGChecker native claim · supported",
+      "Financial crime and integrity risk | may arise from conduct of | employees, clients, suppliers and other stakeholders"
+    ],
+    [
+      "Visible source · 2017 annual report, PDF page 102",
+      "Risk associated with fraud, bribery, corruption, theft, money laundering, terrorist financing, tax evasion, forgery and integrity misconduct by staff, clients, suppliers and other stakeholders • Operate an Integrity Line which allows employees to make disclosures including regulatory breaches, allegations of bribery, fraud and corruption, and non-compliance with policies"
+    ]
+  ]
+}

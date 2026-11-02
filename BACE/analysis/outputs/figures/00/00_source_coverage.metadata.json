@@ -1,0 +1,19 @@
+{
+  "figure": "00_source_coverage",
+  "caption": "**Read the figure:** rows are the same 30 companies; columns are source years. Each panel has its own count scale. Grey in the PDF 2023 column is outside the required source window, not observed absence. **Boundary:** minimum annual coverage is selected by design; metric completeness and task relevance remain uneven.",
+  "width_mm": 183.0,
+  "height_mm": 185.0,
+  "png_dpi": 600,
+  "data_files": [
+    "00_source_coverage__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "0832fa9bb0ea6c8b4e4c277a20d2d074cd544fedd971db4df7461bf9f0192634",
+    "svg": "c240426cce4bc2a9bd4d78eeb6236dab19a06de426ad9a99a607245a8378accb",
+    "png": "1e48a0bc26a8c2e489184c45254e34b74ce2cabb8db86a7d753f73662899f423"
+  }
+}

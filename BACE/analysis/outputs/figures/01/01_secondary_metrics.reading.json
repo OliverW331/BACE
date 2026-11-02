@@ -1,0 +1,13 @@
+{
+  "figure": "01_secondary_metrics",
+  "question": "Do evidence coverage, inferred support and non-disclosure treatment reveal features hidden by the main score?",
+  "pattern": "In panel a, ECCR has median 32.3% and middle half 23.7%–42.9%; inference rate has median 34.4% and middle half 25.0%–43.8%. The steep central parts overlap substantially, although their denominators differ. Only 3 disclosures have zero inference rate; undefined values are 0 for ECCR and 0 for inference. Panel b is strongly right-tailed: 641/1798 disclosures have no change, the median increase is 1.9 points, the 90th percentile is 12.7, and the maximum is 58.0. 245 increase by more than ten points; 0 changes are undefined.",
+  "meaning": "ECCR and inference are numerically similar near their centres but answer different questions: which ECs appear in accepted sets, and which supported DCs require inference. The sensitivity tail shows that non-disclosure treatment matters much more for a subset of disclosures than for the typical one. Removing an unsupported non-disclosure statement shrinks the denominator without adding supported claims, so the nonnegative shift is partly arithmetic.",
+  "limits": "Curve overlap does not equate the two secondary constructs. ECCR includes alternative accepted sets and is not observed evidence use. The sensitivity calculation changes the estimand; it does not demonstrate improved generation or identify the preferable denominator.",
+  "panels": 2,
+  "caption": "**Read the figure:** panel a shows exact empirical distributions (undefined ratios are excluded and counted below); panel b shows paired changes after removing non-disclosure statements. **Boundary:** a larger secondary metric is not automatically better quality.",
+  "source_sha256": {
+    "data": "de45b8614a85d48d9fed0a831b01213a3b217ee11a69f15e6de8afdaa737704a"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

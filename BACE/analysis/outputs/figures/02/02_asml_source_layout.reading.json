@@ -1,0 +1,13 @@
+{
+  "figure": "02_asml_source_layout",
+  "question": "Can the source page resolve the apparent Scope 1 contradiction raised in the ASML example?",
+  "pattern": "On PDF page 216 (printed page 209), the two glossary rows align direct Scope 1 with combustion of natural gas and purchased CO₂, and indirect Scope 2 with electricity consumption multiplied by local conversion factors. The key pattern is horizontal row association: the electricity text belongs to the second definition, although the flattened card places it after the Scope 1 label.",
+  "meaning": "Preserving two-dimensional layout changes the reading. The original row association supports the historical Scope 1 wording shown earlier and contradicts the specific electricity-based premise of the automatic rationale. This is concrete evidence that source representation or EC extraction can produce a misleading diagnostic example.",
+  "limits": "This is one inspected page, and the generator received the flattened card rather than this crop. The check establishes a local association error; it does not establish the overall reliability of BACE, the frequency of PDF-layout failures, or the correctness of every statement in that disclosure.",
+  "panels": 1,
+  "caption": "**Read the source:** ASML Integrated Report 2018, PDF page 216 (printed page 209), glossary crop. Scope 1 and Scope 2 occupy separate rows. **Observed:** the automatic contradiction rationale assigns the electricity definition to Scope 1, contrary to the original row association. This reveals a source-representation/extraction problem; it does not estimate the frequency of such problems.",
+  "source_sha256": {
+    "data": "34b41f9eb2c26ca678e034d0400c1508ad010542b044f2432527376e1844d462"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

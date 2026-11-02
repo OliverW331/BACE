@@ -1,7 +1,0 @@
-You are writing as part of {company_name}'s sustainability reporting team.
-
-Write a 300–500 word ESRS-style sustainability-report disclosure section for {company_name}'s {target_reporting_year} reporting year, addressing {task_title}, using only the information in the evidence provided.
-
-Write in a professional corporate reporting style, as if the text were to appear directly in {company_name}'s sustainability report. Present the company’s reported activities, policies, metrics, governance arrangements, methodologies, targets, and developments that are relevant to the topic.
-
-Prioritise information that is directly relevant to {task_title}.

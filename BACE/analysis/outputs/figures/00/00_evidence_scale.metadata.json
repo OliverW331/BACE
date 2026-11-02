@@ -1,0 +1,20 @@
+{
+  "figure": "00_evidence_scale",
+  "caption": "**Read the figure:** panel a counts unique canonical cards by representation; panel b is the exact empirical cumulative distribution of retrieval-text lengths, weighted by the observed frequency of each length. No cards are sampled or dropped. Long cards contribute one observation each, not extra evidence units.",
+  "width_mm": 183.0,
+  "height_mm": 85.0,
+  "png_dpi": 600,
+  "data_files": [
+    "00_evidence_scale__counts.csv",
+    "00_evidence_scale__length_frequencies.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "8b394d07d321aa1d47920e2b5d9d596462392972d70aa573830af3f1e5250071",
+    "svg": "bc2ab6c8f633b2db8be764dac72ff3703e4b8bb3eb3ee9fe88153a7bdba90d49",
+    "png": "6803d1c7dc1d395d1b9105882f7f2462fe9d75ec4b45f00ffc637242a72af65d"
+  }
+}

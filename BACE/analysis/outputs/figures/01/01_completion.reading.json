@@ -1,0 +1,13 @@
+{
+  "figure": "01_completion",
+  "question": "Before interpreting support scores, which planned cases actually have completed results?",
+  "pattern": "Generation, RAGChecker and RAGAS each reach 1,800/1,800. BACE reaches 1,798/1,800 (99.9%), leaving 2 cases. At this scale the missing segment is almost invisible, so the printed counts carry essential information.",
+  "meaning": "The generation stage has finished, but the full evaluation run is incomplete. All BACE summaries use observed completed branches, and paired comparisons require completion of all three evaluators.",
+  "limits": "A 99.9% completion rate does not establish ignorable missingness. The two failures are not zero support and are not evidence of false content. Their exclusion remains visible in the affected company, year and task denominators.",
+  "panels": 1,
+  "caption": "**Read the figure:** bars count completed branches; the narrow dark-grey remainder is missing. No scores are imputed. Completion is read from stage receipts and checked against execution status.",
+  "source_sha256": {
+    "data": "cfb6cb0067639004bd96495ac286df8fa8a611a79dd975498b0bd36b51b7035b"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

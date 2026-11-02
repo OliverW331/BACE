@@ -1,0 +1,13 @@
+{
+  "figure": "00_screening_gaps",
+  "question": "The selected heatmaps hide excluded companies; which availability gaps dominate the full register?",
+  "pattern": "Two bubbles dominate: 250 companies at (0, 0), and 267 at (0, 8). The latter have all nine required CSV years but no qualifying PDF year. Together these two locations contain 86.2% of the register. At least one CSV year is missing for 83 companies and at least one PDF year for 348; these groups overlap.",
+  "meaning": "The large vertical separation at zero missing CSV years shows that PDF availability is a major screening constraint. The smaller points elsewhere describe joint gaps rather than a smooth continuum of equally populated coverage levels.",
+  "limits": "A missing qualifying PDF is a gap in this collected and screened corpus, not proof that the company published no report. Bubble area has a small visibility offset, so count ratios should be read from the source table, not inferred precisely from diameter. Known sector classification is an additional eligibility condition.",
+  "panels": 1,
+  "caption": "**Read the figure:** each point groups companies with the same two gap counts; marker area is 4 × company count + 8 points². All 600 screening records are included. No interval is shown for observed counts. Sector classification is an additional eligibility condition.",
+  "source_sha256": {
+    "data": "6e441daec2886d08ea27249d9236684da8feed592cdf40987627558a77771f0c"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

@@ -1,0 +1,20 @@
+{
+  "figure": "03_rank_agreement",
+  "caption": "**Read the figure:** the dashed line is equal native scores, not a fitted regression. Spearman coefficients are descriptive and include ties. No p-values are reported because disclosures are clustered and the purpose is descriptive. Shared judge deployment limits independence.",
+  "width_mm": 183.0,
+  "height_mm": 78.0,
+  "png_dpi": 600,
+  "data_files": [
+    "03_rank_agreement__scores.csv",
+    "03_rank_agreement__rank_associations.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "447fad66c6e2bc8fcf38fd9c898491cc9b14733e90f82db893a0cc4875c01344",
+    "svg": "5fcf3c5a2ca2af18c97c6f342eaf7d6a3c420bd4cfd86bf769ee2a7e8f553a4c",
+    "png": "94f1d05e7915c800cda666e70726fba5f88ec1ca5c29263022432f03ac503de7"
+  }
+}

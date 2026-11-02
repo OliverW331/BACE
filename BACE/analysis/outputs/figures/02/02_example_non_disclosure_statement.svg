@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="319.464567pt" viewBox="0 0 518.740157 319.464567" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-22T00:37:26.958362</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 319.464567 
+L 518.740157 319.464567 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="38.025207" transform="rotate(-0 20.749606 38.025207)">Generated disclosure · verbatim</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 56.086362)">Accordingly, Investec does not present a quantified 2021 total for confirmed corruption or bribery</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 66.555307)">incidents, convictions or related fines, and no conclusion that the number of incidents was zero should</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 77.062924)">be drawn from the absence of these metrics.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="112.009459" transform="rotate(-0 20.749606 112.009459)">Extracted DC</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 130.070614)">Investec does not present a quantified 2021 total for fines for violations of anti-corruption or anti-</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 140.195614)">bribery laws.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="175.505522" transform="rotate(-0 20.749606 175.505522)">Visible evidence · Evidence 21 · source year 2017</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 193.566677)">Company: Investec. Reporting year: 2017. ESG topic: gov. ESRS standard: G1. Disclosure requirement:</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 203.691677)">G1-4. Indicator: Number of confirmed incidents of corruption or bribery. Value: 0.0.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="239.001585" transform="rotate(-0 20.749606 239.001585)">Automatic diagnostic rationale</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 257.06274)">The evidence addresses zero confirmed corruption or bribery incidents and no significant fines in 2017,</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 267.18774)">but the target centrally asserts non-disclosure of a quantified fines total for 2021.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="19.946457" transform="rotate(-0 20.749606 19.946457)">Investec · 2021 · G1-4</text>
+   </g>
+  </g>
+ </g>
+</svg>

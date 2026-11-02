@@ -1,0 +1,13 @@
+{
+  "figure": "00_time_windows",
+  "question": "Which temporal boundary governs the evidence just counted, and how much do neighbouring target years share?",
+  "pattern": "Both panels form diagonal bands that move one column right with each target year. Panel a permits four PDF report years per target and ends one year before it; panel b permits five CSV years and includes the target year. For 2019 these are 2015–2018 and 2015–2019; for 2023 they are 2019–2022 and 2019–2023.",
+  "meaning": "The one-column difference explains why target-year numerical metrics may be available alongside older narrative descriptions. Adjacent target years share three permitted PDF years and four CSV years, so their source pools overlap substantially. Later changes in scores therefore occur within moving, overlapping windows.",
+  "limits": "These cells encode a rule, not observed availability, score magnitude or publication dates. The band shape is imposed by design and is not an empirical trend. It cannot establish what a user could have known at a historical date.",
+  "panels": 2,
+  "caption": "**Read the figure:** coloured cells are allowed report years, grey cells are excluded by the protocol. This is the configured eligibility window, not a count of available records or proof of publication availability.",
+  "source_sha256": {
+    "data": "083c814794943dd5815eb5bae1aaf3b97178348a6b84589cd06002a8c8a2a95f"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

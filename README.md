@@ -1,21 +1,34 @@
-# BACE research workspace
+# BACE main experiment and results
 
-BACE studies claim support within supplied evidence for generated sustainability
-disclosures. This repository separates the experiment implementation, descriptive
-analysis, manuscript preparation and exploratory review interface.
+This repository contains the frozen BACE main experiment and its saved,
+descriptive results. Follow-up studies, manuscript preparation, writing skills,
+the review prototype and previous-stage archives are not part of the tracked
+repository. Their existing local files are preserved.
 
 ## Repository map
 
 | Directory | Purpose | Entry point |
 | --- | --- | --- |
-| `BACE/` | Main experiment implementation, configurations and frozen protocol records | [Experiment README](BACE/README.md) |
-| `BACE/analysis/` | Descriptive notebooks, analysis helpers and validation exporters | [Analysis README](BACE/analysis/README.md) |
-| `BACE/experiments/` | Separate evidence-chain and prompt-sensitivity studies | Each study's README and protocol |
-| `paper/` | Manuscript sources, figures, numerical provenance and citation ledgers | [Paper README](paper/README.md) |
-| `docs/design/` | Evidence Explorer product baseline and design decisions | [Product baseline](docs/design/bace_product_baseline.md) |
-| `prototypes/bace-explorer/` | Local evidence-review UI with illustrative fixtures and a read-only native-case adapter | [Prototype README](prototypes/bace-explorer/README.md) |
-| `.agents/skills/` | Project-scoped research and writing adapters | [Skill installation audit](paper/skill-audit/INSTALLATION_REPORT.md) |
-| `_archive/` | Previous-stage source snapshot; not the active workflow | [Archive README](_archive/previous_stage_20260921/README.md) |
+| `BACE/` | Main implementation, frozen configuration, prompts, schemas and tests | [Experiment README](BACE/README.md) |
+| `BACE/evidence/sample/` | Original main sampling record, without evidence payloads | [Sample record](BACE/evidence/sample/sample.json) |
+| `BACE/results/main_v1/` | Saved planned-case manifest and execution-status record | [Execution status](BACE/results/main_v1/execution_status.json) |
+| `BACE/analysis/` | Main notebooks 00–03, analysis helpers and validation exporters | [Analysis README](BACE/analysis/README.md) |
+| `BACE/analysis/outputs/` | Saved source tables, provenance, HTML reading copies, figures and selected examples | [Snapshot manifest](BACE/analysis/outputs/snapshot/manifest.json) |
+| `paper/reports/main_experiment_2026-11-02/` | Main-experiment workflow/result report, numerical ledger and rendering sources | [Report README](paper/reports/main_experiment_2026-11-02/README.md) |
+| `docs/` | Framework definitions and repository scope | [Method definition](docs/generation_evaluation.md) |
+
+## Read the main results
+
+- [Main-experiment report](paper/reports/main_experiment_2026-11-02/BACE_main_experiment_report.pdf).
+- [Data landscape](BACE/analysis/outputs/00_data_landscape.html).
+- [Evidence support](BACE/analysis/outputs/01_evidence_support.html).
+- [Failure patterns](BACE/analysis/outputs/02_failure_patterns.html).
+- [Native evaluator comparison](BACE/analysis/outputs/03_evaluator_comparison.html).
+
+The saved snapshot records 1,800 planned cases, 1,798 BACE-complete cases and two
+failures. The execution record remains `incomplete`; the paired analysis does
+not silently treat the two missing cases as zero scores. See the linked status
+and snapshot manifests for the underlying records.
 
 ## Working boundaries
 
@@ -30,16 +43,17 @@ analysis, manuscript preparation and exploratory review interface.
 
 ## Local data and reproducibility
 
-Git tracks source code, protocols, manuscript sources, selected figure exports,
-derived analysis tables and provenance records. Credentials, source datasets,
-main-run outputs, private reviewer workbooks, large copied experiment inputs,
-downloaded literature full texts and temporary previews remain local.
+Git tracks main-experiment source code and protocol records, the saved result
+snapshot, derived tables, source hashes, figure exports and the main report.
+Credentials, original source datasets, full per-case model-call histories,
+frozen evidence/input payloads, private reviewer workbooks and temporary
+previews remain local. No separate study results enter the main snapshot.
 
 A fresh clone is therefore **not a complete experimental data backup**. Analysis,
 native-case inspection and citation rechecking may require separately restored
-local artifacts. See [repository maintenance and artifact policy](docs/REPOSITORY.md)
+local artifacts. See [repository scope and artifact policy](docs/REPOSITORY.md)
 before staging files or preparing a shareable copy.
 
-Use each component's README for environment prerequisites and supported commands.
+Use the experiment and analysis READMEs for environment prerequisites and commands.
 Repository maintenance must not start new experiments or install dependencies
 into either frozen BACE environment.

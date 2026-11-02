@@ -1,0 +1,9 @@
+role,text
+Common generated disclosure · first 700 characters,"### G1-4 Incidents of corruption or bribery
+
+Investec recognises fraud, bribery and corruption as components of financial crime and integrity risk. This risk may arise from the conduct of employees, clients, suppliers and other stakeholders and is managed through the Group’s operational risk and compliance framework.
+
+The control framework includes an anti-bribery and corruption policy, an anti-money laundering policy, a breaches policy, and supporting compliance manuals and handbooks. These documents set out the procedures to be followed where potential corruption is identified. In accordance with regulatory requirements, employees are required to report information encountered during their"
+Native scores and denominators,"BACE: 19.6%, 46 claims; RAGChecker: 100.0%, 29 claims; RAGAS: 85.3%, 34 claims"
+BACE claim inventory,evidence conflation: 14; factual boundary distortion: 12; non disclosure statement: 9; direct: 9; inferential inflation: 1; unsupported novelty: 1
+Interpretation boundary,"The score direction is a native-output difference. It does not establish which evaluator is correct. Inspect claim segmentation, visible evidence, source-year boundaries and judgement together."

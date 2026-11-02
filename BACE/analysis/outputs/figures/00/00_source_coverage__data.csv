@@ -1,0 +1,271 @@
+company_id,company_name,year,eligible,selected,csv_valid_metrics,pdf_valid_headers
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2015,True,True,70,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2016,True,True,67,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2017,True,True,75,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2018,True,True,76,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2019,True,True,79,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2020,True,True,64,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2021,True,True,104,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2022,True,True,117,2.0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,2023,True,True,130,
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2015,True,True,222,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2016,True,True,219,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2017,True,True,227,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2018,True,True,219,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2019,True,True,246,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2020,True,True,246,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2021,True,True,281,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2022,True,True,276,2.0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,2023,True,True,281,
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2015,True,True,144,2.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2016,True,True,155,2.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2017,True,True,152,2.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2018,True,True,165,2.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2019,True,True,175,2.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2020,True,True,195,2.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2021,True,True,213,1.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2022,True,True,222,1.0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,2023,True,True,231,
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2015,True,True,83,1.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2016,True,True,93,1.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2017,True,True,97,1.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2018,True,True,112,1.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2019,True,True,108,1.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2020,True,True,102,1.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2021,True,True,127,1.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2022,True,True,122,2.0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,2023,True,True,118,
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2015,True,True,141,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2016,True,True,156,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2017,True,True,183,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2018,True,True,82,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2019,True,True,85,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2020,True,True,87,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2021,True,True,174,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2022,True,True,177,2.0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,2023,True,True,217,
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2015,True,True,144,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2016,True,True,131,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2017,True,True,161,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2018,True,True,168,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2019,True,True,159,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2020,True,True,180,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2021,True,True,173,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2022,True,True,182,2.0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,2023,True,True,201,
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2015,True,True,131,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2016,True,True,113,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2017,True,True,107,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2018,True,True,116,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2019,True,True,139,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2020,True,True,157,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2021,True,True,171,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2022,True,True,156,2.0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,2023,True,True,156,
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2015,True,True,92,1.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2016,True,True,158,2.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2017,True,True,165,2.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2018,True,True,169,2.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2019,True,True,188,2.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2020,True,True,205,2.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2021,True,True,205,2.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2022,True,True,216,2.0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,2023,True,True,218,
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2015,True,True,100,2.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2016,True,True,92,2.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2017,True,True,89,1.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2018,True,True,93,1.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2019,True,True,86,1.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2020,True,True,154,2.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2021,True,True,145,2.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2022,True,True,172,2.0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,2023,True,True,214,
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2015,True,True,147,1.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2016,True,True,161,1.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2017,True,True,157,2.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2018,True,True,167,1.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2019,True,True,151,1.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2020,True,True,164,1.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2021,True,True,155,1.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2022,True,True,173,1.0
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,2023,True,True,149,
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2015,True,True,63,1.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2016,True,True,70,1.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2017,True,True,170,1.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2018,True,True,169,2.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2019,True,True,188,2.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2020,True,True,215,2.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2021,True,True,211,1.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2022,True,True,236,1.0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,2023,True,True,223,
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2015,True,True,209,1.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2016,True,True,209,1.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2017,True,True,205,1.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2018,True,True,227,2.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2019,True,True,226,2.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2020,True,True,212,2.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2021,True,True,220,1.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2022,True,True,237,1.0
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,2023,True,True,231,
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2015,True,True,191,2.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2016,True,True,191,2.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2017,True,True,177,2.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2018,True,True,198,1.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2019,True,True,222,1.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2020,True,True,214,2.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2021,True,True,210,2.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2022,True,True,214,2.0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,2023,True,True,249,
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2015,True,True,68,1.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2016,True,True,67,1.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2017,True,True,79,1.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2018,True,True,86,1.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2019,True,True,110,1.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2020,True,True,147,1.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2021,True,True,165,2.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2022,True,True,202,1.0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,2023,True,True,221,
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2015,True,True,240,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2016,True,True,238,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2017,True,True,227,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2018,True,True,221,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2019,True,True,221,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2020,True,True,224,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2021,True,True,208,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2022,True,True,113,2.0
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,2023,True,True,205,
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2015,True,True,194,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2016,True,True,187,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2017,True,True,196,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2018,True,True,155,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2019,True,True,123,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2020,True,True,154,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2021,True,True,185,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2022,True,True,201,2.0
+4088a384-b599-4a26-824c-e17d48045c61,Continental,2023,True,True,187,
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2015,True,True,186,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2016,True,True,204,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2017,True,True,187,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2018,True,True,200,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2019,True,True,210,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2020,True,True,196,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2021,True,True,205,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2022,True,True,223,2.0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,2023,True,True,228,
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2015,True,True,182,2.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2016,True,True,167,2.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2017,True,True,167,2.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2018,True,True,159,2.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2019,True,True,180,2.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2020,True,True,194,2.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2021,True,True,206,2.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2022,True,True,209,1.0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,2023,True,True,264,
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2015,True,True,106,1.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2016,True,True,92,1.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2017,True,True,89,1.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2018,True,True,112,1.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2019,True,True,129,1.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2020,True,True,107,1.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2021,True,True,177,2.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2022,True,True,209,2.0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,2023,True,True,164,
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2015,True,True,156,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2016,True,True,163,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2017,True,True,150,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2018,True,True,168,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2019,True,True,192,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2020,True,True,204,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2021,True,True,233,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2022,True,True,236,2.0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,2023,True,True,255,
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2015,True,True,188,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2016,True,True,205,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2017,True,True,224,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2018,True,True,239,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2019,True,True,254,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2020,True,True,261,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2021,True,True,252,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2022,True,True,244,2.0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,2023,True,True,237,
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2015,True,True,88,1.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2016,True,True,48,1.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2017,True,True,87,1.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2018,True,True,85,1.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2019,True,True,97,2.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2020,True,True,95,2.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2021,True,True,169,2.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2022,True,True,158,2.0
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,2023,True,True,76,
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2015,True,True,188,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2016,True,True,190,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2017,True,True,184,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2018,True,True,238,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2019,True,True,231,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2020,True,True,231,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2021,True,True,212,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2022,True,True,195,2.0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,2023,True,True,212,
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2015,True,True,184,2.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2016,True,True,160,2.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2017,True,True,153,1.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2018,True,True,169,1.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2019,True,True,164,1.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2020,True,True,170,1.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2021,True,True,173,2.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2022,True,True,158,1.0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,2023,True,True,171,
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2015,True,True,77,1.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2016,True,True,126,1.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2017,True,True,114,1.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2018,True,True,129,1.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2019,True,True,160,2.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2020,True,True,172,2.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2021,True,True,134,2.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2022,True,True,154,1.0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,2023,True,True,155,
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2015,True,True,64,1.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2016,True,True,137,2.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2017,True,True,168,2.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2018,True,True,33,1.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2019,True,True,57,1.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2020,True,True,80,1.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2021,True,True,168,2.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2022,True,True,148,2.0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,2023,True,True,129,
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2015,True,True,67,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2016,True,True,66,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2017,True,True,71,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2018,True,True,65,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2019,True,True,75,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2020,True,True,72,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2021,True,True,167,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2022,True,True,184,2.0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,2023,True,True,180,
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2015,True,True,112,1.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2016,True,True,117,1.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2017,True,True,135,2.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2018,True,True,128,2.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2019,True,True,193,2.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2020,True,True,177,2.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2021,True,True,156,2.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2022,True,True,171,2.0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,2023,True,True,165,
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2015,True,True,113,1.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2016,True,True,118,1.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2017,True,True,114,1.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2018,True,True,123,1.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2019,True,True,122,1.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2020,True,True,135,1.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2021,True,True,149,2.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2022,True,True,130,2.0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,2023,True,True,119,
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2015,True,True,140,1.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2016,True,True,148,1.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2017,True,True,145,1.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2018,True,True,140,1.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2019,True,True,168,1.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2020,True,True,196,1.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2021,True,True,198,2.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2022,True,True,144,1.0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,2023,True,True,168,

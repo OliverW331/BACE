@@ -1,7 +1,7 @@
 # Main-experiment analysis
 
-Five independently executable notebooks explain the data landscape, evidence support,
-automated failure patterns, native evaluator differences, and evaluator-gap diagnostics. All analyses are
+Four independently executable notebooks explain the data landscape, evidence support,
+automated failure patterns and native evaluator differences. All analyses are
 post-experiment, descriptive, and based on the frozen main run. They are not a
 preregistered analysis plan or a human-validated evaluator benchmark.
 
@@ -11,8 +11,6 @@ preregistered analysis plan or a human-validated evaluator benchmark.
 2. `01_evidence_support.ipynb`: support distributions and heterogeneity.
 3. `02_failure_patterns.ipynb`: diagnostic composition and traceable examples.
 4. `03_evaluator_comparison.ipynb`: paired native scores, segmentation, and disagreements.
-5. `04_evaluator_gap_diagnostics.ipynb`: evidence-chain limitations, arithmetic sensitivities,
-   count-defined comparisons, identical-wording judgments and pending independent validation.
 
 ## Reproduction
 
@@ -26,28 +24,19 @@ Missing results remain missing. Comparison uses the common completed cohort.
 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/execute_notebooks.py 00_data_landscape.ipynb 01_evidence_support.ipynb 02_failure_patterns.ipynb 03_evaluator_comparison.ipynb
 ```
 
-Notebook 04 has a dedicated runner and separate output directory. It reuses
-hash-verified earlier diagnostics under `paper/analysis/evaluator_gap/`, reconciles
-them with the shared snapshot, and does not rebuild the snapshot or overwrite
-the four earlier notebooks, their exports, or their QA records.
+Git includes the existing main-run snapshot, source hashes, HTML reading copies,
+figure exports, source tables, selected case bundles and QA records. Follow-up
+evaluator-gap, evidence-chain and prompt-sensitivity studies are outside this
+repository scope and remain local.
 
-```bash
-PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/execute_evaluator_gap_notebook.py
-PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/validate_evaluator_gap_notebook.py
-```
+The main sampling record is also tracked at `../evidence/sample/sample.json`;
+full evidence payloads are not included.
 
-Its code-hidden reading copy is
-`outputs/evaluator_gap/04_evaluator_gap_diagnostics.html`. Tables, figure bundles,
-provenance, review-schema templates and separate QA records are under
-`outputs/evaluator_gap/`. See [the notebook-04 contract](EVALUATOR_GAP_SPEC.md).
-Only rebuild its source after editing the dedicated builder:
-
-```bash
-PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/build_evaluator_gap_notebook.py
-```
-
-Independent source sufficiency, neutral semantic alignment and controlled-rule
-effects remain `COMPUTATION_PENDING`; no model calls or human labels are generated.
+A fresh clone can inspect the saved results, but rebuilding the snapshot and
+executing notebooks still require the original consumed artifacts. The loader
+checks their hashes before reusing a snapshot; Git does not include all raw
+per-case calls, source datasets or frozen evidence inputs. See
+[repository scope](../../docs/REPOSITORY.md).
 
 Figures use Python/Matplotlib with consistent candy blue, green and orange accents,
 editable vector text, and explicit units and denominators. Nature-inspired design

@@ -1,0 +1,19 @@
+{
+  "figure": "03_alignment_coverage",
+  "caption": "**Read the figure:** bars show alignment coverage, not support or agreement. Ambiguous key counts and total native inventories are exported. **Boundary:** selection into exact-text overlap is highly non-random; matched judgement agreement cannot be extrapolated to all claims.",
+  "width_mm": 183.0,
+  "height_mm": 73.0,
+  "png_dpi": 600,
+  "data_files": [
+    "03_alignment_coverage__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "443a6712ac72514fa5fb02bff960d03e2d834a25572372f4d7dfedb842c4197f",
+    "svg": "bc42450036d35245d8a9a1ec4e5d98bf390e0e3255844d763c2742467ccc67d7",
+    "png": "64d7d016756873a596ff669f1930c6e0cb27451bb703975d02e029f3e4318ece"
+  }
+}

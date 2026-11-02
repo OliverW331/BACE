@@ -1,0 +1,23 @@
+{
+  "case_id": "w2__text_embedding_3_large__stratified_by_evidence_type_n10__banco_bpm__2021__e1_6_ghg_emissions",
+  "dc_id": "dc_63aa1cb575b94ec6692de318547d7e6b",
+  "reading": "The equality statement requires comparing four values across evidence cards. BACE accepted one inferred set containing four ECs; RAGChecker marked every individual context neutral for its equality claim; RAGAS accepted the comparison. This illustrates the role of evidence combination. The underlying CSV values remain extracted data and are not independently verified emissions.",
+  "blocks": [
+    [
+      "BACE DC · inferred from a four-EC support set",
+      "Banco BPM's 2021 Scope 2 emissions figures for its own operations and for the consolidated accounting group were identical."
+    ],
+    [
+      "RAGChecker native claim · unsupported",
+      "Banco BPM 2021 Scope 2 figures for own operations | were identical to | Scope 2 figures for the consolidated accounting group"
+    ],
+    [
+      "RAGAS · supported",
+      "For 2021, both own operations and the consolidated accounting group have location-based emissions of 35,103 tCO₂e and market-based emissions of 4,638 tCO₂e."
+    ],
+    [
+      "Visible 2021 CSV values",
+      "Gross market-based Scope 2 greenhouse gas emissions Own operations: 4638.0 tCO2e; Gross market-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control): 4638.0 tCO2e; Gross location-based Scope 2 greenhouse gas emissions Own operations: 35103.0 tCO2e; Gross location-based Scope 2 greenhouse gas emissions Consolidated accounting group (financial control): 35103.0 tCO2e"
+    ]
+  ]
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="328.818898pt" viewBox="0 0 518.740157 328.818898" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-22T00:37:50.081224</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 328.818898 
+L 518.740157 328.818898 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="38.96064" transform="rotate(-0 20.749606 38.96064)">BACE DC · inferred from a four-EC support set</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 57.021795)">Banco BPM's 2021 Scope 2 emissions figures for its own operations and for the consolidated accounting</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 67.146795)">group were identical.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="102.456703" transform="rotate(-0 20.749606 102.456703)">RAGChecker native claim · unsupported</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 120.429967)">Banco BPM 2021 Scope 2 figures for own operations | were identical to | Scope 2 figures for the</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 130.642858)">consolidated accounting group</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="165.952766" transform="rotate(-0 20.749606 165.952766)">RAGAS · supported</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 184.013921)">For 2021, both own operations and the consolidated accounting group have location-based emissions of</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 194.482866)">35,103 tCO₂e and market-based emissions of 4,638 tCO₂e.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="229.448829" transform="rotate(-0 20.749606 229.448829)">Visible 2021 CSV values</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 247.509984)">Gross market-based Scope 2 greenhouse gas emissions Own operations: 4638.0 tCO2e; Gross market-based</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 257.634984)">Scope 2 greenhouse gas emissions Consolidated accounting group (financial control): 4638.0 tCO2e; Gross</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 267.759984)">location-based Scope 2 greenhouse gas emissions Own operations: 35103.0 tCO2e; Gross location-based</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 277.884984)">Scope 2 greenhouse gas emissions Consolidated accounting group (financial control): 35103.0 tCO2e</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="20.88189" transform="rotate(-0 20.749606 20.88189)">Banco BPM · a concrete judgement path</text>
+   </g>
+  </g>
+ </g>
+</svg>

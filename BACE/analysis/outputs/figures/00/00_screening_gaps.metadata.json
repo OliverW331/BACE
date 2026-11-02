@@ -1,0 +1,19 @@
+{
+  "figure": "00_screening_gaps",
+  "caption": "**Read the figure:** each point groups companies with the same two gap counts; marker area is 4 × company count + 8 points². All 600 screening records are included. No interval is shown for observed counts. Sector classification is an additional eligibility condition.",
+  "width_mm": 183.0,
+  "height_mm": 80.0,
+  "png_dpi": 600,
+  "data_files": [
+    "00_screening_gaps__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "af09810ce6fc454915081698dc3a785c6a8536c7406dd371abfee70d68c1c52d",
+    "svg": "7d94d757f56deac8f26af3996c7926a66f9bf5569bd7b10c25f0ee3dedf44ecc",
+    "png": "cdcaa588f996a25642f895ea8d25aaddecd3cd48ed6e1ed5836bed696358ea95"
+  }
+}

@@ -1,74 +1,81 @@
-# Repository maintenance and artifact policy
+# Main-experiment repository scope
 
-Policy introduced: 2 November 2026.
+Scope narrowed at the author's request on 2 November 2026.
 
-## Organization
+## Included in the current Git tree
 
-Keep the existing directory boundaries. Experiment entrypoints live under `BACE/`,
-analysis tooling under `BACE/analysis/`, writing and numerical provenance under
-`paper/`, and the review prototype under `prototypes/bace-explorer/`.
-Do not relocate saved research artifacts merely to make the tree smaller:
-manifests, source ledgers and verification scripts may depend on their paths.
+- Main-experiment implementation, tests, existing dependency locks and frozen
+  protocol/configuration/prompt/schema records under `BACE/`.
+- Framework definitions under `docs/` and basic repository instructions.
+- Main-run planned-case and execution records under `BACE/results/main_v1/`.
+- The original main sampling record, `BACE/evidence/sample/sample.json`.
+- Main notebooks 00–03, their analysis helpers and validation exporter code.
+- The existing main-run snapshot under `BACE/analysis/outputs/snapshot/`, including
+  per-case metrics, BACE claims, native comparator claims, source inventories,
+  completion records, consumed-source hashes and the table-hash manifest.
+- Existing main-analysis figures 00–03, plotted source tables, selected complete
+  example bundles, HTML reading copies and QA/verification records.
+- The main-only workflow/result report under
+  `paper/reports/main_experiment_2026-11-02/`, with its PDF, editable sources,
+  numerical ledger, result tables, source provenance and figures.
 
-## Version-controlled material
+The saved snapshot contains all 1,800 planned cases in its metrics table and
+records 1,798 BACE-complete cases. The saved main execution status remains
+`incomplete`. Completed-case paired comparisons and the full planned inventory
+are not interchangeable; missing outcomes must remain missing.
 
-- Implementation code, tests, dependency specifications and existing locks.
-- Existing experiment protocols, prompts, plans, freeze records and selection
-  ledgers, without editing their contents.
-- Project instructions, design decisions and audited writing adapters.
-- Manuscript sources, bibliography, selected figure exports and source tables.
-- Derived calculation results, cohorts, denominators, source hashes, citation
-  occurrence ledgers, access records and explicit verification limitations.
-- Validation guides and exporter code, without coordinator or reviewer payloads.
+## Excluded from tracking, preserved locally
 
-Tracking a plan, freeze record or result ledger does not mean every referenced
-input or output is included in Git, and does not establish a completed study.
+- `.agents/`, manuscript drafts, bibliography/literature maintenance, writing
+  analyses, other paper reports and skill audits.
+- `prototypes/`, product-design documents, previous-stage `_archive/` material
+  and historical framework-development notes.
+- `BACE/experiments/`, analysis notebook 04 and all evaluator-gap, evidence-chain
+  and prompt-sensitivity follow-up-study tooling and outputs.
+- Source datasets, canonical evidence payloads, frozen per-case input payloads,
+  pilot/runtime/follow-up output directories and raw main-case call histories.
+- Credentials, private coordinator records, reviewer XLSX files, environments,
+  caches, logs and temporary review screenshots.
 
-## Material that stays local
+Untracking a file removes it from the current Git tree, not from the local disk.
+This scope change does not rewrite existing Git history. Older commits may
+still contain earlier-stage, writing or prototype files.
 
-| Material | Paths or patterns | Reason |
-| --- | --- | --- |
-| Credentials | `.env`, `.env.*`, `*.key`, `*.pem` | Do not include service secrets in commits |
-| Frozen environments and caches | `.venv/`, Python caches, `node_modules/` | Preserve local environments; dependency specifications are tracked separately |
-| Source data and main experiment outputs | `data/`, `BACE/evidence/`, `BACE/results/`, existing runtime-output patterns | Large research inputs and outputs need a separate backup and access policy |
-| Reviewer workbooks | `BACE/analysis/validation/*.xlsx` | Preserve independent review and keep annotation payloads out of Git |
-| Coordinator records | `BACE/analysis/validation/_private/`, except its README | Includes private sample mappings, automatic answers and archived workbooks |
-| Copied prompt-sensitivity inputs | `paper/analysis/prompt_sensitivity/v1/inputs/` | Large per-case copies; keep the frozen manifests and source hashes in Git |
-| Literature source copies | `paper/literature/sources/*/*`, except `retrieval.json` | Downloaded full texts are not automatically cleared for redistribution |
-| Raw literature search responses | `paper/literature/searches/` | Retain search logs and audit records; raw downloaded pages remain local |
-| Complete exploratory review packets | `paper/analysis/residual_gap_review_2026-10-20/packets/` | Source payload copies remain local; review ledgers and bounded reports remain tracked |
-| Generated reading and QA products | Manuscript PDF/ZIP, page-preview directories, report build/review directories, selected screenshot patterns | Rebuild from source where the required local inputs and tools are available |
+## Result inspection and reproduction
 
-The ignore rules do not delete these files or replace a backup. Selected
-manuscript figure PDFs/SVGs/PNGs and JSON QA records remain version-controlled;
-there is no blanket exclusion of all PDF, image, JSON or CSV files.
+Use the root README's result links to inspect the committed main report,
+notebooks, reading copies and tables. Existing saved result files are tracked
+without regenerating or changing their contents.
 
-## Fresh-clone limitations
+A clone is not a complete raw experiment backup. Full reproduction, native
+case inspection and source re-verification require separately restored inputs,
+raw outputs and the recorded environments. The snapshot loader checks consumed
+source hashes before cache reuse; the presence of a cached table alone does
+not disable that verification. Compare restored artifacts with the recorded
+hashes and never invent missing files or silently turn missing outcomes into
+zero scores.
 
-Restore authorized source data and saved run outputs before executing analysis
-or using the native-case adapter. Restore the correct original literature
-versions before running full-text citation checks. Compare restored files with
-the recorded hashes and locators; missing files remain missing until restored.
-Use the existing independent environments where available, or an explicitly
-separate environment under the project's environment policy.
+Two existing native replay tests require separately restored saved pilot-case
+artifacts under `BACE/results/pilot_v1/`. Those test-data prerequisites remain
+local rather than broadening the tracked main-result scope. Source-only tests
+can run against an isolated checkout; the complete existing suite also requires
+the local replay artifacts.
 
-Do not infer human-validation completion from the presence of a guide, exporter,
-report or prepared workbook. Keep original reviewer ratings, adjudication and
-automated outputs separate.
+Support scores are conditional on supplied evidence, not external truth,
+legal compliance or independently established evaluator accuracy. Main human
+validation remains separate from prepared guides and exporter code.
 
-## Before committing
+## Maintenance
 
 ```bash
 git status --short
 git diff --stat
 git diff --cached --stat
-git diff --cached --check
-git ls-files --cached
+git ls-files
 ```
 
-Review the staged paths for credentials, private reviewer material, native
-prototype data, copied inputs and accidental build products. Run relevant
-offline tests using installed dependencies; do not launch live model calls,
-overwrite experiment outputs or install into frozen environments as a cleanup
-step. Inspect the staged snapshot before committing. Push only when explicitly
-requested; a local commit does not publish or back up ignored files.
+Use `git rm --cached` to remove tracked files without deleting local copies.
+Review the resulting tracked-file inventory against this scope. Do not modify
+frozen environments, dependencies, prompts or saved research artifacts, run
+new experiments, regenerate results or publish the repository as a cleanup
+step. Push only when the author requests it.

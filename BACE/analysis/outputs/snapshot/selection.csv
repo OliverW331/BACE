@@ -1,0 +1,601 @@
+company_id,company_name,company_slug,primary_sics_sector,country,classification_year,eligible,selected,missing_csv_year_count,missing_pdf_year_count
+013fe637-396a-45a9-84aa-15fdaceab849,Bank Pekao,bank_pekao,Financials,Poland,2023,False,False,1,1
+0175e243-c24c-42ce-acc6-b5b40bb43080,Admiral Group,admiral_group,Financials,United Kingdom,2023,True,False,0,0
+0199ea6c-4db5-491b-b8d6-6a27ec2e4de7,Inchcape,inchcape,Consumer Goods,United Kingdom,2023,True,False,0,0
+0211dc9c-c6ec-4250-8931-248f176339be,Telia Company,telia_company,Technology & Communications,Sweden,2023,True,False,0,0
+023f8cab-baf0-4078-a832-d3ec4b761a95,Atlas Copco,atlas_copco,Resource Transformation,Sweden,2023,True,False,0,0
+02baccdf-c8e2-4ef1-b95c-9f6c3a744626,Vodafone,vodafone,Technology & Communications,United Kingdom,2023,True,False,0,0
+034847ad-4df8-4fde-a032-a1ae9d231942,Informa,informa,Services,United Kingdom,2023,True,False,0,0
+03afabd7-1b06-4ad7-89d5-e6f245dba4d7,Carl Zeiss Meditec,carl_zeiss_meditec,Health Care,Germany,2023,True,False,0,0
+03bdbc70-9e2b-4c0a-9dbb-cddd21c3ba27,Danone,danone,Food & Beverage,France,2023,True,False,0,0
+03c716df-c496-489f-8d20-b27e270e90fe,Mercedes-Benz Group,mercedes_benz_group,Transportation,Germany,2023,True,False,0,0
+041a0bf9-f3d5-4ff6-a99a-fb7e7143e249,Brunello Cucinelli,brunello_cucinelli,Consumer Goods,Italy,2023,True,False,0,0
+042cd9c2-ca83-4a02-a7d3-31fdf394f385,Acciona,acciona,Infrastructure,Spain,2023,True,False,0,0
+0437e74f-27d3-4589-9212-06c3ca572c25,Adyen,adyen,Technology & Communications,Netherlands,2023,False,False,3,3
+04a5aa81-e305-435f-9abe-79e6edbe51ab,Balfour Beatty,balfour_beatty,Infrastructure,United Kingdom,2023,True,False,0,0
+04b00c87-7d27-4a7f-a503-88f54d86d830,Genmab,genmab,Health Care,Denmark,2023,True,True,0,0
+057677e7-ba6c-4746-ae00-bcdf33be1c15,Bankinter,bankinter,Financials,Spain,2023,True,False,0,0
+05b3d493-38e0-4e8f-a75e-d57df4a4299d,Repsol,repsol,Extractives & Minerals Processing,Spain,2023,True,False,0,0
+060107a1-5462-4b5b-adf7-ca200f3bb587,Evonik Industries,evonik_industries,Resource Transformation,Germany,2023,True,True,0,0
+06e4ad37-74d6-4a30-9884-ab0ef4eec243,LPP,lpp,Consumer Goods,Poland,2023,True,False,0,0
+0735619d-5608-48d8-ab0b-55259bbb64cc,Hermes International,hermes_international,Consumer Goods,France,2023,True,False,0,0
+07dfe84a-eacc-47e3-9fd0-40a17f0f75c6,Universal Music Group,universal_music_group,Services,Netherlands,2023,False,False,3,3
+084f2ada-315d-49bb-bf26-fac4505c8292,Temenos,temenos,Technology & Communications,Switzerland,2023,True,False,0,0
+08d86c3c-5787-4603-80a3-3fdcc38b6483,WHSmith,whsmith,Consumer Goods,United Kingdom,2023,True,False,0,0
+091062be-33d0-418e-83d2-96e235bdd898,BP,bp,Extractives & Minerals Processing,United Kingdom,2023,True,False,0,0
+09286177-c1c7-4dd8-b622-0b1cb7223451,Indutrade,indutrade,Resource Transformation,Sweden,2023,True,False,0,0
+0944aea8-33d1-426d-a768-09c68f206caf,Watches of Switzerland Group,watches_of_switzerland_group,Consumer Goods,United Kingdom,2023,False,False,4,4
+0995e0ed-db3c-484d-a535-16f6cca0c73f,British American Tobacco,british_american_tobacco,Food & Beverage,United Kingdom,2023,True,False,0,0
+0a4b22a1-2dc1-498d-93f3-0b3972fd220d,Hellofresh,hellofresh,Consumer Goods,Germany,2023,False,False,2,2
+0a80e3c0-232d-41b3-acd8-8f8374d955b4,Rheinmetall,rheinmetall,Resource Transformation,Germany,2023,True,False,0,0
+0aced97e-18fe-4e85-90af-6847930226cd,Harbour Energy,harbour_energy,Extractives & Minerals Processing,United Kingdom,2023,True,False,0,0
+0b4aadfd-1c95-4400-b670-db288855d7d1,Assa Abloy,assa_abloy,Resource Transformation,Sweden,2023,True,False,0,0
+0b742bc6-9599-430d-bc75-a0b29520eb1f,Credit Agricole,credit_agricole,Financials,France,2023,True,False,0,0
+0c6cff84-d198-4b7b-b564-a33b0bf53b54,Thales,thales,Resource Transformation,France,2023,True,False,0,0
+0caec563-e78d-4758-9b44-ab4a35c2e256,Novozymes,novozymes,Resource Transformation,Denmark,2023,True,False,0,0
+0fa93b17-fea2-4956-8f1f-540656e24b81,Legal & General,legal_general,Financials,United Kingdom,2023,True,False,0,0
+0fbb5cb0-a5c1-46c4-8cf9-13da6a163e71,BCV,bcv,Financials,Switzerland,2023,True,False,0,0
+10176f9a-6f64-4acc-94fb-8fcf0db7127b,Givaudan,givaudan,Resource Transformation,Switzerland,2023,True,False,0,0
+117b1525-080e-4394-94e6-597e09c634ea,Wienerberger,wienerberger,Extractives & Minerals Processing,Austria,2023,True,False,0,0
+11f34af5-d432-4046-b117-784eb7dfcf69,AXA,axa,Financials,France,2023,True,False,0,0
+120d752a-c5c2-4a41-9e5d-39046ecfdc9f,Sagax,sagax,Infrastructure,Sweden,2023,True,False,0,0
+12219229-cc4e-499d-aa3f-2da74ed05661,Bucher,bucher,Resource Transformation,Switzerland,2023,True,False,0,0
+124889c6-1f99-4746-a90c-58931f1db0f4,Straumann Holding,straumann_holding,Health Care,Switzerland,2023,True,False,0,0
+124b2a53-7ae3-46a9-bc2e-4ef4be0e6021,Mowi,mowi,Food & Beverage,Norway,2023,True,True,0,0
+130edba8-bc25-41f2-b9fb-4ca4ad78dc90,Viscofan,viscofan,Resource Transformation,Spain,2023,True,False,0,0
+13931323-c441-4b30-af0d-43c38e44da49,BAWAG Group,bawag_group,Financials,Austria,2023,False,False,2,2
+13c89ec8-3c68-47a1-bf7e-9a9fa65eb51a,DS Smith,ds_smith,Resource Transformation,United Kingdom,2023,True,False,0,0
+141e289d-75d3-44ef-a96c-596c06872704,AstraZeneca,astrazeneca,Health Care,United Kingdom,2023,True,False,0,0
+142810a9-cfe1-4065-9e9a-2a9f219ba41d,Coloplast,coloplast,Health Care,Denmark,2023,True,False,0,0
+149d2791-0c0a-4b0f-939c-996f010c0bcb,Heineken,heineken,Food & Beverage,Netherlands,2023,False,False,1,1
+14ff673b-961e-45bd-aaa5-f23cf30104c1,WPP,wpp,Services,United Kingdom,2023,True,False,0,0
+15684bd9-79a7-4846-81ed-69d8e3be97e5,Sectra,sectra,Health Care,Sweden,2023,True,False,0,0
+15a7dfeb-a1de-4702-97fc-7a829d72ad2c,Grafton Group,grafton_group,Consumer Goods,United Kingdom,2023,True,True,0,0
+15aa905b-30d6-4464-923f-dcd8148eba5a,Aéroports de Paris,a_roports_de_paris,Services,France,2023,True,False,0,0
+160ddcaf-bc43-4489-9fbc-a9dd41a0eefd,Deutsche Bank,deutsche_bank,Financials,Germany,2023,True,True,0,0
+168cc9c7-6dd5-4d3c-bd04-2ebb90095324,Commerzbank,commerzbank,Financials,Germany,2023,True,False,0,0
+1765d89b-53ef-494c-a314-dbd4b576d0bd,Metso,metso,Resource Transformation,Finland,2023,True,False,0,0
+17a8a3c4-9653-4e7f-8bc8-b6e4d8f8f178,Porsche Automobil Holding,porsche_automobil_holding,Transportation,Germany,2023,True,False,0,0
+187d4e9d-4f25-41c5-9cf8-f33f34dfe9de,Rational,rational,Resource Transformation,Germany,2023,True,False,0,0
+19673c84-ee95-4305-b77f-89225fb59b40,Ubisoft,ubisoft,Technology & Communications,France,2023,True,False,0,0
+19c31962-9986-4e6e-993d-923841518db4,H&M,h_m,Consumer Goods,Sweden,2023,True,False,0,0
+19dc1205-ed52-4a75-b60b-0b891cb9583b,Cofinimmo,cofinimmo,Infrastructure,Belgium,2023,True,True,0,0
+1a6e9ea7-4a43-4787-b2ff-442fe1ad5dc4,Tele2,tele2,Technology & Communications,Sweden,2023,True,False,0,0
+1ae43897-e19d-4526-98d1-df58e8d964f7,Rentokil Initial,rentokil_initial,Services,United Kingdom,2023,True,False,0,0
+1b77803a-a33b-4da9-aae8-b6f198f0a988,MTU Aero Engines,mtu_aero_engines,Resource Transformation,Germany,2023,True,False,0,0
+1b9fdfb4-bb09-4a67-935b-3037dd364e94,Volkswagen,volkswagen,Transportation,Germany,2023,True,False,0,0
+1ba796af-9b76-4c99-be75-c76d71f05b42,Ageas,ageas,Financials,Belgium,2023,True,False,0,0
+1bdf7b76-db7b-46de-a187-7b9115021358,Ackermanns & Van Haaren,ackermanns_van_haaren,Financials,Belgium,2023,True,False,0,0
+1c5c9819-69c3-42e8-905c-6bf4d2464704,Recordati,recordati,Health Care,Italy,2023,True,False,0,0
+1c6d93ed-a755-4bbe-a81a-ace38ec80a55,CHR Hansen,chr_hansen,Resource Transformation,Denmark,2023,False,False,1,0
+1c75dfbe-e976-4f99-98be-49ada87099a2,Ashtead Group,ashtead_group,Resource Transformation,United Kingdom,2023,True,False,0,0
+1c9f89ce-105a-405a-a38b-1db78ab203ba,Inter­­conti­­nenta­­l Hot­­els G­­roup,inter_conti_nenta_l_hot_els_g_roup,Services,United Kingdom,2023,True,True,0,0
+1d991f5a-4f8e-44e0-aebf-494b637e15db,IMI,imi,Resource Transformation,United Kingdom,2023,True,False,0,0
+1dfee2c1-8b45-4e49-8571-d0d9f6631b59,Henkel,henkel,Consumer Goods,Germany,2023,True,False,0,0
+1ea4b023-9570-4bd4-9248-011ef5357cda,Amadeus,amadeus,Technology & Communications,Spain,2023,True,False,0,0
+1efa4f82-7234-48e2-b456-86f5da05ed10,Enel,enel,Infrastructure,Italy,2023,True,False,0,0
+1f6bd2c5-2bcd-47a7-8dc3-87c3ac25f6b7,Freenet,freenet,Technology & Communications,Germany,2023,True,False,0,0
+1f87c04c-a052-49e1-b61d-9cff8cf3186a,SCOR,scor,Financials,France,2023,True,False,0,0
+1f87c1c3-4366-472a-a793-ac759c4c93cc,Banco BPM,banco_bpm,Financials,Italy,2023,True,True,0,0
+20822594-2345-4d48-932d-21af308de62c,Hannover Rück,hannover_r_ck,Financials,Germany,2023,False,False,1,1
+20f9d128-52a7-4873-887b-e00a3bc02301,UniCredit,unicredit,Financials,Italy,2023,True,False,0,0
+21260156-6f11-42a7-9090-1375da969bee,Bachem,bachem,Health Care,Switzerland,2023,True,False,0,0
+223dec33-ee9f-4810-8f32-790f1265e4be,Swatch Group,swatch_group,Consumer Goods,Switzerland,2023,True,False,0,0
+2245c081-5280-4cfa-813f-012dbe3fffd7,Zurich,zurich,Financials,Switzerland,2023,True,False,0,0
+22779b29-8b2d-4171-a2fd-a62d1575ea25,Bavarian Nordic,bavarian_nordic,Health Care,Denmark,2023,True,False,0,0
+2298d7cf-ea14-40a0-a9c6-211063dc5542,RWE,rwe,Infrastructure,Germany,2023,True,False,0,0
+22bbfb26-1901-4860-b183-62ebb2eb94c2,Telefónica,telef_nica,Technology & Communications,Spain,2023,True,False,0,0
+22cf0fee-a3c2-4b41-93c5-ef8c2b20d458,Ericsson,ericsson,Technology & Communications,Sweden,2023,True,False,0,0
+23840eae-fcfa-4641-bf20-82dc228b87d4,ASR,asr,Financials,Netherlands,2023,True,False,0,0
+2494ce9a-aebc-4671-b67a-3120eb3f3efd,Computacenter,computacenter,Technology & Communications,United Kingdom,2023,True,False,0,0
+249be73d-d3ea-42d0-89cc-21af738a688a,D'IeterenGroup,d_ieterengroup,Consumer Goods,Belgium,2023,True,True,0,0
+24fdc389-11e5-4af0-9839-b17c86890082,Virgin Money UK,virgin_money_uk,Financials,United Kingdom,2023,True,False,0,0
+25240ccf-ab4c-40c8-94e8-dc278926ef49,Pandora,pandora,Consumer Goods,Denmark,2023,True,False,0,0
+25b291a1-7852-44ed-bbb5-fc5b3aed55ac,Enagás,enag_s,Extractives & Minerals Processing,Spain,2023,True,False,0,0
+262fe5a8-e9ac-4d4f-b2e1-a51a1c501209,Drax,drax,Infrastructure,United Kingdom,2023,True,False,0,0
+267bde65-2cc8-4011-998b-896e1e496680,La Francaise des Jeux,la_francaise_des_jeux,Services,France,2023,False,False,2,2
+28367af8-ef59-4ce7-a851-2c0535aea0ce,Air France-KLM,air_france_klm,Transportation,France,2023,True,True,0,0
+28373c95-a490-4b96-95b4-91010c47c32a,Naturgy,naturgy,Infrastructure,Spain,2023,True,False,0,0
+2867b40f-e0c6-4663-b7cf-c25b36ad33c0,NatWest Group,natwest_group,Financials,United Kingdom,2023,True,False,0,0
+290f9747-10cc-412f-b660-61a66421507f,Technip Energies,technip_energies,Infrastructure,France,2023,False,False,6,6
+29420095-a5f6-4b89-ac3a-ead52d2d3558,Puma,puma,Consumer Goods,Germany,2023,True,False,0,0
+2968e3ff-0a66-4b10-812b-284e4bafff0c,Dassault Aviation,dassault_aviation,Resource Transformation,France,2023,True,False,0,0
+298291ed-9319-4360-9566-fb23bce52beb,Swiss Prime Site,swiss_prime_site,Infrastructure,Switzerland,2023,True,False,0,0
+2a3f2c43-3a15-4a6f-8f63-48767b57b8d9,Elekta,elekta,Health Care,Sweden,2023,True,False,0,0
+2b4d93a5-c28f-4ce4-8815-56e6efa4b5ae,Michelin,michelin,Transportation,France,2023,True,False,0,0
+2bace3ec-1343-4cd3-bdef-36d73d07ce49,Kion Group,kion_group,Resource Transformation,Germany,2023,True,False,0,0
+2ca87105-47bc-43c7-b04e-01da1ad58f48,St James's Place,st_james_s_place,Financials,United Kingdom,2023,True,False,0,0
+2cb4d344-f7ca-4cec-955c-6c2ee7f014c8,Bunzl,bunzl,Consumer Goods,United Kingdom,2023,True,False,0,0
+2d4f5b93-edcc-4197-acc7-3b701deffd1c,Securitas,securitas,Services,Sweden,2023,True,False,0,0
+2d687c47-5b74-4771-a7ca-a376cdf50f90,Rotork,rotork,Resource Transformation,United Kingdom,2023,True,False,0,0
+2e160a40-17af-4679-a940-76e407dd14a8,Edenred,edenred,Services,France,2023,True,False,0,0
+2e1f7005-6454-4596-8e28-87214e82b95e,ASML,asml,Technology & Communications,Netherlands,2023,True,True,0,0
+2e5bfe4c-3676-468c-84b7-f4e3be294298,ING Groep,ing_groep,Financials,Netherlands,2023,True,False,0,0
+2ef1995f-c052-4e4c-8343-6b82570bc59a,Compagnie de Saint-Gobain,compagnie_de_saint_gobain,Extractives & Minerals Processing,France,2023,True,False,0,0
+303f97d3-1e16-4e3b-8d92-feddc539bfc4,Merlin Properties REIT,merlin_properties_reit,Infrastructure,Spain,2023,True,False,0,0
+30b419b5-ceca-4816-b405-353f8228db76,IMCD,imcd,Resource Transformation,Netherlands,2023,False,False,3,3
+30bc33d3-8fc5-48e9-ad73-537740e5f93c,Dino,dino,Food & Beverage,Poland,2023,False,False,3,3
+30d40e80-a663-49f5-85bf-9c41d11314ba,Wärtsilä,w_rtsil,Resource Transformation,Finland,2023,True,True,0,0
+3120137f-b080-4f8b-8ca6-0c42bec3334c,Cellnex,cellnex,Technology & Communications,Spain,2023,False,False,1,1
+3132d064-1228-4c41-8f0c-14a20c16d755,Safran,safran,Resource Transformation,France,2023,False,False,2,2
+31c2498a-03e8-4343-8440-bf4f63bb9ee3,Deutsche Telekom,deutsche_telekom,Technology & Communications,Germany,2023,True,False,0,0
+3239286e-a125-4479-ad13-cb35df339a49,SimCorp,simcorp,Technology & Communications,Denmark,2023,False,False,1,0
+32c1560c-5e67-46b2-9bee-036831b6eda1,Addtech,addtech,Resource Transformation,Sweden,2023,True,False,0,0
+3359a0a2-4665-4889-ba03-c750ecc0344a,Orsted,orsted,Infrastructure,Denmark,2023,True,False,0,0
+33cb2a98-a445-4327-8a70-02471f102e40,Campari,campari,Food & Beverage,Italy,2023,True,False,0,0
+349f9233-ad87-4341-9a65-d9ecfdce8318,Svenska Cellulosa,svenska_cellulosa,Renewable Resources & Alternative Energy,Sweden,2023,True,True,0,0
+34aad8bd-4de5-4bcc-95f4-99d47a73a005,Dufry,dufry,Consumer Goods,Switzerland,2023,True,True,0,0
+34b22703-9c8d-4136-a396-2ca3ea2e425c,Lagercrantz Group,lagercrantz_group,Technology & Communications,Sweden,2023,True,False,0,0
+355c2c96-1428-4672-8954-5068f8bf0bed,Qinetiq,qinetiq,Resource Transformation,United Kingdom,2023,True,False,0,0
+36544968-7e6d-4261-a03b-bc775298ff0b,B&M,b_m,Consumer Goods,United Kingdom,2023,True,False,0,0
+3875b19e-0543-4966-895e-bced98107006,Eiffage,eiffage,Infrastructure,France,2023,False,False,1,1
+3890ac68-498c-4d93-b22b-bf829c471ee5,Intesa Sanpaolo,intesa_sanpaolo,Financials,Germany,2023,True,True,0,0
+38a44460-2417-41a6-96c5-715930626107,Barclays,barclays,Financials,United Kingdom,2023,True,False,0,0
+3a8d0f5b-617e-4aea-809f-f78d06c9cdbe,Cembra Money Bank,cembra_money_bank,Financials,Switzerland,2023,True,False,0,0
+3ab3f5ac-9724-44f3-ae2e-ebb12dd69afd,Endesa,endesa,Infrastructure,Spain,2023,True,False,0,0
+3ac4f2a4-8319-4558-8b45-91d86913412a,ASM,asm,Technology & Communications,Netherlands,2023,True,False,0,0
+3b5e144f-8579-4c45-9d52-7271834f263c,Moncler,moncler,Consumer Goods,Italy,2023,True,False,0,0
+3c3fb887-8c0e-43e4-a8c7-f422e8b27a8b,Tesco,tesco,Food & Beverage,United Kingdom,2023,True,False,0,0
+3dfdca9f-c1f1-4fb2-92ff-f5347670b840,Tryg,tryg,Financials,Denmark,2023,True,False,0,0
+3e7805f0-d66e-4cda-b7a1-4cb6686c8fa2,Kering,kering,Consumer Goods,France,2023,False,False,1,1
+3ec7607e-6b4b-49a4-9579-cc9eeacb5021,Pearson,pearson,Services,United Kingdom,2023,True,False,0,0
+3f5e4bb4-5a8a-42f3-8c37-727c5c17c693,Britvic,britvic,Food & Beverage,United Kingdom,2023,True,False,0,0
+3fd0f7d0-2d2c-4792-9f2b-ad3d6c954dc9,GEA Group,gea_group,Resource Transformation,Germany,2023,True,False,0,0
+3fe59f70-56bf-48e1-8708-0f0c80372993,Segro,segro,Infrastructure,United Kingdom,2023,True,False,0,0
+3fefbbd8-94fa-49ed-a639-1bcfbf34160c,M&G Investments,m_g_investments,Financials,United Kingdom,2023,False,False,3,3
+404870d7-f958-47c7-9357-d9564543e619,Allegro,allegro,,Poland,2023,False,False,5,5
+40651382-cdcb-40bd-8edc-1630390d71f7,Allfunds Group,allfunds_group,Financials,Netherlands,2023,False,False,3,3
+4088a384-b599-4a26-824c-e17d48045c61,Continental,continental,Transportation,Germany,2023,True,True,0,0
+412b4824-816d-4163-aab3-a25bb1a35a39,Porsche,porsche,Transportation,Germany,2023,True,False,0,0
+427d7799-15b4-431e-9735-467a1fbe6383,Close Brothers,close_brothers,Financials,United Kingdom,2023,True,False,0,0
+42bd88ee-1e3f-4645-8c66-da358f34fec5,Avanza,avanza,Financials,Sweden,2023,True,False,0,0
+43f1a357-5123-43ff-b60b-ae14aaf08961,ArcelorMittal,arcelormittal,Extractives & Minerals Processing,France,2023,True,False,0,0
+44d05df5-916a-4efe-ae1e-c2031f580083,Allianz,allianz,Financials,Germany,2023,True,False,0,0
+451524a7-ea86-4d21-bf56-44ec90088bc5,Storebrand,storebrand,Financials,Norway,2023,True,False,0,0
+4582b850-2c9a-4498-8e16-bbffb6057711,Prysmian Group,prysmian_group,Resource Transformation,Italy,2023,True,False,0,0
+45a846db-5077-4af0-8470-58acae3c2840,Bakkafrost,bakkafrost,Food & Beverage,Norway,2023,True,False,0,0
+45b25b0f-91b7-4e75-8bc8-4ce3973e175d,Corporacion Acciona Energias Renovables,corporacion_acciona_energias_renovables,Renewable Resources & Alternative Energy,Spain,2023,False,False,2,2
+4639bbe9-8031-4f0f-b9f9-6a4e129cf24c,Boliden,boliden,Extractives & Minerals Processing,Sweden,2023,True,False,0,0
+46fdc8cb-6957-40e9-9446-bf94e1983c6f,Bper Banca,bper_banca,Financials,Italy,2023,True,False,0,0
+470db8e0-ef1e-4aff-b5da-fd42779f6e8a,Gerresheimer,gerresheimer,Resource Transformation,Germany,2023,True,False,0,0
+4895ff30-cea6-48dd-a77b-bd5ce742bf5c,Nordea Bank,nordea_bank,Financials,Sweden,2023,True,False,0,0
+48b7d12f-ef27-4911-9971-94f0872af110,Italgas,italgas,Infrastructure,Italy,2023,False,False,1,1
+4a2dda40-c716-4965-b469-40044c4d10a5,Axfood,axfood,Food & Beverage,Sweden,2023,True,False,0,0
+4a6a26d6-5470-4060-80bd-8447e88f67c5,Hargreaves Lansdown,hargreaves_lansdown,Financials,United Kingdom,2023,True,False,0,0
+4a868d73-3310-4e93-a8dc-a6b88b252509,OMV,omv,Extractives & Minerals Processing,Austria,2023,True,True,0,0
+4a9c2e55-8e15-4f26-9853-7ed3cde8ed7a,Schneider Electric,schneider_electric,Resource Transformation,France,2023,True,False,0,0
+4aa71b17-ba72-451f-b78b-f8f3442fb42c,Philips,philips,Health Care,Netherlands,2023,True,False,0,0
+4b1fe152-10fa-44f2-a654-6a57a1f8eedc,Ahold Delhaize,ahold_delhaize,Food & Beverage,Netherlands,2023,False,False,1,1
+4b2873d4-5c61-45a9-899e-1e016f7bad44,Valmet,valmet,Resource Transformation,Finland,2023,True,False,0,0
+4baf8055-9f08-463f-b60a-2f8db8ce3abf,Mediobanca,mediobanca,Financials,Italy,2023,True,False,0,0
+4bc8d911-6a3e-42a3-91a7-b061c2e755b6,Haleon,haleon,Consumer Goods,United Kingdom,2023,False,False,3,3
+4bfd32c1-3533-4524-8a88-29ae6a823511,Taylor Wimpey,taylor_wimpey,Infrastructure,United Kingdom,2023,True,False,0,0
+4d1f5403-0d51-4b17-8d29-cabcd82fbcee,Terna,terna,Infrastructure,Italy,2023,True,False,0,0
+4d4deadc-6344-432b-91f3-ca92ed82b0c9,Covestro,covestro,Resource Transformation,Germany,2023,True,True,0,0
+4d69b2bf-128e-4614-9950-281b7d53d55c,Georg Fischer,georg_fischer,Resource Transformation,Switzerland,2023,True,False,0,0
+4da2bbe5-f695-468c-9038-b59095714ef3,Sage,sage,Technology & Communications,United Kingdom,2023,True,True,0,0
+4e00d26c-6851-425d-9912-aa95fe318228,Weir,weir,Resource Transformation,United Kingdom,2023,True,False,0,0
+4e2266f6-6bc9-469f-bfa0-344873b81fc6,A.P. Moeller-Maersk,a_p_moeller_maersk,Transportation,Denmark,2023,True,False,0,0
+4ee63e69-917c-49b4-a272-f32a5eaa0a1d,Talanx,talanx,Financials,Germany,2023,True,False,0,0
+4f0192be-062a-47f4-b992-368567f39067,Covivo,covivo,Infrastructure,France,2023,False,False,2,2
+4fa85f1b-fa7a-4f29-b7e3-c323736254fa,Fuchs Petrolub,fuchs_petrolub,Resource Transformation,Germany,2023,True,False,0,0
+506c442c-0ad3-4456-913e-558eefd27f42,VAT,vat,Resource Transformation,Switzerland,2023,False,False,3,3
+50a32026-9261-45bc-aaf0-2946bdb3b6ee,Smiths,smiths,Resource Transformation,United Kingdom,2023,True,False,0,0
+50fef193-7700-4140-8155-41b7684b6d2b,Wendel,wendel,Financials,France,2023,True,False,0,0
+51097a00-caaa-472e-a9b3-fc0f267a9c03,Pernod Ricard,pernod_ricard,Food & Beverage,France,2023,True,False,0,0
+514537e2-0d76-4491-a533-3e2647ad32e5,Man Group,man_group,Financials,United Kingdom,2023,True,False,0,0
+5164e24c-0a6b-4473-bab3-d453a80bcd51,Danske Bank,danske_bank,Financials,Denmark,2023,True,False,0,0
+51fd77a1-7fd7-4fb2-9f37-79ed927cabc3,Elis,elis,Services,France,2023,True,False,0,0
+52266050-5605-4e12-bd05-bcb839ca14d3,Melrose,melrose,Resource Transformation,United Kingdom,2023,True,False,0,0
+52904530-5570-4ca1-af45-b80a66935761,Vestas Wind Systems,vestas_wind_systems,Renewable Resources & Alternative Energy,Denmark,2023,True,False,0,0
+53af4c87-2776-45e8-b908-64644e73e06e,Vinci,vinci,Infrastructure,France,2023,True,False,0,0
+53e776ef-e19c-43a1-8c73-b6438bf049bd,Hiscox,hiscox,Financials,United Kingdom,2023,True,False,0,0
+54458636-4ce7-4f21-9ab0-624815a67669,Fresenius Medical Care,fresenius_medical_care,Health Care,Germany,2023,True,False,0,0
+54a01194-42da-4b6d-aaf3-d75e56734ae9,LXI REIT,lxi_reit,Infrastructure,United Kingdom,2023,False,False,3,3
+55449684-4e30-425c-9821-0fa8dc523d0e,Galenica,galenica,Health Care,Switzerland,2023,False,False,1,1
+55f8f1b5-fe20-432f-bba1-79c4c7eab028,Abrdn,abrdn,Financials,United Kingdom,2023,True,False,0,0
+566f1061-c1ed-4186-a4be-d8f161701131,Huhtamaki,huhtamaki,Resource Transformation,Finland,2023,True,True,0,0
+56e675dc-db9b-4f9a-aff1-fbe2615075fe,Bellway,bellway,Infrastructure,United Kingdom,2023,True,False,0,0
+577a444b-1ab5-4ce6-9a99-683acce838e9,Spectris,spectris,Resource Transformation,United Kingdom,2023,True,False,0,0
+57fca9cc-a4fb-4594-a769-0144ebbe76d8,JDE Peet's,jde_peet_s,Food & Beverage,Netherlands,2023,False,False,3,3
+58a6ad31-24c1-43fe-8eec-d3694fec3835,Heineken Holding,heineken_holding,Food & Beverage,Netherlands,2023,True,False,0,0
+596e0316-bb4e-49ee-808c-777569cf06bd,Getlink,getlink,Transportation,France,2023,True,False,0,0
+59aa712b-c6b8-407c-a0aa-1ad6163e5fe6,Reply,reply,Technology & Communications,Italy,2023,True,False,0,0
+59b29a6d-daf6-4da6-9a85-37c1c65c0a45,Orlen,orlen,Extractives & Minerals Processing,Poland,2023,False,False,2,2
+59f5e864-8b7c-4c69-b920-d38c2b0e5941,Anheuser-Busch Inbev,anheuser_busch_inbev,Food & Beverage,Belgium,2023,True,False,0,0
+5b708d78-0613-4192-bd16-1921a8f1f91d,ALK-Abelló,alk_abell,Health Care,Denmark,2023,True,False,0,0
+5baf12f9-6365-4b70-ac68-f7c56f2e72e8,Johnson Matthey,johnson_matthey,Resource Transformation,United Kingdom,2023,True,False,0,0
+5bc56793-a555-4b61-b03e-14671d687271,Alcon,alcon,Health Care,Switzerland,2023,False,False,4,4
+5dc10048-ca75-48ca-941b-55c392556933,Lonza,lonza,Health Care,Switzerland,2023,False,False,1,1
+5f5ac9ac-fc67-48e4-b1ba-9cf3493865a5,Saab,saab,Resource Transformation,Sweden,2023,True,False,0,0
+606dffee-a3af-45ac-98e1-94332e916738,Investor,investor,Financials,Sweden,2023,True,False,0,0
+60d014cc-4ae4-4c54-bcbb-315ec5497583,Banco Santander,banco_santander,Financials,Spain,2023,True,False,0,0
+619d00e7-546f-4c46-a055-952325d53d5a,Thule Group,thule_group,Consumer Goods,Sweden,2023,True,False,0,0
+61e7e08c-11de-4dd0-9dbe-0a67d3c60aca,Carlsberg,carlsberg,Food & Beverage,Denmark,2023,True,False,0,0
+620f470d-bc37-41fb-86a6-9e8b1b70568b,CTS Eventim,cts_eventim,Services,Germany,2023,True,False,0,0
+62190b5f-f9ae-4c24-b74d-6db9a95c40ba,Gecina,gecina,Infrastructure,France,2023,False,False,1,1
+62c129d8-74c6-4a82-b887-b12076eb9ebc,TUI,tui,Services,United Kingdom,2023,True,False,0,0
+63062b26-e50b-4d22-a4e1-9331bcf7731f,Games Workshop,games_workshop,Consumer Goods,United Kingdom,2023,True,False,0,0
+6312b68e-bde9-4fe6-8f53-091532c8d259,UBS,ubs,Financials,Switzerland,2023,True,False,0,0
+6313f4b7-6e60-4a2d-8878-857ce412226a,Derwent London,derwent_london,Infrastructure,United Kingdom,2023,True,False,0,0
+634d2d8c-a6ec-4efb-8ac5-b6c5efbcf4a0,A2A,a2a,Infrastructure,Italy,2023,True,False,0,0
+637502ca-de11-402e-a1f8-d1f73e52ab0e,Alfa Laval,alfa_laval,Resource Transformation,Sweden,2023,True,False,0,0
+63b05e7a-cc3a-4c27-b61d-88fd45996a3a,London Stock Exchange Group,london_stock_exchange_group,Financials,United Kingdom,2023,True,False,0,0
+63edfc22-6a92-4212-a23c-4e9822c6cfbb,Richemont,richemont,Consumer Goods,Switzerland,2023,True,False,0,0
+64775f5c-ad08-43f7-8696-a7b09248bc07,SGS,sgs,Services,Switzerland,2023,True,False,0,0
+6486662a-d504-4c4e-9d6a-6d5e98d697ec,Adecco Group,adecco_group,Services,Switzerland,2023,True,False,0,0
+64bbb561-c1e3-4c5b-8ef1-b5bd4f6b3aaf,Unilever,unilever,Consumer Goods,United Kingdom,2023,True,False,0,0
+650233ca-0b35-43df-9634-6b175cfebe7d,Smith & Nephew,smith_nephew,Health Care,United Kingdom,2023,True,False,0,0
+6521dc58-2739-4d47-a83a-d514404e7925,Hera,hera,Infrastructure,Italy,2023,True,True,0,0
+6526a1bc-2d14-46d0-b061-6957e4b98488,ACS,acs,Infrastructure,Spain,2023,True,False,0,0
+6526efad-cc1c-41a3-a935-9a4b690fbbf3,DKSH,dksh,Services,Switzerland,2023,True,False,0,0
+657cfc42-d89c-47b2-8841-456e88844321,Compass Group,compass_group,Food & Beverage,United Kingdom,2023,True,False,0,0
+677c55a4-1632-439c-8cd1-55d10aa58914,Aedifica,aedifica,Infrastructure,Belgium,2023,True,False,0,0
+6820542c-f0ae-4a31-97b5-f2d98132ad14,Encavis,encavis,Infrastructure,Germany,2023,False,False,3,3
+6859e756-04f6-402d-8461-fd987e24e458,Subsea 7,subsea_7,Extractives & Minerals Processing,Norway,2023,True,True,0,0
+688ca22f-035f-4833-b3ad-90cea5c5bcca,Kindred,kindred,Services,Sweden,2023,True,False,0,0
+68905bd1-096f-42ae-b437-658a6c493326,Mondi,mondi,Resource Transformation,United Kingdom,2023,True,True,0,0
+68b51836-cc95-4efa-99c5-8d3d948d18fa,Halma,halma,Resource Transformation,United Kingdom,2023,True,False,0,0
+69b71411-d959-4555-ae30-4ab4ca21b0ac,Gaztransport & Technigaz,gaztransport_technigaz,Infrastructure,France,2023,False,False,1,1
+6a0f127e-c6c8-456a-b65d-7014d0e31613,Renault,renault,Transportation,France,2023,True,False,0,0
+6a189607-721c-49da-8ef3-4df3d5b27fbb,NN Group,nn_group,Financials,Netherlands,2023,True,False,0,0
+6a73a0fe-c635-413a-84f0-d6bc86d98737,Psp Swiss Property,psp_swiss_property,Infrastructure,Switzerland,2023,False,False,3,3
+6aa06acc-e926-45d1-9d6c-95f599cd352d,Unibail-Rodamco-Westfield,unibail_rodamco_westfield,Infrastructure,France,2023,True,False,0,0
+6aa086cc-899b-4106-9eb7-3044058da1aa,Beazley,beazley,Financials,United Kingdom,2023,True,False,0,0
+6c125a68-a15e-4cf2-8ede-49dc06fe0f56,Hugo Boss,hugo_boss,Consumer Goods,Germany,2023,True,False,0,0
+6c3b5e56-331b-42ae-93df-5ea912575381,SFS Group,sfs_group,Resource Transformation,Switzerland,2023,True,False,0,0
+6c533515-c0de-43bf-aeea-45b162c8bc5e,Sartorius Stedim Biotech,sartorius_stedim_biotech,Health Care,France,2023,True,False,0,0
+6ca72f0a-5046-4fef-87cb-aa49f1e74531,DiaSorin,diasorin,Health Care,Italy,2023,True,True,0,0
+6e1a149e-cc86-4a68-a8fd-2d82eeb9823c,Adidas,adidas,Consumer Goods,Germany,2023,True,False,0,0
+6ebee5af-7c42-45df-b4c2-21d129bb2b34,Kinnevik,kinnevik,Financials,Sweden,2023,True,True,0,0
+6edf1626-904a-4a8a-ac2f-48534d30d590,Investec,investec,Financials,United Kingdom,2023,True,True,0,0
+6ef6a58f-6bab-49e3-a3ac-0ffb58ce9b58,Ocado Group,ocado_group,Food & Beverage,United Kingdom,2023,True,False,0,0
+6f78b3e4-a6ec-4ebc-b483-d297e73b8b18,Legrand,legrand,Resource Transformation,France,2023,True,False,0,0
+70491519-5a84-4e65-bb61-687135edee15,Swedbank,swedbank,Financials,Sweden,2023,True,False,0,0
+705e28db-ed3c-4a4b-9940-a9109e2b3626,Nestle,nestle,Food & Beverage,Switzerland,2023,True,True,0,0
+71625516-8eff-48f3-b442-5b06bdf48e4e,Essity,essity,Consumer Goods,Sweden,2023,False,False,1,1
+71b17cdd-49d0-40d0-b054-7311fc9d2edf,Eurofins,eurofins,Services,France,2023,True,False,0,0
+72fd1a08-2f46-403a-b124-d153def65363,Intertek,intertek,Services,United Kingdom,2023,True,True,0,0
+731a23de-1b54-4354-b2b0-7fdc593de36b,KONE,kone,Resource Transformation,Finland,2023,True,False,0,0
+73465fda-cf0d-417a-8e6e-091349090c86,Tate & Lyle,tate_lyle,Food & Beverage,United Kingdom,2023,True,False,0,0
+735417bf-5c2e-4eac-b918-ab0f0fb14e65,Kesko,kesko,Food & Beverage,Finland,2023,True,False,0,0
+73de88b1-3626-487d-890b-083004c22a51,Siemens Energy,siemens_energy,Resource Transformation,Germany,2023,True,False,0,0
+74f412c9-cf1f-4d00-920c-0d6b05c2980f,Delivery Hero,delivery_hero,Technology & Communications,Germany,2023,True,False,0,0
+74f81b8f-6a49-4d87-bf9e-b95ec956059e,Tenaris,tenaris,Extractives & Minerals Processing,Italy,2023,True,False,0,0
+757bdff4-26e6-4c45-a690-aa56847885aa,International Distributions,international_distributions,Transportation,United Kingdom,2023,True,False,0,0
+75b00d49-ae96-4278-8a8c-004ecb383df2,RS Group,rs_group,Technology & Communications,United Kingdom,2023,True,False,0,0
+7612d85a-cf53-4b4f-b229-38651b3e4078,Knorr-Bremse,knorr_bremse,Resource Transformation,Germany,2023,True,False,0,0
+762b340d-915f-4d61-89e2-08d3e3eff4ac,Ferrari,ferrari,Transportation,Italy,2023,True,False,0,0
+762dd49a-f497-4f37-9c75-1f8fdcb27ff5,SES,ses,Technology & Communications,France,2023,True,True,0,0
+76a2f80d-2475-4e49-a370-940edd8e06dd,Sofina,sofina,Financials,Belgium,2023,False,False,1,1
+76d3668f-dac1-4053-b25b-64dc4f8cf7a6,PZU,pzu,Financials,Poland,2023,True,False,0,0
+76d5f281-fbaa-43d3-9fe2-2b2e7123858d,UCB,ucb,Health Care,Belgium,2023,True,False,0,0
+77c47124-fc2d-42c1-ae34-4ef0b80110bc,Shell,shell,Extractives & Minerals Processing,United Kingdom,2023,True,False,0,0
+78220972-37f1-4247-9405-40038f424f04,Nexi,nexi,Technology & Communications,Italy,2023,True,False,0,0
+78355a79-c99f-4ad9-9fe1-5fd74939e024,Greggs,greggs,Food & Beverage,United Kingdom,2023,True,False,0,0
+78c66960-7579-4c9f-ba2a-8dc22e22e4fa,United Utilities,united_utilities,Infrastructure,United Kingdom,2023,True,False,0,0
+79863c8f-f59f-4146-8e7b-fa050a0b080b,Embracer Group,embracer_group,Technology & Communications,Sweden,2023,False,False,3,3
+7a04c3f6-9c5a-4d45-acf8-80e19f14c593,Verbund,verbund,Infrastructure,Austria,2023,True,False,0,0
+7aa3d012-661d-4953-8516-30c3cf87fb33,Millicom,millicom,Technology & Communications,Sweden,2023,True,False,0,0
+7accdf45-2e09-46bc-949f-7f2458bb2808,Kingfisher,kingfisher,Consumer Goods,United Kingdom,2023,True,False,0,0
+7acdc1b2-d3a4-46e5-beac-181ff9a2eb6f,Rubis,rubis,Extractives & Minerals Processing,France,2023,False,False,1,1
+7ace044b-9023-4dfe-80ea-b40e44290811,HSBC,hsbc,Financials,United Kingdom,2023,True,False,0,0
+7b16a8bc-5e53-46e1-815f-b2f1ed93bd58,Elisa,elisa,Technology & Communications,Finland,2023,True,False,0,0
+7bc93d1c-23dc-4135-8278-fec6111d00d9,Tecan,tecan,Health Care,Switzerland,2023,True,False,0,0
+7bd80141-6e45-426a-8aa9-9fb3d858fe96,Siemens,siemens,Resource Transformation,Germany,2023,True,False,0,0
+7c5bd98f-249e-491d-b6d2-9c2ea9875fc7,Leonardo,leonardo,Resource Transformation,Italy,2023,True,False,0,0
+7caa374b-1cda-43ec-8d61-0dc428efad31,DSV,dsv,Transportation,Denmark,2023,True,False,0,0
+7d153c53-4f48-49c1-b477-5715a3c67801,Capgemini,capgemini,Technology & Communications,France,2023,True,False,0,0
+7db67e40-16f8-412c-b571-8c90490f24ec,Vivendi,vivendi,Services,France,2023,True,False,0,0
+7dcbdefe-b1c7-4bba-ac4d-b7a34da93a70,Beijer Ref,beijer_ref,Resource Transformation,Sweden,2023,True,False,0,0
+7e4dd271-ecfb-4914-a022-b1723c10b8f6,Evotec,evotec,Health Care,Germany,2023,True,False,0,0
+7e7f0d05-5e87-4d30-b14d-029f03494d6c,Pennon,pennon,Infrastructure,United Kingdom,2023,True,True,0,0
+7e9fde87-9b65-4e7c-bec4-4f2ffb11988c,Holmen,holmen,Renewable Resources & Alternative Energy,Sweden,2023,False,False,0,8
+7f5a10b8-f384-4dff-8b11-1c61a2f22f64,Equinor,equinor,Extractives & Minerals Processing,Norway,2023,False,False,0,8
+80348c2b-bbc0-4762-8f2d-d2080550db36,Swisscom,swisscom,Technology & Communications,Switzerland,2023,False,False,0,8
+8135f59a-8c5b-4a5d-8a72-5a3f8b5e7ef7,TotalEnergies,totalenergies,Extractives & Minerals Processing,France,2023,False,False,0,8
+81bec2da-d788-4d19-9cc1-6b6ea5fd292e,Flutter Entertainment,flutter_entertainment,Services,Ireland,2023,False,False,0,8
+82132d1c-7157-4d48-8968-1ba683b404ef,SEB,seb,Consumer Goods,France,2023,False,False,0,8
+8264d2ed-4313-4199-acd1-8c1a60e9978a,Holcim,holcim,Extractives & Minerals Processing,Switzerland,2023,False,False,0,8
+82c904e7-6884-47e7-8071-90786fcc74c7,Dassault Systemes,dassault_systemes,Technology & Communications,France,2023,False,False,0,8
+82fd7ce9-a771-4b05-9dd6-edddc29e8bdb,ThyssenKrupp,thyssenkrupp,Extractives & Minerals Processing,Germany,2023,False,False,0,8
+83310dec-74f0-44c3-9fb7-806bc2638171,Veolia,veolia,Infrastructure,France,2023,False,False,0,8
+834bd7c0-c6ad-4e51-8a70-9bc4b239d6d6,CRH,crh,Extractives & Minerals Processing,Ireland,2023,False,False,0,8
+83b11a6e-315a-4021-b09a-c4c9d9a80a8b,Dechra,dechra,Health Care,United Kingdom,2023,False,False,0,8
+851d71fa-6231-4bf0-8a52-e1cf2f386148,Hexpol,hexpol,Resource Transformation,Sweden,2023,False,False,0,8
+862bec09-899e-4e27-841f-cfcf40843854,Topdanmark,topdanmark,Financials,Denmark,2023,False,False,0,8
+86461e4c-4530-4d4d-bcdd-36143cd29749,Galp,galp,Extractives & Minerals Processing,Portugal,2023,False,False,0,8
+86e20071-19db-4ac2-be98-51a4801a2f2c,Frontline,frontline,Transportation,Norway,2023,False,False,0,8
+86eba209-1770-451c-9076-9667f6fb9685,Berkeley Group,berkeley_group,Infrastructure,United Kingdom,2023,False,False,0,8
+870b9abd-06b9-4d38-83c9-9e940a25f8f6,EDP Renovaveis,edp_renovaveis,Infrastructure,Portugal,2023,False,False,0,8
+874d8a61-1509-4610-a992-d0b8d7ce8129,Orkla,orkla,Food & Beverage,Norway,2023,False,False,0,8
+882ea48e-695b-4480-b257-0910ec824c28,KBC,kbc,Financials,Belgium,2023,False,False,0,8
+88bd32d4-16ed-4ba6-9e9b-bb6e3fe27a45,Wise,wise,,United Kingdom,2023,False,False,6,8
+89b770ca-6d3d-4b29-afcb-41787ae4e571,Persimmon,persimmon,Infrastructure,United Kingdom,2023,False,False,0,8
+8af5ea9d-3dc9-4dc9-ae45-d32f784bde86,Antofagasta,antofagasta,Extractives & Minerals Processing,United Kingdom,2023,False,False,0,8
+8c28fba8-092d-4d47-b5ba-d254d49fa12b,SKF,skf,Resource Transformation,Sweden,2023,False,False,0,8
+8cce3838-5661-494f-9ae3-98832cc1b6f1,Forvia SE,forvia_se,Transportation,France,2023,False,False,3,8
+8cd757b9-6045-41f6-8342-50172e9b43ca,Jerónimo Martins,jer_nimo_martins,Food & Beverage,Portugal,2023,False,False,0,8
+8ce1b024-0989-4dcb-a538-3c3b232c4bf4,Sika Group,sika_group,Resource Transformation,Switzerland,2023,False,False,0,8
+8d03cf74-cbba-4f1d-a928-dfc0380fef18,K+S,k_s,Resource Transformation,Germany,2023,False,False,0,8
+8d6c3998-ad42-4699-9f75-411e642b0b73,Hexagon,hexagon,Technology & Communications,Sweden,2023,False,False,0,8
+8d80c286-44ed-4adc-8fb5-fc5f69668469,Getinge,getinge,Health Care,Sweden,2023,False,False,0,8
+8e2c3b1d-317b-4c9f-afc3-e0c08fce136c,Lundbergs,lundbergs,Infrastructure,Sweden,2023,False,False,0,8
+8f68a5ba-dde5-40e7-baf1-011972833b39,Inditex,inditex,Consumer Goods,Spain,2023,False,False,0,8
+8fcd0097-d237-4d81-b97c-834716afc7e7,Siegfried,siegfried,Health Care,Switzerland,2023,False,False,0,8
+9083cbd4-f487-412d-882d-01b123af428c,Kongsberg,kongsberg,Resource Transformation,Norway,2023,False,False,0,8
+908cf995-9415-4273-886b-24310d20ac57,Just Eat Takeaway.com,just_eat_takeaway_com,Technology & Communications,Netherlands,2023,False,False,0,8
+908ec8c2-4ff7-4c9c-8ed4-7c3564f38196,L'Oreal,l_oreal,Consumer Goods,France,2023,False,False,0,8
+90b6732c-b1dc-486d-bd9d-e005158f66ac,Lloyds Banking Group,lloyds_banking_group,Financials,United Kingdom,2023,False,False,0,8
+90f9a4a5-08e6-49d3-b693-63be5a066d18,Whitbread,whitbread,Services,United Kingdom,2023,False,False,0,8
+913a2aaf-0f5e-49a3-a6f2-dad93810a3c2,Neste,neste,Extractives & Minerals Processing,Finland,2023,False,False,0,8
+93ab1085-e250-42b3-923a-2c89b07e369a,Scout24,scout24,Technology & Communications,Germany,2023,False,False,0,8
+93c6d2dc-52d7-4cfc-bdf6-3b65750a27dc,Standard Chartered,standard_chartered,Financials,United Kingdom,2023,False,False,0,8
+9490b0af-f02f-4f90-9279-58281a7577dd,Accor,accor,Services,France,2023,False,False,0,8
+9516e5b2-5b08-499a-93d6-83a6b8ec8b41,Nexans,nexans,Resource Transformation,France,2023,False,False,0,8
+953a4d95-48cb-4872-a02a-96a4880b61ad,DNB Bank,dnb_bank,Financials,Norway,2023,False,False,0,8
+9618055e-4932-488f-b4ad-723e851d8edd,Heidelberg Materials,heidelberg_materials,Extractives & Minerals Processing,Germany,2023,False,False,0,8
+96464abb-f1df-4978-8a3b-456c41cbcdcc,Aena,aena,Services,Spain,2023,False,False,1,8
+9748320a-1a02-4c5b-a8b9-606222fb3aec,Fortnox,fortnox,Technology & Communications,Sweden,2023,False,False,6,8
+97ad78ca-f014-4adf-a800-49a8b791307d,NKT A/S,nkt_a_s,Resource Transformation,Denmark,2023,False,False,0,8
+97c5e6cc-1c3d-448a-9d56-4fb1bf90f1ab,Land Securities,land_securities,Infrastructure,United Kingdom,2023,False,False,0,8
+97cf4363-754e-4685-90ca-159b20f03043,Salmar,salmar,Food & Beverage,Norway,2023,False,False,0,8
+97d958e5-166a-48dd-b1ae-7c56d4327e2f,Arkema,arkema,Resource Transformation,France,2023,False,False,0,8
+981ca55f-11a4-4b79-95c9-af66c676e083,Londonmetric Property PLC,londonmetric_property_plc,Infrastructure,United Kingdom,2023,False,False,0,8
+98a36841-d64f-4a36-aea4-a3b6174b7baa,GlaxoSmithKline,glaxosmithkline,Health Care,United Kingdom,2023,False,False,0,8
+98cc050a-30d7-4a79-bb5b-81da32af7e11,Groupe Bruxelles Lambert,groupe_bruxelles_lambert,Financials,Belgium,2023,False,False,0,8
+98d46e64-6428-4751-8182-062e6133fc6b,Bechtle,bechtle,Technology & Communications,Germany,2023,False,False,0,8
+993244c5-f33a-4690-917d-ab89951d84ce,Bouygues,bouygues,Infrastructure,France,2023,False,False,1,8
+993f3fd3-adcc-45eb-94fc-031993da0319,OCI,oci,Resource Transformation,Netherlands,2023,False,False,0,8
+999d956d-707e-45ff-8e99-c5859bb759c5,Nokia,nokia,Technology & Communications,Sweden,2023,False,False,0,8
+9a84ebb6-3b91-4f9b-a6e2-2965d0771e7a,Svenska Handelsbanken,svenska_handelsbanken,Financials,Sweden,2023,False,False,0,8
+9aca8ad4-a5d0-428a-a274-719d598a18d8,TietoEVRY,tietoevry,Technology & Communications,Finland,2023,False,False,0,8
+9ad89d92-1a11-4cb3-b0fc-fba38d870a60,Nibe,nibe,Resource Transformation,Sweden,2023,False,False,0,8
+9afef421-61c5-4f79-9d71-c13a69756622,Arcadis,arcadis,Infrastructure,Netherlands,2023,False,False,0,8
+9b185399-87f2-4519-a288-fbcc018bc5fe,Fortum,fortum,Infrastructure,Finland,2023,False,False,0,8
+9b2adaa2-b669-4382-b478-66fc24ef57bd,Nordnet,nordnet,Financials,Sweden,2023,False,False,0,8
+9b9af3b1-802e-4dc6-a86f-4302f90714d6,Hikma.,hikma,Health Care,United Kingdom,2023,False,False,0,8
+9c5ed1d6-398e-43e3-a141-02aa151752c5,L'Air Liquide,l_air_liquide,Resource Transformation,France,2023,False,False,0,8
+9d38166f-26db-48dd-9fe2-532ed9e524f5,National Grid,national_grid,Infrastructure,United Kingdom,2023,False,False,0,8
+9eb9004d-5958-4ad8-b2de-e879afa554e5,Allied Irish Banks,allied_irish_banks,Financials,Ireland,2023,False,False,0,8
+9f041cf8-28f3-4558-ae06-01a4c4f01718,Powszechna Kasa Oszczednosci Bank,powszechna_kasa_oszczednosci_bank,Financials,Poland,2023,False,False,2,8
+9f06228a-812c-49a4-b455-1d3ec14eb334,Alstom,alstom,Resource Transformation,France,2023,False,False,0,8
+9f1ef15f-729f-4246-a522-d488164abcfb,Airbus,airbus,Resource Transformation,Germany,2023,False,False,3,8
+9f2d9eda-e084-47d9-a3e7-3b3ca205db13,Bayer,bayer,Health Care,Germany,2023,False,False,0,8
+9fb0a2a3-1beb-4cea-84aa-9b3db7eed406,Billerud,billerud,Resource Transformation,Sweden,2023,False,False,0,8
+a0c3d6bd-dba8-4979-8dc3-09fde9dbb1e4,Indivior,indivior,Health Care,United Kingdom,2023,False,False,0,8
+a0c41371-8093-4b23-b0ad-e9099045cc69,BAE Systems,bae_systems,Resource Transformation,United Kingdom,2023,False,False,0,8
+a1a4585c-4552-48a4-b598-2722572a8786,Smurfit Kappa Group,smurfit_kappa_group,Resource Transformation,Ireland,2023,False,False,0,8
+a20f8300-5962-44e5-928d-f0c880f4bd7c,Grifols,grifols,Health Care,Spain,2023,False,False,1,8
+a2d496cb-bb94-435b-b3bb-49f4b4cf3d94,Entain,entain,Services,United Kingdom,2023,False,False,0,8
+a2efde23-0ddc-46d2-a073-f8bbc6a96bfa,BT Group,bt_group,Technology & Communications,United Kingdom,2023,False,False,0,8
+a2ffdb72-3617-4ad9-8b41-1285243c9345,Ryanair,ryanair,Transportation,Ireland,2023,False,False,0,8
+a3324bfe-2663-4153-8abb-bbffd7a9741f,BE Semiconductor Industries,be_semiconductor_industries,Technology & Communications,Netherlands,2023,False,False,1,8
+a38aa5dc-cbf7-4081-9fdc-cad28dcfab17,Infrastrutture Wireless Italiane,infrastrutture_wireless_italiane,Technology & Communications,Italy,2023,False,False,0,8
+a39d1c6a-9387-4c32-a9eb-e57fe54fc7c4,Castellum,castellum,Infrastructure,Sweden,2023,False,False,0,8
+a44ae94e-39b7-4630-a8cd-25a9edda53a1,Banco de Sabadell,banco_de_sabadell,Financials,Spain,2023,False,False,0,8
+a5161f6d-8c63-42fe-af7b-4c5aa62be535,Amundi,amundi,Financials,France,2023,False,False,1,8
+a53fb080-b4e6-47c8-acb6-9fc2b4eb5586,Verallia,verallia,Resource Transformation,France,2023,False,False,1,8
+a5477512-dbe1-49ca-ad2d-eb799d75f02f,Genus,genus,Food & Beverage,United Kingdom,2023,False,False,0,8
+a5736e6e-94a0-41d0-a6e5-879dde77e6db,EQT,eqt,Financials,Sweden,2023,False,False,0,8
+a5861ed5-4e7b-44c2-8443-b95b845b7361,Symrise,symrise,Resource Transformation,Germany,2023,False,False,0,8
+a5af3f9c-57d1-47a1-84fb-00f10cfe4b55,Experian,experian,Services,United Kingdom,2023,False,False,0,8
+a5c3fc2e-1d2f-4bda-a91e-92851e4a2409,Dowlais Group,dowlais_group,Transportation,United Kingdom,2023,False,False,8,8
+a5fc6a2a-24f8-4395-825a-b507c5ede533,Helvetia,helvetia,Financials,Switzerland,2023,False,False,0,8
+a6833f35-0179-4ad0-91cf-017bc0ae8a47,Sartorius,sartorius,Health Care,Germany,2023,False,False,0,8
+a6bebf57-9578-4ee4-802d-2a89b387e50e,Rexel,rexel,Resource Transformation,France,2023,False,False,0,8
+a732b584-26e1-4497-9c97-d54ff1d16999,BNP Paribas,bnp_paribas,Financials,France,2023,False,False,0,8
+a899ee2f-da85-4220-803d-64fdd8a70c3e,Yara,yara,Resource Transformation,Norway,2023,False,False,0,8
+a905b71b-1117-44c2-99df-b20b67593081,Schroders,schroders,Financials,United Kingdom,2023,False,False,0,8
+a92c4973-35c0-4480-a166-b80c30ef1a0e,Skandinaviska Enskilda Banken,skandinaviska_enskilda_banken,Financials,Sweden,2023,False,False,0,8
+a9a1d992-fff8-456f-943f-7f18c2d4b0c5,International Consolidated Airlines,international_consolidated_airlines,Transportation,Spain,2023,False,False,0,8
+a9a8ed84-24bd-4dbd-9a5b-b984f7255f91,Associated British Foods,associated_british_foods,Food & Beverage,United Kingdom,2023,False,False,0,8
+a9e1693b-19f8-4eba-a98b-221be199b13f,Stellantis,stellantis,Transportation,Netherlands,2023,False,False,0,8
+aa683af6-a2af-448e-8ffe-0403035d5aaf,Serco Group,serco_group,Technology & Communications,United Kingdom,2023,False,False,0,8
+ab1948b9-29ab-4d3b-b400-e8a871195301,ISS,iss,Services,Denmark,2023,False,False,0,8
+ab3615bb-2e55-4099-939b-fbbb7a6f2679,EssilorLuxottica,essilorluxottica,Health Care,France,2023,False,False,0,8
+ab87e8c7-160e-49bb-a46b-790d61004373,Engie,engie,Infrastructure,France,2023,False,False,0,8
+abbfbe10-b2a9-4cdf-808e-55ccb0fb4dab,SSP Group,ssp_group,Food & Beverage,United Kingdom,2023,False,False,0,8
+abc16da9-2271-4ce1-b595-955aed10252c,Glencore,glencore,Extractives & Minerals Processing,United Kingdom,2023,False,False,0,8
+ae19a724-93b0-4b8c-b11d-2d4009fce39b,British Land,british_land,Infrastructure,United Kingdom,2023,False,False,0,8
+aea2bc11-f8e8-42b5-8581-b74bc346c8f6,Intermediate Capital Group,intermediate_capital_group,Financials,United Kingdom,2023,False,False,0,8
+af33691e-f42f-4f54-82ac-68e8a2ebb2c0,Wihlborgs,wihlborgs,Infrastructure,Sweden,2023,False,False,0,8
+af52bc84-06e3-42f8-a4e2-2d3649e3d2fb,Rémy Cointreau,r_my_cointreau,Food & Beverage,France,2023,False,False,0,8
+b0765164-a923-413f-afb5-7812fb8b88d3,Signify,signify,Resource Transformation,Netherlands,2023,False,False,1,8
+b0ea5359-e4b7-46d6-aade-ad88a4a86819,Assicurazioni Generali,assicurazioni_generali,Financials,Italy,2023,False,False,0,8
+b0fa83db-7156-4915-aed5-d2029717c4ab,SIG,sig,Resource Transformation,Switzerland,2023,False,False,1,8
+b118d7a9-afd6-43f6-b46f-6fef15dba4e1,Deutsche Lufthansa,deutsche_lufthansa,Transportation,Germany,2023,False,False,0,8
+b17242a3-8e7d-4383-85b7-8153fec6d41f,Diploma,diploma,Consumer Goods,United Kingdom,2023,False,False,0,8
+b18993b7-00c0-49cf-9dd0-27bd0972c5c9,Lotus Bakeries,lotus_bakeries,Food & Beverage,Belgium,2023,False,False,1,8
+b1b32b96-cc28-4fa0-aa66-af23548ad68e,Swiss Re Group,swiss_re_group,Financials,Switzerland,2023,False,False,0,8
+b24bf8ed-413d-4e48-a45d-358a8fefa084,SSAB,ssab,Extractives & Minerals Processing,Sweden,2023,False,False,0,8
+b2f68c5b-1d00-4a03-9aee-997ce51b1386,Sonova,sonova,Health Care,Switzerland,2023,False,False,0,8
+b2f948c6-0969-4cc4-ac79-b6f84425d5e9,Sandvik,sandvik,Resource Transformation,Sweden,2023,False,False,0,8
+b32df963-453f-4b5a-80ca-12c226c3d394,Spie,spie,Infrastructure,France,2023,False,False,1,8
+b3646bb8-067a-4803-a09d-eadafc467c75,Valeo,valeo,Transportation,France,2023,False,False,0,8
+b42c8986-56d0-40fe-bf8f-7205ab36bb2e,Vonovia,vonovia,Infrastructure,Germany,2023,False,False,0,8
+b459900d-fd24-4ce8-b6df-351500c884d1,Demant,demant,Health Care,Denmark,2023,False,False,0,8
+b45a7c32-3a18-46ac-9f07-42d5179d6cc1,Aurubis,aurubis,Extractives & Minerals Processing,Germany,2023,False,False,0,8
+b4cc3c8b-01c0-4b34-856d-71b0023fc834,Ipsen,ipsen,Health Care,France,2023,False,False,0,8
+b4d5f019-fb49-4be0-8cc4-3399d987c4c2,Kuehne und Nagel International,kuehne_und_nagel_international,Transportation,Switzerland,2023,False,False,1,8
+b505092d-450d-46c6-9d1c-8a2b2e143a07,EDP Energias de Portugal,edp_energias_de_portugal,Infrastructure,Portugal,2023,False,False,0,8
+b64fcc21-cd22-4a91-81c3-0f761abf4038,Beiersdorf,beiersdorf,Consumer Goods,Germany,2023,False,False,0,8
+b67f0332-27c0-4719-b0f3-de9f2b8e05d6,Allreal,allreal,Infrastructure,Switzerland,2023,False,False,1,8
+b72d39c5-706a-4ece-9d60-fa89a9b9ff21,Howdens,howdens,Consumer Goods,United Kingdom,2023,False,False,0,8
+b73fc892-cd24-4ef0-adaa-7041dd629782,Partners Group,partners_group,Financials,Switzerland,2023,False,False,3,8
+b75784d4-42ed-4754-9b66-6083941a0435,Convatec,convatec,Health Care,United Kingdom,2023,False,False,0,8
+b7841033-7981-4d5a-b12b-68b1b879fae6,Iberdrola,iberdrola,Infrastructure,Spain,2023,False,False,0,8
+b8d66d80-385d-494f-85db-a3dbdba3e7c1,Exor,exor,Financials,Netherlands,2023,False,False,1,8
+ba08c2fa-d4c2-49d1-b2cf-15202362eac2,SAP,sap,Technology & Communications,Germany,2023,False,False,0,8
+ba3905de-5626-409a-8d19-c2ae087af06b,Klepierre,klepierre,Infrastructure,France,2023,False,False,0,8
+ba7d5448-fe31-4bd7-8e07-a16a476a6600,Kingspan,kingspan,Extractives & Minerals Processing,Ireland,2023,False,False,0,8
+bb0ca924-bcf2-41ab-bf0e-ccfe0b279406,Banco Bilbao Vizcaya,banco_bilbao_vizcaya,Financials,Spain,2023,False,False,0,8
+bb43e69e-90f6-4c80-a86c-786e2f31b381,Anglo American,anglo_american,Extractives & Minerals Processing,United Kingdom,2023,False,False,0,8
+bbbd93aa-be95-4dfe-878f-ee12ac8f01c2,Societe Generale,societe_generale,Financials,France,2023,False,False,0,8
+bc9c5705-346b-4b7f-869b-f61323c6c74a,Teleperformance,teleperformance,Technology & Communications,France,2023,False,False,0,8
+bca0b705-7302-4afa-bcb0-c429c3d0ed25,Christian Dior,christian_dior,Consumer Goods,France,2023,False,False,2,8
+bce23368-39be-42e7-a3b3-e38ef2457501,Santander Bank Polska,santander_bank_polska,Financials,Poland,2023,False,False,0,8
+bcf0d954-16de-4578-92e2-1742eef9e2aa,Rightmove,rightmove,Technology & Communications,United Kingdom,2023,False,False,0,8
+bd5e14ec-7259-48e2-8837-95c13a57978c,Lanxess,lanxess,Resource Transformation,Germany,2023,False,False,0,8
+bd6659a6-b0a6-45e8-ae87-cbe742401d2d,Muenchener Rueck,muenchener_rueck,Financials,Germany,2023,False,False,0,8
+bd94c581-32c7-45a7-8ba1-ec48a6b12e3d,Severn Trent,severn_trent,Infrastructure,United Kingdom,2023,False,False,0,8
+bd9666b3-f437-4b3f-aeb2-667e8a52a96f,Orange,orange,Technology & Communications,France,2023,False,False,0,8
+bfd541d6-c899-4e25-a399-9e006568d3e8,Julius Baer,julius_baer,Financials,Switzerland,2023,False,False,2,8
+bff1f94a-b1df-46ab-8586-759f4229bd79,Sopra Steria,sopra_steria,Technology & Communications,France,2023,False,False,0,8
+bffc04ee-907a-4a51-9898-9e74f1f49d6e,Sampo Group,sampo_group,Financials,Finland,2023,False,False,0,8
+c05883bf-95ac-424d-acfb-65091a2d30ee,ITV,itv,Services,United Kingdom,2023,False,False,0,8
+c06431fb-6c2f-4a51-8dcd-55ddf3c46320,Fresenius,fresenius,Health Care,Germany,2023,False,False,0,8
+c12ad49a-f0a2-42e8-8201-6e5063c00543,KGHM Polska Miedz,kghm_polska_miedz,Extractives & Minerals Processing,Poland,2023,False,False,0,8
+c157c5a5-1d5f-4ae2-bf17-516752405c1b,Aegon,aegon,Financials,Netherlands,2023,False,False,0,8
+c1cd5851-e5ca-498b-a243-23b48a998749,Worldline,worldline,Technology & Communications,France,2023,False,False,0,8
+c318ba1d-4261-4785-a7a9-b87815e81ce6,Fineco Bank,fineco_bank,Financials,Italy,2023,False,False,0,8
+c419ca83-bb41-488c-a4cf-e901fbd382a2,Safestore,safestore,Infrastructure,United Kingdom,2023,False,False,0,8
+c467dd04-9acf-4e7f-a3a5-9903d54a9199,Elia,elia,Infrastructure,Belgium,2023,False,False,0,8
+c4f5e80a-2039-4feb-a449-d126b76ac08d,Kerry,kerry,Food & Beverage,Ireland,2023,False,False,0,8
+c54f8e4a-dfb0-4d03-9656-16e810a2ff35,Skanska,skanska,Infrastructure,Sweden,2023,False,False,0,8
+c5f026ca-fc37-49b0-9d90-40a2574d128f,Vistry Group,vistry_group,Infrastructure,United Kingdom,2023,False,False,0,8
+c60acb50-2d9a-4434-99b7-9a2641b3e5fc,Swedish Orphan Biovitrum,swedish_orphan_biovitrum,Health Care,Sweden,2023,False,False,0,8
+c6161730-a207-4223-979e-f77a6352e63f,Roche,roche,Health Care,Switzerland,2023,False,False,0,8
+c6dd745c-f611-428e-a3d9-cf5153cbcb4b,Husqvarna Group,husqvarna_group,Resource Transformation,Sweden,2023,False,False,0,8
+c709fadb-9fde-4143-8d7e-cbf20e5b8113,Randstad,randstad,Services,Netherlands,2023,False,False,0,8
+c77dfcd4-43e9-41ac-a76b-85ae0e364d32,Gjensidige,gjensidige,Financials,Norway,2023,False,False,0,8
+c7beede2-8db2-4493-97e6-1a750c37cfd0,AutoTrader,autotrader,Technology & Communications,United Kingdom,2023,False,False,0,8
+c8867e37-f365-465c-812b-f39171733c3a,Lindt & Spruengl,lindt_spruengl,Food & Beverage,Switzerland,2023,False,False,0,8
+c8d8a54a-2637-4196-8d88-2186d9a1c52a,Bureau Veritas,bureau_veritas,Services,France,2023,False,False,0,8
+c9c8a563-bbe9-4eee-9d60-eb5da963fe72,Prudential,prudential,Financials,United Kingdom,2023,False,False,0,8
+c9db36ea-e6f7-47f9-bbfa-8b72074d43e0,Bolloré,bollor,Transportation,France,2023,False,False,0,8
+ca593760-be73-4eb7-9acc-146909b4aeba,Geberit,geberit,Extractives & Minerals Processing,Switzerland,2023,False,False,0,8
+cb2f21ab-cee2-4de2-b940-170d3baabd83,Alten,alten,Services,France,2023,False,False,3,8
+cb46f959-ee70-400e-bbd9-93a89d31b48c,Big Yellow Group,big_yellow_group,Infrastructure,United Kingdom,2023,False,False,0,8
+cc17eae3-b332-4c14-83e0-4ce8ae9b105d,GN Store Nord,gn_store_nord,Health Care,Denmark,2023,False,False,1,8
+cd0496c4-c086-47ff-ae9d-a618493c5284,Rio Tinto,rio_tinto,Extractives & Minerals Processing,United Kingdom,2023,False,False,0,8
+ce169cef-a8dc-47fa-ad73-588a6e6e790b,Orion,orion,Health Care,Finland,2023,False,False,0,8
+ce39d216-02fb-485e-ab9a-3464818c8892,Kpn,kpn,Technology & Communications,Netherlands,2023,False,False,0,8
+ce5b30c5-584b-4b5a-9a56-489762631aae,Andritz,andritz,Resource Transformation,Austria,2023,False,False,0,8
+cf37b2b0-86db-482a-8782-1ae279db9c46,Nemetschek,nemetschek,Technology & Communications,Germany,2023,False,False,0,8
+cf6be13f-477a-4127-aaaa-f3201e71e493,Reckitt,reckitt,Consumer Goods,United Kingdom,2023,False,False,0,8
+cfda6bf0-1894-4f74-8b6f-d0f29bc66758,Softcat,softcat,Technology & Communications,United Kingdom,2023,False,False,0,8
+cfda6e2a-ab48-49c9-ac6c-bac0495f9fc2,Croda,croda,Resource Transformation,United Kingdom,2023,False,False,0,8
+d00b5498-8f90-4dc4-a86c-9493a4b973a7,Trelleborg,trelleborg,Resource Transformation,Sweden,2023,False,False,0,8
+d0d81d58-8a29-46a6-b4e3-d69958cb4c88,Sainsbury's,sainsbury_s,Food & Beverage,United Kingdom,2023,False,False,0,8
+d112c5c5-7fef-4353-88bb-2d739c3073ae,Volvo Car,volvo_car,Transportation,Sweden,2023,False,False,0,8
+d23e2f57-2c35-40af-9ac1-8c498016a89d,LEG Immobilien,leg_immobilien,Infrastructure,Germany,2023,False,False,0,8
+d2d1de60-5b0d-42e9-a3ed-c7304f109d7b,Phoenix,phoenix,Financials,United Kingdom,2023,False,False,0,8
+d3223333-91c5-480c-962c-bc149ddff06f,Logitech,logitech,Technology & Communications,Switzerland,2023,False,False,0,8
+d39a4150-a972-4b50-825f-7426b099d891,Schindler,schindler,Resource Transformation,Switzerland,2023,False,False,0,8
+d4044a9a-2bba-4972-9108-80c5f3ace3e3,Warehouses De Pauw,warehouses_de_pauw,Infrastructure,Belgium,2023,False,False,0,8
+d48ece02-e27c-411c-8717-5b2fc33fc7e8,Diageo,diageo,Food & Beverage,United Kingdom,2023,False,False,0,8
+d4c542f0-92bc-489b-99d9-8084384a3eef,Stora Enso,stora_enso,Renewable Resources & Alternative Energy,Finland,2023,False,False,0,8
+d52f23c9-afd2-474b-aaba-4de156ade41e,Sodexo,sodexo,Food & Beverage,France,2023,False,False,0,8
+d59a02da-f024-4376-b26b-787e35b46334,BASF,basf,Resource Transformation,Germany,2023,False,False,0,8
+d5b30495-f11f-4e20-905b-344701f6cbbe,Siemens Healthineers,siemens_healthineers,Health Care,Germany,2023,False,False,2,8
+d63c7669-eefb-425b-adc3-6030deea7f95,Novo Nordisk,novo_nordisk,Health Care,Denmark,2023,False,False,0,8
+d71f3530-05d2-4a22-9c57-71c084b28e85,Infineon,infineon,Technology & Communications,Germany,2023,False,False,0,8
+d8385a3b-f8a6-4fb7-942e-7cec2df09acf,DCC,dcc,Extractives & Minerals Processing,United Kingdom,2023,False,False,0,8
+d8452387-671d-4520-a8b7-975af6ad8432,Colonial,colonial,Infrastructure,Spain,2023,False,False,1,8
+d87fabcc-a25c-4c44-914e-ed216b5c4fe7,Barry Callebaut,barry_callebaut,Food & Beverage,Switzerland,2023,False,False,0,8
+d94320c9-86bf-4c4b-8d25-14524b3a2761,Vidrala,vidrala,Resource Transformation,Spain,2023,False,False,1,8
+d980f825-2cb9-482a-a270-001afb4cfdd5,AMS Osram,ams_osram,Technology & Communications,Switzerland,2023,False,False,0,8
+d9d212fe-866e-40f0-8c75-1965e62be4c6,Deutsche Post DHL,deutsche_post_dhl,Transportation,Germany,2023,False,False,0,8
+d9f7fc51-6971-4e8d-86b4-65cf57bf3df9,Aalberts,aalberts,Resource Transformation,Netherlands,2023,False,False,0,8
+da03cb6c-05e0-45f2-ae73-65c80e4f172c,Coca Cola HBC,coca_cola_hbc,Food & Beverage,Switzerland,2023,False,False,0,8
+da5dd043-2878-4dac-97f8-3190433b3cd9,Daimler Truck Holding,daimler_truck_holding,Resource Transformation,Germany,2023,False,False,3,8
+db278e23-355c-4035-ba86-0d460170ff96,DSM,dsm,Resource Transformation,Netherlands,2023,False,False,0,8
+db2b572e-9216-4b62-9585-df87fedb5216,Imperial Brands,imperial_brands,Food & Beverage,United Kingdom,2023,False,False,0,8
+db2ebf18-8529-45ee-ab9d-17c76c1d9978,Publicis,publicis,Services,France,2023,False,False,1,8
+db39349f-06a0-4126-aa0a-97d6f0598671,Latour,latour,Resource Transformation,Sweden,2023,False,False,0,8
+db993a89-11d3-49af-bcad-b77d723e6aea,ABN Amro,abn_amro,Financials,Netherlands,2023,False,False,0,8
+dc13798d-c239-4ef6-8599-c28cf140614a,Eurazeo,eurazeo,Financials,France,2023,False,False,0,8
+dc910d96-4af5-46bd-b00e-f4faf1c17b5e,Rolls-Royce Holdings,rolls_royce_holdings,Resource Transformation,United Kingdom,2023,False,False,0,8
+dca5b532-89d8-43b5-84c2-0bd772277d42,TIM (Telecom Italia),tim_telecom_italia,Technology & Communications,Italy,2023,False,False,0,8
+dcba97cd-6d0a-4e5d-b145-2e32756d158a,Balder,balder,Infrastructure,Sweden,2023,False,False,0,8
+dd959a78-8c51-4878-bd0d-e77d9d35bc6c,Epiroc,epiroc,Resource Transformation,Sweden,2023,False,False,3,8
+ddebdc38-1470-41e4-a857-a3c7136cb125,Brenntag,brenntag,Resource Transformation,Germany,2023,False,False,0,8
+decacbba-3adb-4cce-8595-34642dfa785b,Burberry,burberry,Consumer Goods,United Kingdom,2023,False,False,0,8
+def442c8-8f64-42c3-af85-728971264d7e,3i Group PLC,3i_group_plc,Financials,United Kingdom,2023,False,False,0,8
+e03f7b3f-16bd-434b-991f-0b072bdffa0f,Solvay,solvay,Resource Transformation,Belgium,2023,False,False,0,8
+e12e140c-be87-40b9-9647-15c0806f8725,Energean,energean,Extractives & Minerals Processing,United Kingdom,2023,False,False,2,8
+e1b09b82-331e-49f1-882f-d22409638bb3,Ferrovial,ferrovial,Infrastructure,Spain,2023,False,False,0,8
+e2680739-bcae-4c92-86fc-6fa7e54a3c23,AkzoNobel,akzonobel,Resource Transformation,Netherlands,2023,False,False,0,8
+e291b024-a948-4c74-ab05-07210ba24aba,Euronext,euronext,Financials,France,2023,False,False,1,8
+e2c094de-4926-4f07-8fc9-7c8c20c39591,Norsk Hydro,norsk_hydro,Extractives & Minerals Processing,Norway,2023,False,False,1,8
+e34e76df-dcd6-43eb-ba0d-ff21df20bfea,Deutsche Börse,deutsche_b_rse,Financials,Germany,2023,False,False,0,8
+e38ead39-dd6d-4db8-8288-1dd0c74e6345,Kojamo,kojamo,Infrastructure,Finland,2023,False,False,2,8
+e3f8eaca-fd1c-4e84-b327-7e9caa9e83c4,Snam,snam,Infrastructure,Italy,2023,False,False,0,8
+e40db0f6-426e-4231-ae6a-80d411e96489,Lifco,lifco,Health Care,Sweden,2023,False,False,0,8
+e421c54b-1897-4b38-94f3-5e1e456307ac,Umicore,umicore,Resource Transformation,Belgium,2023,False,False,0,8
+e43bf357-63e9-42dc-89ec-39de1d2d9dfc,Relx,relx,Services,United Kingdom,2023,False,False,0,8
+e45ba87b-2f07-498e-a833-c521f91dc601,CNH Industrial,cnh_industrial,Resource Transformation,Italy,2023,False,False,0,8
+e564ca79-084d-48ac-bfd1-d64627f3d96a,Hays,hays,Services,United Kingdom,2023,False,False,0,8
+e56b1439-9553-440d-b146-188b5c31bb4e,Sweco,sweco,Infrastructure,Sweden,2023,False,False,0,8
+e5b9ece9-c017-4fad-bc02-8e92bd18d7c9,Azimut Holding,azimut_holding,Financials,Italy,2023,False,False,0,8
+e5f35f8b-b9c7-4623-8c84-db50d3018e4c,Telefónica Deutschland,telef_nica_deutschland,Technology & Communications,Germany,2023,False,False,0,8
+e6625831-ffda-43c5-a4d5-c5ba8f5dd99b,Azelis Group,azelis_group,Resource Transformation,Belgium,2023,False,False,6,8
+e673c98b-dd60-4291-82a3-bd709a68a8bd,Nel,nel,Infrastructure,Norway,2023,False,False,0,8
+e72080a3-550d-445f-89aa-2d8706fe9d7e,Qiagen,qiagen,Health Care,Germany,2023,False,False,0,8
+e74be185-ac12-4bf3-94c8-51674a298411,Ambu,ambu,Health Care,Denmark,2023,False,False,0,8
+e759974e-c0fc-4ffe-adf5-121dea6c583f,Bank of Ireland,bank_of_ireland,Financials,Ireland,2023,False,False,0,8
+e7935624-c742-4308-a8ad-69ea3ceec3ba,UPM,upm,Renewable Resources & Alternative Energy,Finland,2023,False,False,0,8
+e8a0a3aa-0f8c-4b6c-8f36-0ff58b971313,Tomra Systems,tomra_systems,Resource Transformation,Norway,2023,False,False,0,8
+e8e5c7fd-98db-479d-9061-4d8ee0a970da,Prosus,prosus,Technology & Communications,Netherlands,2023,False,False,4,8
+e9f5d6ad-c7c8-4fdc-9d38-fe8a24973b3a,Swiss Life,swiss_life,Financials,Switzerland,2023,False,False,0,8
+ea37ff94-c371-4e71-af26-585875437086,Belimo,belimo,Resource Transformation,Switzerland,2023,False,False,0,8
+ea5acdcf-cb01-452e-b769-69bcdb62e3de,Biomérieux,biom_rieux,Health Care,France,2023,False,False,0,8
+eae42b0e-40bc-41cf-a3f3-7c26ff528fc7,Argenx,argenx,Health Care,Netherlands,2023,False,False,0,8
+ebbda792-85e2-4cec-89ad-52e51c26fecf,SSE,sse,Infrastructure,United Kingdom,2023,False,False,0,8
+ebcfd0a8-924e-47ea-b343-db4e1c116917,Travis Perkins,travis_perkins,Consumer Goods,United Kingdom,2023,False,False,0,8
+ecbc5bad-5e23-41e3-9d77-13b5ee7b4700,E.ON,e_on,Infrastructure,Germany,2023,False,False,0,8
+ecdd8b16-543e-4f0f-ae3c-edad528974d0,Aixtron,aixtron,Technology & Communications,Germany,2023,False,False,0,8
+ed446c61-db71-4bad-aed8-d54721d5e63d,Aviva,aviva,Financials,United Kingdom,2023,False,False,0,8
+ed65b343-5b97-4d8b-bd3e-4be0895c631a,Tritax Big Box,tritax_big_box,Infrastructure,United Kingdom,2023,False,False,0,8
+ed780dcf-65dc-4ac3-ad81-353032c95b30,Zalando,zalando,Consumer Goods,Germany,2023,False,False,0,8
+edb6c4ef-4350-4dae-93df-eb3e1cdf4288,STMicroelectronics,stmicroelectronics,Technology & Communications,Netherlands,2023,False,False,0,8
+ee0cc231-b765-4899-860a-219334cbac8c,Volvo,volvo,Resource Transformation,Sweden,2023,False,False,0,8
+ee56fde1-0d4b-44fe-9964-07d6a21d0faf,AkerBP,akerbp,Extractives & Minerals Processing,Norway,2023,False,False,0,8
+eeb4fbf7-dc6b-47c2-a41f-10a73a0ac398,Direct Line,direct_line,Financials,United Kingdom,2023,False,False,0,8
+ef1851b0-e875-43f3-9a6f-a2c558f17b27,Novartis,novartis,Health Care,Switzerland,2023,False,False,0,8
+ef5fff45-4787-4efd-90b8-2ad9c8644d54,Telenor,telenor,Technology & Communications,Norway,2023,False,False,0,8
+f02cc544-5ff9-4076-ad33-3b3cae96a151,Bâloise Holding,b_loise_holding,Financials,Switzerland,2023,False,False,0,8
+f05ca9d4-c7db-4999-a1e3-cc1f1f8797f2,Eni,eni,Extractives & Minerals Processing,Italy,2023,False,False,0,8
+f06df6e5-6e92-4da4-be1e-a1110ea7e91f,Soitec,soitec,Technology & Communications,France,2023,False,False,1,8
+f09cc9c0-4331-4bb6-873a-e77f4a04cf14,Sydbank,sydbank,Financials,Denmark,2023,False,False,0,8
+f0bc6d76-c47e-4be1-b75f-1112fd2d6d4d,Redeia Corporacion,redeia_corporacion,Infrastructure,Spain,2023,False,False,0,8
+f10df53e-14c6-4e3f-b272-d5010956d31a,JYSKE Bank,jyske_bank,Financials,Denmark,2023,False,False,0,8
+f2118ee9-4302-4319-8f1d-59a418ab6f54,Flughafen Zürich,flughafen_z_rich,Services,Switzerland,2023,False,False,2,8
+f287adae-e4be-4926-adb4-545e9ce70fa9,Wolters Kluwer,wolters_kluwer,Services,Netherlands,2023,False,False,0,8
+f2ba51b7-3bc3-467c-8487-c2ffb7a0bac5,LVMH Moet Hennessy Louis Vuitton,lvmh_moet_hennessy_louis_vuitton,Consumer Goods,France,2023,False,False,0,8
+f2ecb088-3c13-4b2e-9f43-a3ecd6be5c56,AAK,aak,Food & Beverage,Sweden,2023,False,False,0,8
+f30b2d56-fbbc-4199-8c42-d59c6f12b6ef,Merck,merck,Health Care,Germany,2023,False,False,0,8
+f32dc97a-3b3f-499b-a3f8-cea1e80b9c16,Centrica,centrica,Infrastructure,United Kingdom,2023,False,False,0,8
+f33a9a4b-caa1-4de0-8d7f-3902a826446a,Sanofi,sanofi,Health Care,France,2023,False,False,0,8
+f37ed1dc-ebda-4b18-842f-965a9fb3a88f,JD Sports Fashion,jd_sports_fashion,Consumer Goods,United Kingdom,2023,False,False,0,8
+f46c0135-da50-437c-abd2-d002331612dc,IG Group,ig_group,Financials,United Kingdom,2023,False,False,0,8
+f4bc2e67-047b-4973-83c7-88ed8912a20f,Osb Group,osb_group,Financials,United Kingdom,2023,False,False,0,8
+f4c09962-29bf-459c-a3f9-873add15ddf0,Interpump Group,interpump_group,Resource Transformation,Italy,2023,False,False,0,8
+f4dcc4d7-ebe5-474b-92e1-9b55c963ab3c,Spirax-Sarco Engineering,spirax_sarco_engineering,Resource Transformation,United Kingdom,2023,False,False,0,8
+f4def8d2-b1c2-4ad7-b356-0c9c4d0bc169,Evolution,evolution,Services,Sweden,2023,False,False,0,8
+f53e2c6d-bb30-4907-a6fa-6a9ec6d5522a,Erste Group,erste_group,Financials,Austria,2023,False,False,1,8
+f55f7185-1d52-4be1-bd3d-dc91ddff8186,ABB,abb,Resource Transformation,Switzerland,2023,False,False,0,8
+f57d0a4e-291a-459f-9169-f949328905bd,Next,next,Consumer Goods,United Kingdom,2023,False,False,0,8
+f6304d75-12ff-461f-b94a-d606a80994cd,Fabege,fabege,Infrastructure,Sweden,2023,False,False,0,8
+f6489701-3606-4e14-a919-86d522c993d2,Barratt Developments,barratt_developments,Infrastructure,United Kingdom,2023,False,False,0,8
+f7634bbf-1550-4f4d-a6ca-977f6f82bff5,EMS-Chemie,ems_chemie,Resource Transformation,Switzerland,2023,False,False,3,8
+f828b917-9527-4d67-84c8-e2583e401e12,Amplifon,amplifon,Health Care,Italy,2023,False,False,0,8
+f8d73fff-d6e5-491d-9045-4610bf905925,BMW,bmw,Transportation,Germany,2023,False,False,0,8
+fa1f8fee-2fec-446d-a753-530473c28a24,Electrolux,electrolux,Consumer Goods,Sweden,2023,False,False,0,8
+fa1ffa2c-42b8-4a9c-b014-12b05c991673,Caixabank,caixabank,Financials,Spain,2023,False,False,0,8
+fa4b815c-d914-4f58-bc90-21f23ed5b940,BKW,bkw,Infrastructure,Switzerland,2023,False,False,1,8
+faad2e33-cf35-44da-b0a9-6de3d5556606,Carrefour,carrefour,Food & Beverage,France,2023,False,False,0,8
+fb0561d6-601d-43b7-a10b-62a235cd78d7,Nordic Semiconductor,nordic_semiconductor,Technology & Communications,Norway,2023,False,False,0,8
+fb5dd0c1-ed4f-44fe-8f9b-fe8ee59651af,Wacker Chemie,wacker_chemie,Resource Transformation,Germany,2023,False,False,0,8
+fbf78e92-8fca-4da0-85ef-a7ca3c66d830,Glanbia,glanbia,Food & Beverage,Ireland,2023,False,False,0,8
+fce122a5-d851-464f-8697-292201d7003b,Royal Unibrew,royal_unibrew,Food & Beverage,Denmark,2023,False,False,0,8
+fd388786-07f5-4cb7-89c6-4fe15a4417eb,Unite Group,unite_group,Infrastructure,United Kingdom,2023,False,False,0,8
+fd9da9cf-28b6-4e4b-936c-6005d5ad8c98,Voestalpine,voestalpine,Extractives & Minerals Processing,Austria,2023,False,False,0,8
+fdd61c26-5ad7-4477-9309-29425499bac6,Clariant,clariant,Resource Transformation,Switzerland,2023,False,False,0,8
+fe0470b6-96f4-400f-9392-443d649e69b7,Marks and Spencer Group,marks_and_spencer_group,Consumer Goods,United Kingdom,2023,False,False,0,8
+fe37b950-0d32-4524-9458-2f3a74a74fff,Rockwool,rockwool,Consumer Goods,Denmark,2023,False,False,0,8
+feb91f29-7226-4165-aaa3-efbd944175b3,Industrivärden,industriv_rden,Financials,Sweden,2023,False,False,0,8
+feda5e75-2eb3-4e8f-ae23-c0b8081283fe,Poste Italiane,poste_italiane,Financials,Italy,2023,False,False,0,8
+ff2ded2a-d36d-4593-9809-096eb71fca4c,InPost,inpost,Transportation,Poland,2023,False,False,5,8
+ffdd3d96-a8ae-4b8c-93f0-c01536782e27,Ringkjobing Landbobank,ringkjobing_landbobank,Financials,Denmark,2023,False,False,0,8

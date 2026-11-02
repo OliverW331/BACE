@@ -1,0 +1,14 @@
+{
+  "figure": "00_evidence_scale",
+  "question": "How unequal are the sizes and text lengths of the three stored evidence representations?",
+  "pattern": "Panel a contains PDF narrative: 497,551 cards (53.4%); PDF table row: 390,070 cards (41.9%); CSV metric: 43,827 cards (4.7%). PDF-derived cards dominate stored volume. In panel b, the steep part of each ECDF marks a densely populated length range: PDF narrative: median 377, middle half 298–564, 99th percentile 1,602, maximum 5,300 characters; PDF table row: median 163, middle half 106–233, 99th percentile 1,122, maximum 12,745 characters; CSV metric: median 219, middle half 195–242, 99th percentile 317, maximum 390 characters. CSV cards occupy a narrow band; narrative cards are typically longer. Table rows have a short median but a long sparse upper tail, so their maximum does not describe a typical row.",
+  "meaning": "The panels jointly distinguish how many units exist from how much text each unit contains. A type can be numerous without having the longest individual records, and text length affects the size of the material retrieval must handle.",
+  "limits": "Both horizontal axes are logarithmic: equal spacing means a multiplicative change, not an equal count or character increment. Long extracted rows may reflect complex tables or extraction artefacts; length alone cannot diagnose either. Cards are representations that may share a source report, not independent factual observations.",
+  "panels": 2,
+  "caption": "**Read the figure:** panel a counts unique canonical cards by representation; panel b is the exact empirical cumulative distribution of retrieval-text lengths, weighted by the observed frequency of each length. No cards are sampled or dropped. Long cards contribute one observation each, not extra evidence units.",
+  "source_sha256": {
+    "counts": "a78e4f70ba1395bccf959c47af648c9683e0d1ac553a4afb0772ec659a2a98a9",
+    "length_frequencies": "2ed66ede2a1b236f1c70eecdd12da78da82edafe853b4477abedf30c24e7d0c6"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

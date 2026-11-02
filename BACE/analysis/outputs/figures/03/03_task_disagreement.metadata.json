@@ -1,0 +1,19 @@
+{
+  "figure": "03_task_disagreement",
+  "caption": "**Read the figure:** each point is a within-task paired macro difference, with the same 2,000-draw company bootstrap procedure. All task rows are shown, including reduced denominators from the incomplete BACE cases. No multiple-comparison significance claim is made.",
+  "width_mm": 183.0,
+  "height_mm": 123.0,
+  "png_dpi": 600,
+  "data_files": [
+    "03_task_disagreement__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "32b551e2561448ad18e0f3475ac5e899cebb53e4cdba5de987e4a5a628bb8176",
+    "svg": "99a174a4f76b49fc60ac5fe5da346b6381feb202a17ba0dd5baea8607b89103b",
+    "png": "19025e8132c9f03facc912ae6129c14b172cb1b26a23561f39d9fd30024d27bd"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "figure": "02_example_evidence_conflation",
+  "question": "What relationship does the Nestlé sentence add when it connects historical assessments to an ongoing priority?",
+  "pattern": "The generated wording is “Our development priority remains moving beyond individual site assessments”. The 2021 visible source supports a “more comprehensive and systematic approach” to risks, including animal welfare. The diagnostic rationale disputes the link to earlier site assessments and its status as a continuing priority in target year 2022.",
+  "meaning": "The distinctive change is relational and temporal: individually sourced ideas are joined into one continuing-development narrative. The source does contain a forward-looking expansion in approach, so this is subtler than inventing an unrelated topic. The blocks identify exactly which continuity claim needs review.",
+  "limits": "The displayed card does not include all earlier assessment material; the complete bundle contains that context. The automatic conflation label is not independently established by this plate, and one case does not quantify how often such linking is unjustified.",
+  "panels": 1,
+  "caption": "**Automatic label: Evidence conflation.** 12,199 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 492. [Full case and source references](outputs/examples/02_evidence_conflation.json).",
+  "source_sha256": {
+    "data": "c3e2a3630c18b634222e9451fc2490ad39703943ea9d4ee74e716ab5030ca1f5"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

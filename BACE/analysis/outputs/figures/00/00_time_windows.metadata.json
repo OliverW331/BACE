@@ -1,0 +1,19 @@
+{
+  "figure": "00_time_windows",
+  "caption": "**Read the figure:** coloured cells are allowed report years, grey cells are excluded by the protocol. This is the configured eligibility window, not a count of available records or proof of publication availability.",
+  "width_mm": 183.0,
+  "height_mm": 75.0,
+  "png_dpi": 600,
+  "data_files": [
+    "00_time_windows__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "0b8dd7972fdaf7531b1887807b8ccfdad99b3eff2ebb9706873411321c664118",
+    "svg": "6e46d1d40e053d693bf661bc0c9c363c2663504014884b985587ff1e3b074bf2",
+    "png": "7b46ab15af4af0b9b2d41960e21a157d647b484b08fdcf80fa3f0618440c3f32"
+  }
+}

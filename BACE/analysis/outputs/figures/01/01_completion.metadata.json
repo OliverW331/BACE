@@ -1,0 +1,19 @@
+{
+  "figure": "01_completion",
+  "caption": "**Read the figure:** bars count completed branches; the narrow dark-grey remainder is missing. No scores are imputed. Completion is read from stage receipts and checked against execution status.",
+  "width_mm": 183.0,
+  "height_mm": 73.0,
+  "png_dpi": 600,
+  "data_files": [
+    "01_completion__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "8c62e8d177b3842fbae84a79190495ef8756e1e86f0a1994f39ed37137a1536d",
+    "svg": "0c52c8e4deff0fa3f02db7121acd7bd2aec7ede08dd3838499086b559eb08dec",
+    "png": "5409ea8b4aa39a45a54a161846f01f01894716873dd022436fb1df342a80e62b"
+  }
+}

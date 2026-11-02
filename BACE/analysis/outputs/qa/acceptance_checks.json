@@ -1,0 +1,444 @@
+{
+  "notebooks": [
+    {
+      "notebook": "00_data_landscape.ipynb",
+      "code_cells": 8,
+      "saved_figures": 9,
+      "sha256": "fbd37f67238720e3deda1a8f1e14894705420d3834008f6400ce79338e11942d",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        },
+        {
+          "check_id": "LOG-GUARD",
+          "level": "WARN",
+          "message": "Logarithmic operation found without an obvious positivity/pseudocount guard",
+          "evidence": [
+            "set_xscale('log"
+          ]
+        },
+        {
+          "check_id": "ROTATION-ANCHOR",
+          "level": "WARN",
+          "message": "Some rotated text calls lack rotation_mode='anchor' and may cross their intended anchors after rotation",
+          "evidence": [
+            "line 212: rotation=...",
+            "line 274: rotation=..."
+          ]
+        }
+      ]
+    },
+    {
+      "notebook": "01_evidence_support.ipynb",
+      "code_cells": 6,
+      "saved_figures": 6,
+      "sha256": "cd761324f01dbadbacfc7dc937fba1870ea87f8c95cb2c726393c64242a0ee8c",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        }
+      ]
+    },
+    {
+      "notebook": "02_failure_patterns.ipynb",
+      "code_cells": 6,
+      "saved_figures": 10,
+      "sha256": "a73e039f115dfdfc562d7b462f08d1f86660a2f99a0d2d639cb3d47b0d0a1806",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        }
+      ]
+    },
+    {
+      "notebook": "03_evaluator_comparison.ipynb",
+      "code_cells": 8,
+      "saved_figures": 9,
+      "sha256": "e374574eff6d93718a9f804b0c5465ad2d22742a65d575482ad7ffbacc502ff8",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "figure": "00_evidence_scale",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 85.0,
+      "panels": 2
+    },
+    {
+      "figure": "00_geography",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 117.00000000000001,
+      "panels": 1
+    },
+    {
+      "figure": "00_provenance_example",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 119.30000000000001,
+      "panels": 1
+    },
+    {
+      "figure": "00_screening_gaps",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 80.0,
+      "panels": 1
+    },
+    {
+      "figure": "00_sector_selection",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 135.0,
+      "panels": 1
+    },
+    {
+      "figure": "00_selection",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 75.0,
+      "panels": 1
+    },
+    {
+      "figure": "00_source_coverage",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 185.0,
+      "panels": 2
+    },
+    {
+      "figure": "00_time_windows",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 75.0,
+      "panels": 2
+    },
+    {
+      "figure": "00_visible_evidence",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 82.0,
+      "panels": 1
+    },
+    {
+      "figure": "01_company_year",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 175.0,
+      "panels": 1
+    },
+    {
+      "figure": "01_completion",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 73.0,
+      "panels": 1
+    },
+    {
+      "figure": "01_secondary_metrics",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 85.0,
+      "panels": 2
+    },
+    {
+      "figure": "01_support_distribution",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 87.0,
+      "panels": 2
+    },
+    {
+      "figure": "01_task_support",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 123.0,
+      "panels": 1
+    },
+    {
+      "figure": "01_year_support",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 73.0,
+      "panels": 1
+    },
+    {
+      "figure": "02_asml_source_layout",
+      "minimum_vector_font_pt": 9.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 55.0,
+      "panels": 1
+    },
+    {
+      "figure": "02_example_contradiction",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 115.99999999999999,
+      "panels": 1
+    },
+    {
+      "figure": "02_example_evidence_conflation",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 122.6,
+      "panels": 1
+    },
+    {
+      "figure": "02_example_factual_boundary_distortion",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 112.7,
+      "panels": 1
+    },
+    {
+      "figure": "02_example_inferential_inflation",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 129.2,
+      "panels": 1
+    },
+    {
+      "figure": "02_example_non_disclosure_statement",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 112.7,
+      "panels": 1
+    },
+    {
+      "figure": "02_example_unsupported_novelty",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 135.8,
+      "panels": 1
+    },
+    {
+      "figure": "02_label_composition",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 110.0,
+      "panels": 2
+    },
+    {
+      "figure": "02_pipeline_checks",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 102.0,
+      "panels": 1
+    },
+    {
+      "figure": "02_task_patterns",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 120.0,
+      "panels": 1
+    },
+    {
+      "figure": "03_alignment_coverage",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 73.0,
+      "panels": 1
+    },
+    {
+      "figure": "03_case_higher",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 119.30000000000001,
+      "panels": 1
+    },
+    {
+      "figure": "03_case_lower",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 122.6,
+      "panels": 1
+    },
+    {
+      "figure": "03_claim_inventories",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 85.0,
+      "panels": 2
+    },
+    {
+      "figure": "03_judgement_combined_evidence",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 115.99999999999999,
+      "panels": 1
+    },
+    {
+      "figure": "03_judgement_source_coverage",
+      "minimum_vector_font_pt": 7.5,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 112.7,
+      "panels": 1
+    },
+    {
+      "figure": "03_native_comparison",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 87.0,
+      "panels": 2
+    },
+    {
+      "figure": "03_rank_agreement",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "PASS",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 78.0,
+      "panels": 3
+    },
+    {
+      "figure": "03_task_disagreement",
+      "minimum_vector_font_pt": 7.0,
+      "alignment": "NOT APPLICABLE",
+      "collision_warnings": 0,
+      "width_mm": 183.0,
+      "height_mm": 123.0,
+      "panels": 1
+    }
+  ],
+  "native_arithmetic_and_cohort_checks": "pass",
+  "company_bootstrap_fixture": "pass",
+  "scope": "Automated checks; see QA_REVIEW.md for source-based interpretation and visual review."
+}

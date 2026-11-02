@@ -1,0 +1,13 @@
+{
+  "figure": "02_task_patterns",
+  "question": "Does the overall diagnostic composition recur in every task, or do some tasks show distinctive concentrations?",
+  "pattern": "Boundary distortion is the largest of the six label shares in 11/12 task rows, ranging from 13.9% to 24.4% of all task DCs. Non-disclosure forms local dark cells: S1-14 reaches 16.4%, whereas G1-1 is 0.42%. The contradiction column remains almost white (maximum 0.23%). Summing the six shares gives an unsupported claim fraction from 37.7% (G1-1) to 56.7% (S1-5).",
+  "meaning": "The broad boundary column supports a cross-task inspection priority, while the non-disclosure hotspots suggest that the treatment of missing target-year metrics matters unevenly across tasks. The nearly empty contradiction column reflects its rarity in this output taxonomy, not absence of every possible factual problem.",
+  "limits": "Colours share a common percentage scale and use all DCs within each task, without row normalisation. These pooled fractions give larger claim inventories more weight, so they need not equal one minus notebook 01’s macro support. The grid cannot separate source insufficiency, generated assertions, segmentation or diagnostic behaviour as causes.",
+  "panels": 1,
+  "caption": "**Read the figure:** each cell is the percentage of all DCs in that task assigned the column label; all tasks and all six labels are shown. No clustering, row scaling, significance test or post-hoc task selection is used. Source data include each denominator.",
+  "source_sha256": {
+    "data": "d2403cdf4369c3757a7f6ad1aeb14a072ca92cf9fd6a413942257cff2afeffa1"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

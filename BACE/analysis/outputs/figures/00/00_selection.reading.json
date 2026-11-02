@@ -1,0 +1,13 @@
+{
+  "figure": "00_selection",
+  "question": "How much of the source register survives availability screening and final selection?",
+  "pattern": "The bars contract from 600 to 250 to 30 companies: 41.7% are eligible, and 12.0% of that eligible pool is selected (5.0% of the register). Most of the initial reduction therefore happens before sampling.",
+  "meaning": "Subsequent results describe a small subset with sustained historical source availability. The sharp narrowing makes the selection rule part of the interpretation of every later score.",
+  "limits": "These are exact counts for this register, without sampling-error bars. Availability screening does not establish report quality, accurate extraction, or representativeness of the wider company population.",
+  "panels": 1,
+  "caption": "**Read the figure:** bar lengths are company counts, not disclosures. No uncertainty interval applies to these census counts. **Boundary:** eligibility guarantees minimum source availability, not task completeness or extraction accuracy.",
+  "source_sha256": {
+    "data": "28e7c872e86091677a9d4120905f3570b73aad78f4b8b07a1794b51cae54fe9e"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

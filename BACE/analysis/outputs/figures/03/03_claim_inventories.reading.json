@@ -1,0 +1,13 @@
+{
+  "figure": "03_claim_inventories",
+  "question": "Could different claim segmentation help explain why native rates disagree on the same text?",
+  "pattern": "Panel a places BACE’s central claim-count range to the right: BACE median 52, middle half 45–60; RAGChecker median 40, middle half 35–45; RAGAS median 42, middle half 37–46. In panel b, the count difference has median 11 (middle half 5–19; range -21 to 60). 1,614/1,798 points combine more BACE claims with a lower BACE score. The count-gap/score-gap rank association is weakly negative (ρ=-0.104); the cloud is not a tight descending relation.",
+  "meaning": "BACE usually produces a larger native inventory, so the score denominators differ systematically. The loose scatter means that the number of additional claims alone is an inadequate explanation of each score gap. Content selection, splits and merges, and support decisions all remain relevant.",
+  "limits": "The two axes are outcomes of the same pipelines, not independently manipulated variables. A negative association cannot assign a causal fraction of the score gap to segmentation. More claims do not necessarily mean more complete or more accurate extraction; one proposition can be split differently.",
+  "panels": 2,
+  "caption": "**Read the figure:** panel a includes every native claim count; panel b compares within-disclosure count and score differences. No causal decomposition is implied. DC totals and comparator claim totals are different inventories, not a shared set of propositions.",
+  "source_sha256": {
+    "data": "22bd0ba4129058e9b13c8bc28d1b5698f5d17ad0db523a81afc867962bc6a695"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

@@ -1,0 +1,19 @@
+{
+  "figure": "02_example_contradiction",
+  "caption": "**Automatic label: Contradiction.** 42 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 357. [Full case and source references](outputs/examples/02_contradiction.json).",
+  "width_mm": 183.0,
+  "height_mm": 115.99999999999999,
+  "png_dpi": 600,
+  "data_files": [
+    "02_example_contradiction__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "d9434f83b5ac1295545e57ebcc971396a0b1d506012672ee1fdddc13527c8a44",
+    "svg": "752a79e6407b1aff580e87765b7b0aebf78396d5512c41510a7ad177103879bb",
+    "png": "1ea19676990b3ca05515a82a199888bae2883b36d023661cff81d9814545df1d"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "figure": "01_secondary_metrics",
+  "caption": "**Read the figure:** panel a shows exact empirical distributions (undefined ratios are excluded and counted below); panel b shows paired changes after removing non-disclosure statements. **Boundary:** a larger secondary metric is not automatically better quality.",
+  "width_mm": 183.0,
+  "height_mm": 85.0,
+  "png_dpi": 600,
+  "data_files": [
+    "01_secondary_metrics__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "f73cfa9c30322690ca7f47a5a5129ce71d9abd95a8b3cb15d6586197e96bf752",
+    "svg": "1b3066cd24838ce8bb509e1c94262c75c029834900efa6872ea2a5054aff7ffb",
+    "png": "a4478e63f1e922681c8fdc7d23065a6308889fe149ff73cb1e367e43bb5076ac"
+  }
+}

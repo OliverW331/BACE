@@ -1,0 +1,19 @@
+{
+  "figure": "02_example_non_disclosure_statement",
+  "caption": "**Automatic label: Non-disclosure statement.** 6,369 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 184. [Full case and source references](outputs/examples/02_non_disclosure_statement.json).",
+  "width_mm": 183.0,
+  "height_mm": 112.7,
+  "png_dpi": 600,
+  "data_files": [
+    "02_example_non_disclosure_statement__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "2860011f1e6afca95a811c57e8cbf2d5689c83937cddd291bb0f3994a292dbe5",
+    "svg": "3bb01044d01f784c937f76611f048876da09b4c49fb1fc1cded53c644e957e65",
+    "png": "d0f6ef3fe325a941628a6fee9c13fe3abe192f2e889c0df24d39b899342bbbfc"
+  }
+}

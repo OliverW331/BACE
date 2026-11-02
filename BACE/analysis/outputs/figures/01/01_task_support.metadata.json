@@ -1,0 +1,19 @@
+{
+  "figure": "01_task_support",
+  "caption": "**Read the figure:** points are disclosure-macro means; bars are 95% percentile intervals from 2,000 company-cluster resamples. n in each row counts disclosures; company counts are in source data. **Boundary:** task differences can reflect source relevance, generated content, extraction and judgement together.",
+  "width_mm": 183.0,
+  "height_mm": 123.0,
+  "png_dpi": 600,
+  "data_files": [
+    "01_task_support__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "894ad03e20fba00abc79b64fa63489f2b29d50d5fc11c419141475ec9b262c01",
+    "svg": "916a9ebdd56409cff35d755a91f0adadac5cdfa068af74180b673ea8bfe843e6",
+    "png": "f20973b635e6ce91dd61f5797fe29dacafb553b0b9baefdeb65e033b58127422"
+  }
+}

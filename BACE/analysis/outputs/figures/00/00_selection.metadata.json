@@ -1,0 +1,19 @@
+{
+  "figure": "00_selection",
+  "caption": "**Read the figure:** bar lengths are company counts, not disclosures. No uncertainty interval applies to these census counts. **Boundary:** eligibility guarantees minimum source availability, not task completeness or extraction accuracy.",
+  "width_mm": 183.0,
+  "height_mm": 75.0,
+  "png_dpi": 600,
+  "data_files": [
+    "00_selection__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "426223d916cfc6dd480531b8fa17103413544eab4e7d436515cbea808026e73b",
+    "svg": "1bd75f42026d25b9f406da9969112fc8030cd380e9f94b07985ce019e480d52a",
+    "png": "1dc09c6917f3a468d68d74673abffb0fb0ef3643d6ad3edfbc565e3c94536324"
+  }
+}

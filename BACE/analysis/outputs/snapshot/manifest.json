@@ -1,0 +1,19 @@
+{
+  "builder_sha256": "8b184f0664dc3a67fa51f01824f1240d20aadf23c14f4ebf984212dd033f9d47",
+  "case_count": 1800,
+  "bace_complete": 1798,
+  "source_files": 18155,
+  "verification": "Exact hashes for consumed stage artifacts, source inputs and canonical indices; native claim identifiers, score denominators and shared contexts validated. Raw model-call histories and complete extraction lineage are not re-audited.",
+  "seed": 20260921,
+  "tables": {
+    "metrics": "0801aa97b2076d883ff9f8f57b2e339ee26d01bdfaaa67c0a8aa5bf24aa63908",
+    "claims": "2a29cde34eec9c2443ceecfb688dea8cc2a8228c026c0c56e6176d7788b50751",
+    "external_claims": "3e1bf669c7981dfc3796d368150b5edbb8c4ae1afe5ddbb8b4a59d3562f9b3dd",
+    "selection": "a5bf66329bb6950d5e8973df8a6a3eda84ec5a10e48d697b700a09f191d30dd9",
+    "coverage": "7c1e010cb2a8e6ccd97f573e229d5c7a70a98c07b0955a24bcd8d60a92d6648d",
+    "visible": "fcdc898d00a766c2f8002bad422dff2468420654fa5c2f0920a4b178aae884db",
+    "canonical_counts": "093cf90071b38ab19afceb38c422c1f9653aeea830bc6486dca6d0ee92008794",
+    "length_counts": "2ed66ede2a1b236f1c70eecdd12da78da82edafe853b4477abedf30c24e7d0c6",
+    "packages": "ba22ffec19f1a04c051fd88a07a51a9d03eedaa04879cb2ade053efda291c8e7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "figure": "00_visible_evidence",
+  "question": "How does the large canonical library translate into the much smaller evidence context seen by each generator call?",
+  "pattern": "All three series peak at the cap of ten cards: PDF narrative: 1,731/1,800 disclosures (96.2%); PDF table row: 1,520/1,800 disclosures (84.4%); CSV metric: 1,800/1,800 disclosures (100.0%). Zero-card strata occur for 11 narrative and 60 table-row contexts. Total visible cards range from 10 to 30, with median 30.",
+  "meaning": "The peak is a retrieval-design ceiling. CSV reaches it for every disclosure, while PDF strata sometimes fall short. Consequently, representation balance at the prompt is very different from the proportions in canonical storage.",
+  "limits": "Connecting lines join frequencies at discrete counts; they are not a time trend or a continuous density. Unused slots are not reassigned to other types. Hitting the cap says nothing about topical relevance, and failing to fill it does not establish that relevant material is absent from all original reports.",
+  "panels": 1,
+  "caption": "**Read the figure:** frequencies cover all planned disclosures, including zero-card strata. Retrieval selects up to 10 cards of each type using BM25/dense retrieval and reciprocal-rank fusion; unused slots are not redistributed. **Boundary:** the generator sees these selected cards, not the entire canonical library or source reports.",
+  "source_sha256": {
+    "data": "b5d3d5faba23b182f4b0febbb79ddf6b7be053ee22d4c2f8cac8b91bad82dab2"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

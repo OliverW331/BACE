@@ -1,0 +1,19 @@
+{
+  "figure": "02_example_evidence_conflation",
+  "caption": "**Automatic label: Evidence conflation.** 12,199 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 492. [Full case and source references](outputs/examples/02_evidence_conflation.json).",
+  "width_mm": 183.0,
+  "height_mm": 122.6,
+  "png_dpi": 600,
+  "data_files": [
+    "02_example_evidence_conflation__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "1bcc2d1535d03de8232bc124adacd9e6a7a6ac44e3020f08daaa428d396e0f91",
+    "svg": "8b984514d617006ecc35842341e8517785c15d7aa9a014a15a9b5f68ff01161e",
+    "png": "2ea839581241753f732ce32665d720476026afa3e17c30f5917af8d4dded1652"
+  }
+}

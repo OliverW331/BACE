@@ -1,0 +1,19 @@
+{
+  "figure": "00_sector_selection",
+  "caption": "**Read the figure:** points show sector shares within each cohort; marker shape also distinguishes cohorts. All sectors, including missing classification, are retained. **Boundary:** stratification preserves sector coverage, not the original sector proportions; small selected sectors cannot support stable sector-specific inference.",
+  "width_mm": 183.0,
+  "height_mm": 135.0,
+  "png_dpi": 600,
+  "data_files": [
+    "00_sector_selection__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "ef54d3acfba13a8aeade126240c4a508fb34c8041624128b19c3f5512981f760",
+    "svg": "60afca71256c0acd11745e999653d4d83fecbc99b454e96576842223d358b133",
+    "png": "b631f55e92d78c5e8ddb253454dbe5d3448b862097468e35f756ee44ff66e6ff"
+  }
+}

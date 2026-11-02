@@ -1,4 +1,0 @@
-method,disclosures,companies,mean_score_percent,median_claim_count,minimum_claim_count,maximum_claim_count,status,source,score_column,count_column,aggregation
-BACE,1798,30,55.37546371346639,52.0,26,98,COMPUTED_VERIFIED,BACE/analysis/outputs/snapshot/metrics.csv,bace_support_rate_all_dc,bace_dc_count,Arithmetic mean of native disclosure scores; median native claim count on the identical completed cohort
-RAGChecker,1798,30,90.2355564781211,40.0,19,75,COMPUTED_VERIFIED,BACE/analysis/outputs/snapshot/metrics.csv,ragchecker_faithfulness,ragchecker_claim_count,Arithmetic mean of native disclosure scores; median native claim count on the identical completed cohort
-RAGAS,1798,30,90.65974089675373,42.0,23,71,COMPUTED_VERIFIED,BACE/analysis/outputs/snapshot/metrics.csv,ragas_faithfulness,ragas_claim_count,Arithmetic mean of native disclosure scores; median native claim count on the identical completed cohort

@@ -1,0 +1,13 @@
+{
+  "figure": "03_case_higher",
+  "question": "Can the score ordering reverse, and what evidence structure appears in the most positive case?",
+  "pattern": "Banco BPM 2021 E1-6 has a 21.4-point BACE-minus-RAGChecker gap. BACE supports 20/28 DCs (71.4%): ten direct and ten inferred. RAGChecker supports 12/24 claims (50.0%), while RAGAS supports 27/29 (93.1%). The eight unsupported BACE DCs comprise six non-disclosure statements and two conflation labels. The generated opening contains several emissions quantities and an equality relation.",
+  "meaning": "The reversal rules out a universal case-by-case ordering in which BACE always scores lowest. The sizeable inferred component makes cross-card numerical relationships worth inspecting; the four-value equality example below provides one such traceable path. RAGAS still scores higher, so this case does not reverse every pairwise ordering.",
+  "limits": "This is the maximum BACE-minus-RAGChecker gap, not a representative emissions task. Different inventories prevent attributing the entire gap to one equality claim or to inference alone. Numerical consistency among extracted cards is not external verification of the underlying emissions data.",
+  "panels": 1,
+  "caption": "**Observed:** BACE minus RAGChecker = +0.214. This is an extreme case selected to explain a disagreement direction; it is not an accuracy example. [Full case](outputs/examples/03_bace_higher_than_ragchecker.json).",
+  "source_sha256": {
+    "data": "0b29a826fbd16a46fecf9d0a30eb18f8810c1fa8ac04187bdd283813eb37a85d"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

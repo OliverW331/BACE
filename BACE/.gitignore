@@ -7,6 +7,16 @@ __pycache__/
 
 evidence/*
 !evidence/.gitkeep
+!evidence/sample/
+evidence/sample/*
+!evidence/sample/sample.json
 
 results/*
 !results/.gitkeep
+!results/main_v1/
+results/main_v1/*
+!results/main_v1/execution_status.json
+!results/main_v1/manifest.json
+
+# Follow-up studies are outside the main-experiment repository scope.
+/experiments/

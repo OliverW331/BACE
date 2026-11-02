@@ -1,3 +1,25 @@
+# Track only the main experiment, its results and supporting documentation.
+/*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/BACE/
+!/docs/
+!/paper/
+
+/docs/*
+!/docs/REPOSITORY.md
+!/docs/generation_evaluation.md
+!/docs/generation_claim_support_assessment.md
+!/docs/generation_claim_unsupported_diagnosis.md
+
+/paper/*
+!/paper/reports/
+/paper/reports/*
+!/paper/reports/main_experiment_2026-11-02/
+/paper/reports/main_experiment_2026-11-02/review/
+/paper/reports/main_experiment_2026-11-02/*.log
+
 # Python
 .venv/
 .venv-external-evaluation/
@@ -16,18 +38,6 @@ __pycache__/
 
 # Caches and generated experiment artifacts
 .cache/
-# Keep legacy source snapshots, but leave bulky runtime artifacts local.
-/_archive/*
-!/_archive/previous_stage_20260921/
-/_archive/previous_stage_20260921/*
-!/_archive/previous_stage_20260921/README.md
-!/_archive/previous_stage_20260921/archive_manifest.json
-!/_archive/previous_stage_20260921/config/
-!/_archive/previous_stage_20260921/script/
-!/_archive/previous_stage_20260921/tests/
-!/_archive/previous_stage_20260921/requirements.txt
-!/_archive/previous_stage_20260921/requirements-external-evaluation.txt
-!/_archive/previous_stage_20260921/output/
 data/
 evidence_pilot/
 generation_outputs/

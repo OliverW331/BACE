@@ -1,0 +1,13 @@
+{
+  "figure": "02_example_non_disclosure_statement",
+  "question": "Why can an explicitly cautious statement about missing data receive an unsupported label?",
+  "pattern": "The generated sentence withholds a quantified 2021 total and explicitly rejects treating absence as zero. The extracted DC isolates fines in 2021, whereas the displayed CSV card records zero confirmed corruption or bribery incidents in 2017. Both the year and the measure differ: incidents are not fines.",
+  "meaning": "Reading the four blocks together reveals a statement about a reporting gap, not a fabricated numerical total. The older zero-incident metric cannot settle whether a 2021 fines total was supplied. This is why the category must remain distinguishable from an affirmative unsupported factual assertion.",
+  "limits": "A single card cannot prove that a metric is absent from all company publications, and this case does not establish company withholding. The label describes the frozen evidence-bound evaluation; its inclusion in the main denominator is a measurement choice examined in notebook 01.",
+  "panels": 1,
+  "caption": "**Automatic label: Non-disclosure statement.** 6,369 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 184. [Full case and source references](outputs/examples/02_non_disclosure_statement.json).",
+  "source_sha256": {
+    "data": "8dae1bd9ee5e7b9349011aac49b8065b22a020c62712f36655f5e8aa91637909"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

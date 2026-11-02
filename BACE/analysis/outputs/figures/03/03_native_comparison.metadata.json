@@ -1,0 +1,21 @@
+{
+  "figure": "03_native_comparison",
+  "caption": "**Read the figure:** panel a gives each common disclosure equal weight; panel b first subtracts scores within the same disclosure, then bootstraps company clusters. The intervals describe paired native score gaps, not differences in evaluator accuracy.",
+  "width_mm": 183.0,
+  "height_mm": 87.0,
+  "png_dpi": 600,
+  "data_files": [
+    "03_native_comparison__scores.csv",
+    "03_native_comparison__cohort_summary.csv",
+    "03_native_comparison__paired_differences.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "4627b72079d1fabc69008551aa8fbcfb40c25b4ef3d4b5051faa673210303506",
+    "svg": "5662e24645ce639c37259fdb5579302678551751fb2d57a9b7a4e9a3b7287274",
+    "png": "0c6ca22c4b5c227777d1ad2b91da0e511e694c7dd855333dea1f1878df788bc7"
+  }
+}

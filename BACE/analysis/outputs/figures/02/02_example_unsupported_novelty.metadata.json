@@ -1,0 +1,19 @@
+{
+  "figure": "02_example_unsupported_novelty",
+  "caption": "**Automatic label: Unsupported novelty.** 1,698 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 720. [Full case and source references](outputs/examples/02_unsupported_novelty.json).",
+  "width_mm": 183.0,
+  "height_mm": 135.8,
+  "png_dpi": 600,
+  "data_files": [
+    "02_example_unsupported_novelty__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "f1480cf76ee4158c25cccd0093ccbd63196436c7d18941d5250f26611e247206",
+    "svg": "bb47aff653ca8bcc8ca0adc774ff805e7d1df84a0740c1f69ee3e9a65e9f8902",
+    "png": "a1cd884e3152e3df8b19ab2a77101583004b98a1eef80a3dea3a54195f79e2b9"
+  }
+}

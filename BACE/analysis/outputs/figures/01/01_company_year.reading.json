@@ -1,0 +1,13 @@
+{
+  "figure": "01_company_year",
+  "question": "Do the task-level averages conceal persistent company differences or local company-year variation?",
+  "pattern": "The middle half of cell values spans 51.2%–59.3%. The lightest cell is Investec, 2019 (38.2%), and the darkest is Air France-KLM, 2020 (72.0%), a 33.8-point span. Equal-year row means range from SES (47.6%) to Continental (65.8%); the median within-row five-year range is 11.5 points. Thus both row differences and within-row changes contribute to the pattern.",
+  "meaning": "Some companies have generally darker rows, but changing cells within rows prevent a single stable company ranking from describing everything. The next figure pools completed disclosures within each year to show how much of that local variation survives aggregation.",
+  "limits": "All 150 company-years are present; 2 cells average 11 tasks and the rest average 12. The fixed 0–1 scale and alphabetical row order avoid artificial contrast from row scaling or clustering. These are support-of-generated-text summaries, not rankings of company ESG quality.",
+  "panels": 1,
+  "caption": "**Read the figure:** fixed 0–1 colour scale, alphabetical rows, no clustering or row normalisation. Cell counts are exported; incomplete tasks are not zeros. **Boundary:** these repeated company-year summaries are descriptive and cannot identify a temporal or company-specific cause.",
+  "source_sha256": {
+    "data": "960bed75b6c710c357dfcebced61ec7505426bc9b6f39ccfab4a464d4cbf9ebd"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

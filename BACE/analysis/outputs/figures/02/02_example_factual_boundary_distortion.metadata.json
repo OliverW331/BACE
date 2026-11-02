@@ -1,0 +1,19 @@
+{
+  "figure": "02_example_factual_boundary_distortion",
+  "caption": "**Automatic label: Factual boundary distortion.** 19,113 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 330. [Full case and source references](outputs/examples/02_factual_boundary_distortion.json).",
+  "width_mm": 183.0,
+  "height_mm": 112.7,
+  "png_dpi": 600,
+  "data_files": [
+    "02_example_factual_boundary_distortion__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "ad463eb9595350b738fcc0615aea2412e44c7954bf5fea33d6be51daf96b81f8",
+    "svg": "eacedce13855aea1524777cfd91752e058bcc368abf3fd58299b24f50ccd748f",
+    "png": "b00423fb080025748cd13580c9893800f4b1be7e51c98788e989937f6c0beaac"
+  }
+}

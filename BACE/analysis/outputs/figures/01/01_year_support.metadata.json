@@ -1,0 +1,19 @@
+{
+  "figure": "01_year_support",
+  "caption": "**Read the figure:** each point is a year-specific disclosure-macro mean with a 95% company-cluster bootstrap interval. Connecting lines guide the eye; the same companies recur. **Boundary:** changing source windows and task evidence preclude interpreting this as a causal improvement trend.",
+  "width_mm": 183.0,
+  "height_mm": 73.0,
+  "png_dpi": 600,
+  "data_files": [
+    "01_year_support__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "d856a1e4b2b2266aadc7baea9e60410e940824e0db23817acf3e685bb9094a5d",
+    "svg": "d69b53ff660509e2585af64ae0d9e8ef08b2e5104809d57b0540bad3212e233f",
+    "png": "290c420420db8b3b3f128dd0cadf8345dabb1fe55ee7a3818ece3ced592ca0a9"
+  }
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="384.944882pt" viewBox="0 0 518.740157 384.944882" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-22T00:37:30.882544</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 384.944882 
+L 518.740157 384.944882 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="44.573238" transform="rotate(-0 20.749606 44.573238)">Generated disclosure · verbatim</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 62.634393)">Implementation and performance are monitored using social indicators including workforce composition by</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 72.759393)">age, gender and geographical area; women’s representation among the top 10% of management; recruitment</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 82.884393)">and departures; sickness and workplace-accident absenteeism; workplace-accident frequency and severity</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 93.009393)">rates; training hours per employee; employees with disabilities; and collective agreements signed.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="129.045679" transform="rotate(-0 20.749606 129.045679)">Extracted DC</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 147.106834)">Air France-KLM monitors workforce-policy performance using workplace-accident severity rates as a social</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 157.958397)">indicator.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="192.541742" transform="rotate(-0 20.749606 192.541742)">Visible evidence · Evidence 5 · source year 2018</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 210.602897)">— we obtained an understanding of the process for identifying, prioritizing and validating the main</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 220.727897)">risks; (1) Social indicators: Total staﬀ at 31/12 and distribution by age, gender and geographical area,</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 230.852897)">Percentage of women among the top 10% management levels, Number of recruitments and Number of</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 240.977897)">departures, Absenteeism due to illness and work accidents, Frequency rate of workplace accidents with</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 251.102897)">lost time, Severity rate of workplace accident, Training hours by employee, Total staﬀ with</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 261.227897)">disabilities, Signed collective agreements. Environmental indicators for ground operations: Water</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 271.352897)">consumption, Electricity consumption, Other energies consumption, Quantity of non- hazardous industrial</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 281.477897)">waste, Quantity of hazard</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="318.966939" transform="rotate(-0 20.749606 318.966939)">Automatic diagnostic rationale</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 337.028094)">The evidence reports health-and-safety system coverage and workforce fatalities, but does not establish</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', sans-serif; fill: #283440" transform="translate(20.749606 347.153094)">the use of workplace-accident severity rates to monitor workforce-policy performance.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #283440" x="20.749606" y="26.494488" transform="rotate(-0 20.749606 26.494488)">Air France-KLM · 2019 · S1-1</text>
+   </g>
+  </g>
+ </g>
+</svg>

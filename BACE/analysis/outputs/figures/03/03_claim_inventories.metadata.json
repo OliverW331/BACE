@@ -1,0 +1,19 @@
+{
+  "figure": "03_claim_inventories",
+  "caption": "**Read the figure:** panel a includes every native claim count; panel b compares within-disclosure count and score differences. No causal decomposition is implied. DC totals and comparator claim totals are different inventories, not a shared set of propositions.",
+  "width_mm": 183.0,
+  "height_mm": 85.0,
+  "png_dpi": 600,
+  "data_files": [
+    "03_claim_inventories__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "f5b84986bfef19df137fadd27aff5afab0ef8d0bf675bc5a7cb6056782b5276a",
+    "svg": "b980dac65583eff3e246566ec080a6e848c541116f115a761384a05c31b008ca",
+    "png": "94fe122c6a2a813891f196c5696fef71e16c4d2ad73e81d38470f06a3d62c8f1"
+  }
+}

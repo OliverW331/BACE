@@ -1,0 +1,20 @@
+{
+  "figure": "01_support_distribution",
+  "caption": "**Read the figure:** panel a gives each disclosure one observation (20 equal-width bins); panel b pools DC counts, so it has a different weighting. All completed BACE disclosures and all their DCs are retained, including non-disclosure statements. Bar heights are observed counts/proportions; the macro interval is reported below.",
+  "width_mm": 183.0,
+  "height_mm": 87.0,
+  "png_dpi": 600,
+  "data_files": [
+    "01_support_distribution__disclosures.csv",
+    "01_support_distribution__claim_counts.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "151be0ad4055045aa45506f57337f8d2c09cd7c464ad37aa9871582eca200fdd",
+    "svg": "11ab74f5ade8deb9898a7aeff6a8c47f46afe682fa60bf8712c8155b19134950",
+    "png": "abe05fdd9efa5b463fe8df76bb6aa1ab0586b5b475539f90f18d5965dc7d5a8e"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "figure": "02_task_patterns",
+  "caption": "**Read the figure:** each cell is the percentage of all DCs in that task assigned the column label; all tasks and all six labels are shown. No clustering, row scaling, significance test or post-hoc task selection is used. Source data include each denominator.",
+  "width_mm": 183.0,
+  "height_mm": 120.0,
+  "png_dpi": 600,
+  "data_files": [
+    "02_task_patterns__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "f0fb0faab481c58fe6e52989a7d3ddf1d194e1758facd8d35b8e98c2fc423583",
+    "svg": "da1b3364a274b1992fc2addd980a116164c73969de3a8f5cd96374e436c03e65",
+    "png": "caf1f89baa40c8196165d5674996d878c0928ef4eded220ba5a5fe973e8d83c4"
+  }
+}

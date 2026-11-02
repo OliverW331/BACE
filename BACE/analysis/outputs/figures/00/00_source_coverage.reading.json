@@ -1,0 +1,13 @@
+{
+  "figure": "00_source_coverage",
+  "question": "Within the selected sample, does complete annual availability also mean equal amounts of source material?",
+  "pattern": "Panel a has no empty required company-year cells, but CSV counts range from 33 to 281 (median 167; middle half 123–205). The across-company median increases from 140.5 in 2015 to 203.0 in 2023. Row averages also differ: Genmab has 86.9 metrics versus Evonik Industries with 246.3. Panel b is much more discrete: 79 of 240 required cells have one PDF and 161 have two; 30 grey cells are outside the PDF window.",
+  "meaning": "Together, the panels separate a binary entry requirement from uneven evidence volume. The CSV columns become richer in later years at the sample-median level, while the PDF view mostly distinguishes one versus two reports. These features can change what is available for retrieval even though every selected company passes screening.",
+  "limits": "The two colour scales have different units and ranges: equally dark cells do not contain equal evidence. More extracted metrics could reflect reporting, extraction coverage or both; it does not establish improving ESG performance. The annual pattern is descriptive for selected companies, not an independent time-series experiment.",
+  "panels": 2,
+  "caption": "**Read the figure:** rows are the same 30 companies; columns are source years. Each panel has its own count scale. Grey in the PDF 2023 column is outside the required source window, not observed absence. **Boundary:** minimum annual coverage is selected by design; metric completeness and task relevance remain uneven.",
+  "source_sha256": {
+    "data": "fb07f6a50fe8a8867c455a191da4e16a63378c74f2f543655673ef9d4cce01ad"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

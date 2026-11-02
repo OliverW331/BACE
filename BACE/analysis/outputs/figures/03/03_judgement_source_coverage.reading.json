@@ -1,0 +1,13 @@
+{
+  "figure": "03_judgement_source_coverage",
+  "question": "Within the low-BACE Investec case, what visible evidence bears directly on one disagreement?",
+  "pattern": "The BACE DC concerns suppliers as a source of financial-crime and integrity risk. Its rationale says no EC provides an anchor. RAGChecker’s supported triple includes suppliers among the relevant actors, and the displayed 2017 report text explicitly lists “staff, clients, suppliers and other stakeholders” in the risk definition.",
+  "meaning": "The four blocks locate the disagreement in the representation used for judgement: the supplier relation is present in the full visible card even though BACE’s EC-based path reports no anchor. This is a concrete challenge to the absence-of-anchor rationale and helps explain how a low BACE score can coexist with comparator support.",
+  "limits": "The card predates target year 2021, so this local textual match does not establish every temporal element of the generated claim. The native propositions are related but not a formally adjudicated one-to-one mapping. One inspected disagreement cannot show that RAGChecker is globally more accurate.",
+  "panels": 1,
+  "caption": "**Read the plate:** native claims and reasons are quoted without semantic rewriting; the source texts come from the same frozen prompt. Full case material is available in the companion case bundle.",
+  "source_sha256": {
+    "data": "e68be6ba0bd24431a1073453549b4703533e32afca8df225bb96787191e63b11"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

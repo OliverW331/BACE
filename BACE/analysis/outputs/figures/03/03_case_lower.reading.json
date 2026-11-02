@@ -1,0 +1,13 @@
+{
+  "figure": "03_case_lower",
+  "question": "What does the most negative BACE-minus-RAGChecker case look like beneath its aggregate scores?",
+  "pattern": "Investec 2021 G1-4 has a -80.4-point gap: BACE supports 9/46 DCs (19.6%), RAGChecker supports 29/29 native claims (100.0%), and RAGAS supports 29/34 (85.3%). The BACE inventory includes 14 conflation, 12 boundary and 9 non-disclosure DCs, plus one inflation and one novelty DC. Thus the gap combines a larger inventory with a very different allocation of unsupported labels.",
+  "meaning": "The opening passage sounds coherent and describes controls, but prose fluency alone does not settle its source support. The inventory points to temporal and relational reading as useful inspection targets. The supplier example below then checks one specific source-coverage disagreement within this same case.",
+  "limits": "This is the minimum paired gap selected from the common cohort, so its magnitude is intentionally extreme. The displayed opening is only the first 700 characters and cannot explain every verdict. Neither the perfect comparator score nor the low BACE score is a human accuracy label.",
+  "panels": 1,
+  "caption": "**Observed:** BACE minus RAGChecker = -0.804. This is an extreme case selected to explain a disagreement direction; it is not an accuracy example. [Full case](outputs/examples/03_bace_lower_than_ragchecker.json).",
+  "source_sha256": {
+    "data": "55fe769cc9a12a452d12ff2151395e540f973019d499a49307160da3ff754bc0"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

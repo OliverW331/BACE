@@ -1,0 +1,19 @@
+{
+  "figure": "00_provenance_example",
+  "caption": "**Read the figure:** the excerpt is copied verbatim from the frozen visible card and checked against the canonical index. Source filename and page references identify the underlying report. **Boundary:** a PDF-to-card transformation can lose layout or extraction detail; CSV values are also extracted outputs, not unquestioned ground truth. **Display note:** unsupported source glyphs are shown as Unicode code-point escapes (U+F0B7); the exact original text remains in the source table and case bundle.",
+  "width_mm": 183.0,
+  "height_mm": 119.30000000000001,
+  "png_dpi": 600,
+  "data_files": [
+    "00_provenance_example__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "7d438b1a427857fad86237a07d93bdd1a3080cc35cec961ea340af7d190d8ebd",
+    "svg": "fecd446517d1266700c5f7c70fec63660732466a771e9918614491f59a6b3395",
+    "png": "c4379c831a23e17c0fee64c127e17580aad8eba8b1a800c7cf48e45cf0c5b04a"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "notebook": "00_data_landscape.ipynb",
+    "seconds": 20.56,
+    "code_cells": 8,
+    "errors": 0
+  },
+  {
+    "notebook": "01_evidence_support.ipynb",
+    "seconds": 14.14,
+    "code_cells": 6,
+    "errors": 0
+  },
+  {
+    "notebook": "02_failure_patterns.ipynb",
+    "seconds": 17.8,
+    "code_cells": 6,
+    "errors": 0
+  },
+  {
+    "notebook": "03_evaluator_comparison.ipynb",
+    "seconds": 18.34,
+    "code_cells": 8,
+    "errors": 0
+  }
+]

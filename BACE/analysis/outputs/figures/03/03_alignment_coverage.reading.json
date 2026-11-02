@@ -1,0 +1,13 @@
+{
+  "figure": "03_alignment_coverage",
+  "question": "After seeing different native inventories, how much can a strict literal-text match actually align?",
+  "pattern": "One bar is zero: RAGChecker has 0 unique exact-text partners. RAGAS has 5,709/94,955, covering 6.0% of BACE DCs. Within that restricted RAGAS overlap, 3,669 pairs (64.3%) share the binary verdict. 6 ambiguous RAGAS rows are excluded; no BACE rows have ambiguous keys.",
+  "meaning": "The near-empty coverage exposes the limits of literal alignment. RAGChecker represents claims as joined triples, whereas BACE uses sentences, so semantically related propositions can fail the exact-string rule. The nonzero RAGAS overlap supplies a narrow inspectable subset, not a common denominator for the three full evaluations.",
+  "limits": "Zero literal matches is not zero semantic overlap, and an unmatched claim is not a verdict disagreement. Matching text is a highly selected subset; its binary agreement cannot be extrapolated to unmatched claims or interpreted as accuracy. All unmatched claims remain in the native-score analyses.",
+  "panels": 1,
+  "caption": "**Read the figure:** bars show alignment coverage, not support or agreement. Ambiguous key counts and total native inventories are exported. **Boundary:** selection into exact-text overlap is highly non-random; matched judgement agreement cannot be extrapolated to all claims.",
+  "source_sha256": {
+    "data": "993450923430678be2f8f57f96708d9d05c95f2c46b3e4ae6a3ad9d884448234"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

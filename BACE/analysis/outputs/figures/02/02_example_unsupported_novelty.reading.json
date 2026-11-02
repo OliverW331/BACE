@@ -1,0 +1,13 @@
+{
+  "figure": "02_example_unsupported_novelty",
+  "question": "Is the accident-severity indicator absent from the visible evidence, or lost before the support judgement?",
+  "pattern": "The generated sentence lists workplace-accident severity among monitoring indicators. The 2018 visible card explicitly includes “Severity rate of workplace accident”, yet the rationale discusses health-and-safety coverage and fatalities without recognising that indicator. In the full bundle, the card’s three retained ECs concern risk identification, prioritisation and validation; the indicator list is omitted.",
+  "meaning": "The top and source blocks share the disputed indicator, while the extracted representation does not preserve it. That supplies a concrete reason to question a simple absence-of-evidence reading of the novelty label. Inspecting only candidate ECs would miss information actually available in the prompt.",
+  "limits": "The source lists social indicators in an assurance context. Presence of the phrase does not, by itself, establish the stronger interpretation that it monitored workforce-policy performance in target year 2019. The extraction omission is observable; the full target-year support judgement still requires review.",
+  "panels": 1,
+  "caption": "**Automatic label: Unsupported novelty.** 1,698 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 0 and ends at 720. [Full case and source references](outputs/examples/02_unsupported_novelty.json).",
+  "source_sha256": {
+    "data": "f6fc43fe8ee33471c2f020199959270f3bbf5ca8ea91c3de33c166cc8eef9a91"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

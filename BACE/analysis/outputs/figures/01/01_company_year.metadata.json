@@ -1,0 +1,19 @@
+{
+  "figure": "01_company_year",
+  "caption": "**Read the figure:** fixed 0–1 colour scale, alphabetical rows, no clustering or row normalisation. Cell counts are exported; incomplete tasks are not zeros. **Boundary:** these repeated company-year summaries are descriptive and cannot identify a temporal or company-specific cause.",
+  "width_mm": 183.0,
+  "height_mm": 175.0,
+  "png_dpi": 600,
+  "data_files": [
+    "01_company_year__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "634250181a11f1cf52c580bd464ddb12745d3bc7496377a712f1cc705c605832",
+    "svg": "cf7451b2db4bcd04b1b27ff11fff7c607651dede27a4cba1f1caf30f01453d43",
+    "png": "7f59c827fa8244e417dc9f4f4fbf8f62a119909a488d28d576980d08e18d0dea"
+  }
+}

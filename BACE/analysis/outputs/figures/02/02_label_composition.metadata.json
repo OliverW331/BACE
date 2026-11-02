@@ -1,0 +1,19 @@
+{
+  "figure": "02_label_composition",
+  "caption": "**Read the figure:** panel a partitions all unsupported DCs; panel b measures label presence in a disclosure, so its bars can sum above 100%. All-DC proportions and exact counts accompany the figure. Counts are descriptive; claims within companies are dependent.",
+  "width_mm": 183.0,
+  "height_mm": 110.0,
+  "png_dpi": 600,
+  "data_files": [
+    "02_label_composition__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "9d9e13c5fd11d94a633f263dffbf8a6edaedd9c3419f0debaffe310f1d04cf5a",
+    "svg": "8661010aee7bd7913ff785ea0d8af13749c810f468b35de7be7bb64d585772a4",
+    "png": "80864922d759492227470508114ac2da35548562ea7603690ef5e5795dbe18a3"
+  }
+}

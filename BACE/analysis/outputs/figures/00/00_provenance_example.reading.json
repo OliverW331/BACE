@@ -1,0 +1,13 @@
+{
+  "figure": "00_provenance_example",
+  "question": "What survives the transformation from an original report into one specific prompt input?",
+  "pattern": "Read downward through four stages: the 2015 sustainability report and page 4, the narrative-card identifier, the first 620 characters of the frozen card, and its use as Evidence 1 for Genmab’s 2019 E1-1 task. The displayed text concerns compensation, employee development and an internal roadmap; it does not itself provide an explicit climate-transition-plan statement. The excerpt boundary also cuts off the final sentence.",
+  "meaning": "The identifiers make the representation traceable, while the content shows why provenance and relevance are separate questions. An exact card-to-prompt match confirms which extracted text was shown; it does not establish that the card answers the target task.",
+  "limits": "This is the first case and first visible narrative card, not a representative random relevance audit. The displayed excerpt is truncated; no claim about the entire card or report follows from that truncation. Matching extracted text cannot verify the preservation of the original PDF layout.",
+  "panels": 1,
+  "caption": "**Read the figure:** the excerpt is copied verbatim from the frozen visible card and checked against the canonical index. Source filename and page references identify the underlying report. **Boundary:** a PDF-to-card transformation can lose layout or extraction detail; CSV values are also extracted outputs, not unquestioned ground truth. **Display note:** unsupported source glyphs are shown as Unicode code-point escapes (U+F0B7); the exact original text remains in the source table and case bundle.",
+  "source_sha256": {
+    "data": "b5e52a85b74337154a66447edc6b52a53b25867309e8d4ffeef03e4057de0463"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

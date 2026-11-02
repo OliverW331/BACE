@@ -1,0 +1,13 @@
+{
+  "figure": "01_year_support",
+  "question": "When companies and tasks are aggregated, is there a consistent temporal movement in support?",
+  "pattern": "The connected means are 2019: 53.1% (n=359); 2020: 56.1% (n=360); 2021: 54.3% (n=360); 2022: 56.0% (n=360); 2023: 57.4% (n=359), with n denoting completed disclosures from 30 recurring companies. The end-to-start difference is 4.3 percentage points, but 1 of the four adjacent changes is downward. The full range of annual means is only 4.3 points; the intervals overlap for several years. The trajectory therefore has fluctuations rather than a monotonic rise.",
+  "meaning": "The modest annual spread, compared with the preceding company-year range, shows how aggregation smooths local differences. A later endpoint can coexist with a mid-period decrease and substantial variation within every year.",
+  "limits": "Lines guide the eye between five repeated annual observations of the same companies. The intervals are marginal company-cluster intervals, not a trend test or an interval for the endpoint difference. Changing evidence windows and two missing task results also constrain temporal interpretation.",
+  "panels": 1,
+  "caption": "**Read the figure:** each point is a year-specific disclosure-macro mean with a 95% company-cluster bootstrap interval. Connecting lines guide the eye; the same companies recur. **Boundary:** changing source windows and task evidence preclude interpreting this as a causal improvement trend.",
+  "source_sha256": {
+    "data": "5dbf77f2c1fa7c83e1e73aa1d1a31f6e08bfe086e088cd4c091166ad25b65b6f"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

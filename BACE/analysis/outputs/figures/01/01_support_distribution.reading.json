@@ -1,0 +1,14 @@
+{
+  "figure": "01_support_distribution",
+  "question": "Among completed cases, is the average score typical, or does it conceal a broad distribution?",
+  "pattern": "Panel a contains 1,798 completed disclosures and has its tallest displayed bin at 55.0%–60.0% (257 disclosures). The median is 55.6%, the middle half spans 45.2%–65.9%, and the 10th–90th percentiles span 35.6%–74.5%. The mean (55.4%; company-cluster 95% interval 53.9%–56.8%) is close to the median, giving no reason to describe pronounced skew. Only 36 disclosures score at most 25%, while 173 reach at least 75%. Panel b partitions all DCs: direct: 34,430 (36.3%); inferred: 17,879 (18.8%); unsupported: 42,646 (44.9%).",
+  "meaning": "The broad centre means that a mean near one-half is not a universal score for every disclosure. Direct support supplies the larger supported component, but inferred support contributes materially. The pooled support rate is 55.1%, 0.3 percentage points from the macro mean: similar overall summaries here despite their different weighting.",
+  "limits": "The modal bin depends on the displayed 0.05 bin width and is not a fitted population mode. Panel a weights disclosures equally; panel b weights DCs equally and gives longer claim inventories more influence. Neither panel measures factual accuracy or includes the two missing BACE branches.",
+  "panels": 2,
+  "caption": "**Read the figure:** panel a gives each disclosure one observation (20 equal-width bins); panel b pools DC counts, so it has a different weighting. All completed BACE disclosures and all their DCs are retained, including non-disclosure statements. Bar heights are observed counts/proportions; the macro interval is reported below.",
+  "source_sha256": {
+    "disclosures": "d628f543a727810e1ebe9139811a80f59f5ec1bcf5a5633d3725ed6f3b94f745",
+    "claim_counts": "9f4a055b9ca8cf8c68d03a1ab178ad209a32849fa165fd980c258accec1c3b2e"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

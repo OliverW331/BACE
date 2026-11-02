@@ -1,0 +1,15 @@
+role,text
+Common generated disclosure · first 700 characters,"### E1-6 – Gross Scope 1, Scope 2, Scope 3 and total GHG emissions
+
+In 2021, Banco BPM measured greenhouse gas (GHG) emissions associated with its own operations and other indirect activities. Scope 2 emissions were reported for the consolidated accounting group under the financial-control approach; the figures for own operations and the consolidated accounting group were identical.
+
+| GHG emissions | 2021 (tCO₂e) |
+|---|---:|
+| Scope 1 emissions covered by the internal carbon pricing scheme | 12,360 |
+| Scope 2 – location-based | 35,103 |
+| Scope 2 – market-based | 4,638 |
+| Scope 3 – other indirect emissions category | 14,598 |
+| **Total Scope 1, Scope 2 and Scope 3 – location-based** | **"
+Native scores and denominators,"BACE: 71.4%, 28 claims; RAGChecker: 50.0%, 24 claims; RAGAS: 93.1%, 29 claims"
+BACE claim inventory,direct: 10; inferred: 10; non disclosure statement: 6; evidence conflation: 2
+Interpretation boundary,"The score direction is a native-output difference. It does not establish which evaluator is correct. Inspect claim segmentation, visible evidence, source-year boundaries and judgement together."

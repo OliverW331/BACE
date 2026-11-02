@@ -1,3 +1,0 @@
-framework,all_bace_claims,all_external_claims,strict_unique_pairs,period_normalized_unique_pairs,matched_disclosures,matched_companies,bace_claim_coverage_percent,external_claim_coverage_percent,bace_rows_without_any_normalized_key_overlap,bace_rows_excluded_at_ambiguous_overlap,external_rows_without_any_normalized_key_overlap,external_rows_excluded_at_ambiguous_overlap,ambiguous_overlapping_keys
-ragas,94955,76123,5709,5709,1454,30,6.012321626033384,7.499704425732039,89246,0,70414,0,0
-ragchecker,94955,72633,0,1317,653,30,1.3869727765783793,1.8132253934162157,93638,0,71316,0,0

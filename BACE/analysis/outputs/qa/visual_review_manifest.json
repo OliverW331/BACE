@@ -1,0 +1,206 @@
+[
+  {
+    "figure": "00_evidence_scale",
+    "pdf_sha256": "8b394d07d321aa1d47920e2b5d9d596462392972d70aa573830af3f1e5250071",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "00_geography",
+    "pdf_sha256": "93ab316ec31dd5a8a785eff7a0e0409d90e5a53fa7b8b71447e2009cd35ff5f5",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "00_provenance_example",
+    "pdf_sha256": "7d438b1a427857fad86237a07d93bdd1a3080cc35cec961ea340af7d190d8ebd",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "00_screening_gaps",
+    "pdf_sha256": "af09810ce6fc454915081698dc3a785c6a8536c7406dd371abfee70d68c1c52d",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "00_sector_selection",
+    "pdf_sha256": "ef54d3acfba13a8aeade126240c4a508fb34c8041624128b19c3f5512981f760",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "00_selection",
+    "pdf_sha256": "426223d916cfc6dd480531b8fa17103413544eab4e7d436515cbea808026e73b",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "00_source_coverage",
+    "pdf_sha256": "0832fa9bb0ea6c8b4e4c277a20d2d074cd544fedd971db4df7461bf9f0192634",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "00_time_windows",
+    "pdf_sha256": "0b8dd7972fdaf7531b1887807b8ccfdad99b3eff2ebb9706873411321c664118",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "00_visible_evidence",
+    "pdf_sha256": "85075f0e607ed5fbfd0199a9da73542185a5052a640277483b0d46349a834c84",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "01_company_year",
+    "pdf_sha256": "634250181a11f1cf52c580bd464ddb12745d3bc7496377a712f1cc705c605832",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "01_completion",
+    "pdf_sha256": "8c62e8d177b3842fbae84a79190495ef8756e1e86f0a1994f39ed37137a1536d",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "01_secondary_metrics",
+    "pdf_sha256": "f73cfa9c30322690ca7f47a5a5129ce71d9abd95a8b3cb15d6586197e96bf752",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "01_support_distribution",
+    "pdf_sha256": "151be0ad4055045aa45506f57337f8d2c09cd7c464ad37aa9871582eca200fdd",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "01_task_support",
+    "pdf_sha256": "894ad03e20fba00abc79b64fa63489f2b29d50d5fc11c419141475ec9b262c01",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "01_year_support",
+    "pdf_sha256": "d856a1e4b2b2266aadc7baea9e60410e940824e0db23817acf3e685bb9094a5d",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_asml_source_layout",
+    "pdf_sha256": "8765eb7051a39d055c08a98118aa14de421d07d0c39f832af873dd9669816b2c",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_example_contradiction",
+    "pdf_sha256": "d9434f83b5ac1295545e57ebcc971396a0b1d506012672ee1fdddc13527c8a44",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_example_evidence_conflation",
+    "pdf_sha256": "1bcc2d1535d03de8232bc124adacd9e6a7a6ac44e3020f08daaa428d396e0f91",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_example_factual_boundary_distortion",
+    "pdf_sha256": "ad463eb9595350b738fcc0615aea2412e44c7954bf5fea33d6be51daf96b81f8",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_example_inferential_inflation",
+    "pdf_sha256": "0796c30c11c5ba6f015a1051469052bba070c44252bc23e3cf64ca8abafba3bc",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_example_non_disclosure_statement",
+    "pdf_sha256": "2860011f1e6afca95a811c57e8cbf2d5689c83937cddd291bb0f3994a292dbe5",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_example_unsupported_novelty",
+    "pdf_sha256": "f1480cf76ee4158c25cccd0093ccbd63196436c7d18941d5250f26611e247206",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_label_composition",
+    "pdf_sha256": "9d9e13c5fd11d94a633f263dffbf8a6edaedd9c3419f0debaffe310f1d04cf5a",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "02_pipeline_checks",
+    "pdf_sha256": "30438e355da2963bc428559169907f445b029fd3ff6a63b07cb45a54f827797e",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "02_task_patterns",
+    "pdf_sha256": "f0fb0faab481c58fe6e52989a7d3ddf1d194e1758facd8d35b8e98c2fc423583",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "03_alignment_coverage",
+    "pdf_sha256": "443a6712ac72514fa5fb02bff960d03e2d834a25572372f4d7dfedb842c4197f",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "03_case_higher",
+    "pdf_sha256": "f187a660f6df48484759c1518058fe9ec4f91abb514252e8c99327ea1c7b8483",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "03_case_lower",
+    "pdf_sha256": "b8504fd94d8d340a5f48cdc828829b5e632c427baba734a24425137f356933bb",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "03_claim_inventories",
+    "pdf_sha256": "f5b84986bfef19df137fadd27aff5afab0ef8d0bf675bc5a7cb6056782b5276a",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "03_judgement_combined_evidence",
+    "pdf_sha256": "54e498fe746fd5c6cc1aec36cb562de594b77cdfb64b88554754a6da1de54e8b",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "03_judgement_source_coverage",
+    "pdf_sha256": "21196544caf30aa858ad5fb4cca72d2759c546b116db1d515326f0d5003ba08b",
+    "review": "pass",
+    "panels": 1
+  },
+  {
+    "figure": "03_native_comparison",
+    "pdf_sha256": "4627b72079d1fabc69008551aa8fbcfb40c25b4ef3d4b5051faa673210303506",
+    "review": "pass",
+    "panels": 2
+  },
+  {
+    "figure": "03_rank_agreement",
+    "pdf_sha256": "447fad66c6e2bc8fcf38fd9c898491cc9b14733e90f82db893a0cc4875c01344",
+    "review": "pass",
+    "panels": 3
+  },
+  {
+    "figure": "03_task_disagreement",
+    "pdf_sha256": "32b551e2561448ad18e0f3475ac5e899cebb53e4cdba5de987e4a5a628bb8176",
+    "review": "pass",
+    "panels": 1
+  }
+]

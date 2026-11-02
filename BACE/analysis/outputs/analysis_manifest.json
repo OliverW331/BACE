@@ -1,0 +1,188 @@
+{
+  "status": "complete_analysis_of_incomplete_main_run",
+  "planned_cases": 1800,
+  "common_completed_cases": 1798,
+  "notebooks": [
+    {
+      "notebook": "00_data_landscape.ipynb",
+      "code_cells": 8,
+      "saved_figures": 9,
+      "sha256": "fbd37f67238720e3deda1a8f1e14894705420d3834008f6400ce79338e11942d",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        },
+        {
+          "check_id": "LOG-GUARD",
+          "level": "WARN",
+          "message": "Logarithmic operation found without an obvious positivity/pseudocount guard",
+          "evidence": [
+            "set_xscale('log"
+          ]
+        },
+        {
+          "check_id": "ROTATION-ANCHOR",
+          "level": "WARN",
+          "message": "Some rotated text calls lack rotation_mode='anchor' and may cross their intended anchors after rotation",
+          "evidence": [
+            "line 212: rotation=...",
+            "line 274: rotation=..."
+          ]
+        }
+      ]
+    },
+    {
+      "notebook": "01_evidence_support.ipynb",
+      "code_cells": 6,
+      "saved_figures": 6,
+      "sha256": "cd761324f01dbadbacfc7dc937fba1870ea87f8c95cb2c726393c64242a0ee8c",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        }
+      ]
+    },
+    {
+      "notebook": "02_failure_patterns.ipynb",
+      "code_cells": 6,
+      "saved_figures": 10,
+      "sha256": "a73e039f115dfdfc562d7b462f08d1f86660a2f99a0d2d639cb3d47b0d0a1806",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        }
+      ]
+    },
+    {
+      "notebook": "03_evaluator_comparison.ipynb",
+      "code_cells": 8,
+      "saved_figures": 9,
+      "sha256": "e374574eff6d93718a9f804b0c5465ad2d22742a65d575482ad7ffbacc502ff8",
+      "source_warnings": [
+        {
+          "check_id": "EXPORT-RASTER",
+          "level": "WARN",
+          "message": "PNG preview is present but no TIFF submission raster was found",
+          "evidence": []
+        },
+        {
+          "check_id": "FINAL-WIDTH",
+          "level": "WARN",
+          "message": "No static final width detected; verify the target journal's current specification",
+          "evidence": []
+        },
+        {
+          "check_id": "DATA-EXCLUSION",
+          "level": "WARN",
+          "message": "Missing-data exclusion found without explicit before/after count tracking",
+          "evidence": [
+            ".dropna("
+          ]
+        }
+      ]
+    }
+  ],
+  "figures": 34,
+  "panels": 44,
+  "source_files_verified": 18155,
+  "source_index_sha256": "28da4a703ae608d11811bcba5edda5fd63bf8c657cbf77d206e7b86f7e4b2c9a",
+  "native_integrity_report_sha256": "2169e31794ba19cea35550320d4324f1566ad073c0264ee7df17607a89cf08cf",
+  "numeric_repeat_report": {
+    "figure_source_tables_compared": 39,
+    "changed": [],
+    "result": "identical numerical outputs across independent executions"
+  },
+  "per_figure_readings": {
+    "units": 34,
+    "checks_sha256": "e04e577bf043fe54e6318cfc1f2e32cf00a0cb549f45a4297194dc6a775eb954",
+    "editorial_review_sha256": "40d22a090525b1cfdd7dbc791973025800f3cd819a7919b6cb147aa41c428355",
+    "revision_preservation": {
+      "source_csv_files": 39,
+      "pixel_identical_png_files": 34,
+      "changed": [],
+      "status": "pass"
+    }
+  },
+  "python": "3.13.14",
+  "dependency_lock_sha256": "c454950ce95d2ed23a605031e1e83374d6428668bb0d8e094fee1b78e6b22d8c",
+  "analysis_code_sha256": {
+    "analysis_data.py": "8b184f0664dc3a67fa51f01824f1240d20aadf23c14f4ebf984212dd033f9d47",
+    "figure_narrative.py": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc",
+    "figure_style.py": "913b3b9523cbbe549c5cd76f3462bb9a65b38886e32c4da1fdd9637abaf9a2c3",
+    "scripts/build_notebooks.py": "42b48dd30126c4ba1c144293fd530cba002e37129a163f4d3f1f7d07b25afaf0",
+    "scripts/execute_notebooks.py": "a190d10ea939dcb3a7493be21aad968dfcd021f517eb4c62ff876de2f143daad",
+    "scripts/review_previews.py": "e0c3ab2c8ee1af7c0252e1d75aca7c3742622652b86b8859e7aff4ae568c37c3",
+    "scripts/validate_analysis.py": "8d6a8fd97957860e9a6b1c6b1bb769f4b1f997bc6f871e67e1aa4505e03aad99",
+    "scripts/validate_readings.py": "94040a58e815cdd5450c36619867d53605191bd1eea15f8301980515835a53c4",
+    "scripts/verify_integrity.py": "7ff706426a20d619ef1cb73704401adad8c1878a54e3aa8ff45f02bfdf402ba3",
+    "scripts/write_analysis_manifest.py": "2d2d6683fb371b8b49f13b9608df629038a7d7abe796d7e23422fa8c506f7c91",
+    "scripts/write_review_report.py": "039dfa6e919d37ab93a30f53c397691843359d850f8c1b8bfe63695bbe25f512"
+  },
+  "analysis_spec_sha256": "688023810d0d016d77f31aef338662702df99a80841dd36ca04228ca76809130",
+  "review_report_sha256": "140467c85f0ec25ebdaae42e4024b1a5f7d6efe08c7f4fd233ed588f5907977c",
+  "html_source_links_verified": {
+    "00_data_landscape.html": 37,
+    "01_evidence_support.html": 25,
+    "02_failure_patterns.html": 46,
+    "03_evaluator_comparison.html": 41
+  },
+  "seed": 20260921,
+  "git_base_commit": "d77b3bfb3fa1fb6d15b68cbe57f53c4bead29333",
+  "limitations": [
+    "Two BACE cases remain incomplete; no imputed scores.",
+    "Automated labels and native scores are not human accuracy estimates.",
+    "Qualitative readings are source inspections, not blinded adjudication.",
+    "Full raw model-call histories and complete extraction lineage were not re-audited by the analysis reader."
+  ]
+}

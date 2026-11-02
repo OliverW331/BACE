@@ -1,0 +1,7 @@
+label,claims,zero_candidates,no_exact_quote,zero_candidate_percent,no_exact_quote_percent
+non_disclosure_statement,6378,985,9,15.443712762621512,0.14111006585136407
+contradiction,42,0,0,0.0,0.0
+evidence_conflation,12205,0,6,0.0,0.04916018025399427
+factual_boundary_distortion,19130,0,17,0.0,0.08886565603763721
+inferential_inflation,3193,0,1,0.0,0.03131850923896023
+unsupported_novelty,1698,926,0,54.53474676089517,0.0

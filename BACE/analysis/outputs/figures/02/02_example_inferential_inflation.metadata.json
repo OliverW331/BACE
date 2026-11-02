@@ -1,0 +1,19 @@
+{
+  "figure": "02_example_inferential_inflation",
+  "caption": "**Automatic label: Inferential inflation.** 3,192 localisable DCs were eligible for this illustrative draw. The evidence excerpt begins at character 1362 and ends at 2082. [Full case and source references](outputs/examples/02_inferential_inflation.json).",
+  "width_mm": 183.0,
+  "height_mm": 129.2,
+  "png_dpi": 600,
+  "data_files": [
+    "02_example_inferential_inflation__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "0796c30c11c5ba6f015a1051469052bba070c44252bc23e3cf64ca8abafba3bc",
+    "svg": "e64f375264a7479eb8bc6412d23bf1ac9a32b6e5a63e9b02d8de70eaa8591327",
+    "png": "c604627d4c714d062020f246fdba066dd11d199a8a57827f637fab7972f14e69"
+  }
+}

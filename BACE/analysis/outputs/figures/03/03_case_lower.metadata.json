@@ -1,0 +1,19 @@
+{
+  "figure": "03_case_lower",
+  "caption": "**Observed:** BACE minus RAGChecker = -0.804. This is an extreme case selected to explain a disagreement direction; it is not an accuracy example. [Full case](outputs/examples/03_bace_lower_than_ragchecker.json).",
+  "width_mm": 183.0,
+  "height_mm": 122.6,
+  "png_dpi": 600,
+  "data_files": [
+    "03_case_lower__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "b8504fd94d8d340a5f48cdc828829b5e632c427baba734a24425137f356933bb",
+    "svg": "a8c625232f32c7ae708549c2d2a6af08e7d552d9f52f9285ba78ec3963e251ae",
+    "png": "0f4bd2123e3b6e0ecde0fce55d50559e0175cb0903413fd48e982363caf30f0c"
+  }
+}

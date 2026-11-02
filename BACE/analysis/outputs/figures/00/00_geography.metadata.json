@@ -1,0 +1,19 @@
+{
+  "figure": "00_geography",
+  "caption": "**Read the figure:** colour encodes selected company counts; zero means no selected company. All selected register countries lie in the displayed European extent. Natural Earth v5.1.2, public domain; cylindrical longitude/latitude display with aspect adjusted at 53°N. **Boundary:** this is register geography, not operational exposure; boundaries are contextual.",
+  "width_mm": 183.0,
+  "height_mm": 117.00000000000001,
+  "png_dpi": 600,
+  "data_files": [
+    "00_geography__data.csv"
+  ],
+  "audit_exit_codes": {
+    "text": 0,
+    "collision": 0
+  },
+  "exports": {
+    "pdf": "93ab316ec31dd5a8a785eff7a0e0409d90e5a53fa7b8b71447e2009cd35ff5f5",
+    "svg": "69991c88822a3d61eeeb193e961b291854611138cd685b0f38338fd250eedb39",
+    "png": "68e8c4604bec739bebd106e2dbbb511d37ffa6186c3bee7d420908609251d538"
+  }
+}

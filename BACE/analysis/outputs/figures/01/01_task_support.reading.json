@@ -1,0 +1,13 @@
+{
+  "figure": "01_task_support",
+  "question": "Does the broad disclosure distribution reflect differences between the twelve fixed tasks?",
+  "pattern": "S1-5 has the lowest mean (43.9%); G1-1 has the highest (62.5%), a span of 18.6 percentage points. 8 of 12 task means lie between 50% and 60%. Interval widths range from 5.1 to 7.8 percentage points, and many neighbouring task intervals overlap. Colours group E1, S1 and G1 tasks; they do not mark statistical significance.",
+  "meaning": "There is a visible low task and a group of higher tasks, but most means occupy a fairly compact middle band. This suggests examining task-specific evidence and claim types, rather than treating the overall mean as equally applicable to every task.",
+  "limits": "These are descriptive task summaries from the same 30 companies. Overlap or non-overlap of marginal intervals is not a paired, multiplicity-adjusted test of task differences. S1-1 and S1-5 have 149 disclosures; the others have 150. Source availability, generated wording and evaluator behaviour can all contribute to the ordering.",
+  "panels": 1,
+  "caption": "**Read the figure:** points are disclosure-macro means; bars are 95% percentile intervals from 2,000 company-cluster resamples. n in each row counts disclosures; company counts are in source data. **Boundary:** task differences can reflect source relevance, generated content, extraction and judgement together.",
+  "source_sha256": {
+    "data": "aaf7a6c2c044a6e4843a6ff143e3ab63e03787ade069de6ec73af9766d705757"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

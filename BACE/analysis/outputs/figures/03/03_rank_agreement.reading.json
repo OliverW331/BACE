@@ -1,0 +1,14 @@
+{
+  "figure": "03_rank_agreement",
+  "question": "Does the distributional gap also mean that evaluators order the same disclosures differently?",
+  "pattern": "Panel a (BACE versus RAGChecker): ρ=0.289; 1,778 points above the equality line, 19 below and 1 tied; 1.5% differ by at most 0.05. Panel b (BACE versus RAGAS): ρ=0.328; 1,792 points above the equality line, 4 below and 2 tied; 0.9% differ by at most 0.05. Panel c (RAGChecker versus RAGAS): ρ=0.445; 879 points above the equality line, 850 below and 69 tied; 55.4% differ by at most 0.05. In panels a and b the cloud lies overwhelmingly above the diagonal, with wide horizontal spread under high comparator scores. Panel c has points on both sides, with 867/1798 in the upper-right square where both scores are at least 0.90.",
+  "meaning": "All three rank associations are positive, but the dispersion shows that agreement is partial. Panels a and b combine a large level offset with only modest shared ordering; panel c has closer score levels and stronger rank association, yet substantial case-level disagreement remains. The ceiling creates ties and crowded top-edge bands.",
+  "limits": "The diagonal is equality, not a fitted trend, and darkness reflects overplotting as well as density. Each panel retains all common disclosures, which are dependent within companies. Descriptive correlations and shared judge deployment cannot establish an independent accuracy ranking.",
+  "panels": 3,
+  "caption": "**Read the figure:** the dashed line is equal native scores, not a fitted regression. Spearman coefficients are descriptive and include ties. No p-values are reported because disclosures are clustered and the purpose is descriptive. Shared judge deployment limits independence.",
+  "source_sha256": {
+    "scores": "c5a87f0554a8f6dcceb9429e605a6002bd3232a5cb848afb097444be9a181a93",
+    "rank_associations": "e63a4fb18c6f7747dc46d682e051323c94bbe31feea582deeaae34e3a31843c6"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

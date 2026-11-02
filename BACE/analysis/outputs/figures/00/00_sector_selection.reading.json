@@ -1,0 +1,13 @@
+{
+  "figure": "00_sector_selection",
+  "question": "Does the geographical sample also preserve the sector mix, or does stratification change it?",
+  "pattern": "The selected markers cover 11 sectors. Financials (5/30; 16.7%) and Resource Transformation (5/30; 16.7%) are the largest groups. Renewable Resources & Alternative Energy rises from 0.8% of eligible companies to 3.3% of selected companies, but still contains only 1 company. Selected-minus-eligible shifts span -2.5 to +2.5 percentage points.",
+  "meaning": "The minimum allocation of one company per eligible sector raises the relative weight of a small sector and reduces that of larger sectors. Marker separation is therefore an expected consequence of allocation, not evidence that some sectors perform better.",
+  "limits": "Each cohort has its own denominator (600, 250 or 30). A selected share of 3.3% is one company; its many repeated disclosures cannot substitute for multiple independent companies in that sector.",
+  "panels": 1,
+  "caption": "**Read the figure:** points show sector shares within each cohort; marker shape also distinguishes cohorts. All sectors, including missing classification, are retained. **Boundary:** stratification preserves sector coverage, not the original sector proportions; small selected sectors cannot support stable sector-specific inference.",
+  "source_sha256": {
+    "data": "009ec97154824eccaa98e8703f2a0c5c001833eafd4c121f37deb722f668d295"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

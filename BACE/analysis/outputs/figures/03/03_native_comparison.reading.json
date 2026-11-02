@@ -1,0 +1,15 @@
+{
+  "figure": "03_native_comparison",
+  "question": "On the identical completed disclosures, how far apart are native score distributions and paired means?",
+  "pattern": "Panel a rises mainly in the middle of the score axis for BACE and near its upper end for both comparators: BACE: median 55.6%, middle half 45.2%–65.9%, 8/1,798 at or above 0.90 and 0 exactly 1.00; RAGChecker: median 92.3%, middle half 86.5%–96.4%, 1,139/1,798 at or above 0.90 and 155 exactly 1.00; RAGAS: median 92.5%, middle half 86.7%–97.3%, 1,146/1,798 at or above 0.90 and 233 exactly 1.00. The two comparator curves overlap extensively, including their central ranges. Panel b puts both paired mean differences well left of zero: BACE − RAGChecker: -34.9 percentage points (95% company-cluster interval -36.2 to -33.5); BACE − RAGAS: -35.3 percentage points (95% company-cluster interval -36.5 to -34.1).",
+  "meaning": "The broad curve separation and the negative paired differences jointly show that the score gap is not just an artefact of comparing different case cohorts. High-end concentration also gives the comparators less room to distinguish already high-scoring disclosures. Similar comparator distributions do not imply matching judgements on each case.",
+  "limits": "An ECDF higher at a given threshold means more observations at or below that score, not better performance. The denominator is each pipeline’s own claim inventory. A lower native score cannot identify stricter judgement as the sole mechanism or prove greater accuracy. Intervals resample 30 company clusters and do not measure judge randomness.",
+  "panels": 2,
+  "caption": "**Read the figure:** panel a gives each common disclosure equal weight; panel b first subtracts scores within the same disclosure, then bootstraps company clusters. The intervals describe paired native score gaps, not differences in evaluator accuracy.",
+  "source_sha256": {
+    "scores": "c5a87f0554a8f6dcceb9429e605a6002bd3232a5cb848afb097444be9a181a93",
+    "cohort_summary": "b98950bed3bf2dd9485f9469ca432407173018b88800d5216172bc13c4be6fba",
+    "paired_differences": "eb87ac741c2488ec47351aa3c8a4b9f48dcffb147edfc2f7d3b36aed1206037d"
+  },
+  "narrative_code_sha256": "82cde9ddb97cb9e25daeba5e13e5d0b7ef5872ff098ab914e483c3bbe672a4bc"
+}

@@ -1,0 +1,4 @@
+method_a,method_b,spearman_rho,disclosures,companies
+BACE,RAGChecker,0.289484611812947,1798,30
+BACE,RAGAS,0.3278395504251884,1798,30
+RAGChecker,RAGAS,0.44457554376476416,1798,30
