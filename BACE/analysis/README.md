@@ -1,22 +1,27 @@
 # Main-experiment analysis
 
+This directory holds the analysis code for the main run. The article's figures and additional analyses are produced by `figures_v3/` and `revision_2026-11/` (see [below](#article-figures-and-additional-analyses)). The derived-data release is written by `release_v1/export_release.py`.
+
+## Descriptive notebooks
+
 Four independently executable notebooks explain the data landscape, evidence support,
 automated failure patterns and native evaluator differences. All analyses are
 post-experiment, descriptive, and based on the frozen main run. They are not a
 preregistered analysis plan or a human-validated evaluator benchmark.
 
-## Reading order
+### Reading order
 
 1. `00_data_landscape.ipynb`: sources, selection, geography, coverage, and visible evidence.
 2. `01_evidence_support.ipynb`: support distributions and heterogeneity.
 3. `02_failure_patterns.ipynb`: diagnostic composition and traceable examples.
 4. `03_evaluator_comparison.ipynb`: paired native scores, segmentation, and disagreements.
 
-## Reproduction
+### Reproduction
 
-Use the existing independent environment inside this directory; do not recreate
-or install packages into either frozen environment for this analysis. Source files are read only.
-Generated tables, source manifests, figure exports and QA records live in `outputs/`.
+Use a separate analysis environment in this directory (`.venv`, pinned in
+`requirements.lock.txt`); do not install analysis packages into the experiment
+environment. Source files are read only.
+Generated tables and source manifests live in `outputs/`.
 A cached analysis snapshot is reused only after checking its input hashes.
 Missing results remain missing. Comparison uses the common completed cohort.
 
@@ -24,10 +29,8 @@ Missing results remain missing. Comparison uses the common completed cohort.
 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python scripts/execute_notebooks.py 00_data_landscape.ipynb 01_evidence_support.ipynb 02_failure_patterns.ipynb 03_evaluator_comparison.ipynb
 ```
 
-Git includes the existing main-run snapshot, source hashes, HTML reading copies,
-figure exports, source tables, selected case bundles and QA records. Follow-up
-evaluator-gap, evidence-chain and prompt-sensitivity studies are outside this
-repository scope and remain local.
+Git includes the main-run snapshot, source hashes and HTML reading copies.
+Figure exports and case bundles that quote source reports are not included.
 
 The main sampling record is also tracked at `../evidence/sample/sample.json`;
 full evidence payloads are not included.
@@ -38,15 +41,11 @@ checks their hashes before reusing a snapshot; Git does not include all raw
 per-case calls, source datasets or frozen evidence inputs. See
 [repository scope](../../docs/REPOSITORY.md).
 
-Figures use Python/Matplotlib with consistent candy blue, green and orange accents,
-editable vector text, and explicit units and denominators. Nature-inspired design
-does not establish compliance with a particular journal's submission rules.
-
-## Reading exports and checks
+### Reading copies and checks
 
 For notebooks 00–03, code-hidden reading copies are written as `outputs/00_data_landscape.html` through
 `outputs/03_evaluator_comparison.html`. Notebook figures link to their PDF, SVG,
-PNG and source CSV files; case plates also link to complete evidence bundles.
+PNG and source CSV files, which are regenerated locally when the notebooks are executed.
 
 Each figure has its own question, reading caption, data-shape analysis,
 interpretation and limits. The prose is included in the saved notebook outputs
@@ -63,28 +62,42 @@ After changing either source, rebuild and execute to refresh saved content:
 .venv/bin/python scripts/validate_readings.py
 ```
 
-For a complete QA refresh, run `scripts/verify_integrity.py` and
-`scripts/review_previews.py`, inspect any changed figure layouts, then update the
-review records with `scripts/write_review_report.py` and the final inventory with
-`scripts/write_analysis_manifest.py` using the same analysis Python interpreter.
-The layout review recorded for this prose revision is carried forward only when
-the baseline PNG comparison remains exact.
-
-The renderer requires the installed `nature-figure` skill (version 2.8.0 used here).
-Its default location is `~/.codex/skills/nature-figure`; set `NATURE_FIGURE_SKILL`
-when installed elsewhere. The basemap is bundled under `assets/` with its public-
-domain attribution and source hash, so reproduction needs no map download.
-
-```bash
-.venv/bin/python scripts/verify_integrity.py
-.venv/bin/python scripts/validate_analysis.py
-```
+The notebook renderer uses a local figure-style module (`NATURE_FIGURE_SKILL`, default
+`~/.codex/skills/nature-figure`, version 2.8.0) that is not distributed with this
+repository. The saved HTML reading copies show the rendered output. The basemap
+is bundled under `assets/` with its public-domain attribution and source hash.
 
 `ANALYSIS_SPEC.md` defines the analysis and figure contracts.
 The exact analysis dependency versions are pinned in `requirements.lock.txt`.
 
-The examples are diagnostic illustrations, not a substitute for blinded human
-validation. Source inspection found both questionable generated interpretations
-and evaluator/extraction problems; neither is hidden or relabelled in aggregate
-results. The experiment's official summarizer is left unchanged and still requires
-all cases to complete before it can finalize its own main-run outputs.
+The experiment's official summarizer is left unchanged and still requires all
+cases to complete before it can finalize its own main-run outputs.
+
+## Article figures and additional analyses
+
+All scripts read saved outputs only and make no model calls. Run them from the
+repository root with the experiment environment (`BACE/.venv`) and R (4.2.2 used) with
+`ggplot2`, `patchwork`, `ggtext`, `ggdist`, `dplyr`, `readr`, `scales` and
+`forcats`. Fig. 1 is exported to PDF and PNG with Inkscape.
+
+1. `revision_2026-11/run_revision_analyses.py` computes the additional analyses
+   reported in the article (exact-claim agreement with comparators, reporting-year
+   mentions, diagnoses by candidate count, boundary types, claim strata and
+   company-cluster bootstrap intervals). Boundary-type and quantity rules are read
+   from `coding_rules_v1.json`, whose hash is recorded in `coding_rules_v1.sha256`.
+   Results are written to `outputs/revision_2026-11/`.
+2. `figures_v3/prep_fig2.py`, `prep_fig3.py`, `prep_fig4.py` and `prep_ed.py`
+   write the tidy source data of each figure panel to `outputs/figures_v3/*_data/`.
+3. `figures_v3/fig2.R`, `fig3.R`, `fig4.R` and `ed_figs.R` draw Figs 2–4 and
+   Extended Data Figs 1–3. `figures_v3/fig1_svg.py` draws Fig. 1.
+
+```bash
+BACE/.venv/bin/python -B BACE/analysis/revision_2026-11/run_revision_analyses.py
+BACE/.venv/bin/python -B BACE/analysis/figures_v3/prep_fig2.py
+Rscript BACE/analysis/figures_v3/fig2.R
+```
+
+The other figures follow the same two-step pattern. Step 1 and the Fig. 1 and
+Fig. 4 case panels read the per-case outputs under `BACE/results/main_v1/cases/`,
+which are not tracked; the source data of every figure accompany the article.
+`figures_v3/COLOURS.md` documents the colour scheme shared by all figures.
