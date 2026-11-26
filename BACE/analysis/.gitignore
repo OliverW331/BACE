@@ -37,3 +37,6 @@ __pycache__/
 /validation/*.xlsx
 /validation/_private/*
 !/validation/_private/README.md
+
+# Local R package library for the figure scripts.
+/figures_v3/R-lib/

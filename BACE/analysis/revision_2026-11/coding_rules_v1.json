@@ -1,0 +1,59 @@
+{
+  "schema_version": "revision_2026_11_coding_rules_v1",
+  "frozen_at": "2026-11-25",
+  "status": "Frozen before the coding script was first run on the saved outputs. Any change must create v2 and be reported.",
+  "purpose": "Rule-based, multi-label coding of BACE diagnosis rationales (factual boundary distortion and evidence conflation) by boundary type, plus outcome-independent claim strata for importance (quantitative vs narrative).",
+  "text_normalisation": "casefold; Unicode NFKC; whitespace collapsed",
+  "year_pattern": "\\b(19[89]\\d|20[0-3]\\d)\\b",
+  "boundary_types": {
+    "period_strict": {
+      "definition": "Rationale mentions the case's target reporting year AND at least one different four-digit year.",
+      "rule": "target_year in years(rationale) and any(y != target_year for y in years(rationale))"
+    },
+    "period_broad": {
+      "definition": "period_strict, OR rationale mentions any year other than the target year, OR matches the temporal phrase pattern.",
+      "temporal_phrase_pattern": "\\b(earlier|prior|previous|preceding|historical|later|subsequent|current|ongoing|continu\\w*|still|as of|reporting (year|period)|time ?frame|period|timing|date[ds]?)\\b"
+    },
+    "entity": {
+      "definition": "Rationale refers to a different legal entity, organisational level or business unit.",
+      "pattern": "\\b(subsidiar\\w*|parent( company)?|group[- ]level|group[- ]wide|company[- ]wide|organi[sz]ational level|business (unit|area|line|segment)s?|segments?|divisions?|joint ventures?|affiliates?|legal entit\\w*|another (company|entity)|other (companies|entities)|brands?|holding)\\b"
+    },
+    "scope": {
+      "definition": "Rationale refers to geography, sites, population or activity/value-chain coverage.",
+      "pattern": "\\b(geograph\\w*|countr(y|ies)|regions?|regional|sites?|plants?|facilit(y|ies)|locations?|population|workers?|employees?|workforce|contractors?|suppliers?|value chain|supply chain|own operations|operations in|coverage|covered|subset|portion|part of|some of|all (employees|sites|operations|suppliers)|global(ly)?|local(ly)?)\\b"
+    },
+    "metric": {
+      "definition": "Rationale refers to metric definition, unit, measurement basis or quantity.",
+      "pattern": "\\b(metrics?|units?|definitions?|defined|measure(d|ment|s)?|indicators?|methodolog\\w*|baseline|intensity|absolute|scope [123]|percentages?|per ?cent|%|number of|counts?|counted|rates?|ratio|calculat\\w*|tco2e?|co2e?|currency|eur|usd|values?|figures?|quantit\\w*|totals?)\\b"
+    }
+  },
+  "importance_strata": {
+    "Q_text": {
+      "definition": "DC text contains a quantity after removing years, dates and standard/framework codes.",
+      "remove_patterns": [
+        "\\b(19[89]\\d|20[0-3]\\d)(-\\d{2}){0,2}\\b",
+        "\\b[esg]\\d-\\d+\\b",
+        "\\besrs\\s*[a-z0-9-]+\\b",
+        "\\bscope\\s*[123]\\b",
+        "\\bgri\\s*\\d+(-\\d+)?\\b",
+        "\\biso\\s*\\d+(:\\d+)?\\b",
+        "\\bsdgs?\\s*\\d+(\\.\\d+)?\\b",
+        "\\b(ifrs|ias)\\s*s?\\d+\\b",
+        "\\b(article|art\\.|paragraph|para\\.)\\s*\\d+\\w*\\b"
+      ],
+      "quantity_pattern": "(\\d|%|\\bper ?cent\\b|\\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred|thousand|million|billion|half|third|quarter|zero|dozen)\\b)"
+    },
+    "Q_evidence": {
+      "definition": "At least one candidate EC of the DC derives from a structured-metric card (id prefix csv::) or a PDF table-row card (id prefix pdf_table_row::). Candidates are fixed before support assessment, so the stratum does not depend on the support verdict."
+    },
+    "topic": {
+      "definition": "E, S or G from the first character of the ESRS task code."
+    }
+  },
+  "candidate_year_structure": {
+    "definition": "For each DC, the set of source years parsed from the evidence_card_ids of its candidate ECs (four-digit segment of the card id). Categories: includes_target_year; only_earlier_years; no_candidates."
+  },
+  "validation_sample": {
+    "definition": "200 factual-boundary-distortion DCs drawn uniformly at random with numpy.random.default_rng(20261125), exported with rationale, DC text and assigned codes, plus empty columns for an author check. Not adjudicated validation of BACE."
+  }
+}

@@ -1,0 +1,8 @@
+"""Shared colour system for all BACE figures (candy palette); mirrors palette.R (keep in sync)."""
+INK, INK2, MUTED, LINE, PANEL = "#1f1f1e", "#52514e", "#8a8984", "#c9c6c1", "#f7f5f2"
+BACE, BACE_DARK, DIRECT, INFERRED, BACE_TINT = "#60a5fa", "#2563eb", "#60a5fa", "#bfdbfe", "#eef5ff"
+UNSUPPORTED = "#e7e5e4"
+EV, EV_DARK, EV_MID, EV_LIGHT, EV_TINT = "#5fd0e3", "#0e9cb8", "#8fe0ee", "#c6f1f8", "#ebfbfd"
+RAGCHECKER, RAGAS = "#a8a29e", "#d6d3d1"
+FBD, CONFLATION, NDS, INFLATION, NOVELTY, CONTRADICTION = "#ff8a65", "#9f8bfa", "#f7a1cf", "#f9cb3e", "#4fd9a6", "#f25c7a"
+FBD_DARK, CONFLATION_DARK = "#e8603a", "#6d55e0"
