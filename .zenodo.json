@@ -1,0 +1,25 @@
+{
+  "title": "BACE: code and derived data for \"Evidence-grounded reliability of AI-generated sustainability disclosures\"",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {"name": "Wang, Muchen", "affiliation": "Department of Environmental System Sciences, ETH Zurich"},
+    {"name": "Chapman, Melissa", "affiliation": "Department of Environmental System Sciences, ETH Zurich"}
+  ],
+  "description": "<p>Code, frozen configurations, prompts and response schemas for Bidirectional Atomic Claim Evaluation (BACE), together with the derived data of the main experiment: 1,800 AI-generated sustainability disclosures for 30 European companies, five target reporting years and 12 ESRS-style disclosure tasks, their disclosure and evidence claim sets, accepted support sets, unsupported-claim diagnoses, comparator (RAGChecker, RAGAS) claim verdicts and disclosure-level metrics.</p><p>Source code is licensed under the MIT License (LICENSE). Derived data and results are licensed under CC BY 4.0 (DATA_LICENSE.md). The annual and sustainability reports and structured ESG indicators used as source evidence come from the Corporate Sustainability Tracker and are not redistributed.</p>",
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "sustainability reporting",
+    "ESRS",
+    "large language models",
+    "retrieval-augmented generation",
+    "evaluation",
+    "faithfulness",
+    "atomic claims"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://doi.org/10.1038/s41467-026-75160-z", "relation": "references", "resource_type": "publication-article"},
+    {"identifier": "https://github.com/forsterkerstin/corporate-sustainability-tracker", "relation": "references", "resource_type": "software"}
+  ]
+}

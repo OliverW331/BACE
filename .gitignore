@@ -2,22 +2,17 @@
 /*
 !/.gitignore
 !/README.md
+!/LICENSE
+!/DATA_LICENSE.md
+!/.zenodo.json
 !/BACE/
 !/docs/
-!/paper/
 
 /docs/*
 !/docs/REPOSITORY.md
 !/docs/generation_evaluation.md
 !/docs/generation_claim_support_assessment.md
 !/docs/generation_claim_unsupported_diagnosis.md
-
-/paper/*
-!/paper/reports/
-/paper/reports/*
-!/paper/reports/main_experiment_2026-11-02/
-/paper/reports/main_experiment_2026-11-02/review/
-/paper/reports/main_experiment_2026-11-02/*.log
 
 # Keep AI-agent instructions and skills local, including nested copies.
 AGENTS.md

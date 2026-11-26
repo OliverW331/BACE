@@ -13,11 +13,8 @@ Scope narrowed at the author's request on 2 November 2026.
 - The existing main-run snapshot under `BACE/analysis/outputs/snapshot/`, including
   per-case metrics, BACE claims, native comparator claims, source inventories,
   completion records, consumed-source hashes and the table-hash manifest.
-- Existing main-analysis figures 00–03, plotted source tables, selected complete
-  example bundles, HTML reading copies and QA/verification records.
-- The main-only workflow/result report under
-  `paper/reports/main_experiment_2026-11-02/`, with its PDF, editable sources,
-  numerical ledger, result tables, source provenance and figures.
+- HTML reading copies of notebooks 00–03.
+- The public derived-data release under `BACE/analysis/outputs/release_v1/`.
 
 The saved snapshot contains all 1,800 planned cases in its metrics table and
 records 1,798 BACE-complete cases. The saved main execution status remains

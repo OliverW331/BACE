@@ -20,3 +20,7 @@ results/main_v1/*
 
 # Follow-up studies are outside the main-experiment repository scope.
 /experiments/
+
+# Pre-run readiness records stay local.
+/READINESS.md
+/readiness_report.json

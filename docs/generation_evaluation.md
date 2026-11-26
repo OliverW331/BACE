@@ -4,11 +4,6 @@
 
 This document defines **BACE (Bidirectional Atomic Claim Evaluation)**, the canonical generation evaluation framework for the project. BACE evaluates one generated sustainability disclosure at a time by reconstructing the claim-level support relationship between the evidence supplied to the generator and the claims produced in the disclosure.
 
-The full name was corrected on 2 November 2026 following the author-confirmed
-terminology in the [main-report README](../paper/reports/main_experiment_2026-11-02/README.md).
-This documentation correction does not change the frozen protocol, operational
-prompts, configuration, metric definitions or saved results.
-
 The central question is:
 
 > Given the evidence available to the generator, which disclosure claims are fully supported, how are they supported, how much of the supplied evidence is used, and what went wrong when a claim is unsupported?

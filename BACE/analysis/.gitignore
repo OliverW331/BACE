@@ -4,9 +4,8 @@ __pycache__/
 /outputs/*
 !/outputs/snapshot/
 !/outputs/release_v1/
-!/outputs/figures/
-!/outputs/examples/
-!/outputs/qa/
+# Example records quote source reports and full prompts; they stay local.
+/outputs/snapshot/canonical_examples.json
 !/outputs/00_data_landscape.html
 !/outputs/01_evidence_support.html
 !/outputs/02_failure_patterns.html
@@ -18,15 +17,8 @@ __pycache__/
 !/outputs/analysis_manifest.json
 !/outputs/execution_report.json
 !/outputs/integrity_report.json
-!/outputs/numeric_repeat_baseline.json
-!/outputs/numeric_repeat_report.json
 !/outputs/ragas_exact_text_pairs.csv
 !/outputs/ragchecker_exact_text_pairs.csv
-/outputs/figures/*
-!/outputs/figures/00/
-!/outputs/figures/01/
-!/outputs/figures/02/
-!/outputs/figures/03/
 
 # Notebook 04 and its follow-up-study tooling remain local.
 /04_evaluator_gap_diagnostics.ipynb
@@ -37,7 +29,10 @@ __pycache__/
 # Reviewer workbooks and coordinator-only records stay local.
 /validation/*.xlsx
 /validation/_private/*
-!/validation/_private/README.md
 
 # Local R package library for the figure scripts.
 /figures_v3/R-lib/
+
+# Internal figure-review records stay local.
+/QA_REVIEW.md
+/NARRATIVE_REVIEW.md

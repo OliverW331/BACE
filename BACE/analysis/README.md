@@ -80,9 +80,7 @@ domain attribution and source hash, so reproduction needs no map download.
 .venv/bin/python scripts/validate_analysis.py
 ```
 
-`ANALYSIS_SPEC.md` defines the analysis and figure contracts. `QA_REVIEW.md`
-records the final visual/statistical review. Machine-readable acceptance,
-source-validation and numeric-repeat evidence is under `outputs/qa/`.
+`ANALYSIS_SPEC.md` defines the analysis and figure contracts.
 The exact analysis dependency versions are pinned in `requirements.lock.txt`.
 
 The examples are diagnostic illustrations, not a substitute for blinded human

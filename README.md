@@ -17,13 +17,12 @@ not part of the tracked repository. Their existing local files are preserved.
 | `BACE/evidence/sample/` | Original main sampling record, without evidence payloads | [Sample record](BACE/evidence/sample/sample.json) |
 | `BACE/results/main_v1/` | Saved planned-case manifest and execution-status record | [Execution status](BACE/results/main_v1/execution_status.json) |
 | `BACE/analysis/` | Main notebooks 00–03, analysis helpers and validation exporters | [Analysis README](BACE/analysis/README.md) |
-| `BACE/analysis/outputs/` | Saved source tables, provenance, HTML reading copies, figures and selected examples | [Snapshot manifest](BACE/analysis/outputs/snapshot/manifest.json) |
-| `paper/reports/main_experiment_2026-11-02/` | Main-experiment workflow/result report, numerical ledger and rendering sources | [Report README](paper/reports/main_experiment_2026-11-02/README.md) |
+| `BACE/analysis/outputs/` | Saved source tables, provenance and HTML reading copies | [Snapshot manifest](BACE/analysis/outputs/snapshot/manifest.json) |
+| `BACE/analysis/outputs/release_v1/` | Public derived-data release: generated disclosures, claim sets, support sets and diagnoses | [Release README](BACE/analysis/outputs/release_v1/README.md) |
 | `docs/` | Framework definitions and repository scope | [Method definition](docs/generation_evaluation.md) |
 
 ## Read the main results
 
-- [Main-experiment report](paper/reports/main_experiment_2026-11-02/BACE_main_experiment_report.pdf).
 - [Data landscape](BACE/analysis/outputs/00_data_landscape.html).
 - [Evidence support](BACE/analysis/outputs/01_evidence_support.html).
 - [Failure patterns](BACE/analysis/outputs/02_failure_patterns.html).
@@ -68,3 +67,7 @@ before staging files or preparing a shareable copy.
 Use the experiment and analysis READMEs for environment prerequisites and commands.
 Repository maintenance must not start new experiments or install dependencies
 into either frozen BACE environment.
+
+## Licence
+
+Source code is licensed under the MIT License ([LICENSE](LICENSE)). Derived data and results are licensed under CC BY 4.0 ([DATA_LICENSE.md](DATA_LICENSE.md)). Third-party source data from the Corporate Sustainability Tracker are not redistributed and remain under their original terms.
